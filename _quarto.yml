@@ -1,0 +1,27 @@
+project:
+  type: website
+  title: "GATE-DA"
+
+website:
+  page-footer: "Copyright 2024 @ IIT Madras"
+  page-navigation: true
+  sidebar:
+    collapse-level: 1
+    border: true
+    foreground: "primary"
+    contents: auto
+
+format:
+  html:
+    theme: 
+      light: [cosmo]
+    fontsize: 20px
+    toc: true
+    grid:
+      sidebar-width: 200px
+      margin-width: 300px
+      body-width: 800px  
+    code-line-numbers: true
+    highlight-style: github
+    code-block-border-left: "#D3D3D3"
+    code-overflow: scroll
