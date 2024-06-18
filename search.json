@@ -1,0 +1,200 @@
+[
+  {
+    "objectID": "linear_algebra/bank/question-001.html",
+    "href": "linear_algebra/bank/question-001.html",
+    "title": "Question-1",
+    "section": "",
+    "text": "Is the following statement true or false?\n\nThe row echelon form is defined only for square matrices.\n\n\nTrue\nFalse\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nTrue\nFalse\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe row echelon form is defined for matrices of any shape.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-1"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-003.html",
+    "href": "linear_algebra/bank/question-003.html",
+    "title": "Question-3",
+    "section": "",
+    "text": "Select all correct options concerning a system of linear equations given by \\(Ax = b\\), where \\(A\\) is a \\(m \\times n\\) matrix, \\(x \\in \\mathbb{R}^{n}\\) and \\(b \\in \\mathbb{R}^{m}\\).\n\nThe solution to this system is given by \\(A^{-1} b\\).\nThe system has a solution if and only if \\(b\\) is one of the columns of \\(A\\).\nThe system has a solution if and only if \\(b\\) is in the column-space of \\(A\\).\nIf this system is consistent, it can have either a unique solution or infinitely many solutions.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThe solution to this system is given by \\(A^{-1} b\\).\nThe system has a solution if and only if \\(b\\) is one of the columns of \\(A\\).\nThe system has a solution if and only if \\(b\\) is in the column-space of \\(A\\).\nIf this system is consistent, it can have either a unique solution or infinitely many solutions.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\nThe system is consistent if \\(b\\) can be expressed as a linear combination of the columns of \\(A\\).\nA consistent system that has at least two solutions cannot have finitely many solutions. To see why this is true, let \\(x_1\\) and \\(x_2\\) be two solutions to \\(Ax = b\\) with \\(x_1 \\neq x_2\\). Then \\((a + 1)x_1 - ax_2\\) is also a solution for \\(a \\in \\mathbb{N}\\). Using this, one can generate infinitely many solutions.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-3"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-002.html",
+    "href": "linear_algebra/bank/question-002.html",
+    "title": "Question-2",
+    "section": "",
+    "text": "What is the maximum rank that a \\(4 \\times 8\\)​ matrix can have?\n\n\n\n\n\n\nHint\n\n\n\n\n\nThe rank is the dimension of the row space. It is also equal to the dimension of the column space.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(4\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe row rank is equal to the column rank for any matrix. The row rank is the dimension of the row space. This can be at most \\(n\\). The column rank is the dimension of the column space. This can be at most \\(m\\). Therefore, the rank of a \\(m \\times n\\) matrix is at most \\(\\min(m, n)\\)​.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-2"
+    ]
+  },
+  {
+    "objectID": "templates/code_support.html",
+    "href": "templates/code_support.html",
+    "title": "Code Support",
+    "section": "",
+    "text": "This is a snippet of Python code:\ndef printer(n):\n    for x in range(n):\n        print(x)\nTo refer to inline elements, use x.",
+    "crumbs": [
+      "Templates",
+      "Code Support"
+    ]
+  },
+  {
+    "objectID": "templates/mcq.html",
+    "href": "templates/mcq.html",
+    "title": "MCQ and MSQ",
+    "section": "",
+    "text": "Enter your question here.\n\nOption-1\nOption-2\nOption-3\nOption-4\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nSuggest one or two steps that could lead to the solution.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\nToggle the appropriate answers.\n\nOption-1\nOption-2\nOption-3\nOption-4\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nEnter the solution here.",
+    "crumbs": [
+      "Templates",
+      "MCQ and MSQ"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "GATE-DA",
+    "section": "",
+    "text": "Welcome! You can use the sidebar to navigate through this website."
+  },
+  {
+    "objectID": "templates/NAT.html",
+    "href": "templates/NAT.html",
+    "title": "NAT",
+    "section": "",
+    "text": "Enter your question here.\n\n\n\n\n\n\nHint\n\n\n\n\n\nSuggest one or two steps that could lead to the solution.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\nEnter the correct number here.\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nEnter the solution here.",
+    "crumbs": [
+      "Templates",
+      "NAT"
+    ]
+  },
+  {
+    "objectID": "templates/math_support.html",
+    "href": "templates/math_support.html",
+    "title": "Math Support",
+    "section": "",
+    "text": "Inline math includes math symbols that occur in the middle of a sentence. For example, \\(\\pi\\) and \\(e\\) are special math constants. Display math is used to display more prominent items such as equations: \\[\nx^2 + y^2 = z^2\n\\] The following are some of the commonly used symbols and environments in \\(\\LaTeX\\) which can also be rendered in markdown.",
+    "crumbs": [
+      "Templates",
+      "Math Support"
+    ]
+  },
+  {
+    "objectID": "templates/math_support.html#inline-vs-display",
+    "href": "templates/math_support.html#inline-vs-display",
+    "title": "Math Support",
+    "section": "",
+    "text": "Inline math includes math symbols that occur in the middle of a sentence. For example, \\(\\pi\\) and \\(e\\) are special math constants. Display math is used to display more prominent items such as equations: \\[\nx^2 + y^2 = z^2\n\\] The following are some of the commonly used symbols and environments in \\(\\LaTeX\\) which can also be rendered in markdown.",
+    "crumbs": [
+      "Templates",
+      "Math Support"
+    ]
+  },
+  {
+    "objectID": "templates/math_support.html#sets",
+    "href": "templates/math_support.html#sets",
+    "title": "Math Support",
+    "section": "Sets",
+    "text": "Sets\n\\[\nA \\cap B = \\left\\{x: x \\in A \\text{ and } x \\in B \\right\\}\n\\]\n\\[\nA \\cup B = \\left\\{x: x \\in A \\text{ or } x \\in B \\right\\}\n\\]\n\\[\nA \\subset B \\implies B \\supset A\n\\]\n\\[\n\\left\\{ \\cfrac{1}{2}, \\cfrac{3}{4}, \\cfrac{5}{6} \\right\\}\n\\]",
+    "crumbs": [
+      "Templates",
+      "Math Support"
+    ]
+  },
+  {
+    "objectID": "templates/math_support.html#vectors-matrices-and-determinants",
+    "href": "templates/math_support.html#vectors-matrices-and-determinants",
+    "title": "Math Support",
+    "section": "Vectors, Matrices and Determinants",
+    "text": "Vectors, Matrices and Determinants\n\\[\nv = \\begin{pmatrix}\n1\\\\\n2\\\\\n3\n\\end{pmatrix}\n\\]\n\\[\nA = \\begin{bmatrix}\n1 & 2 & 3\\\\\n4 & 5 & 6\\\\\n7 & 8 & 9\n\\end{bmatrix}\n\\]\n\\[\n|A| = \\begin{vmatrix}\n1 & 2\\\\\n3 & 4\n\\end{vmatrix}\n\\]",
+    "crumbs": [
+      "Templates",
+      "Math Support"
+    ]
+  },
+  {
+    "objectID": "templates/math_support.html#aligned",
+    "href": "templates/math_support.html#aligned",
+    "title": "Math Support",
+    "section": "Aligned",
+    "text": "Aligned\n\\[\n\\begin{aligned}\nx^2 - 5x + 6 &= 0\\\\\n(x - 2)(x - 3) &= 0\\\\\n\\implies x &= 2, 3\n\\end{aligned}\n\\]",
+    "crumbs": [
+      "Templates",
+      "Math Support"
+    ]
+  },
+  {
+    "objectID": "templates/math_support.html#cases",
+    "href": "templates/math_support.html#cases",
+    "title": "Math Support",
+    "section": "Cases",
+    "text": "Cases\n\\[\nf(x) = \\begin{cases}\nx^2 - 1, & x &lt; 0\\\\\nx^2 + 1, &x \\geqslant 0\n\\end{cases}\n\\]",
+    "crumbs": [
+      "Templates",
+      "Math Support"
+    ]
+  },
+  {
+    "objectID": "templates/math_support.html#summation-product-limits-integrals",
+    "href": "templates/math_support.html#summation-product-limits-integrals",
+    "title": "Math Support",
+    "section": "Summation, Product, Limits, Integrals",
+    "text": "Summation, Product, Limits, Integrals\n\\[\n\\sum \\limits_{i = 1}^{n} i = \\cfrac{n(n + 1)}{2}\n\\]\n\\[\n\\prod \\limits_{i = 1}^{n} i = n!\n\\]\n\\[\n\\lim \\limits_{n \\rightarrow \\infty} \\cfrac{1}{n} = 0\n\\]\n\\[\n\\int \\limits_{0}^{1} x\\ dx = \\cfrac{1}{2}\n\\]",
+    "crumbs": [
+      "Templates",
+      "Math Support"
+    ]
+  },
+  {
+    "objectID": "templates/math_support.html#misc-symbols",
+    "href": "templates/math_support.html#misc-symbols",
+    "title": "Math Support",
+    "section": "Misc symbols",
+    "text": "Misc symbols\n\n\\(m \\choose n\\)\n\\(x \\times y\\)\n\\(1, 2, 3, \\cdots\\)\n\\(\\cfrac{df}{dx}\\)\n\\(\\cfrac{\\partial f}{\\partial x}\\)\n\\(\\nabla f\\)\n\\(\\alpha, \\beta, \\gamma, \\theta\\)\n\\(\\mathbf{x}, \\mathbf{y}, \\mathbf{X}, \\mathbf{Y}, \\boldsymbol{\\alpha}, \\boldsymbol{\\theta}\\)\n\\(\\mathbb{N}, \\mathbb{Z}, \\mathbb{Q}, \\mathbb{R}, \\mathbb{C}\\)\n\\(\\mathcal{X}, \\mathcal{Y}\\)",
+    "crumbs": [
+      "Templates",
+      "Math Support"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/index.html",
+    "href": "linear_algebra/index.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "The folder named Bank contains an assorted collection of questions in linear algebra. All questions have answers, some may have hints and solutions.",
+    "crumbs": [
+      "Linear Algebra"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-005.html",
+    "href": "linear_algebra/bank/question-005.html",
+    "title": "Question-5",
+    "section": "",
+    "text": "\\(Q\\) is an orthogonal matrix of size \\(2 \\times 2\\). If \\(||Qu|| = 4\\), what is \\(||u||\\)?\n\n\n\n\n\n\nHint\n\n\n\n\n\nExpand \\(||Qu||^2\\) and use the key property of orthogonal matrices.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(4\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nOrthogonal matrices preserve the inner product: \\[\n\\begin{aligned}\n||Qu||^2 &= (Qu)^T(Qu)\\\\\n&= u^TQ^TQu\\\\\n&= u^TIu\\\\\n&= u^Tu\\\\\n&= ||u||^2\n\\end{aligned}\n\\]",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-5"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-004.html",
+    "href": "linear_algebra/bank/question-004.html",
+    "title": "Question-4",
+    "section": "",
+    "text": "\\(S\\) is a linearly independent subset of \\(\\mathbb{R}^{4}\\), select all true statements concerning \\(S\\).\n\n\\(|S| \\leqslant 4\\)\nAny subset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\nAny superset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\n\\(S\\) is a basis for \\(\\mathbb{R}^{4}\\).\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(|S| \\leqslant 4\\)\nAny subset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\nAny superset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\n\\(S\\) is a basis for \\(\\mathbb{R}^{4}\\).\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(S\\) will be a basis for \\(\\mathbb{R}^{4}\\) if and only if \\(|S| = 4\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-4"
+    ]
+  }
+]
