@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://iitmbsc-student-projects.github.io/gate-da/prob_stats/bank/question-001.html</loc>
+    <lastmod>2024-06-23T07:00:20.437Z</lastmod>
+  </url>
+  <url>
     <loc>https://iitmbsc-student-projects.github.io/gate-da/linear_algebra/bank/question-001.html</loc>
     <lastmod>2024-06-18T15:31:13.767Z</lastmod>
   </url>
@@ -13,6 +17,14 @@
     <lastmod>2024-06-18T15:31:13.767Z</lastmod>
   </url>
   <url>
+    <loc>https://iitmbsc-student-projects.github.io/gate-da/ai/bank/question-001.html</loc>
+    <lastmod>2024-06-23T08:07:12.296Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iitmbsc-student-projects.github.io/gate-da/dbms/bank/question-001.html</loc>
+    <lastmod>2024-06-23T06:43:12.592Z</lastmod>
+  </url>
+  <url>
     <loc>https://iitmbsc-student-projects.github.io/gate-da/templates/code_support.html</loc>
     <lastmod>2024-06-18T15:31:13.767Z</lastmod>
   </url>
@@ -21,8 +33,36 @@
     <lastmod>2024-06-18T15:31:13.767Z</lastmod>
   </url>
   <url>
+    <loc>https://iitmbsc-student-projects.github.io/gate-da/templates/index.html</loc>
+    <lastmod>2024-06-23T08:09:05.607Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iitmbsc-student-projects.github.io/gate-da/machine_learning/index.html</loc>
+    <lastmod>2024-06-23T07:06:35.194Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iitmbsc-student-projects.github.io/gate-da/pdsa/bank/question-001.html</loc>
+    <lastmod>2024-06-22T13:27:05.630Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iitmbsc-student-projects.github.io/gate-da/calculus/bank/question-001.html</loc>
+    <lastmod>2024-06-22T08:16:17.946Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iitmbsc-student-projects.github.io/gate-da/calculus/index.html</loc>
+    <lastmod>2024-06-23T06:46:48.760Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iitmbsc-student-projects.github.io/gate-da/pdsa/index.html</loc>
+    <lastmod>2024-06-23T07:07:52.506Z</lastmod>
+  </url>
+  <url>
     <loc>https://iitmbsc-student-projects.github.io/gate-da/index.html</loc>
-    <lastmod>2024-06-18T15:31:13.766Z</lastmod>
+    <lastmod>2024-06-23T07:18:53.349Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iitmbsc-student-projects.github.io/gate-da/machine_learning/bank/question-001.html</loc>
+    <lastmod>2024-06-22T13:15:41.644Z</lastmod>
   </url>
   <url>
     <loc>https://iitmbsc-student-projects.github.io/gate-da/templates/NAT.html</loc>
@@ -33,8 +73,16 @@
     <lastmod>2024-06-18T15:31:13.767Z</lastmod>
   </url>
   <url>
+    <loc>https://iitmbsc-student-projects.github.io/gate-da/dbms/index.html</loc>
+    <lastmod>2024-06-23T07:08:00.455Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iitmbsc-student-projects.github.io/gate-da/ai/index.html</loc>
+    <lastmod>2024-06-23T08:07:41.071Z</lastmod>
+  </url>
+  <url>
     <loc>https://iitmbsc-student-projects.github.io/gate-da/linear_algebra/index.html</loc>
-    <lastmod>2024-06-18T15:31:13.767Z</lastmod>
+    <lastmod>2024-06-23T06:49:02.281Z</lastmod>
   </url>
   <url>
     <loc>https://iitmbsc-student-projects.github.io/gate-da/linear_algebra/bank/question-005.html</loc>
@@ -43,5 +91,9 @@
   <url>
     <loc>https://iitmbsc-student-projects.github.io/gate-da/linear_algebra/bank/question-004.html</loc>
     <lastmod>2024-06-18T15:31:13.767Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iitmbsc-student-projects.github.io/gate-da/prob_stats/index.html</loc>
+    <lastmod>2024-06-23T06:59:32.830Z</lastmod>
   </url>
 </urlset>

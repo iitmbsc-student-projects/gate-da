@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../linear_algebra/bank/question-002.html" rel="next">
-<link href="../../linear_algebra/index.html" rel="prev">
+<link href="../../ai/index.html" rel="next">
+<link href="../../machine_learning/index.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -81,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../linear_algebra/index.html">Linear Algebra</a></li><li class="breadcrumb-item"><a href="../../linear_algebra/bank/question-001.html">Bank</a></li><li class="breadcrumb-item"><a href="../../linear_algebra/bank/question-001.html">Question-1</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../machine_learning/index.html">Machine Learning</a></li><li class="breadcrumb-item"><a href="../../machine_learning/bank/question-001.html">Bank</a></li><li class="breadcrumb-item"><a href="../../machine_learning/bank/question-001.html">Question-1</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -138,23 +167,23 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../linear_algebra/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Linear Algebra</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
  <span class="menu-text">Bank</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../linear_algebra/bank/question-001.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../linear_algebra/bank/question-001.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Question-1</span></a>
   </div>
 </li>
@@ -218,23 +247,23 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../machine_learning/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Machine Learning</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="true">
  <span class="menu-text">Bank</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../machine_learning/bank/question-001.html" class="sidebar-item-text sidebar-link">
+  <a href="../../machine_learning/bank/question-001.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Question-1</span></a>
   </div>
 </li>
@@ -372,11 +401,11 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../linear_algebra/index.html">Linear Algebra</a></li><li class="breadcrumb-item"><a href="../../linear_algebra/bank/question-001.html">Bank</a></li><li class="breadcrumb-item"><a href="../../linear_algebra/bank/question-001.html">Question-1</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../machine_learning/index.html">Machine Learning</a></li><li class="breadcrumb-item"><a href="../../machine_learning/bank/question-001.html">Bank</a></li><li class="breadcrumb-item"><a href="../../machine_learning/bank/question-001.html">Question-1</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Question-1</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">row echelon form</div>
+    <div class="quarto-category">classification</div>
   </div>
   </div>
 
@@ -394,13 +423,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Is the following statement true or false?</p>
-<blockquote class="blockquote">
-<p>The row echelon form is defined only for square matrices.</p>
-</blockquote>
+<p><span class="math inline">\(\mathbf{w} = \begin{bmatrix}1 \\ 2 \\ 3\end{bmatrix}\)</span> is the weight vector of a linear classifier for a binary classification problem whose labels lie in the set <span class="math inline">\(\{0, 1\}\)</span>. If the bias of the classifier is set to <span class="math inline">\(0\)</span>, which of the following is the equation of the decision boundary for this classifier?</p>
 <ul class="task-list">
-<li><label><input type="checkbox">True</label></li>
-<li><label><input type="checkbox">False</label></li>
+<li><label><input type="checkbox"><span class="math inline">\(x_1 + 2x_2 + 3x_3 = 1\)</span></label></li>
+<li><label><input type="checkbox"><span class="math inline">\(x_1 + 2x_2 + 3x_3 = -1\)</span></label></li>
+<li><label><input type="checkbox"><span class="math inline">\(x_1 + 2x_2 + 3x_3 = 0\)</span></label></li>
+<li><label><input type="checkbox"><span class="math inline">\(x_1 - 2x_3 + 3x_3 = 0\)</span></label></li>
 </ul>
 <div class="callout callout-style-default callout-note callout-titled" title="Answer">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
@@ -415,8 +443,10 @@ Answer
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul class="task-list">
-<li><label><input type="checkbox">True</label></li>
-<li><label><input type="checkbox" checked="">False</label></li>
+<li><label><input type="checkbox"><span class="math inline">\(x_1 + 2x_2 + 3x_3 = 1\)</span></label></li>
+<li><label><input type="checkbox"><span class="math inline">\(x_1 + 2x_2 + 3x_3 = -1\)</span></label></li>
+<li><label><input type="checkbox" checked=""><span class="math inline">\(x_1 + 2x_2 + 3x_3 = 0\)</span></label></li>
+<li><label><input type="checkbox"><span class="math inline">\(x_1 - 2x_3 + 3x_3 = 0\)</span></label></li>
 </ul>
 </div>
 </div>
@@ -433,7 +463,7 @@ Solution
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>The row echelon form is defined for matrices of any shape.</p>
+<p>The decision boundary for a linear classifier is given by <span class="math inline">\(\mathbf{w}^{T} \mathbf{x} + b = 0\)</span>. Since <span class="math inline">\(b = 0\)</span>, this just becomes <span class="math inline">\(\mathbf{w}^{T} \mathbf{x} = 0\)</span> which results in <span class="math inline">\(x_1 + 2x_2 + 3x_3 = 0\)</span>.</p>
 </div>
 </div>
 </div>
@@ -852,13 +882,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../linear_algebra/index.html" class="pagination-link" aria-label="Linear Algebra">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Linear Algebra</span>
+      <a href="../../machine_learning/index.html" class="pagination-link" aria-label="Machine Learning">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Machine Learning</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../linear_algebra/bank/question-002.html" class="pagination-link" aria-label="Question-2">
-        <span class="nav-page-text">Question-2</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../ai/index.html" class="pagination-link" aria-label="Artificial Intelligence">
+        <span class="nav-page-text">Artificial Intelligence</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
