@@ -17,10 +17,6 @@ format:
       light: [cosmo]
     fontsize: 20px
     toc: true
-    grid:
-      sidebar-width: 200px
-      margin-width: 300px
-      body-width: 800px  
     code-line-numbers: true
     highlight-style: github
     code-block-border-left: "#D3D3D3"
