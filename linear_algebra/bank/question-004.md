@@ -5,7 +5,7 @@ order: 4
 categories: [linear independence, basis]
 ---
 
-$S$ is a linearly independent subset of $\mathbb{R}^{4}$, select all true statements concerning $S$.
+$S$ is a linearly independent subset of $\mathbb{R}^{4}$. Select all true statements concerning $S$.
 
 - [ ] $|S| \leqslant 4$ 
 

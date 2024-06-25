@@ -5,7 +5,7 @@ order: 5
 categories: [orthogonal matrix]
 ---
 
-$Q$ is an orthogonal matrix of size $2 \times 2$. If $||Qu|| = 4$, what is $||u||$?
+$Q$ is an orthogonal matrix. If $||Qu|| = 4$, what is $||u||$?
 
 ::: {.callout-note title="Hint" collapse=true}
 
