@@ -36,155 +36,91 @@
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-002.html",
-    "href": "linear_algebra/bank/question-002.html",
-    "title": "Question-2",
+    "objectID": "linear_algebra/bank/question-006.html",
+    "href": "linear_algebra/bank/question-006.html",
+    "title": "Question-6",
     "section": "",
-    "text": "What is the maximum rank that a \\(4 \\times 8\\)​ matrix can have?\n\n\n\n\n\n\nHint\n\n\n\n\n\nThe rank is the dimension of the row space. It is also equal to the dimension of the column space.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(4\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe row rank is equal to the column rank for any matrix. The row rank is the dimension of the row space. This can be at most \\(n\\). The column rank is the dimension of the column space. This can be at most \\(m\\). Therefore, the rank of a \\(m \\times n\\) matrix is at most \\(\\min(m, n)\\)​.",
+    "text": "Consider the matrix \\(\\mathbf{M} = \\begin{bmatrix}2 & -1\\\\3 & 1\\end{bmatrix}\\). Which one of the following statements is true?\n\nThe eigenvalues of \\(\\mathbf{M}\\) are non-negative and real.\nThe eigenvalues of \\(\\mathbf{M}\\) are complex conjugate pairs.\nOne eigenvalue of \\(\\mathbf{M}\\) is positive and real, and another eigenvalue of \\(\\mathbf{M}\\) is zero.\nOne eigenvalue of \\(\\mathbf{M}\\) is non-negative and real, and another eigenvalue of \\(\\mathbf{M}\\) is negative and real\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThe eigenvalues of \\(\\mathbf{M}\\) are non-negative and real.\nThe eigenvalues of \\(\\mathbf{M}\\) are complex conjugate pairs.\nOne eigenvalue of \\(\\mathbf{M}\\) is positive and real, and another eigenvalue of \\(\\mathbf{M}\\) is zero.\nOne eigenvalue of \\(\\mathbf{M}\\) is non-negative and real, and another eigenvalue of \\(\\mathbf{M}\\) is negative and real\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe can compute the eigenvalues with the help of the characteristic polynomial: \\[\n\\begin{aligned}\n\\begin{vmatrix}\n2 - \\lambda & -1\\\\\n3 & 1 - \\lambda\n\\end{vmatrix} &= 0\\\\\\\\\n(2 - \\lambda)(1 - \\lambda) + 3 &= 0\\\\\\\\\n\\lambda^2 -3 \\lambda + 5 &= 0\\\\\\\\\n\\end{aligned}\n\\] We see that the discriminant of the quadratic equation is negative. Hence, the eigenvalues are complex conjugate pairs.",
     "crumbs": [
       "Linear Algebra",
       "Bank",
-      "Question-2"
+      "Question-6"
     ]
   },
   {
-    "objectID": "ai/bank/question-001.html",
-    "href": "ai/bank/question-001.html",
-    "title": "Question-1",
+    "objectID": "linear_algebra/index.html",
+    "href": "linear_algebra/index.html",
+    "title": "Linear Algebra",
     "section": "",
-    "text": "Let \\(x\\) and \\(y\\) be two propositions. Which of the following statements are tautologies?\n\n\\((\\neg x \\land y) \\implies (y \\implies x)\\)\n\\((x \\land \\neg y) \\implies (\\neg x \\implies y)\\)\n\\((\\neg x \\land y) \\implies (\\neg x \\implies y)\\)\n\\((x \\land \\neg y) \\implies (y \\implies x)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\((\\neg x \\land y) \\implies (y \\implies x)\\)\n\\((x \\land \\neg y) \\implies (\\neg x \\implies y)\\)\n\\((\\neg x \\land y) \\implies (\\neg x \\implies y)\\)\n\\((x \\land \\neg y) \\implies (y \\implies x)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet us view each of these options as \\(P \\implies Q\\). For this to be a tautology, \\(Q\\) should be true whenenever \\(P\\) is true. So we need to look for those values of \\(x, y\\) for which \\(P\\) is true.\n\n\\((\\neg x \\land y) \\implies (y \\implies x)\\)\n\n\\(P\\) is true when \\(x\\) is false and \\(y\\) is true.\n\\(Q\\) would be false.\nThus \\(P \\implies Q\\) is false.\nIt follows that \\(P \\implies Q\\) is not a tautology.\n\n\\((x \\land \\neg y) \\implies (\\neg x \\implies y)\\)\n\n\\(P\\) is true when \\(x\\) is true and \\(y\\) is false.\n\\(Q\\) would be true.\nThus \\(P \\implies Q\\) is true.\nIt follows that \\(P \\implies Q\\) is a tautology.\n\nA similar argument holds for the remaining options.",
+    "text": "The folder named Bank contains an assorted collection of questions in linear algebra. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nVector spaces\nSubspaces\nLinear dependence and independence\nMatrices\nDeterminant\nRank\nNullity\nProjection matrix\nOrthogonal matrix\nIdempotent matrix\nPartition matrix\nQuadratic forms\nSystems of linear equations\nGaussian elimination\nEigenvalues and eigenvectors\nProjections\nLU decomposition\nSingular value decomposition",
     "crumbs": [
-      "Artificial Intelligence",
-      "Bank",
-      "Question-1"
+      "Linear Algebra"
     ]
   },
   {
-    "objectID": "dbms/bank/question-001.html",
-    "href": "dbms/bank/question-001.html",
-    "title": "Question-1",
+    "objectID": "ai/index.html",
+    "href": "ai/index.html",
+    "title": "Artificial Intelligence",
     "section": "",
-    "text": "Consider two relations \\(\\mathbf{s}(A, B, C)\\) and \\(\\mathbf{r}(P, Q, C)\\) such that relation \\(\\mathbf{s}\\) has \\(30\\) rows and relation \\(\\mathbf{r}\\) has \\(12\\) rows. What is the maximum number of rows that are possible in \\(\\mathbf{r} \\bowtie \\mathbf{s}\\)?\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(360\\)",
+    "text": "The folder named Bank contains an assorted collection of questions in artificial intelligence. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nSearch\n\nInformed\nUninformed\nAdversarial\n\nLogic\n\nPropositional\nPredicate\n\nReasoning under uncertainty\n\nConditional independence representation,\nExact inference through variable elimination\nApproximate inference through sampling",
     "crumbs": [
-      "DBMS",
-      "Bank",
-      "Question-1"
+      "Artificial Intelligence"
     ]
   },
   {
-    "objectID": "templates/code_support.html",
-    "href": "templates/code_support.html",
-    "title": "Code Support",
+    "objectID": "dbms/index.html",
+    "href": "dbms/index.html",
+    "title": "DBMS",
     "section": "",
-    "text": "This is a snippet of Python code:\ndef printer(n):\n    for x in range(n):\n        print(x)\nTo refer to inline elements, use x.",
+    "text": "The folder named Bank contains an assorted collection of questions in DBMS. All questions have answers, some may have hints and solutions.",
     "crumbs": [
-      "Templates",
-      "Code Support"
+      "DBMS"
     ]
   },
   {
-    "objectID": "templates/mcq.html",
-    "href": "templates/mcq.html",
-    "title": "MCQ and MSQ",
+    "objectID": "papers/GATE-2024/question-61.html",
+    "href": "papers/GATE-2024/question-61.html",
+    "title": "Question-61",
     "section": "",
-    "text": "Enter your question here.\n\nOption-1\nOption-2\nOption-3\nOption-4\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nSuggest one or two steps that could lead to the solution.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\nToggle the appropriate answers.\n\nOption-1\nOption-2\nOption-3\nOption-4\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nEnter the solution here.",
+    "text": "Let \\(\\mathbf{u} = \\begin{bmatrix}1\\\\2\\\\3\\\\4\\\\5\\end{bmatrix}\\) and let \\(\\sigma_1, \\sigma_2, \\sigma_3, \\sigma_4, \\sigma_5\\) be the singular values of the matrix \\(\\mathbf{M} = \\mathbf{u} \\mathbf{u}^T\\) (where \\(\\mathbf{u}^T\\) is the transpose of \\(\\mathbf{u}\\)). The value of \\(\\sum \\limits_{i = 1}^{5} \\sigma_i\\) is ________.\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(55\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSome useful results:\n\nA matrix \\(A\\) of rank \\(r\\) has \\(r\\) positive singular values.\nThe first \\(r\\) eigenvalues of \\(A^TA\\) are the squares of the first \\(r\\) singular values.\nA matrix of the form \\(u u^T\\) is unit rank.\n\\((||u||^2, u)\\) is an eigenpair of \\(uu^T\\). In fact, \\(||u||^2\\) is the only eigenvalue for this matrix.\nIf \\(\\lambda\\) is an eigenvalue of \\(A\\), \\(n\\lambda\\) is an eigenvalue of \\(nA\\).\n\nWith these results, we see that \\(M\\) has exactly one non-zero singular value, namely \\(\\sigma_1\\), assuming it is the largest of the lot. The rest are zero. The largest eigenvalue of \\(M^TM\\) is therefore \\(\\sigma_1^2\\). Since \\(M = uu^T\\), \\(M^TM = ||u||^2 M\\). From the RHS, we gather that the largest singular value of \\(M^TM\\) is \\(||u||^4\\). This leads us to: \\[\n\\sigma_1^2 = ||u||^4 \\implies \\sigma_1 = ||u||^2\n\\] Since \\(||u||^2 = 55\\), \\(\\sum \\limits_{i = 1}^{5} \\sigma_i = 55\\).",
     "crumbs": [
-      "Templates",
-      "MCQ and MSQ"
+      "Practice Papers",
+      "GATE-2024",
+      "Question-61"
     ]
   },
   {
-    "objectID": "templates/index.html",
-    "href": "templates/index.html",
-    "title": "Templates",
+    "objectID": "papers/GATE-2024/question-47.html",
+    "href": "papers/GATE-2024/question-47.html",
+    "title": "Question-47",
     "section": "",
-    "text": "This section has some custom templates that can be used to frame questions.",
+    "text": "Select all choices that are subspaces of \\(\\mathbb{R}^{3}\\).\nNote: \\(\\mathbb{R}\\) denotes the set of real numbers.\n\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ \\mathbf{x} = \\alpha \\begin{bmatrix}1 \\\\ 1 \\\\ 0\\end{bmatrix} + \\beta \\begin{bmatrix}1 \\\\ 0 \\\\ 0\\end{bmatrix},\\ \\alpha, \\beta \\in \\mathbb{R} \\right\\}\\)\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ \\mathbf{x} = \\alpha^2 \\begin{bmatrix}1 \\\\ 2 \\\\ 0\\end{bmatrix} + \\beta^2 \\begin{bmatrix}1 \\\\ 0 \\\\ 1\\end{bmatrix},\\ \\alpha, \\beta \\in \\mathbb{R} \\right\\}\\)\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ 5x_1 + 2x_3 = 0,\\ 4x_1-2x_2+3x_3=0 \\right\\}\\)\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ 5x_1 + 2x_3 + 4 = 0 \\right\\}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ \\mathbf{x} = \\alpha \\begin{bmatrix}1 \\\\ 1 \\\\ 0\\end{bmatrix} + \\beta \\begin{bmatrix}1 \\\\ 0 \\\\ 0\\end{bmatrix},\\ \\alpha, \\beta \\in \\mathbb{R} \\right\\}\\)\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ \\mathbf{x} = \\alpha^2 \\begin{bmatrix}1 \\\\ 2 \\\\ 0\\end{bmatrix} + \\beta^2 \\begin{bmatrix}1 \\\\ 0 \\\\ 1\\end{bmatrix},\\ \\alpha, \\beta \\in \\mathbb{R} \\right\\}\\)\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ 5x_1 + 2x_3 = 0,\\ 4x_1-2x_2+3x_3=0 \\right\\}\\)\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ 5x_1 + 2x_3 + 4 = 0 \\right\\}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nOption-1 \\[\n\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ \\mathbf{x} = \\alpha \\begin{bmatrix}1 \\\\ 1 \\\\ 0\\end{bmatrix} + \\beta \\begin{bmatrix}1 \\\\ 0 \\\\ 0\\end{bmatrix},\\ \\alpha, \\beta \\in \\mathbb{R} \\right\\}\n\\] This can be expressed as the span of the vectors \\(\\begin{bmatrix}1 \\\\ 1 \\\\ 0\\end{bmatrix}, \\begin{bmatrix}1 \\\\ 0 \\\\ 0\\end{bmatrix}\\) and is a subspace. Geometrically, this is a plane in \\(\\mathbb{R}^{3}\\) passing through the origin.\nOption-2 \\[\n\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ \\mathbf{x} = \\alpha^2 \\begin{bmatrix}1 \\\\ 2 \\\\ 0\\end{bmatrix} + \\beta^2 \\begin{bmatrix}1 \\\\ 0 \\\\ 1\\end{bmatrix},\\ \\alpha, \\beta \\in \\mathbb{R} \\right\\}\n\\]\nThis is not a subspace as it is not closed under scalar multiplication. For instance, \\(\\begin{bmatrix}1 \\\\ 2 \\\\ 0\\end{bmatrix}\\) is an element of the set, but \\(\\begin{bmatrix}-1 \\\\ -2 \\\\ 0\\end{bmatrix}\\) isn’t.\nOption-3 \\[\n\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ 5x_1 + 2x_3 = 0,\\ 4x_1-2x_2+3x_3=0 \\right\\}\n\\] This is the intersection of two planes and is hence a subspace of \\(\\mathbb{R}^{3}\\).\nOption-4 \\[\n\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ 5x_1 + 2x_3 + 4 = 0 \\right\\}\n\\] This is not a subspace of \\(\\mathbb{R}^{3}\\) as it doesn’t contain the zero vector.",
     "crumbs": [
-      "Templates"
+      "Practice Papers",
+      "GATE-2024",
+      "Question-47"
     ]
   },
   {
-    "objectID": "machine_learning/index.html",
-    "href": "machine_learning/index.html",
-    "title": "Machine Learning",
+    "objectID": "papers/GATE-2024/question-13.html",
+    "href": "papers/GATE-2024/question-13.html",
+    "title": "Question-13",
     "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in machine learning. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nSupervised Learning\n\nRegression\n\nSimple linear regression,\nMultiple linear regression,\nRidge regression\n\nClassification\n\nLogistic regression\nK-NN\nNaive Bayes\nLinear discriminant analysis (LDA)\nSupport vector machines (SVM)\nDecision trees\nMulti-layer perceptron (MLP)\nFeed-forward neural network (ANN)\n\nBias-variance trade-off\nCross-validation\n\nLeave-one-out (LOO) cross-validation\nK-fold cross-validation\n\n\nUnsupervised Learning\n\nClustering algorithms\n\nk-means\nk-medoid,\nhierarchical clustering\n\ntop-down\nbottom-up\nsingle-linkage\nmulti-linkage\n\n\nDimensionality reduction\n\nprincipal component analysis.",
+    "text": "Consider the matrix \\(\\mathbf{M} = \\begin{bmatrix}2 & -1\\\\3 & 1\\end{bmatrix}\\). Which one of the following statements is true?\n\nThe eigenvalues of \\(\\mathbf{M}\\) are non-negative and real.\nThe eigenvalues of \\(\\mathbf{M}\\) are complex conjugate pairs.\nOne eigenvalue of \\(\\mathbf{M}\\) is positive and real, and another eigenvalue of \\(\\mathbf{M}\\) is zero.\nOne eigenvalue of \\(\\mathbf{M}\\) is non-negative and real, and another eigenvalue of \\(\\mathbf{M}\\) is negative and real\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThe eigenvalues of \\(\\mathbf{M}\\) are non-negative and real.\nThe eigenvalues of \\(\\mathbf{M}\\) are complex conjugate pairs.\nOne eigenvalue of \\(\\mathbf{M}\\) is positive and real, and another eigenvalue of \\(\\mathbf{M}\\) is zero.\nOne eigenvalue of \\(\\mathbf{M}\\) is non-negative and real, and another eigenvalue of \\(\\mathbf{M}\\) is negative and real\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe can compute the eigenvalues with the help of the characteristic polynomial: \\[\n\\begin{aligned}\n\\begin{vmatrix}\n2 - \\lambda & -1\\\\\n3 & 1 - \\lambda\n\\end{vmatrix} &= 0\\\\\\\\\n(2 - \\lambda)(1 - \\lambda) + 3 &= 0\\\\\\\\\n\\lambda^2 -3 \\lambda + 5 &= 0\\\\\\\\\n\\end{aligned}\n\\] We see that the discriminant of the quadratic equation is negative. Hence, the eigenvalues are complex conjugate pairs.",
     "crumbs": [
-      "Machine Learning"
+      "Practice Papers",
+      "GATE-2024",
+      "Question-13"
     ]
   },
   {
-    "objectID": "pdsa/bank/question-001.html",
-    "href": "pdsa/bank/question-001.html",
-    "title": "Question-1",
+    "objectID": "papers/index.html",
+    "href": "papers/index.html",
+    "title": "Practice Papers",
     "section": "",
-    "text": "What is the output of the following snippet of code?\ndef foo(n):\n    if n % 2 == 0:\n        return n // 2\n    return 3 * n + 1\n\ncount = 0\nx = 10\nwhile x != 1:\n    x = foo(x)\n    count += 1\nprint(count)\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(6\\)",
+    "text": "This section will have a collection of practice papers. To begin with, it includes the GATE paper for the year \\(2024\\).",
     "crumbs": [
-      "PDSA",
-      "Bank",
-      "Question-1"
-    ]
-  },
-  {
-    "objectID": "calculus/bank/question-001.html",
-    "href": "calculus/bank/question-001.html",
-    "title": "Question-1",
-    "section": "",
-    "text": "Let \\(f\\) and \\(g\\) be two real valued functions such that \\(g(x) = f(x) - 2\\). Select all true options.\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\nHint\n\n\n\n\n\n\nAn odd function is one that satisfies \\(f(-x) = -f(x)\\) for all \\(x \\in \\mathbb{R}\\).\nAn even function is one that satisfies \\(f(-x) = f(x)\\) for all \\(x \\in \\mathbb{R}\\).\n\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf \\(f\\) is odd, then \\(f(-x) = -f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= -f(x) - 2\\\\\n&= -[f(x) + 2]\n\\end{aligned}\n\\] This doesn’t allow us to conclude anything about the nature of \\(g\\). A simple counter-example will show that if \\(f\\) is odd, \\(g\\) need not be odd. For instance, if \\(f(x)= x\\), we have \\(g(x) = x - 2\\), which is neither odd nor even.\nIf \\(f\\) is even, then \\(f(-x) = f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= f(x) - 2\\\\\n&= g(x)\n\\end{aligned}\n\\] Therefore, if \\(f\\) is even, then \\(g\\) is also even. A similar argument holds for the case when \\(g\\) is even.",
-    "crumbs": [
-      "Calculus and Optimization",
-      "Bank",
-      "Question-1"
-    ]
-  },
-  {
-    "objectID": "calculus/index.html",
-    "href": "calculus/index.html",
-    "title": "Calculus and Optimization",
-    "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in calculus and optimization. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nFunctions of a single variable\nLimit\nContinuity\nDifferentiability\nTaylor series\nMaxima and minima\nOptimization involving a single variable",
-    "crumbs": [
-      "Calculus and Optimization"
-    ]
-  },
-  {
-    "objectID": "pdsa/index.html",
-    "href": "pdsa/index.html",
-    "title": "PDSA",
-    "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in programming, data structures and algorithms. All questions have answers, some may have hints and solutions.",
-    "crumbs": [
-      "PDSA"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "GATE-DA",
-    "section": "",
-    "text": "Welcome! The DA paper was first introduced in the year 2024. The duration of the exam is \\(3\\) hours. An overview of the syllabus:\n\nCalculus and Optimization\nLinear Algebra\nProbability and Statistics\nMachine Learning\nArtificial Intelligence\nProgramming, Data Structures and Algorithms\nDatabase Management Systems\n\nYou can use the sidebar to navigate through the different topics."
-  },
-  {
-    "objectID": "machine_learning/bank/question-001.html",
-    "href": "machine_learning/bank/question-001.html",
-    "title": "Question-1",
-    "section": "",
-    "text": "\\(\\mathbf{w} = \\begin{bmatrix}1 \\\\ 2 \\\\ 3\\end{bmatrix}\\) is the weight vector of a linear classifier for a binary classification problem whose labels lie in the set \\(\\{0, 1\\}\\). If the bias of the classifier is set to \\(0\\), which of the following is the equation of the decision boundary for this classifier?\n\n\\(x_1 + 2x_2 + 3x_3 = 1\\)\n\\(x_1 + 2x_2 + 3x_3 = -1\\)\n\\(x_1 + 2x_2 + 3x_3 = 0\\)\n\\(x_1 - 2x_3 + 3x_3 = 0\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(x_1 + 2x_2 + 3x_3 = 1\\)\n\\(x_1 + 2x_2 + 3x_3 = -1\\)\n\\(x_1 + 2x_2 + 3x_3 = 0\\)\n\\(x_1 - 2x_3 + 3x_3 = 0\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe decision boundary for a linear classifier is given by \\(\\mathbf{w}^{T} \\mathbf{x} + b = 0\\). Since \\(b = 0\\), this just becomes \\(\\mathbf{w}^{T} \\mathbf{x} = 0\\) which results in \\(x_1 + 2x_2 + 3x_3 = 0\\).",
-    "crumbs": [
-      "Machine Learning",
-      "Bank",
-      "Question-1"
-    ]
-  },
-  {
-    "objectID": "templates/NAT.html",
-    "href": "templates/NAT.html",
-    "title": "NAT",
-    "section": "",
-    "text": "Enter your question here.\n\n\n\n\n\n\nHint\n\n\n\n\n\nSuggest one or two steps that could lead to the solution.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\nEnter the correct number here.\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nEnter the solution here.",
-    "crumbs": [
-      "Templates",
-      "NAT"
+      "Practice Papers"
     ]
   },
   {
@@ -276,33 +212,202 @@
     ]
   },
   {
-    "objectID": "dbms/index.html",
-    "href": "dbms/index.html",
-    "title": "DBMS",
+    "objectID": "templates/NAT.html",
+    "href": "templates/NAT.html",
+    "title": "NAT",
     "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in DBMS. All questions have answers, some may have hints and solutions.",
+    "text": "Enter your question here.\n\n\n\n\n\n\nHint\n\n\n\n\n\nSuggest one or two steps that could lead to the solution.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\nEnter the correct number here.\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nEnter the solution here.",
     "crumbs": [
-      "DBMS"
+      "Templates",
+      "NAT"
     ]
   },
   {
-    "objectID": "ai/index.html",
-    "href": "ai/index.html",
-    "title": "Artificial Intelligence",
+    "objectID": "machine_learning/bank/question-001.html",
+    "href": "machine_learning/bank/question-001.html",
+    "title": "Question-1",
     "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in artificial intelligence. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nSearch\n\nInformed\nUninformed\nAdversarial\n\nLogic\n\nPropositional\nPredicate\n\nReasoning under uncertainty\n\nConditional independence representation,\nExact inference through variable elimination\nApproximate inference through sampling",
+    "text": "\\(\\mathbf{w} = \\begin{bmatrix}1 \\\\ 2 \\\\ 3\\end{bmatrix}\\) is the weight vector of a linear classifier for a binary classification problem whose labels lie in the set \\(\\{0, 1\\}\\). If the bias of the classifier is set to \\(0\\), which of the following is the equation of the decision boundary for this classifier?\n\n\\(x_1 + 2x_2 + 3x_3 = 1\\)\n\\(x_1 + 2x_2 + 3x_3 = -1\\)\n\\(x_1 + 2x_2 + 3x_3 = 0\\)\n\\(x_1 - 2x_3 + 3x_3 = 0\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(x_1 + 2x_2 + 3x_3 = 1\\)\n\\(x_1 + 2x_2 + 3x_3 = -1\\)\n\\(x_1 + 2x_2 + 3x_3 = 0\\)\n\\(x_1 - 2x_3 + 3x_3 = 0\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe decision boundary for a linear classifier is given by \\(\\mathbf{w}^{T} \\mathbf{x} + b = 0\\). Since \\(b = 0\\), this just becomes \\(\\mathbf{w}^{T} \\mathbf{x} = 0\\) which results in \\(x_1 + 2x_2 + 3x_3 = 0\\).",
     "crumbs": [
-      "Artificial Intelligence"
+      "Machine Learning",
+      "Bank",
+      "Question-1"
     ]
   },
   {
-    "objectID": "linear_algebra/index.html",
-    "href": "linear_algebra/index.html",
-    "title": "Linear Algebra",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "GATE-DA",
     "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in linear algebra. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nVector spaces\nSubspaces\nLinear dependence and independence\nMatrices\nDeterminant\nRank\nNullity\nProjection matrix\nOrthogonal matrix\nIdempotent matrix\nPartition matrix\nQuadratic forms\nSystems of linear equations\nGaussian elimination\nEigenvalues and eigenvectors\nProjections\nLU decomposition\nSingular value decomposition",
+    "text": "Welcome! The DA paper was first introduced in the year 2024. The duration of the exam is \\(3\\) hours. An overview of the syllabus:\n\nCalculus and Optimization\nLinear Algebra\nProbability and Statistics\nMachine Learning\nArtificial Intelligence\nProgramming, Data Structures and Algorithms\nDatabase Management Systems\n\nYou can use the sidebar to navigate through the different topics."
+  },
+  {
+    "objectID": "pdsa/index.html",
+    "href": "pdsa/index.html",
+    "title": "PDSA",
+    "section": "",
+    "text": "The folder named Bank contains an assorted collection of questions in programming, data structures and algorithms. All questions have answers, some may have hints and solutions.",
     "crumbs": [
-      "Linear Algebra"
+      "PDSA"
+    ]
+  },
+  {
+    "objectID": "calculus/index.html",
+    "href": "calculus/index.html",
+    "title": "Calculus and Optimization",
+    "section": "",
+    "text": "The folder named Bank contains an assorted collection of questions in calculus and optimization. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nFunctions of a single variable\nLimit\nContinuity\nDifferentiability\nTaylor series\nMaxima and minima\nOptimization involving a single variable",
+    "crumbs": [
+      "Calculus and Optimization"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-001.html",
+    "href": "calculus/bank/question-001.html",
+    "title": "Question-1",
+    "section": "",
+    "text": "Let \\(f\\) and \\(g\\) be two real valued functions such that \\(g(x) = f(x) - 2\\). Select all true options.\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\nHint\n\n\n\n\n\n\nAn odd function is one that satisfies \\(f(-x) = -f(x)\\) for all \\(x \\in \\mathbb{R}\\).\nAn even function is one that satisfies \\(f(-x) = f(x)\\) for all \\(x \\in \\mathbb{R}\\).\n\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf \\(f\\) is odd, then \\(f(-x) = -f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= -f(x) - 2\\\\\n&= -[f(x) + 2]\n\\end{aligned}\n\\] This doesn’t allow us to conclude anything about the nature of \\(g\\). A simple counter-example will show that if \\(f\\) is odd, \\(g\\) need not be odd. For instance, if \\(f(x)= x\\), we have \\(g(x) = x - 2\\), which is neither odd nor even.\nIf \\(f\\) is even, then \\(f(-x) = f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= f(x) - 2\\\\\n&= g(x)\n\\end{aligned}\n\\] Therefore, if \\(f\\) is even, then \\(g\\) is also even. A similar argument holds for the case when \\(g\\) is even.",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-1"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-001.html",
+    "href": "pdsa/bank/question-001.html",
+    "title": "Question-1",
+    "section": "",
+    "text": "What is the output of the following snippet of code?\ndef foo(n):\n    if n % 2 == 0:\n        return n // 2\n    return 3 * n + 1\n\ncount = 0\nx = 10\nwhile x != 1:\n    x = foo(x)\n    count += 1\nprint(count)\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(6\\)",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-1"
+    ]
+  },
+  {
+    "objectID": "machine_learning/index.html",
+    "href": "machine_learning/index.html",
+    "title": "Machine Learning",
+    "section": "",
+    "text": "The folder named Bank contains an assorted collection of questions in machine learning. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nSupervised Learning\n\nRegression\n\nSimple linear regression,\nMultiple linear regression,\nRidge regression\n\nClassification\n\nLogistic regression\nK-NN\nNaive Bayes\nLinear discriminant analysis (LDA)\nSupport vector machines (SVM)\nDecision trees\nMulti-layer perceptron (MLP)\nFeed-forward neural network (ANN)\n\nBias-variance trade-off\nCross-validation\n\nLeave-one-out (LOO) cross-validation\nK-fold cross-validation\n\n\nUnsupervised Learning\n\nClustering algorithms\n\nk-means\nk-medoid,\nhierarchical clustering\n\ntop-down\nbottom-up\nsingle-linkage\nmulti-linkage\n\n\nDimensionality reduction\n\nprincipal component analysis.",
+    "crumbs": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "objectID": "templates/index.html",
+    "href": "templates/index.html",
+    "title": "Templates",
+    "section": "",
+    "text": "This section has some custom templates that can be used to frame questions.",
+    "crumbs": [
+      "Templates"
+    ]
+  },
+  {
+    "objectID": "templates/mcq.html",
+    "href": "templates/mcq.html",
+    "title": "MCQ and MSQ",
+    "section": "",
+    "text": "Enter your question here.\n\nOption-1\nOption-2\nOption-3\nOption-4\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nSuggest one or two steps that could lead to the solution.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\nToggle the appropriate answers.\n\nOption-1\nOption-2\nOption-3\nOption-4\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nEnter the solution here.",
+    "crumbs": [
+      "Templates",
+      "MCQ and MSQ"
+    ]
+  },
+  {
+    "objectID": "templates/code_support.html",
+    "href": "templates/code_support.html",
+    "title": "Code Support",
+    "section": "",
+    "text": "This is a snippet of Python code:\ndef printer(n):\n    for x in range(n):\n        print(x)\nTo refer to inline elements, use x.",
+    "crumbs": [
+      "Templates",
+      "Code Support"
+    ]
+  },
+  {
+    "objectID": "papers/GATE-2024/index.html",
+    "href": "papers/GATE-2024/index.html",
+    "title": "GATE-2024",
+    "section": "",
+    "text": "The duration of the paper is \\(3\\) hours and it has two parts:\n\nGeneral aptitude for \\(15\\) marks\nData science and AI for \\(85\\) marks\n\nThe finer distribution of marks is given below:\n\n\n\nSection\nQuestion range\nIndividual marks\nTotal marks\n\n\n\n\nGA\n\\(1\\) to \\(5\\)\n\\(1\\)\n\\(5\\)\n\n\nGA\n\\(6\\) to \\(10\\)\n\\(2\\)\n\\(10\\)\n\n\nDA\n\\(11\\) to \\(35\\)\n\\(1\\)\n\\(25\\)\n\n\nDA\n\\(36\\) to \\(65\\)\n\\(2\\)\n\\(60\\)\n\n\n\nThe questions are either MCQ, MSQ or NAT.\nPoints to remember\n\nMCQ has negative marking of \\(1/3\\)rd the marks for that question\nMSQ doesn’t have partial marking.\nMSQ and NAT do not have negative marking.\n\nGeneral suggestions\n\n\\(65\\) questions is quite a lot for \\(3\\) hours.\nDon’t get stuck in a question that doesn’t fall within your comfort zone.\nEnsure that you read all \\(65\\) questions. It might happen that easy questions are hiding at the end of the paper.\nSequence the seven topics in the decreasing order of your comfort with them. Attempt the questions in the exam in this order.",
+    "crumbs": [
+      "Practice Papers",
+      "GATE-2024"
+    ]
+  },
+  {
+    "objectID": "papers/GATE-2024/question-49.html",
+    "href": "papers/GATE-2024/question-49.html",
+    "title": "Question-49",
+    "section": "",
+    "text": "Let \\(\\mathbb{R}\\) be the set of real numbers, \\(U\\) be a subspace of \\(\\mathbb{R}^3\\) and \\(\\mathbf{M} \\in \\mathbb{R}^{3 \\times 3}\\) be the matrix corresponding to the projection on to the subspace \\(U\\). Which of the following statements is/are true?\n\nIf \\(U\\) is a 1-dimensional subspace of \\(\\mathbb{R}^3\\), then the null space of \\(\\mathbf{M}\\) is a one-dimensional subspace.\nIf \\(U\\) is a 2-dimensional subspace of \\(\\mathbb{R}^3\\), then the null space of \\(\\mathbf{M}\\) is a one-dimensional subspace.\n\\(\\mathbf{M}^2 = \\mathbf{M}\\)\n\\(\\mathbf{M}^3 = \\mathbf{M}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf \\(U\\) is a 1-dimensional subspace of \\(\\mathbb{R}^3\\), then the null space of \\(\\mathbf{M}\\) is a one-dimensional subspace.\nIf \\(U\\) is a 2-dimensional subspace of \\(\\mathbb{R}^3\\), then the null space of \\(\\mathbf{M}\\) is a one-dimensional subspace.\n\\(\\mathbf{M}^2 = \\mathbf{M}\\)\n\\(\\mathbf{M}^3 = \\mathbf{M}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\nSince \\(\\mathbf{M}\\) is a projection matrix, its column space is \\(U\\) and its null space is \\(U^{\\perp}\\). If the dimension of \\(U\\) is \\(k\\), the dimension of the null space is \\(3 - k\\).\nFor a projection matrix, \\(\\mathbf{M}^{2} = \\mathbf{M}\\). It follows that \\(\\mathbf{M}^{3} = \\mathbf{M}\\).",
+    "crumbs": [
+      "Practice Papers",
+      "GATE-2024",
+      "Question-49"
+    ]
+  },
+  {
+    "objectID": "papers/GATE-2024/question-48.html",
+    "href": "papers/GATE-2024/question-48.html",
+    "title": "Question-48",
+    "section": "",
+    "text": "Which of the following statements is/are true?\nNote: \\(\\mathbb{R}\\) denotes the set of all real numbers.\n\nThere exist \\(\\mathbf{M} \\in \\mathbb{R}^{3 \\times 3}, \\mathbf{p} \\in \\mathbb{R}^{3}\\) and \\(\\mathbf{q} \\in \\mathbb{R}^{3}\\) such that \\(\\mathbf{Mx} = \\mathbf{p}\\) has a unique solution and \\(\\mathbf{Mx} = \\mathbf{q}\\) has infinite solutions.\nThere exist \\(\\displaystyle \\mathbf{M} \\in \\mathbb{R}^{3\\times 3} ,\\mathbf{p} \\in \\mathbb{R}^{3}\\) and \\(\\displaystyle \\mathbf{q} \\in \\mathbb{R}^{3}\\) such that \\(\\displaystyle \\mathbf{Mx} =\\mathbf{p}\\) has no solutions and \\(\\displaystyle \\mathbf{Mx} =\\mathbf{q}\\) has infinite solutions.\nThere exist \\(\\displaystyle \\mathbf{M} \\in \\mathbb{R}^{2\\times 3} ,\\mathbf{p} \\in \\mathbb{R}^{2}\\) and \\(\\displaystyle \\mathbf{q} \\in \\mathbb{R}^{2}\\) such that \\(\\displaystyle \\mathbf{Mx} =\\mathbf{p}\\) has a unique solution and \\(\\displaystyle \\mathbf{Mx} =\\mathbf{q}\\) has infinite solutions.\nThere exist \\(\\displaystyle \\mathbf{M} \\in \\mathbb{R}^{3\\times 2} ,\\mathbf{p} \\in \\mathbb{R}^{3}\\) and \\(\\displaystyle \\mathbf{q} \\in \\mathbb{R}^{3}\\) such that \\(\\displaystyle \\mathbf{Mx} =\\mathbf{p}\\) has a unique solution and \\(\\displaystyle \\mathbf{Mx} =\\mathbf{q}\\) has no solutions.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThere exist \\(\\mathbf{M} \\in \\mathbb{R}^{3 \\times 3}, \\mathbf{p} \\in \\mathbb{R}^{3}\\) and \\(\\mathbf{q} \\in \\mathbb{R}^{3}\\) such that \\(\\mathbf{Mx} = \\mathbf{p}\\) has a unique solution and \\(\\mathbf{Mx} = \\mathbf{q}\\) has infinite solutions.\nThere exist \\(\\displaystyle \\mathbf{M} \\in \\mathbb{R}^{3\\times 3} ,\\mathbf{p} \\in \\mathbb{R}^{3}\\) and \\(\\displaystyle \\mathbf{q} \\in \\mathbb{R}^{3}\\) such that \\(\\displaystyle \\mathbf{Mx} =\\mathbf{p}\\) has no solutions and \\(\\displaystyle \\mathbf{Mx} =\\mathbf{q}\\) has infinite solutions.\nThere exist \\(\\displaystyle \\mathbf{M} \\in \\mathbb{R}^{2\\times 3} ,\\mathbf{p} \\in \\mathbb{R}^{2}\\) and \\(\\displaystyle \\mathbf{q} \\in \\mathbb{R}^{2}\\) such that \\(\\displaystyle \\mathbf{Mx} =\\mathbf{p}\\) has a unique solution and \\(\\displaystyle \\mathbf{Mx} =\\mathbf{q}\\) has infinite solutions.\nThere exist \\(\\displaystyle \\mathbf{M} \\in \\mathbb{R}^{3\\times 2} ,\\mathbf{p} \\in \\mathbb{R}^{3}\\) and \\(\\displaystyle \\mathbf{q} \\in \\mathbb{R}^{3}\\) such that \\(\\displaystyle \\mathbf{Mx} =\\mathbf{p}\\) has a unique solution and \\(\\displaystyle \\mathbf{Mx} =\\mathbf{q}\\) has no solutions.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe key to solving this problem is to note the following facts about a general system \\(Ax = b\\), where \\(A \\in \\mathbb{R}^{m \\times n}\\) , \\(b \\in \\mathbb{R}^m\\):\n\n\\(Ax = b\\) has a solution if \\(b\\) is in the column space of \\(A\\).\nIf \\(Ax = b\\) has a solution, it is unique if and only if the columns of \\(A\\) are linearly independent.\nThe columns of \\(A\\) are linearly independent if and only if \\(A\\) has full column rank.\n\nThus we can divide the problem into three cases:\nCase-1: \\(m &gt; n\\)\nIf \\(A\\) has full column rank, we can always find:\n\n\\(b_1\\), some vector in the column space\n\\(b_2\\), some vector not in the column space\n\nThe first leads to a unique solution and the next gives no solution.\nIf \\(A\\) is rank deficient, we can always find:\n\n\\(b_1\\), some vector in the column space\n\\(b_2\\), some vector not in the column space\n\nThe first leads to infinite solutions and the next gives no solution.\nCase-2: \\(m = n\\)\nIf \\(A\\) has full column rank, we are guaranteed a unique solution for any \\(b\\).\nIf \\(A\\) is rank deficient, the analysis is similar to the second point in case-1\nCase-3: \\(m &lt; n\\)\nWe can never get a unique solution as this system can never have full column rank. But we can still end up with a situation similar to the second point in case-1.",
+    "crumbs": [
+      "Practice Papers",
+      "GATE-2024",
+      "Question-48"
+    ]
+  },
+  {
+    "objectID": "papers/GATE-2024/question-35.html",
+    "href": "papers/GATE-2024/question-35.html",
+    "title": "Question-35",
+    "section": "",
+    "text": "Consider the \\(3 \\times 3\\) matrix \\(\\mathbf{M} = \\begin{bmatrix}1 & 2 & 3\\\\3 & 1 & 3\\\\4 & 3 & 6\\end{bmatrix}\\). The determinant of \\(\\mathbf{M}^{2} + 12 \\mathbf{M}\\) is ________ .\n\n\n\n\n\n\nHint\n\n\n\n\n\nAdd the first two rows.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nNote the following: \\[\n\\begin{aligned}\n\\mathbf{M}^{2} + 12\\mathbf{M} &= \\mathbf{M}(\\mathbf{M} + 12 \\mathbf{I})\\\\\\\\\n\\implies \\left|\\mathbf{M}^2 + 12 \\mathbf{M} \\right| &= \\left| \\mathbf{M} \\right| \\cdot \\left| \\mathbf{M} + 12 \\mathbf{I} \\right|\\\\\\\\\n\\end{aligned}\n\\] Let us first look at the determinant of \\(\\mathbf{M}\\). Note that the third row of \\(\\mathbf{M}\\) is equal to the sum of the first two rows. Hence, we see that \\(\\left| \\mathbf{M} \\right| = 0\\). It follows that the answer is \\(\\boxed{0}\\).",
+    "crumbs": [
+      "Practice Papers",
+      "GATE-2024",
+      "Question-35"
+    ]
+  },
+  {
+    "objectID": "dbms/bank/question-001.html",
+    "href": "dbms/bank/question-001.html",
+    "title": "Question-1",
+    "section": "",
+    "text": "Consider two relations \\(\\mathbf{s}(A, B, C)\\) and \\(\\mathbf{r}(P, Q, C)\\) such that relation \\(\\mathbf{s}\\) has \\(30\\) rows and relation \\(\\mathbf{r}\\) has \\(12\\) rows. What is the maximum number of rows that are possible in \\(\\mathbf{r} \\bowtie \\mathbf{s}\\)?\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(360\\)",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-1"
+    ]
+  },
+  {
+    "objectID": "ai/bank/question-001.html",
+    "href": "ai/bank/question-001.html",
+    "title": "Question-1",
+    "section": "",
+    "text": "Let \\(x\\) and \\(y\\) be two propositions. Which of the following statements are tautologies?\n\n\\((\\neg x \\land y) \\implies (y \\implies x)\\)\n\\((x \\land \\neg y) \\implies (\\neg x \\implies y)\\)\n\\((\\neg x \\land y) \\implies (\\neg x \\implies y)\\)\n\\((x \\land \\neg y) \\implies (y \\implies x)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\((\\neg x \\land y) \\implies (y \\implies x)\\)\n\\((x \\land \\neg y) \\implies (\\neg x \\implies y)\\)\n\\((\\neg x \\land y) \\implies (\\neg x \\implies y)\\)\n\\((x \\land \\neg y) \\implies (y \\implies x)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet us view each of these options as \\(P \\implies Q\\). For this to be a tautology, \\(Q\\) should be true whenenever \\(P\\) is true. So we need to look for those values of \\(x, y\\) for which \\(P\\) is true.\n\n\\((\\neg x \\land y) \\implies (y \\implies x)\\)\n\n\\(P\\) is true when \\(x\\) is false and \\(y\\) is true.\n\\(Q\\) would be false.\nThus \\(P \\implies Q\\) is false.\nIt follows that \\(P \\implies Q\\) is not a tautology.\n\n\\((x \\land \\neg y) \\implies (\\neg x \\implies y)\\)\n\n\\(P\\) is true when \\(x\\) is true and \\(y\\) is false.\n\\(Q\\) would be true.\nThus \\(P \\implies Q\\) is true.\nIt follows that \\(P \\implies Q\\) is a tautology.\n\nA similar argument holds for the remaining options.",
+    "crumbs": [
+      "Artificial Intelligence",
+      "Bank",
+      "Question-1"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-002.html",
+    "href": "linear_algebra/bank/question-002.html",
+    "title": "Question-2",
+    "section": "",
+    "text": "What is the maximum rank that a \\(4 \\times 8\\)​ matrix can have?\n\n\n\n\n\n\nHint\n\n\n\n\n\nThe rank is the dimension of the row space. It is also equal to the dimension of the column space.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(4\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe row rank is equal to the column rank for any matrix. The row rank is the dimension of the row space. This can be at most \\(n\\). The column rank is the dimension of the column space. This can be at most \\(m\\). Therefore, the rank of a \\(m \\times n\\) matrix is at most \\(\\min(m, n)\\)​.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-2"
     ]
   },
   {
@@ -310,7 +415,7 @@
     "href": "linear_algebra/bank/question-005.html",
     "title": "Question-5",
     "section": "",
-    "text": "\\(Q\\) is an orthogonal matrix of size \\(2 \\times 2\\). If \\(||Qu|| = 4\\), what is \\(||u||\\)?\n\n\n\n\n\n\nHint\n\n\n\n\n\nExpand \\(||Qu||^2\\) and use the key property of orthogonal matrices.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(4\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nOrthogonal matrices preserve the inner product: \\[\n\\begin{aligned}\n||Qu||^2 &= (Qu)^T(Qu)\\\\\n&= u^TQ^TQu\\\\\n&= u^TIu\\\\\n&= u^Tu\\\\\n&= ||u||^2\n\\end{aligned}\n\\]",
+    "text": "\\(Q\\) is an orthogonal matrix. If \\(||Qu|| = 4\\), what is \\(||u||\\)?\n\n\n\n\n\n\nHint\n\n\n\n\n\nExpand \\(||Qu||^2\\) and use the key property of orthogonal matrices.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(4\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nOrthogonal matrices preserve the inner product: \\[\n\\begin{aligned}\n||Qu||^2 &= (Qu)^T(Qu)\\\\\n&= u^TQ^TQu\\\\\n&= u^TIu\\\\\n&= u^Tu\\\\\n&= ||u||^2\n\\end{aligned}\n\\]",
     "crumbs": [
       "Linear Algebra",
       "Bank",
@@ -322,7 +427,7 @@
     "href": "linear_algebra/bank/question-004.html",
     "title": "Question-4",
     "section": "",
-    "text": "\\(S\\) is a linearly independent subset of \\(\\mathbb{R}^{4}\\), select all true statements concerning \\(S\\).\n\n\\(|S| \\leqslant 4\\)\nAny subset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\nAny superset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\n\\(S\\) is a basis for \\(\\mathbb{R}^{4}\\).\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(|S| \\leqslant 4\\)\nAny subset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\nAny superset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\n\\(S\\) is a basis for \\(\\mathbb{R}^{4}\\).\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(S\\) will be a basis for \\(\\mathbb{R}^{4}\\) if and only if \\(|S| = 4\\).",
+    "text": "\\(S\\) is a linearly independent subset of \\(\\mathbb{R}^{4}\\). Select all true statements concerning \\(S\\).\n\n\\(|S| \\leqslant 4\\)\nAny subset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\nAny superset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\n\\(S\\) is a basis for \\(\\mathbb{R}^{4}\\).\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(|S| \\leqslant 4\\)\nAny subset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\nAny superset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\n\\(S\\) is a basis for \\(\\mathbb{R}^{4}\\).\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(S\\) will be a basis for \\(\\mathbb{R}^{4}\\) if and only if \\(|S| = 4\\).",
     "crumbs": [
       "Linear Algebra",
       "Bank",
