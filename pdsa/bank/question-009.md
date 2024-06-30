@@ -1,10 +1,10 @@
 ---
-title: Question-7
-pagetitle: Question-7
+title: Question-9
+pagetitle: Question-9
 categories: [GATE-2021, Algorithms, Search]
 ---
 
-## Question 7
+## Question 9
 
 What is the number of arithmetic operations required to implement binary search on a sorted array?
 
