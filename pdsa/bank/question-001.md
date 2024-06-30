@@ -1,8 +1,10 @@
 ---
 title: Question-1
 pagetitle: Question-1
-categories: [python]
+categories: [Python]
 ---
+
+## Question 1
 
 What is the output of the following snippet of code?
 

@@ -1,10 +1,10 @@
 ---
-title: Question-10
-pagetitle: Question-10
+title: Question-11
+pagetitle: Question-11
 categories: [GATE-2014, Data Structures, Linked List]
 ---
 
-## Question 10
+## Question 11
 
 What is the worst-case time complexity of inserting $n$ elements into an empty linked list, maintaining sorted order?
 
