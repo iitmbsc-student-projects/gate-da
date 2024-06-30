@@ -1,8 +1,9 @@
 ---
 title: Question-2
 pagetitle: Question-2
-categories: [python, GATE-2019(modified), Python Programming, Control Flow]
+categories: [python, GATE-2019(modified), Control Flow]
 ---
+## Question 2
 
 Consider the following Python program:
 
