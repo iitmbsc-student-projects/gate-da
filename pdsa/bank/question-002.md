@@ -3,6 +3,7 @@ title: Question-2
 pagetitle: Question-2
 categories: [python, GATE-2019(modified), Control Flow]
 ---
+
 ## Question 2
 
 Consider the following Python program:
@@ -21,11 +22,15 @@ while i / j > 0.0625:
 
 The number of times the variable `sum_value` will be printed when the above program is executed is ________
 
+
+
 ::: {.callout-note title="Answer" collapse=true}
 
 $5$
 
 :::
+
+
 
 ::: {.callout-note title="Feedback" collapse=true}
 
