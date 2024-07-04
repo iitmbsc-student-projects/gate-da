@@ -31,6 +31,7 @@ $1023$
 ::: {.callout-note title="Feedback" collapse=true}
 
 Given that all values in the array `Z` are 1 and `x = 2`, the function simplifies to `total = 2 * total + 1`, resulting in successive left shifting of the total by one bit and adding 1 each time. This process leads to a final value of 1023.
+
 | Total in bits | Total Value |
 |------------|-------------|
 | 1          | 1           |

@@ -20,7 +20,7 @@ $1$
 
 ::: {.callout-note title="Feedback" collapse=true}
 
-![image](https://hackmd.io/_uploads/S1Lh9BiV6.png)
+![Binary Tree](./bin_tree.png)
 
 Breadth-First Search = $1,2,3,4,5,6,7$  
 Depth-First Search = $1,2,4,5,3,6,7$  

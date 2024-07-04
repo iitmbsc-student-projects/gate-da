@@ -7,10 +7,9 @@ categories: [GATE-2021, Algorithms, Sorting]
 ## Question 5
 
 What is the least number of comparisons required among the array elements to sort the given array in ascending order using the following sorting algorithms?
-
-| 23 | 32 | 45 | 69 | 72 | 73 | 89 | 97 |
-|-|-|-|-|-|-|-|-|
-
+```
+23, 32, 45, 69, 72, 73, 89, 97
+```
 
 ### Choices
 - [ ] Quicksort using the last element as a pivot
