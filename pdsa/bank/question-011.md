@@ -4,12 +4,9 @@ pagetitle: Question-11
 categories: [GATE-2014, Data Structures, Linked List]
 ---
 
-## Question 11
-
 What is the worst-case time complexity of inserting $n$ elements into an empty linked list, maintaining sorted order?
 
 
-### Choices
 - [ ] $\Theta(n)$
 - [ ] $\Theta(n \log n)$
 - [ ] $\Theta(n^2)$
@@ -17,9 +14,12 @@ What is the worst-case time complexity of inserting $n$ elements into an empty l
 
 
 
-::: {.callout-note title="Answer" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
-$\Theta(n^2)$
+- [ ] $\Theta(n)$
+- [ ] $\Theta(n \log n)$
+- [x] $\Theta(n^2)$
+- [ ] $\Theta(1)$
 
 :::
 

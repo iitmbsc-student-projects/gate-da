@@ -4,8 +4,6 @@ pagetitle: Question-6
 categories: [GATE-2021(modified), Python, Control flow]
 ---
 
-## Question 6
-
 Consider the following Python function:
 
 ```python
@@ -28,7 +26,7 @@ $1023$
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 Given that all values in the array `Z` are 1 and `x = 2`, the function simplifies to `total = 2 * total + 1`, resulting in successive left shifting of the total by one bit and adding 1 each time. This process leads to a final value of 1023.
 

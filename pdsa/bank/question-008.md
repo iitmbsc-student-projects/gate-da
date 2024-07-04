@@ -4,8 +4,6 @@ pagetitle: Question-8
 categories: [GATE-2021, Data Structures, Trees]
 ---
 
-## Question 8
-
 Consider a complete binary tree with 7 nodes. Let $A$ denote the set of first 3 elements obtained by performing Breadth-First Search (BFS) starting from the root. Let $B$ denote the set of first 3 elements obtained by performing Depth-First Search (DFS) starting from the root. The value of $|A - B|$ is _________.
 
 
@@ -18,7 +16,7 @@ $1$
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 ![Binary Tree](./bin_tree.png)
 

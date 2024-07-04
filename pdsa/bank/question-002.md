@@ -4,8 +4,6 @@ pagetitle: Question-2
 categories: [python, GATE-2019(modified), Control Flow]
 ---
 
-## Question 2
-
 Consider the following Python program:
 
 ```python=
@@ -32,7 +30,7 @@ $5$
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 The variable `sum_value` will be printed 5 times when the program is executed. This is because the program uses a while loop, and the condition `i / j > 0.0625` is checked in each iteration. The loop continues until this condition becomes false. Analyzing the values of `i` and `j` in each iteration, we can see that it is printed in the first 5 iterations:
 
