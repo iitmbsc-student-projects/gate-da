@@ -15,7 +15,7 @@ y = jumble(y, x)
 x = jumble(y, x)
 print(x)
 ```
-
+What is the output of the given code?
 
 ::: {.callout-note title="Solution" collapse=true}
 
