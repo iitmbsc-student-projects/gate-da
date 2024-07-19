@@ -14,7 +14,7 @@ What is the worst-case time complexity of inserting $n$ elements into an empty l
 
 
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 - [ ] $\Theta(n)$
 - [ ] $\Theta(n \log n)$
@@ -25,7 +25,7 @@ What is the worst-case time complexity of inserting $n$ elements into an empty l
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 Consider a sorted list where inserting an element requires traversing till the end, necessitating comparisons equal to the number of elements in the worst case.
 

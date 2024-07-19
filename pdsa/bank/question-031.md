@@ -12,7 +12,7 @@ Consider the following array of elements 〈89, 19, 50, 17, 12, 15, 2, 5, 7, 11,
 - [ ] 3
 
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 - [ ] 4
 - [ ] 5
@@ -23,7 +23,7 @@ Consider the following array of elements 〈89, 19, 50, 17, 12, 15, 2, 5, 7, 11,
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 The process of converting an array into a max-heap involves the process of heapification, which ensures that the max-heap property is satisfied.
 For the given array:

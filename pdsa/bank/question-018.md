@@ -13,7 +13,7 @@ Two alternative packages A and B are available for processing a database having 
 
 
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 - [ ] $12$
 - [ ] $10$
@@ -24,7 +24,7 @@ Two alternative packages A and B are available for processing a database having 
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 To determine when package B is preferred over package A, we set up the inequality:
 $$10n \log_{10} n < 0.0001n^2k$$

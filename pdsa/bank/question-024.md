@@ -16,7 +16,7 @@ Q2: |4|3|2|1|
 ```
 
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 $0$
 
@@ -24,7 +24,7 @@ $0$
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 The operations performed demonstrate the reversal of elements between Q1 and Q2 without using additional storage, achieving the Final State with the elements reversed in Q2 from the Initial State of Q1. 
 

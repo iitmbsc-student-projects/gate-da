@@ -17,7 +17,7 @@ Which of the above statements are TRUE?
 - [ ] II, III and IV
 
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 - [x] I, II and III
 - [ ] I, II and IV
@@ -28,7 +28,7 @@ Which of the above statements are TRUE?
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 Let's evaluate each statement:
 

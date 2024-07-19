@@ -21,7 +21,7 @@ The top element of \(S\) after executing the above operations is _______.
 
 
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 $8$
 
@@ -29,7 +29,7 @@ $8$
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 This sequence of operations manipulates the stack and queue in a specific order. By following the given steps, the top element of the stack \(S\) after executing all the operations is \(8\).
 

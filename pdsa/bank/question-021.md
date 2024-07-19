@@ -17,7 +17,7 @@ Then $T(n)$ in terms of $\Theta$ notation is?
 
 
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 - [ ] $\Theta(\log \log n)$
 - [x] $\Theta(\log n)$
@@ -28,7 +28,7 @@ Then $T(n)$ in terms of $\Theta$ notation is?
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 Breaking down the recurrence relation and solving for $T(n)$:
 

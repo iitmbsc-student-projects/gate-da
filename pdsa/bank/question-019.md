@@ -17,7 +17,7 @@ Which of the following represents the time complexity of the algorithm?
 
 
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 - [x] $\Theta(n)$
 - [ ] $\Theta(n \log n)$
@@ -28,7 +28,7 @@ Which of the following represents the time complexity of the algorithm?
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 Using the master theorem to determine the time complexity:
 

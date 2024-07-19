@@ -12,7 +12,7 @@ Let H be a binary min-heap consisting of \(n\) elements implemented as an array.
 - [ ] $\Theta(n \log n)$
 
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 - [ ] $\Theta(1)$
 - [ ] $\Theta(\log n)$
@@ -23,7 +23,7 @@ Let H be a binary min-heap consisting of \(n\) elements implemented as an array.
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 In a binary min-heap:
 - The maximum element is always a leaf node in the heap, and to find the maximum element, we need to traverse all leaf nodes to identify the maximum among them.

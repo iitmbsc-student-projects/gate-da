@@ -80,7 +80,7 @@ Which one of the following options represents the activation tree corresponding 
 
 
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 - [x] Option A
 
@@ -131,7 +131,7 @@ Which one of the following options represents the activation tree corresponding 
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 - main calls `f1`, `f2` and `f3`. and `f1` and `f3` returns.
 - In `f2`, `f3` is called and `f2` is called again with `X=1` as the condition goes to else part.

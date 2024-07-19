@@ -22,7 +22,7 @@ Count(x, y) {
 The number of times that the print statement is executed by the call Count$(1024, 1024)$ is _____.
 
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 $10230$
 
@@ -30,7 +30,7 @@ $10230$
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 For the call `Count(1024, 1024)`, the program initiates with $(x, y) = (1024, 1024)$. 
 

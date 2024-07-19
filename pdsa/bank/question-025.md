@@ -25,7 +25,7 @@ Consider the following sequence of operations on an empty queue:
 The value of \(s + q\) is _______
 
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 $86$
 
@@ -33,7 +33,7 @@ $86$
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 **Stack Operations**
 

@@ -7,7 +7,7 @@ categories: [Python programming, Heap]
 Consider the array representation of a binary min-heap containing 1023 elements. The minimum number of comparisons required to find the maximum in the heap is_____.
 
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 $511$
 
@@ -15,7 +15,7 @@ $511$
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 In a binary min-heap with 1023 (2^10^-1) elements, the maximum elements will be at the leaves.
 - Number of leaf nodes in a complete binary tree with 1023 elements is 2^9^ = 512.

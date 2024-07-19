@@ -17,7 +17,7 @@ print(x)
 ```
 What is the output of the given code?
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 $26$
 
@@ -25,7 +25,7 @@ $26$
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 1. Initially, in the `main()` function, `x = 2` and `y = 5`.
 2. `y` is updated to `jumble(5, 2)`, which evaluates to $2 \times 5 + 2 = 12$.

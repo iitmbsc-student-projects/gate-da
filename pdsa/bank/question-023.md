@@ -11,7 +11,7 @@ Suppose a stack implementation supports an instruction REVERSE, which reverses t
 - [ ] A queue can be implemented where ENQUEUE takes a sequence of three instructions and DEQUEUE takes a single instruction.
 - [ ] A queue can be implemented where both ENQUEUE and DEQUEUE take a single instruction each.
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 - [ ] A queue cannot be implemented using this stack.
 - [ ] A queue can be implemented where ENQUEUE takes a single instruction and DEQUEUE takes a sequence of two instructions.
@@ -22,7 +22,7 @@ Suppose a stack implementation supports an instruction REVERSE, which reverses t
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 With the REVERSE instruction, a queue can be implemented using this modified stack where ENQUEUE would require a sequence of three instructions (PUSH, REVERSE, PUSH), and DEQUEUE would require a single instruction (POP).
 

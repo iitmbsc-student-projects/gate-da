@@ -13,7 +13,7 @@ Which one of the following sequences when stored in an array at locations \(A[1]
 
 
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 - [ ] 23, 17, 10, 6, 13, 14, 1, 5, 7, 12
 - [x] 23, 17, 14, 7, 13, 10, 1, 5, 6, 12
@@ -24,7 +24,7 @@ Which one of the following sequences when stored in an array at locations \(A[1]
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 To form a max-heap, the elements must satisfy the heap property: every node should be greater than or equal to its children.
 

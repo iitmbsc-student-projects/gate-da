@@ -17,7 +17,7 @@ Which one of the following options is correct?
 
 
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 - [ ] $T(n) = \Theta(n \log n)$
 - [ ] $T(n) = \Theta(n^{5/2})$
@@ -28,7 +28,7 @@ Which one of the following options is correct?
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 Expanding the recurrence relation:
 

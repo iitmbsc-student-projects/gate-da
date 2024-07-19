@@ -34,7 +34,7 @@ Which one of the following most closely approximates the return value of the fun
 
 
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 - [ ] $n^3$
 - [ ] $n(\log n)^2$
@@ -45,7 +45,7 @@ Which one of the following most closely approximates the return value of the fun
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 The outer loop runs $n - 1$ times. The first inner loop increments $p$ until $j$ becomes $1$, which takes $\log n$ iterations. The second inner loop increments $q$ until $k$ reaches $p$, which takes $\log p$ iterations. Therefore, the return value $q$ is closely approximated by $n \log(\log n)$.
 

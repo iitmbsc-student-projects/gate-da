@@ -13,7 +13,7 @@ Let A be a priority queue for maintaining a set of elements. Suppose A is implem
 
 
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 - [ ] Both EXTRACT-MAX(A) and INSERT(A, key) run in \(O(1)\).
 - [x] Both EXTRACT-MAX(A) and INSERT(A, key) run in \(O(\log n)\).
@@ -24,7 +24,7 @@ Let A be a priority queue for maintaining a set of elements. Suppose A is implem
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 In a max-heap:
 - EXTRACT-MAX operation requires \(O(\log n)\) time as it involves reorganizing the heap to maintain its properties after removing the maximum element.

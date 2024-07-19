@@ -24,7 +24,7 @@ Time complexity of `fun` in terms of $ \Theta $ notation is
 
 
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Answer" collapse=true}
 
 - [ ] $\Theta(n^n)$
 - [ ] $\Theta(n^2)$
@@ -35,7 +35,7 @@ Time complexity of `fun` in terms of $ \Theta $ notation is
 
 
 
-::: {.callout-note title="Feedback" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 The outer loop runs $n$ times, and the inner loop runs $\frac{n}{i}$ times for each value of $i$ from $1$ to $n$. Therefore, the total number of iterations is approximately $\sum_{i=1}^{n} \frac{n}{i}$, which is $n \log n$. Hence, the time complexity of `fun` is $ \Theta(n \log n) $.
 
