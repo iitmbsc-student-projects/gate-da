@@ -22,7 +22,7 @@ Consider the following sequence of operations on an empty queue:
 5. enqueue(32)
 6. q = dequeue()
 
-The value of \(s + q\) is _______
+The value of $s + q$ is _______
 
 
 ::: {.callout-note title="Answer" collapse=true}
@@ -44,7 +44,7 @@ $86$
 | pop()       | [54]    |
 | push(55)    | [54, 55]|
 | push(62)    | [54, 55, 62] |
-| s = pop()   | \(s = 62\), Stack: [54, 55] |
+| s = pop()   | $s = 62$, Stack: [54, 55] |
 
 **Queue Operations**
 
@@ -55,8 +55,8 @@ $86$
 | dequeue()       | [24]    |
 | enqueue(28)     | [24, 28]|
 | enqueue(32)     | [24, 28, 32]|
-| q = dequeue()   | \(q = 24\), Queue: [28, 32] |
+| q = dequeue()   | $q = 24$, Queue: [28, 32] |
 
-Therefore, \(s = 62\) and \(q = 24\). The value of \(s + q\) is \(62 + 24 = 86\).
+Therefore, $s = 62$ and $q = 24$. The value of $s + q$ is $62 + 24 = 86$.
 
 :::

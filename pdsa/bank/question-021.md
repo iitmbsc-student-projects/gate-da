@@ -42,7 +42,7 @@ $$ T(n) = 2T\left(\frac{n}{2}\right) + 1 $$
 5. $K = \frac{1}{2} \cdot \log_2 n \Rightarrow 2^K = \sqrt{n}$
 6. $T(n) = \log n \cdot T(2) + \log n - 1 = 2\log n + \log n - 1 = \Theta(\log n)$
 
-Therefore, $T(n)$ in terms of $ \Theta $ notation is $ \Theta(\log n) $.
+Therefore, $T(n)$ in terms of $\Theta$ notation is $\Theta(\log n)$.
 
 
 :::

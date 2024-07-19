@@ -31,7 +31,7 @@ Which one of the following options is correct?
 
 
 
-::: {.callout-note title="Answer" collapse=true}
+::: {.callout-note title="Solution" collapse=true}
 
 The Kruskal's algorithm can be used to discover the Minimum Spanning Tree on a graph $G$. When implementing Kruskal's algorithm, edges are sorted by weight, and the smallest edge is chosen first. However, $S1$ is false because the Kruskal's method may not always choose a particular weighted edge if there are multiple copies of it. It does not guarantee the selection of a specific minimum weight edge present in every minimum spanning tree.
 

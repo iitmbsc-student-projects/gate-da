@@ -4,7 +4,7 @@ pagetitle: Question-27
 categories: [Python programming, Heap]
 ---
 
-Which one of the following sequences when stored in an array at locations \(A[1], \ldots, A[10]\) forms a max-heap?
+Which one of the following sequences when stored in an array at locations $A[1], \ldots, A[10]$ forms a max-heap?
 
 - [ ] 23, 17, 10, 6, 13, 14, 1, 5, 7, 12
 - [ ] 23, 17, 14, 7, 13, 10, 1, 5, 6, 12
@@ -39,6 +39,6 @@ When arranged in an array:
 / \  /
 5 6 12
 ```
-The sequence, when represented as a binary tree, follows the max-heap property. Therefore, sequence B forms a max-heap when stored in an array at locations \(A[1], \ldots, A[10]\).
+The sequence, when represented as a binary tree, follows the max-heap property. Therefore, sequence B forms a max-heap when stored in an array at locations $A[1], \ldots, A[10]$.
 
 :::

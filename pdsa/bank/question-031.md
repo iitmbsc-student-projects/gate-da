@@ -4,7 +4,11 @@ pagetitle: Question-31
 categories: [Python programming, Heap]
 ---
 
-Consider the following array of elements 〈89, 19, 50, 17, 12, 15, 2, 5, 7, 11, 6, 9, 100〉. The minimum number of interchanges needed to convert it into a max-heap is
+Consider the following array of elements 
+
+$[89, 19, 50, 17, 12, 15, 2, 5, 7, 11, 6, 9, 100]$
+
+The minimum number of interchanges needed to convert it into a max-heap is
 
 - [ ] 4
 - [ ] 5
