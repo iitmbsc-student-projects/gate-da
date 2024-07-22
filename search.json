@@ -1,72 +1,62 @@
 [
   {
-    "objectID": "prob_stats/bank/question-001.html",
-    "href": "prob_stats/bank/question-001.html",
+    "objectID": "dbms/bank/question-001.html",
+    "href": "dbms/bank/question-001.html",
     "title": "Question-1",
     "section": "",
-    "text": "There are thirteen flights from Delhi to Bangalore, and then six flights from Bangalore to Chennai. Saumya wants to fly from Delhi to Bangalore and then to Chennai. How many choices does she have for her flight plan?\n\n19\n72\n78\n39\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse multiplication rule of counting.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n19\n72\n78\n39\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nDefine action \\(A\\) as flight from Delhi to Bangalore and action \\(B\\) as Bangalore to Chennai. Then, total number of ways of occurrence of \\(A\\) and \\(B\\) is \\(=13\\times 6 = 78\\) ways.",
+    "text": "Consider two relations \\(\\mathbf{s}(A, B, C)\\) and \\(\\mathbf{r}(P, Q, C)\\) such that relation \\(\\mathbf{s}\\) has \\(30\\) rows and relation \\(\\mathbf{r}\\) has \\(12\\) rows. What is the maximum number of rows that are possible in \\(\\mathbf{r} \\bowtie \\mathbf{s}\\)?\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(360\\)",
     "crumbs": [
-      "Probability and Statistics",
+      "DBMS",
       "Bank",
       "Question-1"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-003.html",
-    "href": "prob_stats/bank/question-003.html",
-    "title": "Question-3",
+    "objectID": "linear_algebra/bank/question-012.html",
+    "href": "linear_algebra/bank/question-012.html",
+    "title": "Question-12",
     "section": "",
-    "text": "Out of a group of six men and eight women, you need to form a committee of three men and five women. In how many ways can the committee be formed\\(?\\)\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse the concept of combination.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n1120\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince, we can choose 3 men out of 6 men and 5 women out of 8 women in \\(^6C_3 = 20\\) and \\(^8C_5 = 56\\) ways respectively. Therefore, total number of ways in which committee can be formed = \\(20 \\times 56 = 1120\\).",
-    "crumbs": [
-      "Probability and Statistics",
-      "Bank",
-      "Question-3"
-    ]
-  },
-  {
-    "objectID": "prob_stats/bank/question-006.html",
-    "href": "prob_stats/bank/question-006.html",
-    "title": "Question-6",
-    "section": "",
-    "text": "Out of the students in a class, \\(60\\%\\) do well in mathematics, \\(70\\%\\) do well in physics and \\(50\\%\\) do well in both. Find the probability that a randomly selected student doesn’t do well in both mathematics and physics.\n\n\n\n\n\n\nHint\n\n\n\n\n\nDefine \\(A\\) and \\(B\\) as the following events:\n\n\\(A\\): student does well in mathematics\n\\(B\\): student does well in physics\n\nWhat event are we interested in?\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0.2\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have the following events:\n\n\\(A\\): student does well in maths\n\\(B\\): student does well in physics\n\\(P(A^{c})\\): student doesn’t do well in maths\n\\(P(B^{c})\\): student doesn’t do well in physics\n\\(P(A^{c} \\cap B^{c})\\): student doesn’t do well both maths and physics\n\nUsing DeMorgan’s laws, we have: \\[\nA^{c} \\cap B^{c} = (A \\cup B)^{c}\n\\] This gives us: \\[\n\\begin{aligned}\nP(A^{c} \\cap B^{c}) &= P(A \\cup B)^{c}\\\\\n&= 1 - P(A \\cup B)\\\\\n\\end{aligned}\n\\] We can now compute \\(P(A \\cup B)\\): \\[\n\\begin{aligned}\nP(A \\cup B) &= P(A) + P(B) - P(A \\cap B)\\\\\n&= 0.6 + 0.7 - 0.5\\\\\n&= 0.8\n\\end{aligned}\n\\] The required probability is therefore \\(\\boxed{0.2}\\).",
-    "crumbs": [
-      "Probability and Statistics",
-      "Bank",
-      "Question-6"
-    ]
-  },
-  {
-    "objectID": "prob_stats/index.html",
-    "href": "prob_stats/index.html",
-    "title": "Probability and Statistics",
-    "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in probability and statistics. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nCounting\n\nPermutations and combination\n\nProbability\n\nProbability axioms\nSample space\nEvents\n\nIndependent events\nMutually exclusive events\n\nMarginal, conditional and joint probabilities\nBayes’ Theorem\nConditional expectation\n\nDiscrete random variables\n\nProbability mass functions\n\nUniform\nBernoulli\nBinomial distribution\nPoisson\n\n\nContinuous random variables\n\nProbability distribution functions\n\nUniform\nExponential\nNormal, standard normal\nt-distribution\nchi-squared distribution\n\nCumulative distribution function\nConditional PDF\n\nCentral limit theorem\nImportant statistical quantities\n\nMean, median, mode\nVariance and standard deviation\nCorrelation and covariance\n\nConfidence interval, z-test, t-test, chi-squared test",
-    "crumbs": [
-      "Probability and Statistics"
-    ]
-  },
-  {
-    "objectID": "linear_algebra/bank/question-004.html",
-    "href": "linear_algebra/bank/question-004.html",
-    "title": "Question-4",
-    "section": "",
-    "text": "\\(S\\) is a linearly independent subset of \\(\\mathbb{R}^{4}\\). Select all true statements concerning \\(S\\).\n\n\\(|S| \\leqslant 4\\)\nAny subset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\nAny superset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\n\\(S\\) is a basis for \\(\\mathbb{R}^{4}\\).\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(|S| \\leqslant 4\\)\nAny subset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\nAny superset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\n\\(S\\) is a basis for \\(\\mathbb{R}^{4}\\).\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(S\\) will be a basis for \\(\\mathbb{R}^{4}\\) if and only if \\(|S| = 4\\).",
+    "text": "Assertion: If \\(A^2 + A = I\\), then \\(A^{-1} = A + I\\)\nReason: If \\(A\\) is an \\(m \\times n\\) matrix, \\(B\\) is an \\(n \\times p\\) matrix, with \\(AB = I\\), then \\(A^{-1} = B\\)\n\nAssertion is true and Reason is true. Reason is the correct explanation for Assertion.\nAssertion is true and Reason is true. Reason is not the correct explanation for Assertion.\nBoth Assertion and Reason are false.\nAssertion is true. Reason is False.\nAssertion is false. Reason is true.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nAssertion is true and Reason is true. Reason is the correct explanation for Assertion.\nAssertion is true and Reason is true. Reason is not the correct explanation for Assertion.\nBoth Assertion and Reason are false.\nAssertion is true. Reason is False.\nAssertion is false. Reason is true.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(A^2 + A = I \\implies A(A + I) = I\\). Since \\(A\\) is a square matrix, \\(AB = I \\implies B = A^{-1}\\). So the Assertion is true. The Reason is however a false statement. It is true only if \\(A\\) and \\(B\\) are square matrices. In its current form \\(A\\) and \\(B\\) are not necessarily square.",
     "crumbs": [
       "Linear Algebra",
       "Bank",
-      "Question-4"
+      "Question-12"
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-005.html",
-    "href": "linear_algebra/bank/question-005.html",
-    "title": "Question-5",
+    "objectID": "linear_algebra/bank/question-016.html",
+    "href": "linear_algebra/bank/question-016.html",
+    "title": "Question-16",
     "section": "",
-    "text": "\\(Q\\) is an orthogonal matrix. If \\(||Qu|| = 4\\), what is \\(||u||\\)?\n\n\n\n\n\n\nHint\n\n\n\n\n\nExpand \\(||Qu||^2\\) and use the key property of orthogonal matrices.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(4\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nOrthogonal matrices preserve the inner product: \\[\n\\begin{aligned}\n||Qu||^2 &= (Qu)^T(Qu)\\\\\n&= u^TQ^TQu\\\\\n&= u^TIu\\\\\n&= u^Tu\\\\\n&= ||u||^2\n\\end{aligned}\n\\]",
+    "text": "\\(\\displaystyle x\\) and \\(\\displaystyle y\\) are vectors in \\(\\displaystyle \\mathbb{R}^{n}\\). If \\(\\displaystyle x-y\\) is orthogonal to \\(\\displaystyle x+y\\), comment on the relationship between \\(\\displaystyle ||x||\\) and \\(\\displaystyle ||y||\\).\n\n\\(||x|| = ||y||\\)\n\\(||x|| &gt; ||y||\\)\n\\(||x|| &lt; ||y||\\)\nThere is no relationship between the norms of these two vectors.\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nExpand the dot product of \\(x - y\\) and \\(x + y\\).\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(||x|| = ||y||\\)\n\\(||x|| &gt; ||y||\\)\n\\(||x|| &lt; ||y||\\)\nThere is no relationship between the norms of these two vectors.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf \\(\\displaystyle x-y\\) and \\(\\displaystyle x+y\\) are orthogonal, then we have \\(\\displaystyle \\langle x-y,x+y\\rangle =0\\). From this we get \\(\\displaystyle \\langle x,x\\rangle =\\langle y,y\\rangle \\Longrightarrow ||x||=||y||\\).",
     "crumbs": [
       "Linear Algebra",
       "Bank",
-      "Question-5"
+      "Question-16"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-020.html",
+    "href": "linear_algebra/bank/question-020.html",
+    "title": "Question-20",
+    "section": "",
+    "text": "If \\(A\\) is a real matrix, select all true statements.\n\n\\(A^TA\\) is positive semi-definite.\n\\(A^TA\\) and \\(AA^T\\) have the same eigenvectors.\n\\(A^TA\\) is symmetric if and only if \\(A\\) is symmetric.\n\\(A^TA\\) and \\(AA^T\\) have the same non-zero eigenvalues.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(A^TA\\) is positive semi-definite.\n\\(A^TA\\) and \\(AA^T\\) have the same eigenvectors.\n\\(A^TA\\) is symmetric if and only if \\(A\\) is symmetric.\n\\(A^TA\\) and \\(AA^T\\) have the same non-zero eigenvalues.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet \\(\\displaystyle ( \\lambda ,v)\\) be an eigenpair of of \\(\\displaystyle A^{T} A\\) with \\(\\displaystyle \\lambda \\neq 0\\):\n\\[\n\\begin{aligned}\n\\left( A^{T} A\\right) v & =\\lambda v\\\\\n\\left( AA^{T}\\right) (Av) & =\\lambda ( Av)\\\\\n\\left( AA^{T}\\right)( Av) & =\\lambda ( Av)\n\\end{aligned}\n\\]\nThis is of the form \\(\\displaystyle \\left( AA^{T}\\right) u=\\lambda u\\). For \\(\\displaystyle ( \\lambda ,u)\\) to be an eigenpair of \\(\\displaystyle AA^{T}\\), \\(\\displaystyle u=Av\\) has to be non-zero. To show this, do the following. If \\(\\displaystyle u=Av=0\\), then \\(\\displaystyle A^{T} Av=0\\Longrightarrow \\lambda v=0\\). Since \\(\\displaystyle \\lambda \\neq 0\\), \\(\\displaystyle v=0\\) which contradicts the fact that \\(\\displaystyle ( \\lambda ,v)\\) is an eigenpair of \\(\\displaystyle A^{T} A\\).\n\nLet \\(\\displaystyle ( \\lambda ,v)\\) be an eigenpair of \\(\\displaystyle A^{T} A\\). Then:\n\\[\n\\begin{aligned}\nA^{T} Av & =\\lambda v\\\\\nv^{T} A^{T} Av & =\\lambda \\left( v^{T} v\\right)\\\\\n( Av)^{T}( Av) & =\\lambda \\left( v^{T} v\\right)\\\\\n\\Longrightarrow \\lambda  & =\\frac{||Av||^{2}}{||v||^{2}} \\geqslant 0\n\\end{aligned}\n\\]\nWe can divide by \\(\\displaystyle ||v||^{2}\\) as \\(\\displaystyle v\\neq 0\\) for it is an eigenvector. Since all the eigenvalues of \\(\\displaystyle A^{T} A\\) are non-negative, \\(\\displaystyle A^{T} A\\) is positive semi definite.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-20"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-017.html",
+    "href": "linear_algebra/bank/question-017.html",
+    "title": "Question-17",
+    "section": "",
+    "text": "Does there exist a matrix whose row space contains \\((1, 2, 1)\\) and whose nullspace contains \\((1, -2, 1)\\)?\n\nYes\nNo\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nYes\nNo\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe row space is orthogonal to the null space. To see why:\n\nLet \\(\\displaystyle A=\\begin{bmatrix}- & r_{1}^{T} & - \\\\ & \\vdots  & \\\\-  & r_{n}^{T}&-\\end{bmatrix}\\)\nLet \\(\\displaystyle x\\in \\mathcal{N}( A) \\Longrightarrow Ax=0\\)\nDo this component wise. \\(\\displaystyle r{_{i}}^{T} x=0\\) for \\(\\displaystyle 1\\leqslant i\\leqslant n\\) implying that \\(\\displaystyle x\\) is perpendicular to every row.\nTherefore \\(\\displaystyle x\\) is perpendicular to the row space of \\(\\displaystyle A\\).\nIt follows the row space is orthogonal to the null space of \\(\\displaystyle A\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-17"
     ]
   },
   {
@@ -82,85 +72,99 @@
     ]
   },
   {
-    "objectID": "ai/bank/question-001.html",
-    "href": "ai/bank/question-001.html",
-    "title": "Question-1",
+    "objectID": "linear_algebra/bank/question-023.html",
+    "href": "linear_algebra/bank/question-023.html",
+    "title": "Question-23",
     "section": "",
-    "text": "Let \\(x\\) and \\(y\\) be two propositions. Which of the following statements are tautologies?\n\n\\((\\neg x \\land y) \\implies (y \\implies x)\\)\n\\((x \\land \\neg y) \\implies (\\neg x \\implies y)\\)\n\\((\\neg x \\land y) \\implies (\\neg x \\implies y)\\)\n\\((x \\land \\neg y) \\implies (y \\implies x)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\((\\neg x \\land y) \\implies (y \\implies x)\\)\n\\((x \\land \\neg y) \\implies (\\neg x \\implies y)\\)\n\\((\\neg x \\land y) \\implies (\\neg x \\implies y)\\)\n\\((x \\land \\neg y) \\implies (y \\implies x)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet us view each of these options as \\(P \\implies Q\\). For this to be a tautology, \\(Q\\) should be true whenenever \\(P\\) is true. So we need to look for those values of \\(x, y\\) for which \\(P\\) is true.\n\n\\((\\neg x \\land y) \\implies (y \\implies x)\\)\n\n\\(P\\) is true when \\(x\\) is false and \\(y\\) is true.\n\\(Q\\) would be false.\nThus \\(P \\implies Q\\) is false.\nIt follows that \\(P \\implies Q\\) is not a tautology.\n\n\\((x \\land \\neg y) \\implies (\\neg x \\implies y)\\)\n\n\\(P\\) is true when \\(x\\) is true and \\(y\\) is false.\n\\(Q\\) would be true.\nThus \\(P \\implies Q\\) is true.\nIt follows that \\(P \\implies Q\\) is a tautology.\n\nA similar argument holds for the remaining options.",
+    "text": "Choose the correct options.\n\nThe set \\(\\{(1, 2, 3), (4, 5, 6), (7, 8, 9)\\}\\) is linearly dependent.\nThe set \\(\\{(1, 2, 3), (4, 5, 6), (5, 7, 9)\\}\\) is linearly independent.\nThe set \\(\\{(1, 2, 3), (0, 5, 6), (0, 0, 9)\\}\\) is linearly independent.\nThe set \\(\\{(1, 2, 3), (0, 0, 6), (0, 0, 9)\\}\\) is linearly independent.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThe set \\(\\{(1, 2, 3), (4, 5, 6), (7, 8, 9)\\}\\) is linearly dependent.\nThe set \\(\\{(1, 2, 3), (4, 5, 6), (5, 7, 9)\\}\\) is linearly independent.\nThe set \\(\\{(1, 2, 3), (0, 5, 6), (0, 0, 9)\\}\\) is linearly independent.\nThe set \\(\\{(1, 2, 3), (0, 0, 6), (0, 0, 9)\\}\\) is linearly independent.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nOption-1\nWe have three vectors in \\(\\mathbb{R}^{3}\\). Let us form the matrix with these three vectors as rows: \\[\n\\begin{bmatrix}\n1 & 2 & 3\\\\\n4 & 5 & 6\\\\\n7 & 8 & 9\n\\end{bmatrix}\n\\] We can now perform row reduction: \\[\n\\begin{equation*}\n\\begin{bmatrix}\n1 & 2 & 3\\\\\n4 & 5 & 6\\\\\n7 & 8 & 9\n\\end{bmatrix}\\xrightarrow{R_{2}\\rightarrow R_{2} -R_{1}}\\begin{bmatrix}\n1 & 2 & 3\\\\\n3 & 3 & 3\\\\\n7 & 8 & 9\n\\end{bmatrix}\\xrightarrow{R_{3}\\rightarrow R_{3} -R_{1}}\\begin{bmatrix}\n1 & 2 & 3\\\\\n3 & 3 & 3\\\\\n6 & 6 & 6\n\\end{bmatrix}\n\\end{equation*}\n\\] Note that the third row is a multiple of the second row. Hence the determinant is zero. The vectors are linearly dependent.\nOption-2\nThe third vector in the set is the sum of the first two. Hence this set is linearly dependent.\nOption-3\nAdding these three vectors as the rows of matrix, we see that the matrix has full rank. Hence, the set is linearly independent.\nOption-4\nThe third vector is a multiple of the second. Hence this set is linearly dependent.",
     "crumbs": [
-      "Artificial Intelligence",
+      "Linear Algebra",
       "Bank",
-      "Question-1"
+      "Question-23"
     ]
   },
   {
-    "objectID": "dbms/bank/question-001.html",
-    "href": "dbms/bank/question-001.html",
-    "title": "Question-1",
+    "objectID": "linear_algebra/bank/question-010.html",
+    "href": "linear_algebra/bank/question-010.html",
+    "title": "Question-10",
     "section": "",
-    "text": "Consider two relations \\(\\mathbf{s}(A, B, C)\\) and \\(\\mathbf{r}(P, Q, C)\\) such that relation \\(\\mathbf{s}\\) has \\(30\\) rows and relation \\(\\mathbf{r}\\) has \\(12\\) rows. What is the maximum number of rows that are possible in \\(\\mathbf{r} \\bowtie \\mathbf{s}\\)?\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(360\\)",
+    "text": "Let \\(A\\) and \\(B\\) be two matrices such that \\(AB\\) is defined. Select the most appropriate statement.\n\n\\(\\text{rank}(AB) = \\text{rank}(A) + \\text{rank}(B)\\)\n\\(\\text{rank}(AB) = \\text{rank}(A) \\cdot \\text{rank}(B)\\)\n\\(\\text{rank}(AB) = \\max(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) = \\min(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) \\leq \\max(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) \\leq \\min(\\text{rank}(A), \\text{rank}(B))\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\text{rank}(AB) = \\text{rank}(A) + \\text{rank}(B)\\)\n\\(\\text{rank}(AB) = \\text{rank}(A) \\cdot \\text{rank}(B)\\)\n\\(\\text{rank}(AB) = \\max(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) = \\min(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) \\leq \\max(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) \\leq \\min(\\text{rank}(A), \\text{rank}(B))\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nMatrix multiplication doesn’t increase the rank.",
     "crumbs": [
-      "DBMS",
+      "Linear Algebra",
       "Bank",
-      "Question-1"
+      "Question-10"
     ]
   },
   {
-    "objectID": "papers/GATE-2024/question-35.html",
-    "href": "papers/GATE-2024/question-35.html",
-    "title": "Question-35",
+    "objectID": "linear_algebra/bank/question-005.html",
+    "href": "linear_algebra/bank/question-005.html",
+    "title": "Question-5",
     "section": "",
-    "text": "Consider the \\(3 \\times 3\\) matrix \\(\\mathbf{M} = \\begin{bmatrix}1 & 2 & 3\\\\3 & 1 & 3\\\\4 & 3 & 6\\end{bmatrix}\\). The determinant of \\(\\mathbf{M}^{2} + 12 \\mathbf{M}\\) is ________ .\n\n\n\n\n\n\nHint\n\n\n\n\n\nAdd the first two rows.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nNote the following: \\[\n\\begin{aligned}\n\\mathbf{M}^{2} + 12\\mathbf{M} &= \\mathbf{M}(\\mathbf{M} + 12 \\mathbf{I})\\\\\\\\\n\\implies \\left|\\mathbf{M}^2 + 12 \\mathbf{M} \\right| &= \\left| \\mathbf{M} \\right| \\cdot \\left| \\mathbf{M} + 12 \\mathbf{I} \\right|\\\\\\\\\n\\end{aligned}\n\\] Let us first look at the determinant of \\(\\mathbf{M}\\). Note that the third row of \\(\\mathbf{M}\\) is equal to the sum of the first two rows. Hence, we see that \\(\\left| \\mathbf{M} \\right| = 0\\). It follows that the answer is \\(\\boxed{0}\\).",
+    "text": "\\(Q\\) is an orthogonal matrix. If \\(||Qu|| = 4\\), what is \\(||u||\\)?\n\n\n\n\n\n\nHint\n\n\n\n\n\nExpand \\(||Qu||^2\\) and use the key property of orthogonal matrices.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(4\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nOrthogonal matrices preserve the inner product: \\[\n\\begin{aligned}\n||Qu||^2 &= (Qu)^T(Qu)\\\\\n&= u^TQ^TQu\\\\\n&= u^TIu\\\\\n&= u^Tu\\\\\n&= ||u||^2\n\\end{aligned}\n\\]",
     "crumbs": [
-      "Practice Papers",
-      "GATE-2024",
-      "Question-35"
+      "Linear Algebra",
+      "Bank",
+      "Question-5"
     ]
   },
   {
-    "objectID": "papers/GATE-2024/question-48.html",
-    "href": "papers/GATE-2024/question-48.html",
-    "title": "Question-48",
+    "objectID": "linear_algebra/bank/question-015.html",
+    "href": "linear_algebra/bank/question-015.html",
+    "title": "Question-15",
     "section": "",
-    "text": "Which of the following statements is/are true?\nNote: \\(\\mathbb{R}\\) denotes the set of all real numbers.\n\nThere exist \\(\\mathbf{M} \\in \\mathbb{R}^{3 \\times 3}, \\mathbf{p} \\in \\mathbb{R}^{3}\\) and \\(\\mathbf{q} \\in \\mathbb{R}^{3}\\) such that \\(\\mathbf{Mx} = \\mathbf{p}\\) has a unique solution and \\(\\mathbf{Mx} = \\mathbf{q}\\) has infinite solutions.\nThere exist \\(\\displaystyle \\mathbf{M} \\in \\mathbb{R}^{3\\times 3} ,\\mathbf{p} \\in \\mathbb{R}^{3}\\) and \\(\\displaystyle \\mathbf{q} \\in \\mathbb{R}^{3}\\) such that \\(\\displaystyle \\mathbf{Mx} =\\mathbf{p}\\) has no solutions and \\(\\displaystyle \\mathbf{Mx} =\\mathbf{q}\\) has infinite solutions.\nThere exist \\(\\displaystyle \\mathbf{M} \\in \\mathbb{R}^{2\\times 3} ,\\mathbf{p} \\in \\mathbb{R}^{2}\\) and \\(\\displaystyle \\mathbf{q} \\in \\mathbb{R}^{2}\\) such that \\(\\displaystyle \\mathbf{Mx} =\\mathbf{p}\\) has a unique solution and \\(\\displaystyle \\mathbf{Mx} =\\mathbf{q}\\) has infinite solutions.\nThere exist \\(\\displaystyle \\mathbf{M} \\in \\mathbb{R}^{3\\times 2} ,\\mathbf{p} \\in \\mathbb{R}^{3}\\) and \\(\\displaystyle \\mathbf{q} \\in \\mathbb{R}^{3}\\) such that \\(\\displaystyle \\mathbf{Mx} =\\mathbf{p}\\) has a unique solution and \\(\\displaystyle \\mathbf{Mx} =\\mathbf{q}\\) has no solutions.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThere exist \\(\\mathbf{M} \\in \\mathbb{R}^{3 \\times 3}, \\mathbf{p} \\in \\mathbb{R}^{3}\\) and \\(\\mathbf{q} \\in \\mathbb{R}^{3}\\) such that \\(\\mathbf{Mx} = \\mathbf{p}\\) has a unique solution and \\(\\mathbf{Mx} = \\mathbf{q}\\) has infinite solutions.\nThere exist \\(\\displaystyle \\mathbf{M} \\in \\mathbb{R}^{3\\times 3} ,\\mathbf{p} \\in \\mathbb{R}^{3}\\) and \\(\\displaystyle \\mathbf{q} \\in \\mathbb{R}^{3}\\) such that \\(\\displaystyle \\mathbf{Mx} =\\mathbf{p}\\) has no solutions and \\(\\displaystyle \\mathbf{Mx} =\\mathbf{q}\\) has infinite solutions.\nThere exist \\(\\displaystyle \\mathbf{M} \\in \\mathbb{R}^{2\\times 3} ,\\mathbf{p} \\in \\mathbb{R}^{2}\\) and \\(\\displaystyle \\mathbf{q} \\in \\mathbb{R}^{2}\\) such that \\(\\displaystyle \\mathbf{Mx} =\\mathbf{p}\\) has a unique solution and \\(\\displaystyle \\mathbf{Mx} =\\mathbf{q}\\) has infinite solutions.\nThere exist \\(\\displaystyle \\mathbf{M} \\in \\mathbb{R}^{3\\times 2} ,\\mathbf{p} \\in \\mathbb{R}^{3}\\) and \\(\\displaystyle \\mathbf{q} \\in \\mathbb{R}^{3}\\) such that \\(\\displaystyle \\mathbf{Mx} =\\mathbf{p}\\) has a unique solution and \\(\\displaystyle \\mathbf{Mx} =\\mathbf{q}\\) has no solutions.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe key to solving this problem is to note the following facts about a general system \\(Ax = b\\), where \\(A \\in \\mathbb{R}^{m \\times n}\\) , \\(b \\in \\mathbb{R}^m\\):\n\n\\(Ax = b\\) has a solution if \\(b\\) is in the column space of \\(A\\).\nIf \\(Ax = b\\) has a solution, it is unique if and only if the columns of \\(A\\) are linearly independent.\nThe columns of \\(A\\) are linearly independent if and only if \\(A\\) has full column rank.\n\nThus we can divide the problem into three cases:\nCase-1: \\(m &gt; n\\)\nIf \\(A\\) has full column rank, we can always find:\n\n\\(b_1\\), some vector in the column space\n\\(b_2\\), some vector not in the column space\n\nThe first leads to a unique solution and the next gives no solution.\nIf \\(A\\) is rank deficient, we can always find:\n\n\\(b_1\\), some vector in the column space\n\\(b_2\\), some vector not in the column space\n\nThe first leads to infinite solutions and the next gives no solution.\nCase-2: \\(m = n\\)\nIf \\(A\\) has full column rank, we are guaranteed a unique solution for any \\(b\\).\nIf \\(A\\) is rank deficient, the analysis is similar to the second point in case-1\nCase-3: \\(m &lt; n\\)\nWe can never get a unique solution as this system can never have full column rank. But we can still end up with a situation similar to the second point in case-1.",
+    "text": "Let \\(\\mathbb{R}^{n \\times n}\\) be the vector space of \\(n \\times n\\) matrices with the usual matrix addition and scalar multiplication defined on matrices. Let \\(\\mathcal{L}\\) be the subspace of all \\(n \\times n\\) lower triangular matrices and \\(\\mathcal{U}\\) be the subspace of all \\(n \\times n\\) upper triangular matrices. Select all true statements.\n\n\\(\\mathcal{L} \\cap \\mathcal{U}\\) contains just the zero matrix.\nThe dimension of \\(\\mathcal{L}\\) is \\(\\cfrac{n(n + 1)}{2}\\)\nThe dimension of \\(\\mathcal{U}\\) is \\(n^2\\)\n\\(\\mathcal{L}\\) and \\(\\mathcal{U}\\) are isomorhpic subspaces of \\(\\mathbb{R}^{n \\times n}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\mathcal{L} \\cap \\mathcal{U}\\) contains just the zero matrix.\nThe dimension of \\(\\mathcal{L}\\) is \\(\\cfrac{n(n + 1)}{2}\\)\nThe dimension of \\(\\mathcal{U}\\) is \\(n^2\\)\n\\(\\mathcal{L}\\) and \\(\\mathcal{U}\\) are isomorhpic subspaces of \\(\\mathbb{R}^{n \\times n}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIn a lower(upper) triangular matrix, \\(\\cfrac{n(n + 1)}{2}\\) elements can be non-zero and the rest have to be zero. The dimension of the space follows. Every upper triangular matrix in \\(\\mathcal{U}\\) can be mapped to its transpose in \\(\\mathcal{L}\\). This specifies an isomorphism between the two spaces. Every diagonal matrix is both upper triangular and lower triangular. Hence \\(\\mathcal{L} \\cap \\mathcal{U}\\) is actually more numerous than just the singleton set. In fact, the intersection of these two subspaces is the subspace made up of all \\(n \\times n\\) diagonal matrices.",
     "crumbs": [
-      "Practice Papers",
-      "GATE-2024",
-      "Question-48"
+      "Linear Algebra",
+      "Bank",
+      "Question-15"
     ]
   },
   {
-    "objectID": "papers/GATE-2024/question-49.html",
-    "href": "papers/GATE-2024/question-49.html",
-    "title": "Question-49",
+    "objectID": "linear_algebra/bank/question-018.html",
+    "href": "linear_algebra/bank/question-018.html",
+    "title": "Question-18",
     "section": "",
-    "text": "Let \\(\\mathbb{R}\\) be the set of real numbers, \\(U\\) be a subspace of \\(\\mathbb{R}^3\\) and \\(\\mathbf{M} \\in \\mathbb{R}^{3 \\times 3}\\) be the matrix corresponding to the projection on to the subspace \\(U\\). Which of the following statements is/are true?\n\nIf \\(U\\) is a 1-dimensional subspace of \\(\\mathbb{R}^3\\), then the null space of \\(\\mathbf{M}\\) is a one-dimensional subspace.\nIf \\(U\\) is a 2-dimensional subspace of \\(\\mathbb{R}^3\\), then the null space of \\(\\mathbf{M}\\) is a one-dimensional subspace.\n\\(\\mathbf{M}^2 = \\mathbf{M}\\)\n\\(\\mathbf{M}^3 = \\mathbf{M}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf \\(U\\) is a 1-dimensional subspace of \\(\\mathbb{R}^3\\), then the null space of \\(\\mathbf{M}\\) is a one-dimensional subspace.\nIf \\(U\\) is a 2-dimensional subspace of \\(\\mathbb{R}^3\\), then the null space of \\(\\mathbf{M}\\) is a one-dimensional subspace.\n\\(\\mathbf{M}^2 = \\mathbf{M}\\)\n\\(\\mathbf{M}^3 = \\mathbf{M}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\nSince \\(\\mathbf{M}\\) is a projection matrix, its column space is \\(U\\) and its null space is \\(U^{\\perp}\\). If the dimension of \\(U\\) is \\(k\\), the dimension of the null space is \\(3 - k\\).\nFor a projection matrix, \\(\\mathbf{M}^{2} = \\mathbf{M}\\). It follows that \\(\\mathbf{M}^{3} = \\mathbf{M}\\).",
+    "text": "If \\(Ax = b\\) has a solution and \\(A^Ty = 0\\), what is the value of \\(y^T b\\)?\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\nLet \\(\\displaystyle u\\) be a solution to the system, then \\(\\displaystyle Au=b\\).\n\\(\\displaystyle b^{T} y=( Au)^{T} y=u^{T} A^{T} y=0\\)",
     "crumbs": [
-      "Practice Papers",
-      "GATE-2024",
-      "Question-49"
+      "Linear Algebra",
+      "Bank",
+      "Question-18"
     ]
   },
   {
-    "objectID": "papers/GATE-2024/index.html",
-    "href": "papers/GATE-2024/index.html",
-    "title": "GATE-2024",
+    "objectID": "linear_algebra/bank/question-022.html",
+    "href": "linear_algebra/bank/question-022.html",
+    "title": "Question-22",
     "section": "",
-    "text": "The duration of the paper is \\(3\\) hours and it has two parts:\n\nGeneral aptitude for \\(15\\) marks\nData science and AI for \\(85\\) marks\n\nThe finer distribution of marks is given below:\n\n\n\nSection\nQuestion range\nIndividual marks\nTotal marks\n\n\n\n\nGA\n\\(1\\) to \\(5\\)\n\\(1\\)\n\\(5\\)\n\n\nGA\n\\(6\\) to \\(10\\)\n\\(2\\)\n\\(10\\)\n\n\nDA\n\\(11\\) to \\(35\\)\n\\(1\\)\n\\(25\\)\n\n\nDA\n\\(36\\) to \\(65\\)\n\\(2\\)\n\\(60\\)\n\n\n\nThe questions are either MCQ, MSQ or NAT.\nPoints to remember\n\nMCQ has negative marking of \\(1/3\\)rd the marks for that question\nMSQ doesn’t have partial marking.\nMSQ and NAT do not have negative marking.\n\nGeneral suggestions\n\n\\(65\\) questions is quite a lot for \\(3\\) hours.\nDon’t get stuck in a question that doesn’t fall within your comfort zone.\nEnsure that you read all \\(65\\) questions. It might happen that easy questions are hiding at the end of the paper.\nSequence the seven topics in the decreasing order of your comfort with them. Attempt the questions in the exam in this order.",
+    "text": "Let \\(T: \\mathbb{R}^{3} \\rightarrow \\mathbb{R}\\) be a function. Select all linear transformations.\n\n\\(T(v) = ||v||\\)\n\\(T(v) = v_1 + v_2 + v_3\\), where \\(v = (v_1, v_2, v_3)\\)\n\\(T(v) = \\text{smallest component of } v\\)\n\\(T(v) = 0\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(T(v) = ||v||\\)\n\\(T(v) = v_1 + v_2 + v_3\\), where \\(v = (v_1, v_2, v_3)\\)\n\\(T(v) = \\text{smallest component of } v\\)\n\\(T(v) = 0\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe correct options are quite easy to see. Let us see why the incorrect options are not linear transformations.\nOption-1\nThis doesn’t satisfy \\(T(cv) = cT(v)\\). For example, \\(T(-v) = ||v||\\) and not \\(-||v||\\).\nOption-3\nThis doesn’t satisfy \\(T(cv) = cT(v)\\). For example, \\(v = (1, 2, 3)\\). Here \\(T(v) = 1\\). But \\(T(-v) = -3\\) and not \\(-1\\).",
     "crumbs": [
-      "Practice Papers",
-      "GATE-2024"
+      "Linear Algebra",
+      "Bank",
+      "Question-22"
     ]
   },
   {
-    "objectID": "templates/code_support.html",
-    "href": "templates/code_support.html",
-    "title": "Code Support",
+    "objectID": "linear_algebra/bank/question-025.html",
+    "href": "linear_algebra/bank/question-025.html",
+    "title": "Question-25",
     "section": "",
-    "text": "This is a snippet of Python code:\ndef printer(n):\n    for x in range(n):\n        print(x)\nTo refer to inline elements, use x.",
+    "text": "Consider the following system of linear equations:\n\\[\n\\begin{aligned}\nx_1 - 3x_2 &= 4\\\\\n3x_1 + kx_2 &= -12\n\\end{aligned}\n\\]\nwhere \\(k \\in \\mathbb{R}\\). If the given system has a unique solution then \\(k\\) should not be equal to \\(----\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(-9\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nFor the system to have a unique solution we have:\n\\[\n\\frac{1}{3} \\neq \\frac{-3}{k} \\Longrightarrow k\\neq -9\n\\]",
     "crumbs": [
-      "Templates",
-      "Code Support"
+      "Linear Algebra",
+      "Bank",
+      "Question-25"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-011.html",
+    "href": "linear_algebra/bank/question-011.html",
+    "title": "Question-11",
+    "section": "",
+    "text": "\\(A\\) and \\(B\\) are two square matrices. Select all correct options.\n\nIf \\(A\\) and \\(B\\) are similar then they have the same rank.\nIf \\(A\\) and \\(B\\) have the same rank then they are similar.\nIf \\(A\\) and \\(B\\) have the same trace, then \\(A\\) and \\(B\\) are similar.\nAny two diagonal matrices are similar.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf \\(A\\) and \\(B\\) are similar then they have the same rank.\nIf \\(A\\) and \\(B\\) have the same rank then they are similar.\nIf \\(A\\) and \\(B\\) have the same trace, then \\(A\\) and \\(B\\) are similar.\nAny two diagonal matrices are similar.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf \\(A\\) and \\(B\\) are similar, then we have \\(B = P^{-1} A P\\) for some invertible matrix \\(P\\). Multiplying by an invertible matrix doesn’t change the rank, hence the rank of \\(A\\) and \\(B\\) are the same. Alternatively, we can view \\(A\\) and \\(B\\) as matrix representations of a common linear map \\(T\\). The rank of \\(A\\) is equal to the rank of \\(T\\) which is in turn equal to the rank of \\(B\\).\nCounter example for option-2 \\[\nA = 3I, B = 5I\n\\] \\(A\\) and \\(B\\) have the same rank but are not similar. The only matrix similar to a scalar matrix is the matrix itself.\nCounter example for option-3 \\[\nA = \\begin{bmatrix}\n2 & 0\\\\\n0 & 0\n\\end{bmatrix}, B = \\begin{bmatrix}\n1 & 0\\\\\n0 & 1\n\\end{bmatrix}\n\\] \\(A\\) and \\(B\\) have the same trace but are not similar. This serves as a counter example for option-4 as well.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-11"
     ]
   },
   {
@@ -172,148 +176,6 @@
     "crumbs": [
       "Templates",
       "MCQ and MSQ"
-    ]
-  },
-  {
-    "objectID": "templates/index.html",
-    "href": "templates/index.html",
-    "title": "Templates",
-    "section": "",
-    "text": "This section has some custom templates that can be used to frame questions.",
-    "crumbs": [
-      "Templates"
-    ]
-  },
-  {
-    "objectID": "machine_learning/index.html",
-    "href": "machine_learning/index.html",
-    "title": "Machine Learning",
-    "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in machine learning. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nSupervised Learning\n\nRegression\n\nSimple linear regression,\nMultiple linear regression,\nRidge regression\n\nClassification\n\nLogistic regression\nK-NN\nNaive Bayes\nLinear discriminant analysis (LDA)\nSupport vector machines (SVM)\nDecision trees\nMulti-layer perceptron (MLP)\nFeed-forward neural network (ANN)\n\nBias-variance trade-off\nCross-validation\n\nLeave-one-out (LOO) cross-validation\nK-fold cross-validation\n\n\nUnsupervised Learning\n\nClustering algorithms\n\nk-means\nk-medoid,\nhierarchical clustering\n\ntop-down\nbottom-up\nsingle-linkage\nmulti-linkage\n\n\nDimensionality reduction\n\nprincipal component analysis.",
-    "crumbs": [
-      "Machine Learning"
-    ]
-  },
-  {
-    "objectID": "pdsa/bank/question-001.html",
-    "href": "pdsa/bank/question-001.html",
-    "title": "Question-1",
-    "section": "",
-    "text": "What is the output of the following snippet of code?\ndef foo(n):\n    if n % 2 == 0:\n        return n // 2\n    return 3 * n + 1\n\ncount = 0\nx = 10\nwhile x != 1:\n    x = foo(x)\n    count += 1\nprint(count)\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(6\\)",
-    "crumbs": [
-      "PDSA",
-      "Bank",
-      "Question-1"
-    ]
-  },
-  {
-    "objectID": "calculus/bank/question-001.html",
-    "href": "calculus/bank/question-001.html",
-    "title": "Question-1",
-    "section": "",
-    "text": "Let \\(f\\) and \\(g\\) be two real valued functions such that \\(g(x) = f(x) - 2\\). Select all true options.\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\nHint\n\n\n\n\n\n\nAn odd function is one that satisfies \\(f(-x) = -f(x)\\) for all \\(x \\in \\mathbb{R}\\).\nAn even function is one that satisfies \\(f(-x) = f(x)\\) for all \\(x \\in \\mathbb{R}\\).\n\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf \\(f\\) is odd, then \\(f(-x) = -f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= -f(x) - 2\\\\\n&= -[f(x) + 2]\n\\end{aligned}\n\\] This doesn’t allow us to conclude anything about the nature of \\(g\\). A simple counter-example will show that if \\(f\\) is odd, \\(g\\) need not be odd. For instance, if \\(f(x)= x\\), we have \\(g(x) = x - 2\\), which is neither odd nor even.\nIf \\(f\\) is even, then \\(f(-x) = f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= f(x) - 2\\\\\n&= g(x)\n\\end{aligned}\n\\] Therefore, if \\(f\\) is even, then \\(g\\) is also even. A similar argument holds for the case when \\(g\\) is even.",
-    "crumbs": [
-      "Calculus and Optimization",
-      "Bank",
-      "Question-1"
-    ]
-  },
-  {
-    "objectID": "calculus/bank/question-003.html",
-    "href": "calculus/bank/question-003.html",
-    "title": "Question-3",
-    "section": "",
-    "text": "Evaluate the following limit:\n\\[\n\\lim_{x \\rightarrow \\infty} \\sqrt{x^2 + x + 1} - \\sqrt{x^2 + 1}\n\\]\n\n\n\n\n\n\nHint\n\n\n\n\n\nNormalize the numerator.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0.5\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\[\n\\begin{aligned}\n    \\lim_{x \\rightarrow \\infty} \\sqrt{x^2 + x + 1} - \\sqrt{x^2 + 1} &= \\lim_{x \\rightarrow \\infty} \\cfrac{(x^2 + x + 1) - (x^2 + 1)}{\\sqrt{x^2 + x + 1} + \\sqrt{x^2 + 1}}\\\\\\\\\n    &= \\lim_{x \\rightarrow \\infty} \\cfrac{x}{\\sqrt{x^2 + x + 1} + \\sqrt{x^2 + 1}}\\\\\\\\\n    &= \\lim_{x \\rightarrow \\infty} \\cfrac{1}{\\sqrt{1 + \\frac{1}{x} + \\frac{1}{x^2}} + \\sqrt{1 + \\frac{1}{x^2}}}\\\\\\\\\n    &= \\cfrac{1}{2}\n\\end{aligned}\n\\]",
-    "crumbs": [
-      "Calculus and Optimization",
-      "Bank",
-      "Question-3"
-    ]
-  },
-  {
-    "objectID": "calculus/bank/question-002.html",
-    "href": "calculus/bank/question-002.html",
-    "title": "Question-2",
-    "section": "",
-    "text": "Evaluate the following limit:\n\\[\n\\lim_{x \\rightarrow 2} \\cfrac{x^6 -24x -16}{x^3 +2x - 12}\n\\]\n\n\n\n\n\n\nHint\n\n\n\n\n\nL’Hopital’s rule\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(12\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThis limit has \\(\\cfrac{0}{0}\\) form. So we can try the L’Hopital’s rule. \\[\n\\begin{aligned}\n\\lim \\limits_{x \\rightarrow 2} \\cfrac{x^6 -24x -16}{x^3 +2x - 12} &= \\lim \\limits_{x \\rightarrow 2} \\cfrac{6x^5 -24}{3x^2 + 2} = 12\n\\end{aligned}\n\\] Note that the L’Hopital rule works here because the quotient of the derivatives of the numerator and denominator exists and is equal to \\(12\\). For all the conditions that have to be satisfied to apply the rule, check this Wikipedia entry.",
-    "crumbs": [
-      "Calculus and Optimization",
-      "Bank",
-      "Question-2"
-    ]
-  },
-  {
-    "objectID": "calculus/index.html",
-    "href": "calculus/index.html",
-    "title": "Calculus and Optimization",
-    "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in calculus and optimization. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nFunctions of a single variable\nLimit\nContinuity\nDifferentiability\nTaylor series\nMaxima and minima\nOptimization involving a single variable",
-    "crumbs": [
-      "Calculus and Optimization"
-    ]
-  },
-  {
-    "objectID": "calculus/bank/question-005.html",
-    "href": "calculus/bank/question-005.html",
-    "title": "Question-5",
-    "section": "",
-    "text": "Define a function \\(f\\) as follows:\n\\[\n\\begin{aligned}\n    f(x) = \\begin{cases}\n               kx^2+l, & \\text{if } x \\leqslant 1\\\\\n              lx^2+kx+m, & \\text{if } x &gt; 1\n          \\end{cases}\n\\end{aligned}\n\\]\nIf \\(f\\) is continuous and differentible at \\(x=1\\), find the value of \\(k-2l+m\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince \\(f\\) is continuous at \\(x = 1\\), we have:\n\\[\nk + l = l + k + m \\implies m = 0\n\\]\nSince \\(f\\) is differentiable at \\(x = 1\\), we have:\n\\[\n2k = 2l + k \\implies k = 2l\n\\]\nFrom this, we see that \\(k - 2l + m = 0\\)",
-    "crumbs": [
-      "Calculus and Optimization",
-      "Bank",
-      "Question-5"
-    ]
-  },
-  {
-    "objectID": "calculus/bank/question-004.html",
-    "href": "calculus/bank/question-004.html",
-    "title": "Question-4",
-    "section": "",
-    "text": "Find the global minima of the function \\(f(x) =  2x^3 - 9x^2 + 12x + 6\\) in the interval \\((1, 3)\\). You need to enter the value of \\(x^{*}\\) and not the value of \\(f(x^{*})\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(2\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have \\(f^{\\prime}(x) = 6x^2 - 18x + 12 = 6(x - 1)(x - 2)\\) and \\(f^{\\prime \\prime}(x) = 6(2x - 3)\\). The point \\(x = 1\\) corresponds to a local maxima and \\(x = 2\\) is a local minima. \\(f(1) = 11\\) and \\(f(2) = 10\\) and \\(f(3) = 15\\). The function decreases from \\(x = 1\\) to \\(x = 2\\), attains a minima at \\(x = 2\\) and then increases from \\(x = 2\\) to \\(x = 3\\). From this, we can conclude that \\(x = 2\\) is the global minima of \\(f\\) in the open interval \\((1, 3)\\).",
-    "crumbs": [
-      "Calculus and Optimization",
-      "Bank",
-      "Question-4"
-    ]
-  },
-  {
-    "objectID": "pdsa/index.html",
-    "href": "pdsa/index.html",
-    "title": "PDSA",
-    "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in programming, data structures and algorithms. All questions have answers, some may have hints and solutions.",
-    "crumbs": [
-      "PDSA"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "GATE-DA",
-    "section": "",
-    "text": "Welcome! The DA paper was first introduced in the year 2024. The duration of the exam is \\(3\\) hours. An overview of the syllabus:\n\nCalculus and Optimization\nLinear Algebra\nProbability and Statistics\nMachine Learning\nArtificial Intelligence\nProgramming, Data Structures and Algorithms\nDatabase Management Systems\n\nYou can use the sidebar to navigate through the different topics."
-  },
-  {
-    "objectID": "machine_learning/bank/question-001.html",
-    "href": "machine_learning/bank/question-001.html",
-    "title": "Question-1",
-    "section": "",
-    "text": "\\(\\mathbf{w} = \\begin{bmatrix}1 \\\\ 2 \\\\ 3\\end{bmatrix}\\) is the weight vector of a linear classifier for a binary classification problem whose labels lie in the set \\(\\{0, 1\\}\\). If the bias of the classifier is set to \\(0\\), which of the following is the equation of the decision boundary for this classifier?\n\n\\(x_1 + 2x_2 + 3x_3 = 1\\)\n\\(x_1 + 2x_2 + 3x_3 = -1\\)\n\\(x_1 + 2x_2 + 3x_3 = 0\\)\n\\(x_1 - 2x_3 + 3x_3 = 0\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(x_1 + 2x_2 + 3x_3 = 1\\)\n\\(x_1 + 2x_2 + 3x_3 = -1\\)\n\\(x_1 + 2x_2 + 3x_3 = 0\\)\n\\(x_1 - 2x_3 + 3x_3 = 0\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe decision boundary for a linear classifier is given by \\(\\mathbf{w}^{T} \\mathbf{x} + b = 0\\). Since \\(b = 0\\), this just becomes \\(\\mathbf{w}^{T} \\mathbf{x} = 0\\) which results in \\(x_1 + 2x_2 + 3x_3 = 0\\).",
-    "crumbs": [
-      "Machine Learning",
-      "Bank",
-      "Question-1"
-    ]
-  },
-  {
-    "objectID": "templates/NAT.html",
-    "href": "templates/NAT.html",
-    "title": "NAT",
-    "section": "",
-    "text": "Enter your question here.\n\n\n\n\n\n\nHint\n\n\n\n\n\nSuggest one or two steps that could lead to the solution.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\nEnter the correct number here.\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nEnter the solution here.",
-    "crumbs": [
-      "Templates",
-      "NAT"
     ]
   },
   {
@@ -405,115 +267,37 @@
     ]
   },
   {
-    "objectID": "papers/index.html",
-    "href": "papers/index.html",
-    "title": "Practice Papers",
+    "objectID": "templates/index.html",
+    "href": "templates/index.html",
+    "title": "Templates",
     "section": "",
-    "text": "This section will have a collection of practice papers. To begin with, it includes the GATE paper for the year \\(2024\\).",
+    "text": "This section has some custom templates that can be used to frame questions.",
     "crumbs": [
-      "Practice Papers"
+      "Templates"
     ]
   },
   {
-    "objectID": "papers/GATE-2024/question-13.html",
-    "href": "papers/GATE-2024/question-13.html",
-    "title": "Question-13",
+    "objectID": "prob_stats/bank/question-016.html",
+    "href": "prob_stats/bank/question-016.html",
+    "title": "Question-16",
     "section": "",
-    "text": "Consider the matrix \\(\\mathbf{M} = \\begin{bmatrix}2 & -1\\\\3 & 1\\end{bmatrix}\\). Which one of the following statements is true?\n\nThe eigenvalues of \\(\\mathbf{M}\\) are non-negative and real.\nThe eigenvalues of \\(\\mathbf{M}\\) are complex conjugate pairs.\nOne eigenvalue of \\(\\mathbf{M}\\) is positive and real, and another eigenvalue of \\(\\mathbf{M}\\) is zero.\nOne eigenvalue of \\(\\mathbf{M}\\) is non-negative and real, and another eigenvalue of \\(\\mathbf{M}\\) is negative and real\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThe eigenvalues of \\(\\mathbf{M}\\) are non-negative and real.\nThe eigenvalues of \\(\\mathbf{M}\\) are complex conjugate pairs.\nOne eigenvalue of \\(\\mathbf{M}\\) is positive and real, and another eigenvalue of \\(\\mathbf{M}\\) is zero.\nOne eigenvalue of \\(\\mathbf{M}\\) is non-negative and real, and another eigenvalue of \\(\\mathbf{M}\\) is negative and real\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe can compute the eigenvalues with the help of the characteristic polynomial: \\[\n\\begin{aligned}\n\\begin{vmatrix}\n2 - \\lambda & -1\\\\\n3 & 1 - \\lambda\n\\end{vmatrix} &= 0\\\\\\\\\n(2 - \\lambda)(1 - \\lambda) + 3 &= 0\\\\\\\\\n\\lambda^2 -3 \\lambda + 5 &= 0\\\\\\\\\n\\end{aligned}\n\\] We see that the discriminant of the quadratic equation is negative. Hence, the eigenvalues are complex conjugate pairs.",
+    "text": "A person has bought a bed from an online furniture store. The seller delivers the disassembled bed parts along with some screws to assemble it. The probability of a screw being defective is 0.1 independent of all other screws. To compensate for the manufacturing error, the seller sends two extra screws in the package where the bed needs exactly 8 screws to assemble. What is the probability that the buyer will be able to assemble the bed? (Enter the answer up to 2 decimal accuracy)\n\n\n\n\n\n\nHint\n\n\n\n\n\nBinomial distribution\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.93\n\n\n\n\n\n\n\n\n\nSolution",
     "crumbs": [
-      "Practice Papers",
-      "GATE-2024",
-      "Question-13"
+      "Probability and Statistics",
+      "Bank",
+      "Question-16"
     ]
   },
   {
-    "objectID": "papers/GATE-2024/question-47.html",
-    "href": "papers/GATE-2024/question-47.html",
-    "title": "Question-47",
-    "section": "",
-    "text": "Select all choices that are subspaces of \\(\\mathbb{R}^{3}\\).\nNote: \\(\\mathbb{R}\\) denotes the set of real numbers.\n\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ \\mathbf{x} = \\alpha \\begin{bmatrix}1 \\\\ 1 \\\\ 0\\end{bmatrix} + \\beta \\begin{bmatrix}1 \\\\ 0 \\\\ 0\\end{bmatrix},\\ \\alpha, \\beta \\in \\mathbb{R} \\right\\}\\)\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ \\mathbf{x} = \\alpha^2 \\begin{bmatrix}1 \\\\ 2 \\\\ 0\\end{bmatrix} + \\beta^2 \\begin{bmatrix}1 \\\\ 0 \\\\ 1\\end{bmatrix},\\ \\alpha, \\beta \\in \\mathbb{R} \\right\\}\\)\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ 5x_1 + 2x_3 = 0,\\ 4x_1-2x_2+3x_3=0 \\right\\}\\)\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ 5x_1 + 2x_3 + 4 = 0 \\right\\}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ \\mathbf{x} = \\alpha \\begin{bmatrix}1 \\\\ 1 \\\\ 0\\end{bmatrix} + \\beta \\begin{bmatrix}1 \\\\ 0 \\\\ 0\\end{bmatrix},\\ \\alpha, \\beta \\in \\mathbb{R} \\right\\}\\)\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ \\mathbf{x} = \\alpha^2 \\begin{bmatrix}1 \\\\ 2 \\\\ 0\\end{bmatrix} + \\beta^2 \\begin{bmatrix}1 \\\\ 0 \\\\ 1\\end{bmatrix},\\ \\alpha, \\beta \\in \\mathbb{R} \\right\\}\\)\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ 5x_1 + 2x_3 = 0,\\ 4x_1-2x_2+3x_3=0 \\right\\}\\)\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ 5x_1 + 2x_3 + 4 = 0 \\right\\}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nOption-1 \\[\n\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ \\mathbf{x} = \\alpha \\begin{bmatrix}1 \\\\ 1 \\\\ 0\\end{bmatrix} + \\beta \\begin{bmatrix}1 \\\\ 0 \\\\ 0\\end{bmatrix},\\ \\alpha, \\beta \\in \\mathbb{R} \\right\\}\n\\] This can be expressed as the span of the vectors \\(\\begin{bmatrix}1 \\\\ 1 \\\\ 0\\end{bmatrix}, \\begin{bmatrix}1 \\\\ 0 \\\\ 0\\end{bmatrix}\\) and is a subspace. Geometrically, this is a plane in \\(\\mathbb{R}^{3}\\) passing through the origin.\nOption-2 \\[\n\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ \\mathbf{x} = \\alpha^2 \\begin{bmatrix}1 \\\\ 2 \\\\ 0\\end{bmatrix} + \\beta^2 \\begin{bmatrix}1 \\\\ 0 \\\\ 1\\end{bmatrix},\\ \\alpha, \\beta \\in \\mathbb{R} \\right\\}\n\\]\nThis is not a subspace as it is not closed under scalar multiplication. For instance, \\(\\begin{bmatrix}1 \\\\ 2 \\\\ 0\\end{bmatrix}\\) is an element of the set, but \\(\\begin{bmatrix}-1 \\\\ -2 \\\\ 0\\end{bmatrix}\\) isn’t.\nOption-3 \\[\n\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ 5x_1 + 2x_3 = 0,\\ 4x_1-2x_2+3x_3=0 \\right\\}\n\\] This is the intersection of two planes and is hence a subspace of \\(\\mathbb{R}^{3}\\).\nOption-4 \\[\n\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ 5x_1 + 2x_3 + 4 = 0 \\right\\}\n\\] This is not a subspace of \\(\\mathbb{R}^{3}\\) as it doesn’t contain the zero vector.",
-    "crumbs": [
-      "Practice Papers",
-      "GATE-2024",
-      "Question-47"
-    ]
-  },
-  {
-    "objectID": "papers/GATE-2024/question-61.html",
-    "href": "papers/GATE-2024/question-61.html",
-    "title": "Question-61",
-    "section": "",
-    "text": "Let \\(\\mathbf{u} = \\begin{bmatrix}1\\\\2\\\\3\\\\4\\\\5\\end{bmatrix}\\) and let \\(\\sigma_1, \\sigma_2, \\sigma_3, \\sigma_4, \\sigma_5\\) be the singular values of the matrix \\(\\mathbf{M} = \\mathbf{u} \\mathbf{u}^T\\) (where \\(\\mathbf{u}^T\\) is the transpose of \\(\\mathbf{u}\\)). The value of \\(\\sum \\limits_{i = 1}^{5} \\sigma_i\\) is ________.\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(55\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSome useful results:\n\nA matrix \\(A\\) of rank \\(r\\) has \\(r\\) positive singular values.\nThe first \\(r\\) eigenvalues of \\(A^TA\\) are the squares of the first \\(r\\) singular values.\nA matrix of the form \\(u u^T\\) is unit rank.\n\\((||u||^2, u)\\) is an eigenpair of \\(uu^T\\). In fact, \\(||u||^2\\) is the only eigenvalue for this matrix.\nIf \\(\\lambda\\) is an eigenvalue of \\(A\\), \\(n\\lambda\\) is an eigenvalue of \\(nA\\).\n\nWith these results, we see that \\(M\\) has exactly one non-zero singular value, namely \\(\\sigma_1\\), assuming it is the largest of the lot. The rest are zero. The largest eigenvalue of \\(M^TM\\) is therefore \\(\\sigma_1^2\\). Since \\(M = uu^T\\), \\(M^TM = ||u||^2 M\\). From the RHS, we gather that the largest singular value of \\(M^TM\\) is \\(||u||^4\\). This leads us to: \\[\n\\sigma_1^2 = ||u||^4 \\implies \\sigma_1 = ||u||^2\n\\] Since \\(||u||^2 = 55\\), \\(\\sum \\limits_{i = 1}^{5} \\sigma_i = 55\\).",
-    "crumbs": [
-      "Practice Papers",
-      "GATE-2024",
-      "Question-61"
-    ]
-  },
-  {
-    "objectID": "dbms/index.html",
-    "href": "dbms/index.html",
-    "title": "DBMS",
-    "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in DBMS. All questions have answers, some may have hints and solutions.",
-    "crumbs": [
-      "DBMS"
-    ]
-  },
-  {
-    "objectID": "ai/index.html",
-    "href": "ai/index.html",
-    "title": "Artificial Intelligence",
-    "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in artificial intelligence. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nSearch\n\nInformed\nUninformed\nAdversarial\n\nLogic\n\nPropositional\nPredicate\n\nReasoning under uncertainty\n\nConditional independence representation,\nExact inference through variable elimination\nApproximate inference through sampling",
-    "crumbs": [
-      "Artificial Intelligence"
-    ]
-  },
-  {
-    "objectID": "linear_algebra/index.html",
-    "href": "linear_algebra/index.html",
-    "title": "Linear Algebra",
-    "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in linear algebra. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nVector spaces\nSubspaces\nLinear dependence and independence\nMatrices\nDeterminant\nRank\nNullity\nProjection matrix\nOrthogonal matrix\nIdempotent matrix\nPartition matrix\nQuadratic forms\nSystems of linear equations\nGaussian elimination\nEigenvalues and eigenvectors\nProjections\nLU decomposition\nSingular value decomposition",
-    "crumbs": [
-      "Linear Algebra"
-    ]
-  },
-  {
-    "objectID": "linear_algebra/bank/question-006.html",
-    "href": "linear_algebra/bank/question-006.html",
+    "objectID": "prob_stats/bank/question-006.html",
+    "href": "prob_stats/bank/question-006.html",
     "title": "Question-6",
     "section": "",
-    "text": "Consider the matrix \\(\\mathbf{M} = \\begin{bmatrix}2 & -1\\\\3 & 1\\end{bmatrix}\\). Which one of the following statements is true?\n\nThe eigenvalues of \\(\\mathbf{M}\\) are non-negative and real.\nThe eigenvalues of \\(\\mathbf{M}\\) are complex conjugate pairs.\nOne eigenvalue of \\(\\mathbf{M}\\) is positive and real, and another eigenvalue of \\(\\mathbf{M}\\) is zero.\nOne eigenvalue of \\(\\mathbf{M}\\) is non-negative and real, and another eigenvalue of \\(\\mathbf{M}\\) is negative and real\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThe eigenvalues of \\(\\mathbf{M}\\) are non-negative and real.\nThe eigenvalues of \\(\\mathbf{M}\\) are complex conjugate pairs.\nOne eigenvalue of \\(\\mathbf{M}\\) is positive and real, and another eigenvalue of \\(\\mathbf{M}\\) is zero.\nOne eigenvalue of \\(\\mathbf{M}\\) is non-negative and real, and another eigenvalue of \\(\\mathbf{M}\\) is negative and real\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe can compute the eigenvalues with the help of the characteristic polynomial: \\[\n\\begin{aligned}\n\\begin{vmatrix}\n2 - \\lambda & -1\\\\\n3 & 1 - \\lambda\n\\end{vmatrix} &= 0\\\\\\\\\n(2 - \\lambda)(1 - \\lambda) + 3 &= 0\\\\\\\\\n\\lambda^2 -3 \\lambda + 5 &= 0\\\\\\\\\n\\end{aligned}\n\\] We see that the discriminant of the quadratic equation is negative. Hence, the eigenvalues are complex conjugate pairs.",
+    "text": "Out of the students in a class, \\(60\\%\\) do well in mathematics, \\(70\\%\\) do well in physics and \\(50\\%\\) do well in both. Find the probability that a randomly selected student doesn’t do well in both mathematics and physics.\n\n\n\n\n\n\nHint\n\n\n\n\n\nDefine \\(A\\) and \\(B\\) as the following events:\n\n\\(A\\): student does well in mathematics\n\\(B\\): student does well in physics\n\nWhat event are we interested in?\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0.2\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have the following events:\n\n\\(A\\): student does well in maths\n\\(B\\): student does well in physics\n\\(P(A^{c})\\): student doesn’t do well in maths\n\\(P(B^{c})\\): student doesn’t do well in physics\n\\(P(A^{c} \\cap B^{c})\\): student doesn’t do well both maths and physics\n\nUsing DeMorgan’s laws, we have: \\[\nA^{c} \\cap B^{c} = (A \\cup B)^{c}\n\\] This gives us: \\[\n\\begin{aligned}\nP(A^{c} \\cap B^{c}) &= P(A \\cup B)^{c}\\\\\n&= 1 - P(A \\cup B)\\\\\n\\end{aligned}\n\\] We can now compute \\(P(A \\cup B)\\): \\[\n\\begin{aligned}\nP(A \\cup B) &= P(A) + P(B) - P(A \\cap B)\\\\\n&= 0.6 + 0.7 - 0.5\\\\\n&= 0.8\n\\end{aligned}\n\\] The required probability is therefore \\(\\boxed{0.2}\\).",
     "crumbs": [
-      "Linear Algebra",
+      "Probability and Statistics",
       "Bank",
       "Question-6"
-    ]
-  },
-  {
-    "objectID": "linear_algebra/bank/question-003.html",
-    "href": "linear_algebra/bank/question-003.html",
-    "title": "Question-3",
-    "section": "",
-    "text": "Select all correct options concerning a system of linear equations given by \\(Ax = b\\), where \\(A\\) is a \\(m \\times n\\) matrix, \\(x \\in \\mathbb{R}^{n}\\) and \\(b \\in \\mathbb{R}^{m}\\).\n\nThe solution to this system is given by \\(A^{-1} b\\).\nThe system has a solution if and only if \\(b\\) is one of the columns of \\(A\\).\nThe system has a solution if and only if \\(b\\) is in the column-space of \\(A\\).\nIf this system is consistent, it can have either a unique solution or infinitely many solutions.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThe solution to this system is given by \\(A^{-1} b\\).\nThe system has a solution if and only if \\(b\\) is one of the columns of \\(A\\).\nThe system has a solution if and only if \\(b\\) is in the column-space of \\(A\\).\nIf this system is consistent, it can have either a unique solution or infinitely many solutions.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\nThe system is consistent if \\(b\\) can be expressed as a linear combination of the columns of \\(A\\).\nA consistent system that has at least two solutions cannot have finitely many solutions. To see why this is true, let \\(x_1\\) and \\(x_2\\) be two solutions to \\(Ax = b\\) with \\(x_1 \\neq x_2\\). Then \\((a + 1)x_1 - ax_2\\) is also a solution for \\(a \\in \\mathbb{N}\\). Using this, one can generate infinitely many solutions.",
-    "crumbs": [
-      "Linear Algebra",
-      "Bank",
-      "Question-3"
-    ]
-  },
-  {
-    "objectID": "linear_algebra/bank/question-001.html",
-    "href": "linear_algebra/bank/question-001.html",
-    "title": "Question-1",
-    "section": "",
-    "text": "Is the following statement true or false?\n\nThe row echelon form is defined only for square matrices.\n\n\nTrue\nFalse\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nTrue\nFalse\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe row echelon form is defined for matrices of any shape.",
-    "crumbs": [
-      "Linear Algebra",
-      "Bank",
-      "Question-1"
     ]
   },
   {
@@ -529,15 +313,15 @@
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-005.html",
-    "href": "prob_stats/bank/question-005.html",
-    "title": "Question-5",
+    "objectID": "prob_stats/bank/question-003.html",
+    "href": "prob_stats/bank/question-003.html",
+    "title": "Question-3",
     "section": "",
-    "text": "Which of the following is/are a random experiment?\n\nTossing two coins.\nRolling a die.\nGuessing an answer in multiple choice questions.\nChoosing a number at random from 1 to 20.\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse the definition of random experiment.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nTossing two coins.\nRolling a die.\nGuessing an answer in multiple choice questions.\nChoosing a number at random from 1 to 20.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nRandom experiment is an experiment in which outcome of the experiment cannot be predicted with certainty. And, we cannot predict the outcomes of all of the four options with certainty.",
+    "text": "Out of a group of six men and eight women, you need to form a committee of three men and five women. In how many ways can the committee be formed\\(?\\)\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse the concept of combination.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n1120\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince, we can choose 3 men out of 6 men and 5 women out of 8 women in \\(^6C_3 = 20\\) and \\(^8C_5 = 56\\) ways respectively. Therefore, total number of ways in which committee can be formed = \\(20 \\times 56 = 1120\\).",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-5"
+      "Question-3"
     ]
   },
   {
@@ -550,6 +334,990 @@
       "Probability and Statistics",
       "Bank",
       "Question-4"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-001.html",
+    "href": "prob_stats/bank/question-001.html",
+    "title": "Question-1",
+    "section": "",
+    "text": "There are thirteen flights from Delhi to Bangalore, and then six flights from Bangalore to Chennai. Saumya wants to fly from Delhi to Bangalore and then to Chennai. How many choices does she have for her flight plan?\n\n19\n72\n78\n39\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse multiplication rule of counting.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n19\n72\n78\n39\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nDefine action \\(A\\) as flight from Delhi to Bangalore and action \\(B\\) as Bangalore to Chennai. Then, total number of ways of occurrence of \\(A\\) and \\(B\\) is \\(=13\\times 6 = 78\\) ways.",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-1"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-009.html",
+    "href": "prob_stats/bank/question-009.html",
+    "title": "Question-9",
+    "section": "",
+    "text": "Let \\(A\\) and \\(B\\) be the two events of a random experiment. Probability that at least one of the two events \\(A\\) and \\(B\\) will occur is 0.6. Probabilities of event \\(A\\) occurring and \\(B\\) occurring are 0.3 and 0.4 respectively. Then, find the probability that event \\(A\\) will occur given that event \\(B\\) has occurred.\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse addition rule of probability to calculate \\(P(A \\cap B)\\) and then apply the conditional probability formula.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.25\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nGiven, \\(P(A) = 0.3, P(B) = 0.4\\) and \\(P(A \\cup B) = 0.6\\)\n\\(P(A \\cap B) = P(A) + P(B) - P(A \\cup B) = 0.3 + 0.4 - 0.6 = 0.1\\)\n\\(P(A | B) = \\dfrac{P(A \\cap B)}{P(B)} = \\dfrac{0.1}{0.4} =\\dfrac{1}{4} = 0.25\\).",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-9"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-008.html",
+    "href": "prob_stats/bank/question-008.html",
+    "title": "Question-8",
+    "section": "",
+    "text": "\\(57\\%\\) students of girls’ school wear neither a ring nor a necklace, \\(30\\%\\) wear a ring, and \\(25\\%\\) wear a necklace. If one of them is randomly chosen, find the probability that she is wearing a ring and a necklace.\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse addition rule of probability.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.12\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nDefine event \\(R\\) as “wears a ring” and the event \\(N\\) as “wears a necklace”. Given,\n\\(P(R^c \\cap N^c) = P(R \\cup N)^c = 0.57 \\implies P(R \\cup N) = 1 - P(R \\cup N)^c = 1-0.57 = 0.43,\\) \\(P(R) = 0.30\\) and \\(P(N) = 0.25\\)\n\\(P(R \\cup N) = P(R) + P(N) - P(R \\cap N)\\)\n\\(P(R \\cap N) = P(R) + P(N) - P(R \\cup N) = 0.30+0.25-0.43 = 0.12\\)",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-8"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-011.html",
+    "href": "prob_stats/bank/question-011.html",
+    "title": "Question-11",
+    "section": "",
+    "text": "Suppose that \\(P(X=a) = p \\hspace{1mm}\\text{and} \\hspace{1mm} P(X=b) = 1-p\\).\n\nQuestion - 11 (a)\nIdenitfy the distribution of \\(\\dfrac{X-b}{a-b}\\).\n\nBinomial distribution\nNegative Binomial distribution\nBernoulli distribution\nCannot determine\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nSubstitute the values of \\(X\\) and try to identify the distribution.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nBinomial distribution\nNegative Binomial distribution\nBernoulli distribution\nCannot determine\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince \\(\\dfrac{X-b}{a-b}\\) will equal 1 with probability \\(p\\), or 0 with probability \\(1-p\\).\nTherefore, it follows bernoulli distribution.\n\n\n\n\n\nQuestion - 11 (b)\nFind the value of Var\\((X)\\).\n\n\\(p(1-p)\\)\n\\(\\dfrac{p(1-p)}{(a-b)^2}\\)\n\\((a-b)^2 \\hspace{0.5mm}p\\hspace{0.5mm}(1-p)\\)\n\\(np(1-p)\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nStart with the Var\\(\\left(\\dfrac{X-b}{a-b}\\right)\\).\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(p(1-p)\\)\n\\(\\dfrac{p(1-p)}{(a-b)^2}\\)\n\\((a-b)^2 \\hspace{0.5mm}p\\hspace{0.5mm}(1-p)\\)\n\\(np(1-p)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince \\(\\dfrac{X-b}{a-b}\\) is a bernoulli random variable will take value 1 with probability \\(p\\), or 0 with probability \\(1-p\\). Thus, \\(p(1-p)=\\text{Var}\\left(\\dfrac{X-b}{a-b}\\right) = \\dfrac{1}{(a-b)^2} \\text{Var}(X-b)=\\dfrac{1}{(a-b)^2} \\text{Var}(X)\\)\n\\(\\implies p(1-p) = \\dfrac{1}{(a-b)^2} \\text{Var}(X)\\)\n\\(\\implies \\text{Var}(X) = (a-b)^2p(1-p)\\)",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-11"
+    ]
+  },
+  {
+    "objectID": "papers/GATE-2024/question-47.html",
+    "href": "papers/GATE-2024/question-47.html",
+    "title": "Question-47",
+    "section": "",
+    "text": "Select all choices that are subspaces of \\(\\mathbb{R}^{3}\\).\nNote: \\(\\mathbb{R}\\) denotes the set of real numbers.\n\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ \\mathbf{x} = \\alpha \\begin{bmatrix}1 \\\\ 1 \\\\ 0\\end{bmatrix} + \\beta \\begin{bmatrix}1 \\\\ 0 \\\\ 0\\end{bmatrix},\\ \\alpha, \\beta \\in \\mathbb{R} \\right\\}\\)\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ \\mathbf{x} = \\alpha^2 \\begin{bmatrix}1 \\\\ 2 \\\\ 0\\end{bmatrix} + \\beta^2 \\begin{bmatrix}1 \\\\ 0 \\\\ 1\\end{bmatrix},\\ \\alpha, \\beta \\in \\mathbb{R} \\right\\}\\)\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ 5x_1 + 2x_3 = 0,\\ 4x_1-2x_2+3x_3=0 \\right\\}\\)\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ 5x_1 + 2x_3 + 4 = 0 \\right\\}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ \\mathbf{x} = \\alpha \\begin{bmatrix}1 \\\\ 1 \\\\ 0\\end{bmatrix} + \\beta \\begin{bmatrix}1 \\\\ 0 \\\\ 0\\end{bmatrix},\\ \\alpha, \\beta \\in \\mathbb{R} \\right\\}\\)\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ \\mathbf{x} = \\alpha^2 \\begin{bmatrix}1 \\\\ 2 \\\\ 0\\end{bmatrix} + \\beta^2 \\begin{bmatrix}1 \\\\ 0 \\\\ 1\\end{bmatrix},\\ \\alpha, \\beta \\in \\mathbb{R} \\right\\}\\)\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ 5x_1 + 2x_3 = 0,\\ 4x_1-2x_2+3x_3=0 \\right\\}\\)\n\\(\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ 5x_1 + 2x_3 + 4 = 0 \\right\\}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nOption-1 \\[\n\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ \\mathbf{x} = \\alpha \\begin{bmatrix}1 \\\\ 1 \\\\ 0\\end{bmatrix} + \\beta \\begin{bmatrix}1 \\\\ 0 \\\\ 0\\end{bmatrix},\\ \\alpha, \\beta \\in \\mathbb{R} \\right\\}\n\\] This can be expressed as the span of the vectors \\(\\begin{bmatrix}1 \\\\ 1 \\\\ 0\\end{bmatrix}, \\begin{bmatrix}1 \\\\ 0 \\\\ 0\\end{bmatrix}\\) and is a subspace. Geometrically, this is a plane in \\(\\mathbb{R}^{3}\\) passing through the origin.\nOption-2 \\[\n\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ \\mathbf{x} = \\alpha^2 \\begin{bmatrix}1 \\\\ 2 \\\\ 0\\end{bmatrix} + \\beta^2 \\begin{bmatrix}1 \\\\ 0 \\\\ 1\\end{bmatrix},\\ \\alpha, \\beta \\in \\mathbb{R} \\right\\}\n\\]\nThis is not a subspace as it is not closed under scalar multiplication. For instance, \\(\\begin{bmatrix}1 \\\\ 2 \\\\ 0\\end{bmatrix}\\) is an element of the set, but \\(\\begin{bmatrix}-1 \\\\ -2 \\\\ 0\\end{bmatrix}\\) isn’t.\nOption-3 \\[\n\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ 5x_1 + 2x_3 = 0,\\ 4x_1-2x_2+3x_3=0 \\right\\}\n\\] This is the intersection of two planes and is hence a subspace of \\(\\mathbb{R}^{3}\\).\nOption-4 \\[\n\\left\\{ \\mathbf{x} = \\begin{bmatrix}x_1 \\\\ x_2 \\\\ x_3\\end{bmatrix} \\in \\mathbb{R}^{3}\\ :\\ 5x_1 + 2x_3 + 4 = 0 \\right\\}\n\\] This is not a subspace of \\(\\mathbb{R}^{3}\\) as it doesn’t contain the zero vector.",
+    "crumbs": [
+      "Practice Papers",
+      "GATE-2024",
+      "Question-47"
+    ]
+  },
+  {
+    "objectID": "papers/GATE-2024/question-13.html",
+    "href": "papers/GATE-2024/question-13.html",
+    "title": "Question-13",
+    "section": "",
+    "text": "Consider the matrix \\(\\mathbf{M} = \\begin{bmatrix}2 & -1\\\\3 & 1\\end{bmatrix}\\). Which one of the following statements is true?\n\nThe eigenvalues of \\(\\mathbf{M}\\) are non-negative and real.\nThe eigenvalues of \\(\\mathbf{M}\\) are complex conjugate pairs.\nOne eigenvalue of \\(\\mathbf{M}\\) is positive and real, and another eigenvalue of \\(\\mathbf{M}\\) is zero.\nOne eigenvalue of \\(\\mathbf{M}\\) is non-negative and real, and another eigenvalue of \\(\\mathbf{M}\\) is negative and real\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThe eigenvalues of \\(\\mathbf{M}\\) are non-negative and real.\nThe eigenvalues of \\(\\mathbf{M}\\) are complex conjugate pairs.\nOne eigenvalue of \\(\\mathbf{M}\\) is positive and real, and another eigenvalue of \\(\\mathbf{M}\\) is zero.\nOne eigenvalue of \\(\\mathbf{M}\\) is non-negative and real, and another eigenvalue of \\(\\mathbf{M}\\) is negative and real\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe can compute the eigenvalues with the help of the characteristic polynomial: \\[\n\\begin{aligned}\n\\begin{vmatrix}\n2 - \\lambda & -1\\\\\n3 & 1 - \\lambda\n\\end{vmatrix} &= 0\\\\\\\\\n(2 - \\lambda)(1 - \\lambda) + 3 &= 0\\\\\\\\\n\\lambda^2 -3 \\lambda + 5 &= 0\\\\\\\\\n\\end{aligned}\n\\] We see that the discriminant of the quadratic equation is negative. Hence, the eigenvalues are complex conjugate pairs.",
+    "crumbs": [
+      "Practice Papers",
+      "GATE-2024",
+      "Question-13"
+    ]
+  },
+  {
+    "objectID": "papers/GATE-2024/question-35.html",
+    "href": "papers/GATE-2024/question-35.html",
+    "title": "Question-35",
+    "section": "",
+    "text": "Consider the \\(3 \\times 3\\) matrix \\(\\mathbf{M} = \\begin{bmatrix}1 & 2 & 3\\\\3 & 1 & 3\\\\4 & 3 & 6\\end{bmatrix}\\). The determinant of \\(\\mathbf{M}^{2} + 12 \\mathbf{M}\\) is ________ .\n\n\n\n\n\n\nHint\n\n\n\n\n\nAdd the first two rows.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nNote the following: \\[\n\\begin{aligned}\n\\mathbf{M}^{2} + 12\\mathbf{M} &= \\mathbf{M}(\\mathbf{M} + 12 \\mathbf{I})\\\\\\\\\n\\implies \\left|\\mathbf{M}^2 + 12 \\mathbf{M} \\right| &= \\left| \\mathbf{M} \\right| \\cdot \\left| \\mathbf{M} + 12 \\mathbf{I} \\right|\\\\\\\\\n\\end{aligned}\n\\] Let us first look at the determinant of \\(\\mathbf{M}\\). Note that the third row of \\(\\mathbf{M}\\) is equal to the sum of the first two rows. Hence, we see that \\(\\left| \\mathbf{M} \\right| = 0\\). It follows that the answer is \\(\\boxed{0}\\).",
+    "crumbs": [
+      "Practice Papers",
+      "GATE-2024",
+      "Question-35"
+    ]
+  },
+  {
+    "objectID": "papers/GATE-2024/question-61.html",
+    "href": "papers/GATE-2024/question-61.html",
+    "title": "Question-61",
+    "section": "",
+    "text": "Let \\(\\mathbf{u} = \\begin{bmatrix}1\\\\2\\\\3\\\\4\\\\5\\end{bmatrix}\\) and let \\(\\sigma_1, \\sigma_2, \\sigma_3, \\sigma_4, \\sigma_5\\) be the singular values of the matrix \\(\\mathbf{M} = \\mathbf{u} \\mathbf{u}^T\\) (where \\(\\mathbf{u}^T\\) is the transpose of \\(\\mathbf{u}\\)). The value of \\(\\sum \\limits_{i = 1}^{5} \\sigma_i\\) is ________.\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(55\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSome useful results:\n\nA matrix \\(A\\) of rank \\(r\\) has \\(r\\) positive singular values.\nThe first \\(r\\) eigenvalues of \\(A^TA\\) are the squares of the first \\(r\\) singular values.\nA matrix of the form \\(u u^T\\) is unit rank.\n\\((||u||^2, u)\\) is an eigenpair of \\(uu^T\\). In fact, \\(||u||^2\\) is the only eigenvalue for this matrix.\nIf \\(\\lambda\\) is an eigenvalue of \\(A\\), \\(n\\lambda\\) is an eigenvalue of \\(nA\\).\n\nWith these results, we see that \\(M\\) has exactly one non-zero singular value, namely \\(\\sigma_1\\), assuming it is the largest of the lot. The rest are zero. The largest eigenvalue of \\(M^TM\\) is therefore \\(\\sigma_1^2\\). Since \\(M = uu^T\\), \\(M^TM = ||u||^2 M\\). From the RHS, we gather that the largest singular value of \\(M^TM\\) is \\(||u||^4\\). This leads us to: \\[\n\\sigma_1^2 = ||u||^4 \\implies \\sigma_1 = ||u||^2\n\\] Since \\(||u||^2 = 55\\), \\(\\sum \\limits_{i = 1}^{5} \\sigma_i = 55\\).",
+    "crumbs": [
+      "Practice Papers",
+      "GATE-2024",
+      "Question-61"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-012.html",
+    "href": "pdsa/bank/question-012.html",
+    "title": "Question-12",
+    "section": "",
+    "text": "Consider the following python program:\ndef jumble(x, y):\n    x = 2 * x + y\n    return x\n\nx,y = 2,5\ny = jumble(y, x)\nx = jumble(y, x)\nprint(x)\nWhat is the output of the given code?\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(26\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\nInitially, in the main() function, x = 2 and y = 5.\ny is updated to jumble(5, 2), which evaluates to \\(2 \\times 5 + 2 = 12\\).\nSubsequently, x is updated to jumble(12, 2), which evaluates to \\(2 \\times 12 + 2 = 26\\).\nTherefore, the final value of x printed by the program is \\(26\\).",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-12"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-016.html",
+    "href": "pdsa/bank/question-016.html",
+    "title": "Question-16",
+    "section": "",
+    "text": "Consider the following python function:\ndef fun(n):\n    for i in range(1, n + 1):\n        j = 1\n        while j &lt; n:\n            print(i, j)\n            j += i\nTime complexity of fun in terms of $ $ notation is\n\n\\(\\Theta(n^n)\\)\n\\(\\Theta(n^2)\\)\n\\(\\Theta(n \\log n)\\)\n\\(\\Theta(n^2 \\log n)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\Theta(n^n)\\)\n\\(\\Theta(n^2)\\)\n\\(\\Theta(n \\log n)\\)\n\\(\\Theta(n^2 \\log n)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe outer loop runs \\(n\\) times, and the inner loop runs \\(\\frac{n}{i}\\) times for each value of \\(i\\) from \\(1\\) to \\(n\\). Therefore, the total number of iterations is approximately \\(\\sum_{i=1}^{n} \\frac{n}{i}\\), which is \\(n \\log n\\). Hence, the time complexity of fun is $ (n n) $.",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-16"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-020.html",
+    "href": "pdsa/bank/question-020.html",
+    "title": "Question-20",
+    "section": "",
+    "text": "The running time of an algorithm is represented by the following recurrence relation:\n\\[ T(n) = \\begin{cases} T\\left(\\frac{n}{3}\\right) + cn & \\text{if } n &gt; 1 \\\\ T(1) & \\text{otherwise} \\end{cases} \\]\nWhich one of the following options is correct?\n\n\\(T(n) = \\Theta(n \\log n)\\)\n\\(T(n) = \\Theta(n^{5/2})\\)\n\\(T(n) = \\Theta(n)\\)\n\\(T(n) = \\Theta(\\log n)^{5/2}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(T(n) = \\Theta(n \\log n)\\)\n\\(T(n) = \\Theta(n^{5/2})\\)\n\\(T(n) = \\Theta(n)\\)\n\\(T(n) = \\Theta(\\log n)^{5/2}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nExpanding the recurrence relation:\n\\[ T(n) = T\\left(\\frac{n}{2}\\right) + T\\left(\\frac{2n}{5}\\right) + 7n, \\text{ if } n &gt; 0 \\]\nSolving this recursively and analyzing the total time:\nThe total time complexity sums up to \\(O(n) = \\Omega(n) = \\Theta(n)\\). Therefore, \\(T(n)\\) has a time complexity of \\(\\Theta(n)\\).",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-20"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-006.html",
+    "href": "pdsa/bank/question-006.html",
+    "title": "Question-6",
+    "section": "",
+    "text": "Consider the following Python function:\ndef simple_function(Y, n, x):\n    total = Y[0]\n    for loop_index in range(1, n):\n        total = x * total + Y[loop_index]\n    return total\nLet Z be an array of 10 elements with Z[i] = 1, for all i such that \\(0 \\leq i \\leq 9\\). The value returned by simple_function(Z, 10, 2) is __________.\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(1023\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nGiven that all values in the array Z are 1 and x = 2, the function simplifies to total = 2 * total + 1, resulting in successive left shifting of the total by one bit and adding 1 each time. This process leads to a final value of 1023.\n\n\n\nTotal in bits\nTotal Value\n\n\n\n\n1\n1\n\n\n10 + 1 = 11\n3\n\n\n110 + 1 = 111\n7\n\n\n1110 + 1 = 1111\n15\n\n\n11110 + 1 = 11111\n31\n\n\n111110 + 1 = 111111\n63\n\n\n1111110 + 1 = 1111111\n127\n\n\n11111110 + 1 = 11111111\n255\n\n\n111111110 + 1 = 111111111\n511\n\n\n1111111110 + 1 = 1111111111\n1023",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-6"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-024.html",
+    "href": "pdsa/bank/question-024.html",
+    "title": "Question-24",
+    "section": "",
+    "text": "Consider the queues \\(Q1\\) containing four elements and \\(Q2\\) containing none (shown as the Initial State in the figure). The only operations allowed on these two queues are \\(Enqueue(Q, element)\\) and \\(Dequeue(Q)\\). The minimum number of Enqueue operations on \\(Q1\\) required to place the elements of \\(Q1\\) in \\(Q2\\) in reverse order (shown as the Final State in the figure) without using any additional storage is___________.\nInitial State:  \nQ1: |1|2|3|4|  \nQ2: | | | | |  \n\nFinal State:  \nQ1: | | | | |  \nQ2: |4|3|2|1|  \n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe operations performed demonstrate the reversal of elements between \\(Q1\\) and \\(Q2\\) without using additional storage, achieving the Final State with the elements reversed in \\(Q2\\) from the Initial State of \\(Q1\\).\n\n\n\nStep\nQ1\nQ2\nOperation\n\n\n\n\n1\n1,2,3,4\n\n\n\n\n2\n2,3,4\n1\nEnqueue(Dequeue(Q1), Q2)\n\n\n3\n3,4\n1,2\nEnqueue(Dequeue(Q1), Q2)\n\n\n4\n3,4\n2,1\nEnqueue(Dequeue(Q2), Q2)\n\n\n5\n4\n2,1,3\nEnqueue(Dequeue(Q1), Q2)\n\n\n6\n4\n1,3,2\nEnqueue(Dequeue(Q2), Q2)\n\n\n7\n4\n3,2,1\nEnqueue(Dequeue(Q2), Q2)\n\n\n9\n\n3,2,1,4\nEnqueue(Dequeue(Q1), Q2)\n\n\n9\n\n2,1,4,3\nEnqueue(Dequeue(Q2), Q2)\n\n\n10\n\n1,4,3,2\nEnqueue(Dequeue(Q2), Q2)\n\n\n11\n\n4,3,2,1\nEnqueue(Dequeue(Q2), Q2)\n\n\n\nFrom the above table it is clear that no Enqueue operation is performed on \\(Q1\\). THus The minimum number of Enqueue operations on \\(Q1\\) required is 0.",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-24"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-014.html",
+    "href": "pdsa/bank/question-014.html",
+    "title": "Question-14",
+    "section": "",
+    "text": "Consider the following program:\ndef main():\n    f1()\n    f2(2)\n    f3()\n    return 0\n\ndef f1():\n    return 1\n\ndef f2(X):\n    f3()\n    if X == 1:\n        return f1()\n    else:\n        return X * f2(X - 1)\n\ndef f3():\n    return 5\n\nmain()\nWhich one of the following options represents the activation tree corresponding to the main function?\n\nOption A\nmain\n├── f1\n├── f2\n│   ├── f3\n│   └── f2\n│       ├── f3\n│       └── f1\n└── f3\nOption B\nmain\n├── f1\n├── f2\n│   ├── f3\n│   └── f1\n└── f3\nOption C\nmain\n├── f1\n├── f2\n│   ├── f3\n│   └── f1\n└── \nOption D\nmain\n├── f1\n├── f2\n│   ├── f3\n│   ├── f2\n│   └── f1\n└── f3\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nOption A\nmain\n├── f1\n├── f2\n│   ├── f3\n│   └── f2\n│       ├── f3\n│       └── f1\n└── f3\nOption B\nmain\n├── f1\n├── f2\n│   ├── f3\n│   └── f1\n└── f3\nOption C\nmain\n├── f1\n├── f2\n│   ├── f3\n│   └── f1\n└── \nOption D\nmain\n├── f1\n├── f2\n│   ├── f3\n│   ├── f2\n│   └── f1\n└── f3\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\nmain calls f1, f2 and f3. and f1 and f3 returns.\nIn f2, f3 is called and f2 is called again with X=1 as the condition goes to else part.\nIn the new f2, f3 is called and f1 is called end the calls end there.",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-14"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-003.html",
+    "href": "pdsa/bank/question-003.html",
+    "title": "Question-3",
+    "section": "",
+    "text": "Consider the Python program fragment below, which is meant to divide x by y using repeated subtractions. The variables x, y, q, and r are all unsigned int.\nwhile r &gt;= y:\n    r = r - y\n    q = q + 1\nWhich of the following conditions on the variables x, y, q, and r before the execution of the fragment will ensure that the loop terminates in a state satisfying the condition x == (y * q + r)?\n\nq == r and r == 0\nx &gt; 0 and r == x and y &gt; 0\nq == 0 and r == x and y &gt; 0\nq == 0 and y &gt; 0\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nq == r and r == 0\nx &gt; 0 and r == x and y &gt; 0\nq == 0 and r == x and y &gt; 0\nq == 0 and y &gt; 0\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nTo ensure that the loop terminates with the condition x == (y * q + r), the following conditions must hold:\n\nx must be greater than 0.\nr must be equal to x.\ny must be greater than 0.\n\nThese conditions are met in x &gt; 0 and r == x and y &gt; 0",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-3"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-004.html",
+    "href": "pdsa/bank/question-004.html",
+    "title": "Question-4",
+    "section": "",
+    "text": "In an undirected connected planar graph G, there are eight vertices and five faces. The number of edges in G is __________.\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(11\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIn a connected planar graph, the relationship between the number of vertices (\\(n\\)), edges (\\(e\\)), and faces (\\(r\\)) is given by Euler’s formula:\n\\(r = e - n + 2\\)\nGiven that \\(n = 8\\) and \\(r = 5\\):\n\\(5 = e - 8 + 2\\)\nSolving for \\(e\\):\n\\(e = 11\\)\nTherefore, the number of edges in graph G is indeed 11, satisfying Euler’s formula for a connected planar graph.",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-4"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-026.html",
+    "href": "pdsa/bank/question-026.html",
+    "title": "Question-26",
+    "section": "",
+    "text": "Let A be a priority queue for maintaining a set of elements. Suppose A is implemented using a max-heap data structure. The operation EXTRACT-MAX(A) extracts and deletes the maximum element from A. The operation INSERT(A, key) inserts a new element key in A. The properties of a max-heap are preserved at the end of each of these operations. When A contains n elements, which one of the following statements about the worst-case running time of these two operations is TRUE?\n\nBoth EXTRACT-MAX(A) and INSERT(A, key) run in \\(O(1)\\).\nBoth EXTRACT-MAX(A) and INSERT(A, key) run in \\(O(\\log n)\\).\nEXTRACT-MAX(A) runs in \\(O(1)\\) whereas INSERT(A, key) runs in \\(O(n)\\).\nEXTRACT-MAX(A) runs in \\(O(1)\\) whereas INSERT(A, key) runs in \\(O(\\log n)\\).\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nBoth EXTRACT-MAX(A) and INSERT(A, key) run in \\(O(1)\\).\nBoth EXTRACT-MAX(A) and INSERT(A, key) run in \\(O(\\log n)\\).\nEXTRACT-MAX(A) runs in \\(O(1)\\) whereas INSERT(A, key) runs in \\(O(n)\\).\nEXTRACT-MAX(A) runs in \\(O(1)\\) whereas INSERT(A, key) runs in \\(O(\\log n)\\).\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIn a max-heap: - EXTRACT-MAX operation requires \\(O(\\log n)\\) time as it involves reorganizing the heap to maintain its properties after removing the maximum element. - INSERT operation also requires \\(O(\\log n)\\) time to maintain the max-heap property by correctly placing the newly inserted element in the heap, considering it might need to traverse the height of the heap, which is \\(O(\\log n)\\).\nTherefore, both EXTRACT-MAX and INSERT operations run in \\(O(\\log n)\\) time in the worst case scenario for a max-heap implementation.",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-26"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-001.html",
+    "href": "pdsa/bank/question-001.html",
+    "title": "Question-1",
+    "section": "",
+    "text": "What is the output of the following snippet of code?\ndef foo(n):\n    if n % 2 == 0:\n        return n // 2\n    return 3 * n + 1\n\ncount = 0\nx = 10\nwhile x != 1:\n    x = foo(x)\n    count += 1\nprint(count)\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(6\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nFor a given integer n, foo(n) returns n // 2 if n is even and 3 * n + 1 if n is odd. Starting with x initialized to 10, the while loop repeatedly applies foo(x) until x equals 1, incrementing count with each iteration.\nFirst Iteration:\n\nx = 10\nSince 10 % 2 == 0, x becomes 10 // 2 = 5\nIncrement count to 1\n\nSecond Iteration:\n\nx = 5\nSince 5 % 2 != 0, x becomes 3 * 5 + 1 = 16\nIncrement count to 2\n\n\n\n\n\n\n\n\n\n\n\niteration\nprevious value of x\nx % 2 == 0\ncurrent value of x\ncount\n\n\n\n\nfirst\n10\nTrue\n10 // 2 = 5\n1\n\n\nsecond\n5\nFalse\n3 * 5 + 1 = 16\n2\n\n\nthird\n16\nTrue\n16 // 2 = 8\n3\n\n\nfourth\n8\nTrue\n8 // 2 = 4\n4\n\n\nfifth\n4\nTrue\n4 // 2 = 2\n5\n\n\nsixth\n2\nTrue\n2 // 2 = 1\n6\n\n\n\nAs the value of x is 1, the loop terminates. So, the loop executes six times, making the final value of count 6.",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-1"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-001.html#question-1",
+    "href": "pdsa/bank/question-001.html#question-1",
+    "title": "Question-1",
+    "section": "",
+    "text": "What is the output of the following snippet of code?\ndef foo(n):\n    if n % 2 == 0:\n        return n // 2\n    return 3 * n + 1\n\ncount = 0\nx = 10\nwhile x != 1:\n    x = foo(x)\n    count += 1\nprint(count)\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(6\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nFor a given integer n, foo(n) returns n // 2 if n is even and 3 * n + 1 if n is odd. Starting with x initialized to 10, the while loop repeatedly applies foo(x) until x equals 1, incrementing count with each iteration.\nFirst Iteration:\n\nx = 10\nSince 10 % 2 == 0, x becomes 10 // 2 = 5\nIncrement count to 1\n\nSecond Iteration:\n\nx = 5\nSince 5 % 2 != 0, x becomes 3 * 5 + 1 = 16\nIncrement count to 2\n\n\n\n\n\n\n\n\n\n\n\niteration\nprevious value of x\nx % 2 == 0\ncurrent value of x\ncount\n\n\n\n\nfirst\n10\nTrue\n10 // 2 = 5\n1\n\n\nsecond\n5\nFalse\n3 * 5 + 1 = 16\n2\n\n\nthird\n16\nTrue\n16 // 2 = 8\n3\n\n\nfourth\n8\nTrue\n8 // 2 = 4\n4\n\n\nfifth\n4\nTrue\n4 // 2 = 2\n5\n\n\nsixth\n2\nTrue\n2 // 2 = 1\n6\n\n\n\nAs the value of x is 1, the loop terminates. So, the loop executes six times, making the final value of count 6.",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-1"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-015.html",
+    "href": "pdsa/bank/question-015.html",
+    "title": "Question-15",
+    "section": "",
+    "text": "What is the worst-case time complexity of inserting \\(n\\) elements into an empty linked list, if the linked list needs to be maintained in sorted order?\n\n\\(\\Theta(n \\log n)\\)\n\\(\\Theta(n)\\)\n\\(\\Theta(1)\\)\n\\(\\Theta(n^2)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\Theta(n \\log n)\\)\n\\(\\Theta(n)\\)\n\\(\\Theta(1)\\)\n\\(\\Theta(n^2)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe total number of comparisons needed to insert \\(n\\) elements into a sorted linked list can be computed as the sum of the first \\(n - 1\\) natural numbers: \\(1 + 2 + 3 + \\dots + (n - 1) = \\frac{n(n - 1)}{2}\\). This is of the order \\(O(n^2)\\), which means it is also \\(\\Omega(n^2)\\) and therefore \\(\\Theta(n^2)\\).",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-15"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-018.html",
+    "href": "pdsa/bank/question-018.html",
+    "title": "Question-18",
+    "section": "",
+    "text": "Two alternative packages A and B are available for processing a database having \\(10k\\) records. Package A requires \\(0.0001n^2\\) time units, and package B requires \\(10n \\log_{10} n\\) time units to process \\(n\\) records. What is the smallest value of \\(k\\) for which package B will be preferred over A?\n\n\\(12\\)\n\\(10\\)\n\\(6\\)\n\\(5\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(12\\)\n\\(10\\)\n\\(6\\)\n\\(5\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nTo determine when package B is preferred over package A, we set up the inequality: \\[10n \\log_{10} n &lt; 0.0001n^2k\\]\nSolving for \\(k\\): \\[10 \\cdot 10^4 \\cdot 2^{-k} &lt; k\\]\nBy observation, when \\(k = 6\\), \\(10 \\cdot 10^4 \\cdot 2^{-6} = \\frac{10^5}{64} &lt; 6\\). Thus, \\(k\\) needs to be at least \\(6\\) for package B to be preferred over package A.",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-18"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-008.html",
+    "href": "pdsa/bank/question-008.html",
+    "title": "Question-8",
+    "section": "",
+    "text": "Consider a complete binary tree with 7 nodes. Let \\(A\\) denote the set of first 3 elements obtained by performing Breadth-First Search (BFS) starting from the root. Let \\(B\\) denote the set of first 3 elements obtained by performing Depth-First Search (DFS) starting from the root. The value of \\(|A - B|\\) is _________.\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(1\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\n\n\nBinary Tree\n\n\nBreadth-First Search = \\(1,2,3,4,5,6,7\\)\nDepth-First Search = \\(1,2,4,5,3,6,7\\)\n\\(A = \\{1, 2, 3\\}\\)\n\\(B = \\{1, 2, 4\\}\\)\n\\(A - B = \\{3\\}\\)\nHence, the value of \\(|A - B|\\) will be \\(1\\) after performing the said operation on a complete binary tree.",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-8"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-022.html",
+    "href": "pdsa/bank/question-022.html",
+    "title": "Question-22",
+    "section": "",
+    "text": "Consider a sequence \\(a\\) of elements \\(a_0 = 1\\), \\(a_1 = 5\\), \\(a_2 = 7\\), \\(a_3 = 8\\), \\(a_4 = 9\\), and \\(a_5 = 2\\). The following operations are performed on a stack \\(S\\) and a queue \\(Q\\), both of which are initially empty.\n\nPush the elements of \\(a\\) from \\(a_0\\) to \\(a_5\\) in that order into \\(S\\).\nEnqueue the elements of \\(a\\) from \\(a_0\\) to \\(a_5\\) in that order into \\(Q\\).\nPop an element from \\(S\\).\nDequeue an element from \\(Q\\).\nPop an element from \\(S\\).\nDequeue an element from \\(Q\\).\nDequeue an element from \\(Q\\) and push the same element into \\(S\\).\nRepeat operation 7 three times.\nPop an element from \\(S\\).\nPop an element from \\(S\\).\n\nThe top element of \\(S\\) after executing the above operations is _______.\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(8\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThis sequence of operations manipulates the stack and queue in a specific order. By following the given steps, the top element of the stack \\(S\\) after executing all the operations is \\(8\\).\n\n\n\n\n\n\n\n\n\nStep\nOperation\nStack \\(S\\)\nQueue \\(Q\\)\n\n\n\n\n1\nPush elements of \\(a\\) to \\(S\\)\n\\(1, 5, 7, 8, 9, 2\\)\nEmpty\n\n\n2\nEnqueue elements of \\(a\\) to \\(Q\\)\n\\(1, 5, 7, 8, 9, 2\\)\n\\(1, 5, 7, 8, 9, 2\\)\n\n\n3\nPop from \\(S\\)\n\\(1, 5, 7, 8, 9\\)\n\\(1, 5, 7, 8, 9, 2\\)\n\n\n4\nDequeue from \\(Q\\)\n\\(1, 5, 7, 8, 9\\)\n\\(5, 7, 8, 9, 2\\)\n\n\n5\nPop from \\(S\\)\n\\(1, 5, 7, 8\\)\n\\(5, 7, 8, 9, 2\\)\n\n\n6\nDequeue from \\(Q\\)\n\\(1, 5, 7, 8\\)\n\\(7, 8, 9, 2\\)\n\n\n7\nDequeue from \\(Q\\) and push into \\(S\\)\n\\(1, 5, 7, 8, 7\\)\n\\(8, 9, 2\\)\n\n\n8\nRepeat operation VII three times\n\\(1, 5, 7, 8, 7, 8, 9, 2\\)\nEmpty\n\n\n9\nPop from \\(S\\)\n\\(1, 5, 7, 8, 7, 8, 9\\)\nEmpty\n\n\n10\nPop from \\(S\\)\n\\(1, 5, 7, 8, 7, 8\\)\nEmpty\n\n\n\nTherefore, after executing these operations, the top element of stack \\(S\\) is \\(8\\).",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-22"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-025.html",
+    "href": "pdsa/bank/question-025.html",
+    "title": "Question-25",
+    "section": "",
+    "text": "Consider the following sequence of operations on an empty stack:\n\npush(54)\npush(52)\npop()\npush(55)\npush(62)\ns = pop()\n\nConsider the following sequence of operations on an empty queue:\n\nenqueue(21)\nenqueue(24)\ndequeue()\nenqueue(28)\nenqueue(32)\nq = dequeue()\n\nThe value of \\(s + q\\) is _______\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(86\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nStack Operations\n\n\n\nOperation\nStack\n\n\n\n\npush(54)\n[54]\n\n\npush(52)\n[54, 52]\n\n\npop()\n[54]\n\n\npush(55)\n[54, 55]\n\n\npush(62)\n[54, 55, 62]\n\n\ns = pop()\n\\(s = 62\\), Stack: [54, 55]\n\n\n\nQueue Operations\n\n\n\nOperation\nQueue\n\n\n\n\nenqueue(21)\n[21]\n\n\nenqueue(24)\n[21, 24]\n\n\ndequeue()\n[24]\n\n\nenqueue(28)\n[24, 28]\n\n\nenqueue(32)\n[24, 28, 32]\n\n\nq = dequeue()\n\\(q = 24\\), Queue: [28, 32]\n\n\n\nTherefore, \\(s = 62\\) and \\(q = 24\\). The value of \\(s + q\\) is \\(62 + 24 = 86\\).",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-25"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-011.html",
+    "href": "pdsa/bank/question-011.html",
+    "title": "Question-11",
+    "section": "",
+    "text": "What is the worst-case time complexity of inserting \\(n\\) elements into an empty linked list, maintaining sorted order?\n\n\\(\\Theta(n)\\)\n\\(\\Theta(n \\log n)\\)\n\\(\\Theta(n^2)\\)\n\\(\\Theta(1)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\Theta(n)\\)\n\\(\\Theta(n \\log n)\\)\n\\(\\Theta(n^2)\\)\n\\(\\Theta(1)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nConsider a sorted list where inserting an element requires traversing till the end, necessitating comparisons equal to the number of elements in the worst case.\nFor the 1st element, no comparison is needed. For the 2nd element, 1 comparison is needed. And so on, until the \\(n\\)th element requiring \\((n - 1)\\) comparisons.\nThe total comparisons needed to insert \\(n\\) elements is the sum of the first \\(n - 1\\) natural numbers, given by: \\[ 1 + 2 + \\ldots + (n - 1) = \\frac{n(n - 1)}{2} = O(n^2) \\]\nTherefore, in the worst case, the time complexity of inserting \\(n\\) elements into a sorted linked list is \\(\\Theta(n^2)\\).",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-11"
+    ]
+  },
+  {
+    "objectID": "ai/bank/question-001.html",
+    "href": "ai/bank/question-001.html",
+    "title": "Question-1",
+    "section": "",
+    "text": "Let \\(x\\) and \\(y\\) be two propositions. Which of the following statements are tautologies?\n\n\\((\\neg x \\land y) \\implies (y \\implies x)\\)\n\\((x \\land \\neg y) \\implies (\\neg x \\implies y)\\)\n\\((\\neg x \\land y) \\implies (\\neg x \\implies y)\\)\n\\((x \\land \\neg y) \\implies (y \\implies x)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\((\\neg x \\land y) \\implies (y \\implies x)\\)\n\\((x \\land \\neg y) \\implies (\\neg x \\implies y)\\)\n\\((\\neg x \\land y) \\implies (\\neg x \\implies y)\\)\n\\((x \\land \\neg y) \\implies (y \\implies x)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet us view each of these options as \\(P \\implies Q\\). For this to be a tautology, \\(Q\\) should be true whenenever \\(P\\) is true. So we need to look for those values of \\(x, y\\) for which \\(P\\) is true.\n\n\\((\\neg x \\land y) \\implies (y \\implies x)\\)\n\n\\(P\\) is true when \\(x\\) is false and \\(y\\) is true.\n\\(Q\\) would be false.\nThus \\(P \\implies Q\\) is false.\nIt follows that \\(P \\implies Q\\) is not a tautology.\n\n\\((x \\land \\neg y) \\implies (\\neg x \\implies y)\\)\n\n\\(P\\) is true when \\(x\\) is true and \\(y\\) is false.\n\\(Q\\) would be true.\nThus \\(P \\implies Q\\) is true.\nIt follows that \\(P \\implies Q\\) is a tautology.\n\nA similar argument holds for the remaining options.",
+    "crumbs": [
+      "Artificial Intelligence",
+      "Bank",
+      "Question-1"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-002.html",
+    "href": "calculus/bank/question-002.html",
+    "title": "Question-2",
+    "section": "",
+    "text": "Evaluate the following limit:\n\\[\n\\lim_{x \\rightarrow 2} \\cfrac{x^6 -24x -16}{x^3 +2x - 12}\n\\]\n\n\n\n\n\n\nHint\n\n\n\n\n\nL’Hopital’s rule\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(12\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThis limit has \\(\\cfrac{0}{0}\\) form. So we can try the L’Hopital’s rule. \\[\n\\begin{aligned}\n\\lim \\limits_{x \\rightarrow 2} \\cfrac{x^6 -24x -16}{x^3 +2x - 12} &= \\lim \\limits_{x \\rightarrow 2} \\cfrac{6x^5 -24}{3x^2 + 2} = 12\n\\end{aligned}\n\\] Note that the L’Hopital rule works here because the quotient of the derivatives of the numerator and denominator exists and is equal to \\(12\\). For all the conditions that have to be satisfied to apply the rule, check this Wikipedia entry.",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-2"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-004.html",
+    "href": "calculus/bank/question-004.html",
+    "title": "Question-4",
+    "section": "",
+    "text": "Find the global minima of the function \\(f(x) =  2x^3 - 9x^2 + 12x + 6\\) in the interval \\((1, 3)\\). You need to enter the value of \\(x^{*}\\) and not the value of \\(f(x^{*})\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(2\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have \\(f^{\\prime}(x) = 6x^2 - 18x + 12 = 6(x - 1)(x - 2)\\) and \\(f^{\\prime \\prime}(x) = 6(2x - 3)\\). The point \\(x = 1\\) corresponds to a local maxima and \\(x = 2\\) is a local minima. \\(f(1) = 11\\) and \\(f(2) = 10\\) and \\(f(3) = 15\\). The function decreases from \\(x = 1\\) to \\(x = 2\\), attains a minima at \\(x = 2\\) and then increases from \\(x = 2\\) to \\(x = 3\\). From this, we can conclude that \\(x = 2\\) is the global minima of \\(f\\) in the open interval \\((1, 3)\\).",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-4"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-001.html",
+    "href": "calculus/bank/question-001.html",
+    "title": "Question-1",
+    "section": "",
+    "text": "Let \\(f\\) and \\(g\\) be two real valued functions such that \\(g(x) = f(x) - 2\\). Select all true options.\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\nHint\n\n\n\n\n\n\nAn odd function is one that satisfies \\(f(-x) = -f(x)\\) for all \\(x \\in \\mathbb{R}\\).\nAn even function is one that satisfies \\(f(-x) = f(x)\\) for all \\(x \\in \\mathbb{R}\\).\n\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf \\(f\\) is odd, then \\(f(-x) = -f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= -f(x) - 2\\\\\n&= -[f(x) + 2]\n\\end{aligned}\n\\] This doesn’t allow us to conclude anything about the nature of \\(g\\). A simple counter-example will show that if \\(f\\) is odd, \\(g\\) need not be odd. For instance, if \\(f(x)= x\\), we have \\(g(x) = x - 2\\), which is neither odd nor even.\nIf \\(f\\) is even, then \\(f(-x) = f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= f(x) - 2\\\\\n&= g(x)\n\\end{aligned}\n\\] Therefore, if \\(f\\) is even, then \\(g\\) is also even. A similar argument holds for the case when \\(g\\) is even.",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-1"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "GATE-DA",
+    "section": "",
+    "text": "Welcome! The DA paper was first introduced in the year 2024. The duration of the exam is \\(3\\) hours. An overview of the syllabus:\n\nCalculus and Optimization\nLinear Algebra\nProbability and Statistics\nMachine Learning\nArtificial Intelligence\nProgramming, Data Structures and Algorithms\nDatabase Management Systems\n\nYou can use the sidebar to navigate through the different topics."
+  },
+  {
+    "objectID": "machine_learning/index.html",
+    "href": "machine_learning/index.html",
+    "title": "Machine Learning",
+    "section": "",
+    "text": "The folder named Bank contains an assorted collection of questions in machine learning. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nSupervised Learning\n\nRegression\n\nSimple linear regression,\nMultiple linear regression,\nRidge regression\n\nClassification\n\nLogistic regression\nK-NN\nNaive Bayes\nLinear discriminant analysis (LDA)\nSupport vector machines (SVM)\nDecision trees\nMulti-layer perceptron (MLP)\nFeed-forward neural network (ANN)\n\nBias-variance trade-off\nCross-validation\n\nLeave-one-out (LOO) cross-validation\nK-fold cross-validation\n\n\nUnsupervised Learning\n\nClustering algorithms\n\nk-means\nk-medoid,\nhierarchical clustering\n\ntop-down\nbottom-up\nsingle-linkage\nmulti-linkage\n\n\nDimensionality reduction\n\nprincipal component analysis.",
+    "crumbs": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-001.html",
+    "href": "machine_learning/bank/question-001.html",
+    "title": "Question-1",
+    "section": "",
+    "text": "\\(\\mathbf{w} = \\begin{bmatrix}1 \\\\ 2 \\\\ 3\\end{bmatrix}\\) is the weight vector of a linear classifier for a binary classification problem whose labels lie in the set \\(\\{0, 1\\}\\). If the bias of the classifier is set to \\(0\\), which of the following is the equation of the decision boundary for this classifier?\n\n\\(x_1 + 2x_2 + 3x_3 = 1\\)\n\\(x_1 + 2x_2 + 3x_3 = -1\\)\n\\(x_1 + 2x_2 + 3x_3 = 0\\)\n\\(x_1 - 2x_3 + 3x_3 = 0\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(x_1 + 2x_2 + 3x_3 = 1\\)\n\\(x_1 + 2x_2 + 3x_3 = -1\\)\n\\(x_1 + 2x_2 + 3x_3 = 0\\)\n\\(x_1 - 2x_3 + 3x_3 = 0\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe decision boundary for a linear classifier is given by \\(\\mathbf{w}^{T} \\mathbf{x} + b = 0\\). Since \\(b = 0\\), this just becomes \\(\\mathbf{w}^{T} \\mathbf{x} = 0\\) which results in \\(x_1 + 2x_2 + 3x_3 = 0\\).",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-1"
+    ]
+  },
+  {
+    "objectID": "calculus/index.html",
+    "href": "calculus/index.html",
+    "title": "Calculus and Optimization",
+    "section": "",
+    "text": "The folder named Bank contains an assorted collection of questions in calculus and optimization. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nFunctions of a single variable\nLimit\nContinuity\nDifferentiability\nTaylor series\nMaxima and minima\nOptimization involving a single variable",
+    "crumbs": [
+      "Calculus and Optimization"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-005.html",
+    "href": "calculus/bank/question-005.html",
+    "title": "Question-5",
+    "section": "",
+    "text": "Define a function \\(f\\) as follows:\n\\[\n\\begin{aligned}\n    f(x) = \\begin{cases}\n               kx^2+l, & \\text{if } x \\leqslant 1\\\\\n              lx^2+kx+m, & \\text{if } x &gt; 1\n          \\end{cases}\n\\end{aligned}\n\\]\nIf \\(f\\) is continuous and differentible at \\(x=1\\), find the value of \\(k-2l+m\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince \\(f\\) is continuous at \\(x = 1\\), we have:\n\\[\nk + l = l + k + m \\implies m = 0\n\\]\nSince \\(f\\) is differentiable at \\(x = 1\\), we have:\n\\[\n2k = 2l + k \\implies k = 2l\n\\]\nFrom this, we see that \\(k - 2l + m = 0\\)",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-5"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-003.html",
+    "href": "calculus/bank/question-003.html",
+    "title": "Question-3",
+    "section": "",
+    "text": "Evaluate the following limit:\n\\[\n\\lim_{x \\rightarrow \\infty} \\sqrt{x^2 + x + 1} - \\sqrt{x^2 + 1}\n\\]\n\n\n\n\n\n\nHint\n\n\n\n\n\nNormalize the numerator.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0.5\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\[\n\\begin{aligned}\n    \\lim_{x \\rightarrow \\infty} \\sqrt{x^2 + x + 1} - \\sqrt{x^2 + 1} &= \\lim_{x \\rightarrow \\infty} \\cfrac{(x^2 + x + 1) - (x^2 + 1)}{\\sqrt{x^2 + x + 1} + \\sqrt{x^2 + 1}}\\\\\\\\\n    &= \\lim_{x \\rightarrow \\infty} \\cfrac{x}{\\sqrt{x^2 + x + 1} + \\sqrt{x^2 + 1}}\\\\\\\\\n    &= \\lim_{x \\rightarrow \\infty} \\cfrac{1}{\\sqrt{1 + \\frac{1}{x} + \\frac{1}{x^2}} + \\sqrt{1 + \\frac{1}{x^2}}}\\\\\\\\\n    &= \\cfrac{1}{2}\n\\end{aligned}\n\\]",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-3"
+    ]
+  },
+  {
+    "objectID": "ai/index.html",
+    "href": "ai/index.html",
+    "title": "Artificial Intelligence",
+    "section": "",
+    "text": "The folder named Bank contains an assorted collection of questions in artificial intelligence. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nSearch\n\nInformed\nUninformed\nAdversarial\n\nLogic\n\nPropositional\nPredicate\n\nReasoning under uncertainty\n\nConditional independence representation,\nExact inference through variable elimination\nApproximate inference through sampling",
+    "crumbs": [
+      "Artificial Intelligence"
+    ]
+  },
+  {
+    "objectID": "pdsa/index.html",
+    "href": "pdsa/index.html",
+    "title": "PDSA",
+    "section": "",
+    "text": "The folder named Bank contains an assorted collection of questions in programming, data structures and algorithms. All questions have answers, some may have hints and solutions.",
+    "crumbs": [
+      "PDSA"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-013.html",
+    "href": "pdsa/bank/question-013.html",
+    "title": "Question-13",
+    "section": "",
+    "text": "Consider the following program written in pseudo-code. Assume that x and y are integers:\nCount(x, y) {\n    if (y != 1) {\n        if (x != 1) {\n            print(“*”);\n            Count(x/2, y);\n        } else {\n            y = y – 1;\n            Count(1024, y);\n        }\n    }\n}\nThe number of times that the print statement is executed by the call Count\\((1024, 1024)\\) is _____.\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(10230\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nFor the call Count(1024, 1024), the program initiates with \\((x, y) = (1024, 1024)\\).\nThe print statement inside the Count function executes when \\(x\\) is not \\(1\\). Starting with \\(x = 1024\\) and continuously dividing it by \\(2\\) until it becomes \\(1\\).\nx = 1024 -&gt; 512 -&gt; 256 -&gt; 128 -&gt; 64 -&gt; 32 -&gt; 16 -&gt; 8 -&gt; 4 -&gt; 2 (10 times)  \nThe else part inside the Count function reduces \\(y\\) by \\(1\\) and recursively calls Count(1024, y). This reduction continues until \\(y\\) becomes \\(1\\).\ny = 1024 -&gt; ... -&gt; 2 ( 1023 times)   \nHence, the total number of executions of the print statement is \\(1023 \\times 10 = 10230\\).",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-13"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-019.html",
+    "href": "pdsa/bank/question-019.html",
+    "title": "Question-19",
+    "section": "",
+    "text": "The running time of an algorithm is represented by the following recurrence relation:\n\\[ T(n) = \\begin{cases} T\\left(\\frac{n}{3}\\right) + cn & \\text{if } n &gt; 1 \\\\ T(1) & \\text{otherwise} \\end{cases} \\]\nWhich of the following represents the time complexity of the algorithm?\n\n\\(\\Theta(n)\\)\n\\(\\Theta(n \\log n)\\)\n\\(\\Theta(n^2)\\)\n\\(\\Theta(n^2 \\log n)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\Theta(n)\\)\n\\(\\Theta(n \\log n)\\)\n\\(\\Theta(n^2)\\)\n\\(\\Theta(n^2 \\log n)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nUsing the master theorem to determine the time complexity:\nGiven: - \\(a = 1\\) - \\(b = 3\\) - \\(f(n) = cn\\)\nMaster theorem conditions: - \\(cn\\) is \\(O(n^{0 - \\epsilon})\\) - Dissatisfied - \\(cn\\) is \\(O(n^{\\log_3 1})\\) - Dissatisfied - \\(cn\\) is \\(\\Omega(n^{0 + \\epsilon})\\) - Satisfied\nAs \\(f(n/b) \\leq \\delta \\cdot f(n)\\) for \\(\\delta = 1\\): \\[ \\frac{1 \\cdot cn}{3} \\leq 1 \\cdot cn \\] \\[ \\frac{cn}{3} \\leq cn \\] \\[ \\text{As } 3 &lt; 1, \\text{ the condition is not met.} \\]\nHence, by the master theorem, \\(T(n)\\) is \\(\\Theta(n)\\).",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-19"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-030.html",
+    "href": "pdsa/bank/question-030.html",
+    "title": "Question-30",
+    "section": "",
+    "text": "Let H be a binary min-heap consisting of \\(n\\) elements implemented as an array. What is the worst-case time complexity of an optimal algorithm to find the maximum element in H?\n\n\\(\\Theta(1)\\)\n\\(\\Theta(\\log n)\\)\n\\(\\Theta(n)\\)\n\\(\\Theta(n \\log n)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\Theta(1)\\)\n\\(\\Theta(\\log n)\\)\n\\(\\Theta(n)\\)\n\\(\\Theta(n \\log n)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIn a binary min-heap:\n\nThe maximum element is always a leaf node in the heap, and to find the maximum element, we need to traverse all leaf nodes to identify the maximum among them.\nIn the worst case, the number of leaf nodes in a binary heap is \\(\\lceil \\frac{n}{2} \\rceil\\) (approximately half of the total nodes).\nTherefore, to find the maximum element in a binary min-heap, we need to perform a linear search among the leaf nodes, resulting in a time complexity of \\(\\Theta(n)\\) in the worst case.",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-30"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-028.html",
+    "href": "pdsa/bank/question-028.html",
+    "title": "Question-28",
+    "section": "",
+    "text": "Consider the array representation of a binary min-heap containing \\(1023\\) elements. The minimum number of comparisons required to find the maximum in the heap is_____.\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(511\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIn a binary min-heap with \\(1023 (2^10-1)\\) elements, the maximum elements will be at the leaves.\n\nNumber of leaf nodes in a complete binary tree with \\(1023\\) elements is \\(2^9 = 512\\).\nTo find the maximum element of \\(2\\) elements we need \\(1\\) comparison, for \\(3\\) elements - \\(2\\) comparisons, etc.\nTo find the maximum element of \\(512\\) elements, the minimum number of comparison required is \\(511\\).",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-28"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-009.html",
+    "href": "pdsa/bank/question-009.html",
+    "title": "Question-9",
+    "section": "",
+    "text": "What is the number of arithmetic operations required to implement binary search on a sorted array?\n\n\\(ϴ(n)\\)\n\\(ϴ(\\log n)\\)\n\\(ϴ(1)\\)\n\\(ϴ(n^2)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(ϴ(n)\\)\n\\(ϴ(\\log n)\\)\n\\(ϴ(1)\\)\n\\(ϴ(n^2)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe number of arithmetic operations in binary search is related to the number of iterations in the loop. In the case of binary search, the while loop continues until the beg index is less than or equal to the end index. The arithmetic operation within the loop, m = (l + h) / 2, occurs with each iteration.\nwhile (beg &lt;= end) {\n    m = (l + h) / 2;\n    // ...other operations...\n}\nAs the loop runs in \\(ϴ(\\log n)\\) time due to halving the search space at each step, the number of arithmetic operations is also \\(ϴ(\\log n)\\). Therefore, the correct option is \\(ϴ(\\log n)\\).",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-9"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-029.html",
+    "href": "pdsa/bank/question-029.html",
+    "title": "Question-29",
+    "section": "",
+    "text": "Consider the following statements: I. The smallest element in a max-heap is always at a leaf node. II. The second largest element in a max-heap is always a child of a root node. III. A max-heap can be constructed from a binary search tree in \\(\\Theta(n)\\) time. IV. A binary search tree can be constructed from a max-heap in \\(\\Theta(n)\\) time. Which of the above statements are TRUE?\n\nI, II and III\nI, II and IV\nI, III and IV\nII, III and IV\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nI, II and III\nI, II and IV\nI, III and IV\nII, III and IV\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet’s evaluate each statement:\n\nThe smallest element in a max-heap is always at a leaf node.\n\nTrue. In a max-heap, the smallest element will be at a leaf node as all parent nodes have larger values than their children.\n\nThe second largest element in a max-heap is always a child of a root node.\n\nTrue. In a max-heap, the second largest element will be a child of the root node as it’s among the children of the largest element (root).\n\nA max-heap can be constructed from a binary search tree in \\(\\Theta(n)\\) time.\n\nTrue. A max-heap can be constructed from a binary search tree in linear time complexity by performing heapify which takes \\(\\Theta(n)\\) time.\n\nA binary search tree can be constructed from a max-heap in \\(\\Theta(n)\\) time.\n\nFalse. It takes \\(\\Theta(n\\log n)\\) time\n\n\nTherefore, the statements I, II, and III are TRUE.",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-29"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-005.html",
+    "href": "pdsa/bank/question-005.html",
+    "title": "Question-5",
+    "section": "",
+    "text": "What is the least number of comparisons required among the array elements to sort the given array in ascending order using the following sorting algorithms?\n23, 32, 45, 69, 72, 73, 89, 97\n\nQuicksort using the last element as a pivot\nSelection sort\nMergesort\nInsertion sort\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nQuicksort using the last element as a pivot\nSelection sort\nMergesort\nInsertion sort\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe given array is already sorted. Insertion sort takes the least number of comparisons \\(O(n)\\) in this case because, for a number to be inserted into an already sorted array, only one comparison is required. Hence, Insertion sort uses the least number of comparisons in this scenario.",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-5"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-027.html",
+    "href": "pdsa/bank/question-027.html",
+    "title": "Question-27",
+    "section": "",
+    "text": "Which one of the following sequences when stored in an array at locations \\(A[1], \\ldots, A[10]\\) forms a max-heap?\n\n23, 17, 10, 6, 13, 14, 1, 5, 7, 12\n23, 17, 14, 7, 13, 10, 1, 5, 6, 12\n23, 17, 14, 6, 13, 10, 1, 5, 7, 15\n23, 14, 17, 1, 10, 13, 16, 12, 7, 5\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n23, 17, 10, 6, 13, 14, 1, 5, 7, 12\n23, 17, 14, 7, 13, 10, 1, 5, 6, 12\n23, 17, 14, 6, 13, 10, 1, 5, 7, 15\n23, 14, 17, 1, 10, 13, 16, 12, 7, 5\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nTo form a max-heap, the elements must satisfy the heap property: every node should be greater than or equal to its children.\nIn the sequence B: 23, 17, 14, 7, 13, 10, 1, 5, 6, 12 When arranged in an array:\n      23\n     /   \\\n   17     14\n  / \\    /  \\\n 7  13  10   1\n/ \\  /\n5 6 12\nThe sequence, when represented as a binary tree, follows the max-heap property. Therefore, sequence B forms a max-heap when stored in an array at locations \\(A[1], \\ldots, A[10]\\).",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-27"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-010.html",
+    "href": "pdsa/bank/question-010.html",
+    "title": "Question-10",
+    "section": "",
+    "text": "Let \\(G\\) be a connected undirected weighted graph. Consider the following two statements.\nS1: There exists a minimum weight edge in \\(G\\) which is present in every minimum spanning tree of \\(G\\).\nS2: If every edge in \\(G\\) has distinct weight, then \\(G\\) has a unique minimum spanning tree.\nWhich one of the following options is correct?\n\n\\(S1\\) is false and \\(S2\\) is true\nBoth \\(S1\\) and \\(S2\\) are false\n\\(S1\\) is true and \\(S2\\) is false\nBoth \\(S1\\) and \\(S2\\) are true\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(S1\\) is false and \\(S2\\) is true\nBoth \\(S1\\) and \\(S2\\) are false\n\\(S1\\) is true and \\(S2\\) is false\nBoth \\(S1\\) and \\(S2\\) are true\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe Kruskal’s algorithm can be used to discover the Minimum Spanning Tree on a graph \\(G\\). When implementing Kruskal’s algorithm, edges are sorted by weight, and the smallest edge is chosen first. However, \\(S1\\) is false because the Kruskal’s method may not always choose a particular weighted edge if there are multiple copies of it. It does not guarantee the selection of a specific minimum weight edge present in every minimum spanning tree.\n\\(S2\\) is True. Kruskal’s algorithm will always choose a distinct set of edges, resulting in a distinct minimal spanning tree if the sorted order of the edges contains only distinct values due to its reliance on sorting and selecting edges with distinct weights.",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-10"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-023.html",
+    "href": "pdsa/bank/question-023.html",
+    "title": "Question-23",
+    "section": "",
+    "text": "Suppose a stack implementation supports an instruction REVERSE, which reverses the order of elements on the stack, in addition to the PUSH and POP instructions. Which one of the following statements is TRUE (with respect to this modified stack)?\n\nA queue cannot be implemented using this stack.\nA queue can be implemented where ENQUEUE takes a single instruction and DEQUEUE takes a sequence of two instructions.\nA queue can be implemented where ENQUEUE takes a sequence of three instructions and DEQUEUE takes a single instruction.\nA queue can be implemented where both ENQUEUE and DEQUEUE take a single instruction each.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nA queue cannot be implemented using this stack.\nA queue can be implemented where ENQUEUE takes a single instruction and DEQUEUE takes a sequence of two instructions.\nA queue can be implemented where ENQUEUE takes a sequence of three instructions and DEQUEUE takes a single instruction.\nA queue can be implemented where both ENQUEUE and DEQUEUE take a single instruction each.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWith the REVERSE instruction, a queue can be implemented using this modified stack where ENQUEUE would require a sequence of three instructions (PUSH, REVERSE, PUSH), and DEQUEUE would require a single instruction (POP).",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-23"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-002.html",
+    "href": "pdsa/bank/question-002.html",
+    "title": "Question-2",
+    "section": "",
+    "text": "Consider the following Python program:\nsum_value = 0.0\nj = 1.0\ni = 2.0\n\nwhile i / j &gt; 0.0625:\n    j = j + j\n    sum_value = sum_value + i / j\n    print(sum_value)\nThe number of times the variable sum_value will be printed when the above program is executed is ________\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(5\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe variable sum_value will be printed 5 times when the program is executed. This is because the program uses a while loop, and the condition i / j &gt; 0.0625 is checked in each iteration. The loop continues until this condition becomes false. Analyzing the values of i and j in each iteration, we can see that it is printed in the first 5 iterations:\n\nj = 1.0, i/j = 2.0/1.0 &gt; 0.0625 (True, Printed)\nj = 2.0, i/j = 2.0/2.0 &gt; 0.0625 (True, Printed)\nj = 4.0, i/j = 2.0/4.0 &gt; 0.0625 (True, Printed)\nj = 8.0, i/j = 2.0/8.0 &gt; 0.0625 (True, Printed)\nj = 16.0, i/j = 2.0/16.0 &gt; 0.0625 (True, Printed)",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-2"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-017.html",
+    "href": "pdsa/bank/question-017.html",
+    "title": "Question-17",
+    "section": "",
+    "text": "Consider the following function:\ndef fun1(n):\n    q = 0\n    for i in range(1, n):\n        p = 0\n        j = n\n        while j &gt; 1:\n            p += 1\n            j //= 2\n        \n        k = 1\n        while k &lt; p:\n            q += 1\n            k *= 2\n            \n    return q\nWhich one of the following most closely approximates the return value of the function fun1?\n\n\\(n^3\\)\n\\(n(\\log n)^2\\)\n\\(n \\log n\\)\n\\(n \\log(\\log n)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(n^3\\)\n\\(n(\\log n)^2\\)\n\\(n \\log n\\)\n\\(n \\log(\\log n)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe outer loop runs \\(n - 1\\) times. The first inner loop increments \\(p\\) until \\(j\\) becomes \\(1\\), which takes \\(\\log n\\) iterations. The second inner loop increments \\(q\\) until \\(k\\) reaches \\(p\\), which takes \\(\\log p\\) iterations. Therefore, the return value \\(q\\) is closely approximated by \\(n \\log(\\log n)\\).",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-17"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-031.html",
+    "href": "pdsa/bank/question-031.html",
+    "title": "Question-31",
+    "section": "",
+    "text": "Consider the following array of elements\n\\([89, 19, 50, 17, 12, 15, 2, 5, 7, 11, 6, 9, 100]\\)\nThe minimum number of interchanges needed to convert it into a max-heap is\n\n4\n5\n2\n3\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n4\n5\n2\n3\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe process of converting an array into a max-heap involves the process of heapification, which ensures that the max-heap property is satisfied. For the given array:\nInitially: [89, 19, 50, 17, 12, 15, 2, 5, 7, 11, 6, 9, 100]\n\n89\n├── 19\n│   ├── 17\n│   │   ├── 5\n│   │   └── 7\n│   └── 12\n│       ├── 11\n│       └── 6\n└── 50\n    ├── 15\n    │   ├── 9\n    │   └── 100\n    └── 2\nOnly wrong entry is 100.\nTo make it a Max-heap:\n1. Swap(100,15)\n89\n├── 19\n│   ├── 17\n│   │   ├── 5\n│   │   └── 7\n│   └── 12\n│       ├── 11\n│       └── 6\n└── 50\n    ├── 100\n    │   ├── 9\n    │   └── 15\n    └── 2\n\n2. Swap(100,50)\n89\n├── 19\n│   ├── 17\n│   │   ├── 5\n│   │   └── 7\n│   └── 12\n│       ├── 11\n│       └── 6\n└── 100\n    ├── 50\n    │   ├── 9\n    │   └── 15\n    └── 2\n\n3. Swap(100,89)\n100\n├── 19\n│   ├── 17\n│   │   ├── 5\n│   │   └── 7\n│   └── 12\n│       ├── 11\n│       └── 6\n└── 89\n    ├── 50\n    │   ├── 9\n    │   └── 15\n    └── 2\nThus the number of interchanges required is 3.",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-31"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-007.html",
+    "href": "pdsa/bank/question-007.html",
+    "title": "Question-7",
+    "section": "",
+    "text": "Let H be a binary min-heap consisting of n elements implemented as an array. What is the worst case time complexity of an optimal algorithm to find the maximum element in H?\n\n\\(\\Theta(1)\\)\n\\(\\Theta(\\log n)\\)\n\\(\\Theta(n)\\)\n\\(\\Theta(n \\log n)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\Theta(1)\\)\n\\(\\Theta(\\log n)\\)\n\\(\\Theta(n)\\)\n\\(\\Theta(n \\log n)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe largest element in a min-heap will always be found at a leaf node since every node in a min-heap satisfies the property that its value is smaller than its children’s values. The largest element can’t have any children, making it reside in a leaf node. In a heap with \\(n\\) elements, there are approximately \\(\\frac{n}{2}\\)leaf nodes. To find the maximum among these leaves, it would take \\(\\Theta(\\frac{n}{2})\\) operations, which simplifies to \\(\\Theta(n)\\).",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-7"
+    ]
+  },
+  {
+    "objectID": "pdsa/bank/question-021.html",
+    "href": "pdsa/bank/question-021.html",
+    "title": "Question-21",
+    "section": "",
+    "text": "Consider the recurrence function \\(T(n)\\):\n\\[ T(n) = \\begin{cases} 2T\\left(\\frac{n}{2}\\right) + 1 & \\text{if } n &gt; 2 \\\\ 2 & \\text{if } n \\leq 2 \\end{cases} \\]\nThen \\(T(n)\\) in terms of \\(\\Theta\\) notation is?\n\n\\(\\Theta(\\log \\log n)\\)\n\\(\\Theta(\\log n)\\)\n\\(\\Theta(n)\\)\n\\(\\Theta(n^2)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\Theta(\\log \\log n)\\)\n\\(\\Theta(\\log n)\\)\n\\(\\Theta(n)\\)\n\\(\\Theta(n^2)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nBreaking down the recurrence relation and solving for \\(T(n)\\):\nGiven: \\[ T(n) = 2T\\left(\\frac{n}{2}\\right) + 1 \\]\n\n\\(T(n) = 2T\\left(\\frac{n}{2}\\right) + 1\\) … (1)\n\\(T\\left(\\frac{n}{2}\\right) = 2T\\left(\\frac{n}{4}\\right) + 1\\) … (2)\n\\(T(n) = 2[2T\\left(\\frac{n}{4}\\right) + 1] + 1 = 4T\\left(\\frac{n}{4}\\right) + 3\\) … (3)\n\\(T\\left(\\frac{n}{2}\\right) = 2T\\left(\\frac{n}{2^K}\\right) + 1\\) … (4)\n\\(K = \\frac{1}{2} \\cdot \\log_2 n \\Rightarrow 2^K = \\sqrt{n}\\)\n\\(T(n) = \\log n \\cdot T(2) + \\log n - 1 = 2\\log n + \\log n - 1 = \\Theta(\\log n)\\)\n\nTherefore, \\(T(n)\\) in terms of \\(\\Theta\\) notation is \\(\\Theta(\\log n)\\).",
+    "crumbs": [
+      "PDSA",
+      "Bank",
+      "Question-21"
+    ]
+  },
+  {
+    "objectID": "papers/index.html",
+    "href": "papers/index.html",
+    "title": "Practice Papers",
+    "section": "",
+    "text": "This section will have a collection of practice papers. To begin with, it includes the GATE paper for the year \\(2024\\).",
+    "crumbs": [
+      "Practice Papers"
+    ]
+  },
+  {
+    "objectID": "papers/GATE-2024/index.html",
+    "href": "papers/GATE-2024/index.html",
+    "title": "GATE-2024",
+    "section": "",
+    "text": "The duration of the paper is \\(3\\) hours and it has two parts:\n\nGeneral aptitude for \\(15\\) marks\nData science and AI for \\(85\\) marks\n\nThe finer distribution of marks is given below:\n\n\n\nSection\nQuestion range\nIndividual marks\nTotal marks\n\n\n\n\nGA\n\\(1\\) to \\(5\\)\n\\(1\\)\n\\(5\\)\n\n\nGA\n\\(6\\) to \\(10\\)\n\\(2\\)\n\\(10\\)\n\n\nDA\n\\(11\\) to \\(35\\)\n\\(1\\)\n\\(25\\)\n\n\nDA\n\\(36\\) to \\(65\\)\n\\(2\\)\n\\(60\\)\n\n\n\nThe questions are either MCQ, MSQ or NAT.\nPoints to remember\n\nMCQ has negative marking of \\(1/3\\)rd the marks for that question\nMSQ doesn’t have partial marking.\nMSQ and NAT do not have negative marking.\n\nGeneral suggestions\n\n\\(65\\) questions is quite a lot for \\(3\\) hours.\nDon’t get stuck in a question that doesn’t fall within your comfort zone.\nEnsure that you read all \\(65\\) questions. It might happen that easy questions are hiding at the end of the paper.\nSequence the seven topics in the decreasing order of your comfort with them. Attempt the questions in the exam in this order.",
+    "crumbs": [
+      "Practice Papers",
+      "GATE-2024"
+    ]
+  },
+  {
+    "objectID": "papers/GATE-2024/question-49.html",
+    "href": "papers/GATE-2024/question-49.html",
+    "title": "Question-49",
+    "section": "",
+    "text": "Let \\(\\mathbb{R}\\) be the set of real numbers, \\(U\\) be a subspace of \\(\\mathbb{R}^3\\) and \\(\\mathbf{M} \\in \\mathbb{R}^{3 \\times 3}\\) be the matrix corresponding to the projection on to the subspace \\(U\\). Which of the following statements is/are true?\n\nIf \\(U\\) is a 1-dimensional subspace of \\(\\mathbb{R}^3\\), then the null space of \\(\\mathbf{M}\\) is a one-dimensional subspace.\nIf \\(U\\) is a 2-dimensional subspace of \\(\\mathbb{R}^3\\), then the null space of \\(\\mathbf{M}\\) is a one-dimensional subspace.\n\\(\\mathbf{M}^2 = \\mathbf{M}\\)\n\\(\\mathbf{M}^3 = \\mathbf{M}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf \\(U\\) is a 1-dimensional subspace of \\(\\mathbb{R}^3\\), then the null space of \\(\\mathbf{M}\\) is a one-dimensional subspace.\nIf \\(U\\) is a 2-dimensional subspace of \\(\\mathbb{R}^3\\), then the null space of \\(\\mathbf{M}\\) is a one-dimensional subspace.\n\\(\\mathbf{M}^2 = \\mathbf{M}\\)\n\\(\\mathbf{M}^3 = \\mathbf{M}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\nSince \\(\\mathbf{M}\\) is a projection matrix, its column space is \\(U\\) and its null space is \\(U^{\\perp}\\). If the dimension of \\(U\\) is \\(k\\), the dimension of the null space is \\(3 - k\\).\nFor a projection matrix, \\(\\mathbf{M}^{2} = \\mathbf{M}\\). It follows that \\(\\mathbf{M}^{3} = \\mathbf{M}\\).",
+    "crumbs": [
+      "Practice Papers",
+      "GATE-2024",
+      "Question-49"
+    ]
+  },
+  {
+    "objectID": "papers/GATE-2024/question-48.html",
+    "href": "papers/GATE-2024/question-48.html",
+    "title": "Question-48",
+    "section": "",
+    "text": "Which of the following statements is/are true?\nNote: \\(\\mathbb{R}\\) denotes the set of all real numbers.\n\nThere exist \\(\\mathbf{M} \\in \\mathbb{R}^{3 \\times 3}, \\mathbf{p} \\in \\mathbb{R}^{3}\\) and \\(\\mathbf{q} \\in \\mathbb{R}^{3}\\) such that \\(\\mathbf{Mx} = \\mathbf{p}\\) has a unique solution and \\(\\mathbf{Mx} = \\mathbf{q}\\) has infinite solutions.\nThere exist \\(\\displaystyle \\mathbf{M} \\in \\mathbb{R}^{3\\times 3} ,\\mathbf{p} \\in \\mathbb{R}^{3}\\) and \\(\\displaystyle \\mathbf{q} \\in \\mathbb{R}^{3}\\) such that \\(\\displaystyle \\mathbf{Mx} =\\mathbf{p}\\) has no solutions and \\(\\displaystyle \\mathbf{Mx} =\\mathbf{q}\\) has infinite solutions.\nThere exist \\(\\displaystyle \\mathbf{M} \\in \\mathbb{R}^{2\\times 3} ,\\mathbf{p} \\in \\mathbb{R}^{2}\\) and \\(\\displaystyle \\mathbf{q} \\in \\mathbb{R}^{2}\\) such that \\(\\displaystyle \\mathbf{Mx} =\\mathbf{p}\\) has a unique solution and \\(\\displaystyle \\mathbf{Mx} =\\mathbf{q}\\) has infinite solutions.\nThere exist \\(\\displaystyle \\mathbf{M} \\in \\mathbb{R}^{3\\times 2} ,\\mathbf{p} \\in \\mathbb{R}^{3}\\) and \\(\\displaystyle \\mathbf{q} \\in \\mathbb{R}^{3}\\) such that \\(\\displaystyle \\mathbf{Mx} =\\mathbf{p}\\) has a unique solution and \\(\\displaystyle \\mathbf{Mx} =\\mathbf{q}\\) has no solutions.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThere exist \\(\\mathbf{M} \\in \\mathbb{R}^{3 \\times 3}, \\mathbf{p} \\in \\mathbb{R}^{3}\\) and \\(\\mathbf{q} \\in \\mathbb{R}^{3}\\) such that \\(\\mathbf{Mx} = \\mathbf{p}\\) has a unique solution and \\(\\mathbf{Mx} = \\mathbf{q}\\) has infinite solutions.\nThere exist \\(\\displaystyle \\mathbf{M} \\in \\mathbb{R}^{3\\times 3} ,\\mathbf{p} \\in \\mathbb{R}^{3}\\) and \\(\\displaystyle \\mathbf{q} \\in \\mathbb{R}^{3}\\) such that \\(\\displaystyle \\mathbf{Mx} =\\mathbf{p}\\) has no solutions and \\(\\displaystyle \\mathbf{Mx} =\\mathbf{q}\\) has infinite solutions.\nThere exist \\(\\displaystyle \\mathbf{M} \\in \\mathbb{R}^{2\\times 3} ,\\mathbf{p} \\in \\mathbb{R}^{2}\\) and \\(\\displaystyle \\mathbf{q} \\in \\mathbb{R}^{2}\\) such that \\(\\displaystyle \\mathbf{Mx} =\\mathbf{p}\\) has a unique solution and \\(\\displaystyle \\mathbf{Mx} =\\mathbf{q}\\) has infinite solutions.\nThere exist \\(\\displaystyle \\mathbf{M} \\in \\mathbb{R}^{3\\times 2} ,\\mathbf{p} \\in \\mathbb{R}^{3}\\) and \\(\\displaystyle \\mathbf{q} \\in \\mathbb{R}^{3}\\) such that \\(\\displaystyle \\mathbf{Mx} =\\mathbf{p}\\) has a unique solution and \\(\\displaystyle \\mathbf{Mx} =\\mathbf{q}\\) has no solutions.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe key to solving this problem is to note the following facts about a general system \\(Ax = b\\), where \\(A \\in \\mathbb{R}^{m \\times n}\\) , \\(b \\in \\mathbb{R}^m\\):\n\n\\(Ax = b\\) has a solution if \\(b\\) is in the column space of \\(A\\).\nIf \\(Ax = b\\) has a solution, it is unique if and only if the columns of \\(A\\) are linearly independent.\nThe columns of \\(A\\) are linearly independent if and only if \\(A\\) has full column rank.\n\nThus we can divide the problem into three cases:\nCase-1: \\(m &gt; n\\)\nIf \\(A\\) has full column rank, we can always find:\n\n\\(b_1\\), some vector in the column space\n\\(b_2\\), some vector not in the column space\n\nThe first leads to a unique solution and the next gives no solution.\nIf \\(A\\) is rank deficient, we can always find:\n\n\\(b_1\\), some vector in the column space\n\\(b_2\\), some vector not in the column space\n\nThe first leads to infinite solutions and the next gives no solution.\nCase-2: \\(m = n\\)\nIf \\(A\\) has full column rank, we are guaranteed a unique solution for any \\(b\\).\nIf \\(A\\) is rank deficient, the analysis is similar to the second point in case-1\nCase-3: \\(m &lt; n\\)\nWe can never get a unique solution as this system can never have full column rank. But we can still end up with a situation similar to the second point in case-1.",
+    "crumbs": [
+      "Practice Papers",
+      "GATE-2024",
+      "Question-48"
+    ]
+  },
+  {
+    "objectID": "prob_stats/index.html",
+    "href": "prob_stats/index.html",
+    "title": "Probability and Statistics",
+    "section": "",
+    "text": "The folder named Bank contains an assorted collection of questions in probability and statistics. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nCounting\n\nPermutations and combination\n\nProbability\n\nProbability axioms\nSample space\nEvents\n\nIndependent events\nMutually exclusive events\n\nMarginal, conditional and joint probabilities\nBayes’ Theorem\nConditional expectation\n\nDiscrete random variables\n\nProbability mass functions\n\nUniform\nBernoulli\nBinomial distribution\nPoisson\n\n\nContinuous random variables\n\nProbability distribution functions\n\nUniform\nExponential\nNormal, standard normal\nt-distribution\nchi-squared distribution\n\nCumulative distribution function\nConditional PDF\n\nCentral limit theorem\nImportant statistical quantities\n\nMean, median, mode\nVariance and standard deviation\nCorrelation and covariance\n\nConfidence interval, z-test, t-test, chi-squared test",
+    "crumbs": [
+      "Probability and Statistics"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-013.html",
+    "href": "prob_stats/bank/question-013.html",
+    "title": "Question-13",
+    "section": "",
+    "text": "A shopkeeper sells mobile phones. The demand for mobile phone follows a Poisson distribution with mean 4.6 per week. The shopkeeper has 5 mobile phones in his shop at the beginning of a week. Find the probability that this will not be enough to satisfy the demand for mobile phones in that week. Enter your answer correct up to two decimals accuracy.\n\n\n\n\n\n\nHint\n\n\n\n\n\nDefine random variable and find the condition for “not satisfying the demand” and apply the PMF formula of Poisson Distribution.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.32\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet \\(X\\) be a random variable which denotes the demand for mobile phones. Shopkeeper has 5 phones in his shop at the beginning of the week. So, this will not be enough to satisfy the demand for mobile phones in that week when \\(X &gt; 5\\). From the question, it is given that \\(\\lambda = 4.6\\). Thus, the required probability, \\(P(X &gt; 5) = 1-P(X \\leq 5)\\)\n\\(= 1- \\left(\\dfrac{e^{-4.6}\\times 4.6^0}{0!}  + \\dfrac{e^{-4.6}\\times 4.6^1}{1!} + \\dfrac{e^{-4.6}\\times 4.6^2}{2!} + \\dfrac{e^{-4.6}\\times 4.6^3}{3!} + \\dfrac{e^{-4.6}\\times 4.6^4}{4!}  + \\dfrac{e^{-4.6}\\times 4.6^5}{5!} \\right )\\)",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-13"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-018.html",
+    "href": "prob_stats/bank/question-018.html",
+    "title": "Question-18",
+    "section": "",
+    "text": "Suppose a random variable \\(X\\) follows an exponential distribution with mean 5. If \\(P(X \\leq k) = 0.95\\), then find the value of \\(k\\).\n\n\\(\\dfrac{1}{5}\\hspace{0.5mm}(\\ln 20)\\)\n\\(5\\hspace{0.5mm}(\\ln 20)\\)\n\\(\\dfrac{1} {5}\\hspace{0.5mm}( \\ln2)\\)\n\\(5\\hspace{0.5mm}(\\ln 2)\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nIf \\(X \\sim Exp(\\lambda),\\) then \\(P(X \\leq a) = 1- e^{-\\lambda a}\\)\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\dfrac{1}{5}\\hspace{0.5mm}(\\ln 20)\\)\n\\(5\\hspace{0.5mm}(\\ln 20)\\)\n\\(\\dfrac{1} {5}\\hspace{0.5mm}(\\ln 2)\\)\n\\(5\\hspace{0.5mm}(\\ln 2)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(P(X \\leq k) = 0.95\\)\n\\(1- e^{-k/5} = 0.95\\)\n\\(e^{-k/5} = 0.05\\)\n\\(e^{k/5} = \\dfrac{1}{0.05} = 20\\)\n\\(k/5 = \\ln(20)\\)\n\\(k = 5\\ln(20)\\)",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-18"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-015.html",
+    "href": "prob_stats/bank/question-015.html",
+    "title": "Question-15",
+    "section": "",
+    "text": "There are twenty boxes out of which exactly fifteen contains gifts and five are empty. Five boxes are removed randomly. Now, a person selects one box from the remaining boxes, then what is the probability that the person selects the empty box? Enter the answer correct to two decimal places.\n\n\n\n\n\n\nHint\n\n\n\n\n\nConsider all the cases of empty and gifted box and add.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.25",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-15"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-005.html",
+    "href": "prob_stats/bank/question-005.html",
+    "title": "Question-5",
+    "section": "",
+    "text": "Which of the following is/are a random experiment?\n\nTossing two coins.\nRolling a die.\nGuessing an answer in multiple choice questions.\nChoosing a number at random from 1 to 20.\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse the definition of random experiment.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nTossing two coins.\nRolling a die.\nGuessing an answer in multiple choice questions.\nChoosing a number at random from 1 to 20.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nRandom experiment is an experiment in which outcome of the experiment cannot be predicted with certainty. And, we cannot predict the outcomes of all of the four options with certainty.",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-5"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-010.html",
+    "href": "prob_stats/bank/question-010.html",
+    "title": "Question-10",
+    "section": "",
+    "text": "Students from \\(3\\) colleges \\(X\\), \\(Y\\), and \\(Z\\) have participated in a competition, where \\(30\\%\\) of the participants are from college \\(X\\), \\(20\\%\\) from college \\(Y\\), and \\(50\\%\\) from college \\(Z\\). It is known that \\(50\\%\\), \\(40\\%\\) and \\(60\\%\\) of the participants from colleges \\(X\\), \\(Y\\), and \\(Z\\) respectively are girls. If a girl is randomly selected, what is the probability that she is from college \\(X?\\) (Enter the answer correct upto three decimal places.)\n\n\n\n\n\n\nHint\n\n\n\n\n\nDefine an event as \\(G\\) which represents the “event that a randomly selected participant is a girl” and calculate \\(P(G)\\) by using law of total probability and then apply bayes theorem.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.283\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet \\(X\\), \\(Y\\), and \\(Z\\) represent the events that a randomly selected participant is from college \\(X\\), \\(Y\\), and \\(Z\\) respectively.\nLet \\(G\\) represent the event that a randomly selected participant is a girl.\nGiven, \\(P(X) = 0.3, P(Y) = 0.2, P(Z) = 0.5 \\hspace{2mm} \\text{and,}\\) \\(P(G \\hspace{1mm} | \\hspace{1mm} X) = 0.5, P(G \\hspace{1mm} | \\hspace{1mm} Y) = 0.4, P(G \\hspace{1mm} | \\hspace{1mm} Z) = 0.6\\)\nUsing Bayes theorem,\n\\(P(X \\hspace{1mm} | \\hspace{1mm} G) = \\dfrac{P(X) P(G \\hspace{1mm} | \\hspace{1mm} X) }{P(G)}\\)\n\\(P(X \\hspace{1mm} | \\hspace{1mm} G) = \\dfrac{P(X) P(G \\hspace{1mm} | \\hspace{1mm} X) }{P(X) P(G \\hspace{1mm} | \\hspace{1mm} X) + P(Y) P(G \\hspace{1mm} | \\hspace{1mm} Y)+P(Z) P(G \\hspace{1mm} | \\hspace{1mm} Z)}\\)\n\\(P(X \\hspace{1mm} | \\hspace{1mm} G) =\\dfrac{(0.3 \\times 0.5)}{(0.3 \\times 0.5) + (0.2 \\times 0.4) + (0.5 \\times 0.6)} =\\dfrac{0.15}{0.53} =0.283\\)",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-10"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-014.html",
+    "href": "prob_stats/bank/question-014.html",
+    "title": "Question-14",
+    "section": "",
+    "text": "Suppose the number of visitors arriving at a zoo can be modeled to be Poisson distributed. On an average 20 visitors arrive per hour. Let \\(X\\) be the number of visitors arriving from 2pm to 4pm. Then the probability that at least 35 visitors will arrive in the given duration is\n\n\\(\\sum\\limits_{k = 35}^{\\infty}\\dfrac{e^{-20}(20)^k}{k!}\\)\n\\(1-\\sum\\limits_{k = 0}^{34}\\dfrac{e^{-20}(20)^k}{k!}\\)\n\\(\\sum\\limits_{k = 35}^{\\infty}\\dfrac{e^{-40}(40)^k}{k!}\\)\n\\(1-\\sum\\limits_{k = 0}^{34}\\dfrac{e^{-40}(40)^k}{k!}\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\n\\(\\lambda = 20\\) per hour. Therefore, for 2pm - 4pm, \\(\\lambda\\) will be updated as \\(= 2\\times20 = 40\\) because there are 2 hours for 2pm - 4pm and use pmf of Poisson distribution.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\sum\\limits_{k = 35}^{\\infty}\\dfrac{e^{-20}(20)^k}{k!}\\)\n\\(1-\\sum\\limits_{k = 0}^{34}\\dfrac{e^{-20}(20)^k}{k!}\\)\n\\(\\sum\\limits_{k = 35}^{\\infty}\\dfrac{e^{-40}(40)^k}{k!}\\)\n\\(1-\\sum\\limits_{k = 0}^{34}\\dfrac{e^{-40}(40)^k}{k!}\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-14"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-017.html",
+    "href": "prob_stats/bank/question-017.html",
+    "title": "Question-17",
+    "section": "",
+    "text": "Suppose \\(X \\sim Poisson(\\lambda)\\). Find the value of \\(\\lambda\\) for which \\(3 P(X=3) = 2P(X=2) + 4P(X=1)\\).\n\n\n\n\n\n\nHint\n\n\n\n\n\nApply the PMF formula of Poisson distribution.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n4\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(3 P(X=3) = 2P(X=2) + 4P(X=1)\\)\n\\(3\\times \\left(\\dfrac{e^{-\\lambda} \\lambda^3}{3!}\\right) = 2\\times \\left(\\dfrac{e^{-\\lambda} \\lambda^2}{2!}\\right) + 4\\times\\left( \\dfrac{e^{-\\lambda} \\lambda^1}{1!}\\right)\\)\n\\(3\\times \\left(\\dfrac{\\lambda^3}{3 \\times 2!}\\right) = 2\\times \\left(\\dfrac{\\lambda^2}{2}\\right) + 4\\times\\left(\\lambda\\right)\\)\n\\(\\dfrac{\\lambda^2}{2} = \\lambda + 4\\)\n\\(\\lambda^2 = 2\\lambda + 8\\)\n\\(\\lambda^2 - 2\\lambda - 8 = 0\\)\n\\((\\lambda+2)(\\lambda-4)=0 \\implies \\lambda = 4\\)",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-17"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-007.html",
+    "href": "prob_stats/bank/question-007.html",
+    "title": "Question-7",
+    "section": "",
+    "text": "Which of the following option(s) is(are) true?\n\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nTwo events \\(A\\) and \\(B\\) are disjoint (mutually exclusive) if \\(A \\cap B = \\phi\\) and \\(A\\) and \\(B\\) are independent events if \\(P(A | B ) = P(A | B^c) = P(A)\\).\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nTwo events \\(A\\) and \\(B\\) are mutually exclusive (disjoint) if \\(A \\cap B = \\phi\\). Then, \\(P(A \\cap B) = 0 \\implies P(A \\cup B) = P(A) + P(B).\\)\n\\(P(A  \\cap  B) = P(A | B) \\times P(B) = P(A) \\times P(B)\\) because \\(P(A | B ) = P(A | B^c) = P(A)\\) if \\(A\\) and \\(B\\) are independent.",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-7"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-012.html",
+    "href": "prob_stats/bank/question-012.html",
+    "title": "Question-12",
+    "section": "",
+    "text": "If a fair coin is tossed an even number \\(2n\\) times, then what is the probability of obtaining more heads than tails?\n\n\\(^{2n}C_{n} \\left(\\dfrac{1}{2}\\right)^{2n}\\)\n\\(\\dfrac{1}{2}\\left\\{1-^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{2n}\\right\\}\\)\n\\(1 -^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{n}\\)\n\\(^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{n}\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nStart with defining random variables as \\(X\\) represents number of heads and \\(Y\\) represents number of tails. Given, total number of trials is \\(2n\\) and consider \\(P(X&gt;Y) + P(X&lt;Y) + P(X=Y) = 1\\)\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(^{2n}C_{n} \\left(\\dfrac{1}{2}\\right)^{2n}\\)\n\\(\\dfrac{1}{2}\\left\\{1-^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{2n}\\right\\}\\)\n\\(1 -^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{n}\\)\n\\(^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{n}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet \\(X\\) represents number of heads and \\(Y\\) represents number of tails. Total number of trials is \\(2n\\).\n\\(P(X&gt;Y) + P(X&lt;Y) + P(X=Y) = 1\\hspace{20mm} \\ldots (i)\\)\nSince, by symmetry, \\(p=1-p=\\dfrac{1}{2} \\implies P(X&gt;Y) = P(X&lt;Y)\\). Therefore, equation \\((i)\\) will be: \\(2P(X&gt;Y) = 1 - P(X = Y)\\hspace{20mm} \\ldots (ii)\\)\nIn \\(2n\\) trials, \\(X = Y \\implies\\) Number of heads \\(=\\) Number of tails \\(=n\\). Thus, the equation \\((ii)\\) will be: \\(2 P (X &gt; Y ) = 1 - ^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{n}\\left(\\dfrac{1}{2}\\right)^{n}\\)\n\\(\\implies P(X &gt; Y) = \\dfrac{1}{2}\\left\\{1-^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{2n}\\right\\}\\)",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-12"
+    ]
+  },
+  {
+    "objectID": "templates/NAT.html",
+    "href": "templates/NAT.html",
+    "title": "NAT",
+    "section": "",
+    "text": "Enter your question here.\n\n\n\n\n\n\nHint\n\n\n\n\n\nSuggest one or two steps that could lead to the solution.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\nEnter the correct number here.\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nEnter the solution here.",
+    "crumbs": [
+      "Templates",
+      "NAT"
+    ]
+  },
+  {
+    "objectID": "templates/code_support.html",
+    "href": "templates/code_support.html",
+    "title": "Code Support",
+    "section": "",
+    "text": "This is a snippet of Python code:\ndef printer(n):\n    for x in range(n):\n        print(x)\nTo refer to inline elements, use x.",
+    "crumbs": [
+      "Templates",
+      "Code Support"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/index.html",
+    "href": "linear_algebra/index.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "The folder named Bank contains an assorted collection of questions in linear algebra. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nVector spaces\nSubspaces\nLinear dependence and independence\nMatrices\nDeterminant\nRank\nNullity\nProjection matrix\nOrthogonal matrix\nIdempotent matrix\nPartition matrix\nQuadratic forms\nSystems of linear equations\nGaussian elimination\nEigenvalues and eigenvectors\nProjections\nLU decomposition\nSingular value decomposition",
+    "crumbs": [
+      "Linear Algebra"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-013.html",
+    "href": "linear_algebra/bank/question-013.html",
+    "title": "Question-13",
+    "section": "",
+    "text": "If \\(A\\) is an orthogonal matrix in \\(\\mathbb{R}^{n \\times n}\\) and \\(b \\in \\mathbb{R}^{n}\\), then which of the following statements are true?\n\n\\(A\\) has orthogonal columns which are not necessarily orthonormal.\n\\(A\\) has orthonormal columns.\n\\(Ax = b\\) has a unique solution.\n\\(Ax = b\\) has no solutions.\n\\(Ax = b\\) has infinitely many solutions.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(A\\) has orthogonal columns which are not necessarily orthonormal.\n\\(A\\) has orthonormal columns.\n\\(Ax = b\\) has a unique solution.\n\\(Ax = b\\) has no solutions.\n\\(Ax = b\\) has infinitely many solutions.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nAn \\(n \\times n\\) matrix \\(A\\) is orthogonal if its columns are orthonormal. It follows that the columns of \\(A\\) are linearly independent. This implies that \\(A\\) is invertible and \\(Ax = b\\) has a unique solution. It is to be noted that the columns have to be orthonormal and not just orthogonal.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-13"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-019.html",
+    "href": "linear_algebra/bank/question-019.html",
+    "title": "Question-19",
+    "section": "",
+    "text": "Let \\(P\\) be the projection matrix that projects vectors in \\(\\mathbb{R}^{4}\\) onto the line \\((1, 2, -1, 1)\\). Compute the trace of \\(P\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(1\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(\\displaystyle P\\) is a projection transformation for \\(\\displaystyle \\mathbb{R}^{n}\\) onto the vector \\(\\displaystyle v=( v_{1} ,\\cdots ,v_{n})\\). Then for any \\(\\displaystyle x\\in \\mathbb{R}^{n}\\):\n\\[\n\\begin{aligned}\nP( x) & =\\frac{x^{T} v}{v^{T} v} v\n\\end{aligned}\n\\]\nThe matrix corresponding to this transformation is given by:\n\\[\nP=\\begin{bmatrix}\n| &  & |\\\\\nP( e_{1}) & \\cdots  & P( e_{n})\\\\\n| &  & |\n\\end{bmatrix} =\\frac{1}{v^{T} v}\\begin{bmatrix}\n| &  & |\\\\\nv_{1} v & \\cdots  & v_{n} v\\\\\n| &  & |\n\\end{bmatrix} =\\frac{1}{v^{T} v} vv^{T}\n\\]\nWe have \\(\\displaystyle P_{ii} =\\frac{v_{i}^{2}}{v^{T} v}\\). Summing this from \\(\\displaystyle i=1\\) to \\(\\displaystyle i=n\\), we get the trace as \\(\\displaystyle 1\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-19"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-008.html",
+    "href": "linear_algebra/bank/question-008.html",
+    "title": "Question-8",
+    "section": "",
+    "text": "Let \\(M_{2 \\times 2}(\\mathbb{R})\\) represent the set of all \\(2 \\times 2\\) real matrices. Now consider the following sets: \\[\n\\begin{aligned}\n    V_1 &= \\{A\\ |\\ A \\in M_{2 \\times 2}(\\mathbb{R}) \\text{ and } A \\text{ is a diagonal matrix}\\}\\\\\n    V_2 &= \\{A\\ |\\ A \\in M_{2 \\times 2}(\\mathbb{R}) \\text{ and sum of diagonal elements of } A \\text{ is equal to 1}\\}\n\\end{aligned}\n\\] Which of the following statements is true?\n\n\\(V_1\\) is a subspace of \\(M_{2 \\times 2}(\\mathbb{R})\\), but \\(V_2\\) is not\n\\(V_2\\) is a subspace of \\(M_{2 \\times 2}(\\mathbb{R})\\), but \\(V_1\\) is not\nBoth \\(V_1\\) and \\(V_2\\) are subspaces of \\(M_{2 \\times 2}(\\mathbb{R})\\)\nNeither \\(V_1\\) nor \\(V_2\\) are subspaces of \\(M_{2 \\times 2}(\\mathbb{R})\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nCheck for the zero vector.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(V_1\\) is a subspace of \\(M_{2 \\times 2}(\\mathbb{R})\\), but \\(V_2\\) is not\n\\(V_2\\) is a subspace of \\(M_{2 \\times 2}(\\mathbb{R})\\), but \\(V_1\\) is not\nBoth \\(V_1\\) and \\(V_2\\) are subspaces of \\(M_{2 \\times 2}(\\mathbb{R})\\)\nNeither \\(V_1\\) nor \\(V_2\\) are subspaces of \\(M_{2 \\times 2}(\\mathbb{R})\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(V_2\\) does not have the zero element. \\(V_1\\) has the zero element, is closed under addition and scalar multiplication.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-8"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-009.html",
+    "href": "linear_algebra/bank/question-009.html",
+    "title": "Question-9",
+    "section": "",
+    "text": "Select all true statements.\n\nThe intersection of two subspaces of a vector space is a subspace.\nThe union of two subspaces of a vector space is a subspace.\nThe empty set is a subspace of every vector space.\nEvery subset of a vector space need not be a subspace.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThe intersection of two subspaces of a vector space is a subspace.\nThe union of two subspaces of a vector space is a subspace.\nThe empty set is a subspace of every vector space.\nEvery subset of a vector space need not be a subspace.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nAs a counter example for the second option, consider two subspaces for \\(\\mathbb{R}^{2}\\): the x-axis and the y-axis. Their union is not a subspace as it is not closed under vector addition. The third option is incorrect as every vector space ought to have at least the zero vector.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-9"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-001.html",
+    "href": "linear_algebra/bank/question-001.html",
+    "title": "Question-1",
+    "section": "",
+    "text": "Is the following statement true or false?\n\nThe row echelon form is defined only for square matrices.\n\n\nTrue\nFalse\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nTrue\nFalse\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe row echelon form is defined for matrices of any shape.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-1"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-004.html",
+    "href": "linear_algebra/bank/question-004.html",
+    "title": "Question-4",
+    "section": "",
+    "text": "\\(S\\) is a linearly independent subset of \\(\\mathbb{R}^{4}\\). Select all true statements concerning \\(S\\).\n\n\\(|S| \\leqslant 4\\)\nAny subset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\nAny superset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\n\\(S\\) is a basis for \\(\\mathbb{R}^{4}\\).\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(|S| \\leqslant 4\\)\nAny subset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\nAny superset of \\(S\\) is also a linearly independent subset of \\(\\mathbb{R}^{4}\\).\n\\(S\\) is a basis for \\(\\mathbb{R}^{4}\\).\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(S\\) will be a basis for \\(\\mathbb{R}^{4}\\) if and only if \\(|S| = 4\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-4"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-003.html",
+    "href": "linear_algebra/bank/question-003.html",
+    "title": "Question-3",
+    "section": "",
+    "text": "Select all correct options concerning a system of linear equations given by \\(Ax = b\\), where \\(A\\) is a \\(m \\times n\\) matrix, \\(x \\in \\mathbb{R}^{n}\\) and \\(b \\in \\mathbb{R}^{m}\\).\n\nThe solution to this system is given by \\(A^{-1} b\\).\nThe system has a solution if and only if \\(b\\) is one of the columns of \\(A\\).\nThe system has a solution if and only if \\(b\\) is in the column-space of \\(A\\).\nIf this system is consistent, it can have either a unique solution or infinitely many solutions.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThe solution to this system is given by \\(A^{-1} b\\).\nThe system has a solution if and only if \\(b\\) is one of the columns of \\(A\\).\nThe system has a solution if and only if \\(b\\) is in the column-space of \\(A\\).\nIf this system is consistent, it can have either a unique solution or infinitely many solutions.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\nThe system is consistent if \\(b\\) can be expressed as a linear combination of the columns of \\(A\\).\nA consistent system that has at least two solutions cannot have finitely many solutions. To see why this is true, let \\(x_1\\) and \\(x_2\\) be two solutions to \\(Ax = b\\) with \\(x_1 \\neq x_2\\). Then \\((a + 1)x_1 - ax_2\\) is also a solution for \\(a \\in \\mathbb{N}\\). Using this, one can generate infinitely many solutions.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-3"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-014.html",
+    "href": "linear_algebra/bank/question-014.html",
+    "title": "Question-14",
+    "section": "",
+    "text": "Find the number of true statements. Your answer should be between \\(0\\) and \\(4\\):\n\nThe product of two upper triangular matrices is upper triangular.\nThe product of two lower triangular matrices is lower triangular.\nIf \\(L\\) is an lower triangular matrix then \\(L^T\\) is lower triangular.\nIf \\(U\\) is an upper triangular matrix then \\(U^T\\) is lower triangular.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(3\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe product of any two upper(lower) triangular matrices is upper(lower) triangular. An upper triangular matrix is the transpose of a lower triangular matrix and vice versa.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-14"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-024.html",
+    "href": "linear_algebra/bank/question-024.html",
+    "title": "Question-24",
+    "section": "",
+    "text": "Let \\(v = (3, 1, 2)\\) be a vector in \\(\\mathbb{R}^{3}\\). If \\((a, b, c)\\) is the vector obtained from \\(v\\) after an anti-clockwise rotation of the \\(ZX\\) plane with angle \\(45^{\\circ}\\) about the \\(Y\\)-axis, then find the value of \\(\\sqrt{2}(a + b + c - 1)\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(6\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe can form the rotation matrix as follows:\n\\[\nQ=\\begin{bmatrix}\n\\cos \\theta  & 0 & -\\sin \\theta \\\\\n0 & 1 & 0\\\\\n\\sin \\theta  & 0 & \\cos \\theta\n\\end{bmatrix}\n\\]\nSetting \\(\\displaystyle \\theta =45^{\\circ }\\), we get:\n\\[\nQ=\\frac{1}{\\sqrt{2}}\\begin{bmatrix}\n1 & 0 & -1\\\\\n0 & \\sqrt{2} & 0\\\\\n1 & 0 & 1\n\\end{bmatrix}\n\\]\n\\(\\displaystyle Qv\\) is the result of rotating \\(\\displaystyle v\\) by \\(\\displaystyle 45^{\\circ }\\):\n\\[\n\\begin{aligned}\n\\begin{bmatrix}\na\\\\\nb\\\\\nc\n\\end{bmatrix} & =Qv\\\\\n& =\\frac{1}{\\sqrt{2}}\\begin{bmatrix}\n1 & 0 & -1\\\\\n0 & \\sqrt{2} & 0\\\\\n1 & 0 & 1\n\\end{bmatrix}\\begin{bmatrix}\n3\\\\\n1\\\\\n2\n\\end{bmatrix}\\\\\n& =\\frac{1}{\\sqrt{2}}\\begin{bmatrix}\n1\\\\\n\\sqrt{2}\\\\\n5\n\\end{bmatrix}\n\\end{aligned}\n\\]\nThus, \\(\\displaystyle a=\\frac{1}{\\sqrt{2}} ,b=1,c=\\frac{5}{\\sqrt{2}}\\). Now:\n\\[\n\\sqrt{2}( a+b+c-1) =6\n\\]",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-24"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-006.html",
+    "href": "linear_algebra/bank/question-006.html",
+    "title": "Question-6",
+    "section": "",
+    "text": "Consider the matrix \\(\\mathbf{M} = \\begin{bmatrix}2 & -1\\\\3 & 1\\end{bmatrix}\\). Which one of the following statements is true?\n\nThe eigenvalues of \\(\\mathbf{M}\\) are non-negative and real.\nThe eigenvalues of \\(\\mathbf{M}\\) are complex conjugate pairs.\nOne eigenvalue of \\(\\mathbf{M}\\) is positive and real, and another eigenvalue of \\(\\mathbf{M}\\) is zero.\nOne eigenvalue of \\(\\mathbf{M}\\) is non-negative and real, and another eigenvalue of \\(\\mathbf{M}\\) is negative and real\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThe eigenvalues of \\(\\mathbf{M}\\) are non-negative and real.\nThe eigenvalues of \\(\\mathbf{M}\\) are complex conjugate pairs.\nOne eigenvalue of \\(\\mathbf{M}\\) is positive and real, and another eigenvalue of \\(\\mathbf{M}\\) is zero.\nOne eigenvalue of \\(\\mathbf{M}\\) is non-negative and real, and another eigenvalue of \\(\\mathbf{M}\\) is negative and real\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe can compute the eigenvalues with the help of the characteristic polynomial: \\[\n\\begin{aligned}\n\\begin{vmatrix}\n2 - \\lambda & -1\\\\\n3 & 1 - \\lambda\n\\end{vmatrix} &= 0\\\\\\\\\n(2 - \\lambda)(1 - \\lambda) + 3 &= 0\\\\\\\\\n\\lambda^2 -3 \\lambda + 5 &= 0\\\\\\\\\n\\end{aligned}\n\\] We see that the discriminant of the quadratic equation is negative. Hence, the eigenvalues are complex conjugate pairs.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-6"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-007.html",
+    "href": "linear_algebra/bank/question-007.html",
+    "title": "Question-7",
+    "section": "",
+    "text": "Select all idempotent matrices from the options given below.\n\n\\(\\begin{bmatrix}3 & -6\\\\1 & -2\\end{bmatrix}\\)\n\\(\\begin{bmatrix}1 & -1\\\\0 & 1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}2 & -2\\\\1 & -1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}3 & 1\\\\-1 & 2\\end{bmatrix}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\begin{bmatrix}3 & -6\\\\1 & -2\\end{bmatrix}\\)\n\\(\\begin{bmatrix}1 & -1\\\\0 & 1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}2 & -2\\\\1 & -1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}3 & 1\\\\-1 & 2\\end{bmatrix}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nA matrix \\(A\\) is idempotent if \\(A^2 = A\\). Of the four matrices given here, exactly two of them are idempotent.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-7"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-021.html",
+    "href": "linear_algebra/bank/question-021.html",
+    "title": "Question-21",
+    "section": "",
+    "text": "Consider the matrix \\(A = \\begin{bmatrix}1 & 0\\\\C & 1\\end{bmatrix}\\), where \\(C\\) is some real number.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-21"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-021.html#part-a",
+    "href": "linear_algebra/bank/question-021.html#part-a",
+    "title": "Question-21",
+    "section": "Part-(a)",
+    "text": "Part-(a)\nWhat are the eigenvalues of \\(A\\)?\n\n\\(1\\) and \\(0\\)\nOnly \\(0\\)\nOnly \\(1\\)\n\\(A\\) does not have any real eigenvalues.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(1\\) and \\(0\\)\nOnly \\(0\\)\nOnly \\(1\\)\n\\(A\\) does not have any real eigenvalues.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince \\(A\\) is a lower triangular matrix, its eigenvalues are the elements on the diagonal. So \\(1\\) is the only eigenvalue.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-21"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-021.html#part-b",
+    "href": "linear_algebra/bank/question-021.html#part-b",
+    "title": "Question-21",
+    "section": "Part-(b)",
+    "text": "Part-(b)\nSuppose \\(\\sigma_1\\) and \\(\\sigma_2\\) are the two singular values of \\(A\\), what is \\(\\sigma_1^2 + \\sigma_2^2\\)?\n\n\\(0\\)\n\\(2\\)\n\\(C\\)\n\\(2 + C^2\\)\nInsufficient data\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(0\\)\n\\(2\\)\n\\(C\\)\n\\(2 + C^2\\)\nInsufficient data\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe squares of the singular values of \\(A\\) are the eigenenvalues of \\(A^TA\\). \\[\nA^TA = \\begin{bmatrix}\n1 + C^2 & C\\\\\nC & 1\n\\end{bmatrix}\n\\] The characterstic polynomial of \\(A^TA\\) is: \\[\n\\lambda^2 - \\left( 2 + C^2 \\right)\\lambda + 1 = 0\n\\] The sum of the roots are \\(\\sigma_1^2 + \\sigma_2^2\\). This is given by \\(2 + C^2\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-21"
+    ]
+  },
+  {
+    "objectID": "dbms/index.html",
+    "href": "dbms/index.html",
+    "title": "DBMS",
+    "section": "",
+    "text": "The folder named Bank contains an assorted collection of questions in DBMS. All questions have answers, some may have hints and solutions.",
+    "crumbs": [
+      "DBMS"
     ]
   }
 ]
