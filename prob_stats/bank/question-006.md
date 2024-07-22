@@ -1,6 +1,7 @@
 ---
 title: Question-6
-pagetitle: Question-1
+pagetitle: Question-6
+order: 6
 categories: [probability]
 ---
 

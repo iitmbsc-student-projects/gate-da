@@ -2,7 +2,7 @@
 title: Question-5
 pagetitle: Question-5
 order: 5
-categories: [maxima and minima]
+categories: [continuity, differentiability]
 ---
 
 Define a function $f$ as follows:
