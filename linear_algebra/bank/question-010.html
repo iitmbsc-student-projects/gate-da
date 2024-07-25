@@ -183,6 +183,36 @@ window.Quarto = {
  <span class="menu-text">Question-5</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../calculus/bank/question-006.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-6</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../calculus/bank/question-007.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-7</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../calculus/bank/question-008.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-8</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../calculus/bank/question-009.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-9</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../calculus/bank/question-010.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-10</span></a>
+  </div>
+</li>
       </ul>
   </li>
       </ul>
@@ -353,6 +383,66 @@ window.Quarto = {
   <div class="sidebar-item-container"> 
   <a href="../../linear_algebra/bank/question-025.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Question-25</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../linear_algebra/bank/question-026.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-26</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../linear_algebra/bank/question-027.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-27</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../linear_algebra/bank/question-028.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-28</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../linear_algebra/bank/question-029.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-29</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../linear_algebra/bank/question-030.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-30</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../linear_algebra/bank/question-031.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-31</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../linear_algebra/bank/question-032.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-32</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../linear_algebra/bank/question-033.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-33</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../linear_algebra/bank/question-034.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-34</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../linear_algebra/bank/question-035.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-35</span></a>
   </div>
 </li>
       </ul>
@@ -951,7 +1041,23 @@ Solution
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Matrix multiplication doesn’t increase the rank.</p>
+<p>Matrix multiplication doesn’t increase the rank. To see why note that we can view matrix multiplication in the following way. If <span class="math inline">\(B = \begin{bmatrix}b_1 &amp; \cdots &amp; b_n\end{bmatrix}\)</span> has <span class="math inline">\(n\)</span> columns, then <span class="math inline">\(AB\)</span> can be written as:</p>
+<p><span class="math display">\[
+AB = \begin{bmatrix}
+Ab_1 &amp; \cdots &amp; Ab_n
+\end{bmatrix}
+\]</span> We see that the <span class="math inline">\(i^{th}\)</span> column of <span class="math inline">\(AB\)</span> is a linear combination of the columns of <span class="math inline">\(A\)</span>, with the multipliers coming from the <span class="math inline">\(i^{th}\)</span> column of <span class="math inline">\(b\)</span>. Thus the column space of <span class="math inline">\(AB\)</span> is a subspace of the column space of <span class="math inline">\(A\)</span>. It follows that <span class="math inline">\(\text{rank}(AB) \leqslant \text{rank}(A)\)</span>.</p>
+<p>We could also view matrix multiplication in another way. If <span class="math inline">\(A = \begin{bmatrix}r_1^T\\\vdots\\r_m^T\end{bmatrix}\)</span> has <span class="math inline">\(m\)</span> rows, then <span class="math inline">\(AB\)</span> can be written as: <span class="math display">\[
+AB = \begin{bmatrix}
+r_1^TB\\
+\vdots\\
+r_m^TB
+\end{bmatrix}
+\]</span> We see that the <span class="math inline">\(i^{th}\)</span> row of <span class="math inline">\(AB\)</span> is a linear combination of the rows of <span class="math inline">\(B\)</span>, with the multipliers coming form the <span class="math inline">\(i^{th}\)</span> row of <span class="math inline">\(A\)</span>. Thus the row space of <span class="math inline">\(AB\)</span> is a subspace of the row space of <span class="math inline">\(B\)</span>. It follows that <span class="math inline">\(\text{rank}(AB) \leqslant \text{rank}(B)\)</span>.</p>
+<p>Combining the two inequalities, we have: <span class="math display">\[
+\text{rank}(AB) \leqslant \min(\text{rank}(A), \text{rank}(B))
+\]</span></p>
+<p>Thus if we start with a matrix <span class="math inline">\(A\)</span> and multiply it by some matrix <span class="math inline">\(B\)</span>, the rank of the resulting matrix cannot be more than the rank of <span class="math inline">\(A\)</span>.</p>
 </div>
 </div>
 </div>

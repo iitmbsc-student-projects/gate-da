@@ -12,39 +12,75 @@
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-012.html",
-    "href": "linear_algebra/bank/question-012.html",
-    "title": "Question-12",
+    "objectID": "linear_algebra/bank/question-035.html",
+    "href": "linear_algebra/bank/question-035.html",
+    "title": "Question-35",
     "section": "",
-    "text": "Assertion: If \\(A^2 + A = I\\), then \\(A^{-1} = A + I\\)\nReason: If \\(A\\) is an \\(m \\times n\\) matrix, \\(B\\) is an \\(n \\times p\\) matrix, with \\(AB = I\\), then \\(A^{-1} = B\\)\n\nAssertion is true and Reason is true. Reason is the correct explanation for Assertion.\nAssertion is true and Reason is true. Reason is not the correct explanation for Assertion.\nBoth Assertion and Reason are false.\nAssertion is true. Reason is False.\nAssertion is false. Reason is true.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nAssertion is true and Reason is true. Reason is the correct explanation for Assertion.\nAssertion is true and Reason is true. Reason is not the correct explanation for Assertion.\nBoth Assertion and Reason are false.\nAssertion is true. Reason is False.\nAssertion is false. Reason is true.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(A^2 + A = I \\implies A(A + I) = I\\). Since \\(A\\) is a square matrix, \\(AB = I \\implies B = A^{-1}\\). So the Assertion is true. The Reason is however a false statement. It is true only if \\(A\\) and \\(B\\) are square matrices. In its current form \\(A\\) and \\(B\\) are not necessarily square.",
+    "text": "\\(\\displaystyle A,B\\) and \\(\\displaystyle C\\) are square matrices of order \\(\\displaystyle n\\), \\(\\displaystyle 0\\) is the zero matrix and \\(\\displaystyle I\\) is an identity matrix of order \\(\\displaystyle n\\). Compute the following product:\n\\[\n\\begin{bmatrix}\nI & 0\\\\\nA & I\n\\end{bmatrix}\\begin{bmatrix}\nA & B\\\\\n-C & 0\n\\end{bmatrix}\n\\]\n\n\\(\\displaystyle \\begin{bmatrix}\nA & B\\\\\nC & I\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\nB & A\\\\\nA^{2} & BA\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\nA & B\\\\\nA^{2} -C & AB\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\nA^{2} & B^{2}\\\\\nAB & BA\n\\end{bmatrix}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle \\begin{bmatrix}\nA & B\\\\\nC & I\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\nB & A\\\\\nA^{2} & BA\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\nA & B\\\\\nA^{2} -C & AB\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\nA^{2} & B^{2}\\\\\nAB & BA\n\\end{bmatrix}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe can multiply the two matrices as though the entries were scalars.",
     "crumbs": [
       "Linear Algebra",
       "Bank",
-      "Question-12"
+      "Question-35"
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-016.html",
-    "href": "linear_algebra/bank/question-016.html",
-    "title": "Question-16",
+    "objectID": "linear_algebra/bank/question-021.html",
+    "href": "linear_algebra/bank/question-021.html",
+    "title": "Question-21",
     "section": "",
-    "text": "\\(\\displaystyle x\\) and \\(\\displaystyle y\\) are vectors in \\(\\displaystyle \\mathbb{R}^{n}\\). If \\(\\displaystyle x-y\\) is orthogonal to \\(\\displaystyle x+y\\), comment on the relationship between \\(\\displaystyle ||x||\\) and \\(\\displaystyle ||y||\\).\n\n\\(||x|| = ||y||\\)\n\\(||x|| &gt; ||y||\\)\n\\(||x|| &lt; ||y||\\)\nThere is no relationship between the norms of these two vectors.\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nExpand the dot product of \\(x - y\\) and \\(x + y\\).\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(||x|| = ||y||\\)\n\\(||x|| &gt; ||y||\\)\n\\(||x|| &lt; ||y||\\)\nThere is no relationship between the norms of these two vectors.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf \\(\\displaystyle x-y\\) and \\(\\displaystyle x+y\\) are orthogonal, then we have \\(\\displaystyle \\langle x-y,x+y\\rangle =0\\). From this we get \\(\\displaystyle \\langle x,x\\rangle =\\langle y,y\\rangle \\Longrightarrow ||x||=||y||\\).",
+    "text": "Consider the matrix \\(A = \\begin{bmatrix}1 & 0\\\\C & 1\\end{bmatrix}\\), where \\(C\\) is some real number.",
     "crumbs": [
       "Linear Algebra",
       "Bank",
-      "Question-16"
+      "Question-21"
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-020.html",
-    "href": "linear_algebra/bank/question-020.html",
-    "title": "Question-20",
-    "section": "",
-    "text": "If \\(A\\) is a real matrix, select all true statements.\n\n\\(A^TA\\) is positive semi-definite.\n\\(A^TA\\) and \\(AA^T\\) have the same eigenvectors.\n\\(A^TA\\) is symmetric if and only if \\(A\\) is symmetric.\n\\(A^TA\\) and \\(AA^T\\) have the same non-zero eigenvalues.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(A^TA\\) is positive semi-definite.\n\\(A^TA\\) and \\(AA^T\\) have the same eigenvectors.\n\\(A^TA\\) is symmetric if and only if \\(A\\) is symmetric.\n\\(A^TA\\) and \\(AA^T\\) have the same non-zero eigenvalues.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet \\(\\displaystyle ( \\lambda ,v)\\) be an eigenpair of of \\(\\displaystyle A^{T} A\\) with \\(\\displaystyle \\lambda \\neq 0\\):\n\\[\n\\begin{aligned}\n\\left( A^{T} A\\right) v & =\\lambda v\\\\\n\\left( AA^{T}\\right) (Av) & =\\lambda ( Av)\\\\\n\\left( AA^{T}\\right)( Av) & =\\lambda ( Av)\n\\end{aligned}\n\\]\nThis is of the form \\(\\displaystyle \\left( AA^{T}\\right) u=\\lambda u\\). For \\(\\displaystyle ( \\lambda ,u)\\) to be an eigenpair of \\(\\displaystyle AA^{T}\\), \\(\\displaystyle u=Av\\) has to be non-zero. To show this, do the following. If \\(\\displaystyle u=Av=0\\), then \\(\\displaystyle A^{T} Av=0\\Longrightarrow \\lambda v=0\\). Since \\(\\displaystyle \\lambda \\neq 0\\), \\(\\displaystyle v=0\\) which contradicts the fact that \\(\\displaystyle ( \\lambda ,v)\\) is an eigenpair of \\(\\displaystyle A^{T} A\\).\n\nLet \\(\\displaystyle ( \\lambda ,v)\\) be an eigenpair of \\(\\displaystyle A^{T} A\\). Then:\n\\[\n\\begin{aligned}\nA^{T} Av & =\\lambda v\\\\\nv^{T} A^{T} Av & =\\lambda \\left( v^{T} v\\right)\\\\\n( Av)^{T}( Av) & =\\lambda \\left( v^{T} v\\right)\\\\\n\\Longrightarrow \\lambda  & =\\frac{||Av||^{2}}{||v||^{2}} \\geqslant 0\n\\end{aligned}\n\\]\nWe can divide by \\(\\displaystyle ||v||^{2}\\) as \\(\\displaystyle v\\neq 0\\) for it is an eigenvector. Since all the eigenvalues of \\(\\displaystyle A^{T} A\\) are non-negative, \\(\\displaystyle A^{T} A\\) is positive semi definite.",
+    "objectID": "linear_algebra/bank/question-021.html#part-a",
+    "href": "linear_algebra/bank/question-021.html#part-a",
+    "title": "Question-21",
+    "section": "Part-(a)",
+    "text": "Part-(a)\nWhat are the eigenvalues of \\(A\\)?\n\n\\(1\\) and \\(0\\)\nOnly \\(0\\)\nOnly \\(1\\)\n\\(A\\) does not have any real eigenvalues.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(1\\) and \\(0\\)\nOnly \\(0\\)\nOnly \\(1\\)\n\\(A\\) does not have any real eigenvalues.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince \\(A\\) is a lower triangular matrix, its eigenvalues are the elements on the diagonal. So \\(1\\) is the only eigenvalue.",
     "crumbs": [
       "Linear Algebra",
       "Bank",
-      "Question-20"
+      "Question-21"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-021.html#part-b",
+    "href": "linear_algebra/bank/question-021.html#part-b",
+    "title": "Question-21",
+    "section": "Part-(b)",
+    "text": "Part-(b)\nSuppose \\(\\sigma_1\\) and \\(\\sigma_2\\) are the two singular values of \\(A\\), what is \\(\\sigma_1^2 + \\sigma_2^2\\)?\n\n\\(0\\)\n\\(2\\)\n\\(C\\)\n\\(2 + C^2\\)\nInsufficient data\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(0\\)\n\\(2\\)\n\\(C\\)\n\\(2 + C^2\\)\nInsufficient data\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe squares of the singular values of \\(A\\) are the eigenenvalues of \\(A^TA\\). \\[\nA^TA = \\begin{bmatrix}\n1 + C^2 & C\\\\\nC & 1\n\\end{bmatrix}\n\\] The characterstic polynomial of \\(A^TA\\) is: \\[\n\\lambda^2 - \\left( 2 + C^2 \\right)\\lambda + 1 = 0\n\\] The sum of the roots are \\(\\sigma_1^2 + \\sigma_2^2\\). This is given by \\(2 + C^2\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-21"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-007.html",
+    "href": "linear_algebra/bank/question-007.html",
+    "title": "Question-7",
+    "section": "",
+    "text": "Select all idempotent matrices from the options given below.\n\n\\(\\begin{bmatrix}3 & -6\\\\1 & -2\\end{bmatrix}\\)\n\\(\\begin{bmatrix}1 & -1\\\\0 & 1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}2 & -2\\\\1 & -1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}3 & 1\\\\-1 & 2\\end{bmatrix}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\begin{bmatrix}3 & -6\\\\1 & -2\\end{bmatrix}\\)\n\\(\\begin{bmatrix}1 & -1\\\\0 & 1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}2 & -2\\\\1 & -1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}3 & 1\\\\-1 & 2\\end{bmatrix}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nA matrix \\(A\\) is idempotent if \\(A^2 = A\\). Of the four matrices given here, exactly two of them are idempotent.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-7"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-031.html",
+    "href": "linear_algebra/bank/question-031.html",
+    "title": "Question-31",
+    "section": "",
+    "text": "Choose the correct set of options.\n\nIf two matrices \\(A\\) and \\(B\\) have the same reduced row echelon form, then \\(A\\) must be equal to \\(B\\).\nIf two matrices \\(A\\) and \\(B\\) have the same row echelon form, then \\(A\\) must be equal to \\(B\\).\nThe reduced row echelon form of a diagonal matrix with non-zero diagonal entries must be the identity matrix.\nThe reduced row echelon form of a non-zero scalar matrix must be the identity matrix.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf two matrices \\(A\\) and \\(B\\) have the same reduced row echelon form, then \\(A\\) must be equal to \\(B\\).\nIf two matrices \\(A\\) and \\(B\\) have the same row echelon form, then \\(A\\) must be equal to \\(B\\).\nThe reduced row echelon form of a diagonal matrix with non-zero diagonal entries must be the identity matrix.\nThe reduced row echelon form of a non-zero scalar matrix must be the identity matrix.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\nOption-(a) is incorrect. As a counter example, consider any two invertible matrices of the same order that are distinct from each other. Both have the same reduced row echelon form, namely the identity matrix.\nOption-(b) is incorrect. An argument similar to the previous bullet point can be applied here.\nOption-(c) is correct. In fact, as stated in the first point, any invertible matrix has the identity matrix as its reduced row echelon form. Since a diagonal matrix with non-zero diagonal entries is invertible, the result follows.\nOption-(d) is correct. A non-zero scalar matrix is an example of a diagonal matrix with non-zero diagonal entries.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-31"
     ]
   },
   {
@@ -88,11 +124,35 @@
     "href": "linear_algebra/bank/question-010.html",
     "title": "Question-10",
     "section": "",
-    "text": "Let \\(A\\) and \\(B\\) be two matrices such that \\(AB\\) is defined. Select the most appropriate statement.\n\n\\(\\text{rank}(AB) = \\text{rank}(A) + \\text{rank}(B)\\)\n\\(\\text{rank}(AB) = \\text{rank}(A) \\cdot \\text{rank}(B)\\)\n\\(\\text{rank}(AB) = \\max(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) = \\min(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) \\leq \\max(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) \\leq \\min(\\text{rank}(A), \\text{rank}(B))\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\text{rank}(AB) = \\text{rank}(A) + \\text{rank}(B)\\)\n\\(\\text{rank}(AB) = \\text{rank}(A) \\cdot \\text{rank}(B)\\)\n\\(\\text{rank}(AB) = \\max(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) = \\min(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) \\leq \\max(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) \\leq \\min(\\text{rank}(A), \\text{rank}(B))\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nMatrix multiplication doesn’t increase the rank.",
+    "text": "Let \\(A\\) and \\(B\\) be two matrices such that \\(AB\\) is defined. Select the most appropriate statement.\n\n\\(\\text{rank}(AB) = \\text{rank}(A) + \\text{rank}(B)\\)\n\\(\\text{rank}(AB) = \\text{rank}(A) \\cdot \\text{rank}(B)\\)\n\\(\\text{rank}(AB) = \\max(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) = \\min(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) \\leq \\max(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) \\leq \\min(\\text{rank}(A), \\text{rank}(B))\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\text{rank}(AB) = \\text{rank}(A) + \\text{rank}(B)\\)\n\\(\\text{rank}(AB) = \\text{rank}(A) \\cdot \\text{rank}(B)\\)\n\\(\\text{rank}(AB) = \\max(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) = \\min(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) \\leq \\max(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) \\leq \\min(\\text{rank}(A), \\text{rank}(B))\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nMatrix multiplication doesn’t increase the rank. To see why note that we can view matrix multiplication in the following way. If \\(B = \\begin{bmatrix}b_1 & \\cdots & b_n\\end{bmatrix}\\) has \\(n\\) columns, then \\(AB\\) can be written as:\n\\[\nAB = \\begin{bmatrix}\nAb_1 & \\cdots & Ab_n\n\\end{bmatrix}\n\\] We see that the \\(i^{th}\\) column of \\(AB\\) is a linear combination of the columns of \\(A\\), with the multipliers coming from the \\(i^{th}\\) column of \\(b\\). Thus the column space of \\(AB\\) is a subspace of the column space of \\(A\\). It follows that \\(\\text{rank}(AB) \\leqslant \\text{rank}(A)\\).\nWe could also view matrix multiplication in another way. If \\(A = \\begin{bmatrix}r_1^T\\\\\\vdots\\\\r_m^T\\end{bmatrix}\\) has \\(m\\) rows, then \\(AB\\) can be written as: \\[\nAB = \\begin{bmatrix}\nr_1^TB\\\\\n\\vdots\\\\\nr_m^TB\n\\end{bmatrix}\n\\] We see that the \\(i^{th}\\) row of \\(AB\\) is a linear combination of the rows of \\(B\\), with the multipliers coming form the \\(i^{th}\\) row of \\(A\\). Thus the row space of \\(AB\\) is a subspace of the row space of \\(B\\). It follows that \\(\\text{rank}(AB) \\leqslant \\text{rank}(B)\\).\nCombining the two inequalities, we have: \\[\n\\text{rank}(AB) \\leqslant \\min(\\text{rank}(A), \\text{rank}(B))\n\\]\nThus if we start with a matrix \\(A\\) and multiply it by some matrix \\(B\\), the rank of the resulting matrix cannot be more than the rank of \\(A\\).",
     "crumbs": [
       "Linear Algebra",
       "Bank",
       "Question-10"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-032.html",
+    "href": "linear_algebra/bank/question-032.html",
+    "title": "Question-32",
+    "section": "",
+    "text": "Let \\(A=\\begin{bmatrix}\n1 & 2 & 3 & 4\\\\\n4 & 1 & 2 & 3\\\\\n3 & 4 & 1 & 2\\\\\n2 & 3 & 4 & 1\n\\end{bmatrix}\\) and \\(B=\\begin{bmatrix}\n3 & 4 & 1 & 2\\\\\n4 & 1 & 2 & 3\\\\\n1 & 2 & 3 & 4\\\\\n2 & 3 & 4 & 1\n\\end{bmatrix}\\). If \\(\\text{det}( A)\\) and \\(\\text{det}( B)\\) denotes the determinants of these two matrices, select the true statement from the options given below.\n\n\\(\\text{det}( A) =\\text{det}( B)\\)\n\\(\\text{det}( A) =-\\text{det}( B)\\)\n\\(\\text{det}( A) =0\\)\n\\(\\text{det}( AB) =\\text{det}( A) +\\text{det}( B)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\text{det}( A) =\\text{det}( B)\\)\n\\(\\text{det}( A) =-\\text{det}( B)\\)\n\\(\\text{det}( A) =0\\)\n\\(\\text{det}( AB) =\\text{det}( A) +\\text{det}( B)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(A\\) and \\(B\\) have the order of rows \\(1\\) and \\(3\\) swapped. Swapping rows changes the sign of the determinant.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-32"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-026.html",
+    "href": "linear_algebra/bank/question-026.html",
+    "title": "Question-26",
+    "section": "",
+    "text": "If the following system has a non-trivial solution: \\[\n\\begin{aligned}\npx + qy + rz &= 0\\\\\nqx + ry + pz &= 0\\\\\nrx + py + qz &= 0\n\\end{aligned}\n\\] Then which one of the following options is true?\n\n\\(p - q + r = 0\\) or \\(q = p = -r\\)\n\\(p + q - r = 0\\) or \\(p = -q = r\\)\n\\(p + q + r = 0\\) or \\(p = q = r\\)\n\\(p - q + r = 0\\) or \\(p = -q = -r\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(p - q + r = 0\\) or \\(q = p = -r\\)\n\\(p + q - r = 0\\) or \\(p = -q = r\\)\n\\(p + q + r = 0\\) or \\(p = q = r\\)\n\\(p - q + r = 0\\) or \\(p = -q = -r\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThis is a homogenous system of linear equations. For this system to have a non-trivial solution, its nullspace should be non-trivial. Now for some row operations: \\[\n\\begin{bmatrix}\np & q & r\\\\\nq & r & p\\\\\nr & p & q\n\\end{bmatrix} \\xrightarrow[]{R_1 \\rightarrow R_1 + R_2 + R_3}\n\\begin{bmatrix}\np + q + r & p + q + r & p + q + r\\\\\nq & r & p\\\\\nr & p & q\n\\end{bmatrix}\n\\] If \\(p + q + r = 0\\) then the nullity is at least \\(1\\). So this is one condition. Let us now assume that \\(p + q + r \\neq 0\\) and proceed: \\[\n\\begin{bmatrix}\np + q + r & p + q + r & p + q + r\\\\\nq & r & p\\\\\nr & p & q\n\\end{bmatrix} \\xrightarrow[]{R_1 \\rightarrow \\frac{1}{p + q + r} R_1} \\begin{bmatrix}\n1 & 1 & 1\\\\\nq & r & p\\\\\nr & p & q\n\\end{bmatrix}\n\\] We can now proceed further: \\[\n\\begin{bmatrix}\n1 & 1 & 1\\\\\nq & r & p\\\\\nr & p & q\n\\end{bmatrix} \\rightarrow \\begin{bmatrix}\n1 & 1 & 1\\\\\n0 & r - q & p - r\\\\\n0 & p - r & q - r\n\\end{bmatrix}\n\\] The nullity can be non-zero if one of the last two rows is zero or one of them is a multiple of the other. If the second or third row is zero, we get \\(p = q = r\\). If not, then we have: \\[\nr - q = k(p - r) \\text{ and } p - r = k(q - r)\n\\] This is impossible for any real \\(k\\). Therefore, we have: \\[\n\\boxed{p + q + r = 0 \\text{ or } p = q = r}\n\\]",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-26"
     ]
   },
   {
@@ -105,6 +165,18 @@
       "Linear Algebra",
       "Bank",
       "Question-5"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-029.html",
+    "href": "linear_algebra/bank/question-029.html",
+    "title": "Question-29",
+    "section": "",
+    "text": "Consider a set \\(V = \\{(x, y)\\ |\\ x, y \\in \\mathbb{R}\\}\\) with the usual rule of addition borrowed from \\(\\mathbb{R}^2\\) and scalar multiplication defined as:\n\\[\nc(x, y) = \\begin{cases}\n    (0, 0) & c = 0\\\\\n    (\\frac{cx}{2}, \\frac{y}{c}) & c \\neq 0\n\\end{cases}\n\\]\nConsider the statements given below:\n\\(\\mathbf{P}\\): \\(V\\) is closed under addition.\n\\(\\mathbf{Q}\\): \\(V\\) has a zero element with respect to addition.\n\\(\\mathbf{R}\\): \\(1.v=v\\) where \\(1 \\in \\mathbb{R}\\) and \\(v \\in V\\)\n\\(\\mathbf{S}\\) : \\(a(v_1 + v_2)=av_1 + av_2\\), where \\(v_1, v_2 \\in V\\) and \\(a \\in \\mathbb{R}\\)\n\\(\\mathbf{T}\\): \\((a + b)v = av + bv\\), where \\(a, b \\in \\mathbb{R}\\) and \\(v \\in V\\)\nChoose all correct options\n\nOnly \\(P\\) is true\nOnly \\(Q\\) is true\n\\(P, Q\\) and \\(S\\) are true\nBoth \\(R\\) and \\(T\\) are not true\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nOnly \\(P\\) is true\nOnly \\(Q\\) is true\n\\(P, Q\\) and \\(S\\) are true\nBoth \\(R\\) and \\(T\\) are not true\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\n\\(P\\) is true as the addition operation is the usual one defined for \\(\\mathbb{R}^{2}\\)\n\\(Q\\) is also true as \\((0, 0)\\) is an element of \\(V\\)\n\\(R\\) is not true. Take \\(c = 1\\) and \\((x, y) = (1, 1)\\). Then \\(1(1, 1) = \\left(\\cfrac{1}{2}, 1\\right) \\neq (1, 1)\\).\n\\(S\\) is true.\n\nLet \\(v_1 = (x_1, y_1)\\) and \\(v_2 = (x_2, y_2)\\).\nOn the LHS we have:\n\n\\(v_1 + v_2 = (x_1 + x_2, y_1 + y_2)\\). Then, \\(a(v_1 + v_2) = \\left(\\cfrac{a}{2}(x_1 + x_2), \\cfrac{y_1 + y_2}{a}\\right)\\).\n\nOn the RHS we have:\n\n\\(av_1 + av_2 = \\left(\\cfrac{a}{2} x_1, \\cfrac{y_1}{a}\\right) + \\left( \\cfrac{a}{2} x_2, \\cfrac{y_2}{a}\\right) = \\left(\\cfrac{a}{2}(x_1 + x_2), \\cfrac{y_1 + y_2}{a}\\right)\\).\n\nThis is for \\(a \\neq 0\\). The proof for \\(a = 0\\) is quite trivial.\n\n\\(T\\) is not true. Set \\(a = 1, b = 1, v = (1, 1)\\). Then \\((a + b)v = 2(1, 1) = \\left(1, \\cfrac{1}{2}\\right)\\), while \\(av + bv = 1(1, 1) + 1(1, 1) = \\left(\\cfrac{1}{2}, 1\\right) + \\left(\\cfrac{1}{2}, 1\\right) = (1, 2)\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-29"
     ]
   },
   {
@@ -129,6 +201,18 @@
       "Linear Algebra",
       "Bank",
       "Question-18"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-008.html",
+    "href": "linear_algebra/bank/question-008.html",
+    "title": "Question-8",
+    "section": "",
+    "text": "Let \\(M_{2 \\times 2}(\\mathbb{R})\\) represent the set of all \\(2 \\times 2\\) real matrices. Now consider the following sets: \\[\n\\begin{aligned}\n    V_1 &= \\{A\\ |\\ A \\in M_{2 \\times 2}(\\mathbb{R}) \\text{ and } A \\text{ is a diagonal matrix}\\}\\\\\n    V_2 &= \\{A\\ |\\ A \\in M_{2 \\times 2}(\\mathbb{R}) \\text{ and sum of diagonal elements of } A \\text{ is equal to 1}\\}\n\\end{aligned}\n\\] Which of the following statements is true?\n\n\\(V_1\\) is a subspace of \\(M_{2 \\times 2}(\\mathbb{R})\\), but \\(V_2\\) is not\n\\(V_2\\) is a subspace of \\(M_{2 \\times 2}(\\mathbb{R})\\), but \\(V_1\\) is not\nBoth \\(V_1\\) and \\(V_2\\) are subspaces of \\(M_{2 \\times 2}(\\mathbb{R})\\)\nNeither \\(V_1\\) nor \\(V_2\\) are subspaces of \\(M_{2 \\times 2}(\\mathbb{R})\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nCheck for the zero vector.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(V_1\\) is a subspace of \\(M_{2 \\times 2}(\\mathbb{R})\\), but \\(V_2\\) is not\n\\(V_2\\) is a subspace of \\(M_{2 \\times 2}(\\mathbb{R})\\), but \\(V_1\\) is not\nBoth \\(V_1\\) and \\(V_2\\) are subspaces of \\(M_{2 \\times 2}(\\mathbb{R})\\)\nNeither \\(V_1\\) nor \\(V_2\\) are subspaces of \\(M_{2 \\times 2}(\\mathbb{R})\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(V_2\\) does not have the zero element. \\(V_1\\) has the zero element, is closed under addition and scalar multiplication.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-8"
     ]
   },
   {
@@ -649,6 +733,18 @@
     ]
   },
   {
+    "objectID": "calculus/bank/question-007.html",
+    "href": "calculus/bank/question-007.html",
+    "title": "Question-7",
+    "section": "",
+    "text": "Suppose \\(x+y=16\\). What is the value of \\(x y\\) when \\(x^3+y^3\\) is minimum?\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(64\\)\n\n\n\n\n\n\n\n\n\nSolution-1\n\n\n\n\n\nWe have: \\[\n\\underset{x.y}{\\min} \\ x^{3} +y^{3}\n\\] subject to: \\[\nx+y=16\n\\] This is a constrained optimization problem in two variables. But we can turn it into an unconstrained optimization problem in one variable by using the constraint:\n\\[\n\\underset{x}{\\min} \\ x^{3} +( 16-x)^{3}\n\\] From here, we proceed as usual:\n\\[\nf( x) =x^{3} +( 16-x)^{3}\n\\]\nComputing the first and second derivatives:\n\\[\n\\begin{aligned}\nf^{\\prime }( x) & =3x^{2} -3( 16-x)^{2}\\\\\n& =3( x+16-x)( x-16+x)\\\\\n& =96( x-8)\n\\end{aligned}\n\\]\nThere is just one critical point, \\(\\displaystyle x=8\\). Evaluating the second partial derivative at this point:\n\\[\nf^{\\prime \\prime }( 8) =96 &gt;0\n\\]\nTherefore \\(\\displaystyle x=8\\) corresponds to a local minimum. This is in fact a global minimum as \\(f\\) turns out to be a quadratic function. We can now recover \\(\\displaystyle y=8\\). The value of \\(\\displaystyle xy\\) is \\(\\displaystyle 64\\) when \\(\\displaystyle x^{3} +y^{3}\\) is minimum.\n\n\n\n\n\n\n\n\n\nSolution-2\n\n\n\n\n\nWe have: \\[\n\\underset{x.y}{\\min} \\ x^{3} +y^{3}\n\\] subject to: \\[\nx+y=16\n\\] This is a constrained optimization problem in two variables. But we can turn it into an unconstrained optimization problem in one variable by using the constraint:\n\\[\n\\underset{x}{\\min} \\ x^{3} +( 16-x)^{3}\n\\] We first simplify the objective function:\n\\[\n\\begin{aligned}\nf( x) & =x^{3} +( 16-x)^{3}\\\\\n& =16^{3} -3\\times 16^{2} \\times x+3\\times 16\\times x^{2} -x^{3}\\\\\n& =3\\times 16x^{2} -3\\times 16^{2} x+16^{3}\n\\end{aligned}\n\\]\nThis is a quadratic equation in \\(\\displaystyle x\\) that has a parabola facing upwards. So it has a global minimum, which occurs at \\(\\displaystyle x=\\frac{3\\times 16^{2}}{2\\times 3\\times 16} =8\\). We can now recover \\(\\displaystyle y=8\\). The value of \\(\\displaystyle xy\\) is \\(\\displaystyle 64\\) when \\(\\displaystyle x^{3} +y^{3}\\) is minimum.",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-7"
+    ]
+  },
+  {
     "objectID": "calculus/bank/question-002.html",
     "href": "calculus/bank/question-002.html",
     "title": "Question-2",
@@ -661,66 +757,15 @@
     ]
   },
   {
-    "objectID": "calculus/bank/question-004.html",
-    "href": "calculus/bank/question-004.html",
-    "title": "Question-4",
+    "objectID": "calculus/bank/question-010.html",
+    "href": "calculus/bank/question-010.html",
+    "title": "Question-10",
     "section": "",
-    "text": "Find the global minima of the function \\(f(x) =  2x^3 - 9x^2 + 12x + 6\\) in the interval \\((1, 3)\\). You need to enter the value of \\(x^{*}\\) and not the value of \\(f(x^{*})\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(2\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have \\(f^{\\prime}(x) = 6x^2 - 18x + 12 = 6(x - 1)(x - 2)\\) and \\(f^{\\prime \\prime}(x) = 6(2x - 3)\\). The point \\(x = 1\\) corresponds to a local maxima and \\(x = 2\\) is a local minima. \\(f(1) = 11\\) and \\(f(2) = 10\\) and \\(f(3) = 15\\). The function decreases from \\(x = 1\\) to \\(x = 2\\), attains a minima at \\(x = 2\\) and then increases from \\(x = 2\\) to \\(x = 3\\). From this, we can conclude that \\(x = 2\\) is the global minima of \\(f\\) in the open interval \\((1, 3)\\).",
+    "text": "Select all options that give the correct the Taylor series expansion of the function on the left around the point \\(0\\).\n\n\\(\\sin x=x-\\cfrac{x^{3}}{3!} +\\cfrac{x^{5}}{5!} -\\cdots\\)\n\\(\\displaystyle \\sin x=1-\\frac{x^{2}}{2!} +\\frac{x^{4}}{4!} -\\cdots\\)\n\\(\\displaystyle \\cos x=1-\\frac{x^{2}}{2!} +\\frac{x^{4}}{4!} -\\cdots\\)\n\\(\\displaystyle \\cos x=x-\\frac{x^{3}}{3!} +\\frac{x^{5}}{5!} -\\cdots\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\sin x=x-\\cfrac{x^{3}}{3!} +\\cfrac{x^{5}}{5!} -\\cdots\\)\n\\(\\displaystyle \\sin x=1-\\frac{x^{2}}{2!} +\\frac{x^{4}}{4!} -\\cdots\\)\n\\(\\displaystyle \\cos x=1-\\frac{x^{2}}{2!} +\\frac{x^{4}}{4!} -\\cdots\\)\n\\(\\displaystyle \\cos x=x-\\frac{x^{3}}{3!} +\\frac{x^{5}}{5!} -\\cdots\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe Taylor series expansion of \\(\\displaystyle f( x)\\) around \\(\\displaystyle x=a\\) is given by:\n\\[\nf( x) =\\frac{f( a)}{0!} +\\frac{f^{\\prime }( a)}{1!}( x-a) +\\frac{f^{\\prime \\prime }( a)}{2!}( x-a)^{2} +\\cdots\n\\]\nFor \\(\\displaystyle \\sin x\\) and \\(\\displaystyle \\cos x\\), this becomes:\n\\[\n\\begin{aligned}\n\\sin( x) & =x-\\frac{x^{3}}{3!} +\\frac{x^{5}}{5!} -\\cdots \\\\\n& \\\\\n\\cos( x) & =1-\\frac{x^{2}}{2!} +\\frac{x^{4}}{4!}\n\\end{aligned}\n\\]",
     "crumbs": [
       "Calculus and Optimization",
       "Bank",
-      "Question-4"
-    ]
-  },
-  {
-    "objectID": "calculus/bank/question-001.html",
-    "href": "calculus/bank/question-001.html",
-    "title": "Question-1",
-    "section": "",
-    "text": "Let \\(f\\) and \\(g\\) be two real valued functions such that \\(g(x) = f(x) - 2\\). Select all true options.\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\nHint\n\n\n\n\n\n\nAn odd function is one that satisfies \\(f(-x) = -f(x)\\) for all \\(x \\in \\mathbb{R}\\).\nAn even function is one that satisfies \\(f(-x) = f(x)\\) for all \\(x \\in \\mathbb{R}\\).\n\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf \\(f\\) is odd, then \\(f(-x) = -f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= -f(x) - 2\\\\\n&= -[f(x) + 2]\n\\end{aligned}\n\\] This doesn’t allow us to conclude anything about the nature of \\(g\\). A simple counter-example will show that if \\(f\\) is odd, \\(g\\) need not be odd. For instance, if \\(f(x)= x\\), we have \\(g(x) = x - 2\\), which is neither odd nor even.\nIf \\(f\\) is even, then \\(f(-x) = f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= f(x) - 2\\\\\n&= g(x)\n\\end{aligned}\n\\] Therefore, if \\(f\\) is even, then \\(g\\) is also even. A similar argument holds for the case when \\(g\\) is even.",
-    "crumbs": [
-      "Calculus and Optimization",
-      "Bank",
-      "Question-1"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "GATE-DA",
-    "section": "",
-    "text": "Welcome! The DA paper was first introduced in the year 2024. The duration of the exam is \\(3\\) hours. An overview of the syllabus:\n\nCalculus and Optimization\nLinear Algebra\nProbability and Statistics\nMachine Learning\nArtificial Intelligence\nProgramming, Data Structures and Algorithms\nDatabase Management Systems\n\nYou can use the sidebar to navigate through the different topics."
-  },
-  {
-    "objectID": "machine_learning/index.html",
-    "href": "machine_learning/index.html",
-    "title": "Machine Learning",
-    "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in machine learning. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nSupervised Learning\n\nRegression\n\nSimple linear regression,\nMultiple linear regression,\nRidge regression\n\nClassification\n\nLogistic regression\nK-NN\nNaive Bayes\nLinear discriminant analysis (LDA)\nSupport vector machines (SVM)\nDecision trees\nMulti-layer perceptron (MLP)\nFeed-forward neural network (ANN)\n\nBias-variance trade-off\nCross-validation\n\nLeave-one-out (LOO) cross-validation\nK-fold cross-validation\n\n\nUnsupervised Learning\n\nClustering algorithms\n\nk-means\nk-medoid,\nhierarchical clustering\n\ntop-down\nbottom-up\nsingle-linkage\nmulti-linkage\n\n\nDimensionality reduction\n\nprincipal component analysis.",
-    "crumbs": [
-      "Machine Learning"
-    ]
-  },
-  {
-    "objectID": "machine_learning/bank/question-001.html",
-    "href": "machine_learning/bank/question-001.html",
-    "title": "Question-1",
-    "section": "",
-    "text": "\\(\\mathbf{w} = \\begin{bmatrix}1 \\\\ 2 \\\\ 3\\end{bmatrix}\\) is the weight vector of a linear classifier for a binary classification problem whose labels lie in the set \\(\\{0, 1\\}\\). If the bias of the classifier is set to \\(0\\), which of the following is the equation of the decision boundary for this classifier?\n\n\\(x_1 + 2x_2 + 3x_3 = 1\\)\n\\(x_1 + 2x_2 + 3x_3 = -1\\)\n\\(x_1 + 2x_2 + 3x_3 = 0\\)\n\\(x_1 - 2x_3 + 3x_3 = 0\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(x_1 + 2x_2 + 3x_3 = 1\\)\n\\(x_1 + 2x_2 + 3x_3 = -1\\)\n\\(x_1 + 2x_2 + 3x_3 = 0\\)\n\\(x_1 - 2x_3 + 3x_3 = 0\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe decision boundary for a linear classifier is given by \\(\\mathbf{w}^{T} \\mathbf{x} + b = 0\\). Since \\(b = 0\\), this just becomes \\(\\mathbf{w}^{T} \\mathbf{x} = 0\\) which results in \\(x_1 + 2x_2 + 3x_3 = 0\\).",
-    "crumbs": [
-      "Machine Learning",
-      "Bank",
-      "Question-1"
-    ]
-  },
-  {
-    "objectID": "calculus/index.html",
-    "href": "calculus/index.html",
-    "title": "Calculus and Optimization",
-    "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in calculus and optimization. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nFunctions of a single variable\nLimit\nContinuity\nDifferentiability\nTaylor series\nMaxima and minima\nOptimization involving a single variable",
-    "crumbs": [
-      "Calculus and Optimization"
+      "Question-10"
     ]
   },
   {
@@ -736,6 +781,93 @@
     ]
   },
   {
+    "objectID": "calculus/bank/question-009.html",
+    "href": "calculus/bank/question-009.html",
+    "title": "Question-9",
+    "section": "",
+    "text": "Consider the function \\(f(x)= x+\\cfrac{1}{x}\\). Which of the following options are correct?\n\n\\(f\\) is an injective function, if the domain of \\(f\\) is \\(\\mathbb{R}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{N}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Q}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{N}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(f\\) is an injective function, if the domain of \\(f\\) is \\(\\mathbb{R}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{N}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Q}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{N}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have: \\[\nf( x) =x+\\frac{1}{x}\n\\]\nLet us first try to see what all values this function can take for its natural domain, \\(\\displaystyle \\mathbb{R} \\backslash \\{0\\}\\):\n\\[\n\\begin{aligned}\nx+\\frac{1}{x} & =y\\\\\nx^{2} -yx+1 & =0\n\\end{aligned}\n\\]\nFor \\(\\displaystyle x\\in \\mathbb{R} \\backslash \\{0\\}\\), the discriminant of the above equation has to be non-negative:\n\\[\ny^{2} -4\\geqslant 0\\Longrightarrow y\\in ( \\infty ,-2] \\cup [ 2,\\infty )\n\\]\nThus the range of \\(\\displaystyle f\\) is \\(\\displaystyle ( \\infty ,-2] \\cup [ 2,\\infty )\\).\nLet us now probe the injectivity of \\(\\displaystyle f\\):\n\\[\n\\begin{aligned}\nf( x_{1}) & =f( x_{2})\\\\\nx_{1} +\\frac{1}{x_{1}} & =x_{2} +\\frac{1}{x_{2}}\\\\\nx_{1} -x_{2} +\\frac{x_{2} -x_{1}}{x_{1} x_{2}} & =0\\\\\n\\frac{( x_{1} -x_{2})( x_{1} x_{2} -1)}{x_{1} x_{2}} & =0\\\\\n( x_{1} -x_{2})( x_{1} x_{2} -1) & =0\n\\end{aligned}\n\\]\nThis suggests one of two possibilities:\n\\[\nx_{1} =x_{2} \\ \\ \\text{OR} \\ \\ x_{1} x_{2} =1\n\\]\nWith this background work, let us now jump into the options:\nOption-1: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{R} \\backslash \\{0\\}\\)\nWe see that \\(\\displaystyle f\\) is not injective. One simple example is \\(\\displaystyle f( 2) =f\\left(\\frac{1}{2}\\right)\\).\nOption-2: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{N}\\)\n\\(\\displaystyle f\\) has to be injective. Recall the condition \\(\\displaystyle x_{1} x_{2} =1\\). If \\(\\displaystyle x_{1} ,x_{2} \\in \\mathbb{N}\\), then \\(\\displaystyle x_{1} =x_{2} =1\\).\nOption-3: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{Q} \\backslash \\{0\\}\\)\nNot injective. Similar to option-1\nOption-4: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{Z} \\backslash \\{0\\}\\)\n\\(\\displaystyle f\\) is injective. Similar to option-2\nOption-5: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{N}\\) and co-domain is \\(\\displaystyle \\mathbb{Q}\\)\n\\(\\displaystyle f\\) cannot be surjective as \\(\\displaystyle 1\\in \\mathbb{Q}\\), but \\(\\displaystyle 1\\) is not in the range of \\(\\displaystyle f\\).\nOption-6: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{Z}\\) and co-domain is \\(\\displaystyle \\mathbb{Q}\\)\n\\(\\displaystyle f\\) cannot be surjective. Similar to option-5",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-9"
+    ]
+  },
+  {
+    "objectID": "calculus/index.html",
+    "href": "calculus/index.html",
+    "title": "Calculus and Optimization",
+    "section": "",
+    "text": "The folder named Bank contains an assorted collection of questions in calculus and optimization. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nFunctions of a single variable\nLimit\nContinuity\nDifferentiability\nTaylor series\nMaxima and minima\nOptimization involving a single variable",
+    "crumbs": [
+      "Calculus and Optimization"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-001.html",
+    "href": "machine_learning/bank/question-001.html",
+    "title": "Question-1",
+    "section": "",
+    "text": "\\(\\mathbf{w} = \\begin{bmatrix}1 \\\\ 2 \\\\ 3\\end{bmatrix}\\) is the weight vector of a linear classifier for a binary classification problem whose labels lie in the set \\(\\{0, 1\\}\\). If the bias of the classifier is set to \\(0\\), which of the following is the equation of the decision boundary for this classifier?\n\n\\(x_1 + 2x_2 + 3x_3 = 1\\)\n\\(x_1 + 2x_2 + 3x_3 = -1\\)\n\\(x_1 + 2x_2 + 3x_3 = 0\\)\n\\(x_1 - 2x_3 + 3x_3 = 0\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(x_1 + 2x_2 + 3x_3 = 1\\)\n\\(x_1 + 2x_2 + 3x_3 = -1\\)\n\\(x_1 + 2x_2 + 3x_3 = 0\\)\n\\(x_1 - 2x_3 + 3x_3 = 0\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe decision boundary for a linear classifier is given by \\(\\mathbf{w}^{T} \\mathbf{x} + b = 0\\). Since \\(b = 0\\), this just becomes \\(\\mathbf{w}^{T} \\mathbf{x} = 0\\) which results in \\(x_1 + 2x_2 + 3x_3 = 0\\).",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-1"
+    ]
+  },
+  {
+    "objectID": "machine_learning/index.html",
+    "href": "machine_learning/index.html",
+    "title": "Machine Learning",
+    "section": "",
+    "text": "The folder named Bank contains an assorted collection of questions in machine learning. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nSupervised Learning\n\nRegression\n\nSimple linear regression,\nMultiple linear regression,\nRidge regression\n\nClassification\n\nLogistic regression\nK-NN\nNaive Bayes\nLinear discriminant analysis (LDA)\nSupport vector machines (SVM)\nDecision trees\nMulti-layer perceptron (MLP)\nFeed-forward neural network (ANN)\n\nBias-variance trade-off\nCross-validation\n\nLeave-one-out (LOO) cross-validation\nK-fold cross-validation\n\n\nUnsupervised Learning\n\nClustering algorithms\n\nk-means\nk-medoid,\nhierarchical clustering\n\ntop-down\nbottom-up\nsingle-linkage\nmulti-linkage\n\n\nDimensionality reduction\n\nprincipal component analysis.",
+    "crumbs": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "GATE-DA",
+    "section": "",
+    "text": "Welcome! The DA paper was first introduced in the year 2024. The duration of the exam is \\(3\\) hours. An overview of the syllabus:\n\nCalculus and Optimization\nLinear Algebra\nProbability and Statistics\nMachine Learning\nArtificial Intelligence\nProgramming, Data Structures and Algorithms\nDatabase Management Systems\n\nYou can use the sidebar to navigate through the different topics."
+  },
+  {
+    "objectID": "calculus/bank/question-008.html",
+    "href": "calculus/bank/question-008.html",
+    "title": "Question-8",
+    "section": "",
+    "text": "Consider a function \\(f\\) defined as: \\[\nf(x) = \\begin{cases} \\displaystyle\n     3ax + b &    x &lt; 1, \\\\\n     11 &  x = 1,\\\\\n     5ax - 2b &  x &gt; 1\n   \\end{cases}\n\\] If \\(f\\) is continuous at \\(x=1\\), then find the value of \\(a+b\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(5\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have:\n\\[\nf( x) =\\begin{cases}\n{\\displaystyle 3ax+b} & x&lt; 1,\\\\\n11 & x=1,\\\\\n5ax-2b & x &gt;1\n\\end{cases}\n\\]\nSince \\(\\displaystyle f\\) is continuous at \\(\\displaystyle x=1\\), we have LHL and RHL to be equal to the value of the function at \\(\\displaystyle x=1\\). This gives us the following system of linear equations:\n\\[\n\\begin{aligned}\n3a+b & =11\\\\\n5a-2b & =11\n\\end{aligned}\n\\]\nSolving this system, we get \\(\\displaystyle a=3,b=2\\). Therefore, \\(\\displaystyle a+b=11\\).",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-8"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-001.html",
+    "href": "calculus/bank/question-001.html",
+    "title": "Question-1",
+    "section": "",
+    "text": "Let \\(f\\) and \\(g\\) be two real valued functions such that \\(g(x) = f(x) - 2\\). Select all true options.\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\nHint\n\n\n\n\n\n\nAn odd function is one that satisfies \\(f(-x) = -f(x)\\) for all \\(x \\in \\mathbb{R}\\).\nAn even function is one that satisfies \\(f(-x) = f(x)\\) for all \\(x \\in \\mathbb{R}\\).\n\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf \\(f\\) is odd, then \\(f(-x) = -f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= -f(x) - 2\\\\\n&= -[f(x) + 2]\n\\end{aligned}\n\\] This doesn’t allow us to conclude anything about the nature of \\(g\\). A simple counter-example will show that if \\(f\\) is odd, \\(g\\) need not be odd. For instance, if \\(f(x)= x\\), we have \\(g(x) = x - 2\\), which is neither odd nor even.\nIf \\(f\\) is even, then \\(f(-x) = f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= f(x) - 2\\\\\n&= g(x)\n\\end{aligned}\n\\] Therefore, if \\(f\\) is even, then \\(g\\) is also even. A similar argument holds for the case when \\(g\\) is even.",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-1"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-004.html",
+    "href": "calculus/bank/question-004.html",
+    "title": "Question-4",
+    "section": "",
+    "text": "Find the global minima of the function \\(f(x) =  2x^3 - 9x^2 + 12x + 6\\) in the interval \\((1, 3)\\). You need to enter the value of \\(x^{*}\\) and not the value of \\(f(x^{*})\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(2\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have \\(f^{\\prime}(x) = 6x^2 - 18x + 12 = 6(x - 1)(x - 2)\\) and \\(f^{\\prime \\prime}(x) = 6(2x - 3)\\). The point \\(x = 1\\) corresponds to a local maxima and \\(x = 2\\) is a local minima. \\(f(1) = 11\\) and \\(f(2) = 10\\) and \\(f(3) = 15\\). The function decreases from \\(x = 1\\) to \\(x = 2\\), attains a minima at \\(x = 2\\) and then increases from \\(x = 2\\) to \\(x = 3\\). From this, we can conclude that \\(x = 2\\) is the global minima of \\(f\\) in the open interval \\((1, 3)\\).",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-4"
+    ]
+  },
+  {
     "objectID": "calculus/bank/question-003.html",
     "href": "calculus/bank/question-003.html",
     "title": "Question-3",
@@ -745,6 +877,18 @@
       "Calculus and Optimization",
       "Bank",
       "Question-3"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-006.html",
+    "href": "calculus/bank/question-006.html",
+    "title": "Question-6",
+    "section": "",
+    "text": "Consider the function \\(f(x)=x^3-6x\\). Which of the following options are correct?\n\n\\(f\\) has neither local maxima nor local minima.\n\\(\\sqrt{2}\\) is a local minimum.\n\\(\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local minimum.\n\\(f\\) has two critical points.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(f\\) has neither local maxima nor local minima.\n\\(\\sqrt{2}\\) is a local minimum.\n\\(\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local minimum.\n\\(f\\) has two critical points.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have:\n\\[\nf( x) =x^{3} -6x\n\\]\nThe first and second derivatives are:\n\\[\nf^{\\prime }( x) =3x^{2} -6,\\ f^{\\prime \\prime} ( x) =6x\n\\]\nThe critical points of \\(\\displaystyle f\\) are:\n\\[\n\\begin{aligned}\n3x^{2} -6 & =0\\\\\nx^{2} & =2\\\\\nx & =\\pm \\sqrt{2}\n\\end{aligned}\n\\]\nWe have two critical points. Now for the determination of the nature of the optimum:\n\\[\n\\begin{aligned}\nf^{\\prime \\prime} \\left(\\sqrt{2}\\right) &  &gt;0\\\\\nf^{\\prime \\prime} \\left( -\\sqrt{2}\\right) & &lt; 0\n\\end{aligned}\n\\]\n\\(\\displaystyle \\sqrt{2}\\) is a local minimum and \\(\\displaystyle -\\sqrt{2}\\) is a local maximum.",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-6"
     ]
   },
   {
@@ -762,7 +906,7 @@
     "href": "pdsa/index.html",
     "title": "PDSA",
     "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in programming, data structures and algorithms. All questions have answers, some may have hints and solutions.",
+    "text": "The folder named Bank contains an assorted collection of questions in programming, data structures and algorithms. All questions have answers, some may have hints and solutions. The syllabus for the topic is given below:\n\nProgramming in Python\nBasic data structures\n\nStacks\nQueues\nLinked lists\nTrees\nHash tables\n\nSearch algorithms\n\nLinear search\nBinary search\n\nBasic sorting algorithms\n\nSelection sort\nBubble sort\nInsertion sort\n\nDivide and conquer\n\nMerge sort\nQuicksort\n\nIntroduction to graph theory\nBasic graph algorithms\n\nTraversals\nShortest path",
     "crumbs": [
       "PDSA"
     ]
@@ -1167,15 +1311,27 @@
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-008.html",
-    "href": "linear_algebra/bank/question-008.html",
-    "title": "Question-8",
+    "objectID": "linear_algebra/bank/question-030.html",
+    "href": "linear_algebra/bank/question-030.html",
+    "title": "Question-30",
     "section": "",
-    "text": "Let \\(M_{2 \\times 2}(\\mathbb{R})\\) represent the set of all \\(2 \\times 2\\) real matrices. Now consider the following sets: \\[\n\\begin{aligned}\n    V_1 &= \\{A\\ |\\ A \\in M_{2 \\times 2}(\\mathbb{R}) \\text{ and } A \\text{ is a diagonal matrix}\\}\\\\\n    V_2 &= \\{A\\ |\\ A \\in M_{2 \\times 2}(\\mathbb{R}) \\text{ and sum of diagonal elements of } A \\text{ is equal to 1}\\}\n\\end{aligned}\n\\] Which of the following statements is true?\n\n\\(V_1\\) is a subspace of \\(M_{2 \\times 2}(\\mathbb{R})\\), but \\(V_2\\) is not\n\\(V_2\\) is a subspace of \\(M_{2 \\times 2}(\\mathbb{R})\\), but \\(V_1\\) is not\nBoth \\(V_1\\) and \\(V_2\\) are subspaces of \\(M_{2 \\times 2}(\\mathbb{R})\\)\nNeither \\(V_1\\) nor \\(V_2\\) are subspaces of \\(M_{2 \\times 2}(\\mathbb{R})\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nCheck for the zero vector.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(V_1\\) is a subspace of \\(M_{2 \\times 2}(\\mathbb{R})\\), but \\(V_2\\) is not\n\\(V_2\\) is a subspace of \\(M_{2 \\times 2}(\\mathbb{R})\\), but \\(V_1\\) is not\nBoth \\(V_1\\) and \\(V_2\\) are subspaces of \\(M_{2 \\times 2}(\\mathbb{R})\\)\nNeither \\(V_1\\) nor \\(V_2\\) are subspaces of \\(M_{2 \\times 2}(\\mathbb{R})\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(V_2\\) does not have the zero element. \\(V_1\\) has the zero element, is closed under addition and scalar multiplication.",
+    "text": "Compute \\(\\text{det}(A)\\) where \\(A = \\begin{bmatrix}1 & 2010 & 2020 \\times 2030\\\\1 & 2020 & 2030 \\times 2010\\\\1 & 2030 & 2010 \\times 2020\\end{bmatrix}\\)\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(2000\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(\\text{det}(A)\\) is of the form: \\[\n\\begin{vmatrix}\n1 & a & bc\\\\\n1 & b & ca\\\\\n1 & c & ab\n\\end{vmatrix}\n\\] We shall now compute this determinant:\nStep-1: \\(R_2 \\rightarrow R_2 - R_1\\)\n\\[\n\\begin{vmatrix}\n1 & a & bc\\\\\n1 & b & ca\\\\\n1 & c & ab\n\\end{vmatrix} = \\begin{vmatrix}\n1 & a & bc\\\\\n0 & b - a & c(a - b)\\\\\n1 & c & ab\n\\end{vmatrix}\n\\]\nStep-2: \\(R_3 \\rightarrow R_3 - R_1\\)\n\\[\n\\begin{vmatrix}\n1 & a & bc\\\\\n1 & b & ca\\\\\n1 & c & ab\n\\end{vmatrix} = \\begin{vmatrix}\n1 & a & bc\\\\\n0 & b - a & c(a - b)\\\\\n0 & c - a & b(a - c)\n\\end{vmatrix}\n\\]\nStep-3: \\(R_2 \\rightarrow \\cfrac{1}{b - a} R_2\\) and \\(R_{3} \\rightarrow \\cfrac{1}{c - a} R_{3}\\)\nWe can divide by \\(b - a\\) and \\(c - a\\) as \\(a, b, c\\) are distinct.\n\\[\n\\begin{vmatrix}\n1 & a & bc\\\\\n1 & b & ca\\\\\n1 & c & ab\n\\end{vmatrix} = (b - a)(c - a)\\begin{vmatrix}\n1 & a & bc\\\\\n0 & 1 & -c\\\\\n0 & 1 & -b\n\\end{vmatrix}\n\\]\nWe can now expand along the first column. After moving some minus signs around, we get:\n\\[\n\\begin{vmatrix}\n1 & a & bc\\\\\n1 & b & ca\\\\\n1 & c & ab\n\\end{vmatrix} = (a - b)(b - c)(c - a)\n\\]\nWe can now plug in \\(a = 2010, b = 2020, c = 2030\\) to get the desired determinant. This turns out to be \\(\\boxed{2000}\\).",
     "crumbs": [
       "Linear Algebra",
       "Bank",
-      "Question-8"
+      "Question-30"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-028.html",
+    "href": "linear_algebra/bank/question-028.html",
+    "title": "Question-28",
+    "section": "",
+    "text": "Let \\(u\\) and \\(v\\) be two vectors in \\(\\mathbb{R}^{2}\\) that satisfy \\(||u|| = 2 ||v||\\). What is the value of \\(\\alpha\\) such that \\(w = u + \\alpha v\\) bisects the angle between \\(u\\) and \\(v\\)?\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(2\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf we have two vectors \\(x\\) and \\(y\\) such that \\(||x|| = ||y||\\), then the parallelogram formed by these two vectors turns out to be a rhombus. By the paralellogram law of vector addition, we know that \\(x\\) and \\(y\\) form two sides of a parallelogram whose diagonal is \\(x + y\\). When \\(||x|| = ||y||\\), this parallelogram is actually a rhombus, which is a parallelogram all of whose sides are equal. In a rhombus, the diagonals bisect the angle between the sides. Hence \\(x + y\\) is the angle bisector of \\(x\\) and \\(y\\).\n\nWe can now use this idea to solve the given problem. We are given that \\(w = u + \\alpha v\\). If \\(\\alpha = 2\\), then we have \\(w = u + 2v\\), in which the vectors being summed have equal norm. This comes from the data given to us: \\(||u|| = 2||v||\\). This guarantees that \\(w\\) is an angle bisector of \\(u\\) and \\(2v\\), which is the same as the angle bisector of \\(u\\) and \\(v\\). Recall that scaling a vector by a positive constant doesn’t change its direction. Hence, \\(\\boxed{\\alpha = 2}\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-28"
     ]
   },
   {
@@ -1191,6 +1347,18 @@
     ]
   },
   {
+    "objectID": "linear_algebra/bank/question-034.html",
+    "href": "linear_algebra/bank/question-034.html",
+    "title": "Question-34",
+    "section": "",
+    "text": "Find \\(\\displaystyle \\text{det}( A)\\)\n\\[\nA=\\begin{bmatrix}\n1 & 0 & 1 & 0 & 0 & 0\\\\\n0 & -1 & 2 & 0 & 0 & 0\\\\\n0 & 0 & -3 & 0 & 0 & 0\\\\\n1 & -1 & 2 & 1 & 2 & -1\\\\\n2 & 1 & 3 & 0 & 2 & 3\\\\\n0 & 1 & 2 & 0 & 0 & 3\n\\end{bmatrix}\n\\]\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(18\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe can partition this matrix as follows:\n\\[\nA=\\begin{bmatrix}\n1 & 0 & 1 & 0 & 0 & 0\\\\\n0 & -1 & 2 & 0 & 0 & 0\\\\\n0 & 0 & -3 & 0 & 0 & 0\\\\\n1 & -1 & 2 & 1 & 2 & -1\\\\\n2 & 1 & 3 & 0 & 2 & 3\\\\\n0 & 1 & 2 & 0 & 0 & 3\n\\end{bmatrix} =\\begin{bmatrix}\nB & 0\\\\\nD & E\n\\end{bmatrix}\n\\]\nNow, we use the fact the determinant of \\(\\displaystyle A\\) is \\(\\displaystyle \\text{det}( B)\\text{det}( E)\\) when one of the off-diagonal blocks is zero. This turns out to be \\(\\displaystyle 18\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-34"
+    ]
+  },
+  {
     "objectID": "linear_algebra/bank/question-001.html",
     "href": "linear_algebra/bank/question-001.html",
     "title": "Question-1",
@@ -1200,6 +1368,30 @@
       "Linear Algebra",
       "Bank",
       "Question-1"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-033.html",
+    "href": "linear_algebra/bank/question-033.html",
+    "title": "Question-33",
+    "section": "",
+    "text": "Consider the quadratic function in three variables: \\[\nf(x, y, z) = 3x^2 - 2y^2 +z^2- 2xy + 4yz -8zx\n\\] If \\(u = \\begin{bmatrix}x & y & z\\end{bmatrix}^T\\) and \\(f(x, y, z) = u^T Au\\), which of the following is/are \\(A\\)?\n\n\\(\\begin{bmatrix}\n3 & -1 & -4\\\\\n-1 & -2 & 2\\\\\n-4 & 2 & 1\n\\end{bmatrix}\\)\n\\(\\begin{bmatrix}\n3 & 4 & -4\\\\\n-6 & -2 & 3\\\\\n-4 & 1 & 1\n\\end{bmatrix}\\)\n\\(\\begin{bmatrix}\n3 & 0 & -4\\\\\n-1 & -2 & 2\\\\\n0 & 1 & 1\n\\end{bmatrix}\\)\n\\(\\begin{bmatrix}\n3 & -2 & 1\\\\\n-1 & 1 & 2\\\\\n-4 & 0 & 1\n\\end{bmatrix}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\begin{bmatrix}\n3 & -1 & -4\\\\\n-1 & -2 & 2\\\\\n-4 & 2 & 1\n\\end{bmatrix}\\)\n\\(\\begin{bmatrix}\n3 & 4 & -4\\\\\n-6 & -2 & 3\\\\\n-4 & 1 & 1\n\\end{bmatrix}\\)\n\\(\\begin{bmatrix}\n3 & 0 & -4\\\\\n-1 & -2 & 2\\\\\n0 & 1 & 1\n\\end{bmatrix}\\)\n\\(\\begin{bmatrix}\n3 & -2 & 1\\\\\n-1 & 1 & 2\\\\\n-4 & 0 & 1\n\\end{bmatrix}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe general expression of a quadratic form in \\(3\\) variables is given below:\n\\[\n\\begin{aligned}\nf(x, y, z) &= \\mathbf{x}^T \\mathbf{A} \\mathbf{x}\\\\\\\\\n&= a_{xx} x^2 + a_{yy}y^2 + a_{zz} z^2\\\\\\\\\n&+ (a_{xy} + a_{yx}) xy + (a_{yz} + a_{zy}) yz + (a_{zx} + a_{xz}) zx\n\\end{aligned}\n\\]\nHere \\(\\mathbf{x} = \\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}\\) and \\(\\mathbf{A} =\\begin{bmatrix}a_{xx} & a_{xy} & a_{xz}\\\\a_{yx} & a_{yy} & a_{yz}\\\\a_{zx} & a_{zy} & a_{zz}\\end{bmatrix}\\)\nWe see that options (a) and (b) are valid choices for \\(A\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-33"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-027.html",
+    "href": "linear_algebra/bank/question-027.html",
+    "title": "Question-27",
+    "section": "",
+    "text": "What is the product of the non-zero eigenvalues of the following matrix: \\[\n\\begin{bmatrix}\n1 & 0 & 0 & 0 & 1\\\\\n0 & 1 & 1 & 1 & 0\\\\\n0 & 1 & 1 & 1 & 0\\\\\n0 & 1 & 1 & 1 & 0\\\\\n1 & 0 & 0 & 0 & 1\n\\end{bmatrix}\n\\]\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(6\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe product of the eigenvalues of a matrix is equal to its determinant. But the determinant of this matrix is zero and we are asked to compute the product of the non-zero eigenvalues. We should therefore take recourse to the characteristic polynomial: \\[\nD = \\begin{vmatrix}\n1 - \\lambda & 0 & 0 & 0 & 1\\\\\n0 & 1 - \\lambda & 1 & 1 & 0\\\\\n0 & 1 & 1 - \\lambda & 1 & 0\\\\\n0 & 1 & 1 & 1 - \\lambda & 0\\\\\n1 & 0 & 0 & 0 & 1 - \\lambda\n\\end{vmatrix}\n\\] Though this determinant looks forbidding, computing it is not all that cumbersome if we choose the right row/column along which to expand. Let us first break this down into the following sum by expanding along the first row: \\[\nD = (1 - \\lambda) \\begin{vmatrix}\n1 - \\lambda & 1 & 1 & 0\\\\\n1 & 1 - \\lambda & 1 & 0\\\\\n1 & 1 & 1 - \\lambda & 0\\\\\n0 & 0 & 0 & 1 - \\lambda\n\\end{vmatrix} + \\begin{vmatrix}\n0 & 1 - \\lambda & 1 & 1\\\\\n0 & 1 & 1 - \\lambda & 1\\\\\n0 & 1 & 1 & 1 - \\lambda\\\\\n1 & 0 & 0 & 0\n\\end{vmatrix}\n\\] The two determinants look quite similar to each other. We can expand along the last row for both of them: \\[\nD = \\left[(1 - \\lambda)^2 - 1 \\right] \\begin{vmatrix}\n1 - \\lambda & 1 & 1\\\\\n1 & 1 - \\lambda & 1\\\\\n1 & 1 & 1 - \\lambda\\\\\n\\end{vmatrix}\n\\] Let us first compute the \\(3 \\times 3\\) determinant: \\[\n\\begin{vmatrix}\n1 - \\lambda & 1 & 1\\\\\n1 & 1 - \\lambda & 1\\\\\n1 & 1 & 1 - \\lambda\\\\\n\\end{vmatrix} = - \\lambda^2 (\\lambda - 3)\n\\] Putting it all together: \\[\nD = -\\lambda^3(\\lambda - 2)(\\lambda - 3)\n\\] We see that there are five eigenvalues: \\(0, 0, 0, 2, 3\\). The product of the non-zero eigenvalues is therefore \\(\\boxed{6}\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-27"
     ]
   },
   {
@@ -1263,51 +1455,39 @@
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-007.html",
-    "href": "linear_algebra/bank/question-007.html",
-    "title": "Question-7",
+    "objectID": "linear_algebra/bank/question-020.html",
+    "href": "linear_algebra/bank/question-020.html",
+    "title": "Question-20",
     "section": "",
-    "text": "Select all idempotent matrices from the options given below.\n\n\\(\\begin{bmatrix}3 & -6\\\\1 & -2\\end{bmatrix}\\)\n\\(\\begin{bmatrix}1 & -1\\\\0 & 1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}2 & -2\\\\1 & -1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}3 & 1\\\\-1 & 2\\end{bmatrix}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\begin{bmatrix}3 & -6\\\\1 & -2\\end{bmatrix}\\)\n\\(\\begin{bmatrix}1 & -1\\\\0 & 1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}2 & -2\\\\1 & -1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}3 & 1\\\\-1 & 2\\end{bmatrix}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nA matrix \\(A\\) is idempotent if \\(A^2 = A\\). Of the four matrices given here, exactly two of them are idempotent.",
+    "text": "If \\(A\\) is a real matrix, select all true statements.\n\n\\(A^TA\\) is positive semi-definite.\n\\(A^TA\\) and \\(AA^T\\) have the same eigenvectors.\n\\(A^TA\\) is symmetric if and only if \\(A\\) is symmetric.\n\\(A^TA\\) and \\(AA^T\\) have the same non-zero eigenvalues.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(A^TA\\) is positive semi-definite.\n\\(A^TA\\) and \\(AA^T\\) have the same eigenvectors.\n\\(A^TA\\) is symmetric if and only if \\(A\\) is symmetric.\n\\(A^TA\\) and \\(AA^T\\) have the same non-zero eigenvalues.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet \\(\\displaystyle ( \\lambda ,v)\\) be an eigenpair of of \\(\\displaystyle A^{T} A\\) with \\(\\displaystyle \\lambda \\neq 0\\):\n\\[\n\\begin{aligned}\n\\left( A^{T} A\\right) v & =\\lambda v\\\\\n\\left( AA^{T}\\right) (Av) & =\\lambda ( Av)\\\\\n\\left( AA^{T}\\right)( Av) & =\\lambda ( Av)\n\\end{aligned}\n\\]\nThis is of the form \\(\\displaystyle \\left( AA^{T}\\right) u=\\lambda u\\). For \\(\\displaystyle ( \\lambda ,u)\\) to be an eigenpair of \\(\\displaystyle AA^{T}\\), \\(\\displaystyle u=Av\\) has to be non-zero. To show this, do the following. If \\(\\displaystyle u=Av=0\\), then \\(\\displaystyle A^{T} Av=0\\Longrightarrow \\lambda v=0\\). Since \\(\\displaystyle \\lambda \\neq 0\\), \\(\\displaystyle v=0\\) which contradicts the fact that \\(\\displaystyle ( \\lambda ,v)\\) is an eigenpair of \\(\\displaystyle A^{T} A\\).\n\nLet \\(\\displaystyle ( \\lambda ,v)\\) be an eigenpair of \\(\\displaystyle A^{T} A\\). Then:\n\\[\n\\begin{aligned}\nA^{T} Av & =\\lambda v\\\\\nv^{T} A^{T} Av & =\\lambda \\left( v^{T} v\\right)\\\\\n( Av)^{T}( Av) & =\\lambda \\left( v^{T} v\\right)\\\\\n\\Longrightarrow \\lambda  & =\\frac{||Av||^{2}}{||v||^{2}} \\geqslant 0\n\\end{aligned}\n\\]\nWe can divide by \\(\\displaystyle ||v||^{2}\\) as \\(\\displaystyle v\\neq 0\\) for it is an eigenvector. Since all the eigenvalues of \\(\\displaystyle A^{T} A\\) are non-negative, \\(\\displaystyle A^{T} A\\) is positive semi definite.",
     "crumbs": [
       "Linear Algebra",
       "Bank",
-      "Question-7"
+      "Question-20"
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-021.html",
-    "href": "linear_algebra/bank/question-021.html",
-    "title": "Question-21",
+    "objectID": "linear_algebra/bank/question-016.html",
+    "href": "linear_algebra/bank/question-016.html",
+    "title": "Question-16",
     "section": "",
-    "text": "Consider the matrix \\(A = \\begin{bmatrix}1 & 0\\\\C & 1\\end{bmatrix}\\), where \\(C\\) is some real number.",
+    "text": "\\(\\displaystyle x\\) and \\(\\displaystyle y\\) are vectors in \\(\\displaystyle \\mathbb{R}^{n}\\). If \\(\\displaystyle x-y\\) is orthogonal to \\(\\displaystyle x+y\\), comment on the relationship between \\(\\displaystyle ||x||\\) and \\(\\displaystyle ||y||\\).\n\n\\(||x|| = ||y||\\)\n\\(||x|| &gt; ||y||\\)\n\\(||x|| &lt; ||y||\\)\nThere is no relationship between the norms of these two vectors.\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nExpand the dot product of \\(x - y\\) and \\(x + y\\).\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(||x|| = ||y||\\)\n\\(||x|| &gt; ||y||\\)\n\\(||x|| &lt; ||y||\\)\nThere is no relationship between the norms of these two vectors.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf \\(\\displaystyle x-y\\) and \\(\\displaystyle x+y\\) are orthogonal, then we have \\(\\displaystyle \\langle x-y,x+y\\rangle =0\\). From this we get \\(\\displaystyle \\langle x,x\\rangle =\\langle y,y\\rangle \\Longrightarrow ||x||=||y||\\).",
     "crumbs": [
       "Linear Algebra",
       "Bank",
-      "Question-21"
+      "Question-16"
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-021.html#part-a",
-    "href": "linear_algebra/bank/question-021.html#part-a",
-    "title": "Question-21",
-    "section": "Part-(a)",
-    "text": "Part-(a)\nWhat are the eigenvalues of \\(A\\)?\n\n\\(1\\) and \\(0\\)\nOnly \\(0\\)\nOnly \\(1\\)\n\\(A\\) does not have any real eigenvalues.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(1\\) and \\(0\\)\nOnly \\(0\\)\nOnly \\(1\\)\n\\(A\\) does not have any real eigenvalues.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince \\(A\\) is a lower triangular matrix, its eigenvalues are the elements on the diagonal. So \\(1\\) is the only eigenvalue.",
+    "objectID": "linear_algebra/bank/question-012.html",
+    "href": "linear_algebra/bank/question-012.html",
+    "title": "Question-12",
+    "section": "",
+    "text": "Assertion: If \\(A^2 + A = I\\), then \\(A^{-1} = A + I\\)\nReason: If \\(A\\) is an \\(m \\times n\\) matrix, \\(B\\) is an \\(n \\times p\\) matrix, with \\(AB = I\\), then \\(A^{-1} = B\\)\n\nAssertion is true and Reason is true. Reason is the correct explanation for Assertion.\nAssertion is true and Reason is true. Reason is not the correct explanation for Assertion.\nBoth Assertion and Reason are false.\nAssertion is true. Reason is False.\nAssertion is false. Reason is true.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nAssertion is true and Reason is true. Reason is the correct explanation for Assertion.\nAssertion is true and Reason is true. Reason is not the correct explanation for Assertion.\nBoth Assertion and Reason are false.\nAssertion is true. Reason is False.\nAssertion is false. Reason is true.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(A^2 + A = I \\implies A(A + I) = I\\). Since \\(A\\) is a square matrix, \\(AB = I \\implies B = A^{-1}\\). So the Assertion is true. The Reason is however a false statement. It is true only if \\(A\\) and \\(B\\) are square matrices. In its current form \\(A\\) and \\(B\\) are not necessarily square.",
     "crumbs": [
       "Linear Algebra",
       "Bank",
-      "Question-21"
-    ]
-  },
-  {
-    "objectID": "linear_algebra/bank/question-021.html#part-b",
-    "href": "linear_algebra/bank/question-021.html#part-b",
-    "title": "Question-21",
-    "section": "Part-(b)",
-    "text": "Part-(b)\nSuppose \\(\\sigma_1\\) and \\(\\sigma_2\\) are the two singular values of \\(A\\), what is \\(\\sigma_1^2 + \\sigma_2^2\\)?\n\n\\(0\\)\n\\(2\\)\n\\(C\\)\n\\(2 + C^2\\)\nInsufficient data\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(0\\)\n\\(2\\)\n\\(C\\)\n\\(2 + C^2\\)\nInsufficient data\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe squares of the singular values of \\(A\\) are the eigenenvalues of \\(A^TA\\). \\[\nA^TA = \\begin{bmatrix}\n1 + C^2 & C\\\\\nC & 1\n\\end{bmatrix}\n\\] The characterstic polynomial of \\(A^TA\\) is: \\[\n\\lambda^2 - \\left( 2 + C^2 \\right)\\lambda + 1 = 0\n\\] The sum of the roots are \\(\\sigma_1^2 + \\sigma_2^2\\). This is given by \\(2 + C^2\\).",
-    "crumbs": [
-      "Linear Algebra",
-      "Bank",
-      "Question-21"
+      "Question-12"
     ]
   },
   {
@@ -1315,7 +1495,7 @@
     "href": "dbms/index.html",
     "title": "DBMS",
     "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in DBMS. All questions have answers, some may have hints and solutions.",
+    "text": "The folder named Bank contains an assorted collection of questions in DBMS. All questions have answers, some may have hints and solutions. The syllabus for the topic is given below:\n\nER-model\nRelational model\n\nRelational algebra\nTuple calculus\nSQL\nIntegrity constraints\nNormal form\nFile organization\nIndexing\nData types\nData transformation\n\nNormalization\nDiscretization\nSampling\nCompression\n\nData warehouse modelling\n\nSchema for multidimensional data models\nConcept hierarchies\nMeasures\n\nCategorization\nComputations",
     "crumbs": [
       "DBMS"
     ]
