@@ -1,10 +1,106 @@
 [
   {
+    "objectID": "dbms/bank/question-012.html",
+    "href": "dbms/bank/question-012.html",
+    "title": "Question-12",
+    "section": "",
+    "text": "In an Entity-Relationship (ER) model, suppose \\(R\\) is a many-to-one relationship from entity set \\(E1\\) to entity set \\(E2\\). Assume that \\(E1\\) and \\(E2\\) participate totally in \\(R\\) and that the cardinality of \\(E1\\) is greater than the cardinality of \\(E2\\). Which one of the following is true about \\(R\\)?\n\nEvery entity in \\(E1\\) is associated with exactly one entity in \\(E2\\).\nSome entity in \\(E1\\) is associated with more than one entity in \\(E2\\).\nEvery entity in \\(E2\\) is associated with exactly one entity in \\(E1\\).\nEvery entity in \\(E2\\) is associated with at most one entity in \\(E1\\).\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nEvery entity in \\(E1\\) is associated with exactly one entity in \\(E2\\).\nSome entity in \\(E1\\) is associated with more than one entity in \\(E2\\).\nEvery entity in \\(E2\\) is associated with exactly one entity in \\(E1\\).\nEvery entity in \\(E2\\) is associated with at most one entity in \\(E1\\).\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nGiven that \\(R\\) is a many-to-one relationship from \\(E1\\) to \\(E2\\) and both \\(E1\\) and \\(E2\\) participate totally in \\(R\\), and the cardinality of \\(E1\\) is greater than the cardinality of \\(E2\\), the correct option is:\n\nEvery entity in \\(E1\\) is associated with exactly one entity in \\(E2\\).\n\nThis aligns with the conditions of a many-to-one relationship where every entity in \\(E1\\) maps to exactly one entity in \\(E2\\), ensuring total participation and many-to-one from \\(E1\\) to \\(E2\\).",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-12"
+    ]
+  },
+  {
+    "objectID": "dbms/bank/question-016.html",
+    "href": "dbms/bank/question-016.html",
+    "title": "Question-16",
+    "section": "",
+    "text": "Consider the relation scheme \\(R = (E, F, G, H, I, J, K, L, M, N)\\) and the set of functional dependencies \\({\\{E, F\\}} \\rightarrow \\{G\\}, \\{F\\} \\rightarrow \\{I, J\\}, \\{E, H\\} \\rightarrow \\{K, L\\}, \\{K\\} \\rightarrow \\{M\\}, \\{L\\} \\rightarrow \\{N\\}\\) on \\(R\\).\nWhat is the key for \\(R\\)?\n\n\\(\\{E, F\\}\\)\n\\(\\{E, F, H\\}\\)\n\\(\\{E, F, H, K, L\\}\\)\n\\(\\{E\\}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\{E, F\\}\\)\n\\(\\{E, F, H\\}\\)\n\\(\\{E, F, H, K, L\\}\\)\n\\(\\{E\\}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nTo find the key for \\(R\\), compute the closure of the attribute sets:\nGiven functional dependencies: - \\(\\{EF\\} \\rightarrow \\{G\\}\\) - \\(\\{F\\} \\rightarrow \\{I, J\\}\\) - \\(\\{EH\\} \\rightarrow \\{K, L\\}\\) - \\(\\{K\\} \\rightarrow \\{M\\}\\) - \\(\\{L\\} \\rightarrow \\{N\\}\\)\nCalculating closures: - \\([\\{EF\\}]^+ = \\{EFGIJ\\}\\) - \\([\\{E\\}]^+ = \\{E\\}\\) - \\([\\{EFH\\}]^+ = \\{EFGHIJKLMN\\}\\)\nSince \\([\\{EFH\\}]^+\\) contains all the attributes of \\(R\\), \\(\\{EFH\\}\\) is the key for \\(R\\). Hence, the correct choice is \\(\\{E, F, H\\}\\).",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-16"
+    ]
+  },
+  {
+    "objectID": "dbms/bank/question-020.html",
+    "href": "dbms/bank/question-020.html",
+    "title": "Question-20",
+    "section": "",
+    "text": "Consider the following relational schemas with their non-trivial functional dependencies:\nSchema I: Registration (\\(\\text{rollno, courses}\\))\nFD: \\(\\text{rollno} \\rightarrow \\text{courses}\\)\nSchema II: Registration (\\(\\text{rollno, courseid, email}\\))\nFDs: \\(\\text{rollno, courseid} \\rightarrow \\text{email}\\), \\(\\text{email} \\rightarrow \\text{rollno}\\)\nSchema III: Registration (\\(\\text{rollno, courseid, marks, grade}\\))\nFDs: \\(\\text{rollno, courseid} \\rightarrow \\text{marks, grade}\\), \\(\\text{marks} \\rightarrow \\text{grade}\\)\nSchema IV: Registration (\\(\\text{rollno, courseid, credit}\\))\nFDs: \\(\\text{rollno, courseid} \\rightarrow \\text{credit}\\), \\(\\text{courseid} \\rightarrow \\text{credit}\\)\nWhich one of the relational schemas above is in 3NF but not in BCNF?\n\nSchema I\nSchema II\nSchema III\nSchema IV\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nSchema I\nSchema II\nSchema III\nSchema IV\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet’s evaluate each schema:\nSchema I: - \\(\\text{rollno} \\rightarrow \\text{courses}\\) (in BCNF, as \\(\\text{rollno}\\) is a super key)\nSchema II: - \\(\\text{rollno, courseid} \\rightarrow \\text{email}\\) (in BCNF, as the left side is a super key) - \\(\\text{email} \\rightarrow \\text{rollno}\\) (not in BCNF, as \\(\\text{email}\\) is not a super key)\nSchema III: - \\(\\text{rollno, courseid} \\rightarrow \\text{marks, grade}\\) (not in BCNF, as neither \\(\\text{marks}\\) nor \\(\\text{grade}\\) is a super key) - \\(\\text{marks} \\rightarrow \\text{grade}\\)\nSchema IV: - \\(\\text{rollno, courseid} \\rightarrow \\text{credit}\\) (not in BCNF, as \\(\\text{courseid}\\) is not a super key) - \\(\\text{courseid} \\rightarrow \\text{credit}\\)\nAmong these, only Schema II (\\(\\text{rollno, courseid, email}\\)) is in 3NF but not in BCNF, as the FD \\(\\text{email} \\rightarrow \\text{rollno}\\) violates BCNF since \\(\\text{email}\\) is not a super key.",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-20"
+    ]
+  },
+  {
+    "objectID": "dbms/bank/question-017.html",
+    "href": "dbms/bank/question-017.html",
+    "title": "Question-17",
+    "section": "",
+    "text": "Relation \\(R\\) has eight attributes \\(ABCDEFGH\\). Fields of \\(R\\) contain only atomic values.\n\\(F = \\{CH \\rightarrow G, A \\rightarrow BC, B \\rightarrow CFH, E \\rightarrow A, F \\rightarrow EG\\}\\) is a set of functional dependencies (FDs) such that \\(F^+\\) is exactly the set of FDs that hold for \\(R\\).\nHow many candidate keys does the relation \\(R\\) have?\n\n\\(3\\)\n\\(4\\)\n\\(5\\)\n\\(6\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(3\\)\n\\(4\\)\n\\(5\\)\n\\(6\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nGiven FD set: - \\(CH \\rightarrow G\\) - \\(A \\rightarrow B\\) - \\(A \\rightarrow C\\) - \\(B \\rightarrow C\\) - \\(B \\rightarrow F\\) - \\(B \\rightarrow H\\) - \\(E \\rightarrow A\\) - \\(F \\rightarrow E\\) - \\(F \\rightarrow G\\)\nCalculating closures: - \\([A]^+ = \\{ABCDEFGH\\}\\) - \\([AD]^+ = \\{ABCDEFGH\\}\\) - \\([ED]^+ = \\{ABCDEFGH\\}\\) - \\([FD]^+ = \\{ABCDEFGH\\}\\) - \\([BD]^+ = \\{ABCDEFGH\\}\\)\nThe attribute \\(D\\) is not present in the FD set, so whenever an attribute is not present in the FDs, adding that attribute forms a candidate key. Therefore, candidate keys = \\([AD, ED, FD, BD]\\), leading to \\(4\\) candidate keys for relation \\(R\\). Hence, the correct answer is \\(4\\).",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-17"
+    ]
+  },
+  {
+    "objectID": "dbms/bank/question-002.html",
+    "href": "dbms/bank/question-002.html",
+    "title": "Question-2",
+    "section": "",
+    "text": "Consider the following table which has three attributes: X, Y, and Z, where X is the primary key and Z is the foreign key referencing X.\n\n\n\nX\nY\nZ\n\n\n\n\n1\n1\n5\n\n\n2\n2\n5\n\n\n3\n1\n5\n\n\n4\n2\n4\n\n\n5\n2\n4\n\n\n6\n1\n1\n\n\n7\n4\n1\n\n\n8\n4\n7\n\n\n\nWhich of the following sets of tuples are additionally deleted when the tuple \\((1,1,5)\\) is deleted and ON DELETE CASCADE construct is applied over the table?\n\n\\((2,2,5)\\) and \\((3,1,5)\\)\n\\((6,1,1)\\) and \\((7,4,1)\\)\n\\((6,1,1)\\), \\((7,4,1)\\), and \\((8,4,7)\\)\n\\((6,1,1)\\), \\((7,4,1)\\), and \\((2,2,5)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\((2,2,5)\\) and \\((3,1,5)\\)\n\\((6,1,1)\\) and \\((7,4,1)\\)\n\\((6,1,1)\\), \\((7,4,1)\\), and \\((8,4,7)\\)\n\\((6,1,1)\\), \\((7,4,1)\\), and \\((2,2,5)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe ON DELETE CASCADE constraint is used to automatically delete rows from the child table when rows from the parent table are deleted. Hence, if the tuple \\((1, 1, 5)\\) is deleted, the tuples \\((6, 1, 1)\\), \\((7, 4, 1)\\), and \\((8, 4, 7)\\) will also be deleted to maintain referential integrity.",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-2"
+    ]
+  },
+  {
+    "objectID": "dbms/bank/question-023.html",
+    "href": "dbms/bank/question-023.html",
+    "title": "Question-23",
+    "section": "",
+    "text": "The following relation records the age of 500 employees of a company, where empNo (indicating the employee number) is the key: \\({ \\text{empAge}(\\text{empNo}, \\text{age}) }\\)\nConsider the following relational algebra expression: \\({ \\Pi_{\\text{empNo}}.(\\text{empAge} \\bowtie (\\text{age} &gt; \\text{age1}) \\rho \\text{ empNo1, age1} (\\text{empAge})) }\\)\nWhat does the above expression generate?\n\nEmployee numbers of only those employees whose age is the maximum\nEmployee numbers of only those employees whose age is more than the age of exactly one other employee\nEmployee numbers of all employees whose age is not the minimum\nEmployee numbers of all employees whose age is the minimum\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nEmployee numbers of only those employees whose age is the maximum\nEmployee numbers of only those employees whose age is more than the age of exactly one other employee\nEmployee numbers of all employees whose age is not the minimum\nEmployee numbers of all employees whose age is the minimum\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet’s break down the given expression:\n\n\\({ \\Pi_{\\text{empNo}} }\\): Projection on the attribute empNo.\n\\({ \\text{empAge} }\\): Relation containing the empNo and age of employees.\n\\({ \\bowtie (\\text{age} &gt; \\text{age1}) }\\): Semi-join operation using the condition age &gt; age1.\n\\({ \\rho \\text{ empNo1, age1} (\\text{empAge}) }\\): Renaming the attributes of empAge to empNo1 and age1.\n\nThe expression generates the employee numbers of all employees whose age is not the minimum. This is achieved by performing a semi-join on empAge with itself based on the condition that the age of an employee is greater than some other employee’s age, thus excluding those with the minimum age. Therefore, the correct choice is (c) Employee numbers of all employees whose age is not the minimum.",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-23"
+    ]
+  },
+  {
+    "objectID": "dbms/bank/question-010.html",
+    "href": "dbms/bank/question-010.html",
+    "title": "Question-10",
+    "section": "",
+    "text": "Consider the following tables T1 and T2.\n\n\n\nT1\nT1\n\nT2\nT2\n\n\n\n\nP\nQ\n\nR\nS\n\n\n2\n2\n\n2\n2\n\n\n3\n8\n\n8\n3\n\n\n7\n3\n\n3\n2\n\n\n5\n8\n\n9\n7\n\n\n6\n9\n\n5\n7\n\n\n8\n5\n\n7\n2\n\n\n9\n8\n\n\n\n\n\n\nIn table T1, P is the primary key and Q is the foreign key referencing R in table T2 with on delete cascade and on update cascade. In table T2, R is the primary key and S is the foreign key referencing P in table T1 with on delete set NULL and on update cascade.\nTo delete record ⟨3, 8⟩ from table T1, the number of additional records that need to be deleted from table T1 is: _____\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe on delete cascade action implies that when a primary key is deleted from the referenced (parent) table, the related value in the referencing (child) table (using the foreign key) must be deleted.\nHowever, in this scenario, there are no additional records to be deleted from table T1 apart from the specified record ⟨3, 8⟩ because the foreign key Q in T1 referencing R in T2 doesn’t contribute to the deletion requirement.\nThe on delete set NULL action doesn’t necessitate additional deletions in T1 when a primary key from T2 is deleted because it only sets the related value to NULL in T1, not requiring the deletion of rows. Therefore, the deletion of record ⟨3, 8⟩ from table T1 does not lead to further deletions based on the specified constraints.",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-10"
+    ]
+  },
+  {
+    "objectID": "dbms/bank/question-026.html",
+    "href": "dbms/bank/question-026.html",
+    "title": "Question-26",
+    "section": "",
+    "text": "Consider a database that has the relation schema CR(StudentName, CourseName). An instance of the schema CR is as given below:\n\n\n\nStudent Name\nCourse Name\n\n\n\n\nSA\nCA\n\n\nSA\nCB\n\n\nSA\nCC\n\n\nSB\nCB\n\n\nSB\nCC\n\n\nSC\nCA\n\n\nSC\nCB\n\n\nSC\nCC\n\n\nSD\nCA\n\n\nSD\nCB\n\n\nSD\nCC\n\n\nSD\nCD\n\n\nSE\nCD\n\n\nSE\nCA\n\n\nSE\nCB\n\n\nSF\nCA\n\n\nSF\nCB\n\n\nSF\nCC\n\n\n\nThe following query is made on the database: \\({ T1 \\leftarrow \\Pi_{\\text{course Name}} (\\sigma_{\\text{Student Name} = 'SA'} (CR)) }\\) \\({ T2 \\leftarrow CR \\div T1 }\\)\nThe number of rows in T2 is _____________.\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(4\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe query \\({ T1 \\leftarrow \\Pi_{\\text{course Name}} (\\sigma_{\\text{Student Name} = 'SA'} (CR)) }\\) selects all the course names where the Student Name is ‘SA’, resulting in T1 containing course names ‘CA’, ‘CB’, and ‘CC’.\nThe query \\({ T2 \\leftarrow CR \\div T1 }\\) performs division between CR and T1. The result T2 contains tuples from CR that have all the course names from T1.\nThe output steps: 1. \\({ CR \\div \\text{CA} }\\): Gives students SA, SC, SD, SE, SF. 2. \\({ CR \\div \\text{CB} }\\): Gives students SA, SC, SD, SE, SF. 3. \\({ CR \\div \\text{CC} }\\): Gives students SA, SC, SD, SF.\nTaking the intersection of these outputs gives the students SA, SC, SD, SF, which results in 4 rows in T2.",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-26"
+    ]
+  },
+  {
     "objectID": "dbms/bank/question-001.html",
     "href": "dbms/bank/question-001.html",
     "title": "Question-1",
     "section": "",
-    "text": "Consider two relations \\(\\mathbf{s}(A, B, C)\\) and \\(\\mathbf{r}(P, Q, C)\\) such that relation \\(\\mathbf{s}\\) has \\(30\\) rows and relation \\(\\mathbf{r}\\) has \\(12\\) rows. What is the maximum number of rows that are possible in \\(\\mathbf{r} \\bowtie \\mathbf{s}\\)?\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(360\\)",
+    "text": "Consider two relations \\(\\mathbf{s}(A, B, C)\\) and \\(\\mathbf{r}(P, Q, C)\\) such that relation \\(\\mathbf{s}\\) has \\(30\\) rows and relation \\(\\mathbf{r}\\) has \\(12\\) rows. What is the maximum number of rows that are possible in \\(\\mathbf{r} \\bowtie \\mathbf{s}\\)?\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(360\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe maximum number of rows in the natural join \\({ \\mathbf{r} \\bowtie \\mathbf{s} }\\) occurs when every row in relation \\({ \\mathbf{r} }\\) can match with every row in relation \\({ \\mathbf{s} }\\) based on the common attribute \\({ C }\\). Given that \\({ \\mathbf{r} }\\) has 12 rows and \\({ \\mathbf{s} }\\) has 30 rows, if each value of \\({ C }\\) in \\({ \\mathbf{r} }\\) matches with all rows in \\({ \\mathbf{s} }\\), the join will produce \\({ 12 \\times 30 = 360 }\\) rows, which is the maximum possible number.",
     "crumbs": [
       "DBMS",
       "Bank",
@@ -12,75 +108,109 @@
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-035.html",
-    "href": "linear_algebra/bank/question-035.html",
-    "title": "Question-35",
+    "objectID": "dbms/bank/question-009.html",
+    "href": "dbms/bank/question-009.html",
+    "title": "Question-9",
     "section": "",
-    "text": "\\(\\displaystyle A,B\\) and \\(\\displaystyle C\\) are square matrices of order \\(\\displaystyle n\\), \\(\\displaystyle 0\\) is the zero matrix and \\(\\displaystyle I\\) is an identity matrix of order \\(\\displaystyle n\\). Compute the following product:\n\\[\n\\begin{bmatrix}\nI & 0\\\\\nA & I\n\\end{bmatrix}\\begin{bmatrix}\nA & B\\\\\n-C & 0\n\\end{bmatrix}\n\\]\n\n\\(\\displaystyle \\begin{bmatrix}\nA & B\\\\\nC & I\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\nB & A\\\\\nA^{2} & BA\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\nA & B\\\\\nA^{2} -C & AB\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\nA^{2} & B^{2}\\\\\nAB & BA\n\\end{bmatrix}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle \\begin{bmatrix}\nA & B\\\\\nC & I\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\nB & A\\\\\nA^{2} & BA\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\nA & B\\\\\nA^{2} -C & AB\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\nA^{2} & B^{2}\\\\\nAB & BA\n\\end{bmatrix}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe can multiply the two matrices as though the entries were scalars.",
+    "text": "Consider the following statements S1 and S2 about the relational data model:\nS1: A relation scheme can have at most one foreign key. S2: A foreign key in a relation scheme \\(R\\) cannot be used to refer to tuples of \\(R\\).\nWhich one of the following choices is correct?\n\nBoth S1 and S2 are true\nS1 is true and S2 is false\nS1 is false and S2 is true\nBoth S1 and S2 are false\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nBoth S1 and S2 are true\nS1 is true and S2 is false\nS1 is false and S2 is true\nBoth S1 and S2 are false\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\n\n\nRelation Scheme\nForeign Keys\n\n\n\n\nEmployees\nDepartmentID\n\n\nEmployees\nManagerID\n\n\n\nIn the above example, the Employees relation scheme contains two foreign keys: one referring to the DepartmentID in the Departments relation and another referring to the ManagerID within the same Employees relation.\nThe fact that there are two foreign keys contradicts S1 and the fact that the foreign key ManagerID refers to the same relation Employees contradicts S2\nHence, both S1 and S2 are false.",
     "crumbs": [
-      "Linear Algebra",
+      "DBMS",
       "Bank",
-      "Question-35"
+      "Question-9"
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-021.html",
-    "href": "linear_algebra/bank/question-021.html",
-    "title": "Question-21",
+    "objectID": "dbms/bank/question-008.html",
+    "href": "dbms/bank/question-008.html",
+    "title": "Question-8",
     "section": "",
-    "text": "Consider the matrix \\(A = \\begin{bmatrix}1 & 0\\\\C & 1\\end{bmatrix}\\), where \\(C\\) is some real number.",
+    "text": "Given an instance of the STUDENTS relation as shown below:\n\n\n\nStudent ID\nStudent Name\nStudent Email\nStudent Age\nCPI\n\n\n\n\n2345\nShankar\nshankar@math\nX\n9.4\n\n\n1287\nSwati\nswati@ee\n19\n9.5\n\n\n7853\nShankar\nshankar@cse\n19\n9.4\n\n\n9876\nSwati\nswati@mech\n18\n9.3\n\n\n8765\nGanesh\nganesh@civil\n19\n8.7\n\n\n\nFor \\((\\text{Student Name}, \\text{Student Age})\\) to be a key for this instance, the value \\(X\\) should NOT be equal to \\(\\_\\_\\_\\_\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(19\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIn order for \\((\\text{Student Name}, \\text{Student Age})\\) to serve as a key, it must uniquely identify each tuple in the relation. In this instance, we observe that both “Shankar” and “Swati” have the same age of \\(19\\). To maintain uniqueness, the value of \\(X\\) cannot be \\(19\\), ensuring that each combination of \\((\\text{Student Name}, \\text{Student Age})\\) remains distinct. Hence, \\(X \\neq 19\\) satisfies the criteria for \\((\\text{Student Name}, \\text{Student Age})\\) to be a key.",
     "crumbs": [
-      "Linear Algebra",
+      "DBMS",
       "Bank",
-      "Question-21"
+      "Question-8"
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-021.html#part-a",
-    "href": "linear_algebra/bank/question-021.html#part-a",
-    "title": "Question-21",
-    "section": "Part-(a)",
-    "text": "Part-(a)\nWhat are the eigenvalues of \\(A\\)?\n\n\\(1\\) and \\(0\\)\nOnly \\(0\\)\nOnly \\(1\\)\n\\(A\\) does not have any real eigenvalues.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(1\\) and \\(0\\)\nOnly \\(0\\)\nOnly \\(1\\)\n\\(A\\) does not have any real eigenvalues.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince \\(A\\) is a lower triangular matrix, its eigenvalues are the elements on the diagonal. So \\(1\\) is the only eigenvalue.",
-    "crumbs": [
-      "Linear Algebra",
-      "Bank",
-      "Question-21"
-    ]
-  },
-  {
-    "objectID": "linear_algebra/bank/question-021.html#part-b",
-    "href": "linear_algebra/bank/question-021.html#part-b",
-    "title": "Question-21",
-    "section": "Part-(b)",
-    "text": "Part-(b)\nSuppose \\(\\sigma_1\\) and \\(\\sigma_2\\) are the two singular values of \\(A\\), what is \\(\\sigma_1^2 + \\sigma_2^2\\)?\n\n\\(0\\)\n\\(2\\)\n\\(C\\)\n\\(2 + C^2\\)\nInsufficient data\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(0\\)\n\\(2\\)\n\\(C\\)\n\\(2 + C^2\\)\nInsufficient data\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe squares of the singular values of \\(A\\) are the eigenenvalues of \\(A^TA\\). \\[\nA^TA = \\begin{bmatrix}\n1 + C^2 & C\\\\\nC & 1\n\\end{bmatrix}\n\\] The characterstic polynomial of \\(A^TA\\) is: \\[\n\\lambda^2 - \\left( 2 + C^2 \\right)\\lambda + 1 = 0\n\\] The sum of the roots are \\(\\sigma_1^2 + \\sigma_2^2\\). This is given by \\(2 + C^2\\).",
-    "crumbs": [
-      "Linear Algebra",
-      "Bank",
-      "Question-21"
-    ]
-  },
-  {
-    "objectID": "linear_algebra/bank/question-007.html",
-    "href": "linear_algebra/bank/question-007.html",
-    "title": "Question-7",
+    "objectID": "dbms/bank/question-019.html",
+    "href": "dbms/bank/question-019.html",
+    "title": "Question-19",
     "section": "",
-    "text": "Select all idempotent matrices from the options given below.\n\n\\(\\begin{bmatrix}3 & -6\\\\1 & -2\\end{bmatrix}\\)\n\\(\\begin{bmatrix}1 & -1\\\\0 & 1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}2 & -2\\\\1 & -1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}3 & 1\\\\-1 & 2\\end{bmatrix}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\begin{bmatrix}3 & -6\\\\1 & -2\\end{bmatrix}\\)\n\\(\\begin{bmatrix}1 & -1\\\\0 & 1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}2 & -2\\\\1 & -1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}3 & 1\\\\-1 & 2\\end{bmatrix}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nA matrix \\(A\\) is idempotent if \\(A^2 = A\\). Of the four matrices given here, exactly two of them are idempotent.",
+    "text": "In a relational data model, which one of the following statements is TRUE?\n\nA relation with only two attributes is always in BCNF.\nIf all attributes of a relation are prime attributes, then the relation is in BCNF.\nEvery relation has at least one non-prime attribute.\nBCNF decompositions preserve functional dependencies.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nA relation with only two attributes is always in BCNF.\nIf all attributes of a relation are prime attributes, then the relation is in BCNF.\nEvery relation has at least one non-prime attribute.\nBCNF decompositions preserve functional dependencies.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\nA relation with two attributes always in BCNF: True. In BCNF, every non-trivial functional dependency \\(x \\rightarrow y\\) implies \\(x\\) is a super key. For relations with two attributes, all non-trivial functional dependencies would indeed have the left side (\\(x\\)) as a super key.\nIf all attributes of a relation are prime attributes, then the relation is in BCNF: False. It’s possible for prime attributes to determine each other, which is allowed in 3NF but not in BCNF.\nEvery relation has at least one non-prime attribute: False. It’s not mandatory for a relation to have at least one non-prime attribute. However, every relation has at least one prime attribute.\nBCNF decompositions preserve functional dependencies: False. BCNF decompositions might lose some functional dependencies, as exemplified by the case where \\(D \\rightarrow A\\) in a relation \\([AB \\rightarrow CD, D \\rightarrow A]\\) where \\(D\\) is not a super key, and it’s not in BCNF.\n\nTherefore, the only statement that holds true is (a) - a relation with only two attributes is always in BCNF.",
     "crumbs": [
-      "Linear Algebra",
+      "DBMS",
       "Bank",
-      "Question-7"
+      "Question-19"
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-031.html",
-    "href": "linear_algebra/bank/question-031.html",
-    "title": "Question-31",
+    "objectID": "dbms/bank/question-013.html",
+    "href": "dbms/bank/question-013.html",
+    "title": "Question-13",
     "section": "",
-    "text": "Choose the correct set of options.\n\nIf two matrices \\(A\\) and \\(B\\) have the same reduced row echelon form, then \\(A\\) must be equal to \\(B\\).\nIf two matrices \\(A\\) and \\(B\\) have the same row echelon form, then \\(A\\) must be equal to \\(B\\).\nThe reduced row echelon form of a diagonal matrix with non-zero diagonal entries must be the identity matrix.\nThe reduced row echelon form of a non-zero scalar matrix must be the identity matrix.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf two matrices \\(A\\) and \\(B\\) have the same reduced row echelon form, then \\(A\\) must be equal to \\(B\\).\nIf two matrices \\(A\\) and \\(B\\) have the same row echelon form, then \\(A\\) must be equal to \\(B\\).\nThe reduced row echelon form of a diagonal matrix with non-zero diagonal entries must be the identity matrix.\nThe reduced row echelon form of a non-zero scalar matrix must be the identity matrix.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\nOption-(a) is incorrect. As a counter example, consider any two invertible matrices of the same order that are distinct from each other. Both have the same reduced row echelon form, namely the identity matrix.\nOption-(b) is incorrect. An argument similar to the previous bullet point can be applied here.\nOption-(c) is correct. In fact, as stated in the first point, any invertible matrix has the identity matrix as its reduced row echelon form. Since a diagonal matrix with non-zero diagonal entries is invertible, the result follows.\nOption-(d) is correct. A non-zero scalar matrix is an example of a diagonal matrix with non-zero diagonal entries.",
+    "text": "Consider an Entity-Relationship (ER) model in which entity sets \\(E_1\\) and \\(E_2\\) are connected by an \\(m: n\\) relationship \\(R_{12}\\). \\(E_1\\) and \\(E_3\\) are connected by a \\(1: n\\) relationship \\(R_{13}\\). \\(E_1\\) has two single-valued attributes \\(a_{11}\\) and \\(a_{12}\\) of which \\(a_{11}\\) is the key attribute. \\(E_2\\) has two single-valued attributes \\(a_{21}\\) and \\(a_{22}\\) of which \\(a_{21}\\) is the key attribute. \\(E_3\\) has two single-valued attributes \\(a_{31}\\) and \\(a_{32}\\) of which \\(a_{31}\\) is the key attribute. The relationships do not have any attributes. If a relational model is derived from the above ER model, then the minimum number of relations that would be generated if all the relations are in 3NF is__________.\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(4\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\n\\(R_{12}\\) represents a many-to-many relationship between \\(E_1\\) and \\(E_2\\), so a separate table is created:\n\n\\(E_1\\) (\\(a_{11}\\), \\(a_{12}\\))\n\\(E_2\\) (\\(a_{21}\\), \\(a_{22}\\))\n\\(R_{12}\\) (\\(a_{11}\\), \\(a_{21}\\))\n\n\\(R_{13}\\) represents a \\(1: n\\) relationship between \\(E_1\\) and \\(E_3\\):\n\n\\(E_1\\) (\\(a_{11}\\), \\(a_{12}\\)) with \\(a_{11} \\rightarrow a_{12}\\)\n\\(E_3\\) \\(R_{13}\\) (\\(a_{31}\\), \\(a_{32}\\), \\(a_{11}\\)) with \\(a_{31} \\rightarrow a_{32} \\,|\\, a_{11}\\)\n\n\nFor 3NF: - \\(E_1\\) (\\(a_{11}\\), \\(a_{12}\\)) with \\(a_{11} \\rightarrow a_{12}\\) - \\(E_2\\) (\\(a_{21}\\), \\(a_{22}\\)) with \\(a_{21} \\rightarrow a_{22}\\) - \\(R_{12}\\) (\\(a_{11}\\), \\(a_{21}\\)) - \\(E_3\\) \\(R_{13}\\) (\\(a_{31}\\), \\(a_{32}\\), \\(a_{11}\\)) with \\(a_{31} \\rightarrow a_{32} \\,|\\, a_{11}\\)\nThus, the minimum number of relations required for 3NF is 4.",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-13"
+    ]
+  },
+  {
+    "objectID": "dbms/index.html",
+    "href": "dbms/index.html",
+    "title": "DBMS",
+    "section": "",
+    "text": "The folder named Bank contains an assorted collection of questions in DBMS. All questions have answers, some may have hints and solutions. The syllabus for the topic is given below:\n\nER-model\nRelational model\n\nRelational algebra\nTuple calculus\nSQL\nIntegrity constraints\nNormal form\nFile organization\nIndexing\nData types\nData transformation\n\nNormalization\nDiscretization\nSampling\nCompression\n\nData warehouse modelling\n\nSchema for multidimensional data models\nConcept hierarchies\nMeasures\n\nCategorization\nComputations",
+    "crumbs": [
+      "DBMS"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-012.html",
+    "href": "linear_algebra/bank/question-012.html",
+    "title": "Question-12",
+    "section": "",
+    "text": "Assertion: If \\(A^2 + A = I\\), then \\(A^{-1} = A + I\\)\nReason: If \\(A\\) is an \\(m \\times n\\) matrix, \\(B\\) is an \\(n \\times p\\) matrix, with \\(AB = I\\), then \\(A^{-1} = B\\)\n\nAssertion is true and Reason is true. Reason is the correct explanation for Assertion.\nAssertion is true and Reason is true. Reason is not the correct explanation for Assertion.\nBoth Assertion and Reason are false.\nAssertion is true. Reason is False.\nAssertion is false. Reason is true.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nAssertion is true and Reason is true. Reason is the correct explanation for Assertion.\nAssertion is true and Reason is true. Reason is not the correct explanation for Assertion.\nBoth Assertion and Reason are false.\nAssertion is true. Reason is False.\nAssertion is false. Reason is true.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(A^2 + A = I \\implies A(A + I) = I\\). Since \\(A\\) is a square matrix, \\(AB = I \\implies B = A^{-1}\\). So the Assertion is true. The Reason is however a false statement. It is true only if \\(A\\) and \\(B\\) are square matrices. In its current form \\(A\\) and \\(B\\) are not necessarily square.",
     "crumbs": [
       "Linear Algebra",
       "Bank",
-      "Question-31"
+      "Question-12"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-016.html",
+    "href": "linear_algebra/bank/question-016.html",
+    "title": "Question-16",
+    "section": "",
+    "text": "\\(\\displaystyle x\\) and \\(\\displaystyle y\\) are vectors in \\(\\displaystyle \\mathbb{R}^{n}\\). If \\(\\displaystyle x-y\\) is orthogonal to \\(\\displaystyle x+y\\), comment on the relationship between \\(\\displaystyle ||x||\\) and \\(\\displaystyle ||y||\\).\n\n\\(||x|| = ||y||\\)\n\\(||x|| &gt; ||y||\\)\n\\(||x|| &lt; ||y||\\)\nThere is no relationship between the norms of these two vectors.\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nExpand the dot product of \\(x - y\\) and \\(x + y\\).\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(||x|| = ||y||\\)\n\\(||x|| &gt; ||y||\\)\n\\(||x|| &lt; ||y||\\)\nThere is no relationship between the norms of these two vectors.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf \\(\\displaystyle x-y\\) and \\(\\displaystyle x+y\\) are orthogonal, then we have \\(\\displaystyle \\langle x-y,x+y\\rangle =0\\). From this we get \\(\\displaystyle \\langle x,x\\rangle =\\langle y,y\\rangle \\Longrightarrow ||x||=||y||\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-16"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-020.html",
+    "href": "linear_algebra/bank/question-020.html",
+    "title": "Question-20",
+    "section": "",
+    "text": "If \\(A\\) is a real matrix, select all true statements.\n\n\\(A^TA\\) is positive semi-definite.\n\\(A^TA\\) and \\(AA^T\\) have the same eigenvectors.\n\\(A^TA\\) is symmetric if and only if \\(A\\) is symmetric.\n\\(A^TA\\) and \\(AA^T\\) have the same non-zero eigenvalues.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(A^TA\\) is positive semi-definite.\n\\(A^TA\\) and \\(AA^T\\) have the same eigenvectors.\n\\(A^TA\\) is symmetric if and only if \\(A\\) is symmetric.\n\\(A^TA\\) and \\(AA^T\\) have the same non-zero eigenvalues.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet \\(\\displaystyle ( \\lambda ,v)\\) be an eigenpair of of \\(\\displaystyle A^{T} A\\) with \\(\\displaystyle \\lambda \\neq 0\\):\n\\[\n\\begin{aligned}\n\\left( A^{T} A\\right) v & =\\lambda v\\\\\n\\left( AA^{T}\\right) (Av) & =\\lambda ( Av)\\\\\n\\left( AA^{T}\\right)( Av) & =\\lambda ( Av)\n\\end{aligned}\n\\]\nThis is of the form \\(\\displaystyle \\left( AA^{T}\\right) u=\\lambda u\\). For \\(\\displaystyle ( \\lambda ,u)\\) to be an eigenpair of \\(\\displaystyle AA^{T}\\), \\(\\displaystyle u=Av\\) has to be non-zero. To show this, do the following. If \\(\\displaystyle u=Av=0\\), then \\(\\displaystyle A^{T} Av=0\\Longrightarrow \\lambda v=0\\). Since \\(\\displaystyle \\lambda \\neq 0\\), \\(\\displaystyle v=0\\) which contradicts the fact that \\(\\displaystyle ( \\lambda ,v)\\) is an eigenpair of \\(\\displaystyle A^{T} A\\).\n\nLet \\(\\displaystyle ( \\lambda ,v)\\) be an eigenpair of \\(\\displaystyle A^{T} A\\). Then:\n\\[\n\\begin{aligned}\nA^{T} Av & =\\lambda v\\\\\nv^{T} A^{T} Av & =\\lambda \\left( v^{T} v\\right)\\\\\n( Av)^{T}( Av) & =\\lambda \\left( v^{T} v\\right)\\\\\n\\Longrightarrow \\lambda  & =\\frac{||Av||^{2}}{||v||^{2}} \\geqslant 0\n\\end{aligned}\n\\]\nWe can divide by \\(\\displaystyle ||v||^{2}\\) as \\(\\displaystyle v\\neq 0\\) for it is an eigenvector. Since all the eigenvalues of \\(\\displaystyle A^{T} A\\) are non-negative, \\(\\displaystyle A^{T} A\\) is positive semi definite.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-20"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-006.html",
+    "href": "linear_algebra/bank/question-006.html",
+    "title": "Question-6",
+    "section": "",
+    "text": "Consider the matrix \\(\\mathbf{M} = \\begin{bmatrix}2 & -1\\\\3 & 1\\end{bmatrix}\\). Which one of the following statements is true?\n\nThe eigenvalues of \\(\\mathbf{M}\\) are non-negative and real.\nThe eigenvalues of \\(\\mathbf{M}\\) are complex conjugate pairs.\nOne eigenvalue of \\(\\mathbf{M}\\) is positive and real, and another eigenvalue of \\(\\mathbf{M}\\) is zero.\nOne eigenvalue of \\(\\mathbf{M}\\) is non-negative and real, and another eigenvalue of \\(\\mathbf{M}\\) is negative and real\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThe eigenvalues of \\(\\mathbf{M}\\) are non-negative and real.\nThe eigenvalues of \\(\\mathbf{M}\\) are complex conjugate pairs.\nOne eigenvalue of \\(\\mathbf{M}\\) is positive and real, and another eigenvalue of \\(\\mathbf{M}\\) is zero.\nOne eigenvalue of \\(\\mathbf{M}\\) is non-negative and real, and another eigenvalue of \\(\\mathbf{M}\\) is negative and real\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe can compute the eigenvalues with the help of the characteristic polynomial: \\[\n\\begin{aligned}\n\\begin{vmatrix}\n2 - \\lambda & -1\\\\\n3 & 1 - \\lambda\n\\end{vmatrix} &= 0\\\\\\\\\n(2 - \\lambda)(1 - \\lambda) + 3 &= 0\\\\\\\\\n\\lambda^2 -3 \\lambda + 5 &= 0\\\\\\\\\n\\end{aligned}\n\\] We see that the discriminant of the quadratic equation is negative. Hence, the eigenvalues are complex conjugate pairs.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-6"
     ]
   },
   {
@@ -132,15 +262,27 @@
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-032.html",
-    "href": "linear_algebra/bank/question-032.html",
-    "title": "Question-32",
+    "objectID": "linear_algebra/bank/question-038.html",
+    "href": "linear_algebra/bank/question-038.html",
+    "title": "Question-38",
     "section": "",
-    "text": "Let \\(A=\\begin{bmatrix}\n1 & 2 & 3 & 4\\\\\n4 & 1 & 2 & 3\\\\\n3 & 4 & 1 & 2\\\\\n2 & 3 & 4 & 1\n\\end{bmatrix}\\) and \\(B=\\begin{bmatrix}\n3 & 4 & 1 & 2\\\\\n4 & 1 & 2 & 3\\\\\n1 & 2 & 3 & 4\\\\\n2 & 3 & 4 & 1\n\\end{bmatrix}\\). If \\(\\text{det}( A)\\) and \\(\\text{det}( B)\\) denotes the determinants of these two matrices, select the true statement from the options given below.\n\n\\(\\text{det}( A) =\\text{det}( B)\\)\n\\(\\text{det}( A) =-\\text{det}( B)\\)\n\\(\\text{det}( A) =0\\)\n\\(\\text{det}( AB) =\\text{det}( A) +\\text{det}( B)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\text{det}( A) =\\text{det}( B)\\)\n\\(\\text{det}( A) =-\\text{det}( B)\\)\n\\(\\text{det}( A) =0\\)\n\\(\\text{det}( AB) =\\text{det}( A) +\\text{det}( B)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(A\\) and \\(B\\) have the order of rows \\(1\\) and \\(3\\) swapped. Swapping rows changes the sign of the determinant.",
+    "text": "Which permutation matrix \\(\\displaystyle P\\) makes \\(\\displaystyle PA\\) upper triangular where:\n\\[\n\\begin{equation*}\nA=\\begin{bmatrix}\n0 & 0 & 6\\\\\n1 & 2 & 3\\\\\n0 & 4 & 5\n\\end{bmatrix}\n\\end{equation*}\n\\]\n\n\\(\\displaystyle \\begin{bmatrix}\n0 & 1 & 0\\\\\n0 & 0 & 1\\\\\n1 & 0 & 0\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n0 & 1 & 0\\\\\n1 & 0 & 0\\\\\n0 & 0 & 1\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n1 & 0 & 0\\\\\n0 & 0 & 1\\\\\n0 & 1 & 0\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n1 & 0 & 0\\\\\n0 & 1 & 0\\\\\n0 & 0 & 1\n\\end{bmatrix}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle \\begin{bmatrix}\n0 & 1 & 0\\\\\n0 & 0 & 1\\\\\n1 & 0 & 0\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n0 & 1 & 0\\\\\n1 & 0 & 0\\\\\n0 & 0 & 1\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n1 & 0 & 0\\\\\n0 & 0 & 1\\\\\n0 & 1 & 0\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n1 & 0 & 0\\\\\n0 & 1 & 0\\\\\n0 & 0 & 1\n\\end{bmatrix}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nRecall the following facts:\n\nA permutation matrix is obtained by permuting the rows of the identity matrix.\nPre-multiplying \\(\\displaystyle A\\) by a permutation matrix is equivalent to permuting the rows of \\(\\displaystyle A\\).\n\nTo get \\(\\displaystyle A\\) into an upper triangular matrix, we need:\n\\[\n\\begin{equation*}\n\\begin{bmatrix}\n- & R_{2} & -\\\\\n- & R_{3} & -\\\\\n- & R_{1} & -\n\\end{bmatrix} \\Longrightarrow P=\\begin{bmatrix}\n0 & 1 & 0\\\\\n0 & 0 & 1\\\\\n1 & 0 & 0\n\\end{bmatrix}\n\\end{equation*}\n\\]",
     "crumbs": [
       "Linear Algebra",
       "Bank",
-      "Question-32"
+      "Question-38"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-027.html",
+    "href": "linear_algebra/bank/question-027.html",
+    "title": "Question-27",
+    "section": "",
+    "text": "What is the product of the non-zero eigenvalues of the following matrix: \\[\n\\begin{bmatrix}\n1 & 0 & 0 & 0 & 1\\\\\n0 & 1 & 1 & 1 & 0\\\\\n0 & 1 & 1 & 1 & 0\\\\\n0 & 1 & 1 & 1 & 0\\\\\n1 & 0 & 0 & 0 & 1\n\\end{bmatrix}\n\\]\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(6\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe product of the eigenvalues of a matrix is equal to its determinant. But the determinant of this matrix is zero and we are asked to compute the product of the non-zero eigenvalues. We should therefore take recourse to the characteristic polynomial: \\[\nD = \\begin{vmatrix}\n1 - \\lambda & 0 & 0 & 0 & 1\\\\\n0 & 1 - \\lambda & 1 & 1 & 0\\\\\n0 & 1 & 1 - \\lambda & 1 & 0\\\\\n0 & 1 & 1 & 1 - \\lambda & 0\\\\\n1 & 0 & 0 & 0 & 1 - \\lambda\n\\end{vmatrix}\n\\] Though this determinant looks forbidding, computing it is not all that cumbersome if we choose the right row/column along which to expand. Let us first break this down into the following sum by expanding along the first row: \\[\nD = (1 - \\lambda) \\begin{vmatrix}\n1 - \\lambda & 1 & 1 & 0\\\\\n1 & 1 - \\lambda & 1 & 0\\\\\n1 & 1 & 1 - \\lambda & 0\\\\\n0 & 0 & 0 & 1 - \\lambda\n\\end{vmatrix} + \\begin{vmatrix}\n0 & 1 - \\lambda & 1 & 1\\\\\n0 & 1 & 1 - \\lambda & 1\\\\\n0 & 1 & 1 & 1 - \\lambda\\\\\n1 & 0 & 0 & 0\n\\end{vmatrix}\n\\] The two determinants look quite similar to each other. We can expand along the last row for both of them: \\[\nD = \\left[(1 - \\lambda)^2 - 1 \\right] \\begin{vmatrix}\n1 - \\lambda & 1 & 1\\\\\n1 & 1 - \\lambda & 1\\\\\n1 & 1 & 1 - \\lambda\\\\\n\\end{vmatrix}\n\\] Let us first compute the \\(3 \\times 3\\) determinant: \\[\n\\begin{vmatrix}\n1 - \\lambda & 1 & 1\\\\\n1 & 1 - \\lambda & 1\\\\\n1 & 1 & 1 - \\lambda\\\\\n\\end{vmatrix} = - \\lambda^2 (\\lambda - 3)\n\\] Putting it all together: \\[\nD = -\\lambda^3(\\lambda - 2)(\\lambda - 3)\n\\] We see that there are five eigenvalues: \\(0, 0, 0, 2, 3\\). The product of the non-zero eigenvalues is therefore \\(\\boxed{6}\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-27"
     ]
   },
   {
@@ -156,15 +298,15 @@
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-005.html",
-    "href": "linear_algebra/bank/question-005.html",
-    "title": "Question-5",
+    "objectID": "linear_algebra/bank/question-001.html",
+    "href": "linear_algebra/bank/question-001.html",
+    "title": "Question-1",
     "section": "",
-    "text": "\\(Q\\) is an orthogonal matrix. If \\(||Qu|| = 4\\), what is \\(||u||\\)?\n\n\n\n\n\n\nHint\n\n\n\n\n\nExpand \\(||Qu||^2\\) and use the key property of orthogonal matrices.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(4\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nOrthogonal matrices preserve the inner product: \\[\n\\begin{aligned}\n||Qu||^2 &= (Qu)^T(Qu)\\\\\n&= u^TQ^TQu\\\\\n&= u^TIu\\\\\n&= u^Tu\\\\\n&= ||u||^2\n\\end{aligned}\n\\]",
+    "text": "Is the following statement true or false?\n\nThe row echelon form is defined only for square matrices.\n\n\nTrue\nFalse\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nTrue\nFalse\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe row echelon form is defined for matrices of any shape.",
     "crumbs": [
       "Linear Algebra",
       "Bank",
-      "Question-5"
+      "Question-1"
     ]
   },
   {
@@ -228,15 +370,27 @@
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-025.html",
-    "href": "linear_algebra/bank/question-025.html",
-    "title": "Question-25",
+    "objectID": "linear_algebra/bank/question-040.html",
+    "href": "linear_algebra/bank/question-040.html",
+    "title": "Question-40",
     "section": "",
-    "text": "Consider the following system of linear equations:\n\\[\n\\begin{aligned}\nx_1 - 3x_2 &= 4\\\\\n3x_1 + kx_2 &= -12\n\\end{aligned}\n\\]\nwhere \\(k \\in \\mathbb{R}\\). If the given system has a unique solution then \\(k\\) should not be equal to \\(----\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(-9\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nFor the system to have a unique solution we have:\n\\[\n\\frac{1}{3} \\neq \\frac{-3}{k} \\Longrightarrow k\\neq -9\n\\]",
+    "text": "Find the matrix that projects every point in the plane onto the line \\(\\displaystyle x+2y=0\\).\n\n\\(\\displaystyle \\begin{bmatrix}\n2 & -1\\\\\n-1 & 2\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n4 & -2\\\\\n-2 & 1\n\\end{bmatrix}\\)\n\\(\\displaystyle \\frac{1}{5}\\begin{bmatrix}\n2 & -1\\\\\n-1 & 2\n\\end{bmatrix}\\)\n\\(\\displaystyle \\frac{1}{5}\\begin{bmatrix}\n4 & -2\\\\\n-2 & 1\n\\end{bmatrix}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle \\begin{bmatrix}\n2 & -1\\\\\n-1 & 2\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n4 & -2\\\\\n-2 & 1\n\\end{bmatrix}\\)\n\\(\\displaystyle \\frac{1}{5}\\begin{bmatrix}\n2 & -1\\\\\n-1 & 2\n\\end{bmatrix}\\)\n\\(\\displaystyle \\frac{1}{5}\\begin{bmatrix}\n4 & -2\\\\\n-2 & 1\n\\end{bmatrix}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe unit vector along this line is \\(\\displaystyle v=\\frac{1}{\\sqrt{5}}( 2,-1)\\). The projection of any point \\(\\displaystyle u\\) along this line is therefore:\n\\[\n\\begin{equation*}\n\\left( u^{T} v\\right) v\n\\end{equation*}\n\\]\nExpressing it slightly differently using the symmetry of dot-products and the associativity of matrix multiplication:\n\\[\n\\begin{equation*}\n\\left( vv^{T}\\right) u\n\\end{equation*}\n\\]\nTherefore, the projection matrix is \\(\\displaystyle P=vv^{T}\\) and is given by:\n\\[\n\\begin{equation*}\nP=\\frac{1}{5}\\begin{bmatrix}\n4 & -2\\\\\n-2 & 1\n\\end{bmatrix}\n\\end{equation*}\n\\]",
     "crumbs": [
       "Linear Algebra",
       "Bank",
-      "Question-25"
+      "Question-40"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-039.html",
+    "href": "linear_algebra/bank/question-039.html",
+    "title": "Question-39",
+    "section": "",
+    "text": "Select all true statements.\n\nThe number of elements that can be chosen independently in a symmetric matrix of order \\(\\displaystyle n\\) is \\(\\displaystyle n( n+1) /2\\).\nThe number of elements that can be chosen independently in a symmetric matrix of order \\(\\displaystyle n\\) is \\(\\displaystyle n( n-1) /2\\).\nThe number of elements that can be chosen independently in a skew-symmetric matrix of order \\(\\displaystyle n\\) is \\(\\displaystyle n( n+1) /2\\).\nThe number of elements that can be chosen independently in a skew-symmetric matrix of order \\(\\displaystyle n\\) is \\(\\displaystyle n( n-1) /2\\).\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThe number of elements that can be chosen independently in a symmetric matrix of order \\(\\displaystyle n\\) is \\(\\displaystyle n( n+1) /2\\).\nThe number of elements that can be chosen independently in a symmetric matrix of order \\(\\displaystyle n\\) is \\(\\displaystyle n( n-1) /2\\).\nThe number of elements that can be chosen independently in a skew-symmetric matrix of order \\(\\displaystyle n\\) is \\(\\displaystyle n( n+1) /2\\).\nThe number of elements that can be chosen independently in a skew-symmetric matrix of order \\(\\displaystyle n\\) is \\(\\displaystyle n( n-1) /2\\).\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\nFor a symmetric matrix, the first row has \\(\\displaystyle n\\) free slots, the second row has \\(\\displaystyle n-1\\) free slots and so on. This results in \\(\\displaystyle n+( n-1) +\\cdots +1=\\frac{n( n+1)}{2}\\) free slots.\nFor a skew-symmetric matrix, all diagonal entries are zero. Hence, we need to subtract \\(\\displaystyle n\\) from the above quantity, which results in \\(\\displaystyle \\frac{n( n-1)}{2}\\) free slots.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-39"
     ]
   },
   {
@@ -361,15 +515,27 @@
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-016.html",
-    "href": "prob_stats/bank/question-016.html",
-    "title": "Question-16",
+    "objectID": "prob_stats/bank/question-021.html",
+    "href": "prob_stats/bank/question-021.html",
+    "title": "Question-21",
     "section": "",
-    "text": "A person has bought a bed from an online furniture store. The seller delivers the disassembled bed parts along with some screws to assemble it. The probability of a screw being defective is 0.1 independent of all other screws. To compensate for the manufacturing error, the seller sends two extra screws in the package where the bed needs exactly 8 screws to assemble. What is the probability that the buyer will be able to assemble the bed? (Enter the answer up to 2 decimal accuracy)\n\n\n\n\n\n\nHint\n\n\n\n\n\nBinomial distribution\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.93\n\n\n\n\n\n\n\n\n\nSolution",
+    "text": "The distribution of the diameter of screws produced by a certain machine is normally distributed with \\(\\mu\\) and \\(\\sigma\\) unknown. We observe a random sample \\(9.8, 10.2, 10.4, 9.8, 10.0, 10.2\\) and \\(9.6\\) (in cm). Find a 95% confidence interval for the mean diameter of screws.\n\n\\([10.74, 11.26]\\)\n\\([9.74, 10.26]\\)\n\\([7.47, 8.26]\\)\n\\([7.98, 8.75]\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse \\(P(-0.26&lt;t_6&lt;0.26)=0.95\\) and \\(s\\text{(sample standard deviation)}=0.283\\).\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\([10.74, 11.26]\\)\n\\([9.74, 10.26]\\)\n\\([7.47, 8.26]\\)\n\\([7.98, 8.75]\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-16"
+      "Question-21"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-007.html",
+    "href": "prob_stats/bank/question-007.html",
+    "title": "Question-7",
+    "section": "",
+    "text": "Which of the following option(s) is(are) true?\n\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nTwo events \\(A\\) and \\(B\\) are disjoint (mutually exclusive) if \\(A \\cap B = \\phi\\) and \\(A\\) and \\(B\\) are independent events if \\(P(A | B ) = P(A | B^c) = P(A)\\).\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nTwo events \\(A\\) and \\(B\\) are mutually exclusive (disjoint) if \\(A \\cap B = \\phi\\). Then, \\(P(A \\cap B) = 0 \\implies P(A \\cup B) = P(A) + P(B).\\)\n\\(P(A  \\cap  B) = P(A | B) \\times P(B) = P(A) \\times P(B)\\) because \\(P(A | B ) = P(A | B^c) = P(A)\\) if \\(A\\) and \\(B\\) are independent.",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-7"
     ]
   },
   {
@@ -385,15 +551,27 @@
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-002.html",
-    "href": "prob_stats/bank/question-002.html",
-    "title": "Question-2",
+    "objectID": "prob_stats/bank/question-024.html",
+    "href": "prob_stats/bank/question-024.html",
+    "title": "Question-24",
     "section": "",
-    "text": "A professor is creating an exam of eleven questions from a test bank of 15 questions. In how many ways can he select and arrange the questions?\n\n\\(15!\\)\n\\(15! / 11! 4!\\)\n\\(15! / 11!\\)\n\\(15! / 4!\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse the concept of permutation.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\nToggle the appropriate answers.\n\n\\(15!\\)\n\\(15! / 11! 4!\\)\n\\(15! /11!\\)\n\\(15! / 4!\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nProfessor can select 11 questions from a test bank of 15 questions in \\(^{15}C_{11}\\) ways and he can arrange in \\(11!\\) ways. So, number of ways in which he can select and arrange the questions is \\(^{15}C_{11} \\times 11! = ^{15}P_{11} = \\dfrac{15!}{4!}\\).",
+    "text": "The average life of a coffee machine is 5 years, with a standard deviation of 1 year. Assuming that the lives of these machines follow approximately a normal distribution, find the probability that the mean life of a random sample of 16 such machines falls between 4.6 and 5.4 years. Enter your answer correct to two decimals.\n\n\n\n\n\n\nHint\n\n\n\n\n\nIf \\(X \\sim N(\\mu, \\sigma^2)\\), then \\(\\overline{X} \\sim N\\left(\\mu, \\dfrac{\\sigma^2}{n}\\right)\\), where \\(\\overline{X} = \\dfrac{\\sum_{i=1}^{n}x_i}{n}\\).\nAlso, \\(Z = \\dfrac{X - E(X)}{\\sqrt{Var(X)}} \\sim N(0,1)\\) is a standard normal variate.\nUse \\(F_Z(1.6) = 0.9452\\)\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.89\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nAccording to the question, we have \\(\\mu = 5\\) and \\(\\sigma = 1\\).\nLet \\(X_i\\) represents the life of the \\(i^{th}\\) machine, then \\(X_i \\sim N\\left(5, 1\\right)\\), \\(\\forall \\hspace{1mm}i=1, 2, \\ldots, 16\\).\nNow,\n\\(\\overline{X} \\sim N\\left(5, \\dfrac{1}{16}\\right)\\), where \\(\\overline{X} = \\dfrac{\\sum_{i=1}^{16}x_i}{16}\\) will represent the mean life of a random sample of 16 machines.\n\\(P(4.6 &lt; \\overline{X} &lt; 5.4) = P\\left(\\dfrac{4.6-5}{1/4} &lt; \\dfrac{\\overline{X}-5}{1/4} &lt; \\dfrac{5.4-5}{1/4}\\right)\\)\n\\(=P\\left(\\dfrac{-0.4}{1/4} &lt; Z &lt; \\dfrac{0.4}{1/4}\\right)\\)\n\\(= P\\left(-1.6 &lt; Z &lt; 1.6\\right)\\)\n\\(= P\\left(Z &lt; 1.6\\right) - P\\left(Z &lt; -1.6\\right)\\)\nSince, \\(Z\\) is a standard normal variable, therefore \\(P(Z&lt;-a) = P(Z&gt;a)\\). Thus, \\(P(Z&lt;-1.6) = P(Z&gt;1.6)\\). Now,\n\\(= P\\left(Z &lt; 1.6\\right) - P\\left(Z &gt; 1.6\\right)\\)\n\\(= P\\left(Z &lt; 1.6\\right) - \\left(1-P\\left(Z &lt; 1.6\\right)\\right)\\)\n\\(= P\\left(Z &lt; 1.6\\right) - 1 + P\\left(Z &lt; 1.6\\right)\\)\n\\(= 2P\\left(Z &lt; 1.6\\right) - 1\\)\n\\(= 2F_Z(1.6) - 1\\)\n\\(= 2(0.9452) - 1 = 0.89 \\hspace{2mm}\\text{(till two decimal places.)}\\)",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-2"
+      "Question-24"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-014.html",
+    "href": "prob_stats/bank/question-014.html",
+    "title": "Question-14",
+    "section": "",
+    "text": "Suppose the number of visitors arriving at a zoo can be modeled to be Poisson distributed. On an average 20 visitors arrive per hour. Let \\(X\\) be the number of visitors arriving from 2pm to 4pm. Then the probability that at least 35 visitors will arrive in the given duration is\n\n\\(\\sum\\limits_{k = 35}^{\\infty}\\dfrac{e^{-20}(20)^k}{k!}\\)\n\\(1-\\sum\\limits_{k = 0}^{34}\\dfrac{e^{-20}(20)^k}{k!}\\)\n\\(\\sum\\limits_{k = 35}^{\\infty}\\dfrac{e^{-40}(40)^k}{k!}\\)\n\\(1-\\sum\\limits_{k = 0}^{34}\\dfrac{e^{-40}(40)^k}{k!}\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\n\\(\\lambda = 20\\) per hour. Therefore, for 2pm - 4pm, \\(\\lambda\\) will be updated as \\(= 2\\times20 = 40\\) because there are 2 hours for 2pm - 4pm and use pmf of Poisson distribution.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\sum\\limits_{k = 35}^{\\infty}\\dfrac{e^{-20}(20)^k}{k!}\\)\n\\(1-\\sum\\limits_{k = 0}^{34}\\dfrac{e^{-20}(20)^k}{k!}\\)\n\\(\\sum\\limits_{k = 35}^{\\infty}\\dfrac{e^{-40}(40)^k}{k!}\\)\n\\(1-\\sum\\limits_{k = 0}^{34}\\dfrac{e^{-40}(40)^k}{k!}\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-14"
     ]
   },
   {
@@ -421,6 +599,18 @@
     ]
   },
   {
+    "objectID": "prob_stats/bank/question-026.html",
+    "href": "prob_stats/bank/question-026.html",
+    "title": "Question-26",
+    "section": "",
+    "text": "Waiting time in a hospital is said to follow the exponential distribution with the expected waiting time of 10 minutes. What is the probability that a person visiting a hospital has to wait for more than 15 minutes? Enter the answer correct to two decimal places accuracy.\n\n\n\n\n\n\nHint\n\n\n\n\n\nIf \\(X \\sim Exp(\\lambda)\\), then \\(E(X) = \\dfrac{1}{\\lambda}\\) and \\(Var(X) =  \\dfrac{1}{\\lambda^2}\\). Also,\n\\(F(x) = P(X \\leq x) = 1 - e^{-\\lambda x}\\)\n\\(P(X &gt; x) = 1-P(X \\leq x) = 1 - \\left(1 - e^{-\\lambda x}\\right) = 1 - 1 + e^{-\\lambda x} = e^{-\\lambda x}.\\)\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.22\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet \\(X\\) represents the waiting time.\nAccording to the question, we have given “Expected waiting time is 10 minutes”, i.e., \\(E(X) = \\dfrac{1}{\\lambda} = 10 \\implies \\lambda = \\dfrac{1}{10} = 0.1\\). Thus\n\\(X \\sim Exp(0.1)\\). Now,\nProb.(that a person visiting a hospital has to wait for more than 15 minutes) \\(\\implies P (X &gt; 15) = e^{-0.1 \\times 15} = e^{-1.5} = 0.22\\)",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-26"
+    ]
+  },
+  {
     "objectID": "prob_stats/bank/question-001.html",
     "href": "prob_stats/bank/question-001.html",
     "title": "Question-1",
@@ -445,15 +635,39 @@
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-008.html",
-    "href": "prob_stats/bank/question-008.html",
-    "title": "Question-8",
+    "objectID": "prob_stats/bank/question-028.html",
+    "href": "prob_stats/bank/question-028.html",
+    "title": "Question-28",
     "section": "",
-    "text": "\\(57\\%\\) students of girls’ school wear neither a ring nor a necklace, \\(30\\%\\) wear a ring, and \\(25\\%\\) wear a necklace. If one of them is randomly chosen, find the probability that she is wearing a ring and a necklace.\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse addition rule of probability.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.12\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nDefine event \\(R\\) as “wears a ring” and the event \\(N\\) as “wears a necklace”. Given,\n\\(P(R^c \\cap N^c) = P(R \\cup N)^c = 0.57 \\implies P(R \\cup N) = 1 - P(R \\cup N)^c = 1-0.57 = 0.43,\\) \\(P(R) = 0.30\\) and \\(P(N) = 0.25\\)\n\\(P(R \\cup N) = P(R) + P(N) - P(R \\cap N)\\)\n\\(P(R \\cap N) = P(R) + P(N) - P(R \\cup N) = 0.30+0.25-0.43 = 0.12\\)",
+    "text": "The total duration of a Test cricket match between any two cricket team is uniformly distributed between 30 hours and 40 hours, both inclusive. What is the \\(65^{th}\\) percentile for the duration of a test cricket match between any two cricket team in hours?\n\n\n\n\n\n\nHint\n\n\n\n\n\nIf \\(X \\sim \\text{Uniform}[a,b]\\), then \\(E(X) = \\dfrac{a+b}{2}\\) and \\(Var(X) =  \\dfrac{(b-a)^{2}}{12}\\). Also,\n\\(F(x) = P(X \\leq x) = \\dfrac{x-a}{b-a}\\)\n\\(65^{th}\\) percentile denotes the value of \\(k\\) for which \\(P(X \\leq k) = 0.65\\).\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n36.5\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nAccording to the question \\(X \\sim \\text{Uniform}[30, 40]\\).\n\\(65^{th}\\) percentile denotes the value of \\(k\\) for which \\(P(X \\leq k) = 0.65\\).\n\\(\\dfrac{k-30}{40-30} = 0.65 \\implies \\dfrac{k-30}{10} = 0.65\\)\n\\(\\implies k - 30 = 10 \\times 0.65\\)\n\\(\\implies k - 30 = 6.5 \\implies  k = 36.5\\)",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-8"
+      "Question-28"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-022.html",
+    "href": "prob_stats/bank/question-022.html",
+    "title": "Question-22",
+    "section": "",
+    "text": "Let \\(X_1, \\ldots, X_n\\sim \\text{i.i.d. Uniform}(-a, a).\\) Find the ML estimator of \\(a.\\)\n\n\\(\\hat{a}_{ML}= \\dfrac{1}{2^n}\\max(X_1, \\dots, X_n)\\)\n\\(\\hat{a}_{ML}=\\max(X_1, \\dots, X_n)\\)\n\\(\\hat{a}_{ML}=\\min(X_1, \\dots, X_n)\\)\n\\(\\hat{a}_{ML}= \\dfrac{1}{2^n}\\min(X_1, \\dots, X_n)\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nApply the method of MLE\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\hat{a}_{ML}= \\dfrac{1}{2^n}\\max(X_1, \\dots, X_n)\\)\n\\(\\hat{a}_{ML}=\\max(X_1, \\dots, X_n)\\)\n\\(\\hat{a}_{ML}=\\min(X_1, \\dots, X_n)\\)\n\\(\\hat{a}_{ML}= \\dfrac{1}{2^n}\\min(X_1, \\dots, X_n)\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-22"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-025.html",
+    "href": "prob_stats/bank/question-025.html",
+    "title": "Question-25",
+    "section": "",
+    "text": "An electrical firm manufactures light bulbs that have a length of life that is approximately normally distributed, with mean equal to 600 hours and a standard deviation of 50 hours. Find the probability that a random sample of 25 bulbs will have an average life of less than 615 hours. Enter your answer correct to two decimals.\n\n\n\n\n\n\nHint\n\n\n\n\n\nIf \\(X \\sim N(\\mu, \\sigma^2)\\), then \\(\\overline{X} \\sim N\\left(\\mu, \\dfrac{\\sigma^2}{n}\\right)\\), where \\(\\overline{X} = \\dfrac{\\sum_{i=1}^{n}x_i}{n}\\).\nAlso, \\(Z = \\dfrac{X - E(X)}{\\sqrt{Var(X)}} \\sim N(0,1)\\) is a standard normal variate.\nUse \\(F_Z(1.5) = 0.933\\)\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.93\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nAccording to the question, we have \\(\\mu = 600\\) and \\(\\sigma = 50\\).\nLet \\(X_i\\) represents the life of the \\(i^{th}\\) bulb, then \\(X_i \\sim N\\left(600, 50\\right)\\), \\(\\forall \\hspace{1mm}i=1, 2, \\ldots, 25\\).\nNow,\n\\(\\overline{X} \\sim N\\left(600, \\dfrac{50^2}{25}\\right)\\), where \\(\\overline{X} = \\dfrac{\\sum_{i=1}^{25}x_i}{25}\\) will represent the mean life of a random sample of 25 light bulbs.\n\\(P( \\overline{X} &lt; 615) = P\\left(\\dfrac{\\overline{X}-600}{50/5} &lt; \\dfrac{615-600}{50/5}\\right)\\)\n\\(=P\\left( Z &lt; \\dfrac{15}{10}\\right)\\)\n\\(= P\\left(Z &lt; 1.5\\right)\\)\n\\(= 0.93 \\hspace{2mm}\\text{(till two decimal places.)}\\)",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-25"
     ]
   },
   {
@@ -733,27 +947,39 @@
     ]
   },
   {
-    "objectID": "calculus/bank/question-007.html",
-    "href": "calculus/bank/question-007.html",
-    "title": "Question-7",
+    "objectID": "calculus/bank/question-012.html",
+    "href": "calculus/bank/question-012.html",
+    "title": "Question-12",
     "section": "",
-    "text": "Suppose \\(x+y=16\\). What is the value of \\(x y\\) when \\(x^3+y^3\\) is minimum?\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(64\\)\n\n\n\n\n\n\n\n\n\nSolution-1\n\n\n\n\n\nWe have: \\[\n\\underset{x.y}{\\min} \\ x^{3} +y^{3}\n\\] subject to: \\[\nx+y=16\n\\] This is a constrained optimization problem in two variables. But we can turn it into an unconstrained optimization problem in one variable by using the constraint:\n\\[\n\\underset{x}{\\min} \\ x^{3} +( 16-x)^{3}\n\\] From here, we proceed as usual:\n\\[\nf( x) =x^{3} +( 16-x)^{3}\n\\]\nComputing the first and second derivatives:\n\\[\n\\begin{aligned}\nf^{\\prime }( x) & =3x^{2} -3( 16-x)^{2}\\\\\n& =3( x+16-x)( x-16+x)\\\\\n& =96( x-8)\n\\end{aligned}\n\\]\nThere is just one critical point, \\(\\displaystyle x=8\\). Evaluating the second partial derivative at this point:\n\\[\nf^{\\prime \\prime }( 8) =96 &gt;0\n\\]\nTherefore \\(\\displaystyle x=8\\) corresponds to a local minimum. This is in fact a global minimum as \\(f\\) turns out to be a quadratic function. We can now recover \\(\\displaystyle y=8\\). The value of \\(\\displaystyle xy\\) is \\(\\displaystyle 64\\) when \\(\\displaystyle x^{3} +y^{3}\\) is minimum.\n\n\n\n\n\n\n\n\n\nSolution-2\n\n\n\n\n\nWe have: \\[\n\\underset{x.y}{\\min} \\ x^{3} +y^{3}\n\\] subject to: \\[\nx+y=16\n\\] This is a constrained optimization problem in two variables. But we can turn it into an unconstrained optimization problem in one variable by using the constraint:\n\\[\n\\underset{x}{\\min} \\ x^{3} +( 16-x)^{3}\n\\] We first simplify the objective function:\n\\[\n\\begin{aligned}\nf( x) & =x^{3} +( 16-x)^{3}\\\\\n& =16^{3} -3\\times 16^{2} \\times x+3\\times 16\\times x^{2} -x^{3}\\\\\n& =3\\times 16x^{2} -3\\times 16^{2} x+16^{3}\n\\end{aligned}\n\\]\nThis is a quadratic equation in \\(\\displaystyle x\\) that has a parabola facing upwards. So it has a global minimum, which occurs at \\(\\displaystyle x=\\frac{3\\times 16^{2}}{2\\times 3\\times 16} =8\\). We can now recover \\(\\displaystyle y=8\\). The value of \\(\\displaystyle xy\\) is \\(\\displaystyle 64\\) when \\(\\displaystyle x^{3} +y^{3}\\) is minimum.",
+    "text": "If \\(\\displaystyle \\lim\\limits _{x\\rightarrow 4} \\ \\frac{f( x) -5}{x-2} =1\\), find \\(\\displaystyle \\lim\\limits _{x\\rightarrow 4} \\ f( x)\\).\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse the property of limits (arithmetic).\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(7\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nUsing the multiplicative property of limits:\n\\[\n\\begin{equation*}\n\\begin{aligned}\n\\lim\\limits _{x\\rightarrow 4} \\ f( x) -5 & =\\lim\\limits _{x\\rightarrow 4} \\ \\frac{f( x) -5}{x-2} \\cdot ( x-2)\\\\\n& =\\lim\\limits _{x\\rightarrow 4} \\ \\frac{f( x) -5}{x-2} \\cdot \\lim\\limits _{x\\rightarrow 4} \\ x-2\\\\\n& =1\\times 2\\\\\n& =2\n\\end{aligned}\n\\end{equation*}\n\\]\nTherefore, \\(\\displaystyle \\lim\\limits _{x\\rightarrow 4} \\ f( x) =7\\).",
     "crumbs": [
       "Calculus and Optimization",
       "Bank",
-      "Question-7"
+      "Question-12"
     ]
   },
   {
-    "objectID": "calculus/bank/question-002.html",
-    "href": "calculus/bank/question-002.html",
-    "title": "Question-2",
+    "objectID": "calculus/bank/question-006.html",
+    "href": "calculus/bank/question-006.html",
+    "title": "Question-6",
     "section": "",
-    "text": "Evaluate the following limit:\n\\[\n\\lim_{x \\rightarrow 2} \\cfrac{x^6 -24x -16}{x^3 +2x - 12}\n\\]\n\n\n\n\n\n\nHint\n\n\n\n\n\nL’Hopital’s rule\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(12\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThis limit has \\(\\cfrac{0}{0}\\) form. So we can try the L’Hopital’s rule. \\[\n\\begin{aligned}\n\\lim \\limits_{x \\rightarrow 2} \\cfrac{x^6 -24x -16}{x^3 +2x - 12} &= \\lim \\limits_{x \\rightarrow 2} \\cfrac{6x^5 -24}{3x^2 + 2} = 12\n\\end{aligned}\n\\] Note that the L’Hopital rule works here because the quotient of the derivatives of the numerator and denominator exists and is equal to \\(12\\). For all the conditions that have to be satisfied to apply the rule, check this Wikipedia entry.",
+    "text": "Consider the function \\(f(x)=x^3-6x\\). Which of the following options are correct?\n\n\\(f\\) has neither local maxima nor local minima.\n\\(\\sqrt{2}\\) is a local minimum.\n\\(\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local minimum.\n\\(f\\) has two critical points.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(f\\) has neither local maxima nor local minima.\n\\(\\sqrt{2}\\) is a local minimum.\n\\(\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local minimum.\n\\(f\\) has two critical points.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have:\n\\[\nf( x) =x^{3} -6x\n\\]\nThe first and second derivatives are:\n\\[\nf^{\\prime }( x) =3x^{2} -6,\\ f^{\\prime \\prime} ( x) =6x\n\\]\nThe critical points of \\(\\displaystyle f\\) are:\n\\[\n\\begin{aligned}\n3x^{2} -6 & =0\\\\\nx^{2} & =2\\\\\nx & =\\pm \\sqrt{2}\n\\end{aligned}\n\\]\nWe have two critical points. Now for the determination of the nature of the optimum:\n\\[\n\\begin{aligned}\nf^{\\prime \\prime} \\left(\\sqrt{2}\\right) &  &gt;0\\\\\nf^{\\prime \\prime} \\left( -\\sqrt{2}\\right) & &lt; 0\n\\end{aligned}\n\\]\n\\(\\displaystyle \\sqrt{2}\\) is a local minimum and \\(\\displaystyle -\\sqrt{2}\\) is a local maximum.",
     "crumbs": [
       "Calculus and Optimization",
       "Bank",
-      "Question-2"
+      "Question-6"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-014.html",
+    "href": "calculus/bank/question-014.html",
+    "title": "Question-14",
+    "section": "",
+    "text": "Find the best linear approximation of \\(\\displaystyle f( x) =\\sqrt{1+x}\\) at \\(\\displaystyle x=0\\).\n\n\\(\\sqrt{1 + x}\\)\n\\(1 + x\\)\n\\(x\\)\n\\(1 + \\cfrac{x}{2}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\sqrt{1 + x}\\)\n\\(1 + x\\)\n\\(x\\)\n\\(1 + \\cfrac{x}{2}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nUsing Taylor series, the best linear approximation of \\(\\displaystyle f\\) at \\(\\displaystyle x=a\\) is given by:\n\\[\n\\begin{equation*}\nL( x)\\Bigl|_{x=a} =f( a) +f^{\\prime }( a)( x-a)\n\\end{equation*}\n\\]\nFor \\(\\displaystyle x=0\\) and \\(\\displaystyle f( x) =\\sqrt{1+x}\\), we have:\n\\[\n\\begin{equation*}\nL( x)\\Bigl|_{x=0} =1+\\frac{x}{2}\n\\end{equation*}\n\\]\nWe have used the fact that \\(\\displaystyle f^{\\prime }( x) =\\frac{1}{2\\sqrt{1+x}}\\) and \\(\\displaystyle f^{\\prime }( 0) =\\frac{1}{2}\\).",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-14"
     ]
   },
   {
@@ -781,25 +1007,56 @@
     ]
   },
   {
-    "objectID": "calculus/bank/question-009.html",
-    "href": "calculus/bank/question-009.html",
-    "title": "Question-9",
+    "objectID": "calculus/bank/question-015.html",
+    "href": "calculus/bank/question-015.html",
+    "title": "Question-15",
     "section": "",
-    "text": "Consider the function \\(f(x)= x+\\cfrac{1}{x}\\). Which of the following options are correct?\n\n\\(f\\) is an injective function, if the domain of \\(f\\) is \\(\\mathbb{R}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{N}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Q}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{N}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(f\\) is an injective function, if the domain of \\(f\\) is \\(\\mathbb{R}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{N}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Q}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{N}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have: \\[\nf( x) =x+\\frac{1}{x}\n\\]\nLet us first try to see what all values this function can take for its natural domain, \\(\\displaystyle \\mathbb{R} \\backslash \\{0\\}\\):\n\\[\n\\begin{aligned}\nx+\\frac{1}{x} & =y\\\\\nx^{2} -yx+1 & =0\n\\end{aligned}\n\\]\nFor \\(\\displaystyle x\\in \\mathbb{R} \\backslash \\{0\\}\\), the discriminant of the above equation has to be non-negative:\n\\[\ny^{2} -4\\geqslant 0\\Longrightarrow y\\in ( \\infty ,-2] \\cup [ 2,\\infty )\n\\]\nThus the range of \\(\\displaystyle f\\) is \\(\\displaystyle ( \\infty ,-2] \\cup [ 2,\\infty )\\).\nLet us now probe the injectivity of \\(\\displaystyle f\\):\n\\[\n\\begin{aligned}\nf( x_{1}) & =f( x_{2})\\\\\nx_{1} +\\frac{1}{x_{1}} & =x_{2} +\\frac{1}{x_{2}}\\\\\nx_{1} -x_{2} +\\frac{x_{2} -x_{1}}{x_{1} x_{2}} & =0\\\\\n\\frac{( x_{1} -x_{2})( x_{1} x_{2} -1)}{x_{1} x_{2}} & =0\\\\\n( x_{1} -x_{2})( x_{1} x_{2} -1) & =0\n\\end{aligned}\n\\]\nThis suggests one of two possibilities:\n\\[\nx_{1} =x_{2} \\ \\ \\text{OR} \\ \\ x_{1} x_{2} =1\n\\]\nWith this background work, let us now jump into the options:\nOption-1: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{R} \\backslash \\{0\\}\\)\nWe see that \\(\\displaystyle f\\) is not injective. One simple example is \\(\\displaystyle f( 2) =f\\left(\\frac{1}{2}\\right)\\).\nOption-2: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{N}\\)\n\\(\\displaystyle f\\) has to be injective. Recall the condition \\(\\displaystyle x_{1} x_{2} =1\\). If \\(\\displaystyle x_{1} ,x_{2} \\in \\mathbb{N}\\), then \\(\\displaystyle x_{1} =x_{2} =1\\).\nOption-3: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{Q} \\backslash \\{0\\}\\)\nNot injective. Similar to option-1\nOption-4: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{Z} \\backslash \\{0\\}\\)\n\\(\\displaystyle f\\) is injective. Similar to option-2\nOption-5: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{N}\\) and co-domain is \\(\\displaystyle \\mathbb{Q}\\)\n\\(\\displaystyle f\\) cannot be surjective as \\(\\displaystyle 1\\in \\mathbb{Q}\\), but \\(\\displaystyle 1\\) is not in the range of \\(\\displaystyle f\\).\nOption-6: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{Z}\\) and co-domain is \\(\\displaystyle \\mathbb{Q}\\)\n\\(\\displaystyle f\\) cannot be surjective. Similar to option-5",
+    "text": "Consider the function:\n\\[\n\\begin{equation*}\nf( x) =\\begin{cases}\n\\sin( 2x) , & x\\leqslant 0\\\\\nmx, & x &gt;0\n\\end{cases}\n\\end{equation*}\n\\]\n\n\\(\\displaystyle f\\) is continuous for exactly one value of \\(\\displaystyle m\\)\n\\(\\displaystyle f\\) is continuous for any \\(\\displaystyle m\\)\n\\(\\displaystyle f\\) is differentiable for exactly one value of \\(\\displaystyle m\\)\n\\(\\displaystyle f\\) is differentiable for any \\(\\displaystyle m\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle f\\) is continuous for exactly one value of \\(\\displaystyle m\\)\n\\(\\displaystyle f\\) is continuous for any \\(\\displaystyle m\\)\n\\(\\displaystyle f\\) is differentiable for exactly one value of \\(\\displaystyle m\\)\n\\(\\displaystyle f\\) is differentiable for any \\(\\displaystyle m\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have:\n\\[\n\\begin{equation*}\n\\lim\\limits _{x\\rightarrow 0^{+}} \\ f( x) =\\lim\\limits _{x\\rightarrow 0^{-}} \\ f( x) =0\n\\end{equation*}\n\\]\nSince limit at \\(\\displaystyle x=0\\) is equal to \\(\\displaystyle f( 0)\\), \\(\\displaystyle f\\) is continuous for all \\(\\displaystyle m\\). The right hand derivative for \\(\\displaystyle f\\) at \\(\\displaystyle x=0\\) is \\(\\displaystyle m\\) and the left hand derivative at \\(\\displaystyle x=0\\) is \\(\\displaystyle 2\\). For \\(\\displaystyle f\\) to be differentiable at \\(\\displaystyle x=0\\), \\(\\displaystyle m=2\\) is the only possibility.",
     "crumbs": [
       "Calculus and Optimization",
       "Bank",
-      "Question-9"
+      "Question-15"
     ]
   },
   {
-    "objectID": "calculus/index.html",
-    "href": "calculus/index.html",
-    "title": "Calculus and Optimization",
+    "objectID": "calculus/bank/question-008.html",
+    "href": "calculus/bank/question-008.html",
+    "title": "Question-8",
     "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in calculus and optimization. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nFunctions of a single variable\nLimit\nContinuity\nDifferentiability\nTaylor series\nMaxima and minima\nOptimization involving a single variable",
+    "text": "Consider a function \\(f\\) defined as: \\[\nf(x) = \\begin{cases} \\displaystyle\n     3ax + b &    x &lt; 1, \\\\\n     11 &  x = 1,\\\\\n     5ax - 2b &  x &gt; 1\n   \\end{cases}\n\\] If \\(f\\) is continuous at \\(x=1\\), then find the value of \\(a+b\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(5\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have:\n\\[\nf( x) =\\begin{cases}\n{\\displaystyle 3ax+b} & x&lt; 1,\\\\\n11 & x=1,\\\\\n5ax-2b & x &gt;1\n\\end{cases}\n\\]\nSince \\(\\displaystyle f\\) is continuous at \\(\\displaystyle x=1\\), we have LHL and RHL to be equal to the value of the function at \\(\\displaystyle x=1\\). This gives us the following system of linear equations:\n\\[\n\\begin{aligned}\n3a+b & =11\\\\\n5a-2b & =11\n\\end{aligned}\n\\]\nSolving this system, we get \\(\\displaystyle a=3,b=2\\). Therefore, \\(\\displaystyle a+b=11\\).",
     "crumbs": [
-      "Calculus and Optimization"
+      "Calculus and Optimization",
+      "Bank",
+      "Question-8"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-011.html",
+    "href": "calculus/bank/question-011.html",
+    "title": "Question-11",
+    "section": "",
+    "text": "Find the value of the following limit:\n\\[\n\\begin{equation*}\n\\lim\\limits _{x\\rightarrow 0^{+}} \\ \\ \\frac{\\sqrt{x}}{1-e^{2\\sqrt{x}}}\n\\end{equation*}\n\\]\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(-0.5\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe can use the standard limit: \\(\\displaystyle \\lim\\limits _{x\\rightarrow 0} \\ \\frac{e^{x} -1}{x} =1\\). To get the standard form, we need to multiply and divide by \\(\\displaystyle -2\\) and notice that the inverse of the above function still has limit \\(\\displaystyle 1\\).",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-11"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "GATE-DA",
+    "section": "",
+    "text": "Welcome! The DA paper was first introduced in the year 2024. The duration of the exam is \\(3\\) hours. An overview of the syllabus:\n\nCalculus and Optimization\nLinear Algebra\nProbability and Statistics\nMachine Learning\nArtificial Intelligence\nProgramming, Data Structures and Algorithms\nDatabase Management Systems\n\nYou can use the sidebar to navigate through the different topics."
+  },
+  {
+    "objectID": "machine_learning/index.html",
+    "href": "machine_learning/index.html",
+    "title": "Machine Learning",
+    "section": "",
+    "text": "The folder named Bank contains an assorted collection of questions in machine learning. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nSupervised Learning\n\nRegression\n\nSimple linear regression,\nMultiple linear regression,\nRidge regression\n\nClassification\n\nLogistic regression\nK-NN\nNaive Bayes\nLinear discriminant analysis (LDA)\nSupport vector machines (SVM)\nDecision trees\nMulti-layer perceptron (MLP)\nFeed-forward neural network (ANN)\n\nBias-variance trade-off\nCross-validation\n\nLeave-one-out (LOO) cross-validation\nK-fold cross-validation\n\n\nUnsupervised Learning\n\nClustering algorithms\n\nk-means\nk-medoid,\nhierarchical clustering\n\ntop-down\nbottom-up\nsingle-linkage\nmulti-linkage\n\n\nDimensionality reduction\n\nprincipal component analysis.",
+    "crumbs": [
+      "Machine Learning"
     ]
   },
   {
@@ -815,32 +1072,37 @@
     ]
   },
   {
-    "objectID": "machine_learning/index.html",
-    "href": "machine_learning/index.html",
-    "title": "Machine Learning",
+    "objectID": "calculus/index.html",
+    "href": "calculus/index.html",
+    "title": "Calculus and Optimization",
     "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in machine learning. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nSupervised Learning\n\nRegression\n\nSimple linear regression,\nMultiple linear regression,\nRidge regression\n\nClassification\n\nLogistic regression\nK-NN\nNaive Bayes\nLinear discriminant analysis (LDA)\nSupport vector machines (SVM)\nDecision trees\nMulti-layer perceptron (MLP)\nFeed-forward neural network (ANN)\n\nBias-variance trade-off\nCross-validation\n\nLeave-one-out (LOO) cross-validation\nK-fold cross-validation\n\n\nUnsupervised Learning\n\nClustering algorithms\n\nk-means\nk-medoid,\nhierarchical clustering\n\ntop-down\nbottom-up\nsingle-linkage\nmulti-linkage\n\n\nDimensionality reduction\n\nprincipal component analysis.",
+    "text": "The folder named Bank contains an assorted collection of questions in calculus and optimization. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nFunctions of a single variable\nLimit\nContinuity\nDifferentiability\nTaylor series\nMaxima and minima\nOptimization involving a single variable",
     "crumbs": [
-      "Machine Learning"
+      "Calculus and Optimization"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "GATE-DA",
+    "objectID": "calculus/bank/question-013.html",
+    "href": "calculus/bank/question-013.html",
+    "title": "Question-13",
     "section": "",
-    "text": "Welcome! The DA paper was first introduced in the year 2024. The duration of the exam is \\(3\\) hours. An overview of the syllabus:\n\nCalculus and Optimization\nLinear Algebra\nProbability and Statistics\nMachine Learning\nArtificial Intelligence\nProgramming, Data Structures and Algorithms\nDatabase Management Systems\n\nYou can use the sidebar to navigate through the different topics."
-  },
-  {
-    "objectID": "calculus/bank/question-008.html",
-    "href": "calculus/bank/question-008.html",
-    "title": "Question-8",
-    "section": "",
-    "text": "Consider a function \\(f\\) defined as: \\[\nf(x) = \\begin{cases} \\displaystyle\n     3ax + b &    x &lt; 1, \\\\\n     11 &  x = 1,\\\\\n     5ax - 2b &  x &gt; 1\n   \\end{cases}\n\\] If \\(f\\) is continuous at \\(x=1\\), then find the value of \\(a+b\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(5\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have:\n\\[\nf( x) =\\begin{cases}\n{\\displaystyle 3ax+b} & x&lt; 1,\\\\\n11 & x=1,\\\\\n5ax-2b & x &gt;1\n\\end{cases}\n\\]\nSince \\(\\displaystyle f\\) is continuous at \\(\\displaystyle x=1\\), we have LHL and RHL to be equal to the value of the function at \\(\\displaystyle x=1\\). This gives us the following system of linear equations:\n\\[\n\\begin{aligned}\n3a+b & =11\\\\\n5a-2b & =11\n\\end{aligned}\n\\]\nSolving this system, we get \\(\\displaystyle a=3,b=2\\). Therefore, \\(\\displaystyle a+b=11\\).",
+    "text": "The height of a right circular cone of maximum volume that can be enclosed within a hollow sphere of radius \\(\\displaystyle R\\) is:\n\n\\(\\displaystyle R\\)\n\\(\\displaystyle \\frac{5}{4} R\\)\n\\(\\displaystyle \\frac{4}{3} R\\)\n\\(\\displaystyle \\frac{3}{2} R\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle R\\)\n\\(\\displaystyle \\frac{5}{4} R\\)\n\\(\\displaystyle \\frac{4}{3} R\\)\n\\(\\displaystyle \\frac{3}{2} R\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nInvoking symmetry, we have:\n\nIt is safe to assume that \\(\\displaystyle \\theta \\in ( 0,\\pi /2)\\). The expression for the volume as a function of \\(\\theta\\) is:\n\\[\n\\begin{equation*}\nV_{\\text{cone}} =\\frac{1}{3} \\pi ( R\\cos \\theta )^{2}[ R( 1+\\sin \\theta )] \\varpropto \\cos^{2} \\theta ( 1+\\sin \\theta )\n\\end{equation*}\n\\]\nWe can now rewrite the expression to be optimized as:\n\\[\n\\begin{equation*}\n\\left( 1-\\sin^{2} \\theta \\right)( 1+\\sin \\theta ) =-\\sin^{3} \\theta -\\sin^{2} \\theta +\\sin \\theta +1\n\\end{equation*}\n\\]\nLetting \\(\\displaystyle y=\\sin \\theta\\) and noting that \\(\\displaystyle y\\in ( 0,1)\\), we get:\n\\[\n\\begin{equation*}\nf( y) =-y^{3} -y^{2} +y+1\n\\end{equation*}\n\\]\n\\(\\displaystyle f^{\\prime }( y) =0\\Longrightarrow 3y^{2} +2y-1=0\\Longrightarrow y=\\frac{1}{3} ,-1\\). We can ignore \\(\\displaystyle -1\\) as it is extraneous. Since \\(\\displaystyle f^{\\prime \\prime} \\left(\\frac{1}{3}\\right) &lt; 0\\), we conclude that \\(\\displaystyle y=\\frac{1}{3}\\) is a local maximum. Since \\(\\displaystyle f( 0) =1\\), \\(\\displaystyle f( 1) =0\\) and \\(\\displaystyle f\\left(\\frac{1}{3}\\right)  &gt;1\\), we conclude that \\(\\displaystyle \\frac{1}{3}\\) corresponds to an absolute maximum in \\(\\displaystyle ( 0,1)\\) for \\(\\displaystyle f\\).\nPlugging this back in the expression for height, we get \\(\\displaystyle h=R\\left[ 1+\\frac{1}{3}\\right] =\\frac{4}{3} R\\).",
     "crumbs": [
       "Calculus and Optimization",
       "Bank",
-      "Question-8"
+      "Question-13"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-009.html",
+    "href": "calculus/bank/question-009.html",
+    "title": "Question-9",
+    "section": "",
+    "text": "Consider the function \\(f(x)= x+\\cfrac{1}{x}\\). Which of the following options are correct?\n\n\\(f\\) is an injective function, if the domain of \\(f\\) is \\(\\mathbb{R}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{N}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Q}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{N}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(f\\) is an injective function, if the domain of \\(f\\) is \\(\\mathbb{R}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{N}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Q}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{N}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have: \\[\nf( x) =x+\\frac{1}{x}\n\\]\nLet us first try to see what all values this function can take for its natural domain, \\(\\displaystyle \\mathbb{R} \\backslash \\{0\\}\\):\n\\[\n\\begin{aligned}\nx+\\frac{1}{x} & =y\\\\\nx^{2} -yx+1 & =0\n\\end{aligned}\n\\]\nFor \\(\\displaystyle x\\in \\mathbb{R} \\backslash \\{0\\}\\), the discriminant of the above equation has to be non-negative:\n\\[\ny^{2} -4\\geqslant 0\\Longrightarrow y\\in ( \\infty ,-2] \\cup [ 2,\\infty )\n\\]\nThus the range of \\(\\displaystyle f\\) is \\(\\displaystyle ( \\infty ,-2] \\cup [ 2,\\infty )\\).\nLet us now probe the injectivity of \\(\\displaystyle f\\):\n\\[\n\\begin{aligned}\nf( x_{1}) & =f( x_{2})\\\\\nx_{1} +\\frac{1}{x_{1}} & =x_{2} +\\frac{1}{x_{2}}\\\\\nx_{1} -x_{2} +\\frac{x_{2} -x_{1}}{x_{1} x_{2}} & =0\\\\\n\\frac{( x_{1} -x_{2})( x_{1} x_{2} -1)}{x_{1} x_{2}} & =0\\\\\n( x_{1} -x_{2})( x_{1} x_{2} -1) & =0\n\\end{aligned}\n\\]\nThis suggests one of two possibilities:\n\\[\nx_{1} =x_{2} \\ \\ \\text{OR} \\ \\ x_{1} x_{2} =1\n\\]\nWith this background work, let us now jump into the options:\nOption-1: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{R} \\backslash \\{0\\}\\)\nWe see that \\(\\displaystyle f\\) is not injective. One simple example is \\(\\displaystyle f( 2) =f\\left(\\frac{1}{2}\\right)\\).\nOption-2: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{N}\\)\n\\(\\displaystyle f\\) has to be injective. Recall the condition \\(\\displaystyle x_{1} x_{2} =1\\). If \\(\\displaystyle x_{1} ,x_{2} \\in \\mathbb{N}\\), then \\(\\displaystyle x_{1} =x_{2} =1\\).\nOption-3: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{Q} \\backslash \\{0\\}\\)\nNot injective. Similar to option-1\nOption-4: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{Z} \\backslash \\{0\\}\\)\n\\(\\displaystyle f\\) is injective. Similar to option-2\nOption-5: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{N}\\) and co-domain is \\(\\displaystyle \\mathbb{Q}\\)\n\\(\\displaystyle f\\) cannot be surjective as \\(\\displaystyle 1\\in \\mathbb{Q}\\), but \\(\\displaystyle 1\\) is not in the range of \\(\\displaystyle f\\).\nOption-6: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{Z}\\) and co-domain is \\(\\displaystyle \\mathbb{Q}\\)\n\\(\\displaystyle f\\) cannot be surjective. Similar to option-5",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-9"
     ]
   },
   {
@@ -880,15 +1142,27 @@
     ]
   },
   {
-    "objectID": "calculus/bank/question-006.html",
-    "href": "calculus/bank/question-006.html",
-    "title": "Question-6",
+    "objectID": "calculus/bank/question-002.html",
+    "href": "calculus/bank/question-002.html",
+    "title": "Question-2",
     "section": "",
-    "text": "Consider the function \\(f(x)=x^3-6x\\). Which of the following options are correct?\n\n\\(f\\) has neither local maxima nor local minima.\n\\(\\sqrt{2}\\) is a local minimum.\n\\(\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local minimum.\n\\(f\\) has two critical points.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(f\\) has neither local maxima nor local minima.\n\\(\\sqrt{2}\\) is a local minimum.\n\\(\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local minimum.\n\\(f\\) has two critical points.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have:\n\\[\nf( x) =x^{3} -6x\n\\]\nThe first and second derivatives are:\n\\[\nf^{\\prime }( x) =3x^{2} -6,\\ f^{\\prime \\prime} ( x) =6x\n\\]\nThe critical points of \\(\\displaystyle f\\) are:\n\\[\n\\begin{aligned}\n3x^{2} -6 & =0\\\\\nx^{2} & =2\\\\\nx & =\\pm \\sqrt{2}\n\\end{aligned}\n\\]\nWe have two critical points. Now for the determination of the nature of the optimum:\n\\[\n\\begin{aligned}\nf^{\\prime \\prime} \\left(\\sqrt{2}\\right) &  &gt;0\\\\\nf^{\\prime \\prime} \\left( -\\sqrt{2}\\right) & &lt; 0\n\\end{aligned}\n\\]\n\\(\\displaystyle \\sqrt{2}\\) is a local minimum and \\(\\displaystyle -\\sqrt{2}\\) is a local maximum.",
+    "text": "Evaluate the following limit:\n\\[\n\\lim_{x \\rightarrow 2} \\cfrac{x^6 -24x -16}{x^3 +2x - 12}\n\\]\n\n\n\n\n\n\nHint\n\n\n\n\n\nL’Hopital’s rule\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(12\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThis limit has \\(\\cfrac{0}{0}\\) form. So we can try the L’Hopital’s rule. \\[\n\\begin{aligned}\n\\lim \\limits_{x \\rightarrow 2} \\cfrac{x^6 -24x -16}{x^3 +2x - 12} &= \\lim \\limits_{x \\rightarrow 2} \\cfrac{6x^5 -24}{3x^2 + 2} = 12\n\\end{aligned}\n\\] Note that the L’Hopital rule works here because the quotient of the derivatives of the numerator and denominator exists and is equal to \\(12\\). For all the conditions that have to be satisfied to apply the rule, check this Wikipedia entry.",
     "crumbs": [
       "Calculus and Optimization",
       "Bank",
-      "Question-6"
+      "Question-2"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-007.html",
+    "href": "calculus/bank/question-007.html",
+    "title": "Question-7",
+    "section": "",
+    "text": "Suppose \\(x+y=16\\). What is the value of \\(x y\\) when \\(x^3+y^3\\) is minimum?\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(64\\)\n\n\n\n\n\n\n\n\n\nSolution-1\n\n\n\n\n\nWe have: \\[\n\\underset{x.y}{\\min} \\ x^{3} +y^{3}\n\\] subject to: \\[\nx+y=16\n\\] This is a constrained optimization problem in two variables. But we can turn it into an unconstrained optimization problem in one variable by using the constraint:\n\\[\n\\underset{x}{\\min} \\ x^{3} +( 16-x)^{3}\n\\] From here, we proceed as usual:\n\\[\nf( x) =x^{3} +( 16-x)^{3}\n\\]\nComputing the first and second derivatives:\n\\[\n\\begin{aligned}\nf^{\\prime }( x) & =3x^{2} -3( 16-x)^{2}\\\\\n& =3( x+16-x)( x-16+x)\\\\\n& =96( x-8)\n\\end{aligned}\n\\]\nThere is just one critical point, \\(\\displaystyle x=8\\). Evaluating the second partial derivative at this point:\n\\[\nf^{\\prime \\prime }( 8) =96 &gt;0\n\\]\nTherefore \\(\\displaystyle x=8\\) corresponds to a local minimum. This is in fact a global minimum as \\(f\\) turns out to be a quadratic function. We can now recover \\(\\displaystyle y=8\\). The value of \\(\\displaystyle xy\\) is \\(\\displaystyle 64\\) when \\(\\displaystyle x^{3} +y^{3}\\) is minimum.\n\n\n\n\n\n\n\n\n\nSolution-2\n\n\n\n\n\nWe have: \\[\n\\underset{x.y}{\\min} \\ x^{3} +y^{3}\n\\] subject to: \\[\nx+y=16\n\\] This is a constrained optimization problem in two variables. But we can turn it into an unconstrained optimization problem in one variable by using the constraint:\n\\[\n\\underset{x}{\\min} \\ x^{3} +( 16-x)^{3}\n\\] We first simplify the objective function:\n\\[\n\\begin{aligned}\nf( x) & =x^{3} +( 16-x)^{3}\\\\\n& =16^{3} -3\\times 16^{2} \\times x+3\\times 16\\times x^{2} -x^{3}\\\\\n& =3\\times 16x^{2} -3\\times 16^{2} x+16^{3}\n\\end{aligned}\n\\]\nThis is a quadratic equation in \\(\\displaystyle x\\) that has a parabola facing upwards. So it has a global minimum, which occurs at \\(\\displaystyle x=\\frac{3\\times 16^{2}}{2\\times 3\\times 16} =8\\). We can now recover \\(\\displaystyle y=8\\). The value of \\(\\displaystyle xy\\) is \\(\\displaystyle 64\\) when \\(\\displaystyle x^{3} +y^{3}\\) is minimum.",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-7"
     ]
   },
   {
@@ -1159,6 +1433,30 @@
     ]
   },
   {
+    "objectID": "prob_stats/bank/question-019.html",
+    "href": "prob_stats/bank/question-019.html",
+    "title": "Question-19",
+    "section": "",
+    "text": "Let \\(X\\) be a random variable with PDF: \\[\n$f_X(x) = (\\lambda a)x^{\\alpha -1}e^{-\\lambda x^{\\alpha}}, \\hspace{5mm} x&gt;0,$\n\\] where \\(\\alpha\\) and \\(a\\) are constants. Find the maximum likelihood estimator of \\(\\lambda\\) for \\(n\\) i.i.d. samples of \\(X\\).\n\n\\(\\dfrac{\\sum\\limits_{i=1}^{n}X_i^{\\alpha}}{n}\\)\n\\(\\dfrac{n}{\\sum\\limits_{i=1}^{n}X_i^{\\alpha}}\\)\n\\(\\dfrac{n}{\\alpha \\sum\\limits_{i=1}^{n}X_i^{\\alpha}}\\)\n\\(\\dfrac{\\sum\\limits_{i=1}^{n}X_i^{\\alpha}}{n\\alpha }\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse the concept of MLE (Maximum Likelihood Estimator)\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\dfrac{\\sum\\limits_{i=1}^{n}X_i^{\\alpha}}{n}\\)\n\\(\\dfrac{n}{\\sum\\limits_{i=1}^{n}X_i^{\\alpha}}\\)\n\\(\\dfrac{n}{\\alpha \\sum\\limits_{i=1}^{n}X_i^{\\alpha}}\\)\n\\(\\dfrac{\\sum\\limits_{i=1}^{n}X_i^{\\alpha}}{n\\alpha }\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-19"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-008.html",
+    "href": "prob_stats/bank/question-008.html",
+    "title": "Question-8",
+    "section": "",
+    "text": "\\(57\\%\\) students of girls’ school wear neither a ring nor a necklace, \\(30\\%\\) wear a ring, and \\(25\\%\\) wear a necklace. If one of them is randomly chosen, find the probability that she is wearing a ring and a necklace.\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse addition rule of probability.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.12\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nDefine event \\(R\\) as “wears a ring” and the event \\(N\\) as “wears a necklace”. Given,\n\\(P(R^c \\cap N^c) = P(R \\cup N)^c = 0.57 \\implies P(R \\cup N) = 1 - P(R \\cup N)^c = 1-0.57 = 0.43,\\) \\(P(R) = 0.30\\) and \\(P(N) = 0.25\\)\n\\(P(R \\cup N) = P(R) + P(N) - P(R \\cap N)\\)\n\\(P(R \\cap N) = P(R) + P(N) - P(R \\cup N) = 0.30+0.25-0.43 = 0.12\\)",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-8"
+    ]
+  },
+  {
     "objectID": "prob_stats/bank/question-018.html",
     "href": "prob_stats/bank/question-018.html",
     "title": "Question-18",
@@ -1195,6 +1493,18 @@
     ]
   },
   {
+    "objectID": "prob_stats/bank/question-027.html",
+    "href": "prob_stats/bank/question-027.html",
+    "title": "Question-27",
+    "section": "",
+    "text": "The total duration of a Test cricket match between any two cricket team is uniformly distributed between 90 overs and 450 overs, both inclusive. What is the probability that the duration of a test cricket match between two cricket team is more than 400 overs? Enter the answer correct two decimal places.\n\n\n\n\n\n\nHint\n\n\n\n\n\nIf \\(X \\sim \\text{Uniform}[a,b]\\), then \\(E(X) = \\dfrac{a+b}{2}\\) and \\(Var(X) =  \\dfrac{(b-a)^{2}}{12}\\). Also,\n\\(F(x) = P(X \\leq x) = \\dfrac{x-a}{b-a}\\)\n\\(P(X &gt; x) = 1-P(X \\leq x) = 1- \\left(\\dfrac{x-a}{b-a}\\right).\\)\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.14\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nAccording to the question \\(X \\sim \\text{Uniform}[90, 450]\\).\nProb.[the duration of a test cricket match between two cricket team is more than 400 overs]\n\\(\\implies P\\left(X &gt; 400\\right) = 1 - P\\left( X \\leq 400\\right)\\)\n\\(= 1 - \\left(\\dfrac{400-90}{450-90}\\right)\\)\n\\(= 1- \\dfrac{310}{360}\\)\n\\(\\implies 1-\\dfrac{31}{36} = \\dfrac{5}{36} = 0.14\\)",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-27"
+    ]
+  },
+  {
     "objectID": "prob_stats/bank/question-010.html",
     "href": "prob_stats/bank/question-010.html",
     "title": "Question-10",
@@ -1207,15 +1517,27 @@
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-014.html",
-    "href": "prob_stats/bank/question-014.html",
-    "title": "Question-14",
+    "objectID": "prob_stats/bank/question-023.html",
+    "href": "prob_stats/bank/question-023.html",
+    "title": "Question-23",
     "section": "",
-    "text": "Suppose the number of visitors arriving at a zoo can be modeled to be Poisson distributed. On an average 20 visitors arrive per hour. Let \\(X\\) be the number of visitors arriving from 2pm to 4pm. Then the probability that at least 35 visitors will arrive in the given duration is\n\n\\(\\sum\\limits_{k = 35}^{\\infty}\\dfrac{e^{-20}(20)^k}{k!}\\)\n\\(1-\\sum\\limits_{k = 0}^{34}\\dfrac{e^{-20}(20)^k}{k!}\\)\n\\(\\sum\\limits_{k = 35}^{\\infty}\\dfrac{e^{-40}(40)^k}{k!}\\)\n\\(1-\\sum\\limits_{k = 0}^{34}\\dfrac{e^{-40}(40)^k}{k!}\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\n\\(\\lambda = 20\\) per hour. Therefore, for 2pm - 4pm, \\(\\lambda\\) will be updated as \\(= 2\\times20 = 40\\) because there are 2 hours for 2pm - 4pm and use pmf of Poisson distribution.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\sum\\limits_{k = 35}^{\\infty}\\dfrac{e^{-20}(20)^k}{k!}\\)\n\\(1-\\sum\\limits_{k = 0}^{34}\\dfrac{e^{-20}(20)^k}{k!}\\)\n\\(\\sum\\limits_{k = 35}^{\\infty}\\dfrac{e^{-40}(40)^k}{k!}\\)\n\\(1-\\sum\\limits_{k = 0}^{34}\\dfrac{e^{-40}(40)^k}{k!}\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "text": "Consider a random variable \\(X\\) with mean \\(\\mu\\) and variance \\(\\sigma^2\\). Let \\(\\bar{X_1}\\) and \\(\\bar{X_2}\\) be the sample means of two i.i.d. random samples of \\(X\\) with \\(E[\\bar{X_1}]=E[\\bar{X_2}] = \\mu\\). Let \\(\\hat{\\mu} = a\\bar{X_1} +(1-a)\\bar{X_2}\\) be another estimator for \\(\\mu\\), where \\(0&lt;a&lt;1\\). Find the value of \\(a\\) for which the variance of \\(\\hat{\\mu}\\) is minimum, assuming \\(\\bar{X_1}\\) and \\(\\bar{X_2}\\) are independent.\n\n\\(a = \\dfrac{\\text{Var}(\\bar{X_1})}{\\text{Var}(\\bar{X_1})+\\text{Var}(\\bar{X_2})}\\)\n\\(a = \\dfrac{\\text{Var}(\\bar{X_1}+\\bar{X_2})}{\\text{Var}(\\bar{X_2})}\\)\n\\(a = \\dfrac{\\text{Var}(\\bar{X_2})}{\\text{Var}(\\bar{X_1})+\\text{Var}(\\bar{X_2})}\\)\n\\(a= \\dfrac{1}{2}\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse the concept of Estimators.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(a = \\dfrac{\\text{Var}(\\bar{X_1})}{\\text{Var}(\\bar{X_1})+\\text{Var}(\\bar{X_2})}\\)\n\\(a = \\dfrac{\\text{Var}(\\bar{X_1}+\\bar{X_2})}{\\text{Var}(\\bar{X_2})}\\)\n\\(a = \\dfrac{\\text{Var}(\\bar{X_2})}{\\text{Var}(\\bar{X_1})+\\text{Var}(\\bar{X_2})}\\)\n\\(a= \\dfrac{1}{2}\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-14"
+      "Question-23"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-002.html",
+    "href": "prob_stats/bank/question-002.html",
+    "title": "Question-2",
+    "section": "",
+    "text": "A professor is creating an exam of eleven questions from a test bank of 15 questions. In how many ways can he select and arrange the questions?\n\n\\(15!\\)\n\\(15! / 11! 4!\\)\n\\(15! / 11!\\)\n\\(15! / 4!\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse the concept of permutation.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\nToggle the appropriate answers.\n\n\\(15!\\)\n\\(15! / 11! 4!\\)\n\\(15! /11!\\)\n\\(15! / 4!\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nProfessor can select 11 questions from a test bank of 15 questions in \\(^{15}C_{11}\\) ways and he can arrange in \\(11!\\) ways. So, number of ways in which he can select and arrange the questions is \\(^{15}C_{11} \\times 11! = ^{15}P_{11} = \\dfrac{15!}{4!}\\).",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-2"
     ]
   },
   {
@@ -1231,15 +1553,27 @@
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-007.html",
-    "href": "prob_stats/bank/question-007.html",
-    "title": "Question-7",
+    "objectID": "prob_stats/bank/question-020.html",
+    "href": "prob_stats/bank/question-020.html",
+    "title": "Question-20",
     "section": "",
-    "text": "Which of the following option(s) is(are) true?\n\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nTwo events \\(A\\) and \\(B\\) are disjoint (mutually exclusive) if \\(A \\cap B = \\phi\\) and \\(A\\) and \\(B\\) are independent events if \\(P(A | B ) = P(A | B^c) = P(A)\\).\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nTwo events \\(A\\) and \\(B\\) are mutually exclusive (disjoint) if \\(A \\cap B = \\phi\\). Then, \\(P(A \\cap B) = 0 \\implies P(A \\cup B) = P(A) + P(B).\\)\n\\(P(A  \\cap  B) = P(A | B) \\times P(B) = P(A) \\times P(B)\\) because \\(P(A | B ) = P(A | B^c) = P(A)\\) if \\(A\\) and \\(B\\) are independent.",
+    "text": "A data scientist wishes to determine the average time it takes to run one epoch of a machine learning model in her machine. How large a sample will she need to be 95% confident that her sample mean will be within 15 seconds of the true mean? Assume that it is known from previous studies that \\(\\sigma = 40\\) seconds.\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse \\(P(-1.96&lt;Z&lt;1.96)=0.95\\).\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n28\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe know that\n\\(P(|Z| \\leq Z_{\\alpha/2}) = 1-\\alpha\\)\n\\(P\\left(-Z_{\\alpha/2} \\leq Z \\leq Z_{\\alpha/2}\\right) = 1-\\alpha\\)\n\\(P\\left(-Z_{\\alpha/2} \\leq \\dfrac{\\bar{X} -\\mu}{\\sigma/\\sqrt{n}} \\leq Z_{\\alpha/2}\\right) = 1-\\alpha\\)\n\\(P\\left(-Z_{\\alpha/2} \\hspace{1mm}\\sigma/\\sqrt{n} \\leq \\bar{X} -\\mu  \\leq Z_{\\alpha/2} \\hspace{1mm}\\sigma/\\sqrt{n}\\right) = 1-\\alpha\\) According to the question,\n\\(P(-15 \\leq \\bar{X} -\\mu \\leq 15) = 0.95\\)\nThus,\n\\(Z_{\\alpha/2} \\hspace{1mm}(\\sigma/\\sqrt{n}) = 15 \\implies n = \\left(\\dfrac{Z_{\\alpha/2} \\hspace{1mm}(\\sigma)}{15}\\right)^2\\)\nSince \\(P(-1.96 &lt; Z &lt; 1.96)=0.95\\), therefore \\(Z_{\\alpha/2} = 1.96\\). Thus,\n\\(n= \\left(\\dfrac{1.96 \\times 40}{15}\\right)^2 = 28\\)",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-7"
+      "Question-20"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-016.html",
+    "href": "prob_stats/bank/question-016.html",
+    "title": "Question-16",
+    "section": "",
+    "text": "A person has bought a bed from an online furniture store. The seller delivers the disassembled bed parts along with some screws to assemble it. The probability of a screw being defective is 0.1 independent of all other screws. To compensate for the manufacturing error, the seller sends two extra screws in the package where the bed needs exactly 8 screws to assemble. What is the probability that the buyer will be able to assemble the bed? (Enter the answer up to 2 decimal accuracy)\n\n\n\n\n\n\nHint\n\n\n\n\n\nBinomial distribution\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.93\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-16"
     ]
   },
   {
@@ -1296,6 +1630,18 @@
       "Linear Algebra",
       "Bank",
       "Question-13"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-025.html",
+    "href": "linear_algebra/bank/question-025.html",
+    "title": "Question-25",
+    "section": "",
+    "text": "Consider the following system of linear equations:\n\\[\n\\begin{aligned}\nx_1 - 3x_2 &= 4\\\\\n3x_1 + kx_2 &= -12\n\\end{aligned}\n\\]\nwhere \\(k \\in \\mathbb{R}\\). If the given system has a unique solution then \\(k\\) should not be equal to \\(----\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(-9\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nFor the system to have a unique solution we have:\n\\[\n\\frac{1}{3} \\neq \\frac{-3}{k} \\Longrightarrow k\\neq -9\n\\]",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-25"
     ]
   },
   {
@@ -1359,15 +1705,15 @@
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-001.html",
-    "href": "linear_algebra/bank/question-001.html",
-    "title": "Question-1",
+    "objectID": "linear_algebra/bank/question-005.html",
+    "href": "linear_algebra/bank/question-005.html",
+    "title": "Question-5",
     "section": "",
-    "text": "Is the following statement true or false?\n\nThe row echelon form is defined only for square matrices.\n\n\nTrue\nFalse\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nTrue\nFalse\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe row echelon form is defined for matrices of any shape.",
+    "text": "\\(Q\\) is an orthogonal matrix. If \\(||Qu|| = 4\\), what is \\(||u||\\)?\n\n\n\n\n\n\nHint\n\n\n\n\n\nExpand \\(||Qu||^2\\) and use the key property of orthogonal matrices.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(4\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nOrthogonal matrices preserve the inner product: \\[\n\\begin{aligned}\n||Qu||^2 &= (Qu)^T(Qu)\\\\\n&= u^TQ^TQu\\\\\n&= u^TIu\\\\\n&= u^Tu\\\\\n&= ||u||^2\n\\end{aligned}\n\\]",
     "crumbs": [
       "Linear Algebra",
       "Bank",
-      "Question-1"
+      "Question-5"
     ]
   },
   {
@@ -1383,15 +1729,39 @@
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-027.html",
-    "href": "linear_algebra/bank/question-027.html",
-    "title": "Question-27",
+    "objectID": "linear_algebra/bank/question-036.html",
+    "href": "linear_algebra/bank/question-036.html",
+    "title": "Question-36",
     "section": "",
-    "text": "What is the product of the non-zero eigenvalues of the following matrix: \\[\n\\begin{bmatrix}\n1 & 0 & 0 & 0 & 1\\\\\n0 & 1 & 1 & 1 & 0\\\\\n0 & 1 & 1 & 1 & 0\\\\\n0 & 1 & 1 & 1 & 0\\\\\n1 & 0 & 0 & 0 & 1\n\\end{bmatrix}\n\\]\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(6\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe product of the eigenvalues of a matrix is equal to its determinant. But the determinant of this matrix is zero and we are asked to compute the product of the non-zero eigenvalues. We should therefore take recourse to the characteristic polynomial: \\[\nD = \\begin{vmatrix}\n1 - \\lambda & 0 & 0 & 0 & 1\\\\\n0 & 1 - \\lambda & 1 & 1 & 0\\\\\n0 & 1 & 1 - \\lambda & 1 & 0\\\\\n0 & 1 & 1 & 1 - \\lambda & 0\\\\\n1 & 0 & 0 & 0 & 1 - \\lambda\n\\end{vmatrix}\n\\] Though this determinant looks forbidding, computing it is not all that cumbersome if we choose the right row/column along which to expand. Let us first break this down into the following sum by expanding along the first row: \\[\nD = (1 - \\lambda) \\begin{vmatrix}\n1 - \\lambda & 1 & 1 & 0\\\\\n1 & 1 - \\lambda & 1 & 0\\\\\n1 & 1 & 1 - \\lambda & 0\\\\\n0 & 0 & 0 & 1 - \\lambda\n\\end{vmatrix} + \\begin{vmatrix}\n0 & 1 - \\lambda & 1 & 1\\\\\n0 & 1 & 1 - \\lambda & 1\\\\\n0 & 1 & 1 & 1 - \\lambda\\\\\n1 & 0 & 0 & 0\n\\end{vmatrix}\n\\] The two determinants look quite similar to each other. We can expand along the last row for both of them: \\[\nD = \\left[(1 - \\lambda)^2 - 1 \\right] \\begin{vmatrix}\n1 - \\lambda & 1 & 1\\\\\n1 & 1 - \\lambda & 1\\\\\n1 & 1 & 1 - \\lambda\\\\\n\\end{vmatrix}\n\\] Let us first compute the \\(3 \\times 3\\) determinant: \\[\n\\begin{vmatrix}\n1 - \\lambda & 1 & 1\\\\\n1 & 1 - \\lambda & 1\\\\\n1 & 1 & 1 - \\lambda\\\\\n\\end{vmatrix} = - \\lambda^2 (\\lambda - 3)\n\\] Putting it all together: \\[\nD = -\\lambda^3(\\lambda - 2)(\\lambda - 3)\n\\] We see that there are five eigenvalues: \\(0, 0, 0, 2, 3\\). The product of the non-zero eigenvalues is therefore \\(\\boxed{6}\\).",
+    "text": "The eigenpairs of a \\(\\displaystyle 2\\times 2\\) matrix are given below:\n\\[\n\\begin{equation*}\n\\left( 8,\\begin{bmatrix}\n1\\\\\n1\n\\end{bmatrix}\\right) ,\\left( 4,\\begin{bmatrix}\n1\\\\\n-1\n\\end{bmatrix}\\right)\n\\end{equation*}\n\\]\nFind the matrix.\n\n\\(\\displaystyle \\begin{bmatrix}\n6 & 2\\\\\n2 & 6\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n8 & 0\\\\\n0 & 4\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n4 & 1\\\\\n1 & 8\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n1 & 0\\\\\n7 & 11\n\\end{bmatrix}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle \\begin{bmatrix}\n6 & 2\\\\\n2 & 6\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n8 & 0\\\\\n0 & 4\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n4 & 1\\\\\n1 & 8\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n1 & 0\\\\\n7 & 11\n\\end{bmatrix}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nNote that the two eigenvectors are orthogonal. In general, if \\(\\displaystyle ( \\lambda _{1} ,v_{1})\\) and \\(\\displaystyle ( \\lambda _{2} ,v_{2})\\) are orthogonal eigenpairs, we can express \\(\\displaystyle A\\) as: \\[\n\\begin{equation*}\nA=\\frac{\\lambda _{1}}{v_{1}^{T} v_{1}} v_{1} v_{1}^{T} +\\frac{\\lambda _{2}}{v_{2}^{T} v_{2}} v_{2} v_{2}^{T}\n\\end{equation*}\n\\] Now, it is just a question of plugging in the values.",
     "crumbs": [
       "Linear Algebra",
       "Bank",
-      "Question-27"
+      "Question-36"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-037.html",
+    "href": "linear_algebra/bank/question-037.html",
+    "title": "Question-37",
+    "section": "",
+    "text": "Consider the following system of linear equations:\n\\[\n\\begin{equation*}\n\\begin{aligned}\nx_{1} +x_{2} -2x_{3} & =4\\\\\nx_{1} +3x_{2} -x_{3} & =7\\\\\n2x_{1} +x_{2} -5x_{3} & =7\n\\end{aligned}\n\\end{equation*}\n\\]\nThe LU decomposition of the coefficient matrix is given as:\n\\[\n\\begin{equation*}\nL=\\begin{bmatrix}\nL_{11} & 0 & 0\\\\\nL_{21} & L_{22} & 0\\\\\nL_{31} & L_{32} & L_{33}\n\\end{bmatrix} ,U=\\begin{bmatrix}\nU_{11} & U_{12} & U_{13}\\\\\n0 & U_{22} & U_{23}\\\\\n0 & 0 & U_{33}\n\\end{bmatrix}\n\\end{equation*}\n\\]\nWhich one of the following is the correct combination of values for \\(\\displaystyle L_{32} ,U_{33}\\) and \\(\\displaystyle x_{1}\\)?\n\n\\(L_{32} = 2, U_{33} = -0.5, x_{1} = -1\\)\n\\(L_{32} = 2, U_{33} = 2, x_1 = -1\\)\n\\(L_{32} = -0.5, U_{33} = 2, x_1 = 0\\)\n\\(L_{32} = -0.5, U_{33} = -0.5, x_1 = 0\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(L_{32} = 2, U_{33} = -0.5, x_{1} = -1\\)\n\\(L_{32} = 2, U_{33} = 2, x_1 = -1\\)\n\\(L_{32} = -0.5, U_{33} = 2, x_1 = 0\\)\n\\(L_{32} = -0.5, U_{33} = -0.5, x_1 = 0\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have:\n\\[\n\\begin{equation*}\nA=\\begin{bmatrix}\n1 & 1 & -2\\\\\n1 & 3 & -1\\\\\n2 & 1 & -5\n\\end{bmatrix} ,\\ x=\\begin{bmatrix}\nx_{1}\\\\\nx_{2}\\\\\nx_{3}\n\\end{bmatrix} ,\\ b=\\begin{bmatrix}\n4\\\\\n7\\\\\n7\n\\end{bmatrix}\n\\end{equation*}\n\\]\nWe proceed with Gaussian elimination:\n\\[\n\\begin{equation*}\n\\begin{bmatrix}\n1 & 1 & -2 &  & 4\\\\\n1 & 3 & -1 &  & 7\\\\\n2 & 1 & -5 &  & 7\n\\end{bmatrix}\\xrightarrow{R_{2}\\rightarrow R_{2} -R_{1}}\\begin{bmatrix}\n1 & 1 & -2 &  & 4\\\\\n0 & 2 & 1 &  & 3\\\\\n2 & 1 & -5 &  & 7\n\\end{bmatrix}\n\\end{equation*}\n\\]\n\\[\n\\begin{equation*}\n\\begin{bmatrix}\n1 & 1 & -2 &  & 4\\\\\n0 & 2 & 1 &  & 3\\\\\n2 & 1 & -5 &  & 7\n\\end{bmatrix}\\xrightarrow{R_{3}\\rightarrow R_{3} -2R_{1}}\\begin{bmatrix}\n1 & 1 & -2 &  & 4\\\\\n0 & 2 & 1 &  & 3\\\\\n0 & -1 & -1 &  & -1\n\\end{bmatrix}\n\\end{equation*}\n\\]\n\\[\n\\begin{equation*}\n\\begin{bmatrix}\n1 & 1 & -2 &  & 4\\\\\n0 & 2 & 1 &  & 3\\\\\n0 & -1 & -1 &  & -1\n\\end{bmatrix}\\xrightarrow{R_{3}\\rightarrow R_{3} +0.5R_{2}}\\begin{bmatrix}\n1 & 1 & -2 &  & 4\\\\\n0 & 2 & 1 &  & 3\\\\\n0 & 0 & -0.5 &  & 0.5\n\\end{bmatrix}\n\\end{equation*}\n\\]\nGathering the multipliers in the row reduction and transferring them to \\(\\displaystyle L\\), we have:\n\\[\n\\begin{equation*}\nL=\\begin{bmatrix}\n1 & 0 & 0\\\\\n1 & 1 & 0\\\\\n2 & -0.5 & 1\n\\end{bmatrix} ,\\ U=\\begin{bmatrix}\n1 & 1 & -2\\\\\n0 & 2 & 1\\\\\n0 & 0 & -0.5\n\\end{bmatrix}\n\\end{equation*}\n\\]\nThe RREF of the augmented matrix is \\(\\displaystyle \\begin{bmatrix}\n1 & 0 & 0 &  & 0\\\\\n0 & 1 & 0 &  & 2\\\\\n0 & 0 & 1 &  & -1\n\\end{bmatrix}\\). We see that:\n\\[\n\\begin{equation*}\nx_{1} =0,x_{2} =2,x_{3} =-1\n\\end{equation*}\n\\]",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-37"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-032.html",
+    "href": "linear_algebra/bank/question-032.html",
+    "title": "Question-32",
+    "section": "",
+    "text": "Let \\(A=\\begin{bmatrix}\n1 & 2 & 3 & 4\\\\\n4 & 1 & 2 & 3\\\\\n3 & 4 & 1 & 2\\\\\n2 & 3 & 4 & 1\n\\end{bmatrix}\\) and \\(B=\\begin{bmatrix}\n3 & 4 & 1 & 2\\\\\n4 & 1 & 2 & 3\\\\\n1 & 2 & 3 & 4\\\\\n2 & 3 & 4 & 1\n\\end{bmatrix}\\). If \\(\\text{det}( A)\\) and \\(\\text{det}( B)\\) denotes the determinants of these two matrices, select the true statement from the options given below.\n\n\\(\\text{det}( A) =\\text{det}( B)\\)\n\\(\\text{det}( A) =-\\text{det}( B)\\)\n\\(\\text{det}( A) =0\\)\n\\(\\text{det}( AB) =\\text{det}( A) +\\text{det}( B)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\text{det}( A) =\\text{det}( B)\\)\n\\(\\text{det}( A) =-\\text{det}( B)\\)\n\\(\\text{det}( A) =0\\)\n\\(\\text{det}( AB) =\\text{det}( A) +\\text{det}( B)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(A\\) and \\(B\\) have the order of rows \\(1\\) and \\(3\\) swapped. Swapping rows changes the sign of the determinant.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-32"
     ]
   },
   {
@@ -1443,61 +1813,231 @@
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-006.html",
-    "href": "linear_algebra/bank/question-006.html",
-    "title": "Question-6",
+    "objectID": "linear_algebra/bank/question-031.html",
+    "href": "linear_algebra/bank/question-031.html",
+    "title": "Question-31",
     "section": "",
-    "text": "Consider the matrix \\(\\mathbf{M} = \\begin{bmatrix}2 & -1\\\\3 & 1\\end{bmatrix}\\). Which one of the following statements is true?\n\nThe eigenvalues of \\(\\mathbf{M}\\) are non-negative and real.\nThe eigenvalues of \\(\\mathbf{M}\\) are complex conjugate pairs.\nOne eigenvalue of \\(\\mathbf{M}\\) is positive and real, and another eigenvalue of \\(\\mathbf{M}\\) is zero.\nOne eigenvalue of \\(\\mathbf{M}\\) is non-negative and real, and another eigenvalue of \\(\\mathbf{M}\\) is negative and real\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThe eigenvalues of \\(\\mathbf{M}\\) are non-negative and real.\nThe eigenvalues of \\(\\mathbf{M}\\) are complex conjugate pairs.\nOne eigenvalue of \\(\\mathbf{M}\\) is positive and real, and another eigenvalue of \\(\\mathbf{M}\\) is zero.\nOne eigenvalue of \\(\\mathbf{M}\\) is non-negative and real, and another eigenvalue of \\(\\mathbf{M}\\) is negative and real\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe can compute the eigenvalues with the help of the characteristic polynomial: \\[\n\\begin{aligned}\n\\begin{vmatrix}\n2 - \\lambda & -1\\\\\n3 & 1 - \\lambda\n\\end{vmatrix} &= 0\\\\\\\\\n(2 - \\lambda)(1 - \\lambda) + 3 &= 0\\\\\\\\\n\\lambda^2 -3 \\lambda + 5 &= 0\\\\\\\\\n\\end{aligned}\n\\] We see that the discriminant of the quadratic equation is negative. Hence, the eigenvalues are complex conjugate pairs.",
+    "text": "Choose the correct set of options.\n\nIf two matrices \\(A\\) and \\(B\\) have the same reduced row echelon form, then \\(A\\) must be equal to \\(B\\).\nIf two matrices \\(A\\) and \\(B\\) have the same row echelon form, then \\(A\\) must be equal to \\(B\\).\nThe reduced row echelon form of a diagonal matrix with non-zero diagonal entries must be the identity matrix.\nThe reduced row echelon form of a non-zero scalar matrix must be the identity matrix.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf two matrices \\(A\\) and \\(B\\) have the same reduced row echelon form, then \\(A\\) must be equal to \\(B\\).\nIf two matrices \\(A\\) and \\(B\\) have the same row echelon form, then \\(A\\) must be equal to \\(B\\).\nThe reduced row echelon form of a diagonal matrix with non-zero diagonal entries must be the identity matrix.\nThe reduced row echelon form of a non-zero scalar matrix must be the identity matrix.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\nOption-(a) is incorrect. As a counter example, consider any two invertible matrices of the same order that are distinct from each other. Both have the same reduced row echelon form, namely the identity matrix.\nOption-(b) is incorrect. An argument similar to the previous bullet point can be applied here.\nOption-(c) is correct. In fact, as stated in the first point, any invertible matrix has the identity matrix as its reduced row echelon form. Since a diagonal matrix with non-zero diagonal entries is invertible, the result follows.\nOption-(d) is correct. A non-zero scalar matrix is an example of a diagonal matrix with non-zero diagonal entries.",
     "crumbs": [
       "Linear Algebra",
+      "Bank",
+      "Question-31"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-007.html",
+    "href": "linear_algebra/bank/question-007.html",
+    "title": "Question-7",
+    "section": "",
+    "text": "Select all idempotent matrices from the options given below.\n\n\\(\\begin{bmatrix}3 & -6\\\\1 & -2\\end{bmatrix}\\)\n\\(\\begin{bmatrix}1 & -1\\\\0 & 1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}2 & -2\\\\1 & -1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}3 & 1\\\\-1 & 2\\end{bmatrix}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\begin{bmatrix}3 & -6\\\\1 & -2\\end{bmatrix}\\)\n\\(\\begin{bmatrix}1 & -1\\\\0 & 1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}2 & -2\\\\1 & -1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}3 & 1\\\\-1 & 2\\end{bmatrix}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nA matrix \\(A\\) is idempotent if \\(A^2 = A\\). Of the four matrices given here, exactly two of them are idempotent.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-7"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-021.html",
+    "href": "linear_algebra/bank/question-021.html",
+    "title": "Question-21",
+    "section": "",
+    "text": "Consider the matrix \\(A = \\begin{bmatrix}1 & 0\\\\C & 1\\end{bmatrix}\\), where \\(C\\) is some real number.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-21"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-021.html#part-a",
+    "href": "linear_algebra/bank/question-021.html#part-a",
+    "title": "Question-21",
+    "section": "Part-(a)",
+    "text": "Part-(a)\nWhat are the eigenvalues of \\(A\\)?\n\n\\(1\\) and \\(0\\)\nOnly \\(0\\)\nOnly \\(1\\)\n\\(A\\) does not have any real eigenvalues.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(1\\) and \\(0\\)\nOnly \\(0\\)\nOnly \\(1\\)\n\\(A\\) does not have any real eigenvalues.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince \\(A\\) is a lower triangular matrix, its eigenvalues are the elements on the diagonal. So \\(1\\) is the only eigenvalue.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-21"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-021.html#part-b",
+    "href": "linear_algebra/bank/question-021.html#part-b",
+    "title": "Question-21",
+    "section": "Part-(b)",
+    "text": "Part-(b)\nSuppose \\(\\sigma_1\\) and \\(\\sigma_2\\) are the two singular values of \\(A\\), what is \\(\\sigma_1^2 + \\sigma_2^2\\)?\n\n\\(0\\)\n\\(2\\)\n\\(C\\)\n\\(2 + C^2\\)\nInsufficient data\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(0\\)\n\\(2\\)\n\\(C\\)\n\\(2 + C^2\\)\nInsufficient data\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe squares of the singular values of \\(A\\) are the eigenenvalues of \\(A^TA\\). \\[\nA^TA = \\begin{bmatrix}\n1 + C^2 & C\\\\\nC & 1\n\\end{bmatrix}\n\\] The characterstic polynomial of \\(A^TA\\) is: \\[\n\\lambda^2 - \\left( 2 + C^2 \\right)\\lambda + 1 = 0\n\\] The sum of the roots are \\(\\sigma_1^2 + \\sigma_2^2\\). This is given by \\(2 + C^2\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-21"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-035.html",
+    "href": "linear_algebra/bank/question-035.html",
+    "title": "Question-35",
+    "section": "",
+    "text": "\\(\\displaystyle A,B\\) and \\(\\displaystyle C\\) are square matrices of order \\(\\displaystyle n\\), \\(\\displaystyle 0\\) is the zero matrix and \\(\\displaystyle I\\) is an identity matrix of order \\(\\displaystyle n\\). Compute the following product:\n\\[\n\\begin{bmatrix}\nI & 0\\\\\nA & I\n\\end{bmatrix}\\begin{bmatrix}\nA & B\\\\\n-C & 0\n\\end{bmatrix}\n\\]\n\n\\(\\displaystyle \\begin{bmatrix}\nA & B\\\\\nC & I\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\nB & A\\\\\nA^{2} & BA\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\nA & B\\\\\nA^{2} -C & AB\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\nA^{2} & B^{2}\\\\\nAB & BA\n\\end{bmatrix}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle \\begin{bmatrix}\nA & B\\\\\nC & I\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\nB & A\\\\\nA^{2} & BA\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\nA & B\\\\\nA^{2} -C & AB\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\nA^{2} & B^{2}\\\\\nAB & BA\n\\end{bmatrix}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe can multiply the two block matrices as though the entries were scalars.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-35"
+    ]
+  },
+  {
+    "objectID": "dbms/bank/question-011.html",
+    "href": "dbms/bank/question-011.html",
+    "title": "Question-11",
+    "section": "",
+    "text": "Which one of the following is used to represent the supporting many-one relationships of a weak entity set in an entity-relationship diagram?\n\nDiamonds with double/bold border\nOvals with double/bold border\nOvals that contain underlined identifiers\nRectangles with double/bold border\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nDiamonds with double/bold border\nOvals with double/bold border\nOvals that contain underlined identifiers\nRectangles with double/bold border\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\nA double/bold diamond represents the relationship between a strong entity set and a weak entity set.\nOvals with double/bold borders typically denote multivalued attributes.\nOvals containing underlined identifiers often signify key attributes.\nRectangles with double/bold borders usually represent weak entity sets sets.",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-11"
+    ]
+  },
+  {
+    "objectID": "dbms/bank/question-025.html",
+    "href": "dbms/bank/question-025.html",
+    "title": "Question-25",
+    "section": "",
+    "text": "Consider the relations \\(r(A, B)\\) and \\(s(B, C)\\), where \\(s.B\\) is a primary key and \\(r.B\\) is a foreign key referencing \\(s.B\\). Consider the query. \\({ Q: r \\bowtie (\\sigma_{B&lt;5} (S)) }\\) Let LOJ denote the natural left outer-join operation. Assume that \\(r\\) and \\(s\\) contain no null values. Which one of the following queries is NOT equivalent to Q?\n\n\\({ \\sigma_{B&lt;5} (r \\bowtie s) }\\)\n\\({ \\sigma_{B&lt;5} (r \\text{ LOJ } s) }\\)\n\\({ r \\text{ LOJ } (\\sigma_{B&lt;5} (s)) }\\)\n\\({ \\sigma_{B&lt;5} (r) \\text{ LOJ } s }\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\({ \\sigma_{B&lt;5} (r \\bowtie s) }\\)\n\\({ \\sigma_{B&lt;5} (r \\text{ LOJ } s) }\\)\n\\({ r \\text{ LOJ } (\\sigma_{B&lt;5} (s)) }\\)\n\\({ \\sigma_{B&lt;5} (r) \\text{ LOJ } s }\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet’s analyze each query:\n\n\n\\({ \\sigma_{B&lt;5} (r \\bowtie s) }\\): Selects tuples from the natural join of r and s where B is less than 5.\n\n\n\\({ \\sigma_{B&lt;5} (r \\text{ LOJ } s) }\\): Selects tuples from the left outer-join of r and s where B is less than 5.\n\n\n\\({ r \\text{ LOJ } (\\sigma_{B&lt;5} (s)) }\\): Performs a left outer-join of r with tuples from s where B is less than 5. This is different from the original query Q.\n\n\n\\({ \\sigma_{B&lt;5} (r) \\text{ LOJ } s }\\): Selects tuples from r where B is less than 5 and then performs a left outer-join with s.\n\n\nHence, the query that is NOT equivalent to Q is (c) \\({ r \\text{ LOJ } (\\sigma_{B&lt;5} (s)) }\\).",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-25"
+    ]
+  },
+  {
+    "objectID": "dbms/bank/question-022.html",
+    "href": "dbms/bank/question-022.html",
+    "title": "Question-22",
+    "section": "",
+    "text": "Consider the following three relations in a relational database. - Employee (eId, Name) - Brand(bId, bName) - Own(eId, bId )\nWhich of the following relational algebra expressions return the set of eIds who own all the brands?\n\n\\(\\Pi_{eId} (\\Pi_{eId, bId} (\\text{Own}) / \\Pi_{bId} (\\text{Brand}))\\)\n\\(\\Pi_{eId} (\\text{Own}) - \\Pi_{eId} ((\\Pi_{eId} (\\text{Own}) \\times \\Pi_{bId} (\\text{Brand})) - \\Pi_{eId, bId} (\\text{Own}))\\)\n\\(\\Pi_{eId} (\\Pi_{eId, bId} (\\text{Own})/\\Pi_{bId} (\\text{Own}))\\)\n\\(\\Pi_{eId} ((\\Pi_{eId} (\\text{Own}) \\times \\Pi_{bId} (\\text{Own})) / \\Pi_{bId} (\\text{Brand}))\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\Pi_{eId} (\\Pi_{eId, bId} (\\text{Own}) / \\Pi_{bId} (\\text{Brand}))\\)\n\\(\\Pi_{eId} (\\text{Own}) - \\Pi_{eId} ((\\Pi_{eId} (\\text{Own}) \\times \\Pi_{bId} (\\text{Brand})) - \\Pi_{eId, bId} (\\text{Own}))\\)\n\\(\\Pi_{eId} (\\Pi_{eId, bId} (\\text{Own})/\\Pi_{bId} (\\text{Own}))\\)\n\\(\\Pi_{eId} ((\\Pi_{eId} (\\text{Own}) \\times \\Pi_{bId} (\\text{Own})) / \\Pi_{bId} (\\text{Brand}))\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nTo find the set of eIds who own all the brands: - The first expression (\\(\\Pi_{eId} (\\Pi_{eId, bId} (\\text{Own}) / \\Pi_{bId} (\\text{Brand}))\\)) performs a division between the projection of eId and bId in Own and the projection of bId in Brand. This retrieves the eIds who own all brands. - The second expression uses set difference and intersection operations to achieve the same result as the first expression, thereby also returning the correct set of eIds who own all brands.\nHence, choices a and b are the correct relational algebra expressions to obtain the set of eIds who own all the brands.",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-22"
+    ]
+  },
+  {
+    "objectID": "dbms/bank/question-018.html",
+    "href": "dbms/bank/question-018.html",
+    "title": "Question-18",
+    "section": "",
+    "text": "Suppose the following functional dependencies hold on a relation \\(U\\) with attributes \\(P, Q, R, S,\\) and \\(T\\): - \\(P \\rightarrow QR\\) - \\(RS \\rightarrow T\\)\nWhich of the following functional dependencies can be inferred from the above functional dependencies?\n\n\\(PS \\rightarrow T\\)\n\\(R \\rightarrow T\\)\n\\(P \\rightarrow R\\)\n\\(PS \\rightarrow Q\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(PS \\rightarrow T\\)\n\\(R \\rightarrow T\\)\n\\(P \\rightarrow R\\)\n\\(PS \\rightarrow Q\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nGiven FD set: - \\(P \\rightarrow QR\\) - \\(RS \\rightarrow T\\)\nInferring functional dependencies: - \\((PS)^+ = \\{PQRST\\}\\); Therefore, \\(PS \\rightarrow T\\) can be inferred. - \\((R)^+ = \\{R\\}\\); \\(R \\rightarrow T\\) cannot be inferred. - \\((P)^+ = \\{PQR\\}\\); Therefore, \\(P \\rightarrow R\\) can be inferred. - \\((PS)^+ = \\{PQRST\\}\\); Therefore, \\(PS \\rightarrow Q\\) can be inferred.\nHence, the inferred functional dependencies are \\(PS \\rightarrow T, P \\rightarrow R,\\) and \\(PS \\rightarrow Q\\).",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-18"
+    ]
+  },
+  {
+    "objectID": "dbms/bank/question-015.html",
+    "href": "dbms/bank/question-015.html",
+    "title": "Question-15",
+    "section": "",
+    "text": "Which of the following is NOT a super key in a relational schema with attributes V,\n\nVXYZ\nVWXZ\nVWXY\nVWXYZ\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nVXYZ\nVWXZ\nVWXY\nVWXYZ\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nA super key is any super set of a candidate key (primary key). Given the primary key as “VY”: - \\(VXYZ\\) - Super key - \\(VWXZ\\) - Not a super key (as \\(Y\\) is not present) - \\(VWXY\\) - Super key - \\(VWXYZ\\) - Super key\nTherefore, \\(VWXZ\\) is not a super key in this scenario.",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-15"
+    ]
+  },
+  {
+    "objectID": "dbms/bank/question-005.html",
+    "href": "dbms/bank/question-005.html",
+    "title": "Question-5",
+    "section": "",
+    "text": "Consider the relational schema given in tables below:\nOrder:\n\n\n\nOrder_id\nUser_id\nProduct_id\nQuantity\n\n\n\n\n…\n…\n…\n…\n\n\n\nProduct:\n\n\n\nProduct_id\nProduct_name\nPrice\n\n\n\n\n…\n…\n…\n\n\n\nUser:\n\n\n\nUser_id\nUser_name\nAge\nGender\n\n\n\n\n…\n…\n…\n…\n\n\n\nIf the relations Order, Product, and Users have \\(10\\), \\(6\\), \\(8\\) rows respectively, what is the maximum number of rows returned by the following query?\n(Note: Consider all the attributes have NOT NULL constraint.)\nSELECT * FROM Orders RIGHT OUTER JOIN Users ON Orders.user_id = Users.user_id;\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(17\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIn the Users table, the \\(user\\_id\\) is the primary key, so all values should be unique. The maximum number of rows returned by the given query occurs when all values of \\(user\\_id\\) in the Orders table are the same. The maximum number of rows returned by the given query is \\(10 + 7 = 17\\).",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-5"
+    ]
+  },
+  {
+    "objectID": "dbms/bank/question-004.html",
+    "href": "dbms/bank/question-004.html",
+    "title": "Question-4",
+    "section": "",
+    "text": "Consider the table emp_info shown below:\n\n\n\nid\nname\nsalary\n\n\n\n\nE001\nOliver\n45000\n\n\nE002\nJack\n30000\n\n\nE003\nHarry\n35000\n\n\nE004\nThomas\n55000\n\n\nE005\nJacob\n70000\n\n\nE006\nTommy\n60000\n\n\nE007\nJoseph\n65000\n\n\n\nWhat will the output of the following query be?\nSELECT id\nFROM emp_info AS a\nWHERE( SELECT COUNT(*) \n       FROM emp_info b \n       WHERE b.salary&gt;a.salary)&lt;2\n\nOption a\n\n\n\nid\n\n\n\n\nE002\n\n\nE003\n\n\n\nOption b\n\n\n\nid\n\n\n\n\nE005\n\n\nE007\n\n\n\nOption c\n\n\n\nid\n\n\n\n\nE007\n\n\n\nOption d\n\n\n\nid\n\n\n\n\nE003\n\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nOption a\n\n\n\nid\n\n\n\n\nE002\n\n\nE003\n\n\n\nOption b\n\n\n\nid\n\n\n\n\nE005\n\n\nE007\n\n\n\nOption c\n\n\n\nid\n\n\n\n\nE007\n\n\n\nOption d\n\n\n\nid\n\n\n\n\nE003\n\n\n\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nFor every selected emp_info, the subquery returns the count of those emp_info entries which have a higher salary than the selected emp_info.\nThe WHERE clause of the outer query will be true for the highest and the second highest salary.",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-4"
+    ]
+  },
+  {
+    "objectID": "dbms/bank/question-003.html",
+    "href": "dbms/bank/question-003.html",
+    "title": "Question-3",
+    "section": "",
+    "text": "Consider the table below and predict the output of the query that follows.\n\n\n\nclass\nhouse_name\nno_of_student\n\n\n\n\nClass 9\nAravali\n50\n\n\nClass 10\nNilgiri\n40\n\n\nClass 11\nShiwalik\n60\n\n\nClass 12\nNilgiri\n55\n\n\n\nSELECT COUNT(house_name)\nFROM ((SELECT class, house_name \n       FROM house_distribution) as X\n       NATURAL JOIN (SELECT house_name, no_of_student \n                     FROM house_distribution) as Y);\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(6\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nGiven the tables X and Y:\nTable X:\n\n\n\nclass\nhouse_name\n\n\n\n\nClass 9\nAravali\n\n\nClass 10\nNilgiri\n\n\nClass 11\nShiwalik\n\n\nClass 12\nNilgiri\n\n\n\nTable Y:\n\n\n\nhouse_name\nno_of_student\n\n\n\n\nAravali\n50\n\n\nNilgiri\n40\n\n\nShiwalik\n60\n\n\nNilgiri\n55\n\n\n\nThe natural join of X and Y on the house_name attribute results in the following table:\n\n\n\nclass\nhouse_name\nno_of_student\n\n\n\n\nClass 9\nAravali\n50\n\n\nClass 10\nNilgiri\n40\n\n\nClass 12\nNilgiri\n40\n\n\nClass 11\nShiwalik\n60\n\n\nClass 10\nNilgiri\n55\n\n\nClass 12\nNilgiri\n55\n\n\n\nCounting the occurrences of house_name in the joined table yields a count of \\(6\\).",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-3"
+    ]
+  },
+  {
+    "objectID": "dbms/bank/question-014.html",
+    "href": "dbms/bank/question-014.html",
+    "title": "Question-14",
+    "section": "",
+    "text": "Consider a relation \\(R(A, B, C, D, E)\\) with the following three functional dependencies: \\(AB \\rightarrow C\\), \\(BC \\rightarrow D\\), \\(C \\rightarrow E\\). The number of super keys in the relation \\(R\\) is _________.\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(8\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nGiven functional dependencies: \\(AB \\rightarrow C\\), \\(BC \\rightarrow D\\), \\(C \\rightarrow E\\)\n\nCandidate Key: \\(AB\\)\nCandidate Key Combinations with non-prime attributes:\n\nCombinations with the remaining attributes \\((n - 2)\\) where \\(n\\) is the number of Attributes\nTotal number of super keys with combinations: \\(2^{5-2} = 2^3 = 8\\)\n\n\nTherefore, there are 8 super keys for the relation \\(R\\), which are: {AB, ABC, ABD, ABE, ABCD, ABDE, ABCE, ABCDE}",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-14"
+    ]
+  },
+  {
+    "objectID": "dbms/bank/question-024.html",
+    "href": "dbms/bank/question-024.html",
+    "title": "Question-24",
+    "section": "",
+    "text": "Consider the following relations:\nP(X, Y, Z)\nQ(X, Y, T)\nR(Y, V)\n\nP        | Q       | R\nX  Y  Z  | X  Y  T | Y  V\n---------|---------|------\nX1 Y1 Z1 | X2 Y1 2 | Y1 V1\nX1 Y1 Z2 | X1 Y2 5 | Y3 V2\nX2 Y2 Z2 | X1 Y1 6 | Y2 V3\nX2 Y4 Z4 | X3 Y3 1 | Y2 V2\nHow many tuples will be returned by the following relational algebra query? \\({ \\left[ \\Pi_X \\left( \\sigma (P.Y=R.Y \\land R.V=V2) (P \\times R) \\right) - \\Pi_X \\left( \\sigma (Q.Y=R.Y \\land Q.T &gt; 2) (Q \\times R) \\right) \\right] }\\)\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(1\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet’s break down the query:\n\n\\({ \\sigma (P.Y=R.Y \\land R.V=V2) (P \\times R) }\\): This performs a natural join between P and R where Y values match in P and R and where R.V = V2.\n\\({ \\sigma (Q.Y=R.Y \\land Q.T &gt; 2) (Q \\times R) }\\): This performs a natural join between Q and R where Y values match in Q and R and where Q.T &gt; 2.\n\\({ \\Pi_X (\\sigma (P.Y=R.Y \\land R.V=V2) (P \\times R)) - \\Pi_X (\\sigma (Q.Y=R.Y \\land Q.T &gt; 2) (Q \\times R)) }\\): This subtracts the result of the second operation from the first one based on the X attribute.\n\nThe query finds tuples where P.Y matches R.Y and R.V equals V2, then subtracts tuples where Q.Y matches R.Y and Q.T is greater than 2. The final result will have only 1 tuple after performing the subtraction operation.",
+    "crumbs": [
+      "DBMS",
+      "Bank",
+      "Question-24"
+    ]
+  },
+  {
+    "objectID": "dbms/bank/question-006.html",
+    "href": "dbms/bank/question-006.html",
+    "title": "Question-6",
+    "section": "",
+    "text": "Consider the relation student shown in the below table:\n\n\n\nRoll_no\nName\nmarks\n\n\n\n\n1\nRam\n50\n\n\n2\nRakesh\n65\n\n\n3\nRam\n45\n\n\n4\nPranav\n89\n\n\n5\nRakesh\n99\n\n\n6\nEmily\n99\n\n\n7\nGrace\n100\n\n\n8\nLily\n95\n\n\n\nWhat is the number of tuples returned by the following relational algebra expression: \\(\\prod_{\\text{name}}(\\sigma_{\\text{marks}&gt;50}(\\text{student}))\\)?\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(5\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nRelational algebra, based on set theory, returns unique tuples. The query retrieves tuples where the ‘marks’ are greater than \\(50\\) and projects only the ‘name’ attribute. The repeated entries, like ‘Rakesh’, will be returned only once. Hence, only \\(5\\) tuples are returned.\n\n\n\nName\n\n\n\n\nRakesh\n\n\nPranav\n\n\nEmily\n\n\nGrace\n\n\nLily",
+    "crumbs": [
+      "DBMS",
       "Bank",
       "Question-6"
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-020.html",
-    "href": "linear_algebra/bank/question-020.html",
-    "title": "Question-20",
+    "objectID": "dbms/bank/question-007.html",
+    "href": "dbms/bank/question-007.html",
+    "title": "Question-7",
     "section": "",
-    "text": "If \\(A\\) is a real matrix, select all true statements.\n\n\\(A^TA\\) is positive semi-definite.\n\\(A^TA\\) and \\(AA^T\\) have the same eigenvectors.\n\\(A^TA\\) is symmetric if and only if \\(A\\) is symmetric.\n\\(A^TA\\) and \\(AA^T\\) have the same non-zero eigenvalues.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(A^TA\\) is positive semi-definite.\n\\(A^TA\\) and \\(AA^T\\) have the same eigenvectors.\n\\(A^TA\\) is symmetric if and only if \\(A\\) is symmetric.\n\\(A^TA\\) and \\(AA^T\\) have the same non-zero eigenvalues.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet \\(\\displaystyle ( \\lambda ,v)\\) be an eigenpair of of \\(\\displaystyle A^{T} A\\) with \\(\\displaystyle \\lambda \\neq 0\\):\n\\[\n\\begin{aligned}\n\\left( A^{T} A\\right) v & =\\lambda v\\\\\n\\left( AA^{T}\\right) (Av) & =\\lambda ( Av)\\\\\n\\left( AA^{T}\\right)( Av) & =\\lambda ( Av)\n\\end{aligned}\n\\]\nThis is of the form \\(\\displaystyle \\left( AA^{T}\\right) u=\\lambda u\\). For \\(\\displaystyle ( \\lambda ,u)\\) to be an eigenpair of \\(\\displaystyle AA^{T}\\), \\(\\displaystyle u=Av\\) has to be non-zero. To show this, do the following. If \\(\\displaystyle u=Av=0\\), then \\(\\displaystyle A^{T} Av=0\\Longrightarrow \\lambda v=0\\). Since \\(\\displaystyle \\lambda \\neq 0\\), \\(\\displaystyle v=0\\) which contradicts the fact that \\(\\displaystyle ( \\lambda ,v)\\) is an eigenpair of \\(\\displaystyle A^{T} A\\).\n\nLet \\(\\displaystyle ( \\lambda ,v)\\) be an eigenpair of \\(\\displaystyle A^{T} A\\). Then:\n\\[\n\\begin{aligned}\nA^{T} Av & =\\lambda v\\\\\nv^{T} A^{T} Av & =\\lambda \\left( v^{T} v\\right)\\\\\n( Av)^{T}( Av) & =\\lambda \\left( v^{T} v\\right)\\\\\n\\Longrightarrow \\lambda  & =\\frac{||Av||^{2}}{||v||^{2}} \\geqslant 0\n\\end{aligned}\n\\]\nWe can divide by \\(\\displaystyle ||v||^{2}\\) as \\(\\displaystyle v\\neq 0\\) for it is an eigenvector. Since all the eigenvalues of \\(\\displaystyle A^{T} A\\) are non-negative, \\(\\displaystyle A^{T} A\\) is positive semi definite.",
+    "text": "Which one of the options given below refers to the degree (or arity) of a relation in relational database systems?\n\nNumber of attributes of its relation schema.\nNumber of tuples stored in the relation.\nNumber of entries in the relation.\nNumber of distinct domains of its relation schema.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nNumber of attributes of its relation schema.\nNumber of tuples stored in the relation.\nNumber of entries in the relation.\nNumber of distinct domains of its relation schema.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe degree or arity of a relation in a relational database system refers to the number of attributes or fields in its relation schema. Therefore, the correct answer is the number of attributes of its relation schema, which represents the arity of a relation.",
     "crumbs": [
-      "Linear Algebra",
+      "DBMS",
       "Bank",
-      "Question-20"
+      "Question-7"
     ]
   },
   {
-    "objectID": "linear_algebra/bank/question-016.html",
-    "href": "linear_algebra/bank/question-016.html",
-    "title": "Question-16",
+    "objectID": "dbms/bank/question-021.html",
+    "href": "dbms/bank/question-021.html",
+    "title": "Question-21",
     "section": "",
-    "text": "\\(\\displaystyle x\\) and \\(\\displaystyle y\\) are vectors in \\(\\displaystyle \\mathbb{R}^{n}\\). If \\(\\displaystyle x-y\\) is orthogonal to \\(\\displaystyle x+y\\), comment on the relationship between \\(\\displaystyle ||x||\\) and \\(\\displaystyle ||y||\\).\n\n\\(||x|| = ||y||\\)\n\\(||x|| &gt; ||y||\\)\n\\(||x|| &lt; ||y||\\)\nThere is no relationship between the norms of these two vectors.\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nExpand the dot product of \\(x - y\\) and \\(x + y\\).\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(||x|| = ||y||\\)\n\\(||x|| &gt; ||y||\\)\n\\(||x|| &lt; ||y||\\)\nThere is no relationship between the norms of these two vectors.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf \\(\\displaystyle x-y\\) and \\(\\displaystyle x+y\\) are orthogonal, then we have \\(\\displaystyle \\langle x-y,x+y\\rangle =0\\). From this we get \\(\\displaystyle \\langle x,x\\rangle =\\langle y,y\\rangle \\Longrightarrow ||x||=||y||\\).",
+    "text": "Relation \\(R\\) has eight attributes \\(ABCDEFGH\\). Fields of \\(R\\) contain only atomic values. Given functional dependencies \\(F = \\{CH \\rightarrow G, A \\rightarrow BC, B \\rightarrow CFH, E \\rightarrow A, F \\rightarrow EG\\}\\), such that \\(F^+\\) is exactly the set of FDs that hold for \\(R\\). Determine the normal form of relation \\(R\\).\n\nin 1NF, but not in 2NF.\nin 2NF, but not in 3NF.\nin 3NF, but not in BCNF.\nin BCNF.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nin 1NF, but not in 2NF.\nin 2NF, but not in 3NF.\nin 3NF, but not in BCNF.\nin BCNF.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nGiven FD set: \\(F = \\{CH \\rightarrow G, A \\rightarrow BC, B \\rightarrow CFH, E \\rightarrow A, F \\rightarrow EG\\}\\)\nCandidate keys: {AD, ED, FD, BD}\nTesting for normal forms:\nBCNF: - \\(CH \\rightarrow G\\) (violates BCNF as \\(CH\\) is not a super key) - \\(A \\rightarrow BC\\) (does not violate BCNF)\n3NF: - \\(A \\rightarrow BC\\) (violates 2NF as \\(A\\) is a proper subset of the candidate key \\(AD\\)) - \\(B \\rightarrow CFH\\) (does not violate 3NF)\n2NF: - \\(A \\rightarrow BC, B \\rightarrow CFH\\) (violates 2NF as \\(A\\) and \\(B\\) are not super keys)\nTherefore, the relation is in 1NF but not in 2NF (option a).",
     "crumbs": [
-      "Linear Algebra",
+      "DBMS",
       "Bank",
-      "Question-16"
-    ]
-  },
-  {
-    "objectID": "linear_algebra/bank/question-012.html",
-    "href": "linear_algebra/bank/question-012.html",
-    "title": "Question-12",
-    "section": "",
-    "text": "Assertion: If \\(A^2 + A = I\\), then \\(A^{-1} = A + I\\)\nReason: If \\(A\\) is an \\(m \\times n\\) matrix, \\(B\\) is an \\(n \\times p\\) matrix, with \\(AB = I\\), then \\(A^{-1} = B\\)\n\nAssertion is true and Reason is true. Reason is the correct explanation for Assertion.\nAssertion is true and Reason is true. Reason is not the correct explanation for Assertion.\nBoth Assertion and Reason are false.\nAssertion is true. Reason is False.\nAssertion is false. Reason is true.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nAssertion is true and Reason is true. Reason is the correct explanation for Assertion.\nAssertion is true and Reason is true. Reason is not the correct explanation for Assertion.\nBoth Assertion and Reason are false.\nAssertion is true. Reason is False.\nAssertion is false. Reason is true.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(A^2 + A = I \\implies A(A + I) = I\\). Since \\(A\\) is a square matrix, \\(AB = I \\implies B = A^{-1}\\). So the Assertion is true. The Reason is however a false statement. It is true only if \\(A\\) and \\(B\\) are square matrices. In its current form \\(A\\) and \\(B\\) are not necessarily square.",
-    "crumbs": [
-      "Linear Algebra",
-      "Bank",
-      "Question-12"
-    ]
-  },
-  {
-    "objectID": "dbms/index.html",
-    "href": "dbms/index.html",
-    "title": "DBMS",
-    "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in DBMS. All questions have answers, some may have hints and solutions. The syllabus for the topic is given below:\n\nER-model\nRelational model\n\nRelational algebra\nTuple calculus\nSQL\nIntegrity constraints\nNormal form\nFile organization\nIndexing\nData types\nData transformation\n\nNormalization\nDiscretization\nSampling\nCompression\n\nData warehouse modelling\n\nSchema for multidimensional data models\nConcept hierarchies\nMeasures\n\nCategorization\nComputations",
-    "crumbs": [
-      "DBMS"
+      "Question-21"
     ]
   }
 ]
