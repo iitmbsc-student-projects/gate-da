@@ -19,17 +19,26 @@ $$
 
 
 - [ ] $\displaystyle \begin{bmatrix}
-A & B\\
-C & I
-\end{bmatrix}$
+  A & B\\
+  C & I
+  \end{bmatrix}$
+
+  
+
 - [ ] $\displaystyle \begin{bmatrix}
-B & A\\
-A^{2} & BA
-\end{bmatrix}$
+  B & A\\
+  A^{2} & BA
+  \end{bmatrix}$
+
+  
+
 - [ ] $\displaystyle \begin{bmatrix}
-A & B\\
-A^{2} -C & AB
-\end{bmatrix}$
+  A & B\\
+  A^{2} -C & AB
+  \end{bmatrix}$
+
+  
+
 - [ ] $\displaystyle \begin{bmatrix}
 A^{2} & B^{2}\\
 AB & BA
@@ -58,6 +67,6 @@ AB & BA
 
 ::: {.callout-note title="Solution" collapse=true}
 
-We can multiply the two matrices as though the entries were scalars.
+We can multiply the two block matrices as though the entries were scalars.
 
 :::
