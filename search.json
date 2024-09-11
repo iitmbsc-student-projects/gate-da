@@ -406,115 +406,6 @@
     ]
   },
   {
-    "objectID": "templates/mcq.html",
-    "href": "templates/mcq.html",
-    "title": "MCQ and MSQ",
-    "section": "",
-    "text": "Enter your question here.\n\nOption-1\nOption-2\nOption-3\nOption-4\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nSuggest one or two steps that could lead to the solution.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\nToggle the appropriate answers.\n\nOption-1\nOption-2\nOption-3\nOption-4\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nEnter the solution here.",
-    "crumbs": [
-      "Templates",
-      "MCQ and MSQ"
-    ]
-  },
-  {
-    "objectID": "templates/math_support.html",
-    "href": "templates/math_support.html",
-    "title": "Math Support",
-    "section": "",
-    "text": "Inline math includes math symbols that occur in the middle of a sentence. For example, \\(\\pi\\) and \\(e\\) are special math constants. Display math is used to display more prominent items such as equations: \\[\nx^2 + y^2 = z^2\n\\] The following are some of the commonly used symbols and environments in \\(\\LaTeX\\) which can also be rendered in markdown.",
-    "crumbs": [
-      "Templates",
-      "Math Support"
-    ]
-  },
-  {
-    "objectID": "templates/math_support.html#inline-vs-display",
-    "href": "templates/math_support.html#inline-vs-display",
-    "title": "Math Support",
-    "section": "",
-    "text": "Inline math includes math symbols that occur in the middle of a sentence. For example, \\(\\pi\\) and \\(e\\) are special math constants. Display math is used to display more prominent items such as equations: \\[\nx^2 + y^2 = z^2\n\\] The following are some of the commonly used symbols and environments in \\(\\LaTeX\\) which can also be rendered in markdown.",
-    "crumbs": [
-      "Templates",
-      "Math Support"
-    ]
-  },
-  {
-    "objectID": "templates/math_support.html#sets",
-    "href": "templates/math_support.html#sets",
-    "title": "Math Support",
-    "section": "Sets",
-    "text": "Sets\n\\[\nA \\cap B = \\left\\{x: x \\in A \\text{ and } x \\in B \\right\\}\n\\]\n\\[\nA \\cup B = \\left\\{x: x \\in A \\text{ or } x \\in B \\right\\}\n\\]\n\\[\nA \\subset B \\implies B \\supset A\n\\]\n\\[\n\\left\\{ \\cfrac{1}{2}, \\cfrac{3}{4}, \\cfrac{5}{6} \\right\\}\n\\]",
-    "crumbs": [
-      "Templates",
-      "Math Support"
-    ]
-  },
-  {
-    "objectID": "templates/math_support.html#vectors-matrices-and-determinants",
-    "href": "templates/math_support.html#vectors-matrices-and-determinants",
-    "title": "Math Support",
-    "section": "Vectors, Matrices and Determinants",
-    "text": "Vectors, Matrices and Determinants\n\\[\nv = \\begin{pmatrix}\n1\\\\\n2\\\\\n3\n\\end{pmatrix}\n\\]\n\\[\nA = \\begin{bmatrix}\n1 & 2 & 3\\\\\n4 & 5 & 6\\\\\n7 & 8 & 9\n\\end{bmatrix}\n\\]\n\\[\n|A| = \\begin{vmatrix}\n1 & 2\\\\\n3 & 4\n\\end{vmatrix}\n\\]",
-    "crumbs": [
-      "Templates",
-      "Math Support"
-    ]
-  },
-  {
-    "objectID": "templates/math_support.html#aligned",
-    "href": "templates/math_support.html#aligned",
-    "title": "Math Support",
-    "section": "Aligned",
-    "text": "Aligned\n\\[\n\\begin{aligned}\nx^2 - 5x + 6 &= 0\\\\\n(x - 2)(x - 3) &= 0\\\\\n\\implies x &= 2, 3\n\\end{aligned}\n\\]",
-    "crumbs": [
-      "Templates",
-      "Math Support"
-    ]
-  },
-  {
-    "objectID": "templates/math_support.html#cases",
-    "href": "templates/math_support.html#cases",
-    "title": "Math Support",
-    "section": "Cases",
-    "text": "Cases\n\\[\nf(x) = \\begin{cases}\nx^2 - 1, & x &lt; 0\\\\\nx^2 + 1, &x \\geqslant 0\n\\end{cases}\n\\]",
-    "crumbs": [
-      "Templates",
-      "Math Support"
-    ]
-  },
-  {
-    "objectID": "templates/math_support.html#summation-product-limits-integrals",
-    "href": "templates/math_support.html#summation-product-limits-integrals",
-    "title": "Math Support",
-    "section": "Summation, Product, Limits, Integrals",
-    "text": "Summation, Product, Limits, Integrals\n\\[\n\\sum \\limits_{i = 1}^{n} i = \\cfrac{n(n + 1)}{2}\n\\]\n\\[\n\\prod \\limits_{i = 1}^{n} i = n!\n\\]\n\\[\n\\lim \\limits_{n \\rightarrow \\infty} \\cfrac{1}{n} = 0\n\\]\n\\[\n\\int \\limits_{0}^{1} x\\ dx = \\cfrac{1}{2}\n\\]",
-    "crumbs": [
-      "Templates",
-      "Math Support"
-    ]
-  },
-  {
-    "objectID": "templates/math_support.html#misc-symbols",
-    "href": "templates/math_support.html#misc-symbols",
-    "title": "Math Support",
-    "section": "Misc symbols",
-    "text": "Misc symbols\n\n\\(m \\choose n\\)\n\\(x \\times y\\)\n\\(1, 2, 3, \\cdots\\)\n\\(\\cfrac{df}{dx}\\)\n\\(\\cfrac{\\partial f}{\\partial x}\\)\n\\(\\nabla f\\)\n\\(\\alpha, \\beta, \\gamma, \\theta\\)\n\\(\\mathbf{x}, \\mathbf{y}, \\mathbf{X}, \\mathbf{Y}, \\boldsymbol{\\alpha}, \\boldsymbol{\\theta}\\)\n\\(\\mathbb{N}, \\mathbb{Z}, \\mathbb{Q}, \\mathbb{R}, \\mathbb{C}\\)\n\\(\\mathcal{X}, \\mathcal{Y}\\)",
-    "crumbs": [
-      "Templates",
-      "Math Support"
-    ]
-  },
-  {
-    "objectID": "templates/index.html",
-    "href": "templates/index.html",
-    "title": "Templates",
-    "section": "",
-    "text": "This section has some custom templates that can be used to frame questions.",
-    "crumbs": [
-      "Templates"
-    ]
-  },
-  {
     "objectID": "prob_stats/bank/question-021.html",
     "href": "prob_stats/bank/question-021.html",
     "title": "Question-21",
@@ -959,186 +850,15 @@
     ]
   },
   {
-    "objectID": "calculus/bank/question-006.html",
-    "href": "calculus/bank/question-006.html",
-    "title": "Question-6",
+    "objectID": "calculus/bank/question-007.html",
+    "href": "calculus/bank/question-007.html",
+    "title": "Question-7",
     "section": "",
-    "text": "Consider the function \\(f(x)=x^3-6x\\). Which of the following options are correct?\n\n\\(f\\) has neither local maxima nor local minima.\n\\(\\sqrt{2}\\) is a local minimum.\n\\(\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local minimum.\n\\(f\\) has two critical points.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(f\\) has neither local maxima nor local minima.\n\\(\\sqrt{2}\\) is a local minimum.\n\\(\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local minimum.\n\\(f\\) has two critical points.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have:\n\\[\nf( x) =x^{3} -6x\n\\]\nThe first and second derivatives are:\n\\[\nf^{\\prime }( x) =3x^{2} -6,\\ f^{\\prime \\prime} ( x) =6x\n\\]\nThe critical points of \\(\\displaystyle f\\) are:\n\\[\n\\begin{aligned}\n3x^{2} -6 & =0\\\\\nx^{2} & =2\\\\\nx & =\\pm \\sqrt{2}\n\\end{aligned}\n\\]\nWe have two critical points. Now for the determination of the nature of the optimum:\n\\[\n\\begin{aligned}\nf^{\\prime \\prime} \\left(\\sqrt{2}\\right) &  &gt;0\\\\\nf^{\\prime \\prime} \\left( -\\sqrt{2}\\right) & &lt; 0\n\\end{aligned}\n\\]\n\\(\\displaystyle \\sqrt{2}\\) is a local minimum and \\(\\displaystyle -\\sqrt{2}\\) is a local maximum.",
+    "text": "Suppose \\(x+y=16\\). What is the value of \\(x y\\) when \\(x^3+y^3\\) is minimum?\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(64\\)\n\n\n\n\n\n\n\n\n\nSolution-1\n\n\n\n\n\nWe have: \\[\n\\underset{x.y}{\\min} \\ x^{3} +y^{3}\n\\] subject to: \\[\nx+y=16\n\\] This is a constrained optimization problem in two variables. But we can turn it into an unconstrained optimization problem in one variable by using the constraint:\n\\[\n\\underset{x}{\\min} \\ x^{3} +( 16-x)^{3}\n\\] From here, we proceed as usual:\n\\[\nf( x) =x^{3} +( 16-x)^{3}\n\\]\nComputing the first and second derivatives:\n\\[\n\\begin{aligned}\nf^{\\prime }( x) & =3x^{2} -3( 16-x)^{2}\\\\\n& =3( x+16-x)( x-16+x)\\\\\n& =96( x-8)\n\\end{aligned}\n\\]\nThere is just one critical point, \\(\\displaystyle x=8\\). Evaluating the second partial derivative at this point:\n\\[\nf^{\\prime \\prime }( 8) =96 &gt;0\n\\]\nTherefore \\(\\displaystyle x=8\\) corresponds to a local minimum. This is in fact a global minimum as \\(f\\) turns out to be a quadratic function. We can now recover \\(\\displaystyle y=8\\). The value of \\(\\displaystyle xy\\) is \\(\\displaystyle 64\\) when \\(\\displaystyle x^{3} +y^{3}\\) is minimum.\n\n\n\n\n\n\n\n\n\nSolution-2\n\n\n\n\n\nWe have: \\[\n\\underset{x.y}{\\min} \\ x^{3} +y^{3}\n\\] subject to: \\[\nx+y=16\n\\] This is a constrained optimization problem in two variables. But we can turn it into an unconstrained optimization problem in one variable by using the constraint:\n\\[\n\\underset{x}{\\min} \\ x^{3} +( 16-x)^{3}\n\\] We first simplify the objective function:\n\\[\n\\begin{aligned}\nf( x) & =x^{3} +( 16-x)^{3}\\\\\n& =16^{3} -3\\times 16^{2} \\times x+3\\times 16\\times x^{2} -x^{3}\\\\\n& =3\\times 16x^{2} -3\\times 16^{2} x+16^{3}\n\\end{aligned}\n\\]\nThis is a quadratic equation in \\(\\displaystyle x\\) that has a parabola facing upwards. So it has a global minimum, which occurs at \\(\\displaystyle x=\\frac{3\\times 16^{2}}{2\\times 3\\times 16} =8\\). We can now recover \\(\\displaystyle y=8\\). The value of \\(\\displaystyle xy\\) is \\(\\displaystyle 64\\) when \\(\\displaystyle x^{3} +y^{3}\\) is minimum.",
     "crumbs": [
       "Calculus and Optimization",
       "Bank",
-      "Question-6"
-    ]
-  },
-  {
-    "objectID": "calculus/bank/question-014.html",
-    "href": "calculus/bank/question-014.html",
-    "title": "Question-14",
-    "section": "",
-    "text": "Find the best linear approximation of \\(\\displaystyle f( x) =\\sqrt{1+x}\\) at \\(\\displaystyle x=0\\).\n\n\\(\\sqrt{1 + x}\\)\n\\(1 + x\\)\n\\(x\\)\n\\(1 + \\cfrac{x}{2}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\sqrt{1 + x}\\)\n\\(1 + x\\)\n\\(x\\)\n\\(1 + \\cfrac{x}{2}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nUsing Taylor series, the best linear approximation of \\(\\displaystyle f\\) at \\(\\displaystyle x=a\\) is given by:\n\\[\n\\begin{equation*}\nL( x)\\Bigl|_{x=a} =f( a) +f^{\\prime }( a)( x-a)\n\\end{equation*}\n\\]\nFor \\(\\displaystyle x=0\\) and \\(\\displaystyle f( x) =\\sqrt{1+x}\\), we have:\n\\[\n\\begin{equation*}\nL( x)\\Bigl|_{x=0} =1+\\frac{x}{2}\n\\end{equation*}\n\\]\nWe have used the fact that \\(\\displaystyle f^{\\prime }( x) =\\frac{1}{2\\sqrt{1+x}}\\) and \\(\\displaystyle f^{\\prime }( 0) =\\frac{1}{2}\\).",
-    "crumbs": [
-      "Calculus and Optimization",
-      "Bank",
-      "Question-14"
-    ]
-  },
-  {
-    "objectID": "calculus/bank/question-010.html",
-    "href": "calculus/bank/question-010.html",
-    "title": "Question-10",
-    "section": "",
-    "text": "Select all options that give the correct the Taylor series expansion of the function on the left around the point \\(0\\).\n\n\\(\\sin x=x-\\cfrac{x^{3}}{3!} +\\cfrac{x^{5}}{5!} -\\cdots\\)\n\\(\\displaystyle \\sin x=1-\\frac{x^{2}}{2!} +\\frac{x^{4}}{4!} -\\cdots\\)\n\\(\\displaystyle \\cos x=1-\\frac{x^{2}}{2!} +\\frac{x^{4}}{4!} -\\cdots\\)\n\\(\\displaystyle \\cos x=x-\\frac{x^{3}}{3!} +\\frac{x^{5}}{5!} -\\cdots\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\sin x=x-\\cfrac{x^{3}}{3!} +\\cfrac{x^{5}}{5!} -\\cdots\\)\n\\(\\displaystyle \\sin x=1-\\frac{x^{2}}{2!} +\\frac{x^{4}}{4!} -\\cdots\\)\n\\(\\displaystyle \\cos x=1-\\frac{x^{2}}{2!} +\\frac{x^{4}}{4!} -\\cdots\\)\n\\(\\displaystyle \\cos x=x-\\frac{x^{3}}{3!} +\\frac{x^{5}}{5!} -\\cdots\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe Taylor series expansion of \\(\\displaystyle f( x)\\) around \\(\\displaystyle x=a\\) is given by:\n\\[\nf( x) =\\frac{f( a)}{0!} +\\frac{f^{\\prime }( a)}{1!}( x-a) +\\frac{f^{\\prime \\prime }( a)}{2!}( x-a)^{2} +\\cdots\n\\]\nFor \\(\\displaystyle \\sin x\\) and \\(\\displaystyle \\cos x\\), this becomes:\n\\[\n\\begin{aligned}\n\\sin( x) & =x-\\frac{x^{3}}{3!} +\\frac{x^{5}}{5!} -\\cdots \\\\\n& \\\\\n\\cos( x) & =1-\\frac{x^{2}}{2!} +\\frac{x^{4}}{4!}\n\\end{aligned}\n\\]",
-    "crumbs": [
-      "Calculus and Optimization",
-      "Bank",
-      "Question-10"
-    ]
-  },
-  {
-    "objectID": "calculus/bank/question-005.html",
-    "href": "calculus/bank/question-005.html",
-    "title": "Question-5",
-    "section": "",
-    "text": "Define a function \\(f\\) as follows:\n\\[\n\\begin{aligned}\n    f(x) = \\begin{cases}\n               kx^2+l, & \\text{if } x \\leqslant 1\\\\\n              lx^2+kx+m, & \\text{if } x &gt; 1\n          \\end{cases}\n\\end{aligned}\n\\]\nIf \\(f\\) is continuous and differentible at \\(x=1\\), find the value of \\(k-2l+m\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince \\(f\\) is continuous at \\(x = 1\\), we have:\n\\[\nk + l = l + k + m \\implies m = 0\n\\]\nSince \\(f\\) is differentiable at \\(x = 1\\), we have:\n\\[\n2k = 2l + k \\implies k = 2l\n\\]\nFrom this, we see that \\(k - 2l + m = 0\\)",
-    "crumbs": [
-      "Calculus and Optimization",
-      "Bank",
-      "Question-5"
-    ]
-  },
-  {
-    "objectID": "calculus/bank/question-015.html",
-    "href": "calculus/bank/question-015.html",
-    "title": "Question-15",
-    "section": "",
-    "text": "Consider the function:\n\\[\n\\begin{equation*}\nf( x) =\\begin{cases}\n\\sin( 2x) , & x\\leqslant 0\\\\\nmx, & x &gt;0\n\\end{cases}\n\\end{equation*}\n\\]\n\n\\(\\displaystyle f\\) is continuous for exactly one value of \\(\\displaystyle m\\)\n\\(\\displaystyle f\\) is continuous for any \\(\\displaystyle m\\)\n\\(\\displaystyle f\\) is differentiable for exactly one value of \\(\\displaystyle m\\)\n\\(\\displaystyle f\\) is differentiable for any \\(\\displaystyle m\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle f\\) is continuous for exactly one value of \\(\\displaystyle m\\)\n\\(\\displaystyle f\\) is continuous for any \\(\\displaystyle m\\)\n\\(\\displaystyle f\\) is differentiable for exactly one value of \\(\\displaystyle m\\)\n\\(\\displaystyle f\\) is differentiable for any \\(\\displaystyle m\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have:\n\\[\n\\begin{equation*}\n\\lim\\limits _{x\\rightarrow 0^{+}} \\ f( x) =\\lim\\limits _{x\\rightarrow 0^{-}} \\ f( x) =0\n\\end{equation*}\n\\]\nSince limit at \\(\\displaystyle x=0\\) is equal to \\(\\displaystyle f( 0)\\), \\(\\displaystyle f\\) is continuous for all \\(\\displaystyle m\\). The right hand derivative for \\(\\displaystyle f\\) at \\(\\displaystyle x=0\\) is \\(\\displaystyle m\\) and the left hand derivative at \\(\\displaystyle x=0\\) is \\(\\displaystyle 2\\). For \\(\\displaystyle f\\) to be differentiable at \\(\\displaystyle x=0\\), \\(\\displaystyle m=2\\) is the only possibility.",
-    "crumbs": [
-      "Calculus and Optimization",
-      "Bank",
-      "Question-15"
-    ]
-  },
-  {
-    "objectID": "calculus/bank/question-008.html",
-    "href": "calculus/bank/question-008.html",
-    "title": "Question-8",
-    "section": "",
-    "text": "Consider a function \\(f\\) defined as: \\[\nf(x) = \\begin{cases} \\displaystyle\n     3ax + b &    x &lt; 1, \\\\\n     11 &  x = 1,\\\\\n     5ax - 2b &  x &gt; 1\n   \\end{cases}\n\\] If \\(f\\) is continuous at \\(x=1\\), then find the value of \\(a+b\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(5\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have:\n\\[\nf( x) =\\begin{cases}\n{\\displaystyle 3ax+b} & x&lt; 1,\\\\\n11 & x=1,\\\\\n5ax-2b & x &gt;1\n\\end{cases}\n\\]\nSince \\(\\displaystyle f\\) is continuous at \\(\\displaystyle x=1\\), we have LHL and RHL to be equal to the value of the function at \\(\\displaystyle x=1\\). This gives us the following system of linear equations:\n\\[\n\\begin{aligned}\n3a+b & =11\\\\\n5a-2b & =11\n\\end{aligned}\n\\]\nSolving this system, we get \\(\\displaystyle a=3,b=2\\). Therefore, \\(\\displaystyle a+b=11\\).",
-    "crumbs": [
-      "Calculus and Optimization",
-      "Bank",
-      "Question-8"
-    ]
-  },
-  {
-    "objectID": "calculus/bank/question-011.html",
-    "href": "calculus/bank/question-011.html",
-    "title": "Question-11",
-    "section": "",
-    "text": "Find the value of the following limit:\n\\[\n\\begin{equation*}\n\\lim\\limits _{x\\rightarrow 0^{+}} \\ \\ \\frac{\\sqrt{x}}{1-e^{2\\sqrt{x}}}\n\\end{equation*}\n\\]\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(-0.5\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe can use the standard limit: \\(\\displaystyle \\lim\\limits _{x\\rightarrow 0} \\ \\frac{e^{x} -1}{x} =1\\). To get the standard form, we need to multiply and divide by \\(\\displaystyle -2\\) and notice that the inverse of the above function still has limit \\(\\displaystyle 1\\).",
-    "crumbs": [
-      "Calculus and Optimization",
-      "Bank",
-      "Question-11"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "GATE-DA",
-    "section": "",
-    "text": "Welcome! The DA paper was first introduced in the year 2024. The duration of the exam is \\(3\\) hours. An overview of the syllabus:\n\nCalculus and Optimization\nLinear Algebra\nProbability and Statistics\nMachine Learning\nArtificial Intelligence\nProgramming, Data Structures and Algorithms\nDatabase Management Systems\n\nYou can use the sidebar to navigate through the different topics."
-  },
-  {
-    "objectID": "machine_learning/index.html",
-    "href": "machine_learning/index.html",
-    "title": "Machine Learning",
-    "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in machine learning. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nSupervised Learning\n\nRegression\n\nSimple linear regression,\nMultiple linear regression,\nRidge regression\n\nClassification\n\nLogistic regression\nK-NN\nNaive Bayes\nLinear discriminant analysis (LDA)\nSupport vector machines (SVM)\nDecision trees\nMulti-layer perceptron (MLP)\nFeed-forward neural network (ANN)\n\nBias-variance trade-off\nCross-validation\n\nLeave-one-out (LOO) cross-validation\nK-fold cross-validation\n\n\nUnsupervised Learning\n\nClustering algorithms\n\nk-means\nk-medoid,\nhierarchical clustering\n\ntop-down\nbottom-up\nsingle-linkage\nmulti-linkage\n\n\nDimensionality reduction\n\nprincipal component analysis.",
-    "crumbs": [
-      "Machine Learning"
-    ]
-  },
-  {
-    "objectID": "machine_learning/bank/question-001.html",
-    "href": "machine_learning/bank/question-001.html",
-    "title": "Question-1",
-    "section": "",
-    "text": "\\(\\mathbf{w} = \\begin{bmatrix}1 \\\\ 2 \\\\ 3\\end{bmatrix}\\) is the weight vector of a linear classifier for a binary classification problem whose labels lie in the set \\(\\{0, 1\\}\\). If the bias of the classifier is set to \\(0\\), which of the following is the equation of the decision boundary for this classifier?\n\n\\(x_1 + 2x_2 + 3x_3 = 1\\)\n\\(x_1 + 2x_2 + 3x_3 = -1\\)\n\\(x_1 + 2x_2 + 3x_3 = 0\\)\n\\(x_1 - 2x_3 + 3x_3 = 0\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(x_1 + 2x_2 + 3x_3 = 1\\)\n\\(x_1 + 2x_2 + 3x_3 = -1\\)\n\\(x_1 + 2x_2 + 3x_3 = 0\\)\n\\(x_1 - 2x_3 + 3x_3 = 0\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe decision boundary for a linear classifier is given by \\(\\mathbf{w}^{T} \\mathbf{x} + b = 0\\). Since \\(b = 0\\), this just becomes \\(\\mathbf{w}^{T} \\mathbf{x} = 0\\) which results in \\(x_1 + 2x_2 + 3x_3 = 0\\).",
-    "crumbs": [
-      "Machine Learning",
-      "Bank",
-      "Question-1"
-    ]
-  },
-  {
-    "objectID": "calculus/index.html",
-    "href": "calculus/index.html",
-    "title": "Calculus and Optimization",
-    "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in calculus and optimization. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nFunctions of a single variable\nLimit\nContinuity\nDifferentiability\nTaylor series\nMaxima and minima\nOptimization involving a single variable",
-    "crumbs": [
-      "Calculus and Optimization"
-    ]
-  },
-  {
-    "objectID": "calculus/bank/question-013.html",
-    "href": "calculus/bank/question-013.html",
-    "title": "Question-13",
-    "section": "",
-    "text": "The height of a right circular cone of maximum volume that can be enclosed within a hollow sphere of radius \\(\\displaystyle R\\) is:\n\n\\(\\displaystyle R\\)\n\\(\\displaystyle \\frac{5}{4} R\\)\n\\(\\displaystyle \\frac{4}{3} R\\)\n\\(\\displaystyle \\frac{3}{2} R\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle R\\)\n\\(\\displaystyle \\frac{5}{4} R\\)\n\\(\\displaystyle \\frac{4}{3} R\\)\n\\(\\displaystyle \\frac{3}{2} R\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nInvoking symmetry, we have:\n\nIt is safe to assume that \\(\\displaystyle \\theta \\in ( 0,\\pi /2)\\). The expression for the volume as a function of \\(\\theta\\) is:\n\\[\n\\begin{equation*}\nV_{\\text{cone}} =\\frac{1}{3} \\pi ( R\\cos \\theta )^{2}[ R( 1+\\sin \\theta )] \\varpropto \\cos^{2} \\theta ( 1+\\sin \\theta )\n\\end{equation*}\n\\]\nWe can now rewrite the expression to be optimized as:\n\\[\n\\begin{equation*}\n\\left( 1-\\sin^{2} \\theta \\right)( 1+\\sin \\theta ) =-\\sin^{3} \\theta -\\sin^{2} \\theta +\\sin \\theta +1\n\\end{equation*}\n\\]\nLetting \\(\\displaystyle y=\\sin \\theta\\) and noting that \\(\\displaystyle y\\in ( 0,1)\\), we get:\n\\[\n\\begin{equation*}\nf( y) =-y^{3} -y^{2} +y+1\n\\end{equation*}\n\\]\n\\(\\displaystyle f^{\\prime }( y) =0\\Longrightarrow 3y^{2} +2y-1=0\\Longrightarrow y=\\frac{1}{3} ,-1\\). We can ignore \\(\\displaystyle -1\\) as it is extraneous. Since \\(\\displaystyle f^{\\prime \\prime} \\left(\\frac{1}{3}\\right) &lt; 0\\), we conclude that \\(\\displaystyle y=\\frac{1}{3}\\) is a local maximum. Since \\(\\displaystyle f( 0) =1\\), \\(\\displaystyle f( 1) =0\\) and \\(\\displaystyle f\\left(\\frac{1}{3}\\right)  &gt;1\\), we conclude that \\(\\displaystyle \\frac{1}{3}\\) corresponds to an absolute maximum in \\(\\displaystyle ( 0,1)\\) for \\(\\displaystyle f\\).\nPlugging this back in the expression for height, we get \\(\\displaystyle h=R\\left[ 1+\\frac{1}{3}\\right] =\\frac{4}{3} R\\).",
-    "crumbs": [
-      "Calculus and Optimization",
-      "Bank",
-      "Question-13"
-    ]
-  },
-  {
-    "objectID": "calculus/bank/question-009.html",
-    "href": "calculus/bank/question-009.html",
-    "title": "Question-9",
-    "section": "",
-    "text": "Consider the function \\(f(x)= x+\\cfrac{1}{x}\\). Which of the following options are correct?\n\n\\(f\\) is an injective function, if the domain of \\(f\\) is \\(\\mathbb{R}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{N}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Q}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{N}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(f\\) is an injective function, if the domain of \\(f\\) is \\(\\mathbb{R}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{N}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Q}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{N}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have: \\[\nf( x) =x+\\frac{1}{x}\n\\]\nLet us first try to see what all values this function can take for its natural domain, \\(\\displaystyle \\mathbb{R} \\backslash \\{0\\}\\):\n\\[\n\\begin{aligned}\nx+\\frac{1}{x} & =y\\\\\nx^{2} -yx+1 & =0\n\\end{aligned}\n\\]\nFor \\(\\displaystyle x\\in \\mathbb{R} \\backslash \\{0\\}\\), the discriminant of the above equation has to be non-negative:\n\\[\ny^{2} -4\\geqslant 0\\Longrightarrow y\\in ( \\infty ,-2] \\cup [ 2,\\infty )\n\\]\nThus the range of \\(\\displaystyle f\\) is \\(\\displaystyle ( \\infty ,-2] \\cup [ 2,\\infty )\\).\nLet us now probe the injectivity of \\(\\displaystyle f\\):\n\\[\n\\begin{aligned}\nf( x_{1}) & =f( x_{2})\\\\\nx_{1} +\\frac{1}{x_{1}} & =x_{2} +\\frac{1}{x_{2}}\\\\\nx_{1} -x_{2} +\\frac{x_{2} -x_{1}}{x_{1} x_{2}} & =0\\\\\n\\frac{( x_{1} -x_{2})( x_{1} x_{2} -1)}{x_{1} x_{2}} & =0\\\\\n( x_{1} -x_{2})( x_{1} x_{2} -1) & =0\n\\end{aligned}\n\\]\nThis suggests one of two possibilities:\n\\[\nx_{1} =x_{2} \\ \\ \\text{OR} \\ \\ x_{1} x_{2} =1\n\\]\nWith this background work, let us now jump into the options:\nOption-1: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{R} \\backslash \\{0\\}\\)\nWe see that \\(\\displaystyle f\\) is not injective. One simple example is \\(\\displaystyle f( 2) =f\\left(\\frac{1}{2}\\right)\\).\nOption-2: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{N}\\)\n\\(\\displaystyle f\\) has to be injective. Recall the condition \\(\\displaystyle x_{1} x_{2} =1\\). If \\(\\displaystyle x_{1} ,x_{2} \\in \\mathbb{N}\\), then \\(\\displaystyle x_{1} =x_{2} =1\\).\nOption-3: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{Q} \\backslash \\{0\\}\\)\nNot injective. Similar to option-1\nOption-4: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{Z} \\backslash \\{0\\}\\)\n\\(\\displaystyle f\\) is injective. Similar to option-2\nOption-5: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{N}\\) and co-domain is \\(\\displaystyle \\mathbb{Q}\\)\n\\(\\displaystyle f\\) cannot be surjective as \\(\\displaystyle 1\\in \\mathbb{Q}\\), but \\(\\displaystyle 1\\) is not in the range of \\(\\displaystyle f\\).\nOption-6: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{Z}\\) and co-domain is \\(\\displaystyle \\mathbb{Q}\\)\n\\(\\displaystyle f\\) cannot be surjective. Similar to option-5",
-    "crumbs": [
-      "Calculus and Optimization",
-      "Bank",
-      "Question-9"
-    ]
-  },
-  {
-    "objectID": "calculus/bank/question-001.html",
-    "href": "calculus/bank/question-001.html",
-    "title": "Question-1",
-    "section": "",
-    "text": "Let \\(f\\) and \\(g\\) be two real valued functions such that \\(g(x) = f(x) - 2\\). Select all true options.\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\nHint\n\n\n\n\n\n\nAn odd function is one that satisfies \\(f(-x) = -f(x)\\) for all \\(x \\in \\mathbb{R}\\).\nAn even function is one that satisfies \\(f(-x) = f(x)\\) for all \\(x \\in \\mathbb{R}\\).\n\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf \\(f\\) is odd, then \\(f(-x) = -f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= -f(x) - 2\\\\\n&= -[f(x) + 2]\n\\end{aligned}\n\\] This doesn’t allow us to conclude anything about the nature of \\(g\\). A simple counter-example will show that if \\(f\\) is odd, \\(g\\) need not be odd. For instance, if \\(f(x)= x\\), we have \\(g(x) = x - 2\\), which is neither odd nor even.\nIf \\(f\\) is even, then \\(f(-x) = f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= f(x) - 2\\\\\n&= g(x)\n\\end{aligned}\n\\] Therefore, if \\(f\\) is even, then \\(g\\) is also even. A similar argument holds for the case when \\(g\\) is even.",
-    "crumbs": [
-      "Calculus and Optimization",
-      "Bank",
-      "Question-1"
-    ]
-  },
-  {
-    "objectID": "calculus/bank/question-004.html",
-    "href": "calculus/bank/question-004.html",
-    "title": "Question-4",
-    "section": "",
-    "text": "Find the global minima of the function \\(f(x) =  2x^3 - 9x^2 + 12x + 6\\) in the interval \\((1, 3)\\). You need to enter the value of \\(x^{*}\\) and not the value of \\(f(x^{*})\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(2\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have \\(f^{\\prime}(x) = 6x^2 - 18x + 12 = 6(x - 1)(x - 2)\\) and \\(f^{\\prime \\prime}(x) = 6(2x - 3)\\). The point \\(x = 1\\) corresponds to a local maxima and \\(x = 2\\) is a local minima. \\(f(1) = 11\\) and \\(f(2) = 10\\) and \\(f(3) = 15\\). The function decreases from \\(x = 1\\) to \\(x = 2\\), attains a minima at \\(x = 2\\) and then increases from \\(x = 2\\) to \\(x = 3\\). From this, we can conclude that \\(x = 2\\) is the global minima of \\(f\\) in the open interval \\((1, 3)\\).",
-    "crumbs": [
-      "Calculus and Optimization",
-      "Bank",
-      "Question-4"
-    ]
-  },
-  {
-    "objectID": "calculus/bank/question-003.html",
-    "href": "calculus/bank/question-003.html",
-    "title": "Question-3",
-    "section": "",
-    "text": "Evaluate the following limit:\n\\[\n\\lim_{x \\rightarrow \\infty} \\sqrt{x^2 + x + 1} - \\sqrt{x^2 + 1}\n\\]\n\n\n\n\n\n\nHint\n\n\n\n\n\nNormalize the numerator.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0.5\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\[\n\\begin{aligned}\n    \\lim_{x \\rightarrow \\infty} \\sqrt{x^2 + x + 1} - \\sqrt{x^2 + 1} &= \\lim_{x \\rightarrow \\infty} \\cfrac{(x^2 + x + 1) - (x^2 + 1)}{\\sqrt{x^2 + x + 1} + \\sqrt{x^2 + 1}}\\\\\\\\\n    &= \\lim_{x \\rightarrow \\infty} \\cfrac{x}{\\sqrt{x^2 + x + 1} + \\sqrt{x^2 + 1}}\\\\\\\\\n    &= \\lim_{x \\rightarrow \\infty} \\cfrac{1}{\\sqrt{1 + \\frac{1}{x} + \\frac{1}{x^2}} + \\sqrt{1 + \\frac{1}{x^2}}}\\\\\\\\\n    &= \\cfrac{1}{2}\n\\end{aligned}\n\\]",
-    "crumbs": [
-      "Calculus and Optimization",
-      "Bank",
-      "Question-3"
+      "Question-7"
     ]
   },
   {
@@ -1154,15 +874,306 @@
     ]
   },
   {
-    "objectID": "calculus/bank/question-007.html",
-    "href": "calculus/bank/question-007.html",
-    "title": "Question-7",
+    "objectID": "calculus/bank/question-003.html",
+    "href": "calculus/bank/question-003.html",
+    "title": "Question-3",
     "section": "",
-    "text": "Suppose \\(x+y=16\\). What is the value of \\(x y\\) when \\(x^3+y^3\\) is minimum?\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(64\\)\n\n\n\n\n\n\n\n\n\nSolution-1\n\n\n\n\n\nWe have: \\[\n\\underset{x.y}{\\min} \\ x^{3} +y^{3}\n\\] subject to: \\[\nx+y=16\n\\] This is a constrained optimization problem in two variables. But we can turn it into an unconstrained optimization problem in one variable by using the constraint:\n\\[\n\\underset{x}{\\min} \\ x^{3} +( 16-x)^{3}\n\\] From here, we proceed as usual:\n\\[\nf( x) =x^{3} +( 16-x)^{3}\n\\]\nComputing the first and second derivatives:\n\\[\n\\begin{aligned}\nf^{\\prime }( x) & =3x^{2} -3( 16-x)^{2}\\\\\n& =3( x+16-x)( x-16+x)\\\\\n& =96( x-8)\n\\end{aligned}\n\\]\nThere is just one critical point, \\(\\displaystyle x=8\\). Evaluating the second partial derivative at this point:\n\\[\nf^{\\prime \\prime }( 8) =96 &gt;0\n\\]\nTherefore \\(\\displaystyle x=8\\) corresponds to a local minimum. This is in fact a global minimum as \\(f\\) turns out to be a quadratic function. We can now recover \\(\\displaystyle y=8\\). The value of \\(\\displaystyle xy\\) is \\(\\displaystyle 64\\) when \\(\\displaystyle x^{3} +y^{3}\\) is minimum.\n\n\n\n\n\n\n\n\n\nSolution-2\n\n\n\n\n\nWe have: \\[\n\\underset{x.y}{\\min} \\ x^{3} +y^{3}\n\\] subject to: \\[\nx+y=16\n\\] This is a constrained optimization problem in two variables. But we can turn it into an unconstrained optimization problem in one variable by using the constraint:\n\\[\n\\underset{x}{\\min} \\ x^{3} +( 16-x)^{3}\n\\] We first simplify the objective function:\n\\[\n\\begin{aligned}\nf( x) & =x^{3} +( 16-x)^{3}\\\\\n& =16^{3} -3\\times 16^{2} \\times x+3\\times 16\\times x^{2} -x^{3}\\\\\n& =3\\times 16x^{2} -3\\times 16^{2} x+16^{3}\n\\end{aligned}\n\\]\nThis is a quadratic equation in \\(\\displaystyle x\\) that has a parabola facing upwards. So it has a global minimum, which occurs at \\(\\displaystyle x=\\frac{3\\times 16^{2}}{2\\times 3\\times 16} =8\\). We can now recover \\(\\displaystyle y=8\\). The value of \\(\\displaystyle xy\\) is \\(\\displaystyle 64\\) when \\(\\displaystyle x^{3} +y^{3}\\) is minimum.",
+    "text": "Evaluate the following limit:\n\\[\n\\lim_{x \\rightarrow \\infty} \\sqrt{x^2 + x + 1} - \\sqrt{x^2 + 1}\n\\]\n\n\n\n\n\n\nHint\n\n\n\n\n\nNormalize the numerator.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0.5\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\[\n\\begin{aligned}\n    \\lim_{x \\rightarrow \\infty} \\sqrt{x^2 + x + 1} - \\sqrt{x^2 + 1} &= \\lim_{x \\rightarrow \\infty} \\cfrac{(x^2 + x + 1) - (x^2 + 1)}{\\sqrt{x^2 + x + 1} + \\sqrt{x^2 + 1}}\\\\\\\\\n    &= \\lim_{x \\rightarrow \\infty} \\cfrac{x}{\\sqrt{x^2 + x + 1} + \\sqrt{x^2 + 1}}\\\\\\\\\n    &= \\lim_{x \\rightarrow \\infty} \\cfrac{1}{\\sqrt{1 + \\frac{1}{x} + \\frac{1}{x^2}} + \\sqrt{1 + \\frac{1}{x^2}}}\\\\\\\\\n    &= \\cfrac{1}{2}\n\\end{aligned}\n\\]",
     "crumbs": [
       "Calculus and Optimization",
       "Bank",
+      "Question-3"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-004.html",
+    "href": "calculus/bank/question-004.html",
+    "title": "Question-4",
+    "section": "",
+    "text": "Find the global minima of the function \\(f(x) =  2x^3 - 9x^2 + 12x + 6\\) in the interval \\((1, 3)\\). You need to enter the value of \\(x^{*}\\) and not the value of \\(f(x^{*})\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(2\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have \\(f^{\\prime}(x) = 6x^2 - 18x + 12 = 6(x - 1)(x - 2)\\) and \\(f^{\\prime \\prime}(x) = 6(2x - 3)\\). The point \\(x = 1\\) corresponds to a local maxima and \\(x = 2\\) is a local minima. \\(f(1) = 11\\) and \\(f(2) = 10\\) and \\(f(3) = 15\\). The function decreases from \\(x = 1\\) to \\(x = 2\\), attains a minima at \\(x = 2\\) and then increases from \\(x = 2\\) to \\(x = 3\\). From this, we can conclude that \\(x = 2\\) is the global minima of \\(f\\) in the open interval \\((1, 3)\\).",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-4"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-001.html",
+    "href": "calculus/bank/question-001.html",
+    "title": "Question-1",
+    "section": "",
+    "text": "Let \\(f\\) and \\(g\\) be two real valued functions such that \\(g(x) = f(x) - 2\\). Select all true options.\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\nHint\n\n\n\n\n\n\nAn odd function is one that satisfies \\(f(-x) = -f(x)\\) for all \\(x \\in \\mathbb{R}\\).\nAn even function is one that satisfies \\(f(-x) = f(x)\\) for all \\(x \\in \\mathbb{R}\\).\n\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf \\(f\\) is odd, then \\(f(-x) = -f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= -f(x) - 2\\\\\n&= -[f(x) + 2]\n\\end{aligned}\n\\] This doesn’t allow us to conclude anything about the nature of \\(g\\). A simple counter-example will show that if \\(f\\) is odd, \\(g\\) need not be odd. For instance, if \\(f(x)= x\\), we have \\(g(x) = x - 2\\), which is neither odd nor even.\nIf \\(f\\) is even, then \\(f(-x) = f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= f(x) - 2\\\\\n&= g(x)\n\\end{aligned}\n\\] Therefore, if \\(f\\) is even, then \\(g\\) is also even. A similar argument holds for the case when \\(g\\) is even.",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-1"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-009.html",
+    "href": "calculus/bank/question-009.html",
+    "title": "Question-9",
+    "section": "",
+    "text": "Consider the function \\(f(x)= x+\\cfrac{1}{x}\\). Which of the following options are correct?\n\n\\(f\\) is an injective function, if the domain of \\(f\\) is \\(\\mathbb{R}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{N}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Q}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{N}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(f\\) is an injective function, if the domain of \\(f\\) is \\(\\mathbb{R}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{N}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Q}\\setminus\\{0\\}\\).\n\\(f\\) is an injective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{N}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\\(f\\) is a surjective function if the domain of \\(f\\) is \\(\\mathbb{Z}\\setminus\\{0\\}\\) and co-domain of \\(f\\) is \\(\\mathbb{Q}\\).\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have: \\[\nf( x) =x+\\frac{1}{x}\n\\]\nLet us first try to see what all values this function can take for its natural domain, \\(\\displaystyle \\mathbb{R} \\backslash \\{0\\}\\):\n\\[\n\\begin{aligned}\nx+\\frac{1}{x} & =y\\\\\nx^{2} -yx+1 & =0\n\\end{aligned}\n\\]\nFor \\(\\displaystyle x\\in \\mathbb{R} \\backslash \\{0\\}\\), the discriminant of the above equation has to be non-negative:\n\\[\ny^{2} -4\\geqslant 0\\Longrightarrow y\\in ( \\infty ,-2] \\cup [ 2,\\infty )\n\\]\nThus the range of \\(\\displaystyle f\\) is \\(\\displaystyle ( \\infty ,-2] \\cup [ 2,\\infty )\\).\nLet us now probe the injectivity of \\(\\displaystyle f\\):\n\\[\n\\begin{aligned}\nf( x_{1}) & =f( x_{2})\\\\\nx_{1} +\\frac{1}{x_{1}} & =x_{2} +\\frac{1}{x_{2}}\\\\\nx_{1} -x_{2} +\\frac{x_{2} -x_{1}}{x_{1} x_{2}} & =0\\\\\n\\frac{( x_{1} -x_{2})( x_{1} x_{2} -1)}{x_{1} x_{2}} & =0\\\\\n( x_{1} -x_{2})( x_{1} x_{2} -1) & =0\n\\end{aligned}\n\\]\nThis suggests one of two possibilities:\n\\[\nx_{1} =x_{2} \\ \\ \\text{OR} \\ \\ x_{1} x_{2} =1\n\\]\nWith this background work, let us now jump into the options:\nOption-1: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{R} \\backslash \\{0\\}\\)\nWe see that \\(\\displaystyle f\\) is not injective. One simple example is \\(\\displaystyle f( 2) =f\\left(\\frac{1}{2}\\right)\\).\nOption-2: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{N}\\)\n\\(\\displaystyle f\\) has to be injective. Recall the condition \\(\\displaystyle x_{1} x_{2} =1\\). If \\(\\displaystyle x_{1} ,x_{2} \\in \\mathbb{N}\\), then \\(\\displaystyle x_{1} =x_{2} =1\\).\nOption-3: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{Q} \\backslash \\{0\\}\\)\nNot injective. Similar to option-1\nOption-4: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{Z} \\backslash \\{0\\}\\)\n\\(\\displaystyle f\\) is injective. Similar to option-2\nOption-5: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{N}\\) and co-domain is \\(\\displaystyle \\mathbb{Q}\\)\n\\(\\displaystyle f\\) cannot be surjective as \\(\\displaystyle 1\\in \\mathbb{Q}\\), but \\(\\displaystyle 1\\) is not in the range of \\(\\displaystyle f\\).\nOption-6: Domain of \\(\\displaystyle f\\) is \\(\\displaystyle \\mathbb{Z}\\) and co-domain is \\(\\displaystyle \\mathbb{Q}\\)\n\\(\\displaystyle f\\) cannot be surjective. Similar to option-5",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-9"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-013.html",
+    "href": "calculus/bank/question-013.html",
+    "title": "Question-13",
+    "section": "",
+    "text": "The height of a right circular cone of maximum volume that can be enclosed within a hollow sphere of radius \\(\\displaystyle R\\) is:\n\n\\(\\displaystyle R\\)\n\\(\\displaystyle \\frac{5}{4} R\\)\n\\(\\displaystyle \\frac{4}{3} R\\)\n\\(\\displaystyle \\frac{3}{2} R\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle R\\)\n\\(\\displaystyle \\frac{5}{4} R\\)\n\\(\\displaystyle \\frac{4}{3} R\\)\n\\(\\displaystyle \\frac{3}{2} R\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nInvoking symmetry, we have:\n\nIt is safe to assume that \\(\\displaystyle \\theta \\in ( 0,\\pi /2)\\). The expression for the volume as a function of \\(\\theta\\) is:\n\\[\n\\begin{equation*}\nV_{\\text{cone}} =\\frac{1}{3} \\pi ( R\\cos \\theta )^{2}[ R( 1+\\sin \\theta )] \\varpropto \\cos^{2} \\theta ( 1+\\sin \\theta )\n\\end{equation*}\n\\]\nWe can now rewrite the expression to be optimized as:\n\\[\n\\begin{equation*}\n\\left( 1-\\sin^{2} \\theta \\right)( 1+\\sin \\theta ) =-\\sin^{3} \\theta -\\sin^{2} \\theta +\\sin \\theta +1\n\\end{equation*}\n\\]\nLetting \\(\\displaystyle y=\\sin \\theta\\) and noting that \\(\\displaystyle y\\in ( 0,1)\\), we get:\n\\[\n\\begin{equation*}\nf( y) =-y^{3} -y^{2} +y+1\n\\end{equation*}\n\\]\n\\(\\displaystyle f^{\\prime }( y) =0\\Longrightarrow 3y^{2} +2y-1=0\\Longrightarrow y=\\frac{1}{3} ,-1\\). We can ignore \\(\\displaystyle -1\\) as it is extraneous. Since \\(\\displaystyle f^{\\prime \\prime} \\left(\\frac{1}{3}\\right) &lt; 0\\), we conclude that \\(\\displaystyle y=\\frac{1}{3}\\) is a local maximum. Since \\(\\displaystyle f( 0) =1\\), \\(\\displaystyle f( 1) =0\\) and \\(\\displaystyle f\\left(\\frac{1}{3}\\right)  &gt;1\\), we conclude that \\(\\displaystyle \\frac{1}{3}\\) corresponds to an absolute maximum in \\(\\displaystyle ( 0,1)\\) for \\(\\displaystyle f\\).\nPlugging this back in the expression for height, we get \\(\\displaystyle h=R\\left[ 1+\\frac{1}{3}\\right] =\\frac{4}{3} R\\).",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-13"
+    ]
+  },
+  {
+    "objectID": "calculus/index.html",
+    "href": "calculus/index.html",
+    "title": "Calculus and Optimization",
+    "section": "",
+    "text": "The folder named Bank contains an assorted collection of questions in calculus and optimization. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nFunctions of a single variable\nLimit\nContinuity\nDifferentiability\nTaylor series\nMaxima and minima\nOptimization involving a single variable",
+    "crumbs": [
+      "Calculus and Optimization"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-007.html",
+    "href": "machine_learning/bank/question-007.html",
+    "title": "Question-7",
+    "section": "",
+    "text": "Consider the dataset made up of blue data-points in \\(\\displaystyle \\mathbb{R}^{2}\\) as given below. Four lines are drawn passing through the center of this dataset.\n\nWhich of the following are directions associated with the principal components (PCs) that result from performing PCA?\n\n\\(\\displaystyle ( 2)\\) corresponds to the first PC and \\(\\displaystyle ( 4)\\) corresponds to the second PC\n\\(\\displaystyle ( 4)\\) corresponds to the first PC and \\(\\displaystyle ( 2)\\) corresponds to the second PC\n\\(\\displaystyle ( 3)\\) corresponds to the first PC and \\(\\displaystyle ( 1)\\) corresponds to the second PC\n\\(\\displaystyle ( 1)\\) corresponds to the first PC and \\(\\displaystyle ( 3)\\) corresponds to the second PC\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle ( 2)\\) corresponds to the first PC and \\(\\displaystyle ( 4)\\) corresponds to the second PC\n\\(\\displaystyle ( 4)\\) corresponds to the first PC and \\(\\displaystyle ( 2)\\) corresponds to the second PC\n\\(\\displaystyle ( 3)\\) corresponds to the first PC and \\(\\displaystyle ( 1)\\) corresponds to the second PC\n\\(\\displaystyle ( 1)\\) corresponds to the first PC and \\(\\displaystyle ( 3)\\) corresponds to the second PC\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe direction of maximum variance is \\(\\displaystyle ( 2)\\). This is the first PC. \\(\\displaystyle ( 4)\\) is orthogonal to it and is the second PC.",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
       "Question-7"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-003.html",
+    "href": "machine_learning/bank/question-003.html",
+    "title": "Question-3",
+    "section": "",
+    "text": "Which of the following is the most appropriate description of the method used in PCA to achieve dimensionality reduction?\n\nPCA achieves this by discarding a random subset of features in the dataset\nPCA achieves this by selecting those features in the dataset along which the variance of the dataset is maximised\nPCA achieves this by looking for those directions in the feature space along which the variance of the dataset is maximised\nPCA achieves this by retaining the those features in the dataset along which the variance of the dataset is minimised\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nPCA achieves this by discarding a random subset of features in the dataset\nPCA achieves this by selecting those features in the dataset along which the variance of the dataset is maximised\nPCA achieves this by looking for those directions in the feature space along which the variance of the dataset is maximised\nPCA achieves this by retaining the those features in the dataset along which the variance of the dataset is minimised\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nPCA looks for a new set of directions in feature space such that the first few directions capture the maximum variance in the data. It does this by re-orienting the feature axes, which can be thought of as rotating the axes in the feature space.",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-3"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-004.html",
+    "href": "machine_learning/bank/question-004.html",
+    "title": "Question-4",
+    "section": "",
+    "text": "PCA is performed on a mean-centered dataset in \\(\\mathbb{R}^{3}\\). If the first principal component is \\(\\cfrac{1}{\\sqrt{6}}(1, -1, 2)\\), which of the following could be the second principal component?\n\n\\((0, 0, 0)\\)\n\\(\\cfrac{1}{\\sqrt{2}}(-1, -1, 0)\\)\n\\((0, 1, 2)\\)\n\\(\\cfrac{1}{\\sqrt{5}}(0, 1, 2)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\((0, 0, 0)\\)\n\\(\\cfrac{1}{\\sqrt{2}}(-1, -1, 0)\\)\n\\((0, 1, 2)\\)\n\\(\\cfrac{1}{\\sqrt{5}}(0, 1, 2)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe principal components are orthogonal eigenvectors of the covariance matrix. Since they are eigenvectors, \\((0, 0, 0)\\) is ruled out. Since they have to be orthogonal, only the second option is correct.",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-4"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-005.html",
+    "href": "machine_learning/bank/question-005.html",
+    "title": "Question-5",
+    "section": "",
+    "text": "\\(X\\) is the data/design matrix of shape \\(n \\times d\\), where \\(n\\) is the number of data-points and \\(d\\) is the number of features. The mean of the data-points is zero. Which of the following is the expression for the covariance matrix of the dataset?\n\n\\(\\cfrac{XX^T}{n}\\)\n\\(\\cfrac{XX^T}{d}\\)\n\\(\\cfrac{X^TX}{n}\\)\n\\(\\cfrac{X^TX}{d}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\cfrac{XX^T}{n}\\)\n\\(\\cfrac{XX^T}{d}\\)\n\\(\\cfrac{X^TX}{n}\\)\n\\(\\cfrac{X^TX}{d}\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-5"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-009.html",
+    "href": "machine_learning/bank/question-009.html",
+    "title": "Question-9",
+    "section": "",
+    "text": "Consider a covariance matrix \\(\\mathbf{C}\\) for a mean-centered dataset in \\(\\mathbb{R}^{3}\\). After performing standard PCA, the three principal components turn out to be \\(\\begin{bmatrix}1\\\\\n0\\\\\n0\n\\end{bmatrix},\\begin{bmatrix}0\\\\\n1\\\\\n0\n\\end{bmatrix},\\begin{bmatrix}0\\\\\n0\\\\\n1\n\\end{bmatrix}\\). Which of the following statements are true? You can assume that \\(\\mathbf{C}\\) is not the zero matrix.\n\n\\(\\mathbf{C}\\) is a diagonal matrix.\nThe diagonal entries of \\(\\mathbf{C}\\) are non-negative.\nThe diagonal entries of \\(\\mathbf{C}\\) are strictly greater than zero.\n\\(\\mathbf{C}\\) has to be the identity matrix.\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nTry to think of a dataset that would have these three principal components.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\mathbf{C}\\) is a diagonal matrix.\nThe diagonal entries of \\(\\mathbf{C}\\) are non-negative.\nThe diagonal entries of \\(\\mathbf{C}\\) are strictly greater than zero.\n\\(\\mathbf{C}\\) has to be the identity matrix.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince the eigenvectors of \\(\\displaystyle \\mathbf{C}\\) are themselves the standard basis vectors of \\(\\displaystyle \\mathbb{R}^{3}\\), \\(\\displaystyle \\mathbf{C}\\) is diagonal with the eigenvalues occupying the diagonal entries:\n\\[\n\\begin{equation*}\n\\mathbf{C} =\\begin{bmatrix}\n\\lambda _{1} &  & \\\\\n& \\lambda _{2} & \\\\\n&  & \\lambda _{3}\n\\end{bmatrix}\n\\end{equation*}\n\\]\nFor a valid covariance matrix, the eigenvalues are non-negative. Recall that the eigenvalues represent the variance along the principal components. A sample dataset that has this kind of a structure:\n\\[\n\\begin{equation*}\n\\mathbf{X} =\\begin{bmatrix}\n1 & 0 & -1 & 0\\\\\n0 & 1 & 0 & -1\\\\\n0 & 0 & 0 & 0\n\\end{bmatrix} \\Longrightarrow \\mathbf{C} =\\begin{bmatrix}\n0.5 &  & \\\\\n& 0.5 & \\\\\n&  & 0\n\\end{bmatrix}\n\\end{equation*}\n\\]\nVisually, these are four points that lie on the XY plane, hence there is no variance along the third dimension.",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-9"
+    ]
+  },
+  {
+    "objectID": "machine_learning/index.html",
+    "href": "machine_learning/index.html",
+    "title": "Machine Learning",
+    "section": "",
+    "text": "The folder named Bank contains an assorted collection of questions in machine learning. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nSupervised Learning\n\nRegression\n\nSimple linear regression,\nMultiple linear regression,\nRidge regression\n\nClassification\n\nLogistic regression\nK-NN\nNaive Bayes\nLinear discriminant analysis (LDA)\nSupport vector machines (SVM)\nDecision trees\nMulti-layer perceptron (MLP)\nFeed-forward neural network (ANN)\n\nBias-variance trade-off\nCross-validation\n\nLeave-one-out (LOO) cross-validation\nK-fold cross-validation\n\n\nUnsupervised Learning\n\nClustering algorithms\n\nk-means\nk-medoid,\nhierarchical clustering\n\ntop-down\nbottom-up\nsingle-linkage\nmulti-linkage\n\n\nDimensionality reduction\n\nprincipal component analysis.",
+    "crumbs": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-008.html",
+    "href": "machine_learning/bank/question-008.html",
+    "title": "Question-8",
+    "section": "",
+    "text": "Consider a dataset in \\(\\displaystyle \\mathbb{R}^{5}\\) in the context of PCA with mean zero. The only non-zero eigenvalue of the covariance matrix of the dataset is \\(\\displaystyle 2\\). What is the least possible variance along the first principal component expressed as a percentage of the total variance? Assume that the total variance is the sum of the variances along the five standard (basis) directions in \\(\\displaystyle \\mathbb{R}^{5}\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(20\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe total variance is the sum of the eigenvalues of the covariance matrix:\n\\[\n\\begin{equation*}\n\\lambda _{1} +\\cdots +\\lambda _{5}\n\\end{equation*}\n\\]\nThe first eigenvalue has to be \\(\\displaystyle 2\\). Therefore, the percentage variance captured is:\n\\[\n\\begin{equation*}\n\\frac{\\lambda _{1}}{\\lambda _{1} +\\cdots +\\lambda _{5}} =\\frac{2}{\\lambda _{1} +\\cdots +\\lambda _{5}}\n\\end{equation*}\n\\]\nTo get the least variance, the denominator has to be the largest. This happens if all eigenvalues are non-zero:\n\\[\n\\begin{equation*}\n\\frac{2}{2+2+2+2+2} =\\frac{1}{5}\n\\end{equation*}\n\\]\nExpressed as a percentage, we get \\(\\displaystyle 20\\%\\).",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-8"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-001.html",
+    "href": "machine_learning/bank/question-001.html",
+    "title": "Question-1",
+    "section": "",
+    "text": "\\(\\mathbf{w} = \\begin{bmatrix}1 \\\\ 2 \\\\ 3\\end{bmatrix}\\) is the weight vector of a linear classifier for a binary classification problem whose labels lie in the set \\(\\{0, 1\\}\\). If the bias of the classifier is set to \\(0\\), which of the following is the equation of the decision boundary for this classifier?\n\n\\(x_1 + 2x_2 + 3x_3 = 1\\)\n\\(x_1 + 2x_2 + 3x_3 = -1\\)\n\\(x_1 + 2x_2 + 3x_3 = 0\\)\n\\(x_1 - 2x_3 + 3x_3 = 0\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(x_1 + 2x_2 + 3x_3 = 1\\)\n\\(x_1 + 2x_2 + 3x_3 = -1\\)\n\\(x_1 + 2x_2 + 3x_3 = 0\\)\n\\(x_1 - 2x_3 + 3x_3 = 0\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe decision boundary for a linear classifier is given by \\(\\mathbf{w}^{T} \\mathbf{x} + b = 0\\). Since \\(b = 0\\), this just becomes \\(\\mathbf{w}^{T} \\mathbf{x} = 0\\) which results in \\(x_1 + 2x_2 + 3x_3 = 0\\).",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-1"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-010.html",
+    "href": "machine_learning/bank/question-010.html",
+    "title": "Question-10",
+    "section": "",
+    "text": "\\(\\displaystyle k:\\mathbb{R}^{2} \\times \\mathbb{R}^{2}\\rightarrow \\mathbb{R}\\) is a kernel defined as:\n\\[\\begin{equation*}\nk(\\mathbf{x} ,\\mathbf{y}) =\\left( 1+\\mathbf{x}^{T}\\mathbf{y}\\right)^{2}\n\\end{equation*}\\]\n\\(\\displaystyle \\phi :\\mathbb{R}^{2}\\rightarrow \\mathbb{R}^{D}\\) is a transformation corresponding to this kernel such that:\n\\[\\begin{equation*}\nk(\\mathbf{x} ,\\mathbf{y}) =\\phi (\\mathbf{x})^{T} \\phi (\\mathbf{y})\n\\end{equation*}\\] Find \\(\\displaystyle D\\).\n\n\n\n\n\n\nHint\n\n\n\n\n\nExpand the kernel’s output and separate the terms into those that belong to \\(\\mathbf{x}\\) and those that belong to \\(\\mathbf{y}\\).\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(6\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nExpanding the action of the kernel on \\(\\displaystyle \\mathbf{x} =( x_{1} ,x_{2}) ,\\mathbf{y} =( y_{1} ,y_{2})\\):\n\\[\\begin{equation*}\n\\begin{aligned}\nk(\\mathbf{x} ,\\mathbf{y}) & =( 1+x_{1} y_{1} +x_{2} y_{2})^{2}\\\\\n& \\\\\n& =1+x_{1}^{2} y_{1}^{2} +x_{2}^{2} y_{2}^{2} +2x_{1} x_{2} y_{1} y_{2} +2x_{1} y_{1} +2x_{2} y_{2}\\\\\n& \\\\\n& =\\phi (\\mathbf{x})^{T} \\phi (\\mathbf{y})\n\\end{aligned}\n\\end{equation*}\\]\nHere:\n\\[\\begin{equation*}\n\\phi (\\mathbf{x}) =\\begin{bmatrix}\n1\\\\\nx_{1}^{2}\\\\\nx_{2}^{2}\\\\\n\\sqrt{2} x_{1} x_{2}\\\\\n\\sqrt{2} x_{1}\\\\\n\\sqrt{2} x_{2}\n\\end{bmatrix}\n\\end{equation*}\\] We see that \\(\\displaystyle D=6\\).",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-10"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-002.html",
+    "href": "machine_learning/bank/question-002.html",
+    "title": "Question-2",
+    "section": "",
+    "text": "Which of the following classifiers produce a linear decision boundary in the feature space?\n\nPerceptron\nLogistic regression\nKernel SVM with Gaussian kernel\nA neural network with two hidden layers that has ReLU activations in the hidden layers\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nPerceptron\nLogistic regression\nKernel SVM with Gaussian kernel\nA neural network with two hidden layers that has ReLU activations in the hidden layers\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe boundary for a perceptron and logistic regression is linear and is of the form \\(\\mathbf{w}^{T} \\mathbf{x} + b = 0\\). Kernel SVM with a Gaussian kernel will have a non-linear boundary. Same is the case with a neural network with non-linear activation functions in the hidden layers.",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-2"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-006.html",
+    "href": "machine_learning/bank/question-006.html",
+    "title": "Question-6",
+    "section": "",
+    "text": "Which of the following can be the covariance matrix of a dataset in \\(\\displaystyle \\mathbb{R}^{2}\\)?\n\n\\(\\displaystyle \\begin{bmatrix}\n1 & 0\\\\\n0 & 3\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n-2 & 0\\\\\n0 & 3\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n1 & 2\\\\\n3 & 4\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n2 & 3.9\\\\\n3.9 & 8\n\\end{bmatrix}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle \\begin{bmatrix}\n1 & 0\\\\\n0 & 3\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n-2 & 0\\\\\n0 & 3\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n1 & 2\\\\\n3 & 4\n\\end{bmatrix}\\)\n\\(\\displaystyle \\begin{bmatrix}\n2 & 3.9\\\\\n3.9 & 8\n\\end{bmatrix}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nFor a matrix to be the covariance matrix of some dataset, it has to be symmetric positive semi-definite. Consider a symmetric matrix:\n\\[\n\\begin{equation*}\nC=\\begin{bmatrix}\nd_{1} & a\\\\\na & d_{2}\n\\end{bmatrix}\n\\end{equation*}\n\\]\nFor \\(\\displaystyle C\\) to be positive semi-definite, its eigenvalues have to be non-negative. The characteristic polynomial is:\n\\[\n\\begin{equation*}\n( d_{1} -\\lambda )( d_{2} -\\lambda ) -a^{2} =\\lambda ^{2} -( d_{1} +d_{2}) \\lambda +\\left( d_{1} d_{2} -a^{2}\\right)\n\\end{equation*}\n\\]\nFor the eigenvalues to be non-negative, we see that:\n\n\\(\\displaystyle d_{1} +d_{2} \\geqslant 0\\) and\n\\(\\displaystyle d_{1} d_{2} -a^{2} \\geqslant 0\\)\n\nFrom this, we conclude that both \\(\\displaystyle d_{1}\\) and \\(\\displaystyle d_{2}\\) have to be non-negative, with \\(\\displaystyle |a|\\leqslant \\sqrt{d_{1} d_{2}}\\). From the matrices given in the option, we see that (1) and (4) satisfy these conditions.",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-6"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "GATE-DA",
+    "section": "",
+    "text": "Welcome! The DA paper was first introduced in the year 2024. The duration of the exam is \\(3\\) hours. An overview of the syllabus:\n\nCalculus and Optimization\nLinear Algebra\nProbability and Statistics\nMachine Learning\nArtificial Intelligence\nProgramming, Data Structures and Algorithms\nDatabase Management Systems\n\nYou can use the sidebar to navigate through the different topics."
+  },
+  {
+    "objectID": "calculus/bank/question-011.html",
+    "href": "calculus/bank/question-011.html",
+    "title": "Question-11",
+    "section": "",
+    "text": "Find the value of the following limit:\n\\[\n\\begin{equation*}\n\\lim\\limits _{x\\rightarrow 0^{+}} \\ \\ \\frac{\\sqrt{x}}{1-e^{2\\sqrt{x}}}\n\\end{equation*}\n\\]\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(-0.5\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe can use the standard limit: \\(\\displaystyle \\lim\\limits _{x\\rightarrow 0} \\ \\frac{e^{x} -1}{x} =1\\). To get the standard form, we need to multiply and divide by \\(\\displaystyle -2\\) and notice that the inverse of the above function still has limit \\(\\displaystyle 1\\).",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-11"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-008.html",
+    "href": "calculus/bank/question-008.html",
+    "title": "Question-8",
+    "section": "",
+    "text": "Consider a function \\(f\\) defined as: \\[\nf(x) = \\begin{cases} \\displaystyle\n     3ax + b &    x &lt; 1, \\\\\n     11 &  x = 1,\\\\\n     5ax - 2b &  x &gt; 1\n   \\end{cases}\n\\] If \\(f\\) is continuous at \\(x=1\\), then find the value of \\(a+b\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(5\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have:\n\\[\nf( x) =\\begin{cases}\n{\\displaystyle 3ax+b} & x&lt; 1,\\\\\n11 & x=1,\\\\\n5ax-2b & x &gt;1\n\\end{cases}\n\\]\nSince \\(\\displaystyle f\\) is continuous at \\(\\displaystyle x=1\\), we have LHL and RHL to be equal to the value of the function at \\(\\displaystyle x=1\\). This gives us the following system of linear equations:\n\\[\n\\begin{aligned}\n3a+b & =11\\\\\n5a-2b & =11\n\\end{aligned}\n\\]\nSolving this system, we get \\(\\displaystyle a=3,b=2\\). Therefore, \\(\\displaystyle a+b=11\\).",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-8"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-015.html",
+    "href": "calculus/bank/question-015.html",
+    "title": "Question-15",
+    "section": "",
+    "text": "Consider the function:\n\\[\n\\begin{equation*}\nf( x) =\\begin{cases}\n\\sin( 2x) , & x\\leqslant 0\\\\\nmx, & x &gt;0\n\\end{cases}\n\\end{equation*}\n\\]\n\n\\(\\displaystyle f\\) is continuous for exactly one value of \\(\\displaystyle m\\)\n\\(\\displaystyle f\\) is continuous for any \\(\\displaystyle m\\)\n\\(\\displaystyle f\\) is differentiable for exactly one value of \\(\\displaystyle m\\)\n\\(\\displaystyle f\\) is differentiable for any \\(\\displaystyle m\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle f\\) is continuous for exactly one value of \\(\\displaystyle m\\)\n\\(\\displaystyle f\\) is continuous for any \\(\\displaystyle m\\)\n\\(\\displaystyle f\\) is differentiable for exactly one value of \\(\\displaystyle m\\)\n\\(\\displaystyle f\\) is differentiable for any \\(\\displaystyle m\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have:\n\\[\n\\begin{equation*}\n\\lim\\limits _{x\\rightarrow 0^{+}} \\ f( x) =\\lim\\limits _{x\\rightarrow 0^{-}} \\ f( x) =0\n\\end{equation*}\n\\]\nSince limit at \\(\\displaystyle x=0\\) is equal to \\(\\displaystyle f( 0)\\), \\(\\displaystyle f\\) is continuous for all \\(\\displaystyle m\\). The right hand derivative for \\(\\displaystyle f\\) at \\(\\displaystyle x=0\\) is \\(\\displaystyle m\\) and the left hand derivative at \\(\\displaystyle x=0\\) is \\(\\displaystyle 2\\). For \\(\\displaystyle f\\) to be differentiable at \\(\\displaystyle x=0\\), \\(\\displaystyle m=2\\) is the only possibility.",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-15"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-005.html",
+    "href": "calculus/bank/question-005.html",
+    "title": "Question-5",
+    "section": "",
+    "text": "Define a function \\(f\\) as follows:\n\\[\n\\begin{aligned}\n    f(x) = \\begin{cases}\n               kx^2+l, & \\text{if } x \\leqslant 1\\\\\n              lx^2+kx+m, & \\text{if } x &gt; 1\n          \\end{cases}\n\\end{aligned}\n\\]\nIf \\(f\\) is continuous and differentible at \\(x=1\\), find the value of \\(k-2l+m\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince \\(f\\) is continuous at \\(x = 1\\), we have:\n\\[\nk + l = l + k + m \\implies m = 0\n\\]\nSince \\(f\\) is differentiable at \\(x = 1\\), we have:\n\\[\n2k = 2l + k \\implies k = 2l\n\\]\nFrom this, we see that \\(k - 2l + m = 0\\)",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-5"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-010.html",
+    "href": "calculus/bank/question-010.html",
+    "title": "Question-10",
+    "section": "",
+    "text": "Select all options that give the correct the Taylor series expansion of the function on the left around the point \\(0\\).\n\n\\(\\sin x=x-\\cfrac{x^{3}}{3!} +\\cfrac{x^{5}}{5!} -\\cdots\\)\n\\(\\displaystyle \\sin x=1-\\frac{x^{2}}{2!} +\\frac{x^{4}}{4!} -\\cdots\\)\n\\(\\displaystyle \\cos x=1-\\frac{x^{2}}{2!} +\\frac{x^{4}}{4!} -\\cdots\\)\n\\(\\displaystyle \\cos x=x-\\frac{x^{3}}{3!} +\\frac{x^{5}}{5!} -\\cdots\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\sin x=x-\\cfrac{x^{3}}{3!} +\\cfrac{x^{5}}{5!} -\\cdots\\)\n\\(\\displaystyle \\sin x=1-\\frac{x^{2}}{2!} +\\frac{x^{4}}{4!} -\\cdots\\)\n\\(\\displaystyle \\cos x=1-\\frac{x^{2}}{2!} +\\frac{x^{4}}{4!} -\\cdots\\)\n\\(\\displaystyle \\cos x=x-\\frac{x^{3}}{3!} +\\frac{x^{5}}{5!} -\\cdots\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe Taylor series expansion of \\(\\displaystyle f( x)\\) around \\(\\displaystyle x=a\\) is given by:\n\\[\nf( x) =\\frac{f( a)}{0!} +\\frac{f^{\\prime }( a)}{1!}( x-a) +\\frac{f^{\\prime \\prime }( a)}{2!}( x-a)^{2} +\\cdots\n\\]\nFor \\(\\displaystyle \\sin x\\) and \\(\\displaystyle \\cos x\\), this becomes:\n\\[\n\\begin{aligned}\n\\sin( x) & =x-\\frac{x^{3}}{3!} +\\frac{x^{5}}{5!} -\\cdots \\\\\n& \\\\\n\\cos( x) & =1-\\frac{x^{2}}{2!} +\\frac{x^{4}}{4!}\n\\end{aligned}\n\\]",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-10"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-014.html",
+    "href": "calculus/bank/question-014.html",
+    "title": "Question-14",
+    "section": "",
+    "text": "Find the best linear approximation of \\(\\displaystyle f( x) =\\sqrt{1+x}\\) at \\(\\displaystyle x=0\\).\n\n\\(\\sqrt{1 + x}\\)\n\\(1 + x\\)\n\\(x\\)\n\\(1 + \\cfrac{x}{2}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\sqrt{1 + x}\\)\n\\(1 + x\\)\n\\(x\\)\n\\(1 + \\cfrac{x}{2}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nUsing Taylor series, the best linear approximation of \\(\\displaystyle f\\) at \\(\\displaystyle x=a\\) is given by:\n\\[\n\\begin{equation*}\nL( x)\\Bigl|_{x=a} =f( a) +f^{\\prime }( a)( x-a)\n\\end{equation*}\n\\]\nFor \\(\\displaystyle x=0\\) and \\(\\displaystyle f( x) =\\sqrt{1+x}\\), we have:\n\\[\n\\begin{equation*}\nL( x)\\Bigl|_{x=0} =1+\\frac{x}{2}\n\\end{equation*}\n\\]\nWe have used the fact that \\(\\displaystyle f^{\\prime }( x) =\\frac{1}{2\\sqrt{1+x}}\\) and \\(\\displaystyle f^{\\prime }( 0) =\\frac{1}{2}\\).",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-14"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-006.html",
+    "href": "calculus/bank/question-006.html",
+    "title": "Question-6",
+    "section": "",
+    "text": "Consider the function \\(f(x)=x^3-6x\\). Which of the following options are correct?\n\n\\(f\\) has neither local maxima nor local minima.\n\\(\\sqrt{2}\\) is a local minimum.\n\\(\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local minimum.\n\\(f\\) has two critical points.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(f\\) has neither local maxima nor local minima.\n\\(\\sqrt{2}\\) is a local minimum.\n\\(\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local maximum.\n\\(-\\sqrt{2}\\) is a local minimum.\n\\(f\\) has two critical points.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have:\n\\[\nf( x) =x^{3} -6x\n\\]\nThe first and second derivatives are:\n\\[\nf^{\\prime }( x) =3x^{2} -6,\\ f^{\\prime \\prime} ( x) =6x\n\\]\nThe critical points of \\(\\displaystyle f\\) are:\n\\[\n\\begin{aligned}\n3x^{2} -6 & =0\\\\\nx^{2} & =2\\\\\nx & =\\pm \\sqrt{2}\n\\end{aligned}\n\\]\nWe have two critical points. Now for the determination of the nature of the optimum:\n\\[\n\\begin{aligned}\nf^{\\prime \\prime} \\left(\\sqrt{2}\\right) &  &gt;0\\\\\nf^{\\prime \\prime} \\left( -\\sqrt{2}\\right) & &lt; 0\n\\end{aligned}\n\\]\n\\(\\displaystyle \\sqrt{2}\\) is a local minimum and \\(\\displaystyle -\\sqrt{2}\\) is a local maximum.",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-6"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-016.html",
+    "href": "calculus/bank/question-016.html",
+    "title": "Question-16",
+    "section": "",
+    "text": "Evaluate:\n\\[\n\\begin{equation*}\n\\lim\\limits _{x\\rightarrow -3} \\ \\ \\frac{\\sqrt{2x+22} -4}{x+3}\n\\end{equation*}\n\\]\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0.25\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe can express the Taylor series expansion for \\(\\displaystyle \\sqrt{2x+22}\\) around \\(\\displaystyle x=-3\\) as: \\[\n\\begin{equation*}\n4+\\frac{1}{4}( x+3) +( x+3)^{2} p( x)\n\\end{equation*}\n\\]\nwhere \\(\\displaystyle p( x)\\) is some polynomial of \\(\\displaystyle x\\).\n\\[\n\\begin{equation*}\n\\begin{aligned}\n\\lim\\limits _{x\\rightarrow -3} \\ \\ \\frac{\\sqrt{2x+22} -4}{x+3} & =\\lim\\limits _{x\\rightarrow -3} \\ \\ \\frac{\\frac{1}{4}( x+3) +( x+3)^{2} p( x)}{x+3}\\\\\n& \\\\\n& =\\frac{1}{4}\n\\end{aligned}\n\\end{equation*}\n\\]",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-16"
     ]
   },
   {
@@ -1586,28 +1597,6 @@
       "Probability and Statistics",
       "Bank",
       "Question-12"
-    ]
-  },
-  {
-    "objectID": "templates/NAT.html",
-    "href": "templates/NAT.html",
-    "title": "NAT",
-    "section": "",
-    "text": "Enter your question here.\n\n\n\n\n\n\nHint\n\n\n\n\n\nSuggest one or two steps that could lead to the solution.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\nEnter the correct number here.\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nEnter the solution here.",
-    "crumbs": [
-      "Templates",
-      "NAT"
-    ]
-  },
-  {
-    "objectID": "templates/code_support.html",
-    "href": "templates/code_support.html",
-    "title": "Code Support",
-    "section": "",
-    "text": "This is a snippet of Python code:\ndef printer(n):\n    for x in range(n):\n        print(x)\nTo refer to inline elements, use x.",
-    "crumbs": [
-      "Templates",
-      "Code Support"
     ]
   },
   {
