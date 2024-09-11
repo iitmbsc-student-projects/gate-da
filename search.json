@@ -838,18 +838,6 @@
     ]
   },
   {
-    "objectID": "calculus/bank/question-012.html",
-    "href": "calculus/bank/question-012.html",
-    "title": "Question-12",
-    "section": "",
-    "text": "If \\(\\displaystyle \\lim\\limits _{x\\rightarrow 4} \\ \\frac{f( x) -5}{x-2} =1\\), find \\(\\displaystyle \\lim\\limits _{x\\rightarrow 4} \\ f( x)\\).\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse the property of limits (arithmetic).\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(7\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nUsing the multiplicative property of limits:\n\\[\n\\begin{equation*}\n\\begin{aligned}\n\\lim\\limits _{x\\rightarrow 4} \\ f( x) -5 & =\\lim\\limits _{x\\rightarrow 4} \\ \\frac{f( x) -5}{x-2} \\cdot ( x-2)\\\\\n& =\\lim\\limits _{x\\rightarrow 4} \\ \\frac{f( x) -5}{x-2} \\cdot \\lim\\limits _{x\\rightarrow 4} \\ x-2\\\\\n& =1\\times 2\\\\\n& =2\n\\end{aligned}\n\\end{equation*}\n\\]\nTherefore, \\(\\displaystyle \\lim\\limits _{x\\rightarrow 4} \\ f( x) =7\\).",
-    "crumbs": [
-      "Calculus and Optimization",
-      "Bank",
-      "Question-12"
-    ]
-  },
-  {
     "objectID": "calculus/bank/question-007.html",
     "href": "calculus/bank/question-007.html",
     "title": "Question-7",
@@ -862,15 +850,15 @@
     ]
   },
   {
-    "objectID": "calculus/bank/question-002.html",
-    "href": "calculus/bank/question-002.html",
-    "title": "Question-2",
+    "objectID": "calculus/bank/question-014.html",
+    "href": "calculus/bank/question-014.html",
+    "title": "Question-14",
     "section": "",
-    "text": "Evaluate the following limit:\n\\[\n\\lim_{x \\rightarrow 2} \\cfrac{x^6 -24x -16}{x^3 +2x - 12}\n\\]\n\n\n\n\n\n\nHint\n\n\n\n\n\nL’Hopital’s rule\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(12\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThis limit has \\(\\cfrac{0}{0}\\) form. So we can try the L’Hopital’s rule. \\[\n\\begin{aligned}\n\\lim \\limits_{x \\rightarrow 2} \\cfrac{x^6 -24x -16}{x^3 +2x - 12} &= \\lim \\limits_{x \\rightarrow 2} \\cfrac{6x^5 -24}{3x^2 + 2} = 12\n\\end{aligned}\n\\] Note that the L’Hopital rule works here because the quotient of the derivatives of the numerator and denominator exists and is equal to \\(12\\). For all the conditions that have to be satisfied to apply the rule, check this Wikipedia entry.",
+    "text": "Find the best linear approximation of \\(\\displaystyle f( x) =\\sqrt{1+x}\\) at \\(\\displaystyle x=0\\).\n\n\\(\\sqrt{1 + x}\\)\n\\(1 + x\\)\n\\(x\\)\n\\(1 + \\cfrac{x}{2}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\sqrt{1 + x}\\)\n\\(1 + x\\)\n\\(x\\)\n\\(1 + \\cfrac{x}{2}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nUsing Taylor series, the best linear approximation of \\(\\displaystyle f\\) at \\(\\displaystyle x=a\\) is given by:\n\\[\n\\begin{equation*}\nL( x)\\Bigl|_{x=a} =f( a) +f^{\\prime }( a)( x-a)\n\\end{equation*}\n\\]\nFor \\(\\displaystyle x=0\\) and \\(\\displaystyle f( x) =\\sqrt{1+x}\\), we have:\n\\[\n\\begin{equation*}\nL( x)\\Bigl|_{x=0} =1+\\frac{x}{2}\n\\end{equation*}\n\\]\nWe have used the fact that \\(\\displaystyle f^{\\prime }( x) =\\frac{1}{2\\sqrt{1+x}}\\) and \\(\\displaystyle f^{\\prime }( 0) =\\frac{1}{2}\\).",
     "crumbs": [
       "Calculus and Optimization",
       "Bank",
-      "Question-2"
+      "Question-14"
     ]
   },
   {
@@ -898,15 +886,15 @@
     ]
   },
   {
-    "objectID": "calculus/bank/question-001.html",
-    "href": "calculus/bank/question-001.html",
-    "title": "Question-1",
+    "objectID": "calculus/bank/question-005.html",
+    "href": "calculus/bank/question-005.html",
+    "title": "Question-5",
     "section": "",
-    "text": "Let \\(f\\) and \\(g\\) be two real valued functions such that \\(g(x) = f(x) - 2\\). Select all true options.\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\nHint\n\n\n\n\n\n\nAn odd function is one that satisfies \\(f(-x) = -f(x)\\) for all \\(x \\in \\mathbb{R}\\).\nAn even function is one that satisfies \\(f(-x) = f(x)\\) for all \\(x \\in \\mathbb{R}\\).\n\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf \\(f\\) is odd, then \\(f(-x) = -f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= -f(x) - 2\\\\\n&= -[f(x) + 2]\n\\end{aligned}\n\\] This doesn’t allow us to conclude anything about the nature of \\(g\\). A simple counter-example will show that if \\(f\\) is odd, \\(g\\) need not be odd. For instance, if \\(f(x)= x\\), we have \\(g(x) = x - 2\\), which is neither odd nor even.\nIf \\(f\\) is even, then \\(f(-x) = f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= f(x) - 2\\\\\n&= g(x)\n\\end{aligned}\n\\] Therefore, if \\(f\\) is even, then \\(g\\) is also even. A similar argument holds for the case when \\(g\\) is even.",
+    "text": "Define a function \\(f\\) as follows:\n\\[\n\\begin{aligned}\n    f(x) = \\begin{cases}\n               kx^2+l, & \\text{if } x \\leqslant 1\\\\\n              lx^2+kx+m, & \\text{if } x &gt; 1\n          \\end{cases}\n\\end{aligned}\n\\]\nIf \\(f\\) is continuous and differentible at \\(x=1\\), find the value of \\(k-2l+m\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince \\(f\\) is continuous at \\(x = 1\\), we have:\n\\[\nk + l = l + k + m \\implies m = 0\n\\]\nSince \\(f\\) is differentiable at \\(x = 1\\), we have:\n\\[\n2k = 2l + k \\implies k = 2l\n\\]\nFrom this, we see that \\(k - 2l + m = 0\\)",
     "crumbs": [
       "Calculus and Optimization",
       "Bank",
-      "Question-1"
+      "Question-5"
     ]
   },
   {
@@ -919,6 +907,18 @@
       "Calculus and Optimization",
       "Bank",
       "Question-9"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-019.html",
+    "href": "calculus/bank/question-019.html",
+    "title": "Question-19",
+    "section": "",
+    "text": "If \\(\\displaystyle f( x) =(\\sin x)^{\\sqrt{x}}\\), find \\(\\displaystyle f^{\\prime }( \\pi /2)\\).\n\n\n\n\n\n\nHint\n\n\n\n\n\nTake \\(\\log\\) on both sides.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have:\n\\[\n\\begin{equation*}\n\\begin{aligned}\ny & =(\\sin x)^{\\sqrt{x}}\\\\\n& \\\\\n\\ln y & =\\sqrt{x}\\ln(\\sin x)\\\\\n& \\\\\n\\frac{1}{y}\\frac{dy}{dx} & =\\frac{\\sqrt{x}}{\\sin x}\\cos x+\\cfrac{\\ln(\\sin x)}{2\\sqrt{x}}\\\\\n& \\\\\n\\Longrightarrow f^{\\prime }( x) & =(\\sin x)^{\\sqrt{x} -1}\\left[\\frac{2x\\cos x+\\ln(\\sin x)\\sin x}{2\\sqrt{x}}\\right]\n\\end{aligned}\n\\end{equation*}\n\\]\nWe see that \\(\\displaystyle f^{\\prime }( \\pi /2) =0\\). Let us visualize and see how things look around \\(\\displaystyle x=\\pi /2\\):",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-19"
     ]
   },
   {
@@ -1105,6 +1105,18 @@
     ]
   },
   {
+    "objectID": "calculus/bank/question-018.html",
+    "href": "calculus/bank/question-018.html",
+    "title": "Question-18",
+    "section": "",
+    "text": "The line \\(\\displaystyle y=x\\) is a tangent to the parabola \\(\\displaystyle y=x^{2} +C\\). Find \\(\\displaystyle C\\).\n\n\n\n\n\n\nHint\n\n\n\n\n\nEquate the slopes to begin with.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0.25\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet \\(\\displaystyle ( x_{0} ,x_{0})\\) be the point of tangency. Since the slope of the tangent is \\(\\displaystyle 1\\), we have\\(\\displaystyle 2x_{0} =1\\Longrightarrow x_{0} =\\frac{1}{2}\\). Using the equation of the parabola, we get:\n\\[\n\\begin{equation*}\n\\frac{1}{2} =\\frac{1}{4} +C\\Longrightarrow C=\\frac{1}{4}\n\\end{equation*}\n\\]\nSince the curves are simple enough, let us visualize this:",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-18"
+    ]
+  },
+  {
     "objectID": "calculus/bank/question-015.html",
     "href": "calculus/bank/question-015.html",
     "title": "Question-15",
@@ -1117,15 +1129,15 @@
     ]
   },
   {
-    "objectID": "calculus/bank/question-005.html",
-    "href": "calculus/bank/question-005.html",
-    "title": "Question-5",
+    "objectID": "calculus/bank/question-001.html",
+    "href": "calculus/bank/question-001.html",
+    "title": "Question-1",
     "section": "",
-    "text": "Define a function \\(f\\) as follows:\n\\[\n\\begin{aligned}\n    f(x) = \\begin{cases}\n               kx^2+l, & \\text{if } x \\leqslant 1\\\\\n              lx^2+kx+m, & \\text{if } x &gt; 1\n          \\end{cases}\n\\end{aligned}\n\\]\nIf \\(f\\) is continuous and differentible at \\(x=1\\), find the value of \\(k-2l+m\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(0\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince \\(f\\) is continuous at \\(x = 1\\), we have:\n\\[\nk + l = l + k + m \\implies m = 0\n\\]\nSince \\(f\\) is differentiable at \\(x = 1\\), we have:\n\\[\n2k = 2l + k \\implies k = 2l\n\\]\nFrom this, we see that \\(k - 2l + m = 0\\)",
+    "text": "Let \\(f\\) and \\(g\\) be two real valued functions such that \\(g(x) = f(x) - 2\\). Select all true options.\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\nHint\n\n\n\n\n\n\nAn odd function is one that satisfies \\(f(-x) = -f(x)\\) for all \\(x \\in \\mathbb{R}\\).\nAn even function is one that satisfies \\(f(-x) = f(x)\\) for all \\(x \\in \\mathbb{R}\\).\n\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIf \\(f\\) is odd, then \\(g\\) is odd.\nIf \\(f\\) is even, then \\(g\\) is even.\nIf \\(g\\) is odd, then \\(f\\) is odd.\nIf \\(g\\) is even, then \\(f\\) is even.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf \\(f\\) is odd, then \\(f(-x) = -f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= -f(x) - 2\\\\\n&= -[f(x) + 2]\n\\end{aligned}\n\\] This doesn’t allow us to conclude anything about the nature of \\(g\\). A simple counter-example will show that if \\(f\\) is odd, \\(g\\) need not be odd. For instance, if \\(f(x)= x\\), we have \\(g(x) = x - 2\\), which is neither odd nor even.\nIf \\(f\\) is even, then \\(f(-x) = f(x)\\). Then: \\[\n\\begin{aligned}\ng(-x) &= f(-x) - 2\\\\\n&= f(x) - 2\\\\\n&= g(x)\n\\end{aligned}\n\\] Therefore, if \\(f\\) is even, then \\(g\\) is also even. A similar argument holds for the case when \\(g\\) is even.",
     "crumbs": [
       "Calculus and Optimization",
       "Bank",
-      "Question-5"
+      "Question-1"
     ]
   },
   {
@@ -1141,15 +1153,27 @@
     ]
   },
   {
-    "objectID": "calculus/bank/question-014.html",
-    "href": "calculus/bank/question-014.html",
-    "title": "Question-14",
+    "objectID": "calculus/bank/question-002.html",
+    "href": "calculus/bank/question-002.html",
+    "title": "Question-2",
     "section": "",
-    "text": "Find the best linear approximation of \\(\\displaystyle f( x) =\\sqrt{1+x}\\) at \\(\\displaystyle x=0\\).\n\n\\(\\sqrt{1 + x}\\)\n\\(1 + x\\)\n\\(x\\)\n\\(1 + \\cfrac{x}{2}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\sqrt{1 + x}\\)\n\\(1 + x\\)\n\\(x\\)\n\\(1 + \\cfrac{x}{2}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nUsing Taylor series, the best linear approximation of \\(\\displaystyle f\\) at \\(\\displaystyle x=a\\) is given by:\n\\[\n\\begin{equation*}\nL( x)\\Bigl|_{x=a} =f( a) +f^{\\prime }( a)( x-a)\n\\end{equation*}\n\\]\nFor \\(\\displaystyle x=0\\) and \\(\\displaystyle f( x) =\\sqrt{1+x}\\), we have:\n\\[\n\\begin{equation*}\nL( x)\\Bigl|_{x=0} =1+\\frac{x}{2}\n\\end{equation*}\n\\]\nWe have used the fact that \\(\\displaystyle f^{\\prime }( x) =\\frac{1}{2\\sqrt{1+x}}\\) and \\(\\displaystyle f^{\\prime }( 0) =\\frac{1}{2}\\).",
+    "text": "Evaluate the following limit:\n\\[\n\\lim_{x \\rightarrow 2} \\cfrac{x^6 -24x -16}{x^3 +2x - 12}\n\\]\n\n\n\n\n\n\nHint\n\n\n\n\n\nL’Hopital’s rule\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(12\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThis limit has \\(\\cfrac{0}{0}\\) form. So we can try the L’Hopital’s rule. \\[\n\\begin{aligned}\n\\lim \\limits_{x \\rightarrow 2} \\cfrac{x^6 -24x -16}{x^3 +2x - 12} &= \\lim \\limits_{x \\rightarrow 2} \\cfrac{6x^5 -24}{3x^2 + 2} = 12\n\\end{aligned}\n\\] Note that the L’Hopital rule works here because the quotient of the derivatives of the numerator and denominator exists and is equal to \\(12\\). For all the conditions that have to be satisfied to apply the rule, check this Wikipedia entry.",
     "crumbs": [
       "Calculus and Optimization",
       "Bank",
-      "Question-14"
+      "Question-2"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-017.html",
+    "href": "calculus/bank/question-017.html",
+    "title": "Question-17",
+    "section": "",
+    "text": "Find the angle between the tangents to the curve \\(\\displaystyle y=\\frac{\\pi \\sin x}{x}\\) at \\(\\displaystyle x=\\pi\\) and \\(\\displaystyle x=-\\pi\\).\n\n\\(30^{\\circ}\\)\n\\(45^{\\circ}\\)\n\\(60^{\\circ}\\)\n\\(90^{\\circ}\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nThe derivative at a point is the slope of the tangent at that point.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(30^{\\circ}\\)\n\\(45^{\\circ}\\)\n\\(60^{\\circ}\\)\n\\(90^{\\circ}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet \\(\\displaystyle f( x) =\\frac{\\pi \\sin x}{x}\\). The slopes of the tangents to the curve at the two given points are \\(\\displaystyle f^{\\prime }( \\pi )\\) and \\(\\displaystyle f^{\\prime }( -\\pi )\\).\n\\[\n\\begin{equation*}\n\\begin{aligned}\nf^{\\prime }( x) & =\\pi \\left[\\frac{x\\cos x-\\sin x}{x^{2}}\\right]\n\\end{aligned} \\Longrightarrow \\begin{aligned}\nf^{\\prime }( \\pi ) & =-1\\\\\nf^{\\prime }( -\\pi ) & =1\n\\end{aligned}\n\\end{equation*}\n\\]\nSince the slopes satisfy \\(\\displaystyle f^{\\prime }( \\pi ) \\cdot f^{\\prime}( -\\pi ) =-1\\), the two tangents are perpendicular to each other. Hence the angle between them is \\(\\displaystyle \\boxed{90^{\\circ }}\\).",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-17"
     ]
   },
   {
@@ -1165,6 +1189,18 @@
     ]
   },
   {
+    "objectID": "calculus/bank/question-020.html",
+    "href": "calculus/bank/question-020.html",
+    "title": "Question-20",
+    "section": "",
+    "text": "Find values for the constants \\(\\displaystyle a,b\\) and \\(\\displaystyle c\\) that will make\n\\[\n\\begin{equation*}\nf( x) =\\cos x\\ \\ \\ \\text{  and  } \\ \\ g( x) =a+bx+cx^{2}\n\\end{equation*}\n\\]\nsatisfy the conditions\n\\[\n\\begin{equation*}\nf( 0) =g( 0) ,\\ \\ \\ f^{\\prime }( 0) =g^{\\prime }( 0) ,\\ \\ \\ \\ f^{\\prime \\prime }( 0) =g^{\\prime \\prime }( 0)\n\\end{equation*}\n\\]\nEnter \\(\\displaystyle a^{2} +b^{2} +c^{2}\\) as your answer.\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(2\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have:\n\\[\n\\begin{equation*}\n\\begin{aligned}\nf( 0) & =g( 0)\n\\end{aligned} \\Longrightarrow a=1\n\\end{equation*}\n\\]\n\\[\n\\begin{equation*}\nf^{\\prime }( 0) =g^{\\prime }( 0) \\Longrightarrow b=0\n\\end{equation*}\n\\]\n\\[\n\\begin{equation*}\nf^{\\prime \\prime }( 0) =g^{\\prime \\prime }( 0) \\Longrightarrow c=-1\n\\end{equation*}\n\\]\nNotice that \\(\\displaystyle g\\) is actually a local, second order approximation to \\(\\displaystyle f\\) at \\(\\displaystyle x=0\\):",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-20"
+    ]
+  },
+  {
     "objectID": "calculus/bank/question-016.html",
     "href": "calculus/bank/question-016.html",
     "title": "Question-16",
@@ -1174,6 +1210,18 @@
       "Calculus and Optimization",
       "Bank",
       "Question-16"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-012.html",
+    "href": "calculus/bank/question-012.html",
+    "title": "Question-12",
+    "section": "",
+    "text": "If \\(\\displaystyle \\lim\\limits _{x\\rightarrow 4} \\ \\frac{f( x) -5}{x-2} =1\\), find \\(\\displaystyle \\lim\\limits _{x\\rightarrow 4} \\ f( x)\\).\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse the property of limits (arithmetic).\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(7\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nUsing the multiplicative property of limits:\n\\[\n\\begin{equation*}\n\\begin{aligned}\n\\lim\\limits _{x\\rightarrow 4} \\ f( x) -5 & =\\lim\\limits _{x\\rightarrow 4} \\ \\frac{f( x) -5}{x-2} \\cdot ( x-2)\\\\\n& =\\lim\\limits _{x\\rightarrow 4} \\ \\frac{f( x) -5}{x-2} \\cdot \\lim\\limits _{x\\rightarrow 4} \\ x-2\\\\\n& =1\\times 2\\\\\n& =2\n\\end{aligned}\n\\end{equation*}\n\\]\nTherefore, \\(\\displaystyle \\lim\\limits _{x\\rightarrow 4} \\ f( x) =7\\).",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-12"
     ]
   },
   {
