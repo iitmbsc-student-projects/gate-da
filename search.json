@@ -262,6 +262,18 @@
     ]
   },
   {
+    "objectID": "linear_algebra/bank/question-042.html",
+    "href": "linear_algebra/bank/question-042.html",
+    "title": "Question-42",
+    "section": "",
+    "text": "How many orthogonal matrices of order \\(\\displaystyle n\\) exist that are made up of only zeros and ones?\n\n\\(n\\)\n\\(n^2\\)\n\\(n!\\)\n\\(n^n\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nPermute\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(n\\)\n\\(n^2\\)\n\\(n!\\)\n\\(n^n\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince the columns are orthonormal, given any two rows, zeros and ones should not appear in identical locations. Additionally, since each column/row is unit norm, there is exactly one position with a one while the rest are zeros, in each column/row. We can see that all such matrices can be obtained by permuting the columns/rows of the identity matrix. Such matrices are termed permutation matrices. Therefore, the required count is \\(\\displaystyle n!\\)",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-42"
+    ]
+  },
+  {
     "objectID": "linear_algebra/bank/question-038.html",
     "href": "linear_algebra/bank/question-038.html",
     "title": "Question-38",
@@ -295,6 +307,18 @@
       "Linear Algebra",
       "Bank",
       "Question-26"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-044.html",
+    "href": "linear_algebra/bank/question-044.html",
+    "title": "Question-44",
+    "section": "",
+    "text": "Let \\(\\displaystyle A\\) be a positive definite matrix.\n\nStatement-\\(P\\): \\(\\displaystyle A^{2}\\) is positive definite.\nStatement-\\(Q\\): \\(\\displaystyle A^{-1}\\) is positive definite.\n\nWhich of these options is correct?\n\n\\(P\\) is true, but \\(Q\\) is false.\n\\(P\\) is false, but \\(Q\\) is true.\nBoth \\(P\\) and \\(Q\\) are true.\nBoth \\(P\\) and \\(Q\\) are false.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\nSpectral theorem.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(P\\) is true, but \\(Q\\) is false.\n\\(P\\) is false, but \\(Q\\) is true.\nBoth \\(P\\) and \\(Q\\) are true.\nBoth \\(P\\) and \\(Q\\) are false.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince \\(\\displaystyle A\\) is p.d., we can decompose \\(\\displaystyle A\\) as:\n\\[\n\\begin{equation*}\nA=Q\\Sigma Q^{T}\n\\end{equation*}\n\\]\nwhere \\(\\displaystyle Q\\) is an orthogonal matrix and \\(\\Sigma\\) is a diagonal matrix with positive entries on the diagonal. It follows that:\n\\[\n\\begin{equation*}\n\\begin{aligned}\nA^{2} & =Q\\Sigma ^{2} Q^{T}\\\\\nA^{-1} & =Q\\Sigma ^{-1} Q^{T}\n\\end{aligned}\n\\end{equation*}\n\\]\nWe see that both these matrices are positive definite.",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-44"
     ]
   },
   {
@@ -1811,6 +1835,42 @@
       "Linear Algebra",
       "Bank",
       "Question-4"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-043.html",
+    "href": "linear_algebra/bank/question-043.html",
+    "title": "Question-43",
+    "section": "",
+    "text": "Consider the following matrix:\n\\[\\begin{equation*}\n\\begin{bmatrix}\n1 & b\\\\\nb & 9\n\\end{bmatrix}\n\\end{equation*}\\]\nUnder what conditions is this matrix positive semi-definite?\n\n\\(b \\in (\\infty, -3] \\cup [3, \\infty)\\)\n\\(b \\in \\mathbb{R}\\)\n\\(b \\geq 0\\)\n\\(b \\in [-3, 3]\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nCharacteristic polynomial\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(b \\in (\\infty, -3] \\cup [3, \\infty)\\)\n\\(b \\in \\mathbb{R}\\)\n\\(b \\geq 0\\)\n\\(b \\in [-3, 3]\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nFor the matrix to be positive semi-definite, all its eigenvalues should be non-negative. This happens when \\(\\displaystyle 9-b^{2} \\geqslant 0\\Longrightarrow b^{2} \\leqslant 9\\Longrightarrow b\\in [ -3,3]\\). In general:\n\n\n\n\n\n\nNote\n\n\n\n\n\nConsider:\n\\[\\begin{equation*}\nA=\\begin{bmatrix}\na & b\\\\\nb & c\n\\end{bmatrix}\n\\end{equation*}\\]\n\\(\\displaystyle A\\) is positive semi-definite if and only if \\(\\displaystyle a\\geqslant 0\\) and \\(\\displaystyle ac-b^{2} \\geqslant 0\\). This can be derived as follows:\n\\[\\begin{equation*}\n\\begin{aligned}\n|A-\\lambda I| & =( a-\\lambda )( c-\\lambda ) -b^{2}\\\\\n& =\\lambda ^{2} -( a+c) \\lambda +ac-b^{2}\n\\end{aligned}\n\\end{equation*}\\]\nFor the roots to be non-negative, their sum and product have to be non-negative:\n\\[\\begin{equation*}\na+c\\geqslant 0\\ \\ \\ \\ \\ \\text{and} \\ \\ \\ \\ \\ ac-b^{2} \\geqslant 0\n\\end{equation*}\\]\nThis can happen only if \\(\\displaystyle a\\geqslant 0\\) and \\(\\displaystyle c\\geqslant 0\\). When clubbed with the second condition, it is enough to have just \\(\\displaystyle a\\geqslant 0\\) and \\(\\displaystyle ac-b^{2} \\geqslant 0\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-43"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-041.html",
+    "href": "linear_algebra/bank/question-041.html",
+    "title": "Question-41",
+    "section": "",
+    "text": "Consider the following matrix:\n\\[\n\\begin{equation*}\n\\begin{bmatrix}\n0 & 1 & 1 & 1\\\\\n1 & 0 & 1 & 1\\\\\n1 & 1 & 0 & 1\\\\\n1 & 1 & 1 & 0\n\\end{bmatrix}\n\\end{equation*}\n\\]\nWhat is the largest eigenvalue of the above matrix?\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(3\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nConsider:\n\\[\n\\begin{equation*}\nA=\\begin{bmatrix}\n1 & 1 & 1 & 1\\\\\n1 & 1 & 1 & 1\\\\\n1 & 1 & 1 & 1\\\\\n1 & 1 & 1 & 1\n\\end{bmatrix} ,\\ I=\\begin{bmatrix}\n1 &  &  & \\\\\n& 1 &  & \\\\\n&  & 1 & \\\\\n&  &  & 1\n\\end{bmatrix}\n\\end{equation*}\n\\]\nThen, the matrix we are interested in is \\(\\displaystyle A-I\\). Let \\(\\displaystyle ( \\lambda ,v)\\) be an eigenpair of \\(\\displaystyle A\\).\n\\[\n\\begin{equation*}\n\\begin{aligned}\n( A-I) v & =\\lambda v\\\\\n\\Longleftrightarrow Av & =( \\lambda +1) v\n\\end{aligned}\n\\end{equation*}\n\\]\nWe have shown \\(\\displaystyle ( \\lambda ,v)\\) is an eigenpair of \\(\\displaystyle A-I\\) if and only if \\(\\displaystyle ( \\lambda +1,v)\\) is an eigenpair of \\(\\displaystyle A\\). Now:\n\\[\n\\begin{equation*}\nA=\\begin{bmatrix}\n1\\\\\n1\\\\\n1\\\\\n1\n\\end{bmatrix}\\begin{bmatrix}\n1 & 1 & 1 & 1\n\\end{bmatrix} =uu^{T} ;\\ \\ \\ \\ \\ \\ u=\\begin{bmatrix}\n1\\\\\n1\\\\\n1\\\\\n1\n\\end{bmatrix}\n\\end{equation*}\n\\]\nClearly, \\(\\displaystyle A\\) is a matrix of unit rank with \\(\\displaystyle ( 4,u)\\) as an eigenpair. The other kind of eigenpair is \\(\\displaystyle ( 0,v)\\), where \\(\\displaystyle v\\perp u\\). We can ignore this since we are only interested in the largest eigenvalue. Therefore, \\(\\displaystyle ( 3,u)\\) is an eigenpair of \\(\\displaystyle A-I\\). By the previous result, \\(\\displaystyle 3\\) happens to be the largest eigenvalue of \\(\\displaystyle A-I\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-41"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-045.html",
+    "href": "linear_algebra/bank/question-045.html",
+    "title": "Question-45",
+    "section": "",
+    "text": "An ellipse can be represented by a quadratic form whose coefficient matrix is positive definite. The general equation is given by: \\[\n\\begin{bmatrix}\nx & y\n\\end{bmatrix}A \\begin{bmatrix}\nx\\\\\ny\n\\end{bmatrix} = 1\n\\] Visually:\n\nConsider the ellipse given by:\n\\[\n\\begin{equation*}\n5x^{2} +8xy+5y^{2} =1\n\\end{equation*}\n\\]\nSelect all true statements concerning the major axis of this ellipse.\n\nA unit vector along the major axis of the ellipse is \\(\\displaystyle \\left(\\frac{1}{\\sqrt{2}} ,\\frac{1}{\\sqrt{2}}\\right)\\).\nA unit vector along the major axis of the ellipse is \\(\\displaystyle \\left(\\frac{-1}{\\sqrt{2}} ,\\frac{1}{\\sqrt{2}}\\right)\\).\nThe length of the major axis of the ellipse is \\(\\cfrac{2}{3}\\).\nThe length of the major axis of the ellipse is \\(\\displaystyle 2\\).\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nDiagonalize the coefficient matrix corresponding to the quadratic form.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nA unit vector along the major axis of the ellipse is \\(\\displaystyle \\left(\\frac{1}{\\sqrt{2}} ,\\frac{1}{\\sqrt{2}}\\right)\\).\nA unit vector along the major axis of the ellipse is \\(\\displaystyle \\left(\\frac{-1}{\\sqrt{2}} ,\\frac{1}{\\sqrt{2}}\\right)\\).\nThe length of the major axis of the ellipse is \\(\\cfrac{2}{3}\\).\nThe length of the major axis of the ellipse is \\(\\displaystyle 2\\).\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\nStep-1\nThe coefficient matrix corresponding to the quadratic form is:\n\\[\n\\begin{equation*}\nA=\\begin{bmatrix}\n5 & 4\\\\\n4 & 5\n\\end{bmatrix}\n\\end{equation*}\n\\]\nLet us now find the eigenvalues and eigenvectors of \\(\\displaystyle A\\):\n\\[\n\\begin{equation*}\n\\begin{aligned}\n|A-\\lambda I| & =\\lambda ^{2} -10\\lambda +9\n\\end{aligned}\n\\end{equation*}\n\\]\nWe get \\(\\displaystyle \\lambda =1,9\\). Now for the eigenvectors:\n\n\nStep-2\nFor \\(\\displaystyle \\lambda _{1} =1\\):\n\\[\n\\begin{equation*}\n\\begin{bmatrix}\n4 & 4\\\\\n4 & 4\n\\end{bmatrix}\\begin{bmatrix}\na\\\\\nb\n\\end{bmatrix} =\\begin{bmatrix}\n0\\\\\n0\n\\end{bmatrix}\n\\end{equation*}\n\\]\nAny non-zero multiple of \\(\\displaystyle ( -1,1)\\) is an eigenvector. A unit eigenvector in this direction is \\(\\displaystyle \\frac{1}{\\sqrt{2}}( -1,1)\\).\nFor \\(\\displaystyle \\lambda _{2} =9\\):\n\\[\n\\begin{equation*}\n\\begin{bmatrix}\n-4 & 4\\\\\n4 & -4\n\\end{bmatrix}\\begin{bmatrix}\na\\\\\nb\n\\end{bmatrix} =\\begin{bmatrix}\n0\\\\\n0\n\\end{bmatrix}\n\\end{equation*}\n\\]\nAny non-zero multiple of \\(\\displaystyle ( 1,1)\\) is an eigenvector. A unit eigenvector in this direction is \\(\\displaystyle \\frac{1}{\\sqrt{2}}( 1,1)\\).\nThe major axis lies along the eigenvector with the smallest eigenvalue, here \\(\\displaystyle \\lambda _{2} =1\\), namely \\(\\displaystyle \\left(\\frac{-1}{\\sqrt{2}} ,\\frac{1}{\\sqrt{2}}\\right)\\). The length of the major axis is given by \\(\\displaystyle \\frac{2}{\\sqrt{\\lambda _{2}}} =2\\). Let us visualize this ellipse:",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-45"
     ]
   },
   {
