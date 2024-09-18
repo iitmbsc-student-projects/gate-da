@@ -21,9 +21,9 @@ The folder named `Bank` contains an assorted collection of questions in DBMS. Al
     - Discretization
     - Sampling
     - Compression
-  - Data warehouse modelling
-    - Schema for multidimensional data models
-    - Concept hierarchies
-    - Measures
-      - Categorization
-      - Computations
+- Data warehouse modelling
+  - Schema for multidimensional data models
+  - Concept hierarchies
+  - Measures
+    - Categorization
+    - Computations
