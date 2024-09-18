@@ -160,7 +160,7 @@
     "href": "dbms/index.html",
     "title": "DBMS",
     "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in DBMS. All questions have answers, some may have hints and solutions. The syllabus for the topic is given below:\n\nER-model\nRelational model\n\nRelational algebra\nTuple calculus\nSQL\nIntegrity constraints\nNormal form\nFile organization\nIndexing\nData types\nData transformation\n\nNormalization\nDiscretization\nSampling\nCompression\n\nData warehouse modelling\n\nSchema for multidimensional data models\nConcept hierarchies\nMeasures\n\nCategorization\nComputations",
+    "text": "The folder named Bank contains an assorted collection of questions in DBMS. All questions have answers, some may have hints and solutions. The syllabus for the topic is given below:\n\nER-model\nRelational model\n\nRelational algebra\nTuple calculus\nSQL\nIntegrity constraints\nNormal form\nFile organization\nIndexing\nData types\nData transformation\n\nNormalization\nDiscretization\nSampling\nCompression\n\n\nData warehouse modelling\n\nSchema for multidimensional data models\nConcept hierarchies\nMeasures\n\nCategorization\nComputations",
     "crumbs": [
       "DBMS"
     ]
@@ -274,6 +274,18 @@
     ]
   },
   {
+    "objectID": "linear_algebra/bank/question-049.html",
+    "href": "linear_algebra/bank/question-049.html",
+    "title": "Question-49",
+    "section": "",
+    "text": "Consider a matrix \\(\\displaystyle A\\) of unit rank such that \\(\\displaystyle Av=12u\\), where \\(\\displaystyle v=\\frac{1}{2}( 1,1,1,1)\\) and \\(\\displaystyle u=\\frac{1}{3}( 2,2,1)\\). Find the smallest possible value of the largest singular value of \\(\\displaystyle A\\).\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(12\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince \\(\\displaystyle A\\) has unit rank, it has only one non-zero singular value. Therefore, we have unit vectors \\(\\displaystyle u_{1} \\in \\mathbb{R}^{3}\\) and \\(\\displaystyle v_{1} \\in \\mathbb{R}^{4}\\) (not necessarily unique) such that:\n\\[\\begin{equation*}\nA=\\sigma _{1} u_{1} v_{1}^{T}\n\\end{equation*}\\]\nWe have:\n\\[\\begin{equation*}\n\\begin{aligned}\nAv & =12u\n\\end{aligned} \\Longrightarrow \\begin{aligned}\n\\sigma _{1} u_{1} v_{1}^{T} v & =12u\n\\end{aligned}\n\\end{equation*}\\]\nTaking the norm on both sides:\n\\[\\begin{equation*}\n\\begin{aligned}\n\\sigma _{1} ||u_{1} ||\\cdot |v_{1}^{T} v| & =12\\cdot ||u||\\\\\n|v_{1}^{T} v| & =\\frac{12}{\\sigma _{1}}\n\\end{aligned}\n\\end{equation*}\\] Now applying Cauchy-Schwarz:\n\\[\\begin{equation*}\n\\frac{12}{\\sigma _{1}} \\leqslant |v_{1} |\\cdot |v|=1\\Longrightarrow \\sigma _{1} \\geqslant 12\n\\end{equation*}\\]\nThe smallest value of \\(\\displaystyle \\sigma _{1}\\) is \\(\\displaystyle \\boxed{12}\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-49"
+    ]
+  },
+  {
     "objectID": "linear_algebra/bank/question-038.html",
     "href": "linear_algebra/bank/question-038.html",
     "title": "Question-38",
@@ -286,6 +298,18 @@
     ]
   },
   {
+    "objectID": "linear_algebra/bank/question-050.html",
+    "href": "linear_algebra/bank/question-050.html",
+    "title": "Question-50",
+    "section": "",
+    "text": "Let \\(\\displaystyle A\\) be a real invertible matrix whose SVD is given by:\n\\[\\begin{equation*}\nA=U\\Sigma V^{T}\n\\end{equation*}\\]\n\n\\(\\displaystyle A^{-1} =U\\Sigma ^{-1} V^{T}\\)\n\\(\\displaystyle A^{-1} =V\\Sigma U^{T}\\)\n\\(\\displaystyle A^{-1} =V\\Sigma ^{-1} U^{T}\\)\n\\(\\displaystyle A^{-1} =U^{-1} \\Sigma ^{-1} V^{-1}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle A^{-1} =U\\Sigma ^{-1} V^{T}\\)\n\\(\\displaystyle A^{-1} =V\\Sigma U^{T}\\)\n\\(\\displaystyle A^{-1} =V\\Sigma ^{-1} U^{T}\\)\n\\(\\displaystyle A^{-1} =U^{-1} \\Sigma ^{-1} V^{-1}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince \\(\\displaystyle A\\) is invertible, it has full rank. All three matrices, \\(\\displaystyle U,\\Sigma ,V\\), are square and invertible. \\(\\displaystyle \\Sigma\\) in particular is diagonal with non-zero entries on the diagonal. Recall that \\(\\displaystyle U\\) and \\(\\displaystyle V\\) are orthogonal. It follows that the transpose is the inverse for these two matrices. With all this the inverse becomes:\n\\[\\begin{equation*}\nA^{-1} =V\\Sigma ^{-1} U^{T}\n\\end{equation*}\\] We can check this:\n\\[\\begin{equation*}\nAA^{-1} =\\left( U\\Sigma V^{T}\\right)\\left( V\\Sigma ^{-1} U^{T}\\right) =I\n\\end{equation*}\\]",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-50"
+    ]
+  },
+  {
     "objectID": "linear_algebra/bank/question-027.html",
     "href": "linear_algebra/bank/question-027.html",
     "title": "Question-27",
@@ -295,6 +319,18 @@
       "Linear Algebra",
       "Bank",
       "Question-27"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-048.html",
+    "href": "linear_algebra/bank/question-048.html",
+    "title": "Question-48",
+    "section": "",
+    "text": "Find the singular values of the following matrix:\n\\[\\begin{equation*}\n\\begin{bmatrix}\n-4 & -6\\\\\n3 & -8\n\\end{bmatrix}\n\\end{equation*}\\]\n\n\\(\\sigma_1 = 1, \\sigma_2 = 0\\)\n\\(\\sigma_1 = 10, \\sigma_2 = 5\\)\n\\(\\sigma_1 = 100, \\sigma_2 = 25\\)\n\\(\\sigma_1 = \\sigma_2 = 0\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\sigma_1 = 1, \\sigma_2 = 0\\)\n\\(\\sigma_1 = 10, \\sigma_2 = 5\\)\n\\(\\sigma_1 = 100, \\sigma_2 = 25\\)\n\\(\\sigma_1 = \\sigma_2 = 0\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet \\(\\displaystyle A=\\begin{bmatrix}\n-4 & -6\\\\\n3 & -8\n\\end{bmatrix}\\). Then, \\(\\displaystyle A^{T} A=\\begin{bmatrix}\n25 & 0\\\\\n0 & 100\n\\end{bmatrix}\\). The singular values of \\(\\displaystyle A\\) are the positive square roots of the eigenvalues of \\(\\displaystyle A^{T} A\\). Therefore, \\(\\displaystyle \\sigma _{1} =10\\) and \\(\\displaystyle \\sigma _{2} =5\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-48"
     ]
   },
   {
@@ -1676,7 +1712,7 @@
     "href": "linear_algebra/index.html",
     "title": "Linear Algebra",
     "section": "",
-    "text": "The folder named Bank contains an assorted collection of questions in linear algebra. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nVector spaces\nSubspaces\nLinear dependence and independence\nMatrices\nDeterminant\nRank\nNullity\nProjection matrix\nOrthogonal matrix\nIdempotent matrix\nPartition matrix\nQuadratic forms\nSystems of linear equations\nGaussian elimination\nEigenvalues and eigenvectors\nProjections\nLU decomposition\nSingular value decomposition",
+    "text": "The folder named Bank contains an assorted collection of questions in linear algebra. All questions have answers, some may have hints and solutions. The syllabus for this topic is given below:\n\nVector spaces\n\nVector spaces\nSubspaces\nLinear dependence and independence\n\nMatrices and their properties\n\nMatrices\nDeterminant\nRank\nNullity\n\nSpecial matrices and their properties\n\nProjection matrix\nOrthogonal matrix\nIdempotent matrix\nPartition matrix\n\nProjections\nSystems of linear equations\n\nGaussian elimination\nLU decomposition\n\nEigenvalues and eigenvectors\nQuadratic forms\nSingular value decomposition",
     "crumbs": [
       "Linear Algebra"
     ]
@@ -1763,6 +1799,18 @@
       "Linear Algebra",
       "Bank",
       "Question-34"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-047.html",
+    "href": "linear_algebra/bank/question-047.html",
+    "title": "Question-47",
+    "section": "",
+    "text": "If:\n\\[\\begin{equation*}\nA=\\begin{bmatrix}\n1 & 0 & 0 & 1/3 & 1/3 & 1/3\\\\\n0 & 1 & 0 & 1/3 & 1/3 & 1/3\\\\\n0 & 0 & 1 & 1/3 & 1/3 & 1/3\\\\\n0 & 0 & 0 & 1/3 & 1/3 & 1/3\\\\\n0 & 0 & 0 & 1/3 & 1/3 & 1/3\\\\\n0 & 0 & 0 & 1/3 & 1/3 & 1/3\n\\end{bmatrix}\n\\end{equation*}\\]\nThen consider the following matrices:\n\\[\\begin{equation*}\n\\begin{aligned}\nP & =\\begin{bmatrix}\n1 & 0 & 0 & ( 1/3)^{300} & ( 1/3)^{300} & ( 1/3)^{300}\\\\\n0 & 1 & 0 & ( 1/3)^{300} & ( 1/3)^{300} & ( 1/3)^{300}\\\\\n0 & 0 & 1 & ( 1/3)^{300} & ( 1/3)^{300} & ( 1/3)^{300}\\\\\n0 & 0 & 0 & ( 1/3)^{300} & ( 1/3)^{300} & ( 1/3)^{300}\\\\\n0 & 0 & 0 & ( 1/3)^{300} & ( 1/3)^{300} & ( 1/3)^{300}\\\\\n0 & 0 & 0 & ( 1/3)^{300} & ( 1/3)^{300} & ( 1/3)^{300}\n\\end{bmatrix}\n\\end{aligned} ,\\ Q=\\begin{bmatrix}\n1 & 0 & 0 & 100 & 100 & 100\\\\\n0 & 1 & 0 & 100 & 100 & 100\\\\\n0 & 0 & 1 & 100 & 100 & 100\\\\\n0 & 0 & 0 & 100 & 100 & 100\\\\\n0 & 0 & 0 & 100 & 100 & 100\\\\\n0 & 0 & 0 & 100 & 100 & 100\n\\end{bmatrix}\n\\end{equation*}\\]\nWhat is \\(\\displaystyle A^{300}\\) equal to?\n\n\\(A\\)\n\\(P\\)\n\\(Q\\)\n\\(P + Q\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nLook for an idempotent matrix.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(A\\)\n\\(P\\)\n\\(Q\\)\n\\(P + Q\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThis can be partitioned as follows:\n\\[\\begin{equation*}\nA=\\begin{bmatrix}\nI & B\\\\\n0 & B\n\\end{bmatrix}\n\\end{equation*}\\] where, \\(\\displaystyle B=\\frac{1}{3}\\begin{bmatrix}\n1 & 1 & 1\\\\\n1 & 1 & 1\\\\\n1 & 1 & 1\n\\end{bmatrix}\\). Notice that \\(\\displaystyle B^{2} =B\\).\nFirst, let us compute \\(\\displaystyle A^{2}\\):\n\\[\\begin{equation*}\nA^{2} =\\begin{bmatrix}\nI & B\\\\\n0 & B\n\\end{bmatrix}\\begin{bmatrix}\nI & B\\\\\n0 & B\n\\end{bmatrix} =\\begin{bmatrix}\nI & 2B\\\\\n0 & B\n\\end{bmatrix}\n\\end{equation*}\\]\nAssuming that \\(\\displaystyle A^{n-1} =( n-1) B\\), we have:\n\\[\\begin{equation*}\nA^{n} =\\begin{bmatrix}\nI & ( n-1) B\\\\\n0 & B\n\\end{bmatrix}\\begin{bmatrix}\nI & B\\\\\n0 & B\n\\end{bmatrix} =\\begin{bmatrix}\nI & nB\\\\\n0 & B\n\\end{bmatrix}\n\\end{equation*}\\]\nHence we have shown that:\n\\[\\begin{equation*}\nA^{n} =\\begin{bmatrix}\nI & nB\\\\\n0 & B\n\\end{bmatrix}\n\\end{equation*}\\]",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-47"
     ]
   },
   {
@@ -1907,6 +1955,18 @@
       "Linear Algebra",
       "Bank",
       "Question-24"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-046.html",
+    "href": "linear_algebra/bank/question-046.html",
+    "title": "Question-46",
+    "section": "",
+    "text": "Select all true statements concerning an idempotent matrix \\(A\\).\n\n\\(A^{n} = A\\), for \\(n \\geq 2\\) and \\(n \\in \\mathbb{N}\\)\nIf \\(\\lambda\\) is an eigenvalue of \\(A\\), then \\(\\lambda = 0, 1\\)\nIf \\(A\\) is invertible, then \\(A = I\\)\n\\(|\\text{det}(A)| &gt; 1\\)\n\\(A\\) is full rank.\n\\(A\\) is symmetric.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(A^{n} = A\\), for \\(n \\geq 2\\) and \\(n \\in \\mathbb{N}\\)\nIf \\(\\lambda\\) is an eigenvalue of \\(A\\), then \\(\\lambda = 0, 1\\)\nIf \\(A\\) is invertible, then \\(A = I\\)\n\\(|\\text{det}(A)| &gt; 1\\)\n\\(A\\) is full rank.\n\\(A\\) is symmetric.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf \\(\\displaystyle A\\) is idempotent, then \\(\\displaystyle A^{2} =A\\).\n\nIt follows by induction that \\(\\displaystyle A^{n} =A\\) for \\(\\displaystyle n\\geqslant 2\\) and \\(\\displaystyle n\\in \\mathbb{N}\\).\nIf \\(\\displaystyle A\\) is invertible, we have:\n\n\\[\\begin{equation*}\n\\begin{aligned}\nA & =AI\\\\\n& =AAA^{-1}\\\\\n& =A^{2} A^{-1}\\\\\n& =AA^{-1}\\\\\n& =I\n\\end{aligned}\n\\end{equation*}\\]\n\nIf \\(\\displaystyle ( \\lambda ,v)\\) is an eigenpair of \\(\\displaystyle A\\):\n\n\\[\\begin{equation*}\n\\begin{aligned}\nA^{2} v & =Av\\\\\n\\lambda ^{2} v & =\\lambda v\\\\\n\\lambda ( \\lambda -1) v & =0\n\\end{aligned} \\Longrightarrow \\lambda =0,1\n\\end{equation*}\\]",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-46"
     ]
   },
   {
