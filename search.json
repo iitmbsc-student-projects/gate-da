@@ -898,6 +898,18 @@
     ]
   },
   {
+    "objectID": "calculus/bank/question-021.html",
+    "href": "calculus/bank/question-021.html",
+    "title": "Question-21",
+    "section": "",
+    "text": "Find the domain and range of \\(\\displaystyle f( x) =\\sqrt{5-4x-x^{2}}\\).\n\nDomain is \\([0, \\infty)\\)\nDomain is \\((-\\infty, -5] \\cup [1, \\infty)\\)\nDomain is \\([-5, 1]\\)\nRange is \\([0, \\infty)\\)\nRange is \\([0, 3]\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nFind the roots of the quadratic equation and the maximum value of the quadratic expression.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nDomain is \\([0, \\infty)\\)\nDomain is \\((-\\infty, -5] \\cup [1, \\infty)\\)\nDomain is \\([-5, 1]\\)\nRange is \\([0, \\infty)\\)\nRange is \\([0, 3]\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nFor the domain, we have:\n\\[\\begin{equation*}\n\\begin{aligned}\n5-4x-x^{2} & \\geqslant 0\\\\\nx^{2} +4x-5 & \\leqslant 0\\\\\n( x+5)( x-1) & \\leqslant 0\\\\\n\\Longrightarrow x & \\in [ -5,1]\n\\end{aligned}\n\\end{equation*}\\]\nFor the range, we see that the curve \\(\\displaystyle 5-4x-x^{2}\\) is a concave downward parabola that has a maximum. So the range of \\(\\displaystyle f\\) will be \\(\\displaystyle [ 0,\\max( f( x))]\\). To compute the maximum, we can compute the derivative, set it to zero and find the point of maxima. Alternatively, if the parabola is \\(\\displaystyle ax^{2} +bx+c\\), the maximum occurs at \\(\\displaystyle \\frac{-b}{2a}\\). In this case, it occurs at \\(\\displaystyle -2\\) and the corresponding function-value is \\(\\displaystyle 3\\). Therefore, the range of \\(\\displaystyle f\\) is \\(\\displaystyle [ 0,3]\\).",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-21"
+    ]
+  },
+  {
     "objectID": "calculus/bank/question-007.html",
     "href": "calculus/bank/question-007.html",
     "title": "Question-7",
@@ -907,6 +919,18 @@
       "Calculus and Optimization",
       "Bank",
       "Question-7"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-024.html",
+    "href": "calculus/bank/question-024.html",
+    "title": "Question-24",
+    "section": "",
+    "text": "Consider: \\[\\begin{equation*}\nf( x) =\\frac{x^{4} +x^{2} +1}{x^{2} +x+1}\n\\end{equation*}\\] If \\(\\displaystyle f^{\\prime }( x) =ax+b\\), find \\(\\displaystyle a+b\\).\n\n\n\n\n\n\nHint\n\n\n\n\n\nPolynomial long division\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(1\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nUsing the identity:\n\\[\\begin{equation*}\nx^{4} +x^{2} +1=\\left( x^{2} +x+1\\right)\\left( x^{2} -x+1\\right)\n\\end{equation*}\\] we have:\n\\[\\begin{equation*}\nf( x) =x^{2} -x+1\n\\end{equation*}\\]\nFrom this, we get \\(\\displaystyle f^{\\prime }( x) =2x-1\\). Thus \\(\\displaystyle a=2,b=-1\\) and \\(\\displaystyle a+b=1\\).",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-24"
     ]
   },
   {
@@ -979,6 +1003,18 @@
       "Calculus and Optimization",
       "Bank",
       "Question-19"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-025.html",
+    "href": "calculus/bank/question-025.html",
+    "title": "Question-25",
+    "section": "",
+    "text": "Let \\(\\displaystyle f\\) be a twice differentiable, real-valued function. Let \\(\\displaystyle g( x) =f^{\\prime }( x)\\) and \\(\\displaystyle g^{\\prime }( x) =-f( x)\\). If \\(\\displaystyle f( 5) =f^{\\prime }( 5) =2\\), find \\(\\displaystyle f^{2}( 10) +g^{2}( 10)\\).\n\n\n\n\n\n\nHint\n\n\n\n\n\nLet \\(h(x) = f^2(x) + g^2(x)\\). Now differentiate.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(8\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet \\(\\displaystyle h( x) =f^{2}( x) +g^{2}( x)\\), then:\n\\[\\begin{equation*}\n\\begin{aligned}\nh^{\\prime }( x) & =2f( x) f^{\\prime }( x) +2g( x) g^{\\prime }( x)\\\\\n& =2f( x) f^{\\prime }( x) -2f^{\\prime }( x) f( x)\\\\\n& =0\n\\end{aligned}\n\\end{equation*}\\]\nHence, \\(\\displaystyle h( x) =c\\), where \\(\\displaystyle c\\) is some real number.\n\\[\\begin{equation*}\n\\begin{aligned}\nf^{2}( 10) +g^{2}( 10) & =h( 10)\\\\\n& =h( 5)\\\\\n& =f^{2}( 5) +g^{2}( 5)\\\\\n& =f^{2}( 5) +f{^{\\prime }}^{2}( 5)\\\\\n& =4+4\\\\\n& =8\n\\end{aligned}\n\\end{equation*}\\]",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-25"
     ]
   },
   {
@@ -1153,6 +1189,18 @@
     ]
   },
   {
+    "objectID": "calculus/bank/question-022.html",
+    "href": "calculus/bank/question-022.html",
+    "title": "Question-22",
+    "section": "",
+    "text": "Find the area of the rectangle with largest perimeter that can be inscribed in a circle of unit radius.\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(2\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf the angle made by the diagonal of the rectangle with the diameter is \\(\\displaystyle \\theta\\), the sides are \\(\\displaystyle 2\\cos \\theta\\) and \\(\\displaystyle 2\\sin \\theta\\).\n\nWe have to maximize:\n\\[\\begin{equation*}\n\\underset{\\theta }{\\max} \\ 4(\\cos \\theta +\\sin \\theta )\n\\end{equation*}\\] subject to:\n\\[\\begin{equation*}\n0\\leqslant \\theta \\leqslant \\frac{\\pi }{2}\n\\end{equation*}\\]\nSince \\(\\displaystyle f( \\theta ) =\\cos \\theta +\\sin \\theta\\) is continuous in \\(\\displaystyle \\left[ 0,\\frac{\\pi }{2}\\right]\\), it has an absolute maximum and minimum in this interval.\n\\[\\begin{equation*}\n\\begin{aligned}\nf^{\\prime }( \\theta ) & =\\cos \\theta -\\sin \\theta\n\\end{aligned} ;\\ \\ \\ f^{\\prime \\prime }( \\theta ) =-\\sin \\theta -\\cos \\theta\n\\end{equation*}\\]\nIn the given interval, \\(\\displaystyle f^{\\prime }( \\theta ) =0\\Longrightarrow \\theta =\\frac{\\pi }{4}\\). At this point, \\(\\displaystyle f^{\\prime \\prime }\\left(\\frac{\\pi }{4}\\right) &lt; 0\\), which implies that the point is a local maximum. \\(\\displaystyle f\\left(\\frac{\\pi }{4}\\right) =\\sqrt{2}\\) and this is greater than \\(\\displaystyle f( 0) =f\\left(\\frac{\\pi }{2}\\right) =1\\). It follows that \\(\\displaystyle \\frac{\\pi }{4}\\) corresponds to the point of absolute maximum of \\(\\displaystyle f\\) in this interval. The area of the corresponding rectangle (square) is \\(\\displaystyle \\boxed{2}\\).",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-22"
+    ]
+  },
+  {
     "objectID": "calculus/bank/question-008.html",
     "href": "calculus/bank/question-008.html",
     "title": "Question-8",
@@ -1210,6 +1258,18 @@
       "Calculus and Optimization",
       "Bank",
       "Question-10"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-023.html",
+    "href": "calculus/bank/question-023.html",
+    "title": "Question-23",
+    "section": "",
+    "text": "Consider the function \\(\\displaystyle f\\) defined on the domain \\(\\displaystyle ( 0,1)\\):\n\\[\\begin{equation*}\nf( x) =x^{m}( x-1)^{n}\n\\end{equation*}\\]\n\n\\(\\displaystyle f\\) has a stationary point in the interval \\(\\displaystyle ( 0,1)\\)\n\\(\\displaystyle f\\) has a minimum in the interval \\(\\displaystyle ( 0,1)\\)\n\\(\\displaystyle f\\) has a maximum in the interval \\(\\displaystyle ( 0,1)\\)\n\\(\\displaystyle f\\) has a maximum in the interval \\(\\displaystyle ( 0,1)\\) if \\(\\displaystyle n\\) is even and a minimum in the interval \\(\\displaystyle ( 0,1)\\) if \\(\\displaystyle n\\) is odd.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle f\\) has a stationary point in the interval \\(\\displaystyle ( 0,1)\\)\n\\(\\displaystyle f\\) has a minimum in the interval \\(\\displaystyle ( 0,1)\\)\n\\(\\displaystyle f\\) has a maximum in the interval \\(\\displaystyle ( 0,1)\\)\n\\(\\displaystyle f\\) has a maximum in the interval \\(\\displaystyle ( 0,1)\\) if \\(\\displaystyle n\\) is even and a minimum in the interval \\(\\displaystyle ( 0,1)\\) if \\(\\displaystyle n\\) is odd.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have:\n\\[\\begin{equation*}\n\\begin{aligned}\nf^{\\prime }( x) & =mx^{m-1}( x-1)^{n} +nx^{m}( x-1)^{n-1}\\\\\n& =f( x)\\left[\\frac{m}{x} +\\frac{n}{x-1}\\right]\\\\\n& =f( x)\\left[\\frac{m}{x} -\\frac{n}{1-x}\\right]\n\\end{aligned}\n\\end{equation*}\\]\nTo find the stationary points, we set \\(\\displaystyle f^{\\prime }( x) =0\\). This happens when \\(\\displaystyle x^{\\star } =\\frac{m}{m+n}\\). This is in \\(\\displaystyle ( 0,1)\\).\n\\[\\begin{equation*}\n\\begin{aligned}\nf^{\\prime \\prime }( x) & =f^{\\prime }( x)\\left[\\frac{m}{x} -\\frac{n}{1-x}\\right] -f( x)\\left[\\frac{m}{x^{2}} +\\frac{n}{( 1-x)^{2}}\\right]\n\\end{aligned}\n\\end{equation*}\\]\nAt \\(\\displaystyle x^{\\star } =\\frac{m}{m+n}\\), we know that \\(\\displaystyle f^{\\prime }\\left( x^{\\star }\\right) =0\\). Therefore, \\(\\displaystyle f^{\\prime \\prime }\\left( x^{\\star }\\right)\\) becomes:\n\\[\\begin{equation*}\n\\begin{aligned}\nf^{\\prime \\prime }\\left( x^{\\star }\\right) & =-f\\left( x^{\\star }\\right)\\left[\\frac{m}{x{^{\\star }}^{2}} +\\frac{n}{\\left( 1-x^{\\star }\\right)^{2}}\\right]\n\\end{aligned}\n\\end{equation*}\\]\nThe sign of \\(\\displaystyle f^{\\prime \\prime }\\left( x^{\\star }\\right)\\) depends on the sign of \\(\\displaystyle f\\left( x^{\\star }\\right)\\).\n\\[\\begin{equation*}\nf\\left( x^{\\star }\\right) =x{^{\\star }}^{m}\\left( x^{\\star } -1\\right)^{n}\n\\end{equation*}\\]\nSince \\(\\displaystyle x^{\\star } \\in ( 0,1)\\), \\(\\displaystyle f\\left( x^{\\star }\\right)\\) is positive when \\(\\displaystyle n\\) is even and negative when \\(\\displaystyle n\\) is odd. It follows that \\(\\displaystyle x^{\\star }\\) corresponds to a maximum when \\(\\displaystyle n\\) is even and a minimum when \\(\\displaystyle n\\) is odd.",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-23"
     ]
   },
   {
