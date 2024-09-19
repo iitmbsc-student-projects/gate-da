@@ -994,6 +994,30 @@
     ]
   },
   {
+    "objectID": "calculus/bank/question-028.html",
+    "href": "calculus/bank/question-028.html",
+    "title": "Question-28",
+    "section": "",
+    "text": "Evaluate:\n\\[\n\\begin{equation*}\n\\lim\\limits _{n\\rightarrow \\infty } \\ \\frac{( n+2) !+( n+1) !}{( n+2) !-( n+1) !}\n\\end{equation*}\n\\]\n\n\n\n\n\n\nHint\n\n\n\n\n\nTake \\((n+1)!\\) outside.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(1\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\[\n\\begin{equation*}\n\\begin{aligned}\n\\lim\\limits _{n\\rightarrow \\infty } \\ \\frac{( n+2) !+( n+1) !}{( n+2) !-( n+1) !} & =\\lim\\limits _{n\\rightarrow \\infty } \\ \\frac{( n+1) ![( n+2) +1]}{( n+1) ![( n+2) -1]}\\\\\n& \\\\\n& =\\lim\\limits _{n\\rightarrow \\infty } \\ \\frac{n+3}{n+1}\\\\\n& \\\\\n& =\\lim\\limits _{n\\rightarrow \\infty } \\ \\frac{1+\\frac{3}{n}}{1+\\frac{1}{n}}\\\\\n& \\\\\n& =1\n\\end{aligned}\n\\end{equation*}\n\\]",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-28"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-030.html",
+    "href": "calculus/bank/question-030.html",
+    "title": "Question-30",
+    "section": "",
+    "text": "Let \\(\\displaystyle f:\\mathbb{R}\\rightarrow \\mathbb{R}\\) such that \\(\\displaystyle f( x+y) =f( x) +f( y)\\) for all \\(\\displaystyle x,y\\in \\mathbb{R}\\). \\(\\displaystyle f\\) is continuous at \\(\\displaystyle x=0\\). Which of these statements is true if \\(\\displaystyle \\mathbb{N,Z,Q}\\) are the set of natural numbers, integers and rational numbers respectively?\n\n\\(\\displaystyle f\\) is continuous everywhere\n\\(\\displaystyle f\\) is continuous only when \\(\\displaystyle x\\in \\mathbb{N}\\)\n\\(\\displaystyle f\\) is continuous only when \\(\\displaystyle x\\in \\mathbb{Z}\\)\n\\(\\displaystyle f\\) is continuous only when \\(\\displaystyle x\\in \\mathbb{Q}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle f\\) is continuous everywhere\n\\(\\displaystyle f\\) is continuous only when \\(\\displaystyle x\\in \\mathbb{N}\\)\n\\(\\displaystyle f\\) is continuous only when \\(\\displaystyle x\\in \\mathbb{Z}\\)\n\\(\\displaystyle f\\) is continuous only when \\(\\displaystyle x\\in \\mathbb{Q}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSetting \\(\\displaystyle x=y=0\\), we see that \\(\\displaystyle f( 0) =0\\). Let us now compute the following limit for an arbitrary \\(\\displaystyle a\\in \\mathbb{R}\\):\n\\[\n\\begin{equation*}\n\\begin{aligned}\n\\lim\\limits _{h\\rightarrow 0} \\ f( a+h) & =\\lim\\limits _{h\\rightarrow 0} \\ f( a) +f( h)\\\\\n& \\\\\n& =f( a) +\\lim\\limits _{h\\rightarrow 0} \\ f( h)\\\\\n& \\\\\n& =f( a) +f( 0)\\\\\n& \\\\\n& =f( a)\n\\end{aligned}\n\\end{equation*}\n\\]\nWe have used the continuity of \\(\\displaystyle f\\) at \\(\\displaystyle x=0\\). Since the limit at \\(\\displaystyle x=a\\) is equal to the value of the function at \\(\\displaystyle x=a\\), \\(\\displaystyle f\\) is continuous at \\(\\displaystyle x=a\\). As \\(\\displaystyle a\\) was chosen to be an arbitrary point in \\(\\displaystyle \\mathbb{R}\\), \\(\\displaystyle f\\) is continuous everywhere.",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-30"
+    ]
+  },
+  {
     "objectID": "calculus/bank/question-019.html",
     "href": "calculus/bank/question-019.html",
     "title": "Question-19",
@@ -1237,6 +1261,18 @@
     ]
   },
   {
+    "objectID": "calculus/bank/question-029.html",
+    "href": "calculus/bank/question-029.html",
+    "title": "Question-29",
+    "section": "",
+    "text": "Evaluate:\n\\[\n\\begin{equation*}\n\\lim\\limits _{x\\rightarrow 0} \\ \\ \\frac{\\log( 5+x) -\\log( 5-x)}{x}\n\\end{equation*}\n\\]\n\n\n\n\n\n\nHint\n\n\n\n\n\n\\[\n\\lim\\limits _{z\\rightarrow 0} \\ \\frac{\\log( 1+z)}{z} =1\n\\]\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(\\cfrac{2}{5}\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet us make use of an existing limit:\n\\[\n\\begin{equation*}\n\\lim\\limits _{z\\rightarrow 0} \\ \\frac{\\log( 1+z)}{z} =1\n\\end{equation*}\n\\]\nWe can try to bring the numerator in this form. To this end, let:\n\\[\n\\begin{equation*}\n\\begin{aligned}\n1+y & =\\frac{5+x}{5-x}\\\\\n& \\\\\n\\Longrightarrow y & =\\frac{2x}{5-x}\n\\end{aligned}\n\\end{equation*}\n\\]\nWe can rewrite the limit as:\n\\[\n\\begin{equation*}\n\\begin{aligned}\n\\lim\\limits _{x\\rightarrow 0} \\ \\frac{\\log\\left( 1+\\frac{2x}{5-x}\\right)}{x} & =\\lim\\limits _{x\\rightarrow 0}\\left\\{\\ \\frac{\\log\\left( 1+\\frac{2x}{5-x}\\right)}{\\frac{2x}{5-x}} \\times \\frac{2}{5-x}\\right\\}\\\\\n& \\\\\n& =\\left\\{\\lim\\limits _{x\\rightarrow 0} \\ \\frac{\\log\\left( 1+\\frac{2x}{5-x}\\right)}{\\frac{2x}{5-x}}\\right\\} \\times \\lim\\limits _{x\\rightarrow 0} \\ \\frac{2}{5-x}\\\\\n& \\\\\n& =1\\times \\frac{2}{5}\\\\\n& \\\\\n& =\\frac{2}{5}\n\\end{aligned}\n\\end{equation*}\n\\]",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-29"
+    ]
+  },
+  {
     "objectID": "calculus/bank/question-001.html",
     "href": "calculus/bank/question-001.html",
     "title": "Question-1",
@@ -1246,6 +1282,30 @@
       "Calculus and Optimization",
       "Bank",
       "Question-1"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-026.html",
+    "href": "calculus/bank/question-026.html",
+    "title": "Question-26",
+    "section": "",
+    "text": "Let \\(\\displaystyle f:\\mathbb{R}\\rightarrow \\mathbb{R}\\)\n\\[\n\\begin{equation*}\nf( x) =\\frac{e^{x} -e^{-x}}{2}\n\\end{equation*}\n\\]\nConsider the following statements:\n\n\\(\\displaystyle f\\) is onto\n\\(\\displaystyle f\\) is one-one\n\\(\\displaystyle f^{-1}\\) exists\n\\(\\displaystyle f^{-1}( x) =x+\\sqrt{x^{2} +1}\\)\n\\(\\displaystyle f^{-1}\\) doesn’t exist\n\\(\\displaystyle f( x) \\geqslant 0\\) for all \\(\\displaystyle x\\in \\mathbb{R}\\)\n\nFind the number of true statements.\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(4\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\nOne-one\n\\[\n\\begin{equation*}\n\\begin{aligned}\nf( x_{1}) & =f( x_{2})\\\\\ne^{x_{1}} -e^{x_{2}} & =e^{-x_{1}} -e^{-x_{2}}\\\\\n\\left[ e^{x_{1}} -e^{x_{2}}\\right] e^{x_{1} +x_{2}} & =e^{x_{2}} -e^{x_{1}}\\\\\n\\left[ e^{x_{1}} -e^{x_{2}}\\right]\\left( e^{x_{1} +x_{2}} +1\\right) & =0\\\\\ne^{x_{1}} & =e^{x_{2}}\\\\\n\\Longrightarrow x_{1} & =x_{2}\n\\end{aligned}\n\\end{equation*}\n\\]\nWe see that \\(\\displaystyle f\\) is indeed one-one.\n\n\nOnto\nSetting \\(\\displaystyle z:=e^{x}\\) and \\(\\displaystyle y:=f( x)\\), we have:\n\\[\n\\begin{equation*}\n\\begin{aligned}\n2y & =z-\\frac{1}{z}\\\\\nz^{2} -( 2y) z-1 & =0\n\\end{aligned}\n\\end{equation*}\n\\]\nThis gives us:\n\\[\n\\begin{equation*}\nz=y\\pm \\sqrt{y^{2} +1}\n\\end{equation*}\n\\]\nSince \\(\\displaystyle z=e^{x}  &gt;0\\), we have:\n\\[\n\\begin{equation*}\nz=y+\\sqrt{y^{2} +1}\n\\end{equation*}\n\\]\nSubstituting \\(\\displaystyle z:=e^{x}\\) back:\n\\[\n\\begin{equation*}\ne^{x} =y+\\sqrt{y^{2} +1} \\Longrightarrow x=\\ln\\left( y+\\sqrt{y^{2} +1}\\right)\n\\end{equation*}\n\\]\nThis is well defined as \\(\\displaystyle y+\\sqrt{y^{2} +1}\\) is always positive. Since \\(\\displaystyle y\\) can assume any real value and there is a corresponding \\(\\displaystyle x\\) for every such \\(\\displaystyle y\\), \\(\\displaystyle f\\) is onto.\n\n\nInverse\nSince \\(\\displaystyle f\\) is both one-one and onto, \\(\\displaystyle f\\) is bijective. The inverse exists, is unique and is given by:\n\\[\n\\begin{equation*}\nf^{-1}( x) =\\ln\\left( x+\\sqrt{1+x^{2}}\\right)\n\\end{equation*}\n\\]",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-26"
+    ]
+  },
+  {
+    "objectID": "calculus/bank/question-027.html",
+    "href": "calculus/bank/question-027.html",
+    "title": "Question-27",
+    "section": "",
+    "text": "For \\(\\displaystyle x\\in \\mathbb{R}\\), the function \\(\\displaystyle f( x)\\) satisfies the following identity:\n\\[\n\\begin{equation*}\n2f( x) +f( 1-x) =x^{2}\n\\end{equation*}\n\\]\nFind \\(\\displaystyle f( 4)\\).\n\n\n\n\n\n\nHint\n\n\n\n\n\nSubstitute \\(x \\rightarrow 1 - x\\)\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(\\cfrac{23}{3}\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSubstituting \\(\\displaystyle x\\rightarrow 1-x\\), we get:\n\\[\n\\begin{equation*}\n2f( 1-x) +f( x) =( 1-x)^{2}\n\\end{equation*}\n\\]\nUsing this in conjunction with the original identity, we have:\n\\[\n\\begin{equation*}\n2f( x) -\\frac{f( x)}{2} =x^{2} -\\frac{( 1-x)^{2}}{2}\n\\end{equation*}\n\\]\nFrom this, we get:\n\\[\n\\begin{equation*}\nf( x) =\\frac{1}{3}\\left[ x^{2} +2x-1\\right]\n\\end{equation*}\n\\]\nPlugging in \\(\\displaystyle x=4\\), we get \\(\\displaystyle f( 4) =\\frac{23}{3}\\).",
+    "crumbs": [
+      "Calculus and Optimization",
+      "Bank",
+      "Question-27"
     ]
   },
   {
