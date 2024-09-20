@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://iitmbsc-student-projects.github.io/gate-da/search_bank.html</loc>
-    <lastmod>2024-09-20T02:23:55.167Z</lastmod>
+    <lastmod>2024-09-20T06:30:48.602Z</lastmod>
   </url>
   <url>
     <loc>https://iitmbsc-student-projects.github.io/gate-da/dbms/bank/question-021.html</loc>
@@ -346,7 +346,7 @@
   </url>
   <url>
     <loc>https://iitmbsc-student-projects.github.io/gate-da/calculus/bank/question-001.html</loc>
-    <lastmod>2024-07-22T07:17:15.934Z</lastmod>
+    <lastmod>2024-09-20T07:56:38.249Z</lastmod>
   </url>
   <url>
     <loc>https://iitmbsc-student-projects.github.io/gate-da/calculus/bank/question-029.html</loc>
@@ -374,7 +374,7 @@
   </url>
   <url>
     <loc>https://iitmbsc-student-projects.github.io/gate-da/index.html</loc>
-    <lastmod>2024-09-20T02:28:23.046Z</lastmod>
+    <lastmod>2024-09-20T05:26:21.658Z</lastmod>
   </url>
   <url>
     <loc>https://iitmbsc-student-projects.github.io/gate-da/machine_learning/bank/question-006.html</loc>
@@ -449,8 +449,20 @@
     <lastmod>2024-07-23T16:48:48.098Z</lastmod>
   </url>
   <url>
+    <loc>https://iitmbsc-student-projects.github.io/gate-da/calculus/bank/question-034.html</loc>
+    <lastmod>2024-09-20T07:16:13.259Z</lastmod>
+  </url>
+  <url>
     <loc>https://iitmbsc-student-projects.github.io/gate-da/calculus/bank/question-005.html</loc>
     <lastmod>2024-07-22T14:59:19.484Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iitmbsc-student-projects.github.io/gate-da/calculus/bank/question-033.html</loc>
+    <lastmod>2024-09-20T07:13:30.184Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iitmbsc-student-projects.github.io/gate-da/calculus/bank/question-032.html</loc>
+    <lastmod>2024-09-20T06:30:43.110Z</lastmod>
   </url>
   <url>
     <loc>https://iitmbsc-student-projects.github.io/gate-da/calculus/bank/question-004.html</loc>
@@ -469,12 +481,20 @@
     <lastmod>2024-09-19T08:30:48.988Z</lastmod>
   </url>
   <url>
+    <loc>https://iitmbsc-student-projects.github.io/gate-da/calculus/bank/question-031.html</loc>
+    <lastmod>2024-09-20T05:13:46.233Z</lastmod>
+  </url>
+  <url>
     <loc>https://iitmbsc-student-projects.github.io/gate-da/calculus/bank/question-007.html</loc>
     <lastmod>2024-07-23T09:48:26.815Z</lastmod>
   </url>
   <url>
     <loc>https://iitmbsc-student-projects.github.io/gate-da/calculus/bank/question-021.html</loc>
     <lastmod>2024-09-19T03:02:33.629Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iitmbsc-student-projects.github.io/gate-da/calculus/bank/question-035.html</loc>
+    <lastmod>2024-09-20T07:45:42.120Z</lastmod>
   </url>
   <url>
     <loc>https://iitmbsc-student-projects.github.io/gate-da/ai/bank/question-001.html</loc>

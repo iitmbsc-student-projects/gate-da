@@ -304,6 +304,36 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Question-30</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../calculus/bank/question-031.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-31</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../calculus/bank/question-032.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-32</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../calculus/bank/question-033.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-33</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../calculus/bank/question-034.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-34</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../calculus/bank/question-035.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-35</span></a>
+  </div>
+</li>
       </ul>
   </li>
       </ul>
@@ -1460,6 +1490,66 @@ Solution
 
 
 </main> <!-- /main -->
+<div class="mark-as-read-container">
+  <button class="mark-as-read-btn">
+    Mark as Read
+  </button>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const button = document.querySelector('.mark-as-read-btn');
+  const path = window.location.pathname; // Use the current page's path as the unique identifier
+  
+  const isRead = localStorage.getItem(path) === 'read';
+  
+  updateButtonState(button, isRead);
+  
+  button.addEventListener('click', function() {
+    const currentState = localStorage.getItem(path) === 'read';
+    const newState = !currentState;
+    
+    localStorage.setItem(path, newState ? 'read' : 'unread');
+    updateButtonState(button, newState);
+  });
+});
+
+function updateButtonState(button, isRead) {
+  if (isRead) {
+    button.textContent = 'Marked as Read';
+    button.classList.add('read');
+  } else {
+    button.textContent = 'Mark as Read';
+    button.classList.remove('read');
+  }
+}
+</script>
+
+<style>
+.mark-as-read-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mark-as-read-btn {
+  padding: 10px 15px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.mark-as-read-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.mark-as-read-btn.read {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+</style>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
