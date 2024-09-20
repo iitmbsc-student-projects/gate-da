@@ -1,6 +1,7 @@
 ---
 title: GATE-DA
 pagetitle: GATE-DA
+license: "CC BY-NC-SA"
 ---
 
 Welcome! The DA paper was first introduced in the year 2024. The duration of the exam is $3$ hours. An overview of the syllabus:

@@ -25,6 +25,7 @@ format:
     theme: 
       light: cosmo
       dark: darkly
+    include-after-body: _extensions/mark-as-read/mark-as-read.html
     fontsize: 20px
     toc: true
     code-line-numbers: true
