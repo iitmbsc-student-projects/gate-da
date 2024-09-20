@@ -6,15 +6,25 @@ website:
   page-footer: "Copyright 2024 @ IIT Madras"
   page-navigation: true
   sidebar:
+    logo: "assets/iit_logo.png"
     collapse-level: 1
     border: true
     foreground: "primary"
     contents: auto
+    search: false
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "**Updates**: Dark mode has been enabled. The icon is just below the logo. You can now search the bank using specific tags. Look for the last entry in the sidebar"
+    type: primary
+    position: below-navbar
+
 
 format:
   html:
     theme: 
-      light: [cosmo]
+      light: cosmo
+      dark: darkly
     fontsize: 20px
     toc: true
     code-line-numbers: true

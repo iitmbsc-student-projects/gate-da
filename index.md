@@ -13,4 +13,4 @@ Welcome! The DA paper was first introduced in the year 2024. The duration of the
 - Programming, Data Structures and Algorithms
 - Database Management Systems
 
-You can use the sidebar to navigate through the different topics.
+You can use the sidebar to navigate through the different topics. If you want to search for questions by category, head to the section [search the bank](search_bank.md).
