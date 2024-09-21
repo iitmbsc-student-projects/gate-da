@@ -12,12 +12,12 @@ website:
     foreground: "primary"
     contents: auto
     search: false
-  announcement: 
-    icon: info-circle
-    dismissable: true
-    content: "**Updates**: Dark mode has been enabled. The icon is just below the logo. You can now search the bank using specific tags. Look for the last entry in the sidebar"
-    type: primary
-    position: below-navbar
+  #announcement: 
+  #  icon: info-circle
+  #  dismissable: true
+  #  content: "**Updates**: Dark mode has been enabled. The icon is just below the logo. You can now search the bank using specific tags. Look for the last entry in the sidebar"
+  #  type: primary
+  #  position: below-navbar
 
 
 format:
@@ -25,7 +25,8 @@ format:
     theme: 
       light: cosmo
       dark: darkly
-    include-after-body: _extensions/mark-as-read/mark-as-read.html
+    include-after-body:
+      - _extensions/mark-as-read/mark-as-read.html
     fontsize: 20px
     toc: true
     code-line-numbers: true
