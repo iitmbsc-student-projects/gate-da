@@ -2,32 +2,27 @@
 title: Question-44
 pagetitle: Question-44
 order: 44
-categories: [ ]
-draft: true
+categories: [function]
 ---
 
-Enter your question here.
-
-- [ ] Option-1
-- [ ] Option-2
-- [ ] Option-3
-- [ ] Option-4
-
-::: {.callout-note title="Hint" collapse=true}
-
-:::
+Let $\displaystyle A=\{1,2,3,4,5\}$ and $\displaystyle B=\{1,-1\}$. Find the number of functions from $\displaystyle A$ to $\displaystyle B$.
 
 ::: {.callout-note title="Answer" collapse=true}
 
-Toggle the appropriate answers.
-
-- [x] Option-1
-- [ ] Option-2
-- [ ] Option-3
-- [ ] Option-4
+$32$
 
 :::
 
 ::: {.callout-note title="Solution" collapse=true}
+
+Each value in the domain can be mapped to one of two values in the co-domain:
+
+$$
+\begin{equation*}
+2\times \cdots \times 2=2^{5}
+\end{equation*}
+$$
+
+We can define $\displaystyle 32$ functions between $\displaystyle A$ and $\displaystyle B$.
 
 :::
