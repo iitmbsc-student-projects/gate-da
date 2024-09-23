@@ -2,32 +2,34 @@
 title: Question-13
 pagetitle: Question-13
 order: 13
-categories: [ ]
-draft: true
+categories: [linear regression]
 ---
 
-Enter your question here.
+Which of the following is the loss for a single training example $(\mathbf{x}, y)$ for a linear regression model with weight vector $\mathbf{w}$? Assume the most common scenario.
 
-- [ ] Option-1
-- [ ] Option-2
-- [ ] Option-3
-- [ ] Option-4
+- [ ] $\mathbf{w}^T \mathbf{x} - y$
 
-::: {.callout-note title="Hint" collapse=true}
+- [ ] $(\mathbf{w}^T \mathbf{x} - y)^2$
 
-:::
+- [ ] $|(\mathbf{w}^T \mathbf{x} - y)|$
+
+- [ ] $-y \log(\mathbf{w}^T\mathbf{x})$
+
 
 ::: {.callout-note title="Answer" collapse=true}
 
-Toggle the appropriate answers.
+- [ ] $\mathbf{w}^T \mathbf{x} - y$
 
-- [x] Option-1
-- [ ] Option-2
-- [ ] Option-3
-- [ ] Option-4
+- [x] $(\mathbf{w}^T \mathbf{x} - y)^2$
+
+- [ ] $|(\mathbf{w}^T \mathbf{x} - y)|$
+
+- [ ] $-y \log(\mathbf{w}^T\mathbf{x})$
 
 :::
 
 ::: {.callout-note title="Solution" collapse=true}
+
+The loss function for linear regression is usually the squared error.
 
 :::

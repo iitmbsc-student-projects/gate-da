@@ -2,16 +2,18 @@
 title: Question-15
 pagetitle: Question-15
 order: 15
-categories: [ ]
-draft: true
+categories: [clustering]
 ---
 
-Enter your question here.
+For a clustering problem with $n$ data-points and $k$ clusters, what is the maximum number of cluster assignments possible?
 
-- [ ] Option-1
-- [ ] Option-2
-- [ ] Option-3
-- [ ] Option-4
+- [ ] $k^n$
+
+- [ ] $n^k$
+
+- [ ] $nk$
+
+- [ ] $n + k$
 
 ::: {.callout-note title="Hint" collapse=true}
 
@@ -19,15 +21,22 @@ Enter your question here.
 
 ::: {.callout-note title="Answer" collapse=true}
 
-Toggle the appropriate answers.
+- [x] $k^n$
 
-- [x] Option-1
-- [ ] Option-2
-- [ ] Option-3
-- [ ] Option-4
+- [ ] $n^k$
+
+- [ ] $nk$
+
+- [ ] $n + k$
 
 :::
 
 ::: {.callout-note title="Solution" collapse=true}
+
+Each data-point can belong to one of the $k$ clusters. Therefore, we have:
+
+$$
+k \times \cdots \times k = k^{n}
+$$
 
 :::

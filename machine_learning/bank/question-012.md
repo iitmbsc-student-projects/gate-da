@@ -2,29 +2,29 @@
 title: Question-12
 pagetitle: Question-12
 order: 12
-categories: [ ]
-draft: true
+categories: [ridge regression]
 ---
 
-Enter your question here.
+What is the effect of increasing the regularization parameter $\lambda$ in Ridge Regression?
 
-- [ ] Option-1
-- [ ] Option-2
-- [ ] Option-3
-- [ ] Option-4
+- [ ] It increases the variance and decreases the bias of the model.
 
-::: {.callout-note title="Hint" collapse=true}
+- [ ] It increases both bias and variance of the model.
 
-:::
+- [ ] It increases the bias and decreases the variance of the model.
+
+- [ ] It decreases both bias and variance of the model.
+
 
 ::: {.callout-note title="Answer" collapse=true}
 
-Toggle the appropriate answers.
+- [ ] It increases the variance and decreases the bias of the model.
 
-- [x] Option-1
-- [ ] Option-2
-- [ ] Option-3
-- [ ] Option-4
+- [ ] It increases both bias and variance of the model.
+
+- [x] It increases the bias and decreases the variance of the model.
+
+- [ ] It decreases both bias and variance of the model.
 
 :::
 
