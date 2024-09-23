@@ -2566,5 +2566,185 @@
       "Bank",
       "Question-45"
     ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-031.html",
+    "href": "prob_stats/bank/question-031.html",
+    "title": "Question-31",
+    "section": "",
+    "text": "The joint distribution of \\(X\\) and \\(Y\\) is given by \\(f_{XY}(x,y) = \\dfrac{x+y}{9}\\), for \\(x = 0,1,2\\) ; \\(y=0,1\\). What is the value of Cov\\((X,Y)?\\)\n\n\\(\\dfrac{1}{27}\\)\n\\(\\dfrac{-2}{27}\\)\n\\(\\dfrac{2}{27}\\)\n\\(\\dfrac{-1}{27}\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nApply the formula : \\(Cov(X,Y) = E[XY] - E[X] E[Y]\\)\nwhere, \\(E[XY] = \\sum xyf_{XY}(x,y)\\)\n\\(E[X] = \\sum x f_X(x)\\) and \\(E[Y] = \\sum y f_Y(y)\\)\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\dfrac{1}{27}\\)\n\\(\\dfrac{-2}{27}\\)\n\\(\\dfrac{2}{27}\\)\n\\(\\dfrac{-1}{27}\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-31"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-033.html",
+    "href": "prob_stats/bank/question-033.html",
+    "title": "Question-33",
+    "section": "",
+    "text": "The weight of new born babies in a town is reported to have a standard deviation of \\(0.25\\) kg, which you suspect is too low. A sample of 10 newborn babies had weights(in kg) as \\(2.25, 2.5, 3, 2.75, 2.40, 2.20, 3.10, 2.50, 2.80, 2.75\\). Based on this information, what conclusion can you reach about your suspicion at significance level of \\(5\\%?\\)\nUse \\(F_{\\chi^2_9}^{-1}(0.95) = 16.918977\\)\n\nAccept \\(H_0\\)\nReject \\(H_0\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nNull and alternative hypothesis will be:\n\\(H_0 : \\sigma = 0.25\\) and \\(H_1 : \\sigma &gt; 0.25\\)\nTest will be : Reject \\(H_0\\) if \\(S^2 &gt; c^2\\), where \\(S^2\\) is the sample variance of the given dataset.\nUse \\(\\alpha = P\\left(\\text{Reject}~~ H_0 ~|~ H_0 \\right)\\).\nFind the value of \\(c\\) by solving the above part and then make conclusion.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nAccept \\(H_0\\)\nReject \\(H_0\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-33"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-030.html",
+    "href": "prob_stats/bank/question-030.html",
+    "title": "Question-30",
+    "section": "",
+    "text": "There are a \\(40\\%\\) proportion of girls in a school. The principal of the school suspects that girls are more likely to score a GPA more than 8. In a sample of 100 students who scored more than 8 GPA, 49 were found to be girls. Is the data enough, at a significance level of 0.05, to conclude that girls are more likely to score more than 8 GPA \\(?\\)\nUse \\(F_Z^{-1}(0.95) = 1.64\\)\n\nYes\nNo\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nNull and alternative hypothesis will be:\n\\(H_0 : p = 0.4\\) and \\(H_1 : p &gt; 0.4\\)\nDefine \\(T\\) as ``number of girls who scored more than 8 GPA”. Thus, when null hypothesis is true, \\(T \\sim \\text{Binomial}\\left(100, 0.4\\right)\\)\nTherefore, \\(E[T] = 100 \\times 0.4 = 40\\) and \\(\\text{Var}(T) = 100 \\times 0.4 \\times 0.6 = 24\\)\nUsing CLT, we can write \\(\\dfrac{T-40}{24} \\sim N(0,1)\\)\nTest will be : Reject \\(H_0\\) if \\(T &gt; c\\)\nUse \\(\\alpha = P\\left(\\text{Reject}~~ H_0 ~|~ H_0 \\right)\\).\nFind the value of \\(c\\) by solving the above part and then make conclusion.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nYes\nNo\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-30"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-029.html",
+    "href": "prob_stats/bank/question-029.html",
+    "title": "Question-29",
+    "section": "",
+    "text": "Suppose \\(X \\sim Normal (\\mu, 4)\\). For \\(n=20\\) i.i.d. samples of \\(X\\), the observed sample mean is 5.2. What conclusion would a z-test reach if the null hypothesis assumes \\(\\mu = 5\\) (against an alternative hypothesis \\(\\mu \\neq 5\\)) at a significance level of \\(\\alpha = 0.05 ?\\)\nUse \\(F_Z(-1.9599) = 0.025\\)\n\nAccept \\(H_0\\)\nReject \\(H_0\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nIf \\(X \\sim \\text{Normal}(\\mu, \\sigma^2)\\), then \\(\\overline{X} \\sim \\text{Normal}\\left(\\mu,\\dfrac{\\sigma^2}{n}\\right)\\). Thus, If \\(X \\sim \\text{Normal}(\\mu, 4)\\), then \\(\\overline{X} \\sim \\text{Normal}\\left(\\mu,\\dfrac{4}{20}\\right)\\)\nTest will be : Reject \\(H_0\\) if \\(|\\overline{X} - 5| &gt; c \\implies \\overline{X} &gt; 5+c ~~\\text{or}~~ \\overline{X} &lt; 5-c\\)\nUse \\(\\alpha = P\\left(\\text{Reject}~~ H_0 ~|~ H_0 \\right) = P\\left( |\\overline{X} - 5| &gt; c ~|~ \\mu = 5 \\right)\\). Find the value of \\(c\\) by solving the above part and then make conclusion.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nAccept \\(H_0\\)\nReject \\(H_0\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIf \\(X \\sim \\text{Normal}(\\mu, 4)\\), then \\(\\overline{X} \\sim \\text{Normal}\\left(\\mu,\\dfrac{4}{20}\\right)\\)\nTest will be : Reject \\(H_0\\) if \\(|\\overline{X} - 5| &gt; c \\implies \\overline{X} &gt; 5+c ~~\\text{or}~~ \\overline{X} &lt; 5-c\\)\nUse \\(\\alpha = P\\left(\\text{Reject}~~ H_0 ~|~ H_0 \\right) = P\\left( |\\overline{X} - 5| &gt; c ~|~ \\mu = 5 \\right)\\). \\(\\implies 0.05 = P\\left( |\\overline{X} - 5| &gt; c ~|~ \\mu = 5 \\right)\\) \\(\\implies 0.05 = P\\left( \\left|\\dfrac{\\overline{X} - 5 }{2/\\sqrt{20}} \\right| &gt; \\dfrac{c}{2/\\sqrt{20}}\\right)\\)\n\\(\\implies 0.05 = P\\left( \\left| Z \\right| &gt; \\dfrac{c}{2/\\sqrt{20}}\\right)\\)\n\\(\\implies 0.05 = 2 F_Z \\left(\\dfrac{-c}{2/\\sqrt{20}}\\right) \\implies F_Z \\left(\\dfrac{-c}{2/\\sqrt{20}}\\right) = 0.025\\)\n\\(\\implies c = -\\dfrac{2}{\\sqrt{20}} F_Z^{-1}(0.025) = -\\dfrac{2}{\\sqrt{20}} \\times (-1.9599) = 0.8765\\)\nSince \\(5.2-5 &lt; c\\), therefore we will accept \\(H_0\\).",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-29"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-032.html",
+    "href": "prob_stats/bank/question-032.html",
+    "title": "Question-32",
+    "section": "",
+    "text": "The average diameter of pipes manufactured by a company is reported to be 25mm, which you suspect to be too low. You observed a random sample of diameters of 10 pipes (in mm) as \\(24.58, 24.67, 24.99, 25.22, 25.32, 25.25, 24.96, 24.87, 25.52, 24.85\\). Based on this information, what conclusion can you reach about your suspicion at significance level of \\(5\\%?\\)\nUse \\(F_{t_9}^{-1}(0.95) = 1.8331129\\)\n\nAccept \\(H_0\\)\nReject \\(H_0\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nNull and alternative hypothesis will be:\n\\(H_0 : \\mu = 25\\) and \\(H_1 : \\mu &gt; 25\\) Here, we don’t know the population variance \\(\\sigma^2\\). Therefore, we will use t-test.\nTest will be : Reject \\(H_0\\) if \\(\\overline{X} &gt; c\\)\nUse \\(\\alpha = P\\left(\\text{Reject}~~ H_0 ~|~ H_0 \\right)\\).\nFind the value of \\(c\\) by solving the above part and then make conclusion.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nAccept \\(H_0\\)\nReject \\(H_0\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-32"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-011.html",
+    "href": "machine_learning/bank/question-011.html",
+    "title": "Question-11",
+    "section": "",
+    "text": "Let \\(\\Sigma\\) be the covariance matrix of a dataset, and suppose \\(\\lambda_1 \\geq \\lambda_2 \\geq \\dots \\geq \\lambda_d\\) are the eigenvalues of \\(\\Sigma\\). If we keep only the first \\(k\\) principal components, what is the fraction of total variance preserved by these \\(k\\) components?\n\n\\(\\cfrac{\\lambda_1 + \\lambda_2 + \\dots + \\lambda_k}{\\lambda_1 + \\lambda_2 + \\dots + \\lambda_d}\\)\n\\(\\cfrac{\\lambda_1^2 + \\lambda_2^2 + \\dots + \\lambda_k^2}{\\lambda_1^2 + \\lambda_2^2 + \\dots + \\lambda_d^2}\\)\n\\(\\cfrac{\\lambda_k}{\\lambda_1}\\)\n\\(\\cfrac{\\lambda_k}{\\lambda_1 + \\lambda_2 + \\dots + \\lambda_d}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\cfrac{\\lambda_1 + \\lambda_2 + \\dots + \\lambda_k}{\\lambda_1 + \\lambda_2 + \\dots + \\lambda_d}\\)\n\\(\\cfrac{\\lambda_1^2 + \\lambda_2^2 + \\dots + \\lambda_k^2}{\\lambda_1^2 + \\lambda_2^2 + \\dots + \\lambda_d^2}\\)\n\\(\\cfrac{\\lambda_k}{\\lambda_1}\\)\n\\(\\cfrac{\\lambda_k}{\\lambda_1 + \\lambda_2 + \\dots + \\lambda_d}\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-11"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-012.html",
+    "href": "machine_learning/bank/question-012.html",
+    "title": "Question-12",
+    "section": "",
+    "text": "What is the effect of increasing the regularization parameter \\(\\lambda\\) in Ridge Regression?\n\nIt increases the variance and decreases the bias of the model.\nIt increases both bias and variance of the model.\nIt increases the bias and decreases the variance of the model.\nIt decreases both bias and variance of the model.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIt increases the variance and decreases the bias of the model.\nIt increases both bias and variance of the model.\nIt increases the bias and decreases the variance of the model.\nIt decreases both bias and variance of the model.\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-12"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-013.html",
+    "href": "machine_learning/bank/question-013.html",
+    "title": "Question-13",
+    "section": "",
+    "text": "Which of the following is the loss for a single training example \\((\\mathbf{x}, y)\\) for a linear regression model with weight vector \\(\\mathbf{w}\\)? Assume the most common scenario.\n\n\\(\\mathbf{w}^T \\mathbf{x} - y\\)\n\\((\\mathbf{w}^T \\mathbf{x} - y)^2\\)\n\\(|(\\mathbf{w}^T \\mathbf{x} - y)|\\)\n\\(-y \\log(\\mathbf{w}^T\\mathbf{x})\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\mathbf{w}^T \\mathbf{x} - y\\)\n\\((\\mathbf{w}^T \\mathbf{x} - y)^2\\)\n\\(|(\\mathbf{w}^T \\mathbf{x} - y)|\\)\n\\(-y \\log(\\mathbf{w}^T\\mathbf{x})\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe loss function for linear regression is usually the squared error.",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-13"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-014.html",
+    "href": "machine_learning/bank/question-014.html",
+    "title": "Question-14",
+    "section": "",
+    "text": "You have the following \\(5\\) data points: \\((0, 0), (2, 2), (4, 4), (5, 5)\\) and \\((10, 10)\\), with corresponding labels \\(A, A, B, B\\) and \\(A\\). If you use KNN with \\(k = 3\\), what will be the predicted label for a test point at \\((3,3)\\)\n\nA\nB\nCannot be determined\nA and B equally\n\n\n\n\n\n\n\nHint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nA\nB\nCannot be determined\nA and B equally\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nAll the five points lie on the line \\(y = x\\). The distance computation therefore becomes quite trivial.",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-14"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-015.html",
+    "href": "machine_learning/bank/question-015.html",
+    "title": "Question-15",
+    "section": "",
+    "text": "For a clustering problem with \\(n\\) data-points and \\(k\\) clusters, what is the maximum number of cluster assignments possible?\n\n\\(k^n\\)\n\\(n^k\\)\n\\(nk\\)\n\\(n + k\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(k^n\\)\n\\(n^k\\)\n\\(nk\\)\n\\(n + k\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nEach data-point can belong to one of the \\(k\\) clusters. Therefore, we have:\n\\[\nk \\times \\cdots \\times k = k^{n}\n\\]",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-15"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-016.html",
+    "href": "machine_learning/bank/question-016.html",
+    "title": "Question-16",
+    "section": "",
+    "text": "Assume we have trained a linear regression model on a dataset with two features:\n\nweight (in kilograms)\nheight (in meters).\n\nThe model learned the parameters \\(w_0\\), \\(w_1\\) , and \\(w_2\\), where \\(w_0\\) is the bias, \\(w_1\\) corresponds to weight (in kilograms), and \\(w_2\\) corresponds to height (in meters). Now, if we change the unit of weight to grams and retrain the model on the same dataset, how will the learned weight parameters \\(w_1\\) and \\(w_2\\) change?\n\n\\(w_1\\) will increase by a factor of 1000, \\(w_2\\) will remain the same.\n\\(w_1\\) will decrease by a factor of 1000, \\(w_2\\) will remain the same.\nBoth \\(w_1\\) and \\(w_2\\) will increase by a factor of 1000.\nBoth \\(w_1\\) and \\(w_2\\) will remain unchanged.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(w_1\\) will increase by a factor of 1000, \\(w_2\\) will remain the same.\n\\(w_1\\) will decrease by a factor of 1000, \\(w_2\\) will remain the same.\nBoth \\(w_1\\) and \\(w_2\\) will increase by a factor of 1000.\nBoth \\(w_1\\) and \\(w_2\\) will remain unchanged.\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-16"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-017.html",
+    "href": "machine_learning/bank/question-017.html",
+    "title": "Question-17",
+    "section": "",
+    "text": "You train a linear soft-margin SVM on a dataset with two features \\(x_1\\) and \\(x_2\\). If the dataset is linearly separable, which of the following is true about the margin?\n\nThe margin increases as the regularization parameter \\(C\\) increases.\nThe margin is independent of the regularization parameter \\(C\\).\nThe margin increases as the regularization parameter \\(C\\) decreases.\nThe margin decreases as the data points are moved farther from the decision boundary.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThe margin increases as the regularization parameter \\(C\\) increases.\nThe margin is independent of the regularization parameter \\(C\\).\nThe margin increases as the regularization parameter \\(C\\) decreases.\nThe margin decreases as the data points are moved farther from the decision boundary.\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nAs \\(C\\) decreases, the margin becomes wider, allowing the hinge-loss to keep growing.",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-17"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-018.html",
+    "href": "machine_learning/bank/question-018.html",
+    "title": "Question-18",
+    "section": "",
+    "text": "Consider an unsupervised clustering task where the data contains two clearly separated clusters. You apply k-means clustering with \\(k=2\\). After running the algorithm, you find that the clusters are not well separated, and several points that clearly belong to one cluster are assigned to the other. Which of the following adjustments is most likely to improve the clustering result?\n\nIncrease the value of \\(k\\).\nRandomly reinitialise the cluster centroids.\nScale the input data using standardisation or normalisation.\nUse a different distance metric such as Manhattan distance instead of Euclidean.\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nIncrease the value of \\(k\\).\nRandomly reinitialise the cluster centroids.\nScale the input data using standardisation or normalisation.\nUse a different distance metric such as Manhattan distance instead of Euclidean.\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-18"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-019.html",
+    "href": "machine_learning/bank/question-019.html",
+    "title": "Question-19",
+    "section": "",
+    "text": "Consider that you have trained a logistic regression model on a dataset for a binary classification problem. The model predicts the probability of a point being classified as \\(1\\) based on two features, \\(x_1\\) and \\(x_2\\). After training, the model’s decision boundary is defined by the equation \\(w_0 + w_1 x_1 + w_2 x_2 = 0\\). If the model’s predicted probability for a given point \\((x_1, x_2)\\) is 0.7, what is the value of \\(w_0 + w_1 x_1 + w_2 x_2\\) at this point?\n\n\\(\\log(0.7)\\)\n\\(\\log(0.7 / 0.3)\\)\n\\(\\log(0.3 / 0.7)\\)\n\\(-\\log(0.7)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\log(0.7)\\)\n\\(\\log(0.7 / 0.3)\\)\n\\(\\log(0.3 / 0.7)\\)\n\\(-\\log(0.7)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nWe have:\n\\[\n\\begin{equation*}\n\\begin{aligned}\n\\frac{1}{1+e^{-\\mathbf{w}^{T}\\mathbf{x}}} & =p\\\\\\\\\n\\frac{1-p}{p} & =e^{-\\mathbf{w}^{T}\\mathbf{x}}\\\\\\\\\n\\mathbf{w}^{T}\\mathbf{x} & =\\ln\\left(\\frac{p}{1-p}\\right)\n\\end{aligned}\n\\end{equation*}\n\\]\nFor \\(\\displaystyle p=0.7\\), we have:\n\\[\n\\begin{equation*}\n\\mathbf{w}^{T} \\mathbf{x} = \\ln\\left(\\frac{0.7}{0.3}\\right)\n\\end{equation*}\n\\]",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-19"
+    ]
+  },
+  {
+    "objectID": "machine_learning/bank/question-020.html",
+    "href": "machine_learning/bank/question-020.html",
+    "title": "Question-20",
+    "section": "",
+    "text": "Consider the contours of the sum-of-squared-errors function in regression along with the contours of the regularizer.\n\nWhich of the following statements are true?\n\n\\(c_1 &gt; c_2\\)\n\\(c_1 &lt; c_2\\)\nThis corresponds to LASSO regression\nThis corresponds to ridge regression\nThe optimal weight vector is \\((1, 0)\\)\nThe optimal weight vector is \\((0, 1)\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(c_1 &gt; c_2\\)\n\\(c_1 &lt; c_2\\)\nThis corresponds to LASSO regression\nThis corresponds to ridge regression\nThe optimal weight vector is \\((1, 0)\\)\nThe optimal weight vector is \\((0, 1)\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\nThe contours of the constraint are of the form:\n\n\\[\n|w_1| + |w_2| = \\theta\n\\]\n\nThis corresponds to LASSO, which uses the \\(L_1\\) norm for the weight vector.\nThe contours of the SSE function are elliptical. The center of the ellipse is the MLE solution. As we move outwards, the loss function’s value increases. So \\(c_1 &gt; c_2\\).\nThe point of intersection of the contours of SSE with the contours of the \\(L_1\\) norm is the solution. In this case, it is \\((1, 0)\\).",
+    "crumbs": [
+      "Machine Learning",
+      "Bank",
+      "Question-20"
+    ]
   }
 ]
