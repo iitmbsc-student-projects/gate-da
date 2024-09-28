@@ -1,7 +1,7 @@
 ---
 title: Question-52
 pagetitle: Question-52
-categories: [Python]
+categories: [Data Structure, Graph]
 ---
 
 Consider the graph *G* given below.

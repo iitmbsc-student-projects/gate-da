@@ -1,7 +1,7 @@
 ---
 title: Question-39
 pagetitle: Question-39
-categories: [Python]
+categories: [Linear Probing, Hash Tables]
 ---
 
 **Linear probing** is an open addressing scheme in computer programming for resolving hash collisions in hash tables. Linear probing takes the original hash index and increments the value by 1 until a free slot is found.

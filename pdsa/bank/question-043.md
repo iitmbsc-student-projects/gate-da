@@ -1,7 +1,7 @@
 ---
 title: Question-43
 pagetitle: Question-43
-categories: [Python]
+categories: [Topological Sorting]
 ---
 
 A king’s summer house is being rewired. The house has 11 rooms. To avoid wires getting entangled and creating short circuits, the electricians have been asked to observe the following rules. 

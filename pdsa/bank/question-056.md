@@ -1,7 +1,7 @@
 ---
 title: Question-56
 pagetitle: Question-56
-categories: [Python]
+categories: [Data Structure, Heaps]
 ---
 
 If we perform the following operations on the max heap [30, 20, 25, 5, 15, 23, 10, 3, 2] then the resulting max heap would be:

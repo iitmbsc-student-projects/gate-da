@@ -1,7 +1,7 @@
 ---
 title: Question-53
 pagetitle: Question-53
-categories: [Python]
+categories: [Data Structure, Graph]
 ---
 
 Consider an undirected connected graph $G$ with $V$ vertices, where all edge costs are distinct. Which of the following statement(s) is/are **true**?

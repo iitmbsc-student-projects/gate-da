@@ -1,7 +1,7 @@
 ---
 title: Question-45
 pagetitle: Question-45
-categories: [Python]
+categories: [Data Structure, Graph]
 ---
 
 Consider a graph `G` with `7` vertices, where there exists a path between every pair of vertices. Which of the following is a possible listing of the degrees of vertices in graph `G`?

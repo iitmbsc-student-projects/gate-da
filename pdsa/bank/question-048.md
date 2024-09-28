@@ -1,7 +1,7 @@
 ---
 title: Question-48
 pagetitle: Question-48
-categories: [Python]
+categories: [Data Structure, Graph]
 ---
 
 Consider a complete undirected graph with vertex set {0, 1, 2, 3, 4}. Every entry `W[i][j]` where $i \ne j$ in the matrix `W` below is the weight of the edge from vertex `i` to vertex `j`.

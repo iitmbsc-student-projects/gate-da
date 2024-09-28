@@ -1,7 +1,7 @@
 ---
 title: Question-46
 pagetitle: Question-46
-categories: [Python]
+categories: [Data Structure, Graph]
 ---
 
 Consider an undirected graph G. Let T be a depth first search traversal tree. Let `u` be a vertex in G and let `v` be the next visited vertex after visiting `u` in the traversal. Which of the following statements is always **true** ? 

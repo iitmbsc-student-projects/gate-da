@@ -1,7 +1,7 @@
 ---
 title: Question-37
 pagetitle: Question-37
-categories: [Python]
+categories: [Algorithms, Merge Sort, Time complexity]
 ---
 
 What is recurrence and time complexity for **worst case** of **Merge Sort** ? 

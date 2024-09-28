@@ -1,7 +1,7 @@
 ---
 title: Question-42
 pagetitle: Question-42
-categories: [Python]
+categories: [Data Structure, Stack, Queue]
 ---
 
 Let `S` be a stack and `Q` be a queue supporting the following operations:

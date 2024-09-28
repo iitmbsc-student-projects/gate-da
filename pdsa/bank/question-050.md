@@ -1,7 +1,7 @@
 ---
 title: Question-50
 pagetitle: Question-50
-categories: [Python]
+categories: [Algorithms, MCST]
 ---
 
 Suppose we run Prim’s algorithm and Kruskal’s algorithm on a graph `G` which have edges with distinct weights and these two algorithms produce minimum-cost spanning trees $T_P$ and $T_K$, with total minimum cost $C_p$ and $C_k$ respectively. Which of the following is **true**? 

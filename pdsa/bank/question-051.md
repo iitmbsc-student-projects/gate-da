@@ -1,7 +1,7 @@
 ---
 title: Question-51
 pagetitle: Question-51
-categories: [Python]
+categories: [Algorithms, Shortest Path]
 ---
 
 Consider a weighted, directed acyclic graph $G = (V, E, w)$ in which edges that leave the source vertex $s$ may have negative weights and all other edges weights are non-negative.

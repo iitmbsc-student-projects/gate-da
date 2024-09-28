@@ -1,7 +1,7 @@
 ---
 title: Question-36
 pagetitle: Question-36
-categories: [Python]
+categories: [Algorithms, Merge Sort, Time complexity]
 ---
 
 A list of `n` strings, each of length `n` is sorted in `lexicographical order` using the Merge Sort algorithm. What is its time complexity? 

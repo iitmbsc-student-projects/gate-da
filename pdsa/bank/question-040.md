@@ -1,7 +1,7 @@
 ---
 title: Question-40
 pagetitle: Question-40
-categories: [Python]
+categories: [Python, Data Structure, Linked List]
 ---
 
 ```python

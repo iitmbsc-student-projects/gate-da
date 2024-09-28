@@ -1,7 +1,7 @@
 ---
 title: Question-32
 pagetitle: Question-32
-categories: [Python]
+categories: [Asymptotic complexity]
 ---
 
 $f1(n) = 3n^2 + 2n$

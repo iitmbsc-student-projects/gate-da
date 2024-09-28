@@ -1,7 +1,7 @@
 ---
 title: Question-34
 pagetitle: Question-34
-categories: [Python]
+categories: [Algorithms, Sorting]
 ---
 
 Select the correct statement(s).

@@ -1,7 +1,7 @@
 ---
 title: Question-33
 pagetitle: Question-33
-categories: [Python]
+categories: [Time complexity]
 ---
 
 Let $g(n) = 6n^4 + 20n^3$ and $f(n) = 5762n^3\log{n} + 436n^2$. Which of the following is true?

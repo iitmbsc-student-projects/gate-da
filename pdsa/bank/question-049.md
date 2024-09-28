@@ -1,7 +1,7 @@
 ---
 title: Question-49
 pagetitle: Question-49
-categories: [Python]
+categories: [Algorithm, Floyd-Warshall]
 ---
 
 Which of the following is/are always **true** about the Floyd-Warshall algorithm?

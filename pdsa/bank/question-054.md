@@ -1,7 +1,7 @@
 ---
 title: Question-54
 pagetitle: Question-54
-categories: [Python]
+categories: [Data Structure, Heaps]
 ---
 
 Consider the max-heap [95, 70, 61, 43, 47, 24, 47, 12, 31, 39] built by repeatedly inserting values into an empty heap. Suppose the last value inserted was 95. What was the heap structure before this value was inserted?

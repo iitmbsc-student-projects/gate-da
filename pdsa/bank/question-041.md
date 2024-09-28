@@ -1,7 +1,7 @@
 ---
 title: Question-41
 pagetitle: Question-41
-categories: [Python]
+categories: [Data Structure, Graph]
 ---
 
 Suppose we obtain the following **DFS** tree rooted at node `J` for an undirected graph with vertices {A, B, C, D, E, F, G, H, I, J, K}.

@@ -1,7 +1,7 @@
 ---
 title: Question-38
 pagetitle: Question-38
-categories: [Python]
+categories: [Algorithms, Quick Sort]
 ---
 
 Which of the following statements is/are **correct** about the Quicksort algorithm? Assume that the first element in the list selected as pivot for partitioning each time. 
