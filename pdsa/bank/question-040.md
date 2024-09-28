@@ -13,7 +13,7 @@ class Node:
 
 Consider an implementation of a singly linked list, where each node is created using the given class `Node`. Suppose it has a `head` pointer that points to the first node of the linked list and a `tail` pointer that points to the last element of the linked list.
 
-![image-20211221173432081](image-20211221173432081.png)
+![](linked_list1.png)
 
 Suppose we want to perform the following operations on the given linked list:-
 

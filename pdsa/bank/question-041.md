@@ -6,7 +6,7 @@ categories: [Python]
 
 Suppose we obtain the following **DFS** tree rooted at node `J` for an undirected graph with vertices {A, B, C, D, E, F, G, H, I, J, K}.
 
-![image-20240503114025538](image-20240503114025538.png)
+![](bin_tree2.png)
 
 Which of the following **can not** be an edge/edges in the original graph? 
 

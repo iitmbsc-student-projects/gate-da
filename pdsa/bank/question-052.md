@@ -6,7 +6,7 @@ categories: [Python]
 
 Consider the graph *G* given below.
 
-![image-20230720140459154](image-20230720140459154.png)
+![](graph.png)
 
 Let $\alpha$ denote the number of minimum spanning trees of G and $\beta$ denote the weight of such a minimum spanning tree. 
 
