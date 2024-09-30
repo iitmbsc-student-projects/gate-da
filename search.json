@@ -2746,5 +2746,209 @@
       "Bank",
       "Question-20"
     ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-035.html",
+    "href": "prob_stats/bank/question-035.html",
+    "title": "Question-35",
+    "section": "",
+    "text": "The probability of a student passing a Statistics exam is \\(0.7\\), and the probability of the student passing a Mathematics exam is \\(0.6\\). If the probability of passing both exams is \\(0.5\\), what is the probability that the student passes at least one of the two exams\\(?\\)\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse the addition rule of probability \\(P(A \\cup B) = P(A) + P(B) - P(A \\cap B)\\)\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.8\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-35"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-045.html",
+    "href": "prob_stats/bank/question-045.html",
+    "title": "Question-45",
+    "section": "",
+    "text": "Let the mean of a set of seven numbers be \\(36\\). If the mean of the first six numbers is \\(30\\), what is the seventh number\\(?\\)\n\n\n\n\n\n\nHint\n\n\n\n\n\n\\(\\overline{x} = \\dfrac{\\sum_{i=1}^{n}x_i}{n}\\)\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n72\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-45"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-041.html",
+    "href": "prob_stats/bank/question-041.html",
+    "title": "Question-41",
+    "section": "",
+    "text": "The sample average of 60 data points is 35. After including a new data point with a value of 120, what is the updated sample average\\(?\\) (Answer the question correct to two decimal places.)\n\n\n\n\n\n\nHint\n\n\n\n\n\n\\(\\overline{X} = \\dfrac{\\sum_{i=1}^{n}X_i}{n}\\)\n\\(\\implies \\sum_{i=1}^{n}X_i = n \\times \\overline{X}\\)\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n36.39\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-41"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-043.html",
+    "href": "prob_stats/bank/question-043.html",
+    "title": "Question-43",
+    "section": "",
+    "text": "If the mean and standard deviation of observations \\(x_1, x_2, \\ldots, x_n\\) are 20 and 5 respectively, and the mean and standard deviation of observations \\(a(3x_1+b), a(3x_2+b), \\ldots, a(3x_n+b)\\) are 94.5 and 22.5 respectively, then what is the sum of \\(a\\) and \\(b?\\) Enter the answer correct to one decimal place.\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse the property of “Effect on mean and variance when constants are added or multiplied.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n4.5\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-43"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-050.html",
+    "href": "prob_stats/bank/question-050.html",
+    "title": "Question-50",
+    "section": "",
+    "text": "Let there be two newly launched motorcycles, \\(X\\) and \\(Y\\), with both motorcycles being equally likely to be selected. The probability that motorcycle \\(X\\) has good mileage is \\(0.5\\), and the probability that motorcycle \\(Y\\) has good mileage is \\(0.7\\). If a randomly selected motorcycle is found to have good mileage, what is the probability that the motorcycle is \\(X?\\) (Enter the answer upto three decimal accuracy)\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse the concept of ``Bayes Theorem”.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.417\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-50"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-048.html",
+    "href": "prob_stats/bank/question-048.html",
+    "title": "Question-48",
+    "section": "",
+    "text": "Let \\(X\\) and \\(Y\\) be two independent events such that \\(P(X)=0.4\\) and \\(P(Y)=0.6\\). Find the probability that neither \\(X\\) nor \\(Y\\) will occur. Enter the answer correct to two decimal places.\n\n\n\n\n\n\nHint\n\n\n\n\n\nneither \\(X\\) nor \\(Y\\) occur means \\(X^c \\cap Y^c\\).\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.24\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-48"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-044.html",
+    "href": "prob_stats/bank/question-044.html",
+    "title": "Question-44",
+    "section": "",
+    "text": "Let the sample mean of a set of \\(20\\) data points be \\(30\\). If it is discovered that a data point having value \\(25\\) was incorrectly entered as \\(15\\), what should be the revised value of the sample mean\\(?\\) Enter the answer correct to one decimal place.\n\n\n\n\n\n\nHint\n\n\n\n\n\n\\(\\overline{x} = \\dfrac{\\sum_{i=1}^{n}x_i}{n}\\)\n\\(\\sum_{i=1}^{n}x_i = n\\overline{x}\\)\nFind the correct \\(\\sum_{i=1}^{n}x_i\\) and calculate the mean.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n30.5\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-44"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-034.html",
+    "href": "prob_stats/bank/question-034.html",
+    "title": "Question-34",
+    "section": "",
+    "text": "Let \\(X\\) be a random variable that follows a normal distribution \\(N(\\mu = 5, \\sigma^2 = 4)\\), and \\(Y\\) is a random variable that follows \\(N(0, 1)\\). Given \\(X = 5\\), find \\(E(Y | X = 5)\\). Assume \\(X\\) and \\(Y\\) are independent.\n\n\n\n\n\n\nHint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-34"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-039.html",
+    "href": "prob_stats/bank/question-039.html",
+    "title": "Question-39",
+    "section": "",
+    "text": "If \\(X\\) and \\(Y\\) are independent Poisson variates such that\n\\(P(X = 1) = P(X=2)\\) and \\(P(Y = 2) = P(Y=3)\\). Find the variance of \\(X-2Y\\).\n\n\n\n\n\n\nHint\n\n\n\n\n\nDefine \\(X \\sim P(\\lambda_1)\\) and \\(Y \\sim P(\\lambda_2)\\). Use PMF formula of Poisson distribution for the given equation and find the values of \\(\\lambda_1\\) and \\(\\lambda_2\\). Then, find the required value, \\(V(X-2Y)\\), by using the values of \\(\\lambda_1\\) and \\(\\lambda_2\\) as \\(V(X) = \\lambda_1\\) and \\(V(Y) = \\lambda_2\\).\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n14\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-39"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-040.html",
+    "href": "prob_stats/bank/question-040.html",
+    "title": "Question-40",
+    "section": "",
+    "text": "The number of items sold by an online store in an hour follows a Poisson distribution with\n\\(λ\\) equal to 2. Find the probability that in the next 4 hours, exactly 3 items will be sold. (Answer the question correct to three decimal points.)\n\n\n\n\n\n\nHint\n\n\n\n\n\n\\(\\lambda = 2\\) which is mean number of items sold per hour. Therefore, for the next four hours, \\(\\lambda\\) will be updated as \\(\\lambda_{new}=4\\times 2 = 8\\). Now, find the required probability by using the updated value of \\(\\lambda\\).\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.029\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-40"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-047.html",
+    "href": "prob_stats/bank/question-047.html",
+    "title": "Question-47",
+    "section": "",
+    "text": "There are \\(10\\) multiple choice questions in a practice assignment of statistics course. The first \\(5\\) questions have \\(4\\) choices each and the remaining \\(5\\) questions have \\(5\\) choices each. How many sequences of answers are possible\\(?\\)\n\n\\(4^4 \\times 5^5\\)\n\\(4^5 \\times 5^5\\)\n\\(4^5 + 5^5\\)\n\\(4! \\times 5!\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse the multiplication rule of counting.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(4^4 \\times 5^5\\)\n\\(4^5 \\times 5^5\\)\n\\(4^5 + 5^5\\)\n\\(4! \\times 5!\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-47"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-036.html",
+    "href": "prob_stats/bank/question-036.html",
+    "title": "Question-36",
+    "section": "",
+    "text": "Three events \\(A\\), \\(B\\), and \\(C\\) are independent, with \\(P(A) = 0.2\\), \\(P(B) = 0.5\\), and \\(P(C) = 0.8\\). What is the probability that exactly one of the events occurs\\(?\\) Enter the answer correct to two decimal places.\n\n\n\n\n\n\nHint\n\n\n\n\n\nExactly one of the events occurs means that either \\(A^c \\cap B \\cap C\\) or \\(A \\cap B^c \\cap C\\) or \\(A \\cap B \\cap C^c\\) occurs.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.42\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-36"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-037.html",
+    "href": "prob_stats/bank/question-037.html",
+    "title": "Question-37",
+    "section": "",
+    "text": "Let the joint probability density function of \\(X\\) and \\(Y\\) be given as:\n\\(f(x, y) = \\begin{cases}\ne^{-(x + y)}, & x \\geq 0, y \\geq 0 \\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\nWhat is \\(P(X + Y \\leq 1)?\\)\n\n\\(1-e^{-2}\\)\n\\(1-2e^{-1}\\)\n\\(e^{-2}\\)\n\\(1-e^{-4}\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nThe inequality \\(X+Y \\leq1\\) represents a boundary in the \\(xy\\)-plane. In this case, it corresponds to a triangular region where the sum of \\(X\\) and \\(Y\\) is less than or equal to 1.\nFind the limits of \\(x\\) and \\(y\\) and do the integration to obtain the required probability.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(1-e^{-2}\\)\n\\(1-2e^{-1}\\)\n\\(e^{-2}\\)\n\\(1-e^{-4}\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-37"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-038.html",
+    "href": "prob_stats/bank/question-038.html",
+    "title": "Question-38",
+    "section": "",
+    "text": "Let \\(X\\) and \\(Y\\) be independent continuous random variables with exponential distributions: \\(X \\sim \\text{Exp}(1)\\) and \\(Y \\sim \\text{Exp}(2)\\). Find \\(E[X \\cdot Y]\\), the expected value of the product of \\(X\\) and \\(Y\\).\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse the concept of independence as if \\(X\\) and \\(Y\\) are independent random variables, then \\(E[XY] =  E[X] E[Y]\\)\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.5\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-38"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-049.html",
+    "href": "prob_stats/bank/question-049.html",
+    "title": "Question-49",
+    "section": "",
+    "text": "In a population, \\(60\\) percent of the people are male and \\(40\\) percent are female. According to a report, \\(1.69\\) percent of all females are color blind and \\(8.73\\) percent of all males are color blind. What is the probability that a person randomly chosen from the population will be color blind? (Enter the answer upto three decimal accuracy)\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse the concept of ``Law of Total Probability”.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n0.059\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-49"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-042.html",
+    "href": "prob_stats/bank/question-042.html",
+    "title": "Question-42",
+    "section": "",
+    "text": "If the sample variance of a data of size \\(10\\) is \\(23\\), then what is the population variance of this data\\(?\\)\n\n\\(25.56\\)\n\\(19\\)\n\\(20.7\\)\n\\(23\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nSample variance, \\(s^2 = \\dfrac{\\sum_{i=1}^n(x_i - \\bar{x})^2}{n-1}\\) and\nPopulation variance, \\(\\sigma^2 = \\dfrac{\\sum_{i=1}^n(x_i - \\bar{x})^2}{n}\\)\nFind the relation between \\(s^2\\) and \\(\\sigma^2\\) by using the above formula and calculate the value of population variance.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(25.56\\)\n\\(19\\)\n\\(20.7\\)\n\\(23\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-42"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-046.html",
+    "href": "prob_stats/bank/question-046.html",
+    "title": "Question-46",
+    "section": "",
+    "text": "In how many different ways can the letters of the word `MACHINE’ be arranged so that the vowels will occupy only the even positions and the consonants will occupy only the odd positions\\(?\\)\n\n\\(7!\\)\n\\(4! \\times 3!\\)\n\\(4! \\times 4!\\)\n\\(4! \\times 5!\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\n\\(n\\) distinct things can be arranged in \\(n!\\) different ways.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(7!\\)\n\\(4! \\times 3!\\)\n\\(4! \\times 4!\\)\n\\(4! \\times 5!\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-46"
+    ]
   }
 ]
