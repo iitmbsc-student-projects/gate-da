@@ -4,8 +4,6 @@ pagetitle: Question-1
 categories: [Python]
 ---
 
-## Question 1
-
 What is the output of the following snippet of code?
 
 ```python

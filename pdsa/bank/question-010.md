@@ -1,4 +1,4 @@
----
+git ---
 title: Question-10
 pagetitle: Question-10
 categories: [GATE-2021, Data Structures, Graph]
