@@ -3358,5 +3358,65 @@
       "Bank",
       "Question-12"
     ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-056.html",
+    "href": "linear_algebra/bank/question-056.html",
+    "title": "Question-56",
+    "section": "",
+    "text": "Find the smallest subspace of \\(\\displaystyle \\mathbb{R}^{3}\\) containing the vectors \\(\\displaystyle ( 2,-3,-3)\\) and \\(\\displaystyle ( 0,3,2)\\).\n\n\\(\\displaystyle S=\\{c( 2,-3,-3) ;c\\in \\mathbb{R}\\}\\)\n\\(\\displaystyle S=\\{( x,y,z) :3x-4y+6z=0;x,y,z\\in \\mathbb{R}\\}\\)\n\\(\\displaystyle S=\\{( x,y,z) :x-4y+z=0;x,y,z\\in \\mathbb{R}\\}\\)\n\\(\\displaystyle S=\\{c( 0,3,2) ;c\\in \\mathbb{R}\\}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle S=\\{c( 2,-3,-3) ;c\\in \\mathbb{R}\\}\\)\n\\(\\displaystyle S=\\{( x,y,z) :3x-4y+6z=0;x,y,z\\in \\mathbb{R}\\}\\)\n\\(\\displaystyle S=\\{( x,y,z) :x-4y+z=0;x,y,z\\in \\mathbb{R}\\}\\)\n\\(\\displaystyle S=\\{c( 0,3,2) ;c\\in \\mathbb{R}\\}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe smallest subspace that contains these two vectors is their span. Since the two vectors are linearly independent, their span will be a two-dimensional subspace of \\(\\displaystyle \\mathbb{R}^{3}\\), which is a plane passing through the origin:\n\\[\n\\begin{equation*}\nS=\\{( x,y,z) :ax+by+cz=0\\}\n\\end{equation*}\n\\]\nWe have:\n\\[\n\\begin{equation*}\n\\begin{aligned}\n2a-3b-3c & =0\\\\\n3b+2c & =0\n\\end{aligned}\n\\end{equation*}\n\\]\nFrom the options, we see that \\(\\displaystyle c=6\\) is one possibility. This gives us:\n\\[\n\\begin{equation*}\n\\begin{aligned}\n2a-3b-3c & =0\\\\\n3b+2c & =0\n\\end{aligned} \\Longrightarrow a=3,b=-4\n\\end{equation*}\n\\]\nTherefore, the required subspace is:\n\\[\n\\begin{equation*}\nS=\\{( x,y,z) :3x-4y+6z=0\\}\n\\end{equation*}\n\\]",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-56"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-057.html",
+    "href": "linear_algebra/bank/question-057.html",
+    "title": "Question-57",
+    "section": "",
+    "text": "Let \\(\\displaystyle S_{1}\\) and \\(\\displaystyle S_{2}\\) be two subspaces of \\(\\displaystyle \\mathbb{R}^{10}\\) with dimensions \\(\\displaystyle 7\\) and \\(\\displaystyle 3\\) respectively. Let \\(\\displaystyle d\\) be the dimension of \\(\\displaystyle S_{1} \\cap S_{2}\\).\n\nThe maximum possible value of \\(\\displaystyle d\\) is \\(\\displaystyle 7\\).\nThe maximum possible value of \\(\\displaystyle d\\) is \\(\\displaystyle 3\\).\nThe minimum possible value of \\(\\displaystyle d\\) is \\(\\displaystyle 1\\)\nThe minimum possible value of \\(\\displaystyle d\\) is \\(\\displaystyle 0\\).\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThe maximum possible value of \\(\\displaystyle d\\) is \\(\\displaystyle 7\\).\nThe maximum possible value of \\(\\displaystyle d\\) is \\(\\displaystyle 3\\).\nThe minimum possible value of \\(\\displaystyle d\\) is \\(\\displaystyle 1\\)\nThe minimum possible value of \\(\\displaystyle d\\) is \\(\\displaystyle 0\\).\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\nSince the sum of the dimensions of the two subspaces is equal to the dimension of the parent subspace, it is possible for the two subspaces to have a trivial intersection. This suggests that the minimum possible value of \\(\\displaystyle d\\) is \\(\\displaystyle 0\\).\nIf the smaller subspace is contained in the bigger subspace, that would give us the maximum possible value for \\(\\displaystyle d\\), which is \\(\\displaystyle 3\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-57"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-058.html",
+    "href": "linear_algebra/bank/question-058.html",
+    "title": "Question-58",
+    "section": "",
+    "text": "Let \\(\\displaystyle V\\) be a vector space and let \\(\\displaystyle S_{1}\\) and \\(\\displaystyle S_{2}\\) be subspaces of \\(\\displaystyle V\\) such that \\(\\displaystyle S_{1} \\cap S_{2} =\\{0\\}\\). We have a vector \\(\\displaystyle v\\in V\\) and vectors \\(\\displaystyle u_{1} ,v_{1} \\in S_{1}\\) and \\(\\displaystyle u_{2} ,v_{2} \\in S_{2}\\) such that the following holds:\n\\[\\begin{equation*}\n\\begin{aligned}\nv & =v_{1} +v_{2} =u_{1} +u_{2}\n\\end{aligned}\n\\end{equation*}\\]\nWhich of the following statements are true?\n\n\\(\\displaystyle v_{1} =v_{2}\\)\n\\(\\displaystyle u_{1} =u_{2}\\)\n\\(\\displaystyle v_{1} =u_{1}\\)\n\\(\\displaystyle v_{2} =u_{2}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle v_{1} =v_{2}\\)\n\\(\\displaystyle u_{1} =u_{2}\\)\n\\(\\displaystyle v_{1} =u_{1}\\)\n\\(\\displaystyle v_{2} =u_{2}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet us consider the difference \\(\\displaystyle ( v_{1} +v_{2}) -( u_{1} +u_{2})\\):\n\\[\n\\begin{equation*}\n\\begin{aligned}\n0 & =( v_{1} +v_{2}) -( u_{1} +u_{2})\\\\\n& =( v_{1} -u_{1}) +( v_{2} -u_{2})\\\\\nv_{1} -u_{1} & =u_{2} -v_{2}\n\\end{aligned}\n\\end{equation*}\n\\]\nSince \\(\\displaystyle v_{1} ,u_{1} \\in S_{1}\\) and \\(\\displaystyle S_{1}\\) is a subspace, \\(\\displaystyle v_{1} -u_{1} \\in S_{1}\\). A similar argument shows that \\(\\displaystyle u_{2} -v_{2} \\in S_{2}\\). Since these two vectors are equal and since they appear in both sets, \\(\\displaystyle v_{1} -u_{1} =u_{2} -v_{2} \\in S_{1} \\cap S_{2}\\). But the only element of \\(\\displaystyle S_{1} \\cap S_{2}\\) is the zero vector. It follows that \\(\\displaystyle v_{1} =u_{1}\\) and \\(\\displaystyle v_{2} =u_{2}\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-58"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-059.html",
+    "href": "linear_algebra/bank/question-059.html",
+    "title": "Question-59",
+    "section": "",
+    "text": "Consider the square matrix \\(\\displaystyle A_{n}\\) of order \\(\\displaystyle n\\) with entries from \\(\\displaystyle 1,\\cdots ,n^{2}\\) arranged in a row-wise manner, for \\(\\displaystyle n\\geqslant 2\\). For example:\n\\[\n\\begin{equation*}\nA_{2} =\\begin{bmatrix}\n1 & 2\\\\\n3 & 4\n\\end{bmatrix} ,\\ A_{3} =\\begin{bmatrix}\n1 & 2 & 3\\\\\n4 & 5 & 6\\\\\n7 & 8 & 9\n\\end{bmatrix}\n\\end{equation*}\n\\]\nWhat is the rank of \\(\\displaystyle A_{n}\\)?\n\n\\(\\displaystyle n\\)\n\\(\\displaystyle 1\\)\n\\(\\displaystyle 2\\)\n\\(\\displaystyle n-1\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nExpress every row of \\(\\displaystyle A_{n}\\) as a linear combination of the first two rows.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle n\\)\n\\(\\displaystyle 1\\)\n\\(\\displaystyle 2\\)\n\\(\\displaystyle n-1\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nLet us see the general form of \\(\\displaystyle A_{n}\\) and study the pattern:\n\\[\n\\begin{equation*}\nA_{n} =\\begin{bmatrix}\n1 & 2 & \\cdots  & n\\\\\nn+1 & n+2 & \\cdots  & n+n\\\\\n2n+1 & 2n+2 & \\cdots  & 2n+n\\\\\n\\vdots  & \\vdots  &  & \\vdots \\\\\n( n-1) n+1 & ( n-1) n+2 & \\cdots  & ( n-1) n+n\n\\end{bmatrix}\n\\end{equation*}\n\\]\nWe see that the element \\(\\displaystyle A_{rc}\\) is \\(\\displaystyle ( r-1) n+c\\). We also have \\(\\displaystyle A_{1c} =c\\) and \\(\\displaystyle A_{2c} =n+c\\). These are the two elements in column \\(\\displaystyle c\\) in the first and second rows. We will now try to express \\(\\displaystyle A_{rc}\\) as a combination of \\(\\displaystyle A_{1c}\\) and \\(\\displaystyle A_{2c}\\):\n\\[\n\\begin{equation*}\n\\begin{aligned}\nA_{rc} =( r-1) n+c & =( r-1)( n+c-c) +c\\\\\n& =( r-1)( n+c) +( 2-r) c\\\\\n& =( 2-r) A_{1c} +( r-1) A_{2c}\n\\end{aligned}\n\\end{equation*}\n\\]\nIn terms of row operations, the \\(\\displaystyle r^{th}\\) row is:\n\\[\n\\begin{equation*}\nR_{r} =( 2-r) R_{1} +( r-1) R_{2}\n\\end{equation*}\n\\]\nRows 1 and 2 are linearly independent. Every other row can be expressed as a linear combination of the first two rows. Therefore, the rank of \\(\\displaystyle A_{n}\\) is equal to \\(\\displaystyle 2\\) for \\(\\displaystyle n\\geqslant 2\\)!",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-59"
+    ]
+  },
+  {
+    "objectID": "linear_algebra/bank/question-060.html",
+    "href": "linear_algebra/bank/question-060.html",
+    "title": "Question-60",
+    "section": "",
+    "text": "A student is working with a matrix \\(\\displaystyle A\\) of size \\(\\displaystyle m\\times n\\) and trying to compute its rank. He has written the matrix at the end of a page. He begins to start copying it to the next page so that he can start working on a fresh page. In this process, he accidentally enters a wrong entry for exactly one element of the matrix. Unaware of this, he goes ahead and computes the rank of this corrupted matrix. If the true rank of the matrix is \\(\\displaystyle r\\), what are the possible values that he could have obtained?\n\n\\(\\displaystyle r\\)\n\\(\\displaystyle r+1\\)\n\\(\\displaystyle r-1\\)\n\\(\\displaystyle r \\pm k\\), where \\(\\displaystyle k\\) can be any integer in the range \\(\\displaystyle 0\\leqslant k\\leqslant r\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nConsider two cases:\n\nwhen the vector that is corrupted is one of the vectors in the linear independent set of columns\nwhen the vector that is corrupted is not one of the vectors in the linear independent set of columns\n\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\displaystyle r\\)\n\\(\\displaystyle r+1\\)\n\\(\\displaystyle r-1\\)\n\\(\\displaystyle r \\pm k\\), where \\(\\displaystyle k\\) can be any integer in the range \\(\\displaystyle 0\\leqslant k\\leqslant r\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nSince the rank of \\(\\displaystyle A\\) is \\(\\displaystyle r\\), \\(\\displaystyle A\\) has \\(\\displaystyle r\\) linearly independent columns. Let these columns be denoted by \\(\\displaystyle C\\). This presents two cases.\n\nCase-1: Mistake is in one of the vectors that is in \\(\\displaystyle C\\)\nIn such a scenario, the \\(\\displaystyle r-1\\) non-corrupted vectors are still linearly independent. So the rank of the matrix is at least \\(\\displaystyle r-1\\). If the corrupted vector lies in the span of these \\(\\displaystyle r-1\\) columns, the rank of the matrix is \\(\\displaystyle r-1\\). If it doesn’t, then the rank of the matrix remains \\(\\displaystyle r\\).\n\n\nCase-2: Mistake is in one of the vectors that is not in \\(\\displaystyle C\\)\nIn such a scenario, the rank of the matrix is at least \\(\\displaystyle r\\). If the corrupted vector lies in the span of \\(\\displaystyle C\\), then the rank remains \\(\\displaystyle r\\). If not, the rank increases to \\(\\displaystyle r+1\\). This is because, the corrupted vector can be added to \\(\\displaystyle C\\) to give a larger linearly independent set.\n\n\n\n\n\n\nRemark\n\n\n\nWe have shown the following fact in this process. If \\(\\displaystyle A\\) and \\(\\displaystyle B\\) are two matrices that differ in exactly one entry, \\(\\displaystyle |\\text{rank}( A) -\\text{rank}( B) |\\leqslant 1\\).",
+    "crumbs": [
+      "Linear Algebra",
+      "Bank",
+      "Question-60"
+    ]
   }
 ]
