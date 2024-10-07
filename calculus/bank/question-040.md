@@ -5,7 +5,7 @@ order: 40
 categories: [differentiability]
 ---
 
-Consider the function $\displaystyle f( x) =3^{x}$. Find $\displaystyle f( 1)$.
+Consider the function $\displaystyle f( x) =3^{x}$. Find $\displaystyle f^{\prime}( 1)$.
 
 - [ ] $\ln 3$
 - [ ] $3$

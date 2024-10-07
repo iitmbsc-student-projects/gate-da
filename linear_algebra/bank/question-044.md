@@ -17,9 +17,10 @@ Which of these options is correct?
 - [ ] Both $P$ and $Q$ are true.
 - [ ] Both $P$ and $Q$ are false.
 
-::: {.callout-note title="Answer" collapse=true}
+::: {.callout-note title="Hint" collapse=true}
 
-Spectral theorem.
+- Spectral theorem
+- Eigenvalue equation
 
 :::
 
@@ -32,7 +33,40 @@ Spectral theorem.
 
 :::
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Solutions" collapse=true}
+
+::: {.panel-tabset}
+
+## Solution-1
+
+Thanks to Vivek, Sherry and Aniruddha for this solution.
+
+This solution uses the result that a matrix is positive definite if and only if all its eigenvalues are positive. Since $\displaystyle A$ is positive definite, let $\displaystyle ( \lambda _{i} ,v_{i})$ be the $i^{th}$ eigenpair of $\displaystyle A$ with $\lambda_i > 0$, for $\displaystyle i=1,\cdots ,n$. Pre-multiplying both sides by $A$:
+$$
+\begin{equation*}
+\begin{aligned}
+Av_{i} & =\lambda v_{i}\\
+A^{2} v_{i} & =\lambda _{i}^{2} v_{i}
+\end{aligned}
+\end{equation*}
+$$
+
+We see that $\displaystyle \left( \lambda _{i}^{2} ,v_{i}\right)$ is an eigenpair of $\displaystyle A^{2}$ for $\displaystyle i=1,\cdots ,n$. It follows that $\displaystyle \left\{\lambda _{1}^{2} ,\cdots ,\lambda _{n}^{2}\right\}$ is the set of eigenvalues of $\displaystyle A^{2}$, where each entry is strictly positive. Therefore, $\displaystyle A^{2}$ is also positive definite.
+
+Since $\displaystyle A$ has $\displaystyle n$ positive eigenvalues, its rank is $\displaystyle n$ and it is invertible. Pre-multiplying both sides by $A^{-1}$ and dividing both sides by $\lambda_i$ (we can do this since $\lambda_i > 0$:
+
+$$
+\begin{equation*}
+\begin{aligned}
+Av_{i} & =\lambda v_{i}\\
+A^{-1} v_{i} & =\frac{1}{\lambda _{i}} v_{i}
+\end{aligned}
+\end{equation*}
+$$
+
+We see that $\displaystyle \left(\frac{1}{\lambda _{i}} ,v_{i}\right)$ is an eigenpair of $\displaystyle A^{-1}$. The set of eigenpairs of $\displaystyle A^{-1}$ is given by $\displaystyle \left\{\frac{1}{\lambda _{1}} ,\cdots ,\frac{1}{\lambda _{n}}\right\}$. It is clear that all these are positive. Therefore, $\displaystyle A^{-1}$ is also positive definite.
+
+## Solution-2
 
 Since $\displaystyle A$ is p.d., we can decompose $\displaystyle A$ as:
 
@@ -54,5 +88,7 @@ A^{-1} & =Q\Sigma ^{-1} Q^{T}
 $$
 
 We see that both these matrices are positive definite.
+
+:::
 
 :::

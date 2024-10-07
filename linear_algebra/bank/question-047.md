@@ -7,6 +7,7 @@ categories: [idempotent matrix, partition matrix]
 
 If:
 
+$$
 \begin{equation*}
 A=\begin{bmatrix}
 1 & 0 & 0 & 1/3 & 1/3 & 1/3\\
@@ -17,9 +18,11 @@ A=\begin{bmatrix}
 0 & 0 & 0 & 1/3 & 1/3 & 1/3
 \end{bmatrix}
 \end{equation*}
+$$
 
 Then consider the following matrices:
 
+$$
 \begin{equation*}
 \begin{aligned}
 P & =\begin{bmatrix}
@@ -34,11 +37,12 @@ P & =\begin{bmatrix}
 1 & 0 & 0 & 100 & 100 & 100\\
 0 & 1 & 0 & 100 & 100 & 100\\
 0 & 0 & 1 & 100 & 100 & 100\\
-0 & 0 & 0 & 100 & 100 & 100\\
-0 & 0 & 0 & 100 & 100 & 100\\
-0 & 0 & 0 & 100 & 100 & 100
+0 & 0 & 0 & 1/3 & 1/3 & 1/3\\
+0 & 0 & 0 & 1/3 & 1/3 & 1/3\\
+0 & 0 & 0 & 1/3 & 1/3 & 1/3
 \end{bmatrix}
 \end{equation*}
+$$
 
 What is $\displaystyle A^{300}$ equal to?
 
@@ -66,12 +70,15 @@ Look for an idempotent matrix.
 
 This can be partitioned as follows:
 
+$$
 \begin{equation*}
 A=\begin{bmatrix}
 I & B\\
 0 & B
 \end{bmatrix}
 \end{equation*}
+$$
+
 where, $\displaystyle B=\frac{1}{3}\begin{bmatrix}
 1 & 1 & 1\\
 1 & 1 & 1\\
@@ -81,6 +88,7 @@ where, $\displaystyle B=\frac{1}{3}\begin{bmatrix}
 
 First, let us compute $\displaystyle A^{2}$:
 
+$$
 \begin{equation*}
 A^{2} =\begin{bmatrix}
 I & B\\
@@ -93,9 +101,13 @@ I & 2B\\
 0 & B
 \end{bmatrix}
 \end{equation*}
+$$
 
-Assuming that $\displaystyle A^{n-1} =( n-1) B$, we have:
-
+Assuming that $\displaystyle A^{n-1} =\begin{bmatrix}
+I & ( n-1) B\\
+0 & B
+\end{bmatrix}$, we have:
+$$
 \begin{equation*}
 A^{n} =\begin{bmatrix}
 I & ( n-1) B\\
@@ -108,14 +120,17 @@ I & nB\\
 0 & B
 \end{bmatrix}
 \end{equation*}
+$$
 
-Hence we have shown that:
+Hence we have shown that for all $n \geqslant 2$:
 
+$$
 \begin{equation*}
 A^{n} =\begin{bmatrix}
 I & nB\\
 0 & B
 \end{bmatrix}
 \end{equation*}
+$$
 
 :::

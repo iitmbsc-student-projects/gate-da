@@ -25,7 +25,7 @@ Enter $\displaystyle a^{2} +b^{2} +c^{2}$ as your answer.
 
 ::: {.callout-note title="Answer" collapse=true}
 
-$2$
+$\cfrac{5}{4}$
 
 :::
 
@@ -49,7 +49,7 @@ $$
 
 $$
 \begin{equation*}
-f^{\prime \prime }( 0) =g^{\prime \prime }( 0) \Longrightarrow c=-1
+f^{\prime \prime }( 0) =g^{\prime \prime }( 0) \Longrightarrow c=\cfrac{-1}{2}
 \end{equation*}
 $$
 

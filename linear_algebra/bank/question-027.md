@@ -22,7 +22,41 @@ $6$
 
 :::
 
-::: {.callout-note title="Solution" collapse=true}
+::: {.callout-note title="Solutions" collapse=true}
+
+::: {.panel-tabset}
+
+## Solution-1
+
+Thanks to Vivek, Sherry and Aniruddha for this elegant solution.
+
+We have:
+
+$$
+\begin{equation*}
+A=\begin{bmatrix}
+1 & 0 & 0 & 0 & 1\\
+0 & 1 & 1 & 1 & 0\\
+0 & 1 & 1 & 1 & 0\\
+0 & 1 & 1 & 1 & 0\\
+1 & 0 & 0 & 0 & 1
+\end{bmatrix}
+\end{equation*}
+$$
+
+Given the symmetry in the problem, by inspection, we see that $\displaystyle A$ has the following eigenpairs:
+
+$$
+\begin{gather*}
+( 2,( 1,0,0,0,1))\\
+\\
+( 3,( 0,1,1,1,0))
+\end{gather*}
+$$
+
+We also see that the rank of $\displaystyle A$ is $\displaystyle 2$. For a symmetric matrix (a diagonalizable matrix, to be more specific), the rank is equal to the number of non-zero eigenvalues (including the multiplicity). Therefore $2$ and $3$ are the only non-zero eigenvalues and each of them occurs just once. The required product is $\boxed{6}$.
+
+## Solution-2
 
 The product of the eigenvalues of a matrix is equal to its determinant. But the determinant of this matrix is zero and we are asked to compute the product of the non-zero eigenvalues. We should therefore take recourse to the characteristic polynomial:
 $$
@@ -72,3 +106,4 @@ We see that there are five eigenvalues: $0, 0, 0, 2, 3$. The product of the non-
 
 :::
 
+:::

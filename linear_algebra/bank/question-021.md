@@ -53,7 +53,7 @@ Suppose $\sigma_1$ and $\sigma_2$ are the two singular values of $A$, what is $\
 
 ::: {.callout-note title="Solution" collapse=true}
 
-The squares of the singular values of $A$ are the eigenenvalues of $A^TA$. 
+The squares of the singular values of $A$ are the eigenvalues of $A^TA$. 
 $$
 A^TA = \begin{bmatrix}
 1 + C^2 & C\\

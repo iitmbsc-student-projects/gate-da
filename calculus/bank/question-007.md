@@ -5,7 +5,7 @@ order: 7
 categories: [maxima and minima]
 ---
 
-Suppose $x+y=16$. What is the value of $x y$ when $x^3+y^3$ is minimum? 
+Suppose $x+y=16$. What is the value of $x y$ when $x^3+y^3$ is minimum?
 
 ::: {.callout-note title="Answer" collapse=true}
 
@@ -13,7 +13,11 @@ $64$
 
 :::
 
-::: {.callout-note title="Solution-1" collapse=true}
+::: {.callout-note title="Solutions" collapse=true}
+
+::: {.panel-tabset}
+
+## Solution-1
 
 We have:
 $$
@@ -52,10 +56,7 @@ $$
 
 Therefore $\displaystyle x=8$ corresponds to a local minimum. This is in fact a global minimum as $f$ turns out to be a quadratic function. We can now recover $\displaystyle y=8$. The value of $\displaystyle xy$ is $\displaystyle 64$ when $\displaystyle x^{3} +y^{3}$ is minimum.
 
-
-:::
-
-::: {.callout-note title="Solution-2" collapse=true}
+## Solution-2
 
 We have:
 $$
@@ -75,12 +76,14 @@ We first simplify the objective function:
 $$
 \begin{aligned}
 f( x) & =x^{3} +( 16-x)^{3}\\
- & =16^{3} -3\times 16^{2} \times x+3\times 16\times x^{2} -x^{3}\\
+ & =x^3 + 16^{3} -3\times 16^{2} \times x+3\times 16\times x^{2} -x^{3}\\
  & =3\times 16x^{2} -3\times 16^{2} x+16^{3}
 \end{aligned}
 $$
 
 This is a quadratic equation in $\displaystyle x$ that has a parabola facing upwards. So it has a global minimum, which occurs at $\displaystyle x=\frac{3\times 16^{2}}{2\times 3\times 16} =8$. We can now recover $\displaystyle y=8$. The value of $\displaystyle xy$ is $\displaystyle 64$ when $\displaystyle x^{3} +y^{3}$ is minimum.
 
+
+:::
 
 :::

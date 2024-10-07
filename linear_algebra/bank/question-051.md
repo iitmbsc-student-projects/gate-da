@@ -16,7 +16,7 @@ If $\displaystyle A=\begin{bmatrix}
 - [ ] $\displaystyle A^{2}$
 
 
-::: {.callout-note title="Answer" collapse=true}
+::: {.callout-note title="Hint" collapse=true}
 
 Compute $A^2$ and $A^3$ and observe the pattern. Generalize.
 
