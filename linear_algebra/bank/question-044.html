@@ -802,6 +802,36 @@ window.Quarto = {
  <span class="menu-text">Question-55</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../linear_algebra/bank/question-056.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-56</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../linear_algebra/bank/question-057.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-57</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../linear_algebra/bank/question-058.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-58</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../linear_algebra/bank/question-059.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-59</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../linear_algebra/bank/question-060.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-60</span></a>
+  </div>
+</li>
       </ul>
   </li>
           <li class="sidebar-item sidebar-item-section">
@@ -1967,19 +1997,22 @@ window.Quarto = {
 <li><label><input type="checkbox">Both <span class="math inline">\(P\)</span> and <span class="math inline">\(Q\)</span> are true.</label></li>
 <li><label><input type="checkbox">Both <span class="math inline">\(P\)</span> and <span class="math inline">\(Q\)</span> are false.</label></li>
 </ul>
-<div class="callout callout-style-default callout-note callout-titled" title="Answer">
+<div class="callout callout-style-default callout-note callout-titled" title="Hint">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Answer
+Hint
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Spectral theorem.</p>
+<ul>
+<li>Spectral theorem</li>
+<li>Eigenvalue equation</li>
+</ul>
 </div>
 </div>
 </div>
@@ -2004,18 +2037,44 @@ Answer
 </div>
 </div>
 </div>
-<div class="callout callout-style-default callout-note callout-titled" title="Solution">
+<div class="callout callout-style-default callout-note callout-titled" title="Solutions">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Solution
+Solutions
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Solution-1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Solution-2</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>Thanks to Vivek, Sherry and Aniruddha for this solution.</p>
+<p>This solution uses the result that a matrix is positive definite if and only if all its eigenvalues are positive. Since <span class="math inline">\(\displaystyle A\)</span> is positive definite, let <span class="math inline">\(\displaystyle ( \lambda _{i} ,v_{i})\)</span> be the <span class="math inline">\(i^{th}\)</span> eigenpair of <span class="math inline">\(\displaystyle A\)</span> with <span class="math inline">\(\lambda_i &gt; 0\)</span>, for <span class="math inline">\(\displaystyle i=1,\cdots ,n\)</span>. Pre-multiplying both sides by <span class="math inline">\(A\)</span>: <span class="math display">\[
+\begin{equation*}
+\begin{aligned}
+Av_{i} &amp; =\lambda v_{i}\\
+A^{2} v_{i} &amp; =\lambda _{i}^{2} v_{i}
+\end{aligned}
+\end{equation*}
+\]</span></p>
+<p>We see that <span class="math inline">\(\displaystyle \left( \lambda _{i}^{2} ,v_{i}\right)\)</span> is an eigenpair of <span class="math inline">\(\displaystyle A^{2}\)</span> for <span class="math inline">\(\displaystyle i=1,\cdots ,n\)</span>. It follows that <span class="math inline">\(\displaystyle \left\{\lambda _{1}^{2} ,\cdots ,\lambda _{n}^{2}\right\}\)</span> is the set of eigenvalues of <span class="math inline">\(\displaystyle A^{2}\)</span>, where each entry is strictly positive. Therefore, <span class="math inline">\(\displaystyle A^{2}\)</span> is also positive definite.</p>
+<p>Since <span class="math inline">\(\displaystyle A\)</span> has <span class="math inline">\(\displaystyle n\)</span> positive eigenvalues, its rank is <span class="math inline">\(\displaystyle n\)</span> and it is invertible. Pre-multiplying both sides by <span class="math inline">\(A^{-1}\)</span> and dividing both sides by <span class="math inline">\(\lambda_i\)</span> (we can do this since <span class="math inline">\(\lambda_i &gt; 0\)</span>:</p>
+<p><span class="math display">\[
+\begin{equation*}
+\begin{aligned}
+Av_{i} &amp; =\lambda v_{i}\\
+A^{-1} v_{i} &amp; =\frac{1}{\lambda _{i}} v_{i}
+\end{aligned}
+\end{equation*}
+\]</span></p>
+<p>We see that <span class="math inline">\(\displaystyle \left(\frac{1}{\lambda _{i}} ,v_{i}\right)\)</span> is an eigenpair of <span class="math inline">\(\displaystyle A^{-1}\)</span>. The set of eigenpairs of <span class="math inline">\(\displaystyle A^{-1}\)</span> is given by <span class="math inline">\(\displaystyle \left\{\frac{1}{\lambda _{1}} ,\cdots ,\frac{1}{\lambda _{n}}\right\}\)</span>. It is clear that all these are positive. Therefore, <span class="math inline">\(\displaystyle A^{-1}\)</span> is also positive definite.</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <p>Since <span class="math inline">\(\displaystyle A\)</span> is p.d., we can decompose <span class="math inline">\(\displaystyle A\)</span> as:</p>
 <p><span class="math display">\[
 \begin{equation*}
@@ -2032,6 +2091,9 @@ A^{-1} &amp; =Q\Sigma ^{-1} Q^{T}
 \end{equation*}
 \]</span></p>
 <p>We see that both these matrices are positive definite.</p>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
