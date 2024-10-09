@@ -8,14 +8,18 @@ Consider the relation Student (name, sex, marks), where the primary key is shown
 
 ![](./q31.png)
 
-1. names of girl students with the highest marks  
-2. names of girl students with more marks than some boy student  
-3. names of girl students with marks not less than some boy student  
-4. names of girl students with more marks than all the boy students
+- [ ] names of girl students with the highest marks  
+- [ ] names of girl students with more marks than some boy student  
+- [ ] names of girl students with marks not less than some boy student  
+- [ ] names of girl students with more marks than all the boy students
 
 ::: {.callout-note title="Answer" collapse=true}
 
 <!-- Answer here -->
+- [ ] names of girl students with the highest marks  
+- [ ] names of girl students with more marks than some boy student  
+- [ ] names of girl students with marks not less than some boy student  
+- [ ] names of girl students with more marks than all the boy students
 
 :::
 

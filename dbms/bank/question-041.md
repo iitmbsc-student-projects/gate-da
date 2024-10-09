@@ -25,14 +25,17 @@ The IT staff has written three different SQL scripts to calculate enhancement fo
 
 Which of the following options of running these transactions will update the commission of all salespersons correctly
 
-1. Execute T1 followed by T2 followed by T3  
-2. Execute T2, followed by T3; T1 running concurrently throughout  
-3. Execute T3 followed by T2; T1 running concurrently throughout  
-4. Execute T3 followed by T2 followed by T1
+- [ ] Execute T1 followed by T2 followed by T3  
+- [ ] Execute T2, followed by T3; T1 running concurrently throughout  
+- [ ] Execute T3 followed by T2; T1 running concurrently throughout  
+- [ ] Execute T3 followed by T2 followed by T1
 
 ::: {.callout-note title="Answer" collapse=true}
 
-Answer: D
+- [ ] Execute T1 followed by T2 followed by T3  
+- [ ] Execute T2, followed by T3; T1 running concurrently throughout  
+- [ ] Execute T3 followed by T2; T1 running concurrently throughout  
+- [x] Execute T3 followed by T2 followed by T1
 
 :::
 

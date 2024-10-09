@@ -35,14 +35,17 @@ R.marks \= 100 AND E.school\-id IN (SELECT school\-id
 
 GROUP By school\-id
 
-1. for each school with more than 200 students appearing in exams, the name of the school and the number of 100𝑠 scored by its students   
-2. for each school with more than 200 students in it, the name of the school and the number of 100𝑠 scored by its students  
-3. for each school with more than 200 students in it, the name of the school and the number of its students scoring 100 in at least one exam   
-4. nothing; the query has a syntax error
+- [ ] for each school with more than 200 students appearing in exams, the name of the school and the number of 100𝑠 scored by its students   
+- [ ] for each school with more than 200 students in it, the name of the school and the number of 100𝑠 scored by its students  
+- [ ] for each school with more than 200 students in it, the name of the school and the number of its students scoring 100 in at least one exam   
+- [ ] nothing; the query has a syntax error
 
 ::: {.callout-note title="Answer" collapse=true}
 
-Answer: D
+- [ ] for each school with more than 200 students appearing in exams, the name of the school and the number of 100𝑠 scored by its students   
+- [ ] for each school with more than 200 students in it, the name of the school and the number of 100𝑠 scored by its students  
+- [ ] for each school with more than 200 students in it, the name of the school and the number of its students scoring 100 in at least one exam   
+- [x] nothing; the query has a syntax error
 
 :::
 

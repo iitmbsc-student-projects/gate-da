@@ -16,14 +16,17 @@ Select avg(marks) from T1
 
 What is the output of the select statement?
 
-1. 18.75  
-2. 20  
-3. 25  
-4. Null
+- [ ] 18.75  
+- [ ] 20  
+- [ ] 25  
+- [ ] Null
 
 ::: {.callout-note title="Answer" collapse=true}
 
-Answer: C
+- [ ] 18.75  
+- [ ] 20  
+- [x] 25  
+- [ ] Null
 
 :::
 

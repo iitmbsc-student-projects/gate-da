@@ -10,14 +10,17 @@ Consider three data items 𝐷1,𝐷2, and 𝐷3, and the following execution sc
 
 Which of the following statements is correct?
 
-1. The schedule is serializable as 𝑇2;𝑇3;𝑇1  
-2. The schedule is serializable as 𝑇2;𝑇1;𝑇3  
-3. The schedule is serializable as 𝑇3;𝑇2;𝑇1  
-4. The schedule is not serializable
+- [ ] The schedule is serializable as 𝑇2;𝑇3;𝑇1  
+- [ ] The schedule is serializable as 𝑇2;𝑇1;𝑇3  
+- [ ] The schedule is serializable as 𝑇3;𝑇2;𝑇1  
+- [ ] The schedule is not serializable
 
 ::: {.callout-note title="Answer" collapse=true}
 
-Answer: D
+- [ ] The schedule is serializable as 𝑇2;𝑇3;𝑇1  
+- [ ] The schedule is serializable as 𝑇2;𝑇1;𝑇3  
+- [ ] The schedule is serializable as 𝑇3;𝑇2;𝑇1  
+- [x] The schedule is not serializable
 
 :::
 

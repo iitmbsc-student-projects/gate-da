@@ -11,14 +11,17 @@ Consider the table **employee**(empId, name, department, salary) and the two que
 | :---: | ----- |
 | 𝑄2: | Select e.empId From employee e Where e.salary \> Any     (Select distinct salary From employee s Where s.department \= "5")  |
 
-1. 𝑄1 is the correct query  
-2. 𝑄2 is the correct query  
-3. Both 𝑄1 and 𝑄2 produce the same answer  
-4. Neither 𝑄1 nor 𝑄2 is the correct query
+- [ ] 𝑄1 is the correct query  
+- [ ] 𝑄2 is the correct query  
+- [ ] Both 𝑄1 and 𝑄2 produce the same answer  
+- [ ] Neither 𝑄1 nor 𝑄2 is the correct query
 
 ::: {.callout-note title="Answer" collapse=true}
 
-Answer: A
+- [x] 𝑄1 is the correct query  
+- [ ] 𝑄2 is the correct query  
+- [ ] Both 𝑄1 and 𝑄2 produce the same answer  
+- [ ] Neither 𝑄1 nor 𝑄2 is the correct query
 
 :::
 

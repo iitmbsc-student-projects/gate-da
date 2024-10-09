@@ -10,14 +10,17 @@ Consider the following transaction involving two bank accounts 𝑥 and 𝑦
 
 The constraint that the sum of the accounts 𝑥 and 𝑦 should remain constant is that of 
 
-1. Atomicity  
-2. Consistency  
-3. Isolation  
-4. Durability
+- [ ] Atomicity  
+- [ ] Consistency  
+- [ ] Isolation  
+- [ ] Durability
 
 ::: {.callout-note title="Answer" collapse=true}
 
-Answer: B 
+- [ ] Atomicity  
+- [x] Consistency  
+- [ ] Isolation  
+- [ ] Durability
 
 :::
 

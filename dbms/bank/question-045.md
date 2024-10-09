@@ -11,14 +11,17 @@ Consider the following relation schema pertaining to a students database:
 
 where the primary keys are shown underlined. The number of tuples in the student and Enroll tables are 120 and 8 respectively. What are the maximum and minimum number of tuples that can be present in (Student \* Enroll), where ‘\*’ denotes natural join?
 
-1. 8,8  
-2. 120,8  
-3. 960,8  
-4. 960,120
+- [ ] 8,8  
+- [ ] 120,8  
+- [ ] 960,8  
+- [ ] 960,120
 
 ::: {.callout-note title="Answer" collapse=true}
 
-Answer: A
+- [x] 8,8  
+- [ ] 120,8  
+- [ ] 960,8  
+- [ ] 960,120
 
 :::
 

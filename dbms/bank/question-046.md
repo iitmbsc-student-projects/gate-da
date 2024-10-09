@@ -14,14 +14,17 @@ In a schema with attributes 𝐴,𝐵,𝐶,𝐷 and 𝐸 following set of functi
 
 Which of the following functional dependencies is NOT implied by the above set?
 
-1. 𝐶𝐷→𝐴𝐶  
-2. 𝐵𝐷→𝐶𝐷  
-3. 𝐵𝐶→𝐶𝐷  
-4. 𝐴𝐶→𝐵𝐶
+- [ ] 𝐶𝐷→𝐴𝐶  
+- [ ] 𝐵𝐷→𝐶𝐷  
+- [ ] 𝐵𝐶→𝐶𝐷  
+- [ ] 𝐴𝐶→𝐵𝐶
 
 ::: {.callout-note title="Answer" collapse=true}
 
-Answer: B
+- [ ] 𝐶𝐷→𝐴𝐶  
+- [x] 𝐵𝐷→𝐶𝐷  
+- [ ] 𝐵𝐶→𝐶𝐷  
+- [ ] 𝐴𝐶→𝐵𝐶
 
 :::
 

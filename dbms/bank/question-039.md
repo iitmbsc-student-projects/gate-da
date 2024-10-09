@@ -19,14 +19,17 @@ Consider the following SQL query:
 
 It returns the names of the department in which
 
-1. the average salary is more than the average salary in the company  
-2. the average salary of male employees is more than the average salary of all male employees in the company  
-3. the average salary of male employees is more than the average salary of employees in same the department  
-4. the average salary of male employees is more than the average salary in the company
+- [ ] the average salary is more than the average salary in the company  
+- [ ] the average salary of male employees is more than the average salary of all male employees in the company  
+- [ ] the average salary of male employees is more than the average salary of employees in same the department  
+- [ ] the average salary of male employees is more than the average salary in the company
 
 ::: {.callout-note title="Answer" collapse=true}
 
-Answer: D
+- [ ] the average salary is more than the average salary in the company  
+- [ ] the average salary of male employees is more than the average salary of all male employees in the company  
+- [ ] the average salary of male employees is more than the average salary of employees in same the department  
+- [x] the average salary of male employees is more than the average salary in the company
 
 :::
 

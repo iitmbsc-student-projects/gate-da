@@ -33,14 +33,17 @@ WHERE class ‘AC’ AND
        WHERE age \> 65 AND  
        Passenger. pid \= Reservation.pid)
 
-1. 1, 0  
-2. 1, 2  
-3. 1, 3  
-4. 1, 5
+- [ ] 1, 0  
+- [ ] 1, 2  
+- [ ] 1, 3  
+- [ ] 1, 5
 
 ::: {.callout-note title="Answer" collapse=true}
 
-Answer: C
+- [ ] 1, 0  
+- [ ] 1, 2  
+- [x] 1, 3  
+- [ ] 1, 5
 
 :::
 

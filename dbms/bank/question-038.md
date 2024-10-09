@@ -26,14 +26,17 @@ where Students.Roll\_number\=Grades.Roll\_number
 
 Which of the following sets is computed by the above query?
 
-1. Names of students who have got an A grade in all courses taught by Korth  
-2. Names of students who have got an A grade in all courses  
-3. Names of students who have got an A grade in at least one of the courses taught by Korth  
-4. None of the above
+- [ ] Names of students who have got an A grade in all courses taught by Korth  
+- [ ] Names of students who have got an A grade in all courses  
+- [ ] Names of students who have got an A grade in at least one of the courses taught by Korth  
+- [ ] None of the above
 
 ::: {.callout-note title="Answer" collapse=true}
 
-Answer: C
+- [ ] Names of students who have got an A grade in all courses taught by Korth  
+- [ ] Names of students who have got an A grade in all courses  
+- [x] Names of students who have got an A grade in at least one of the courses taught by Korth  
+- [ ] None of the above
 
 :::
 

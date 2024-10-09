@@ -6,13 +6,16 @@ categories: [DBMS]
 
 A clustering index is defined on the fields which are of type:
 
-1. non-key and ordering  
-2. non-key and non-ordering  
-3. key and ordering  
-4. key and non-ordering
+- [ ] non-key and ordering  
+- [ ] non-key and non-ordering  
+- [ ] key and ordering  
+- [ ] key and non-ordering
 
 ::: {.callout-note title="Answer" collapse=true}
 
-Answer: A
+- [x] non-key and ordering  
+- [ ] non-key and non-ordering  
+- [ ] key and ordering  
+- [ ] key and non-ordering
 
 :::
