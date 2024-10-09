@@ -18,7 +18,7 @@ Consider the following statements:
 - $\displaystyle f$ is onto
 - $\displaystyle f$ is one-one
 - $\displaystyle f^{-1}$ exists
-- $\displaystyle f^{-1}( x) =x+\sqrt{x^{2} +1}$
+- $\displaystyle f^{-1}( x) = \ln \left(x+\sqrt{x^{2} +1}\right)$
 - $\displaystyle f^{-1}$ doesn't exist
 - $\displaystyle f( x) \geqslant 0$ for all $\displaystyle x\in \mathbb{R}$
 

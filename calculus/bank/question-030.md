@@ -30,7 +30,7 @@ Setting $\displaystyle x=y=0$, we see that $\displaystyle f( 0) =0$. Let us now 
 $$
 \begin{equation*}
 \begin{aligned}
-\lim\limits _{h\rightarrow 0} \ f( a+h) & =\lim\limits _{h\rightarrow 0} \ f( a) +f( h)\\
+\lim\limits _{h\rightarrow 0} \ f( a+h) & =\lim\limits _{h\rightarrow 0} \ \left(f( a) +f( h)\right)\\
  & \\
  & =f( a) +\lim\limits _{h\rightarrow 0} \ f( h)\\
  & \\

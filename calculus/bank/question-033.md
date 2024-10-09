@@ -55,7 +55,7 @@ $$
 \end{equation*}
 $$
 
-As $\displaystyle x\rightarrow \infty $, both the LHS and RHS tend to zero. We get the required limit by sandwich theorem.
+As $\displaystyle x\rightarrow \infty$, both the LHS and RHS tend to zero. We get the required limit by sandwich theorem.
 
 ### Second Limit
 

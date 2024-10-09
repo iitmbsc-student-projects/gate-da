@@ -11,7 +11,7 @@ Consider a sequence $\displaystyle \{a_{n}\}$ with $\displaystyle a_{n} =\frac{n
 - [ ] $\displaystyle \{a_{n}\}$ is an increasing, bounded sequence.
 - [ ] $\displaystyle \{a_{n}\}$ is an increasing, unbounded sequence.
 - [ ] $\displaystyle \{b_{n}\}$ is an increasing, unbounded sequence.
-- [ ] $\displaystyle \lim\limits _{n\rightarrow \infty } \ a_{n} =2$
+- [ ] $\displaystyle \lim\limits _{n\rightarrow \infty } \ a_{n} =1$
 - [ ] $\displaystyle \lim\limits _{n\rightarrow \infty } \ b_{n} =6$
 - [ ] $\displaystyle \lim\limits _{n\rightarrow \infty } b_{n} =\infty$
 
@@ -22,7 +22,7 @@ Consider a sequence $\displaystyle \{a_{n}\}$ with $\displaystyle a_{n} =\frac{n
 - [ ] $\displaystyle \{a_{n}\}$ is an increasing, bounded sequence.
 - [ ] $\displaystyle \{a_{n}\}$ is an increasing, unbounded sequence.
 - [ ] $\displaystyle \{b_{n}\}$ is an increasing, unbounded sequence.
-- [x] $\displaystyle \lim\limits _{n\rightarrow \infty } \ a_{n} =2$
+- [x] $\displaystyle \lim\limits _{n\rightarrow \infty } \ a_{n} =1$
 - [x] $\displaystyle \lim\limits _{n\rightarrow \infty } \ b_{n} =6$
 - [ ] $\displaystyle \lim\limits _{n\rightarrow \infty } b_{n} =\infty$
 
