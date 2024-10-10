@@ -6,17 +6,18 @@ categories: [DBMS]
 
 The employee information in a company is stored in the relation
 
-* Employee (name, sex, salary, deptName)
+`Employee (name, sex, salary, deptName)`
 
 Consider the following SQL query:
 
-* Select deptName  
-*    From Employee  
-*    Where sex \= ‘M’  
-*    Group by deptName  
-*    Having avg(salary) \>  
-*        (select avg (salary) from Employee)
-
+```sql
+SELECT deptName  
+FROM Employee  
+WHERE sex = ‘M’  
+GROUP BY deptName  
+HAVING avg(salary) >  
+    (SELECT avg (salary) FROM Employee)
+```
 It returns the names of the department in which
 
 - [ ] the average salary is more than the average salary in the company  

@@ -4,27 +4,27 @@ pagetitle: Question-46
 categories: [DBMS]
 ---
 
-In a schema with attributes 𝐴,𝐵,𝐶,𝐷 and 𝐸 following set of functional dependencies are given  
+In a schema with attributes $A, B, C, D$ and $E$ following set of functional dependencies are given  
 
-* 𝐴→𝐵  
-* 𝐴→𝐶  
-* 𝐶𝐷→𝐸  
-* 𝐵→𝐷  
-* 𝐸→𝐴
+* $A \rightarrow B$
+* $A \rightarrow C$
+* $CD \rightarrow E$
+* $B \rightarrow D$
+* $E \rightarrow A$
 
 Which of the following functional dependencies is NOT implied by the above set?
 
-- [ ] 𝐶𝐷→𝐴𝐶  
-- [ ] 𝐵𝐷→𝐶𝐷  
-- [ ] 𝐵𝐶→𝐶𝐷  
-- [ ] 𝐴𝐶→𝐵𝐶
+- [ ] $CD \rightarrow AC$
+- [ ] $BD \rightarrow CD$
+- [ ] $BC \rightarrow CD$
+- [ ] $AC \rightarrow BC$
 
 ::: {.callout-note title="Answer" collapse=true}
 
-- [ ] 𝐶𝐷→𝐴𝐶  
-- [x] 𝐵𝐷→𝐶𝐷  
-- [ ] 𝐵𝐶→𝐶𝐷  
-- [ ] 𝐴𝐶→𝐵𝐶
+- [ ] $CD \rightarrow AC$
+- [x] $BD \rightarrow CD$
+- [ ] $BC \rightarrow CD$
+- [ ] $AC \rightarrow BC$
 
 :::
 

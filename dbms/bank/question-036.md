@@ -4,9 +4,16 @@ pagetitle: Question-36
 categories: [DBMS]
 ---
 
-Consider the following transaction involving two bank accounts 𝑥 and 𝑦
+Consider the following transaction involving two bank accounts x and y
 
- read(x); x:=x\-50; write (x); read(y); y:=y\+50; write(y)
+```
+read(x); 
+x:=x-50;
+write (x);
+read(y);
+y:=y+50;
+write(y)
+```
 
 The constraint that the sum of the accounts 𝑥 and 𝑦 should remain constant is that of 
 

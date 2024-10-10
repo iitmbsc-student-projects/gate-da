@@ -6,13 +6,14 @@ categories: [DBMS]
 
 The relation **book** (title, price) contains the titles and prices of different books. Assuming that no two books have the same price, what does the following SQL query list?
 
-<pre>
-select title  
-from book as B  
-where (select count(\*)  
-   from book as T  
-   where T.price\>B.price) \< 5
-</pre>
+```sql
+SELECT title  
+FROM book AS B  
+WHERE (
+   SELECT count(*)  
+   FROM book AS T  
+   WHERE T.price>B.price) < 5
+```
 
 - [ ] Titles of the four most expensive books  
 - [ ] Title of the fifth most inexpensive book  

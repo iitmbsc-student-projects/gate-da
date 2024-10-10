@@ -6,23 +6,18 @@ categories: [DBMS]
 
 Consider the set of relations shown below and the SQL query that follows.
 
-Students: (Roll\_number, Name, Date\_of\_birth)
+`Students: (Roll_number, Name, Date_of_birth)`  
+`Courses: (Course_number, Course_name, Instructor)`  
+`Grades: (Roll_number, Course_number, Grade)`  
 
-Courses: (Course\_number, Course\_name, Instructor)
-
-Grades: (Roll\_number, Course\_number, Grade)
-
-Select distinct Name
-
-from Students, Courses, Grades
-
-where Students.Roll\_number\=Grades.Roll\_number
-
-	and Courses.Instructor \= 'Korth'
-
-	and Courses.Course\_number \= Grades.Course\_number
-
-	and Grades.Grade \= 'A'
+```sql
+SELECT DISTINCT Name
+FROM Students, Courses, Grades
+WHERE Students.Roll_number=Grades.Roll_number
+AND Courses.Instructor = 'Korth'
+AND Courses.Course_number = Grades.Course_number
+AND Grades.Grade = 'A'
+```
 
 Which of the following sets is computed by the above query?
 

@@ -4,10 +4,10 @@ pagetitle: Question-47
 categories: [DBMS]
 ---
 
-Let 𝑅(𝐴,𝐵,𝐶,𝐷) be a relational schema with the following functional dependencies :  
-𝐴→𝐵,  𝐵→𝐶,  𝐶→𝐷 and 𝐷→𝐵.
+Let $R(A,B,C,D)$  be a relational schema with the following functional dependencies :  
+$A \rightarrow B$,  $B\rightarrow C$, $C \rightarrow D$ and $D \rightarrow B$.
 
-The decomposition of 𝑅 into (𝐴,𝐵),(𝐵,𝐶),(𝐵,𝐷)
+The decomposition of $R$ into $(A,B), (B,C), (B,D)$
 
 - [ ] gives a lossless join, and is dependency preserving  
 - [ ] gives a lossless join, but is not dependency preserving  

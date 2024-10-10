@@ -6,7 +6,7 @@ categories: [DBMS]
 
 Consider the following log sequence of two transactions on a bank account, with initial balance 12000, that transfer 2000 to a mortgage payment and then apply a 5% interest. 
 
-1. T:1 start   
+1. T1: start   
 2. T1: B old \=12000, new \=10000  
 3. T1: M old \=0, new \=2000  
 4. T1: commit  

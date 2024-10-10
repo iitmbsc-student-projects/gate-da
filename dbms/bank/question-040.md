@@ -6,13 +6,18 @@ categories: [DBMS]
 
 A table T1 in a relational database has the following rows and columns: 
 
-![](./q40.png)
+| Roll no. | Marks |
+| -------- | ----- |
+| 1        | 10    |
+| 2        | 20    |
+| 3        | 30    |
+| 4        | NULL  |
 
 The following sequence of SQL statements was successfully executed on table T1.
-
-Update T1 set marks \= marks \+ 5
-
-Select avg(marks) from T1
+```sql
+UPDATE T1 SET marks = marks + 5
+SELECT avg(marks) FROM T1
+```
 
 What is the output of the select statement?
 

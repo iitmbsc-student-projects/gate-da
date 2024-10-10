@@ -6,34 +6,28 @@ categories: [DBMS]
 
 Consider the following relational schema:
 
-* Student(school-id,sch-roll-no―,sname,saddress)  
-* School(school-id―,sch-name,sch-address,sch-phone)  
-* Enrolment(school-id,sch-roll-no―,erollno,examname)  
-* ExamResult(erollno,examname―,marks)
+* `Student(school_id, sch_roll_no, sname,saddress)`
+* `School(school_id, sch_name, sch_address, sch_phone)`
+* `Enrolment(school_id, sch_roll_no, erollno, examname)`
+* `ExamResult(erollno, examname, marks)`
 
 What does the following SQL query output?
 
-SELECT	sch\-name, COUNT (\*)
-
+```sql
+SELECT	sch_name, COUNT (*)
 FROM	School C, Enrolment E, ExamResult R
+WHERE	E.school_id = C.school_id
+AND E.examname = R.examname 
+AND E.erollno = R.erollno
+AND R.marks = 100 
+AND E.school_id IN (
+    SELECT school_id
+    FROM student
+    GROUP BY school_id
+    HAVING COUNT (*) > 200)
+GROUP BY school_id
+```
 
-WHERE	E.school\-id \= C.school\-id
-
-AND
-
-E.examname \= R.examname AND E.erollno \= R.erollno
-
-AND
-
-R.marks \= 100 AND E.school\-id IN (SELECT school\-id
-
-                                FROM student
-
-                                GROUP BY school\-id
-
-                                 HAVING COUNT (\*) \> 200)
-
-GROUP By school\-id
 
 - [ ] for each school with more than 200 students appearing in exams, the name of the school and the number of 100𝑠 scored by its students   
 - [ ] for each school with more than 200 students in it, the name of the school and the number of 100𝑠 scored by its students  
