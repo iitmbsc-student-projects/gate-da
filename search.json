@@ -3874,5 +3874,125 @@
       "Bank",
       "Question-35"
     ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-054.html",
+    "href": "prob_stats/bank/question-054.html",
+    "title": "Question-54",
+    "section": "",
+    "text": "Let \\(X_1 \\sim {\\chi}^2_{8}\\) and \\(X_2 \\sim {\\chi}^2_{7}\\) are indepdendent random variables. Define a new random variable \\(Y = X_1 + X_2\\). What is the Var\\((Y)?\\)\n\n\\(15\\)\n\\(56\\)\n\\(8\\)\n\\(30\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse the concept of ``Additive property of Chi-square distribution”, i.e., if \\(X_1  \\sim {\\chi}^2_{n_1}\\) and \\(X_2 \\sim {\\chi}^2_{n_2}\\) are indepdendent random variables, then \\(X_1 + X_2 \\sim {\\chi}^2_{n_1 + n_2}\\) and use the formula of variance of a chi-square random variable.\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(15\\)\n\\(56\\)\n\\(8\\)\n\\(30\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-54"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-052.html",
+    "href": "prob_stats/bank/question-052.html",
+    "title": "Question-52",
+    "section": "",
+    "text": "In a library, there are \\(10\\) fiction books and \\(7\\) non-fiction books. However, \\(2\\) of the non-fiction books are missing. If \\(4\\) books are randomly selected from the remaining books, what is the probability that exactly \\(2\\) of them are fiction books, given that at least \\(1\\) non-fiction book is chosen?\n\n\\(\\dfrac{450}{1365}\\)\n\\(\\dfrac{450}{1155}\\)\n\\(\\dfrac{450}{2380}\\)\n\\(\\dfrac{90}{210}\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(\\dfrac{450}{1365}\\)\n\\(\\dfrac{450}{1155}\\)\n\\(\\dfrac{450}{2380}\\)\n\\(\\dfrac{90}{210}\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-52"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-051.html",
+    "href": "prob_stats/bank/question-051.html",
+    "title": "Question-51",
+    "section": "",
+    "text": "Let \\(X\\) and \\(Y\\) be independent random variables with \\(E[X] = 3, E[Y] = 2, \\text{Var}(X) = 1\\) and \\(\\text{Var(Y)} = 4\\). Find the variance of the product \\(Z = XY\\).\n\n\n\n\n\n\nHint\n\n\n\n\n\nUse the concept of “Independence of two random variables”, i.e., if \\(X\\) and \\(Y\\) are two independent random variables then \\(E[XY] = E[X]E[Y]\\)\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n44\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-51"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-059.html",
+    "href": "prob_stats/bank/question-059.html",
+    "title": "Question-59",
+    "section": "",
+    "text": "A knock-out tournament is held with \\(\\displaystyle 2^{n}\\) tennis players. In each round, the winner of a game moves to the next round while the loser is eliminated.\n\nThere are \\(\\displaystyle n\\) rounds in total.\nThere are \\(\\displaystyle 2n\\) rounds in total.\nThe total number of games played is \\(\\displaystyle n^{2}\\)\nThe total number of games played is \\(\\displaystyle 2^{n} -1\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThere are \\(\\displaystyle n\\) rounds in total.\nThere are \\(\\displaystyle 2n\\) rounds in total.\nThe total number of games played is \\(\\displaystyle n^{2}\\)\nThe total number of games played is \\(\\displaystyle 2^{n} -1\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nIn every round, half the number of players participating in that round advance to the next round. In the first round, \\(\\displaystyle 2^{n}\\) players play, \\(\\displaystyle 2^{n-1}\\) advance from \\(\\displaystyle 2^{n-1}\\) games. In the second round, \\(\\displaystyle 2^{n-2}\\) players advance from the \\(\\displaystyle 2^{n-2}\\) games. Continuing with this pattern, we can deduce that there are \\(\\displaystyle n\\) rounds and \\(\\displaystyle 2^{n-1} +\\cdots +1=2^{n} -1\\) games across all rounds.\nA simpler way of arriving at the total number of games played is to look at the number of players who need to be eliminated. Since the tournament has exactly one winner, \\(\\displaystyle 2^{n} -1\\) players need to be eliminated. Each game results in exactly one elimination and each player gets eliminated just once. From this, we see that the total number of games played is \\(\\displaystyle 2^{n} -1\\).",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-59"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-055.html",
+    "href": "prob_stats/bank/question-055.html",
+    "title": "Question-55",
+    "section": "",
+    "text": "Two friends, Meenal and Sonika, play a game. Meenal rolls a fair six-sided die once, and Sonika flips a fair coin once. Let \\(X\\) be the outcome of the die and \\(Y\\) be the value of the coin flip (where \\(Y\\) = 1 if heads and \\(Y\\) = 0 if tails). If the prize of the game is \\(Z = XY\\), then find the expected prize value.\n\n\\(1.75\\)\n\\(3.5\\)\n\\(0.5\\)\n\\(4\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(1.75\\)\n\\(3.5\\)\n\\(0.5\\)\n\\(4\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-55"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-057.html",
+    "href": "prob_stats/bank/question-057.html",
+    "title": "Question-57",
+    "section": "",
+    "text": "You plan to go out for dinner each night of a certain week. There are ten restaurants that you have shortlisted. How many schedules are possible if you don’t want to eat at the same place twice in a row (or more)?\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(10 \\times 9^{4}\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe required count is \\(\\displaystyle 10\\times 9^{4}\\). On the first day, you can go to any of the ten restaurants. On the second day, you can go to any of the restaurants other than the one you went to on the first day, which results in \\(\\displaystyle 9\\) choices. A similar arguments is true for the remaining days. On each of the days, you exclude the choice of the previous day.",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-57"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-060.html",
+    "href": "prob_stats/bank/question-060.html",
+    "title": "Question-60",
+    "section": "",
+    "text": "There are \\(\\displaystyle 20\\) participants at a chess competition. They each find opponents and start playing. How many possibilities are there for how they matched up, assuming that in each game it does matter who has the white pieces?\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\\(\\frac{20!}{10!}\\)\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nConsider \\(\\displaystyle 10\\) boards that arranged in a straight line, with two places at each board. The total number of ways we can permute the players is \\(\\displaystyle 20!\\). But we can permute the board themselves in \\(\\displaystyle 10!\\) ways. Therefore, we get \\(\\frac{20!}{10!}\\) different match ups.",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-60"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-056.html",
+    "href": "prob_stats/bank/question-056.html",
+    "title": "Question-56",
+    "section": "",
+    "text": "How many seven digit phone numbers are possible, assuming that the first digit can’t be a \\(\\displaystyle 0\\) or a \\(\\displaystyle 1\\)?\nHow would this answer change if no phone number can start with \\(\\displaystyle 911\\)?\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(8 \\times 10^{6}\\)\n\\(8 \\times 10^{6} - 10^{4}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe first slot has \\(\\displaystyle 8\\) possibilities. The remaining slots have \\(\\displaystyle 10\\) possibilities. Therefore, the number of phone numbers is \\(\\displaystyle 8\\times 10^{6}\\). For the second part, we subtract all phone numbers starting with \\(\\displaystyle 911\\). There are \\(\\displaystyle 10^{4}\\) such numbers. So the required answer is \\(\\displaystyle 8\\times 10^{6} -10^{4}\\).",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-56"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-053.html",
+    "href": "prob_stats/bank/question-053.html",
+    "title": "Question-53",
+    "section": "",
+    "text": "A company records the following weekly production output (in units) for \\(6\\) weeks:\n\\(50, 45, 55, 60, 70, 40\\)\nIf the production in the third week was incorrectly recorded as \\(55\\) instead of \\(65\\), then find the correct mean.\n\n\\(55\\)\n\\(53.33\\)\n\\(51.67\\)\n\\(66\\)\n\n\n\n\n\n\n\nHint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\n\\(55\\)\n\\(53.33\\)\n\\(51.67\\)\n\\(66\\)\n\n\n\n\n\n\n\n\n\n\nSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-53"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-058.html",
+    "href": "prob_stats/bank/question-058.html",
+    "title": "Question-58",
+    "section": "",
+    "text": "A round-robin tournament is one in which every player plays against every other player exactly once. Consider a round-robin tournament with \\(\\displaystyle n\\) players in which each game can result in either a win or a loss (no draws are possible). Define an outcome-list of a tournament to be the list of the names of winners and losers for each game.\n\nThe total number of games played is \\(\\displaystyle 2^{n}\\)\nThe total number of games played is \\(\\displaystyle \\binom{n}{2}\\)\nThe total number of outcome-lists for a specific tournament is \\(\\displaystyle 2^{n}\\)\nThe total number of outcome-lists for a specific tournament is \\(\\displaystyle 2^{\\binom{n}{2}}\\)\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\n\nThe total number of games played is \\(\\displaystyle 2^{n}\\)\nThe total number of games played is \\(\\displaystyle \\binom{n}{2}\\)\nThe total number of outcome-lists for a specific tournament is \\(\\displaystyle 2^{n}\\)\nThe total number of outcome-lists for a specific tournament is \\(\\displaystyle 2^{\\binom{n}{2}}\\)\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThere are \\(\\displaystyle n\\) choices for the first player and \\(\\displaystyle n-1\\) choices for the second player. Using the multiplication rule, we have \\(\\displaystyle n( n-1)\\) choices for a pair of players. However, a game is an unordered pair, so we have \\(\\displaystyle n( n-1) /2\\) games in total. Alternatively, a game is a choice of two players from the set of \\(\\displaystyle n\\) players. The total number of games is given by \\(\\displaystyle \\binom{n}{2}\\).\nGiven a tournament, each game has two possibilities. Therefore, the total number of outcome-lists would be \\(\\displaystyle 2^{\\binom{n}{2}}\\).",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-58"
+    ]
   }
 ]
