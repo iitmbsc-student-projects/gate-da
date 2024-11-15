@@ -2392,7 +2392,7 @@ window.Quarto = {
 </header>
 
 
-<p>Let <span class="math inline">\(\displaystyle U\)</span> and <span class="math inline">\(\displaystyle V\)</span> be two-dimensional subspaces of <span class="math inline">\(\displaystyle \mathbb{R}^{5}\)</span> and let <span class="math inline">\(\displaystyle W=U\cap W\)</span>. Find the number of possible dimensions of <span class="math inline">\(\displaystyle W\)</span>.</p>
+<p>Let <span class="math inline">\(\displaystyle U\)</span> and <span class="math inline">\(\displaystyle V\)</span> be two-dimensional subspaces of <span class="math inline">\(\displaystyle \mathbb{R}^{5}\)</span> and let <span class="math inline">\(\displaystyle W=U\cap V\)</span>. Find the number of possible dimensions of <span class="math inline">\(\displaystyle W\)</span>.</p>
 <div class="callout callout-style-default callout-note callout-titled" title="Answer">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -2730,7 +2730,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/iitmbsc-student-projects\.github\.io\/gate-da\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

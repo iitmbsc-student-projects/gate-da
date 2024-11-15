@@ -2409,7 +2409,7 @@ window.Quarto = {
 <p>A real vector space is a set <span class="math inline">\(\displaystyle V\)</span> along with two binary operations <span class="math inline">\(\displaystyle +,\cdot\)</span>:</p>
 <ul>
 <li>vector addition, <span class="math inline">\(\displaystyle +:V\times V\rightarrow V\)</span></li>
-<li>scalar multiplication, <span class="math inline">\(\cdot: V\times \mathbb{R}\rightarrow \mathbb{R}\)</span></li>
+<li>scalar multiplication, <span class="math inline">\(\cdot: V\times \mathbb{R}\rightarrow V\)</span></li>
 </ul>
 <p>such that the following axioms hold.</p>
 <section id="addition-axioms" class="level3">
@@ -2439,7 +2439,7 @@ window.Quarto = {
 <ul>
 <li>The set <span class="math inline">\(\displaystyle \mathbb{R}^{2}\)</span> with the usual rules of addition and scalar multiplication is a vector space.</li>
 <li>As an extension, the set <span class="math inline">\(\displaystyle \mathbb{R}^{n}\)</span> with the usual rules of addition and scalar multiplication is a vector space.</li>
-<li>The set of all polynomials of degree at most <span class="math inline">\(\displaystyle n\)</span> with real coefficients is a vector space with the usual rules of polynomial addition and scalar multiplication. This is sometimes denoted as <span class="math inline">\(\displaystyle P_{n+1}(\mathbb{R})\)</span>.</li>
+<li>The set of all polynomials of degree at most <span class="math inline">\(\displaystyle n\)</span> with real coefficients is a vector space with the usual rules of polynomial addition and scalar multiplication. This is sometimes denoted as <span class="math inline">\(\displaystyle P_{n}(\mathbb{R})\)</span>.</li>
 <li>The set of all real <span class="math inline">\(\displaystyle m\times n\)</span> matrices is a vector space. This is sometimes denoted as <span class="math inline">\(\displaystyle M_{m\times n}(\mathbb{R})\)</span>.</li>
 </ul>
 </section>
@@ -2766,7 +2766,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/iitmbsc-student-projects\.github\.io\/gate-da\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

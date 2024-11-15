@@ -2421,21 +2421,83 @@ Answer
 </div>
 </div>
 </div>
-<div class="callout callout-style-default callout-note callout-titled" title="Solution">
+<div class="callout callout-style-default callout-note callout-titled" title="Solutions">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Solution
+Solutions
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Solution-1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Solution-2</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<blockquote class="blockquote">
+<p>This solution was provided by <strong>Vivek Sivaramakrishnan</strong>. Besides its elegance, it is notable for the marriage of multiple ideas: different ways of multiplying matrices, linking inner products, outer producs and the trace.</p>
+</blockquote>
+<p>Let <span class="math inline">\(\displaystyle A\)</span> be an <span class="math inline">\(\displaystyle m\times n\)</span> matrix and <span class="math inline">\(\displaystyle B\)</span> be an <span class="math inline">\(\displaystyle n\times m\)</span> matrix. We can represent <span class="math inline">\(\displaystyle A\)</span> and <span class="math inline">\(\displaystyle B\)</span> as follows:</p>
+<p><span class="math display">\[
+\begin{equation*}
+A=\begin{bmatrix}
+| &amp;  &amp; |\\
+a_{1} &amp; \cdots  &amp; a_{n}\\
+| &amp;  &amp; |
+\end{bmatrix} ,\ B=\begin{bmatrix}
+- &amp; b_{1}^{T} &amp; -\\
+&amp;  &amp; \\
+- &amp; b_{n}^{T} &amp; -
+\end{bmatrix}
+\end{equation*}
+\]</span></p>
+<p>Here, <span class="math inline">\(\displaystyle a_{i} \in \mathbb{R}^{m}\)</span> and <span class="math inline">\(\displaystyle b_{i} \in \mathbb{R}^{m}\)</span>. We can express <span class="math inline">\(\displaystyle AB\)</span> as a sum of <span class="math inline">\(\displaystyle n\)</span> outer-products, each of which is a unit-rank matrix:</p>
+<p><span class="math display">\[
+\begin{equation*}
+AB=a_{1} b_{1}^{T} +\cdots +a_{n} b_{n}^{T}
+\end{equation*}
+\]</span></p>
+<p>We have:</p>
+<p><span class="math display">\[
+\begin{equation*}
+\text{tr}( AB) =\text{tr}\left( a_{1} b_{1}^{T}\right) +\cdots +\text{tr}\left( a_{n} b_{n}^{T}\right)
+\end{equation*}
+\]</span></p>
+<p>If <span class="math inline">\(\displaystyle a\)</span> and <span class="math inline">\(\displaystyle b\)</span> are two vectors in <span class="math inline">\(\displaystyle \mathbb{R}^{m}\)</span>, the diagonal of <span class="math inline">\(\displaystyle ab^{T}\)</span> is made up of elements of the form <span class="math inline">\(\displaystyle a_{i} b_{i}\)</span>. So the trace of <span class="math inline">\(\displaystyle ab^{T}\)</span> is nothing but the dot product <span class="math inline">\(\displaystyle a^{T} b\)</span>! Therefore, the equation becomes:</p>
+<p><span class="math display">\[
+\begin{equation*}
+\text{tr}( AB) =a_{1}^{T} b_{1} +\cdots +a_{n}^{T} b_{n}
+\end{equation*}
+\]</span></p>
+<p>We can now rewrite this as:</p>
+<p><span class="math display">\[
+\begin{equation*}
+\text{tr}( AB) =b_{1}^{T} a_{1} +\cdots +b_{n}^{T} a_{n}
+\end{equation*}
+\]</span></p>
+<p>This is nothing but <span class="math inline">\(\displaystyle \text{tr}( BA)\)</span>. To see this, recall that:</p>
+<p><span class="math display">\[
+\begin{equation*}
+B=\begin{bmatrix}
+- &amp; b_{1}^{T} &amp; -\\
+&amp;  &amp; \\
+- &amp; b_{n}^{T} &amp; -
+\end{bmatrix} ,\ A=\begin{bmatrix}
+| &amp;  &amp; |\\
+a_{1} &amp; \cdots  &amp; a_{n}\\
+| &amp;  &amp; |
+\end{bmatrix}
+\end{equation*}
+\]</span></p>
+<p>Each diagonal entry of <span class="math inline">\(\displaystyle BA\)</span> is just the dot product of the <span class="math inline">\(\displaystyle i^{th}\)</span> row of <span class="math inline">\(\displaystyle B\)</span> with the <span class="math inline">\(\displaystyle i^{th}\)</span> column of <span class="math inline">\(\displaystyle A\)</span>.</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <p>Let <span class="math inline">\(\displaystyle A\)</span> be of shape <span class="math inline">\(\displaystyle m\times n\)</span>. If <span class="math inline">\(\displaystyle AB\)</span> and <span class="math inline">\(\displaystyle BA\)</span> are to be square matrices, <span class="math inline">\(\displaystyle B\)</span> has to be of shape <span class="math inline">\(\displaystyle n\times m\)</span>. Let us represent <span class="math inline">\(\displaystyle A\)</span> and <span class="math inline">\(\displaystyle B\)</span> as:</p>
-<p>$$</p>
-<p><span class="math display">\[\begin{equation*}
+<p><span class="math display">\[
+\begin{equation*}
 A=\begin{bmatrix}
 | &amp;  &amp; |\\
 a_{1} &amp; \cdots  &amp; a_{n}\\
@@ -2445,7 +2507,8 @@ a_{1} &amp; \cdots  &amp; a_{n}\\
 b_{1} &amp; \cdots  &amp; b_{m}\\
 | &amp;  &amp; |
 \end{bmatrix}
-\end{equation*}\]</span> $$</p>
+\end{equation*}
+\]</span></p>
 <p>This allows us to express <span class="math inline">\(\displaystyle AB\)</span> and <span class="math inline">\(\displaystyle BA\)</span> as:</p>
 <p><span class="math display">\[
 \begin{equation*}
@@ -2492,6 +2555,9 @@ Note
 </div>
 <div class="callout-body-container callout-body">
 <p>Let <span class="math inline">\(\displaystyle A\)</span> and <span class="math inline">\(\displaystyle B\)</span> be two matrices such that <span class="math inline">\(\displaystyle AB\)</span> and <span class="math inline">\(\displaystyle BA\)</span> are square matrices. Then, <span class="math inline">\(\displaystyle \text{tr}( AB) =\text{tr}( BA)\)</span>.</p>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -2797,7 +2863,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/iitmbsc-student-projects\.github\.io\/gate-da\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

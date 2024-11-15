@@ -2397,8 +2397,8 @@ window.Quarto = {
 <p>Let <span class="math inline">\(\displaystyle A\)</span> be an orthogonal matrix. Find the number of true statements.</p>
 <ul>
 <li><span class="math inline">\(\displaystyle A\)</span> cannot have a zero eigenvalue.</li>
-<li>If $$ is an eigenvalue of <span class="math inline">\(\displaystyle A\)</span>, <span class="math inline">\(\displaystyle \frac{1}{\lambda }\)</span> is an eigenvalue of <span class="math inline">\(\displaystyle A^{T}\)</span>.</li>
-<li>If $$ is a real eigenvalue of <span class="math inline">\(\displaystyle A\)</span>, then <span class="math inline">\(\displaystyle |\lambda |=1\)</span>.</li>
+<li>If <span class="math inline">\(\displaystyle \lambda\)</span> is an eigenvalue of <span class="math inline">\(\displaystyle A\)</span>, <span class="math inline">\(\displaystyle \frac{1}{\lambda}\)</span> is an eigenvalue of <span class="math inline">\(\displaystyle A^{T}\)</span>.</li>
+<li>If <span class="math inline">\(\displaystyle \lambda\)</span> is a real eigenvalue of <span class="math inline">\(\displaystyle A\)</span>, then <span class="math inline">\(\displaystyle |\lambda |=1\)</span>.</li>
 </ul>
 <div class="callout callout-style-default callout-note callout-titled" title="Answer">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
@@ -2450,7 +2450,7 @@ A^{T} Av &amp; =\lambda A^{T} v\\
 \end{aligned}
 \end{equation*}
 \]</span></p>
-<p>Now, we can divide by $$ only if <span class="math inline">\(\displaystyle \lambda \neq 0\)</span>, which is the case as shown above. Therefore, we divide both sides by $$ to get:</p>
+<p>Now, we can divide by <span class="math inline">\(\displaystyle \lambda\)</span> only if <span class="math inline">\(\displaystyle \lambda \neq 0\)</span>, which is the case as shown above. Therefore, we divide both sides by <span class="math inline">\(\displaystyle \lambda\)</span> to get:</p>
 <p><span class="math display">\[
 \begin{equation*}
 \begin{aligned}
@@ -2778,7 +2778,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/iitmbsc-student-projects\.github\.io\/gate-da\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
