@@ -12,7 +12,7 @@ Use the following definitions to solve this question:
 0 & 0
 \end{bmatrix}$ is nilpotent. 
 
-- A matrix is called diagonalizable if $\displaystyle \mathbb{R}^{n}$ has a basis of eigenvectors of $\displaystyle A$. Assume that a matrix
+- A matrix is called diagonalizable if $\displaystyle \mathbb{R}^{n}$ has a basis of eigenvectors of $\displaystyle A$.
 
 Which of the following statements are true?
 

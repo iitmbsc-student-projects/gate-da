@@ -8,8 +8,8 @@ categories: [orthogonal matrix, eigenvalue, eigenvector]
 Let $\displaystyle A$ be an orthogonal matrix. Find the number of true statements.
 
 - $\displaystyle A$ cannot have a zero eigenvalue.
-- If $\displaystyle \lambda $ is an eigenvalue of $\displaystyle A$, $\displaystyle \frac{1}{\lambda }$ is an eigenvalue of $\displaystyle A^{T}$.
-- If $\displaystyle \lambda $ is a real eigenvalue of $\displaystyle A$, then $\displaystyle |\lambda |=1$.
+- If $\displaystyle \lambda$ is an eigenvalue of $\displaystyle A$, $\displaystyle \frac{1}{\lambda}$ is an eigenvalue of $\displaystyle A^{T}$.
+- If $\displaystyle \lambda$ is a real eigenvalue of $\displaystyle A$, then $\displaystyle |\lambda |=1$.
 
 ::: {.callout-note title="Answer" collapse=true}
 
@@ -45,7 +45,7 @@ A^{T} Av & =\lambda A^{T} v\\
 \end{equation*}
 $$
 
-Now, we can divide by $\displaystyle \lambda $ only if $\displaystyle \lambda \neq 0$, which is the case as shown above. Therefore, we divide both sides by $\displaystyle \lambda $ to get:
+Now, we can divide by $\displaystyle \lambda$ only if $\displaystyle \lambda \neq 0$, which is the case as shown above. Therefore, we divide both sides by $\displaystyle \lambda$ to get:
 
 $$
 \begin{equation*}

@@ -9,7 +9,7 @@ categories: [vector space]
 A real vector space is a set $\displaystyle V$ along with two binary operations $\displaystyle +,\cdot$:
 
 - vector addition, $\displaystyle +:V\times V\rightarrow V$ 
-- scalar multiplication, $\cdot: V\times \mathbb{R}\rightarrow \mathbb{R}$ 
+- scalar multiplication, $\cdot: V\times \mathbb{R}\rightarrow V$ 
 
 such that the following axioms hold.
 
@@ -38,7 +38,7 @@ such that the following axioms hold.
 
 - The set $\displaystyle \mathbb{R}^{2}$ with the usual rules of addition and scalar multiplication is a vector space.
 - As an extension, the set $\displaystyle \mathbb{R}^{n}$ with the usual rules of addition and scalar multiplication is a vector space.
-- The set of all polynomials of degree at most $\displaystyle n$ with real coefficients is a vector space with the usual rules of polynomial addition and scalar multiplication. This is sometimes denoted as $\displaystyle P_{n+1}(\mathbb{R})$.
+- The set of all polynomials of degree at most $\displaystyle n$ with real coefficients is a vector space with the usual rules of polynomial addition and scalar multiplication. This is sometimes denoted as $\displaystyle P_{n}(\mathbb{R})$.
 - The set of all real $\displaystyle m\times n$ matrices is a vector space. This is sometimes denoted as $\displaystyle M_{m\times n}(\mathbb{R})$.
 
 

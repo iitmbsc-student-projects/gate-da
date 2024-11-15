@@ -11,7 +11,7 @@ website:
     border: true
     foreground: "primary"
     contents: auto
-    search: false
+    search: true
   #announcement: 
   #  icon: info-circle
   #  dismissable: true

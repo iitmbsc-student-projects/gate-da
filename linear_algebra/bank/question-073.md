@@ -5,7 +5,7 @@ order: 73
 categories: [subspace]
 ---
 
-Let $\displaystyle U$ and $\displaystyle V$ be two-dimensional subspaces of $\displaystyle \mathbb{R}^{5}$ and let $\displaystyle W=U\cap W$. Find the number of possible dimensions of $\displaystyle W$.
+Let $\displaystyle U$ and $\displaystyle V$ be two-dimensional subspaces of $\displaystyle \mathbb{R}^{5}$ and let $\displaystyle W=U\cap V$. Find the number of possible dimensions of $\displaystyle W$.
 
 ::: {.callout-note title="Answer" collapse=true}
 
