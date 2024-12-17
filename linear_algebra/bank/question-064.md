@@ -27,9 +27,9 @@ The trace of a square matrix is the sum of its diagonal entries. Two matrices $\
 
 :::
 
-
 ::: {.callout-note title="Solutions" collapse=true}
 ::: {.panel-tabset}
+
 ## Solution-1
 
 > This solution was provided by **Vivek Sivaramakrishnan**. Besides its elegance, it is notable for the marriage of multiple ideas: different ways of multiplying matrices, linking inner products, outer producs and the trace.
@@ -50,7 +50,7 @@ a_{1} & \cdots  & a_{n}\\
 \end{equation*}
 $$
 
-Here, $\displaystyle a_{i} \in \mathbb{R}^{m}$ and $\displaystyle b_{i} \in \mathbb{R}^{m}$. We can express $\displaystyle AB$ as a sum of $\displaystyle n$ outer-products, each of which is a unit-rank matrix:
+Here, $\displaystyle a_{i} \in \mathbb{R}^{m}$ and $\displaystyle b_{i} \in \mathbb{R}^{m}$. We can express $\displaystyle AB$ as a sum of $\displaystyle n$ outer-products:
 
 $$
 \begin{equation*}

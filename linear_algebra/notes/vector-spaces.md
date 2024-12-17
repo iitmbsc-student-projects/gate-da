@@ -2,6 +2,7 @@
 title: Vector Spaces
 pagetitle: Vector Spaces
 categories: [vector space]
+order: 1
 ---
 
 ## Definition
