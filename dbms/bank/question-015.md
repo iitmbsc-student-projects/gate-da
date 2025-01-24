@@ -5,7 +5,7 @@ categories: [DBMS, Key]
 ---
 
 
-Which of the following is NOT a super key in a relational schema with attributes V, 
+Which of the following is NOT a super key in a relational schema with attributes V, given that the primary key is "VY"?
 
 - [ ] VXYZ
 - [ ] VWXZ
