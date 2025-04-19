@@ -3,7 +3,7 @@ project:
   title: "GATE-DA"
 
 website:
-  page-footer: "Copyright 2024 @ IIT Madras"
+  page-footer: "Copyright 2025 @ IIT Madras"
   page-navigation: true
   sidebar:
     logo: "assets/iit_logo.png"
@@ -12,6 +12,10 @@ website:
     foreground: "primary"
     contents: auto
     search: true
+  repo-url: https://github.com/iitmbsc-student-projects/gate-da
+  repo-branch: master
+  repo-actions: [edit, issue, source]
+  repo-link-target: "_blank"
   #announcement: 
   #  icon: info-circle
   #  dismissable: true
@@ -33,3 +37,7 @@ format:
     highlight-style: github
     code-block-border-left: "#D3D3D3"
     code-overflow: scroll
+    other-links:
+      - text: Discussion Forum
+        icon: chat-square-dots-fill
+        href: https://discourse.onlinedegree.iitm.ac.in/c/sca/gate-dojo/98
