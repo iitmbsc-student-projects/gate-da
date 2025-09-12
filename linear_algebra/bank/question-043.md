@@ -16,7 +16,7 @@ b & 9
 
 Under what conditions is this matrix positive semi-definite?
 
-- [ ] $b \in (\infty, -3] \cup [3, \infty)$
+- [ ] $b \in (-\infty, -3] \cup [3, \infty)$
 - [ ] $b \in \mathbb{R}$
 - [ ] $b \geq 0$
 - [ ] $b \in [-3, 3]$
