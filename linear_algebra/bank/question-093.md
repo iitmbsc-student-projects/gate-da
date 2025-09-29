@@ -2,7 +2,7 @@
 title: Question-93
 pagetitle: Question-93
 order: 93
-categories: [ ]
+categories: [linear independence]
 ---
 
 Let $\displaystyle S=\{v_{1} ,\cdots ,v_{n}\}$ be a finite set of vectors in a vector space. Is the following statement true or false?
@@ -33,5 +33,15 @@ S=\{( 1,0,0,0) ,( 0,1,0,0) ,( 1,1,0,0) ,( 0,0,0,1)\}
 $$
 
 $\displaystyle S$ is linearly dependent, but $\displaystyle ( 0,0,0,1)$ is not in the span of the first three vectors.
+
+::: {.callout-note}
+
+The proper definition is:
+
+> A finite set of vectors $S = \{v_1, \cdots, v_n\}$ is linearly dependent if there is at least one vector in $S$ that belongs to the span of the remaining vectors.
+
+This definition of linear dependence continues to hold if the set has only one element. If $S = \{0\}$, then $0$ is in the span of $S - \{0\} = \phi$. Recall that the span of the empty set is the trivial subspace $\{0\}$.
+
+:::
 
 :::
