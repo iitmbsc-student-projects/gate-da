@@ -75,6 +75,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -375,6 +404,36 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../aptitude/question-015.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Question-15</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aptitude/question-016.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-16</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aptitude/question-017.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-17</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aptitude/question-018.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-18</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aptitude/question-019.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-19</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aptitude/question-020.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-20</span></a>
   </div>
 </li>
       </ul>
@@ -2724,6 +2783,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title">
 <h1 class="title">Question-13</h1>
   <div class="quarto-categories">
+    <div class="quarto-category">set theory</div>
     <div class="quarto-category">aptitude</div>
   </div>
   </div>
@@ -2742,13 +2802,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<ul>
-<li><p>[ ]</p></li>
-<li><p>[ ]</p></li>
-<li><p>[ ]</p></li>
-<li><p>[ ]</p></li>
+<p>In an engineering college of 10,000 students, 1,500 like neither their core branches nor other branches. The number of students who like their core branches is <span class="math inline">\(1/4^{th}\)</span> of the number of students who like other branches. The number of students who like both their core and other branches is 500.</p>
+<p>The number of students who like their core branches is</p>
+<ul class="task-list">
+<li><label><input type="checkbox">1,800</label></li>
+<li><label><input type="checkbox">3,500</label></li>
+<li><label><input type="checkbox">1,600</label></li>
+<li><label><input type="checkbox">1,500</label></li>
 </ul>
-<div class="callout callout-style-default callout-note callout-empty-content callout-titled" title="Answer">
+<div class="callout callout-style-default callout-note callout-titled" title="Answer">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -2760,11 +2822,16 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-
+<ul class="task-list">
+<li><label><input type="checkbox" checked="">1,800</label></li>
+<li><label><input type="checkbox">3,500</label></li>
+<li><label><input type="checkbox">1,600</label></li>
+<li><label><input type="checkbox">1,500</label></li>
+</ul>
 </div>
 </div>
 </div>
-<div class="callout callout-style-default callout-note callout-empty-content callout-titled" title="Soluton">
+<div class="callout callout-style-default callout-note callout-titled" title="Soluton">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -2776,7 +2843,32 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-
+<p>Let the number of students who like their core branches be <span class="math inline">\(x\)</span>. The number of students who like other branches is <span class="math inline">\(4x\)</span>. Let <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> be the set of students who like their core branches and other branches respectively. If the set of all students is <span class="math inline">\(U\)</span>, then:</p>
+<p><span class="math display">\[
+\begin{aligned}
+|A| &amp; =x\\
+|B| &amp; =4x\\
+|A^{C} \cap B^{C} | &amp; =1500\\
+|A\cap B| &amp; =500\\
+|U| &amp; =10,000
+\end{aligned}
+\]</span></p>
+<p>We can now see that: <span class="math display">\[
+\begin{aligned}
+|A\cup B| &amp; =|U|-|( A\cup B)^{C} |\\
+&amp; =10,000-1500\\
+&amp; =8,500
+\end{aligned}
+\]</span></p>
+<p>Finally:</p>
+<p><span class="math display">\[
+\begin{aligned}
+|A\cup B| &amp; =|A|+|B|-|A\cap B|\\
+8500 &amp; =x+4x-500\\
+5x &amp; =9000\\
+x &amp; =1800
+\end{aligned}
+\]</span></p>
 </div>
 </div>
 </div>
