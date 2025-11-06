@@ -307,6 +307,12 @@ window.Quarto = {
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../target.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Target</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../aptitude/index.html" class="sidebar-item-text sidebar-link">
@@ -1358,6 +1364,24 @@ window.Quarto = {
   <div class="sidebar-item-container"> 
   <a href="../../linear_algebra/bank/question-097.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Question-97</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../linear_algebra/bank/question-098.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-98</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../linear_algebra/bank/question-099.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-99</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../linear_algebra/bank/question-100.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-100</span></a>
   </div>
 </li>
       </ul>
@@ -2839,30 +2863,30 @@ window.Quarto = {
 
 <section id="definition" class="level2">
 <h2 class="anchored" data-anchor-id="definition">Definition</h2>
-<p>A real vector space is a set <span class="math inline">\(\displaystyle V\)</span> along with two binary operations <span class="math inline">\(\displaystyle +,\cdot\)</span>:</p>
+<p>A real vector space is a set <span class="math inline">\(V\)</span> along with two binary operations <span class="math inline">\(+,\cdot\)</span>:</p>
 <ul>
-<li>vector addition, <span class="math inline">\(\displaystyle +:V\times V\rightarrow V\)</span></li>
+<li>vector addition, <span class="math inline">\(+:V\times V\rightarrow V\)</span></li>
 <li>scalar multiplication, <span class="math inline">\(\cdot: V\times \mathbb{R}\rightarrow V\)</span></li>
 </ul>
 <p>such that the following axioms hold.</p>
 <section id="addition-axioms" class="level3">
 <h3 class="anchored" data-anchor-id="addition-axioms">Addition axioms</h3>
 <ul>
-<li>Commutativity: <span class="math inline">\(\displaystyle u+v=v+u\)</span> for all <span class="math inline">\(\displaystyle u,v\in V\)</span></li>
-<li>Associativity: <span class="math inline">\(\displaystyle ( u+v) +w=u+( v+w)\)</span> for all <span class="math inline">\(\displaystyle u,v,w\in V\)</span></li>
-<li>Additive identity: there exists an element in <span class="math inline">\(\displaystyle V\)</span> denoted as <span class="math inline">\(\displaystyle 0\)</span> such that <span class="math inline">\(\displaystyle 0+v=v\)</span> for all <span class="math inline">\(\displaystyle v\in V\)</span></li>
-<li>Additive inverse: for every <span class="math inline">\(\displaystyle v\in V\)</span>, there exists an element denoted as <span class="math inline">\(\displaystyle -v\)</span> such that <span class="math inline">\(\displaystyle v+( -v) =0\)</span></li>
+<li>Commutativity: <span class="math inline">\(u+v=v+u\)</span> for all <span class="math inline">\(u,v\in V\)</span></li>
+<li>Associativity: <span class="math inline">\(( u+v) +w=u+( v+w)\)</span> for all <span class="math inline">\(u,v,w\in V\)</span></li>
+<li>Additive identity: there exists an element in <span class="math inline">\(V\)</span> denoted as <span class="math inline">\(0\)</span> such that <span class="math inline">\(0+v=v\)</span> for all <span class="math inline">\(v\in V\)</span></li>
+<li>Additive inverse: for every <span class="math inline">\(v\in V\)</span>, there exists an element denoted as <span class="math inline">\(-v \in V\)</span> such that <span class="math inline">\(v+( -v) =0\)</span></li>
 </ul>
 </section>
 <section id="scalar-multiplication-axioms" class="level3">
 <h3 class="anchored" data-anchor-id="scalar-multiplication-axioms">Scalar multiplication axioms</h3>
 <ul>
-<li>Associativity: <span class="math inline">\(\displaystyle ( ab) v=a( bv)\)</span> for all <span class="math inline">\(\displaystyle a,b\in \mathbb{R}\)</span> and <span class="math inline">\(\displaystyle v\in V\)</span></li>
-<li>Multiplicative identity: <span class="math inline">\(\displaystyle 1v=v\)</span> for all <span class="math inline">\(\displaystyle v\in V\)</span></li>
+<li>Associativity: <span class="math inline">\(( ab) v=a( bv)\)</span> for all <span class="math inline">\(a,b\in \mathbb{R}\)</span> and <span class="math inline">\(v\in V\)</span></li>
+<li>Multiplicative identity: <span class="math inline">\(1v=v\)</span> for all <span class="math inline">\(v\in V\)</span></li>
 <li>Distributivity
 <ul>
-<li><span class="math inline">\(\displaystyle ( a+b) v=av+bv\)</span> for all <span class="math inline">\(\displaystyle a,b\in \mathbb{R}\)</span> and <span class="math inline">\(\displaystyle v\in V\)</span></li>
-<li><span class="math inline">\(\displaystyle a( u+v) =au+av\)</span> for all <span class="math inline">\(\displaystyle u,v\in V\)</span> and <span class="math inline">\(\displaystyle a\in \mathbb{R}\)</span></li>
+<li><span class="math inline">\(( a+b) v=av+bv\)</span> for all <span class="math inline">\(a,b\in \mathbb{R}\)</span> and <span class="math inline">\(v\in V\)</span></li>
+<li><span class="math inline">\(a( u+v) =au+av\)</span> for all <span class="math inline">\(u,v\in V\)</span> and <span class="math inline">\(a\in \mathbb{R}\)</span></li>
 </ul></li>
 </ul>
 </section>
@@ -2870,10 +2894,10 @@ window.Quarto = {
 <section id="examples" class="level2">
 <h2 class="anchored" data-anchor-id="examples">Examples</h2>
 <ul>
-<li>The set <span class="math inline">\(\displaystyle \mathbb{R}^{2}\)</span> with the usual rules of addition and scalar multiplication is a vector space.</li>
-<li>As an extension, the set <span class="math inline">\(\displaystyle \mathbb{R}^{n}\)</span> with the usual rules of addition and scalar multiplication is a vector space.</li>
-<li>The set of all polynomials of degree at most <span class="math inline">\(\displaystyle n\)</span> with real coefficients is a vector space with the usual rules of polynomial addition and scalar multiplication. This is sometimes denoted as <span class="math inline">\(\displaystyle P_{n}(\mathbb{R})\)</span>.</li>
-<li>The set of all real <span class="math inline">\(\displaystyle m\times n\)</span> matrices is a vector space. This is sometimes denoted as <span class="math inline">\(\displaystyle M_{m\times n}(\mathbb{R})\)</span>.</li>
+<li>The set <span class="math inline">\(\mathbb{R}^{2}\)</span> with the usual rules of addition and scalar multiplication is a vector space.</li>
+<li>As an extension, the set <span class="math inline">\(\mathbb{R}^{n}\)</span> with the usual rules of addition and scalar multiplication is a vector space.</li>
+<li>The set of all polynomials of degree at most <span class="math inline">\(n\)</span> with real coefficients is a vector space with the usual rules of polynomial addition and scalar multiplication. This is sometimes denoted as <span class="math inline">\(P_{n}(\mathbb{R})\)</span>.</li>
+<li>The set of all real <span class="math inline">\(m\times n\)</span> matrices is a vector space. This is sometimes denoted as <span class="math inline">\(M_{m\times n}(\mathbb{R})\)</span>.</li>
 </ul>
 </section>
 <section id="important-points" class="level2">
@@ -2881,18 +2905,18 @@ window.Quarto = {
 <ul>
 <li>Some of the familiar rules of algebra carry over:
 <ul>
-<li><span class="math inline">\(\displaystyle av=0\Longrightarrow a=0\)</span> or <span class="math inline">\(\displaystyle v=0\)</span> or both, where <span class="math inline">\(\displaystyle a\in \mathbb{R}\)</span> and <span class="math inline">\(\displaystyle v\in V\)</span></li>
-<li><span class="math inline">\(\displaystyle -v=( -1) v\)</span>, where <span class="math inline">\(\displaystyle v\in V\)</span></li>
-<li><span class="math inline">\(\displaystyle u+v=0\Longrightarrow u=-v\)</span>, where <span class="math inline">\(\displaystyle u,v\in V\)</span></li>
+<li><span class="math inline">\(av=0\Longrightarrow a=0\)</span> or <span class="math inline">\(v=0\)</span> or both, where <span class="math inline">\(a\in \mathbb{R}\)</span> and <span class="math inline">\(v\in V\)</span></li>
+<li><span class="math inline">\(-v=( -1) v\)</span>, where <span class="math inline">\(v\in V\)</span></li>
+<li><span class="math inline">\(u+v=0\Longrightarrow u=-v\)</span>, where <span class="math inline">\(u,v\in V\)</span></li>
 </ul></li>
 <li>For a given vector space, the zero element is unique. The zero element plays a very important role in the theory of vector spaces.</li>
 <li>The same symbol is used to denote both the scalar zero and the vector zero. The context will make this distinction clear.</li>
 <li>The zero element for some of the vector spaces discussed above:
 <ul>
-<li>For <span class="math inline">\(\displaystyle \mathbb{R}^{2}\)</span>, it is <span class="math inline">\(\displaystyle ( 0,0)\)</span>.</li>
-<li>For <span class="math inline">\(\displaystyle \mathbb{R}^{n}\)</span>, it is <span class="math inline">\(\displaystyle ( 0,\cdots ,0)\)</span></li>
-<li>For <span class="math inline">\(\displaystyle P_{2}(\mathbb{R})\)</span> it is <span class="math inline">\(\displaystyle p( x) =0+0x+0x^{2}\)</span>, the zero polynomial.</li>
-<li>For <span class="math inline">\(\displaystyle M_{2\times 2}(\mathbb{R})\)</span>, it is the zero matrix of size <span class="math inline">\(\displaystyle 2\times 2\)</span>, <span class="math inline">\(\displaystyle \begin{bmatrix}
+<li>For <span class="math inline">\(\mathbb{R}^{2}\)</span>, it is <span class="math inline">\(( 0,0)\)</span>.</li>
+<li>For <span class="math inline">\(\mathbb{R}^{n}\)</span>, it is <span class="math inline">\(( 0,\cdots ,0)\)</span></li>
+<li>For <span class="math inline">\(P_{2}(\mathbb{R})\)</span> it is <span class="math inline">\(p( x) =0+0x+0x^{2}\)</span>, the zero polynomial.</li>
+<li>For <span class="math inline">\(M_{2\times 2}(\mathbb{R})\)</span>, it is the zero matrix of size <span class="math inline">\(2\times 2\)</span>, <span class="math inline">\(\begin{bmatrix}
 0 &amp; 0\\
 0 &amp; 0
 \end{bmatrix}\)</span>.</li>

@@ -2,6 +2,7 @@
   {
     "listing": "/search_bank.html",
     "items": [
+      "/target.html",
       "/papers/GATE-2024/index.html",
       "/aptitude/index.html",
       "/machine_learning/bank/question-001.html",
@@ -288,6 +289,9 @@
       "/linear_algebra/bank/question-095.html",
       "/linear_algebra/bank/question-096.html",
       "/linear_algebra/bank/question-097.html",
+      "/linear_algebra/bank/question-098.html",
+      "/linear_algebra/bank/question-099.html",
+      "/linear_algebra/bank/question-100.html",
       "/dbms/bank/question-009.html",
       "/dbms/bank/question-019.html",
       "/dbms/bank/question-039.html",
