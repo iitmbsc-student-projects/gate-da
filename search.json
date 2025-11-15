@@ -1361,13 +1361,25 @@
     ]
   },
   {
-    "objectID": "aptitude/index.html",
-    "href": "aptitude/index.html",
-    "title": "General Aptitude",
+    "objectID": "aptitude/question-025.html",
+    "href": "aptitude/question-025.html",
+    "title": "Question-25",
     "section": "",
-    "text": "A non-exhaustive syllabus for this section:\n\nEnglish comprehension\nLogical thinking\nVisual and spatial reasoning\nElementary mathematics\n\nbasic number theory\nalgebra\ngeometry\ntrigonometry\nsets and functions\nbasic probability\nbasic statistics\nprofit and loss\n\n\nThere are ten questions from GA every year. Five of these questions carry one mark each and the rest two marks. A total of 15 marks is allocated to GA. All the questions that are in this bank are drawn from previous year GATE papers, particularly CS, the nearest paper to DA.",
+    "text": "According to the map shown in the figure, which one of the following statements is correct?\n\n\nThe library is located to the northwest of the canteen.\nThe hospital is located to the east of the chemistry lab.\nThe chemistry lab is to the southeast of physics lab.\nThe classrooms and canteen are next to each other.\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nThe library is located to the northwest of the canteen.\nThe hospital is located to the east of the chemistry lab.\nThe chemistry lab is to the southeast of physics lab.\nThe classrooms and canteen are next to each other.",
     "crumbs": [
-      "General Aptitude"
+      "General Aptitude",
+      "Question-25"
+    ]
+  },
+  {
+    "objectID": "aptitude/question-040.html",
+    "href": "aptitude/question-040.html",
+    "title": "Question-40",
+    "section": "",
+    "text": "We reached the station late and _______ missed the train.\n\nnear\nnearly\nutterly\nmostly\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nnear\nnearly\nutterly\nmostly",
+    "crumbs": [
+      "General Aptitude",
+      "Question-40"
     ]
   },
   {
@@ -1382,14 +1394,36 @@
     ]
   },
   {
-    "objectID": "aptitude/question-021.html",
-    "href": "aptitude/question-021.html",
-    "title": "Question-21",
+    "objectID": "aptitude/question-015.html",
+    "href": "aptitude/question-015.html",
+    "title": "Question-15",
     "section": "",
-    "text": "Ravi had ____ younger brother who taught at ____ university. He was widely regarded as ____ honorable man.\nSelect the option with the correct sequence of articles to fill in the blanks.\n\na; a; an\nthe; an; a\na; an; a\nan; an; a\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\na; a; an\nthe; an; a\na; an; a\nan; an; a",
+    "text": "In the sequence 6, 9, 14, x, 30, 41, a possible value of x is\n\n25\n21\n18\n20\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n25\n21\n18\n20\n\n\n\n\n\n\n\n\n\n\nNoteSoluton\n\n\n\n\n\nOne possibility is to have the successive difference between be an arithmetic progression with first term \\(\\displaystyle 3\\) and common difference \\(\\displaystyle 2\\):\n\\[\n\\begin{aligned}\n9-6 & =3 & \\\\\n14-9 & =5 & \\\\\nx-14 & =7 & \\Longrightarrow x=21\\\\\n30-21 & =9 & \\\\\n41-30 & =11 &\n\\end{aligned}\n\\]",
     "crumbs": [
       "General Aptitude",
-      "Question-21"
+      "Question-15"
+    ]
+  },
+  {
+    "objectID": "aptitude/question-031.html",
+    "href": "aptitude/question-031.html",
+    "title": "Question-31",
+    "section": "",
+    "text": "If two distinct non-zero real variables \\(x\\) and \\(y\\) are such that \\((x+y)\\) is proportional to \\((x-y)\\) then the value of \\(\\cfrac{x^2+y^2}{x^2-y^2}\\) is\n\ndepends on \\(xy\\)\ndepends only on \\(x\\) and not on \\(y\\)\ndepends only on \\(y\\) and not on \\(x\\)\nis a constant\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\ndepends on \\(xy\\)\ndepends only on \\(x\\) and not on \\(y\\)\ndepends only on \\(y\\) and not on \\(x\\)\nis a constant\n\n\n\n\n\n\n\n\n\n\nNoteSoluton\n\n\n\n\n\nLet \\(\\displaystyle x+y=k( x-y)\\), with \\(\\displaystyle x,y\\neq 0\\) and \\(\\displaystyle x,y\\in \\mathbb{R}\\), then:\n\\[\n\\begin{aligned}\nx+y & =k( x-y)\\\\\n& \\\\\n( 1-k) x & =-( 1+k) y\\\\\n& \\\\\n\\frac{x}{y} & =\\frac{k+1}{k-1}\n\\end{aligned}\n\\]\nprovided \\(\\displaystyle k\\neq 1\\). \\(\\displaystyle k\\) can’t be equal to \\(\\displaystyle 1\\) since that would lead to \\(\\displaystyle y=0\\), which is not possible as per the constraints in the question. We now see that \\(\\displaystyle x\\) is proportional to \\(\\displaystyle y\\) with some other proportionality constant. Now:\n\\[\n\\begin{aligned}\n\\frac{x^{2} +y^{2}}{x^{2} -y^{2}} & =\\frac{\\frac{x^{2}}{y^{2}} +1}{\\frac{x^{2}}{y^{2}} -1}\\\\\n& \\\\\n& =\\frac{k^{2} +1}{2k}\n\\end{aligned}\n\\]\nWe see that \\(\\displaystyle \\frac{x^{2} +y^{2}}{x^{2} -y^{2}}\\) is a constant.",
+    "crumbs": [
+      "General Aptitude",
+      "Question-31"
+    ]
+  },
+  {
+    "objectID": "aptitude/question-026.html",
+    "href": "aptitude/question-026.html",
+    "title": "Question-26",
+    "section": "",
+    "text": "“I put the brown paper in my pocket along with the chalks, and possibly other things.”\n“I suppose every one must have reflected how primeval and how poetical are the things that one carries in one’s pocket: the pocket-knife, for instance the type of all human tools, the infant of the sword. Once I planned to write a book of poems entirely about the things in my pocket. But I found it would be too long: and the age of the great epics is past.”\n(From G.K. Chesterton’s “A Piece of Chalk”)\nBased only on the information provided in the above passage, which one of the following statements is true?\n\nThe author of the passage carries a mirror in his pocket to reflect upon things.\nThe author of the passage had decided to write a poem on epics.\nThe pocket-knife is described as the infant of the sword.\nEpics are described as too inconvenient to write.\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nThe author of the passage carries a mirror in his pocket to reflect upon things.\nThe author of the passage had decided to write a poem on epics.\nThe pocket-knife is described as the infant of the sword.\nEpics are described as too inconvenient to write.\n\n\n\n\n\n\n\n\n\n\nNoteSoluton",
+    "crumbs": [
+      "General Aptitude",
+      "Question-26"
     ]
   },
   {
@@ -1404,14 +1438,25 @@
     ]
   },
   {
-    "objectID": "aptitude/question-022.html",
-    "href": "aptitude/question-022.html",
-    "title": "Question-22",
+    "objectID": "aptitude/question-016.html",
+    "href": "aptitude/question-016.html",
+    "title": "Question-16",
     "section": "",
-    "text": "The CEO’s decision to downsize the workforce was considered myopic because it sacrificed long-term stability to accommodate short-term gains.\nSelect the most appropriate option that can replace the word “myopic” without changing the meaning of the sentence.\n\nvisionary\nshortsighted\nprogressive\ninnovative\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nvisionary\nshortsighted\nprogressive\ninnovative",
+    "text": "My apologies. You are absolutely correct, and I am seeing the correct question text in the file now. Thank you for the correction.\nHere is the correct Question 6, formatted as requested.\n\nSequence the following sentences in a coherent passage.\n\nP: This fortuitous geological event generated a colossal amount of energy and heat that resulted in the rocks rising to an average height of 4 km across the contact zone.\nQ: Thus, the geophysicists tend to think of the Himalayas as an active geological event rather than as a static geological feature.\nR: The natural process of the cooling of this massive edifice absorbed large quantities of atmospheric carbon dioxide, altering the earth’s atmosphere and making it better suited for life.\nS: Many millennia ago, a collided with the massive Eurasian Plate.\nQPSR\nQSPR\nSPRQ\nSRPQ\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nQPSR\nQSPR\nSPRQ\nSRPQ",
     "crumbs": [
       "General Aptitude",
-      "Question-22"
+      "Question-16"
+    ]
+  },
+  {
+    "objectID": "aptitude/question-032.html",
+    "href": "aptitude/question-032.html",
+    "title": "Question-32",
+    "section": "",
+    "text": "Consider the following sample of numbers:\n9, 18, 11, 14, 15, 17, 10, 69, 11, 13\nThe median of the sample is\n\n14\n13.5\n11\n18.7\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n14\n13.5\n11\n18.7\n\n\n\n\n\n\n\n\n\n\nNoteSoluton\n\n\n\n\n\nThe sorted list is:\n[9, 10, 11, 11, 13, 14, 15, 17, 18, 69]\nSince there are an even number of elements, the median is \\(\\cfrac{13 + 14}{2} = 13.5\\).",
+    "crumbs": [
+      "General Aptitude",
+      "Question-32"
     ]
   },
   {
@@ -1426,25 +1471,36 @@
     ]
   },
   {
-    "objectID": "aptitude/question-007.html",
-    "href": "aptitude/question-007.html",
-    "title": "Question-7",
+    "objectID": "aptitude/question-033.html",
+    "href": "aptitude/question-033.html",
+    "title": "Question-33",
     "section": "",
-    "text": "If IMAGE and FIELD are coded as FHBNJ and EMFJG respectively, which one among the following options is the most appropriate for BEACH?\n\nCEADP\nIDBFC\nJGIBC\nIBCEC\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nCEADP\nIDBFC\nJGIBC\nIBCEC\n\n\n\n\n\n\n\n\n\n\nNoteSoluton\n\n\n\n\n\nWe have:\nIMAGE\nFHBNJ\nFIELD\nEMFJG\nStaring at this for a while should convince us that the following transformation converts a word into its code:\n\nReverse the word\nIncrement each letter\n\nWe have:\n\nIMAGE \\(\\rightarrow\\) EGAMI \\(\\rightarrow\\) FHBNJ\nFIELD \\(\\rightarrow\\) DLEIF \\(\\rightarrow\\) EMFJG\n\nOnce this is clear, we can apply the same transformation to BEACH.\nBEACH \\(\\rightarrow\\) HCAEB \\(\\rightarrow\\) IDBFC",
+    "text": "The number of coins of ₹1, ₹5, and ₹10 denominations that a person has are in the ratio 5:3:13. Of the total amount, the percentage of money in ₹5 coins is\n\n\\(21\\%\\)\n\\(14 \\cfrac{2}{7}\\%\\)\n\\(10\\%\\)\n\\(30\\%\\)\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(21\\%\\)\n\\(14 \\cfrac{2}{7}\\%\\)\n\\(10\\%\\)\n\\(30\\%\\)\n\n\n\n\n\n\n\n\n\n\nNoteSoluton\n\n\n\n\n\nLet the number of coins of the three denominations be \\(\\displaystyle 5k\\), \\(\\displaystyle 3k\\) and \\(\\displaystyle 13k\\). The total money in the person’s possession is \\(\\displaystyle 5k\\times 1+3k\\times 5+13k\\times 10=150k\\). The percentage of money in ₹5 coins is \\(\\displaystyle \\frac{3k\\times 5}{150k} \\times 100=10\\%\\).",
     "crumbs": [
       "General Aptitude",
-      "Question-7"
+      "Question-33"
     ]
   },
   {
-    "objectID": "aptitude/question-013.html",
-    "href": "aptitude/question-013.html",
-    "title": "Question-13",
+    "objectID": "aptitude/question-027.html",
+    "href": "aptitude/question-027.html",
+    "title": "Question-27",
     "section": "",
-    "text": "In an engineering college of 10,000 students, 1,500 like neither their core branches nor other branches. The number of students who like their core branches is \\(1/4^{th}\\) of the number of students who like other branches. The number of students who like both their core and other branches is 500.\nThe number of students who like their core branches is\n\n1,800\n3,500\n1,600\n1,500\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n1,800\n3,500\n1,600\n1,500\n\n\n\n\n\n\n\n\n\n\nNoteSoluton\n\n\n\n\n\nLet the number of students who like their core branches be \\(x\\). The number of students who like other branches is \\(4x\\). Let \\(A\\) and \\(B\\) be the set of students who like their core branches and other branches respectively. If the set of all students is \\(U\\), then:\n\\[\n\\begin{aligned}\n|A| & =x\\\\\n|B| & =4x\\\\\n|A^{C} \\cap B^{C} | & =1500\\\\\n|A\\cap B| & =500\\\\\n|U| & =10,000\n\\end{aligned}\n\\]\nWe can now see that: \\[\n\\begin{aligned}\n|A\\cup B| & =|U|-|( A\\cup B)^{C} |\\\\\n& =10,000-1500\\\\\n& =8,500\n\\end{aligned}\n\\]\nFinally:\n\\[\n\\begin{aligned}\n|A\\cup B| & =|A|+|B|-|A\\cap B|\\\\\n8500 & =x+4x-500\\\\\n5x & =9000\\\\\nx & =1800\n\\end{aligned}\n\\]",
+    "text": "In the diagram, the lines QR and ST are parallel to each other. The shortest distance between these two lines is half the shortest distance between the point P and line QR.\n\nWhat is the ratio of the area of the triangle PST to the area of the trapezium SQRT?\n\n1/3\n1/4\n2/5\n1/2\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n1/3\n1/4\n2/5\n1/2\n\n\n\n\n\n\n\n\n\n\nNoteSoluton\n\n\n\n\n\nDrop a perpendicular from \\(P\\) to \\(QR\\). Let it intersect \\(ST\\) and \\(QR\\) at \\(U\\) and \\(V\\) respectively.\n\nWe are given that \\(UV = \\cfrac{PV}{2}\\). This leaves us with \\(PU = UV\\). Since \\(\\Delta PST\\) and \\(\\Delta PQR\\) are similar, and since \\(PU = \\cfrac{PV}{2}\\), the area of \\(\\Delta PST\\) is one-fourth that of \\(\\Delta PQR\\). The area of the trapezium \\(SQRT\\) is three-fourth that of \\(\\Delta PQR\\). The required ratio is \\(\\cfrac{\\frac{1}{4}}{\\frac{3}{4}} = \\cfrac{1}{3}\\).",
     "crumbs": [
       "General Aptitude",
-      "Question-13"
+      "Question-27"
+    ]
+  },
+  {
+    "objectID": "aptitude/question-003.html",
+    "href": "aptitude/question-003.html",
+    "title": "Question-3",
+    "section": "",
+    "text": "If \\(P e^{x} = Q e^{-x}\\) for all real values of \\(x\\), which one of the following statements is true?\n\n\\(P = Q = 0\\)\n\\(P = Q = 1\\)\n\\(P = 1; Q = -1\\)\n\\(\\cfrac{P}{Q} = 0\\)\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(P = Q = 0\\)\n\\(P = Q = 1\\)\n\\(P = 1; Q = -1\\)\n\\(\\cfrac{P}{Q} = 0\\)\n\n\n\n\n\n\n\n\n\n\nNoteSoluton\n\n\n\n\n\nGiven constants \\(\\displaystyle P,Q\\) and \\(\\displaystyle Pe^{x} =Qe^{-x}\\) for all values of \\(\\displaystyle x\\), multiplying both sides by \\(\\displaystyle e^{x}\\), we have \\(\\displaystyle Pe^{2x} =Q\\). Setting \\(\\displaystyle x=0\\), we get \\(\\displaystyle P=Q\\). If \\(\\displaystyle Q\\neq 0\\), then we can divide both sides by \\(\\displaystyle Q\\). This would result in \\(\\displaystyle e^{2x} =1\\) for all \\(\\displaystyle x\\), which is impossible. Therefore, \\(\\displaystyle Q=0\\). It follows that \\(\\displaystyle P=0\\).",
+    "crumbs": [
+      "General Aptitude",
+      "Question-3"
     ]
   },
   {
@@ -1456,6 +1512,28 @@
     "crumbs": [
       "General Aptitude",
       "Question-18"
+    ]
+  },
+  {
+    "objectID": "aptitude/question-028.html",
+    "href": "aptitude/question-028.html",
+    "title": "Question-28",
+    "section": "",
+    "text": "A fair six-faced dice, with the faces labelled ‘1’, ‘2’, ‘3’, ‘4’, ‘5’, and ‘6’, is rolled thrice. What is the probability of rolling ‘6’ exactly once?\n\n75/216\n1/6\n1/18\n25/216\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n75/216\n1/6\n1/18\n25/216\n\n\n\n\n\n\n\n\n\n\nNoteSoluton\n\n\n\n\n\nLet \\(\\displaystyle E\\) be the event that six occurs exactly once. The only six could turn up in any one of the three throws. Call these events \\(\\displaystyle E_{1} ,E_{2} ,E_{3}\\), where \\(\\displaystyle E_{i}\\) is the event that the only six occurs in the \\(\\displaystyle i^{\\text{th}}\\) throw. Then, we see that \\(\\displaystyle E=E_{1} \\cup E_{2} \\cup E_{3}\\) and \\(\\displaystyle E_{1} ,E_{2} ,E_{3}\\) are mutually exclusive. Therefore:\n\\[\n\\begin{aligned}\nP( E) & =P( E_{1}) +P( E_{2}) +P( E_{3})\\\\\n& \\\\\n& =\\frac{1}{6} \\times \\frac{5}{6} \\times \\frac{5}{6} +\\frac{1}{6} \\times \\frac{5}{6} \\times \\frac{1}{6} +\\frac{5}{6} \\times \\frac{5}{6} \\times \\frac{1}{6}\\\\\n& \\\\\n& =\\frac{75}{216}\n\\end{aligned}\n\\]",
+    "crumbs": [
+      "General Aptitude",
+      "Question-28"
+    ]
+  },
+  {
+    "objectID": "aptitude/question-029.html",
+    "href": "aptitude/question-029.html",
+    "title": "Question-29",
+    "section": "",
+    "text": "A shop has 4 distinct flavors of ice-cream. One can purchase any number of scoops of any flavor. The order in which the scoops are purchased is inconsequential. If one wants to purchase 3 scoops of ice-cream, in how many ways can one make that purchase?\n\n4\n20\n24\n48\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n4\n20\n24\n48\n\n\n\n\n\n\n\n\n\n\nNoteSoluton\n\n\n\n\n\nLet the number of scoops of ice-cream purchased of type \\(\\displaystyle i\\) be \\(\\displaystyle x_{i}\\). Then, we have:\n\\[\nx_{1} +x_{2} +x_{3} +x_{4} =3\n\\]\nwhere \\(\\displaystyle 0\\leqslant x_{i} \\leqslant 3\\). The number of solutions to this equation is the same as the number of ways of purchasing ice-creams. The number of solutions is given by \\(\\displaystyle \\binom{3+3}{3} =20\\).",
+    "crumbs": [
+      "General Aptitude",
+      "Question-29"
     ]
   },
   {
@@ -1480,6 +1558,18 @@
     ]
   },
   {
+    "objectID": "prob_stats/bank/question-089.html",
+    "href": "prob_stats/bank/question-089.html",
+    "title": "Question-89",
+    "section": "",
+    "text": "Let \\(( X,Y) \\sim \\text{Uniform}( D)\\), where \\(D:=[ 0,2] \\times [ 0,2]\\). Find \\(P( X+Y&lt; 2)\\). Enter your answer correct to one decimal place.\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\\(0.5\\)\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nThe joint PDF of \\(X,Y\\) is:\n\\[\nf_{XY}( x,y) =\\begin{cases}\n\\frac{1}{4} , & 0\\leqslant x,y\\leqslant 2\\\\\n0, & \\text{otherwise}\n\\end{cases}\n\\]\nNow, consider the set of points satisfying \\(X+Y&lt; 2\\). We can visualize this as the shaded region given below:\n\nWe can now find the required probability by integrating the PDF over the orange region. We will allow \\(x\\) to range from \\(0\\) to \\(2\\). For any \\(x\\), the value of \\(y\\) ranges from \\(0\\) to \\(2-x\\).\n\\[\n\\begin{aligned}\nP( X+Y&lt; 2) & =\\int\\limits _{0}^{2}\\left[\\int\\limits _{0}^{2-x}\\frac{1}{4} dy\\right] dx\\\\\n& \\\\\n& =\\int\\limits _{0}^{2}\\frac{2-x}{4} dx\\\\\n& \\\\\n& =0.5\n\\end{aligned}\n\\]",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-89"
+    ]
+  },
+  {
     "objectID": "prob_stats/bank/question-045.html",
     "href": "prob_stats/bank/question-045.html",
     "title": "Question-45",
@@ -1492,39 +1582,51 @@
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-020.html",
-    "href": "prob_stats/bank/question-020.html",
-    "title": "Question-20",
+    "objectID": "prob_stats/bank/question-071.html",
+    "href": "prob_stats/bank/question-071.html",
+    "title": "Question-71",
     "section": "",
-    "text": "A data scientist wishes to determine the average time it takes to run one epoch of a machine learning model in her machine. How large a sample will she need to be 95% confident that her sample mean will be within 15 seconds of the true mean? Assume that it is known from previous studies that \\(\\sigma = 40\\) seconds.\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse \\(P(-1.96&lt;Z&lt;1.96)=0.95\\).\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n28\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nWe know that\n\\(P(|Z| \\leq Z_{\\alpha/2}) = 1-\\alpha\\)\n\\(P\\left(-Z_{\\alpha/2} \\leq Z \\leq Z_{\\alpha/2}\\right) = 1-\\alpha\\)\n\\(P\\left(-Z_{\\alpha/2} \\leq \\dfrac{\\bar{X} -\\mu}{\\sigma/\\sqrt{n}} \\leq Z_{\\alpha/2}\\right) = 1-\\alpha\\)\n\\(P\\left(-Z_{\\alpha/2} \\hspace{1mm}\\sigma/\\sqrt{n} \\leq \\bar{X} -\\mu  \\leq Z_{\\alpha/2} \\hspace{1mm}\\sigma/\\sqrt{n}\\right) = 1-\\alpha\\) According to the question,\n\\(P(-15 \\leq \\bar{X} -\\mu \\leq 15) = 0.95\\)\nThus,\n\\(Z_{\\alpha/2} \\hspace{1mm}(\\sigma/\\sqrt{n}) = 15 \\implies n = \\left(\\dfrac{Z_{\\alpha/2} \\hspace{1mm}(\\sigma)}{15}\\right)^2\\)\nSince \\(P(-1.96 &lt; Z &lt; 1.96)=0.95\\), therefore \\(Z_{\\alpha/2} = 1.96\\). Thus,\n\\(n= \\left(\\dfrac{1.96 \\times 40}{15}\\right)^2 = 28\\)",
+    "text": "Suppose \\(X\\) is normally distributed with unknown standard deviation \\(\\sigma\\). Let \\(X_1, X_2,\\ldots,\\) \\(X_{16}\\) be an i.i.d. sample with distribution \\(X\\) and a sample standard deviation \\(s_X = 3.5\\). What conclusion would a \\(\\chi^2\\)-test reach if the null hypothesis assumes \\(\\sigma = 3\\), with an alternate hypothesis that \\(\\sigma &gt; 3\\), and a significance level of \\(\\alpha = 0.05\\)?\n\nReject the null hypothesis.\nDo not reject the null hypothesis.\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nReject the null hypothesis.\nDo not reject the null hypothesis.\n\n\n\n\n\n\n\n\n\n\nNoteSolution",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-20"
+      "Question-71"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-061.html",
-    "href": "prob_stats/bank/question-061.html",
-    "title": "Question-61",
+    "objectID": "prob_stats/bank/question-030.html",
+    "href": "prob_stats/bank/question-030.html",
+    "title": "Question-30",
     "section": "",
-    "text": "Let \\(X_1, X_2, \\ldots, X_5\\) be independent and identically distributed normal random variables with mean 0 and variance 1. Define \\(Y = \\sum_{i=2}^{5}X_i^2\\). Which of the following statements is true about \\(Y?\\)\n\n\\(Y \\sim \\chi^2_4\\)\n\\(Y \\sim \\chi^2_5\\)\n\\(Y \\sim N(5,4)\\)\n\\(Y \\sim \\chi^2_6\\)\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse the definition of Chi-square distribution as\nIf \\(Z_1, Z_2, \\ldots, Z_k\\) be independent and identically distributed normal random variables with mean 0 and variance 1, then the random variable\n\\(Y = \\sum_{i=1}^{k}Z_i^2\\) follows a chi-square distribution with \\(k\\) degrees of freedom.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(Y \\sim \\chi^2_4\\)\n\\(Y \\sim \\chi^2_5\\)\n\\(Y \\sim N(5,4)\\)\n\\(Y \\sim \\chi^2_6\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nGiven, Let \\(X_1, X_2, \\ldots, X_5\\) be independent and identically distributed normal random variables with mean 0 and variance 1. Then, \\(Y = \\sum_{i=2}^{5}X_i^2 = X_2^2 + X_3^2 + X_4^2 + X_5^2\\) will follow chi-square distribution with 4 degrees of freedom.\nHence, option (A) is correct.",
+    "text": "There are a \\(40\\%\\) proportion of girls in a school. The principal of the school suspects that girls are more likely to score a GPA more than 8. In a sample of 100 students who scored more than 8 GPA, 49 were found to be girls. Is the data enough, at a significance level of 0.05, to conclude that girls are more likely to score more than 8 GPA \\(?\\)\nUse \\(F_Z^{-1}(0.95) = 1.64\\)\n\nYes\nNo\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nNull and alternative hypothesis will be:\n\\(H_0 : p = 0.4\\) and \\(H_1 : p &gt; 0.4\\)\nDefine \\(T\\) as ``number of girls who scored more than 8 GPA”. Thus, when null hypothesis is true, \\(T \\sim \\text{Binomial}\\left(100, 0.4\\right)\\)\nTherefore, \\(E[T] = 100 \\times 0.4 = 40\\) and \\(\\text{Var}(T) = 100 \\times 0.4 \\times 0.6 = 24\\)\nUsing CLT, we can write \\(\\dfrac{T-40}{24} \\sim N(0,1)\\)\nTest will be : Reject \\(H_0\\) if \\(T &gt; c\\)\nUse \\(\\alpha = P\\left(\\text{Reject}~~ H_0 ~|~ H_0 \\right)\\).\nFind the value of \\(c\\) by solving the above part and then make conclusion.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nYes\nNo\n\n\n\n\n\n\n\n\n\n\nNoteSolution",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-61"
+      "Question-30"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-004.html",
-    "href": "prob_stats/bank/question-004.html",
-    "title": "Question-4",
+    "objectID": "prob_stats/bank/question-055.html",
+    "href": "prob_stats/bank/question-055.html",
+    "title": "Question-55",
     "section": "",
-    "text": "There are 5 hats numbered 1 to 5. These 5 hats should be distributed to 6 people with each person getting a maximum of one hat. What are the total number of ways in which the hats can be distributed to 6 persons?\n\n120\n24\n30\n720\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse the concept of factorial.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n120\n24\n30\n720\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nGiven there are 6 people and there are 5 distinct hats that needs to be distributed. Since the sixth person will not get any hat, it can be considered he/she gets a dummy hat. So, the number of ways 6 hats (5 distinct hats and one dummy hat) can be distributed to 6 people is \\(6!=720\\).",
+    "text": "Two friends, Meenal and Sonika, play a game. Meenal rolls a fair six-sided die once, and Sonika flips a fair coin once. Let \\(X\\) be the outcome of the die and \\(Y\\) be the value of the coin flip (where \\(Y\\) = 1 if heads and \\(Y\\) = 0 if tails). If the prize of the game is \\(Z = XY\\), then find the expected prize value.\n\n\\(1.75\\)\n\\(3.5\\)\n\\(0.5\\)\n\\(4\\)\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(1.75\\)\n\\(3.5\\)\n\\(0.5\\)\n\\(4\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-4"
+      "Question-55"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-086.html",
+    "href": "prob_stats/bank/question-086.html",
+    "title": "Question-86",
+    "section": "",
+    "text": "Let \\(X,Y\\) \\(\\sim \\text{Uniform}\\{1,2\\}\\) be i.i.d discrete random variables. Define \\(U=X+Y\\) and \\(V=X\\). Find the correlation coefficient between \\(U\\) and \\(V\\). Enter your answer correct to two decimal places.\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\\(0.71\\)\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nWe have the covariance between \\(U\\) and \\(V\\) given as:\n\\[\nE[ UV] -E[ U] E[ V]\n\\]\nSo first we compute:\n\\[\n\\begin{aligned}\nE[ U] & =E[ X] +E[ Y] =2\\times \\frac{3}{2} =3\\\\\nE[ V] & =E[ X] =\\frac{3}{2}\n\\end{aligned}\n\\]\nwhere we have used the linearity of expectation in the first equality. Next:\n\\[\n\\begin{aligned}\nE[ UV] & =E[( X+Y) X]\\\\\n& =E\\left[ X^{2} +XY\\right]\\\\\n& =E\\left[ X^{2}\\right] +E[ XY]\n\\end{aligned}\n\\]\nUsing the independence of \\(X\\) and \\(Y\\):\n\\[\n\\begin{aligned}\nE[ UV] & =E\\left[ X^{2}\\right] +E[ X] E[ Y]\\\\\n& =\\frac{5}{2} +\\frac{9}{4}\\\\\n& =\\frac{19}{4}\n\\end{aligned}\n\\]\nThe covariance is therefore:\n\\[\n\\text{cov} =\\frac{19}{4} -\\frac{9}{2} =\\frac{1}{4}\n\\]\nNext we note that \\(\\sigma _{X}^{2} =E\\left[ X^{2}\\right] -E[ X]^{2} =\\frac{5}{2} -\\frac{9}{4} =\\frac{1}{4}\\). Now for \\(\\sigma _{U}\\) and \\(\\sigma _{V}\\). For \\(\\sigma _{U}^{2}\\), we use independence of \\(X\\) and \\(Y\\) again.\n\\[\n\\begin{aligned}\n\\sigma _{U}^{2} & =\\sigma _{X}^{2} +\\sigma _{Y}^{2} =\\frac{1}{2}\\\\\n\\sigma _{V}^{2} & =\\frac{1}{4}\n\\end{aligned}\n\\]\nFinally, the correlation coefficient is:\n\\[\n\\frac{\\frac{1}{4}}{\\frac{1}{2} \\times \\frac{1}{\\sqrt{2}}} =\\frac{\\sqrt{2}}{2} \\approx 0.71\n\\]",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-86"
     ]
   },
   {
@@ -1564,63 +1666,75 @@
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-025.html",
-    "href": "prob_stats/bank/question-025.html",
-    "title": "Question-25",
+    "objectID": "prob_stats/bank/question-087.html",
+    "href": "prob_stats/bank/question-087.html",
+    "title": "Question-87",
     "section": "",
-    "text": "An electrical firm manufactures light bulbs that have a length of life that is approximately normally distributed, with mean equal to 600 hours and a standard deviation of 50 hours. Find the probability that a random sample of 25 bulbs will have an average life of less than 615 hours. Enter your answer correct to two decimals.\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nIf \\(X \\sim N(\\mu, \\sigma^2)\\), then \\(\\overline{X} \\sim N\\left(\\mu, \\dfrac{\\sigma^2}{n}\\right)\\), where \\(\\overline{X} = \\dfrac{\\sum_{i=1}^{n}x_i}{n}\\).\nAlso, \\(Z = \\dfrac{X - E(X)}{\\sqrt{Var(X)}} \\sim N(0,1)\\) is a standard normal variate.\nUse \\(F_Z(1.5) = 0.933\\)\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.93\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nAccording to the question, we have \\(\\mu = 600\\) and \\(\\sigma = 50\\).\nLet \\(X_i\\) represents the life of the \\(i^{th}\\) bulb, then \\(X_i \\sim N\\left(600, 50\\right)\\), \\(\\forall \\hspace{1mm}i=1, 2, \\ldots, 25\\).\nNow,\n\\(\\overline{X} \\sim N\\left(600, \\dfrac{50^2}{25}\\right)\\), where \\(\\overline{X} = \\dfrac{\\sum_{i=1}^{25}x_i}{25}\\) will represent the mean life of a random sample of 25 light bulbs.\n\\(P( \\overline{X} &lt; 615) = P\\left(\\dfrac{\\overline{X}-600}{50/5} &lt; \\dfrac{615-600}{50/5}\\right)\\)\n\\(=P\\left( Z &lt; \\dfrac{15}{10}\\right)\\)\n\\(= P\\left(Z &lt; 1.5\\right)\\)\n\\(= 0.93 \\hspace{2mm}\\text{(till two decimal places.)}\\)",
+    "text": "If \\(X\\sim \\text{Exp}( \\lambda )\\), then find the PDF of \\(Y=X^{2}\\).\n\n\\(f_{Y}( x) =\\begin{cases}\n\\lambda e^{\\lambda y^{2}} , & y &gt;0\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\\(f_{Y}( y) =\\begin{cases}\n\\frac{1}{2\\sqrt{y}} \\lambda e^{-\\lambda \\sqrt{y}} , & y &gt;0\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\\(f_{Y}( y) =\\begin{cases}\n2\\sqrt{y} e^{-\\lambda \\sqrt{y}} , & y &gt;0\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\\(f_{Y}( y) =\\begin{cases}\n\\frac{1}{2\\sqrt{y}} \\lambda e^{\\lambda \\sqrt{y}} , & y &gt;0\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(f_{Y}( x) =\\begin{cases}\n\\lambda e^{\\lambda y^{2}} , & y &gt;0\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\\(f_{Y}( y) =\\begin{cases}\n\\frac{1}{2\\sqrt{y}} \\lambda e^{-\\lambda \\sqrt{y}} , & y &gt;0\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\\(f_{Y}( y) =\\begin{cases}\n2\\sqrt{y} e^{-\\lambda \\sqrt{y}} , & y &gt;0\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\\(f_{Y}( y) =\\begin{cases}\n\\frac{1}{2\\sqrt{y}} \\lambda e^{\\lambda \\sqrt{y}} , & y &gt;0\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nThe PDF of \\(X\\) is:\n\\[\nf_{X}( x) =\\begin{cases}\n\\lambda e^{-\\lambda x} , & x\\geqslant 0\\\\\n0, & \\text{otherwise}\n\\end{cases}\n\\]\nIts CDF is:\n\\[\nF_{X}( x) =\\begin{cases}\n1-e^{-\\lambda x} , & x\\geqslant 0\\\\\n0, & \\text{otherwise}\n\\end{cases}\n\\]\nThe CDF of \\(Y=X^{2}\\) is:\n\\[\n\\begin{aligned}\nF_{Y}( y) & =P( Y\\leqslant y)\\\\\n& =P\\left( X^{2} \\leqslant y\\right)\n\\end{aligned}\n\\]\nIf \\(y\\leqslant 0\\), then \\(P\\left( X^{2} \\leqslant y\\right) =0\\), since \\(X^{2}\\) is a non-negative random variable. Therefore, we can safely assume that \\(y &gt;0\\). Now:\n\\[\n\\begin{aligned}\nP\\left( X^{2} \\leqslant y\\right) & =P\\left( -\\sqrt{y} \\leqslant X\\leqslant \\sqrt{y}\\right)\\\\\n& =F_{X}\\left(\\sqrt{y}\\right) -F_{X}\\left( -\\sqrt{y}\\right)\\\\\n& =F_{X}\\left(\\sqrt{y}\\right)\\\\\n& =1-e^{-\\lambda \\sqrt{y}}\n\\end{aligned}\n\\]\nTherefore, we can express the CDF of \\(Y\\) as:\n\\[\n\\begin{aligned}\nF_{Y}( y) & =\\begin{cases}\n1-e^{-\\lambda \\sqrt{y}} , & y\\geqslant 0\\\\\n0, & \\text{otherwise}\n\\end{cases}\n\\end{aligned}\n\\]\nDifferentiating this with respect to \\(y\\) gives us the PDF of \\(Y\\):\n\\[\n\\begin{aligned}\nf_{Y}( y) & =\\begin{cases}\n\\frac{\\lambda }{2\\sqrt{y}} e^{-\\lambda \\sqrt{y}} , & y\\geqslant 0\\\\\n0, & \\text{otherwise}\n\\end{cases}\n\\end{aligned}\n\\]",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-25"
+      "Question-87"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-040.html",
-    "href": "prob_stats/bank/question-040.html",
-    "title": "Question-40",
+    "objectID": "prob_stats/bank/question-074.html",
+    "href": "prob_stats/bank/question-074.html",
+    "title": "Question-74",
     "section": "",
-    "text": "The number of items sold by an online store in an hour follows a Poisson distribution with\n\\(λ\\) equal to 2. Find the probability that in the next 4 hours, exactly 3 items will be sold. (Answer the question correct to three decimal points.)\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\n\\(\\lambda = 2\\) which is mean number of items sold per hour. Therefore, for the next four hours, \\(\\lambda\\) will be updated as \\(\\lambda_{new}=4\\times 2 = 8\\). Now, find the required probability by using the updated value of \\(\\lambda\\).\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.029\n\n\n\n\n\n\n\n\n\nNoteSolution",
+    "text": "A teacher observes that the cumulative distribution function (CDF) for the scores on a mathematics test is\n\\[F(x) = \\begin{cases}\n    0, & x&lt;0\\\\\n    x^2, &0\\leq x \\leq 1\\\\\n    1, & x&gt;1\n\\end{cases}\\] for \\(0 \\leq x \\leq 1,\\)\nwhere \\(x\\) is the score normalized to \\(1\\). If a student scores above \\(0.7\\), what is the conditional probability that they actually score above \\(0.9?\\) Enter the answer correct up to two decimal places.\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.37\n\n\n\n\n\n\n\n\n\nNoteSolution",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-40"
+      "Question-74"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-001.html",
-    "href": "prob_stats/bank/question-001.html",
-    "title": "Question-1",
+    "objectID": "prob_stats/bank/question-011.html",
+    "href": "prob_stats/bank/question-011.html",
+    "title": "Question-11",
     "section": "",
-    "text": "There are thirteen flights from Delhi to Bangalore, and then six flights from Bangalore to Chennai. Saumya wants to fly from Delhi to Bangalore and then to Chennai. How many choices does she have for her flight plan?\n\n19\n72\n78\n39\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse multiplication rule of counting.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n19\n72\n78\n39\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nDefine action \\(A\\) as flight from Delhi to Bangalore and action \\(B\\) as Bangalore to Chennai. Then, total number of ways of occurrence of \\(A\\) and \\(B\\) is \\(=13\\times 6 = 78\\) ways.",
+    "text": "Suppose that \\(P(X=a) = p \\hspace{1mm}\\text{and} \\hspace{1mm} P(X=b) = 1-p\\).\n\nQuestion - 11 (a)\nIdenitfy the distribution of \\(\\dfrac{X-b}{a-b}\\).\n\nBinomial distribution\nNegative Binomial distribution\nBernoulli distribution\nCannot determine\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nSubstitute the values of \\(X\\) and try to identify the distribution.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nBinomial distribution\nNegative Binomial distribution\nBernoulli distribution\nCannot determine\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nSince \\(\\dfrac{X-b}{a-b}\\) will equal 1 with probability \\(p\\), or 0 with probability \\(1-p\\).\nTherefore, it follows bernoulli distribution.\n\n\n\n\n\nQuestion - 11 (b)\nFind the value of Var\\((X)\\).\n\n\\(p(1-p)\\)\n\\(\\dfrac{p(1-p)}{(a-b)^2}\\)\n\\((a-b)^2 \\hspace{0.5mm}p\\hspace{0.5mm}(1-p)\\)\n\\(np(1-p)\\)\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nStart with the Var\\(\\left(\\dfrac{X-b}{a-b}\\right)\\).\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(p(1-p)\\)\n\\(\\dfrac{p(1-p)}{(a-b)^2}\\)\n\\((a-b)^2 \\hspace{0.5mm}p\\hspace{0.5mm}(1-p)\\)\n\\(np(1-p)\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nSince \\(\\dfrac{X-b}{a-b}\\) is a bernoulli random variable will take value 1 with probability \\(p\\), or 0 with probability \\(1-p\\). Thus, \\(p(1-p)=\\text{Var}\\left(\\dfrac{X-b}{a-b}\\right) = \\dfrac{1}{(a-b)^2} \\text{Var}(X-b)=\\dfrac{1}{(a-b)^2} \\text{Var}(X)\\)\n\\(\\implies p(1-p) = \\dfrac{1}{(a-b)^2} \\text{Var}(X)\\)\n\\(\\implies \\text{Var}(X) = (a-b)^2p(1-p)\\)",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-1"
+      "Question-11"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-064.html",
-    "href": "prob_stats/bank/question-064.html",
-    "title": "Question-64",
+    "objectID": "prob_stats/bank/question-050.html",
+    "href": "prob_stats/bank/question-050.html",
+    "title": "Question-50",
     "section": "",
-    "text": "A psychologist wants to determine if there is a significant difference in the average test scores of two different teaching methods. The scores from Method \\(A\\) (\\(n = 15\\), mean \\(= 82\\), standard deviation \\(= 8\\)) and Method \\(B\\) (\\(n = 15\\), mean \\(= 78\\), standard deviation \\(= 6\\)) are compared. Given that the scores are normally distributed and the population variances are unknown, which of the following statements are true\\(?\\) (Select all that apply)\n\nThe null hypothesis will be there is a significant difference between the means.\nThe null hypothesis will be there is no difference in means.\nA t-test can be applied.\nThe degrees of freedom for the \\(t-\\) test is 28.\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nThe null hypothesis will be there is a significant difference between the means.\nThe null hypothesis will be there is no difference in means.\nA t-test can be applied.\nThe degrees of freedom for the \\(t-\\) test is 28.\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nFor the given situation, null and alternative hypothesis will be\n\\(H_0:\\) There is no significant difference in the average test scores of the two teaching methods, i.e., \\(\\mu_A = \\mu_B\\)\n\\(H_1:\\) There is a significant difference in the average test scores of the two teaching methods, i.e., \\(\\mu_A \\neq \\mu_B\\).\nHence, option (B) is correct.\n\\(t-\\) test can be used when we have to test for means and the population variance is unknown.\nHence, option (C) is correct.\nWhen conducting a t-test for two independent samples, the degrees of freedom can be calculated using the formula:\n\\(n_A + n_B - 2 = 15 + 15 - 2 = 28\\),\nwhere $n_A $ is the sample size for method \\(A\\) and \\(n_B\\) is the sample size for method \\(B\\).\nHence, option (D) is correct.",
+    "text": "Let there be two newly launched motorcycles, \\(X\\) and \\(Y\\), with both motorcycles being equally likely to be selected. The probability that motorcycle \\(X\\) has good mileage is \\(0.5\\), and the probability that motorcycle \\(Y\\) has good mileage is \\(0.7\\). If a randomly selected motorcycle is found to have good mileage, what is the probability that the motorcycle is \\(X?\\) (Enter the answer upto three decimal accuracy)\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse the concept of ``Bayes Theorem”.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.417\n\n\n\n\n\n\n\n\n\nNoteSolution",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-64"
+      "Question-50"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-015.html",
-    "href": "prob_stats/bank/question-015.html",
-    "title": "Question-15",
+    "objectID": "prob_stats/bank/question-035.html",
+    "href": "prob_stats/bank/question-035.html",
+    "title": "Question-35",
     "section": "",
-    "text": "There are twenty boxes out of which exactly fifteen contains gifts and five are empty. Five boxes are removed randomly. Now, a person selects one box from the remaining boxes, then what is the probability that the person selects the empty box? Enter the answer correct to two decimal places.\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nConsider all the cases of empty and gifted box and add.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.25",
+    "text": "The probability of a student passing a Statistics exam is \\(0.7\\), and the probability of the student passing a Mathematics exam is \\(0.6\\). If the probability of passing both exams is \\(0.5\\), what is the probability that the student passes at least one of the two exams\\(?\\)\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse the addition rule of probability \\(P(A \\cup B) = P(A) + P(B) - P(A \\cap B)\\)\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.8\n\n\n\n\n\n\n\n\n\nNoteSolution",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-15"
+      "Question-35"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-044.html",
+    "href": "prob_stats/bank/question-044.html",
+    "title": "Question-44",
+    "section": "",
+    "text": "Let the sample mean of a set of \\(20\\) data points be \\(30\\). If it is discovered that a data point having value \\(25\\) was incorrectly entered as \\(15\\), what should be the revised value of the sample mean\\(?\\) Enter the answer correct to one decimal place.\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\n\\(\\overline{x} = \\dfrac{\\sum_{i=1}^{n}x_i}{n}\\)\n\\(\\sum_{i=1}^{n}x_i = n\\overline{x}\\)\nFind the correct \\(\\sum_{i=1}^{n}x_i\\) and calculate the mean.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n30.5\n\n\n\n\n\n\n\n\n\nNoteSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-44"
     ]
   },
   {
@@ -1672,99 +1786,87 @@
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-012.html",
-    "href": "prob_stats/bank/question-012.html",
-    "title": "Question-12",
+    "objectID": "prob_stats/bank/question-084.html",
+    "href": "prob_stats/bank/question-084.html",
+    "title": "Question-84",
     "section": "",
-    "text": "If a fair coin is tossed an even number \\(2n\\) times, then what is the probability of obtaining more heads than tails?\n\n\\(^{2n}C_{n} \\left(\\dfrac{1}{2}\\right)^{2n}\\)\n\\(\\dfrac{1}{2}\\left\\{1-^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{2n}\\right\\}\\)\n\\(1 -^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{n}\\)\n\\(^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{n}\\)\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nStart with defining random variables as \\(X\\) represents number of heads and \\(Y\\) represents number of tails. Given, total number of trials is \\(2n\\) and consider \\(P(X&gt;Y) + P(X&lt;Y) + P(X=Y) = 1\\)\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(^{2n}C_{n} \\left(\\dfrac{1}{2}\\right)^{2n}\\)\n\\(\\dfrac{1}{2}\\left\\{1-^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{2n}\\right\\}\\)\n\\(1 -^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{n}\\)\n\\(^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{n}\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nLet \\(X\\) represents number of heads and \\(Y\\) represents number of tails. Total number of trials is \\(2n\\).\n\\(P(X&gt;Y) + P(X&lt;Y) + P(X=Y) = 1\\hspace{20mm} \\ldots (i)\\)\nSince, by symmetry, \\(p=1-p=\\dfrac{1}{2} \\implies P(X&gt;Y) = P(X&lt;Y)\\). Therefore, equation \\((i)\\) will be: \\(2P(X&gt;Y) = 1 - P(X = Y)\\hspace{20mm} \\ldots (ii)\\)\nIn \\(2n\\) trials, \\(X = Y \\implies\\) Number of heads \\(=\\) Number of tails \\(=n\\). Thus, the equation \\((ii)\\) will be: \\(2 P (X &gt; Y ) = 1 - ^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{n}\\left(\\dfrac{1}{2}\\right)^{n}\\)\n\\(\\implies P(X &gt; Y) = \\dfrac{1}{2}\\left\\{1-^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{2n}\\right\\}\\)",
+    "text": "Let \\(X\\) be a continuous random variable with the following PDF:\n\\[\nf_{X}( x) =\\begin{cases}\n\\cfrac{x}{2} , & 0\\leqslant x\\leqslant 2\\\\\n0, & \\text{otherwise}\n\\end{cases}\n\\]\nFind the variance of \\(X\\). Enter your answer correct to two decimal places.\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\\(0.22\\)\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nWe know that \\(\\sigma ^{2} =E\\left[ X^{2}\\right] -E[ X]^{2}\\). So we first compute \\(E[ X]\\) and \\(E\\left[ X^{2}\\right]\\):\n\\[\n\\begin{aligned}\nE[ X] & =\\int\\limits _{0}^{2}\\frac{x^{2}}{2} dx\\\\\n& =\\frac{4}{3}\n\\end{aligned}\n\\] And\n\\[\n\\begin{aligned}\nE\\left[ X^{2}\\right] & =\\int\\limits _{0}^{2}\\frac{x^{3}}{2} dx\\\\\n& =2\n\\end{aligned}\n\\]\nTherefore \\(\\sigma ^{2} =2-\\left(\\frac{4}{3}\\right)^{2} =\\frac{2}{9}\\).",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-12"
+      "Question-84"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-053.html",
-    "href": "prob_stats/bank/question-053.html",
-    "title": "Question-53",
+    "objectID": "prob_stats/bank/question-043.html",
+    "href": "prob_stats/bank/question-043.html",
+    "title": "Question-43",
     "section": "",
-    "text": "A company records the following weekly production output (in units) for \\(6\\) weeks:\n\\(50, 45, 55, 60, 70, 40\\)\nIf the production in the third week was incorrectly recorded as \\(55\\) instead of \\(65\\), then find the correct mean.\n\n\\(55\\)\n\\(53.33\\)\n\\(51.67\\)\n\\(66\\)\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(55\\)\n\\(53.33\\)\n\\(51.67\\)\n\\(66\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution",
+    "text": "If the mean and standard deviation of observations \\(x_1, x_2, \\ldots, x_n\\) are 20 and 5 respectively, and the mean and standard deviation of observations \\(a(3x_1+b), a(3x_2+b), \\ldots, a(3x_n+b)\\) are 94.5 and 22.5 respectively, then what is the sum of \\(a\\) and \\(b?\\) Enter the answer correct to one decimal place.\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse the property of “Effect on mean and variance when constants are added or multiplied.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n4.5\n\n\n\n\n\n\n\n\n\nNoteSolution",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-53"
+      "Question-43"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-036.html",
-    "href": "prob_stats/bank/question-036.html",
-    "title": "Question-36",
+    "objectID": "prob_stats/bank/question-002.html",
+    "href": "prob_stats/bank/question-002.html",
+    "title": "Question-2",
     "section": "",
-    "text": "Three events \\(A\\), \\(B\\), and \\(C\\) are independent, with \\(P(A) = 0.2\\), \\(P(B) = 0.5\\), and \\(P(C) = 0.8\\). What is the probability that exactly one of the events occurs\\(?\\) Enter the answer correct to two decimal places.\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nExactly one of the events occurs means that either \\(A^c \\cap B \\cap C\\) or \\(A \\cap B^c \\cap C\\) or \\(A \\cap B \\cap C^c\\) occurs.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.42\n\n\n\n\n\n\n\n\n\nNoteSolution",
+    "text": "A professor is creating an exam of eleven questions from a test bank of 15 questions. In how many ways can he select and arrange the questions?\n\n\\(15!\\)\n\\(15! / 11! 4!\\)\n\\(15! / 11!\\)\n\\(15! / 4!\\)\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse the concept of permutation.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\nToggle the appropriate answers.\n\n\\(15!\\)\n\\(15! / 11! 4!\\)\n\\(15! /11!\\)\n\\(15! / 4!\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nProfessor can select 11 questions from a test bank of 15 questions in \\(^{15}C_{11}\\) ways and he can arrange in \\(11!\\) ways. So, number of ways in which he can select and arrange the questions is \\(^{15}C_{11} \\times 11! = ^{15}P_{11} = \\dfrac{15!}{4!}\\).",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-36"
+      "Question-2"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-047.html",
-    "href": "prob_stats/bank/question-047.html",
-    "title": "Question-47",
+    "objectID": "prob_stats/bank/question-067.html",
+    "href": "prob_stats/bank/question-067.html",
+    "title": "Question-67",
     "section": "",
-    "text": "There are \\(10\\) multiple choice questions in a practice assignment of statistics course. The first \\(5\\) questions have \\(4\\) choices each and the remaining \\(5\\) questions have \\(5\\) choices each. How many sequences of answers are possible\\(?\\)\n\n\\(4^4 \\times 5^5\\)\n\\(4^5 \\times 5^5\\)\n\\(4^5 + 5^5\\)\n\\(4! \\times 5!\\)\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse the multiplication rule of counting.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(4^4 \\times 5^5\\)\n\\(4^5 \\times 5^5\\)\n\\(4^5 + 5^5\\)\n\\(4! \\times 5!\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution",
+    "text": "The demand for a particular spare part in a factory was found to very from day-to-day. In a sample study the following information was obtained:\n\n\n\nDays\nMon.\nTues.\nWed.\nThurs.\nFri.\nSat.\n\n\n\n\nNo. of parts Demanded\n1124\n1125\n1110\n1120\n1126\n1115\n\n\n\nTest the hypothesis that the number of parts demanded does not depend on the day of the week. (Given : the values of chi-square significance at 5, 6, 7, d.f. are respectively 11.07, 12.59, 14.07 at 5% level of significance).\n\nAccept the null hypothesis and conclude that the number of spare parts demanded does not depend on the day of the week.\nAccept the null hypothesis and conclude that the number of spare parts demanded depends on the day of the week.\nReject the null hypothesis and conclude that the number of spare parts demanded depends on the day of the week.\nReject the alternative hypothesis and conclude that the number of spare parts demanded does not depend on the day of the week.\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse the formula of “Chi-square test of goodness of fit” as\n\\(\\chi^2 = \\sum_{i=1}^{n}\\left[\\dfrac{(f_i - e_i)^2}{e_i}\\right] \\sim \\chi^2_{n-1}\\),\nwhere, \\(f_i (i = 1, 2, \\ldots, n)\\) is a set of observed frequencies and \\(e_i (i = 1, 2, \\ldots, n)\\) is the corresponding set of expected frequencies such that \\(\\sum_{i=1}^{n}f_i = \\sum_{i=1}^{n}e_i\\).\nAlso, expected frequencies, \\(e_i\\), can be calculated as\n\\(e_i = np_i,\\) where\n\\(n=\\) total number of observations\n\\(p_i =\\) probability of category \\(i\\)\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nAccept the null hypothesis and conclude that the number of spare parts demanded does not depend on the day of the week.\nAccept the null hypothesis and conclude that the number of spare parts demanded depends on the day of the week.\nReject the null hypothesis and conclude that the number of spare parts demanded depends on the day of the week.\nReject the alternative hypothesis and conclude that the number of spare parts demanded does not depend on the day of the week.\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\n\\(H_0:\\) The number of parts demanded does not depend on the day of the week.\nUnder the null hypothesis, the expected frequencies of the spare parts demanded on each of the six days wpuld be:\n\\(\\dfrac{1}{6}(1124+1125+1110+1120+1126+1115) = \\dfrac{6720}{6} = 1120\\)\n\n\n\n\n\n\n\n\n\n\nDays\nObserved freq. \\((f_i)\\)\nExpected freq. \\((e_i)\\)\n\\((fi - e_i)^2\\)\n\\(\\dfrac{(fi - e_i)^2}{e_i}\\)\n\n\n\n\nMon.\n1124\n1120\n16\n0.014\n\n\nTues.\n1125\n1120\n25\n0.022\n\n\nWed.\n1110\n1120\n100\n0.089\n\n\nThurs.\n1120\n1120\n0\n0\n\n\nFri.\n1126\n1120\n36\n0.032\n\n\nSat.\n1115\n1120\n25\n0.022\n\n\nTotal\n6720\n6720\n\n0.179\n\n\n\nThus, \\(\\chi^2 = \\sum_{i=1}^{n}\\left[\\dfrac{(f_i - e_i)^2}{e_i}\\right]  = 0.179\\), which is less than the tablulated value of \\(\\chi^2_{n-1} = \\chi^2_5 = 11.07\\).\nThus, we will accept the null hypothesis (or reject the alternative hypothesis ) and conclude that the number of spare parts demanded does not depend on the day of the week.\nHence, option (a) and (d) are correct.",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-47"
+      "Question-67"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-022.html",
-    "href": "prob_stats/bank/question-022.html",
-    "title": "Question-22",
+    "objectID": "prob_stats/bank/question-016.html",
+    "href": "prob_stats/bank/question-016.html",
+    "title": "Question-16",
     "section": "",
-    "text": "Let \\(X_1, \\ldots, X_n\\sim \\text{i.i.d. Uniform}(-a, a).\\) Find the ML estimator of \\(a.\\)\n\n\\(\\hat{a}_{ML}= \\dfrac{1}{2^n}\\max(X_1, \\dots, X_n)\\)\n\\(\\hat{a}_{ML}=\\max(X_1, \\dots, X_n)\\)\n\\(\\hat{a}_{ML}=\\min(X_1, \\dots, X_n)\\)\n\\(\\hat{a}_{ML}= \\dfrac{1}{2^n}\\min(X_1, \\dots, X_n)\\)\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nApply the method of MLE\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(\\hat{a}_{ML}= \\dfrac{1}{2^n}\\max(X_1, \\dots, X_n)\\)\n\\(\\hat{a}_{ML}=\\max(X_1, \\dots, X_n)\\)\n\\(\\hat{a}_{ML}=\\min(X_1, \\dots, X_n)\\)\n\\(\\hat{a}_{ML}= \\dfrac{1}{2^n}\\min(X_1, \\dots, X_n)\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution",
+    "text": "A person has bought a bed from an online furniture store. The seller delivers the disassembled bed parts along with some screws to assemble it. The probability of a screw being defective is 0.1 independent of all other screws. To compensate for the manufacturing error, the seller sends two extra screws in the package where the bed needs exactly 8 screws to assemble. What is the probability that the buyer will be able to assemble the bed? (Enter the answer up to 2 decimal accuracy)\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nBinomial distribution\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.93\n\n\n\n\n\n\n\n\n\nNoteSolution",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-22"
+      "Question-16"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-080.html",
-    "href": "prob_stats/bank/question-080.html",
-    "title": "Question-80",
+    "objectID": "prob_stats/bank/question-073.html",
+    "href": "prob_stats/bank/question-073.html",
+    "title": "Question-73",
     "section": "",
-    "text": "Carlsen and Anand play a chess match in which the first player to win a game wins the match. Carlsen wins with probability \\(0.4\\), Anand with probability \\(0.3\\), the game is a draw with probability \\(0.3\\). The match has at most ten games. If all ten games are draws, then the match is a draw.",
+    "text": "Suppose that \\(1460\\) people have gathered in a hall for a function. What is the probability that five or more people were born on October 2nd\\(?\\) Assume that birth rates are constant throughout the year and that each year has \\(365\\) days. Enter the answer correct up to three decimal places.\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse normal approximation to the binomial\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.401\n\n\n\n\n\n\n\n\n\nNoteSolution",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-80"
+      "Question-73"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-080.html#part-1",
-    "href": "prob_stats/bank/question-080.html#part-1",
-    "title": "Question-80",
-    "section": "Part-1",
-    "text": "Part-1\nWhat is the probability that Carlsen wins the match? Enter your answer correct to two decimal places.\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\\(0.57\\)\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nThe required probability is:\n\\[\n0.4 \\times [1 + 0.3 + 0.3^{2} + \\cdots + 0.3^{9}] \\approx 0.57\n\\]",
+    "objectID": "prob_stats/bank/question-090.html",
+    "href": "prob_stats/bank/question-090.html",
+    "title": "Question-90",
+    "section": "",
+    "text": "A research team is analyzing customer complaints per day for a new service. The number of complaints \\(X\\) follows a Poisson distribution with an unknown average rate \\(\\lambda\\). The number of complaints observed over a period of 10 days are as follows:\n\\[\n3,\\ 5,\\ 2,\\ 4,\\ 6,\\ 3,\\ 4,\\ 7,\\ 5,\\ 4\n\\]\nFind the maximum likelihood estimate of \\(\\lambda\\). Enter your answer correct to one decimal place.\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\\(4.3\\)\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nThe MLE of \\(\\lambda\\) for a Poisson distribution is the sample average. Therefore, \\(\\hat{\\lambda} =( 3+5+2+4+6+3+4+7+5+4) /10=4.3\\).",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-80"
-    ]
-  },
-  {
-    "objectID": "prob_stats/bank/question-080.html#part-2",
-    "href": "prob_stats/bank/question-080.html#part-2",
-    "title": "Question-80",
-    "section": "Part-2",
-    "text": "Part-2\nIf the duration of the match is \\(T\\), find its PMF.\n\n\\(\\displaystyle p( t) =\\begin{cases}\n0.3^{t-1} \\times 0.7, & 1\\leqslant t\\leqslant 9\\\\\n0.3^{9} , & t=10\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\\(\\displaystyle p( t) =\\begin{cases}\n0.4^{t-1} \\times 0.7, & 1\\leqslant t\\leqslant 9\\\\\n0.4^{9} , & t=10\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\\(\\displaystyle p( t) =\\begin{cases}\n0.3^{t-1} \\times 0.4, & 1\\leqslant t\\leqslant 9\\\\\n0.3^{9} , & t=10\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(\\displaystyle p( t) =\\begin{cases}\n0.3^{t-1} \\times 0.7, & 1\\leqslant t\\leqslant 9\\\\\n0.3^{9} , & t=10\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\\(\\displaystyle p( t) =\\begin{cases}\n0.4^{t-1} \\times 0.7, & 1\\leqslant t\\leqslant 9\\\\\n0.4^{9} , & t=10\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\\(\\displaystyle p( t) =\\begin{cases}\n0.3^{t-1} \\times 0.4, & 1\\leqslant t\\leqslant 9\\\\\n0.3^{9} , & t=10\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nFor \\(1 \\leqslant t \\leqslant 9\\), if \\(t\\) is the duration, then there are \\(t - 1\\) draws. The probability of this is \\(0.3^{t - 1}\\) since all of them are independent. The \\(t^{th}\\) game has a decisive result, which could be a victory for either player. This happens with probability \\(0.3 + 0.4 = 0.7\\). Hence, \\(P(T = t) = 0.3^{t - 1} \\times 0.7\\). For \\(T = 10\\), there nine draws and the tenth could have any result. No matter what the result of the last game, the duration will end up being \\(10\\). Hence, this branch has a probability \\(0.3^{9}\\).",
-    "crumbs": [
-      "Probability and Statistics",
-      "Bank",
-      "Question-80"
+      "Question-90"
     ]
   },
   {
@@ -1816,39 +1918,51 @@
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-033.html",
-    "href": "prob_stats/bank/question-033.html",
-    "title": "Question-33",
+    "objectID": "prob_stats/bank/question-062.html",
+    "href": "prob_stats/bank/question-062.html",
+    "title": "Question-62",
     "section": "",
-    "text": "The weight of new born babies in a town is reported to have a standard deviation of \\(0.25\\) kg, which you suspect is too low. A sample of 10 newborn babies had weights(in kg) as \\(2.25, 2.5, 3, 2.75, 2.40, 2.20, 3.10, 2.50, 2.80, 2.75\\). Based on this information, what conclusion can you reach about your suspicion at significance level of \\(5\\%?\\)\nUse \\(F_{\\chi^2_9}^{-1}(0.95) = 16.918977\\)\n\nAccept \\(H_0\\)\nReject \\(H_0\\)\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nNull and alternative hypothesis will be:\n\\(H_0 : \\sigma = 0.25\\) and \\(H_1 : \\sigma &gt; 0.25\\)\nTest will be : Reject \\(H_0\\) if \\(S^2 &gt; c^2\\), where \\(S^2\\) is the sample variance of the given dataset.\nUse \\(\\alpha = P\\left(\\text{Reject}~~ H_0 ~|~ H_0 \\right)\\).\nFind the value of \\(c\\) by solving the above part and then make conclusion.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nAccept \\(H_0\\)\nReject \\(H_0\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution",
+    "text": "A \\(99\\%\\) confidence interval for the mean of a population is calculated from a sample as \\((45.2, 54.8)\\). What will happen to the interval if the confidence level is decreased to \\(95\\%,\\) assuming the same sample statistics\\(?\\)\n\nThe interval will become wider.\nThe interval will remain the same.\nThe interval will become narrower.\nThere is not enough information to determine the change.\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nThe interval will become wider.\nThe interval will remain the same.\nThe interval will become narrower.\nThere is not enough information to determine the change.\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nWhen the confidence level decreases, the critical value also decreases, which reduces the margin of error and results in a narrower confidence interval.\nHence, option (C) is correct.",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-33"
+      "Question-62"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-056.html",
-    "href": "prob_stats/bank/question-056.html",
-    "title": "Question-56",
+    "objectID": "prob_stats/bank/question-007.html",
+    "href": "prob_stats/bank/question-007.html",
+    "title": "Question-7",
     "section": "",
-    "text": "How many seven digit phone numbers are possible, assuming that the first digit can’t be a \\(\\displaystyle 0\\) or a \\(\\displaystyle 1\\)?\nHow would this answer change if no phone number can start with \\(\\displaystyle 911\\)?\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(8 \\times 10^{6}\\)\n\\(8 \\times 10^{6} - 10^{4}\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nThe first slot has \\(\\displaystyle 8\\) possibilities. The remaining slots have \\(\\displaystyle 10\\) possibilities. Therefore, the number of phone numbers is \\(\\displaystyle 8\\times 10^{6}\\). For the second part, we subtract all phone numbers starting with \\(\\displaystyle 911\\). There are \\(\\displaystyle 10^{4}\\) such numbers. So the required answer is \\(\\displaystyle 8\\times 10^{6} -10^{4}\\).",
+    "text": "Which of the following option(s) is(are) true?\n\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nTwo events \\(A\\) and \\(B\\) are disjoint (mutually exclusive) if \\(A \\cap B = \\phi\\) and \\(A\\) and \\(B\\) are independent events if \\(P(A | B ) = P(A | B^c) = P(A)\\).\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nTwo events \\(A\\) and \\(B\\) are mutually exclusive (disjoint) if \\(A \\cap B = \\phi\\). Then, \\(P(A \\cap B) = 0 \\implies P(A \\cup B) = P(A) + P(B).\\)\n\\(P(A  \\cap  B) = P(A | B) \\times P(B) = P(A) \\times P(B)\\) because \\(P(A | B ) = P(A | B^c) = P(A)\\) if \\(A\\) and \\(B\\) are independent.",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-56"
+      "Question-7"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-027.html",
-    "href": "prob_stats/bank/question-027.html",
-    "title": "Question-27",
+    "objectID": "prob_stats/bank/question-076.html",
+    "href": "prob_stats/bank/question-076.html",
+    "title": "Question-76",
     "section": "",
-    "text": "The total duration of a Test cricket match between any two cricket team is uniformly distributed between 90 overs and 450 overs, both inclusive. What is the probability that the duration of a test cricket match between two cricket team is more than 400 overs? Enter the answer correct two decimal places.\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nIf \\(X \\sim \\text{Uniform}[a,b]\\), then \\(E(X) = \\dfrac{a+b}{2}\\) and \\(Var(X) =  \\dfrac{(b-a)^{2}}{12}\\). Also,\n\\(F(x) = P(X \\leq x) = \\dfrac{x-a}{b-a}\\)\n\\(P(X &gt; x) = 1-P(X \\leq x) = 1- \\left(\\dfrac{x-a}{b-a}\\right).\\)\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.14\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nAccording to the question \\(X \\sim \\text{Uniform}[90, 450]\\).\nProb.[the duration of a test cricket match between two cricket team is more than 400 overs]\n\\(\\implies P\\left(X &gt; 400\\right) = 1 - P\\left( X \\leq 400\\right)\\)\n\\(= 1 - \\left(\\dfrac{400-90}{450-90}\\right)\\)\n\\(= 1- \\dfrac{310}{360}\\)\n\\(\\implies 1-\\dfrac{31}{36} = \\dfrac{5}{36} = 0.14\\)",
+    "text": "The unit interval \\((0,1)\\) is divided at a point chosen uniformly distributed over \\((0,1)\\) in \\(\\mathbb{R}\\) into two disjoint subintervals. Find the expected length of the subinterval that contains \\(0.4\\) rounded off to two decimal places.\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\\(0.74\\)\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nLet the length of the sub-interval be \\(\\displaystyle L\\). Then:\n\\[\nL=\\begin{cases}\n1-X, & X&lt; 0.4\\\\\nX & X\\geqslant 0.4\n\\end{cases}\n\\]\nSince the PDF of the uniform distribution \\(\\displaystyle U[ 0,1]\\) in its support is just the constant \\(\\displaystyle 1\\), we can compute the expectation of \\(\\displaystyle L\\) as:\n\\[\n\\begin{aligned}\n\\mathbb{E}[ L] & =\\int\\limits _{0}^{0.4} 1\\cdot ( 1-x) dx+\\int\\limits _{0.4}^{1} 1\\cdot xdx\\\\\n& \\\\\n& =\\left[ x-\\frac{x^{2}}{2}\\right]_{0}^{0.4} +\\left[\\frac{x^{2}}{2}\\right]_{0.4}^{1}\\\\\n& \\\\\n& =0.74\n\\end{aligned}\n\\]",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-27"
+      "Question-76"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-085.html",
+    "href": "prob_stats/bank/question-085.html",
+    "title": "Question-85",
+    "section": "",
+    "text": "A package delivery time \\(T\\) (in hours) is uniformly distributed over the interval \\([ a,b]\\). It is known that the probability that the delivery takes less than \\(5\\) hours is equal to the probability that it takes more than \\(11\\) hours. Find \\(a+b\\).\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\\(16\\)\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nWe are given that \\(P( T&lt; 5) =P( T &gt;11)\\) where \\(T \\sim U[a, b]\\). From this, we have:\n\\[\n\\begin{aligned}\n\\frac{5-a}{b-a} & =\\frac{b-11}{b-a}\\\\\n5-a & =b-11\\\\\na+b & =16\n\\end{aligned}\n\\]",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-85"
     ]
   },
   {
@@ -2461,7 +2575,7 @@
     "href": "search_bank.html",
     "title": "Search the bank",
     "section": "",
-    "text": "You can search for questions in this question bank by the category of questions you want to study. As a sample use-case, enter “distribution” in the search bar that you see below. Alternatively, you can scroll through the categories displayed on the sidebar to your right. Clicking on a category will filter all questions that belong to that category. To resume searching the entire question bank, click on All at the top.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nCategories\n\n\n\n\n\n\n\n\nTarget\n\n\n \n\n\n\n\n\n\nGATE-2024\n\n\n \n\n\n\n\n\n\nGeneral Aptitude\n\n\n \n\n\n\n\n\n\nQuestion-1\n\n\nclassification\n\n\n\n\n\n\nQuestion-1\n\n\nlogic, DA-2024\n\n\n\n\n\n\nQuestion-1\n\n\nPermutations and Combinations\n\n\n\n\n\n\nQuestion-1\n\n\nenglish, aptitude\n\n\n\n\n\n\nQuestion-1\n\n\nrow echelon form\n\n\n\n\n\n\nVector Spaces\n\n\nvector space\n\n\n\n\n\n\nQuestion-1\n\n\nfunction\n\n\n\n\n\n\nCalculus and Optimization\n\n\n \n\n\n\n\n\n\nQuestion-2\n\n\nclassification\n\n\n\n\n\n\nQuestion-2\n\n\nPermutations and Combinations\n\n\n\n\n\n\nQuestion-2\n\n\nenglish, aptitude\n\n\n\n\n\n\nQuestion-2\n\n\nrank\n\n\n\n\n\n\nSubspaces\n\n\nsubspace\n\n\n\n\n\n\nLinear Algebra\n\n\n \n\n\n\n\n\n\nQuestion-2\n\n\nlimit\n\n\n\n\n\n\nQuestion-3\n\n\nPCA\n\n\n\n\n\n\nQuestion-3\n\n\nPermutations and Combinations\n\n\n\n\n\n\nProbability and Statistics\n\n\n \n\n\n\n\n\n\nQuestion-3\n\n\nalgebra, aptitude\n\n\n\n\n\n\nQuestion-3\n\n\nsystem of equations\n\n\n\n\n\n\nQuestion-3\n\n\nlimit\n\n\n\n\n\n\nQuestion-4\n\n\nPCA\n\n\n\n\n\n\nMachine Learning\n\n\n \n\n\n\n\n\n\nQuestion-4\n\n\nPermutations and Combinations\n\n\n\n\n\n\nQuestion-4\n\n\nvisual thinking, aptitude\n\n\n\n\n\n\nQuestion-4\n\n\nlinear independence, basis\n\n\n\n\n\n\nQuestion-4\n\n\nmaxima and minima\n\n\n\n\n\n\nQuestion-5\n\n\nPCA\n\n\n\n\n\n\nArtificial Intelligence\n\n\n \n\n\n\n\n\n\nQuestion-5\n\n\nProbability Axioms\n\n\n\n\n\n\nQuestion-5\n\n\nalgebra, aptitude\n\n\n\n\n\n\nQuestion-5\n\n\northogonal matrix\n\n\n\n\n\n\nQuestion-5\n\n\ncontinuity, differentiability\n\n\n\n\n\n\nQuestion-6\n\n\nPCA\n\n\n\n\n\n\nQuestion-6\n\n\nprobability\n\n\n\n\n\n\nQuestion-6\n\n\nenglish, aptitude\n\n\n\n\n\n\nQuestion-6\n\n\neigenvalue, DA-2024\n\n\n\n\n\n\nQuestion-6\n\n\nmaxima and minima\n\n\n\n\n\n\nPDSA\n\n\n \n\n\n\n\n\n\nQuestion-7\n\n\nPCA\n\n\n\n\n\n\nDBMS\n\n\n \n\n\n\n\n\n\nQuestion-7\n\n\nMutually exclusive and independent events\n\n\n\n\n\n\nQuestion-7\n\n\nlogical thinking, aptitude\n\n\n\n\n\n\nQuestion-7\n\n\nidempotent matrix\n\n\n\n\n\n\nQuestion-7\n\n\nmaxima and minima\n\n\n\n\n\n\nPractice Papers\n\n\n \n\n\n\n\n\n\nQuestion-8\n\n\nPCA\n\n\n\n\n\n\nQuestion-8\n\n\nAddition rule of probability\n\n\n\n\n\n\nQuestion-8\n\n\nalgebra, aptitude\n\n\n\n\n\n\nQuestion-8\n\n\nvector space\n\n\n\n\n\n\nQuestion-8\n\n\ncontinuity\n\n\n\n\n\n\nQuestion-9\n\n\nPCA\n\n\n\n\n\n\nQuestion-9\n\n\nConditional Probability\n\n\n\n\n\n\nQuestion-9\n\n\ntrigonometry, geometry, aptitude\n\n\n\n\n\n\nQuestion-9\n\n\nvector space\n\n\n\n\n\n\nQuestion-9\n\n\nfunction\n\n\n\n\n\n\nQuestion-10\n\n\nPCA\n\n\n\n\n\n\nQuestion-10\n\n\nBayes Theorem\n\n\n\n\n\n\nQuestion-10\n\n\nlogical thinking, visual reasoning, aptitude\n\n\n\n\n\n\nQuestion-10\n\n\nrank\n\n\n\n\n\n\nQuestion-10\n\n\ntaylor series\n\n\n\n\n\n\nQuestion-11\n\n\nPCA\n\n\n\n\n\n\nQuestion-11\n\n\nBernoulli Distribution\n\n\n\n\n\n\nQuestion-11\n\n\naptitude\n\n\n\n\n\n\nQuestion-11\n\n\nrank, similarity\n\n\n\n\n\n\nQuestion-11\n\n\nlimit\n\n\n\n\n\n\nQuestion-12\n\n\nridge regression\n\n\n\n\n\n\nQuestion-12\n\n\nBinomial Distribution\n\n\n\n\n\n\nQuestion-12\n\n\naptitude\n\n\n\n\n\n\nQuestion-12\n\n\ninverse\n\n\n\n\n\n\nQuestion-12\n\n\nlimit\n\n\n\n\n\n\nQuestion-13\n\n\nlinear algebra, eigenvalue, DA-2024\n\n\n\n\n\n\nQuestion-13\n\n\nlinear regression\n\n\n\n\n\n\nQuestion-13\n\n\nPoisson Distribution\n\n\n\n\n\n\nQuestion-13\n\n\nset theory, aptitude\n\n\n\n\n\n\nQuestion-13\n\n\northogonal matrix, system of equations\n\n\n\n\n\n\nQuestion-13\n\n\nmaxima and minima\n\n\n\n\n\n\nQuestion-14\n\n\nKNN\n\n\n\n\n\n\nQuestion-14\n\n\nPoisson Distribution\n\n\n\n\n\n\nQuestion-14\n\n\nalgebra, logarithms, aptitude\n\n\n\n\n\n\nQuestion-14\n\n\ntriangular matrix\n\n\n\n\n\n\nQuestion-14\n\n\ntaylor series\n\n\n\n\n\n\nQuestion-15\n\n\nclustering\n\n\n\n\n\n\nQuestion-15\n\n\nProbability\n\n\n\n\n\n\nQuestion-15\n\n\nsequences, logical thinking, aptitude\n\n\n\n\n\n\nQuestion-15\n\n\ntriangular matrix, vector space\n\n\n\n\n\n\nQuestion-15\n\n\ncontinuity, differentiability\n\n\n\n\n\n\nQuestion-16\n\n\nlinear regression\n\n\n\n\n\n\nQuestion-16\n\n\nBinomial Distribution\n\n\n\n\n\n\nQuestion-16\n\n\nenglish, aptitude\n\n\n\n\n\n\nQuestion-16\n\n\northogonality\n\n\n\n\n\n\nQuestion-16\n\n\nlimit, taylor series\n\n\n\n\n\n\nQuestion-17\n\n\nSVM\n\n\n\n\n\n\nQuestion-17\n\n\nPoisson Distribtuion\n\n\n\n\n\n\nQuestion-17\n\n\nprofit and loss, aptitude\n\n\n\n\n\n\nQuestion-17\n\n\nmatrix subspaces\n\n\n\n\n\n\nQuestion-17\n\n\ndifferentiability\n\n\n\n\n\n\nQuestion-18\n\n\nk-means\n\n\n\n\n\n\nQuestion-18\n\n\nExponential Distribution\n\n\n\n\n\n\nQuestion-18\n\n\nvisual reasoning, logical reasoning, aptitude\n\n\n\n\n\n\nQuestion-18\n\n\nmatrix\n\n\n\n\n\n\nQuestion-18\n\n\ndifferentiability\n\n\n\n\n\n\nQuestion-19\n\n\nlogistic regression\n\n\n\n\n\n\nQuestion-19\n\n\nMLE\n\n\n\n\n\n\nQuestion-19\n\n\naptitude\n\n\n\n\n\n\nQuestion-19\n\n\nprojection\n\n\n\n\n\n\nQuestion-19\n\n\ndifferentiability\n\n\n\n\n\n\nQuestion-20\n\n\nregression\n\n\n\n\n\n\nQuestion-20\n\n\nZ-test and Confidence Interval\n\n\n\n\n\n\nQuestion-20\n\n\nvisual reasoning, logical reasoning, aptitude\n\n\n\n\n\n\nQuestion-20\n\n\nmatrix, positive definiteness, eigenvalue\n\n\n\n\n\n\nQuestion-20\n\n\ndifferentiability, taylor series\n\n\n\n\n\n\nQuestion-21\n\n\nT-test and Confidence Interval\n\n\n\n\n\n\nQuestion-21\n\n\nenglish, aptitude\n\n\n\n\n\n\nQuestion-21\n\n\neigenvalue, singular value\n\n\n\n\n\n\nQuestion-21\n\n\nfunction\n\n\n\n\n\n\nQuestion-22\n\n\nMLE\n\n\n\n\n\n\nQuestion-22\n\n\nenglish, aptitude\n\n\n\n\n\n\nQuestion-22\n\n\nlinear transformation\n\n\n\n\n\n\nQuestion-22\n\n\nmaxima and minima\n\n\n\n\n\n\nQuestion-23\n\n\nEstimators\n\n\n\n\n\n\nQuestion-23\n\n\nalgebra, aptitude\n\n\n\n\n\n\nQuestion-23\n\n\nlinear independence\n\n\n\n\n\n\nQuestion-23\n\n\nmaxima and minima\n\n\n\n\n\n\nQuestion-24\n\n\nCentral Limit Theorem\n\n\n\n\n\n\nQuestion-24\n\n\nlogical thinking, aptitude\n\n\n\n\n\n\nQuestion-24\n\n\northogonal matrix\n\n\n\n\n\n\nQuestion-24\n\n\ndifferentiability\n\n\n\n\n\n\nQuestion-25\n\n\nCentral Limit Theorem\n\n\n\n\n\n\nQuestion-25\n\n\nvisual reasoning, aptitude\n\n\n\n\n\n\nQuestion-25\n\n\nsystem of equations\n\n\n\n\n\n\nQuestion-25\n\n\ndifferentiability\n\n\n\n\n\n\nQuestion-26\n\n\nExponential Distribution\n\n\n\n\n\n\nQuestion-26\n\n\nsystem of equations\n\n\n\n\n\n\nQuestion-26\n\n\nfunction\n\n\n\n\n\n\nQuestion-27\n\n\nUniform Distribution\n\n\n\n\n\n\nQuestion-27\n\n\neigenvalue\n\n\n\n\n\n\nQuestion-27\n\n\nfunction\n\n\n\n\n\n\nQuestion-28\n\n\nUniform Distribution\n\n\n\n\n\n\nQuestion-28\n\n\ngeometry\n\n\n\n\n\n\nQuestion-28\n\n\nlimit\n\n\n\n\n\n\nQuestion-29\n\n\nZ-Test\n\n\n\n\n\n\nQuestion-29\n\n\nvector space\n\n\n\n\n\n\nQuestion-29\n\n\nlimit\n\n\n\n\n\n\nQuestion-30\n\n\nZ-Test\n\n\n\n\n\n\nQuestion-30\n\n\ndeterminant\n\n\n\n\n\n\nQuestion-30\n\n\ncontinuity\n\n\n\n\n\n\nQuestion-31\n\n\nCovariance\n\n\n\n\n\n\nQuestion-31\n\n\nrow echelon form\n\n\n\n\n\n\nQuestion-31\n\n\nfunction, differentiability\n\n\n\n\n\n\nQuestion-32\n\n\nt-Test\n\n\n\n\n\n\nQuestion-32\n\n\ndeterminant\n\n\n\n\n\n\nQuestion-32\n\n\nmaxima and minima\n\n\n\n\n\n\nQuestion-33\n\n\nChisq-Test\n\n\n\n\n\n\nQuestion-33\n\n\nquadratic form\n\n\n\n\n\n\nQuestion-33\n\n\nlimit, taylor series\n\n\n\n\n\n\nQuestion-34\n\n\nConditional Expectation\n\n\n\n\n\n\nQuestion-35\n\n\npartitioned matrix\n\n\n\n\n\n\nQuestion-34\n\n\ndeterminant, partitioned matrix\n\n\n\n\n\n\nQuestion-34\n\n\nfunction, continuity, differentiability\n\n\n\n\n\n\nQuestion-35\n\n\nlinear algebra, determinant, DA-2024\n\n\n\n\n\n\nQuestion-35\n\n\nAddition Rule of Probability\n\n\n\n\n\n\nQuestion-35\n\n\ntaylor series\n\n\n\n\n\n\nQuestion-36\n\n\nProbability\n\n\n\n\n\n\nQuestion-36\n\n\neigenvalue\n\n\n\n\n\n\nQuestion-36\n\n\nlimit\n\n\n\n\n\n\nQuestion-37\n\n\nPDF\n\n\n\n\n\n\nQuestion-37\n\n\nLU decomposition\n\n\n\n\n\n\nQuestion-37\n\n\nlimit\n\n\n\n\n\n\nQuestion-38\n\n\nExponential Distribution\n\n\n\n\n\n\nQuestion-38\n\n\npermutation matrix\n\n\n\n\n\n\nQuestion-38\n\n\ncontinuity\n\n\n\n\n\n\nQuestion-39\n\n\nPoisson Distribution\n\n\n\n\n\n\nQuestion-39\n\n\nsymmetric matrix\n\n\n\n\n\n\nQuestion-39\n\n\nlimit, continuity, differentiability\n\n\n\n\n\n\nQuestion-40\n\n\nPoisson Distribution\n\n\n\n\n\n\nQuestion-40\n\n\nprojection matrix\n\n\n\n\n\n\nQuestion-40\n\n\ndifferentiability\n\n\n\n\n\n\nQuestion-41\n\n\nMean\n\n\n\n\n\n\nQuestion-41\n\n\neigenvalue and eigenvector\n\n\n\n\n\n\nQuestion-41\n\n\ndifferentiability\n\n\n\n\n\n\nQuestion-42\n\n\nVariance\n\n\n\n\n\n\nQuestion-42\n\n\northogonal matrix\n\n\n\n\n\n\nQuestion-42\n\n\nmaxima and minima\n\n\n\n\n\n\nQuestion-43\n\n\nMean and Variance\n\n\n\n\n\n\nQuestion-43\n\n\neigenvalue and eigenvector, quadratic form\n\n\n\n\n\n\nQuestion-43\n\n\nmaxima and minima\n\n\n\n\n\n\nQuestion-44\n\n\nMean\n\n\n\n\n\n\nQuestion-44\n\n\neigenvalue and eigenvector, quadratic form\n\n\n\n\n\n\nQuestion-44\n\n\nfunction\n\n\n\n\n\n\nQuestion-45\n\n\nMean\n\n\n\n\n\n\nQuestion-45\n\n\neigenvalue and eigenvector, quadratic form\n\n\n\n\n\n\nQuestion-45\n\n\nfunction\n\n\n\n\n\n\nQuestion-46\n\n\nCounting Principle\n\n\n\n\n\n\nQuestion-46\n\n\nidempotent matrix\n\n\n\n\n\n\nQuestion-46\n\n\nlimit\n\n\n\n\n\n\nQuestion-47\n\n\nlinear algebra, subspace, DA-2024\n\n\n\n\n\n\nQuestion-47\n\n\nCounting Principle\n\n\n\n\n\n\nQuestion-47\n\n\nidempotent matrix, partition matrix\n\n\n\n\n\n\nQuestion-47\n\n\nfunction, maxima and minima\n\n\n\n\n\n\nQuestion-48\n\n\nlinear algebra, system of equations, DA-2024\n\n\n\n\n\n\nQuestion-48\n\n\nProbability\n\n\n\n\n\n\nQuestion-48\n\n\nsingular value decomposition\n\n\n\n\n\n\nQuestion-48\n\n\ndifferentiability, maxima and minima\n\n\n\n\n\n\nQuestion-49\n\n\nlinear algebra, projection matrix, DA-2024\n\n\n\n\n\n\nQuestion-49\n\n\nlaw of total Probability\n\n\n\n\n\n\nQuestion-49\n\n\nsingular value decomposition\n\n\n\n\n\n\nQuestion-49\n\n\nmaxima and minima\n\n\n\n\n\n\nQuestion-50\n\n\nBayes theorem\n\n\n\n\n\n\nQuestion-50\n\n\nsingular value decomposition\n\n\n\n\n\n\nQuestion-50\n\n\nmaxima and minima\n\n\n\n\n\n\nQuestion-51\n\n\nVariance\n\n\n\n\n\n\nQuestion-51\n\n\nmatrix\n\n\n\n\n\n\nQuestion-52\n\n\nProbability\n\n\n\n\n\n\nQuestion-52\n\n\ngaussian elimination\n\n\n\n\n\n\nQuestion-53\n\n\nMean\n\n\n\n\n\n\nQuestion-53\n\n\nmatrix, matrix inverse\n\n\n\n\n\n\nQuestion-54\n\n\nChi-square Distribution\n\n\n\n\n\n\nQuestion-54\n\n\nsymmetric matrix\n\n\n\n\n\n\nQuestion-55\n\n\nExpectation\n\n\n\n\n\n\nQuestion-55\n\n\nmatrix\n\n\n\n\n\n\nQuestion-56\n\n\ncounting\n\n\n\n\n\n\nQuestion-56\n\n\nsubspace\n\n\n\n\n\n\nQuestion-57\n\n\ncounting\n\n\n\n\n\n\nQuestion-57\n\n\nsubspace\n\n\n\n\n\n\nQuestion-58\n\n\ncounting\n\n\n\n\n\n\nQuestion-58\n\n\nsubspace\n\n\n\n\n\n\nQuestion-59\n\n\ncounting\n\n\n\n\n\n\nQuestion-59\n\n\nrank\n\n\n\n\n\n\nQuestion-60\n\n\ncounting\n\n\n\n\n\n\nQuestion-60\n\n\nrank, linear independence\n\n\n\n\n\n\nQuestion-61\n\n\nlinear algebra, singular value, eigenvalue, DA-2024\n\n\n\n\n\n\nQuestion-61\n\n\nChi-squared distributions\n\n\n\n\n\n\nQuestion-61\n\n\nrank\n\n\n\n\n\n\nQuestion-62\n\n\nConfidence Intervals\n\n\n\n\n\n\nQuestion-62\n\n\nsubspace\n\n\n\n\n\n\nQuestion-63\n\n\nHypothesis Testing\n\n\n\n\n\n\nQuestion-63\n\n\nrank, nullity\n\n\n\n\n\n\nQuestion-64\n\n\nT-test\n\n\n\n\n\n\nQuestion-64\n\n\ntrace, matrix\n\n\n\n\n\n\nQuestion-65\n\n\nConfidence Intervals\n\n\n\n\n\n\nQuestion-65\n\n\ntrace, matrix\n\n\n\n\n\n\nQuestion-66\n\n\nConditional PDF\n\n\n\n\n\n\nQuestion-66\n\n\ndeterminant\n\n\n\n\n\n\nQuestion-67\n\n\nChi-square Test\n\n\n\n\n\n\nQuestion-67\n\n\ndeterminant\n\n\n\n\n\n\nQuestion-68\n\n\nProbability\n\n\n\n\n\n\nQuestion-68\n\n\nskew-symmetric, invertible\n\n\n\n\n\n\nQuestion-69\n\n\nPoisson distribution\n\n\n\n\n\n\nQuestion-69\n\n\neigenvalue\n\n\n\n\n\n\nQuestion-70\n\n\nPoisson distribution\n\n\n\n\n\n\nQuestion-70\n\n\neigenvalue, eigenvector\n\n\n\n\n\n\nQuestion-71\n\n\nChi-Square Test\n\n\n\n\n\n\nQuestion-71\n\n\neigenvalue, eigenvector\n\n\n\n\n\n\nQuestion-72\n\n\nCentral Limit Theorem\n\n\n\n\n\n\nQuestion-72\n\n\nrank, nullity, system of equations\n\n\n\n\n\n\nQuestion-73\n\n\nCentral Limit Theorem\n\n\n\n\n\n\nQuestion-73\n\n\nsubspace\n\n\n\n\n\n\nQuestion-74\n\n\nCDF\n\n\n\n\n\n\nQuestion-74\n\n\nmatrix, invertibility\n\n\n\n\n\n\nQuestion-75\n\n\nIID Random Variables\n\n\n\n\n\n\nQuestion-75\n\n\nsystem of equations, rank, nullity\n\n\n\n\n\n\nQuestion-76\n\n\nexpectation, continuous random variables\n\n\n\n\n\n\nQuestion-76\n\n\nnilpotent, eigenvalue, eigenvector, diagonalizable\n\n\n\n\n\n\nQuestion-77\n\n\nprobability, counting\n\n\n\n\n\n\nQuestion-77\n\n\neigenvalue, eigenvector, diagonalizable\n\n\n\n\n\n\nQuestion-78\n\n\nprobability, counting\n\n\n\n\n\n\nQuestion-78\n\n\nbasis, rank\n\n\n\n\n\n\nQuestion-79\n\n\nprobability, counting\n\n\n\n\n\n\nQuestion-79\n\n\ndeterminant, trace, eigenvalue\n\n\n\n\n\n\nQuestion-80\n\n\npmf, discrete random variable\n\n\n\n\n\n\nQuestion-80\n\n\neigenvalue, eigenvector\n\n\n\n\n\n\nQuestion-81\n\n\nsubspace, column space, row space, null space\n\n\n\n\n\n\nQuestion-82\n\n\nsystem of equations, row reduction\n\n\n\n\n\n\nQuestion-83\n\n\nsystem of equations, matrix, determinant\n\n\n\n\n\n\nQuestion-84\n\n\northogonality, linear independence, span, basis\n\n\n\n\n\n\nQuestion-85\n\n\nrank, nullity\n\n\n\n\n\n\nQuestion-86\n\n\nsubspace, span, dimension, basis\n\n\n\n\n\n\nQuestion-87\n\n\nrank, nullity, system of equations\n\n\n\n\n\n\nQuestion-88\n\n\neigenvalue, eigenvector\n\n\n\n\n\n\nQuestion-89\n\n\northogonal matrix, eigenvalue, eigenvector\n\n\n\n\n\n\nQuestion-90\n\n\nidempotent matrix, eigenvalue, eigenvector, rank\n\n\n\n\n\n\nQuestion-91\n\n\northogonal matrix, rotation, reflection\n\n\n\n\n\n\nQuestion-92\n\n\northogonal matrix, symmetric matrix, eigenvalue, eigenvector\n\n\n\n\n\n\nQuestion-93\n\n\nlinear independence\n\n\n\n\n\n\nQuestion-94\n\n\nsymmetric matrix\n\n\n\n\n\n\nQuestion-95\n\n\nmatrix multiplication\n\n\n\n\n\n\nQuestion-96\n\n\ndeterminant, invertibility\n\n\n\n\n\n\nQuestion-97\n\n\nLU decomposition, system of equations\n\n\n\n\n\n\nQuestion-98\n\n\nsystem of equations\n\n\n\n\n\n\nQuestion-99\n\n\neigenvalues, symmetric matrix\n\n\n\n\n\n\nQuestion-100\n\n\neigenvalues\n\n\n\n\n\n\nQuestion-9\n\n\nGATE-2021, DBMS, Foreign key\n\n\n\n\n\n\nQuestion-19\n\n\nDBMS, Relational Model\n\n\n\n\n\n\nQuestion-39\n\n\nDBMS\n\n\n\n\n\n\nQuestion-29\n\n\nDBMS\n\n\n\n\n\n\nQuestion-38\n\n\nDBMS\n\n\n\n\n\n\nQuestion-28\n\n\nDBMS\n\n\n\n\n\n\nQuestion-8\n\n\nGATE-2014, DBMS, Key\n\n\n\n\n\n\nQuestion-18\n\n\nDBMS, Functional dependency\n\n\n\n\n\n\nQuestion-37\n\n\nDBMS\n\n\n\n\n\n\nQuestion-3\n\n\nDBMS, SQL, Joins\n\n\n\n\n\n\nQuestion-42\n\n\nDBMS\n\n\n\n\n\n\nQuestion-13\n\n\nDBMS, ER-model\n\n\n\n\n\n\nQuestion-27\n\n\nDBMS\n\n\n\n\n\n\nQuestion-7\n\n\nGATE-2023, DBMS, Relational model, Arity\n\n\n\n\n\n\nQuestion-33\n\n\nDBMS\n\n\n\n\n\n\nQuestion-23\n\n\nDBMS, Relational Algebra\n\n\n\n\n\n\nQuestion-17\n\n\nDBMS, Key\n\n\n\n\n\n\nQuestion-46\n\n\nDBMS\n\n\n\n\n\n\nQuestion-6\n\n\nDBMS, Relational Algebra\n\n\n\n\n\n\nQuestion-32\n\n\nDBMS\n\n\n\n\n\n\nQuestion-22\n\n\nDBMS, Relational Algebra\n\n\n\n\n\n\nQuestion-16\n\n\nDBMS, Key\n\n\n\n\n\n\nQuestion-47\n\n\nDBMS\n\n\n\n\n\n\nQuestion-36\n\n\nDBMS\n\n\n\n\n\n\nQuestion-2\n\n\nDBMS, SQL, Data integrity\n\n\n\n\n\n\nQuestion-43\n\n\nDBMS\n\n\n\n\n\n\nQuestion-12\n\n\nDBMS, ER-model\n\n\n\n\n\n\nQuestion-26\n\n\nDBMS, Normalization\n\n\n\n\n\n\nQuestion-5\n\n\nDBMS, SQL, Subqueries\n\n\n\n\n\n\nQuestion-31\n\n\nDBMS\n\n\n\n\n\n\nQuestion-21\n\n\nDBMS, Normalization\n\n\n\n\n\n\nQuestion-44\n\n\nDBMS\n\n\n\n\n\n\nQuestion-15\n\n\nDBMS, Key\n\n\n\n\n\n\nQuestion-35\n\n\nDBMS\n\n\n\n\n\n\nQuestion-1\n\n\nrelational algebra\n\n\n\n\n\n\nQuestion-11\n\n\nGATE-2017, DBMS, ER-model\n\n\n\n\n\n\nQuestion-40\n\n\nDBMS\n\n\n\n\n\n\nQuestion-25\n\n\nDBMS, Relational Algebra\n\n\n\n\n\n\nQuestion-34\n\n\nDBMS\n\n\n\n\n\n\nQuestion-10\n\n\nGATE-2017, DBMS, Foreign key\n\n\n\n\n\n\nQuestion-41\n\n\nDBMS\n\n\n\n\n\n\nQuestion-24\n\n\nDBMS, Relational Algebra\n\n\n\n\n\n\nQuestion-4\n\n\nDBMS, SQL, Subqueries\n\n\n\n\n\n\nQuestion-30\n\n\nDBMS\n\n\n\n\n\n\nQuestion-20\n\n\nDBMS, Normalization\n\n\n\n\n\n\nQuestion-45\n\n\nDBMS\n\n\n\n\n\n\nQuestion-14\n\n\nDBMS, Key\n\n\n\n\n\n\nGATE-DA\n\n\n \n\n\n\n\n\n\nQuestion-9\n\n\nGATE-2021, Algorithms, Search\n\n\n\n\n\n\nQuestion-48\n\n\nData Structure, Graph\n\n\n\n\n\n\nQuestion-19\n\n\nPython programming, Time complexity\n\n\n\n\n\n\nQuestion-39\n\n\nLinear Probing, Hash Tables\n\n\n\n\n\n\nQuestion-29\n\n\nPython programming, Heap\n\n\n\n\n\n\nQuestion-38\n\n\nAlgorithms, Quick Sort\n\n\n\n\n\n\nQuestion-28\n\n\nPython programming, Heap\n\n\n\n\n\n\nQuestion-8\n\n\nGATE-2021, Data Structures, Trees\n\n\n\n\n\n\nQuestion-49\n\n\nAlgorithm, Floyd-Warshall\n\n\n\n\n\n\nQuestion-18\n\n\nPython programming, Time complexity\n\n\n\n\n\n\nQuestion-37\n\n\nAlgorithms, Merge Sort, Time complexity\n\n\n\n\n\n\nQuestion-3\n\n\npython, GATE-2017(modified), Control Flow\n\n\n\n\n\n\nQuestion-52\n\n\nData Structure, Graph\n\n\n\n\n\n\nQuestion-42\n\n\nData Structure, Stack, Queue\n\n\n\n\n\n\nQuestion-13\n\n\nGATE-2018 (modified), Algorithms, recursion\n\n\n\n\n\n\nQuestion-27\n\n\nPython programming, Heap\n\n\n\n\n\n\nQuestion-56\n\n\nData Structure, Heaps\n\n\n\n\n\n\nQuestion-7\n\n\nGATE-2021, Data Structures, Heaps\n\n\n\n\n\n\nQuestion-33\n\n\nTime complexity\n\n\n\n\n\n\nQuestion-23\n\n\nPython programming, Stack, Queue\n\n\n\n\n\n\nQuestion-17\n\n\nPython programming, Time complexity\n\n\n\n\n\n\nQuestion-46\n\n\nData Structure, Graph\n\n\n\n\n\n\nQuestion-57\n\n\nData Structure, Heaps\n\n\n\n\n\n\nQuestion-6\n\n\nGATE-2021(modified), Python, Control flow\n\n\n\n\n\n\nQuestion-32\n\n\nAsymptotic complexity\n\n\n\n\n\n\nQuestion-22\n\n\nPython programming, Dequeue\n\n\n\n\n\n\nQuestion-16\n\n\nPython programming, Time complexity\n\n\n\n\n\n\nQuestion-47\n\n\nData Structure, Graph\n\n\n\n\n\n\nQuestion-36\n\n\nAlgorithms, Merge Sort, Time complexity\n\n\n\n\n\n\nQuestion-2\n\n\npython, GATE-2019(modified), Control Flow\n\n\n\n\n\n\nQuestion-53\n\n\nData Structure, Graph\n\n\n\n\n\n\nQuestion-43\n\n\nTopological Sorting\n\n\n\n\n\n\nQuestion-12\n\n\nGATE-2019 (modified)\n\n\n\n\n\n\nQuestion-26\n\n\nPython programming, Heap\n\n\n\n\n\n\nQuestion-5\n\n\nGATE-2021, Algorithms, Sorting\n\n\n\n\n\n\nQuestion-54\n\n\nData Structure, Heaps\n\n\n\n\n\n\nQuestion-31\n\n\nPython programming, Heap\n\n\n\n\n\n\nQuestion-21\n\n\nPython programming, Time complexity\n\n\n\n\n\n\nQuestion-44\n\n\nData Structure, Graph\n\n\n\n\n\n\nQuestion-15\n\n\nPython programming, Linked list\n\n\n\n\n\n\nQuestion-35\n\n\nAlgorithms, Sorting\n\n\n\n\n\n\nQuestion-50\n\n\nAlgorithms, MCST\n\n\n\n\n\n\nQuestion-1\n\n\nPython\n\n\n\n\n\n\nQuestion-11\n\n\nGATE-2014, Data Structures, Linked List\n\n\n\n\n\n\nQuestion-40\n\n\nPython, Data Structure, Linked List\n\n\n\n\n\n\nQuestion-25\n\n\nPython programming, Stack, Queue\n\n\n\n\n\n\nQuestion-34\n\n\nAlgorithms, Sorting\n\n\n\n\n\n\nQuestion-51\n\n\nAlgorithms, Shortest Path\n\n\n\n\n\n\nQuestion-10\n\n\nGATE-2021, Data Structures, Graph\n\n\n\n\n\n\nQuestion-41\n\n\nData Structure, Graph\n\n\n\n\n\n\nQuestion-24\n\n\nPython programming, Queue\n\n\n\n\n\n\nQuestion-4\n\n\nGATE-2021, Data Structures, Graphs\n\n\n\n\n\n\nQuestion-55\n\n\nData Structure, Tree\n\n\n\n\n\n\nQuestion-30\n\n\nPython programming, Heap\n\n\n\n\n\n\nQuestion-20\n\n\nPython programming, Time complexity\n\n\n\n\n\n\nQuestion-45\n\n\nData Structure, Graph\n\n\n\n\n\n\nQuestion-14\n\n\nGATE-2023 (modified), Python programming, recursion\n\n\n\n\n\n\nNo matching items",
+    "text": "You can search for questions in this question bank by the category of questions you want to study. As a sample use-case, enter “distribution” in the search bar that you see below. Alternatively, you can scroll through the categories displayed on the sidebar to your right. Clicking on a category will filter all questions that belong to that category. To resume searching the entire question bank, click on All at the top.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nCategories\n\n\n\n\n\n\n\n\nTarget\n\n\n \n\n\n\n\n\n\nGATE-2024\n\n\n \n\n\n\n\n\n\nGeneral Aptitude\n\n\n \n\n\n\n\n\n\nQuestion-1\n\n\nclassification\n\n\n\n\n\n\nQuestion-1\n\n\nlogic, DA-2024\n\n\n\n\n\n\nQuestion-1\n\n\nPermutations and Combinations\n\n\n\n\n\n\nQuestion-1\n\n\nenglish, aptitude\n\n\n\n\n\n\nQuestion-1\n\n\nrow echelon form\n\n\n\n\n\n\nVector Spaces\n\n\nvector space\n\n\n\n\n\n\nQuestion-1\n\n\nfunction\n\n\n\n\n\n\nCalculus and Optimization\n\n\n \n\n\n\n\n\n\nQuestion-2\n\n\nclassification\n\n\n\n\n\n\nQuestion-2\n\n\nPermutations and Combinations\n\n\n\n\n\n\nQuestion-2\n\n\nenglish, aptitude\n\n\n\n\n\n\nQuestion-2\n\n\nrank\n\n\n\n\n\n\nSubspaces\n\n\nsubspace\n\n\n\n\n\n\nLinear Algebra\n\n\n \n\n\n\n\n\n\nQuestion-2\n\n\nlimit\n\n\n\n\n\n\nQuestion-3\n\n\nPCA\n\n\n\n\n\n\nQuestion-3\n\n\nPermutations and Combinations\n\n\n\n\n\n\nProbability and Statistics\n\n\n \n\n\n\n\n\n\nQuestion-3\n\n\nalgebra, aptitude\n\n\n\n\n\n\nQuestion-3\n\n\nsystem of equations\n\n\n\n\n\n\nQuestion-3\n\n\nlimit\n\n\n\n\n\n\nQuestion-4\n\n\nPCA\n\n\n\n\n\n\nMachine Learning\n\n\n \n\n\n\n\n\n\nQuestion-4\n\n\nPermutations and Combinations\n\n\n\n\n\n\nQuestion-4\n\n\nvisual thinking, aptitude\n\n\n\n\n\n\nQuestion-4\n\n\nlinear independence, basis\n\n\n\n\n\n\nQuestion-4\n\n\nmaxima and minima\n\n\n\n\n\n\nQuestion-5\n\n\nPCA\n\n\n\n\n\n\nArtificial Intelligence\n\n\n \n\n\n\n\n\n\nQuestion-5\n\n\nProbability Axioms\n\n\n\n\n\n\nQuestion-5\n\n\nalgebra, aptitude\n\n\n\n\n\n\nQuestion-5\n\n\northogonal matrix\n\n\n\n\n\n\nQuestion-5\n\n\ncontinuity, differentiability\n\n\n\n\n\n\nQuestion-6\n\n\nPCA\n\n\n\n\n\n\nQuestion-6\n\n\nprobability\n\n\n\n\n\n\nQuestion-6\n\n\nenglish, aptitude\n\n\n\n\n\n\nQuestion-6\n\n\neigenvalue, DA-2024\n\n\n\n\n\n\nQuestion-6\n\n\nmaxima and minima\n\n\n\n\n\n\nPDSA\n\n\n \n\n\n\n\n\n\nQuestion-7\n\n\nPCA\n\n\n\n\n\n\nDBMS\n\n\n \n\n\n\n\n\n\nQuestion-7\n\n\nMutually exclusive and independent events\n\n\n\n\n\n\nQuestion-7\n\n\nlogical thinking, aptitude\n\n\n\n\n\n\nQuestion-7\n\n\nidempotent matrix\n\n\n\n\n\n\nQuestion-7\n\n\nmaxima and minima\n\n\n\n\n\n\nPractice Papers\n\n\n \n\n\n\n\n\n\nQuestion-8\n\n\nPCA\n\n\n\n\n\n\nQuestion-8\n\n\nAddition rule of probability\n\n\n\n\n\n\nQuestion-8\n\n\nalgebra, aptitude\n\n\n\n\n\n\nQuestion-8\n\n\nvector space\n\n\n\n\n\n\nQuestion-8\n\n\ncontinuity\n\n\n\n\n\n\nQuestion-9\n\n\nPCA\n\n\n\n\n\n\nQuestion-9\n\n\nConditional Probability\n\n\n\n\n\n\nQuestion-9\n\n\ntrigonometry, geometry, aptitude\n\n\n\n\n\n\nQuestion-9\n\n\nvector space\n\n\n\n\n\n\nQuestion-9\n\n\nfunction\n\n\n\n\n\n\nQuestion-10\n\n\nPCA\n\n\n\n\n\n\nQuestion-10\n\n\nBayes Theorem\n\n\n\n\n\n\nQuestion-10\n\n\nlogical thinking, visual reasoning, aptitude\n\n\n\n\n\n\nQuestion-10\n\n\nrank\n\n\n\n\n\n\nQuestion-10\n\n\ntaylor series\n\n\n\n\n\n\nQuestion-11\n\n\nPCA\n\n\n\n\n\n\nQuestion-11\n\n\nBernoulli Distribution\n\n\n\n\n\n\nQuestion-11\n\n\naptitude\n\n\n\n\n\n\nQuestion-11\n\n\nrank, similarity\n\n\n\n\n\n\nQuestion-11\n\n\nlimit\n\n\n\n\n\n\nQuestion-12\n\n\nridge regression\n\n\n\n\n\n\nQuestion-12\n\n\nBinomial Distribution\n\n\n\n\n\n\nQuestion-12\n\n\naptitude\n\n\n\n\n\n\nQuestion-12\n\n\ninverse\n\n\n\n\n\n\nQuestion-12\n\n\nlimit\n\n\n\n\n\n\nQuestion-13\n\n\nlinear algebra, eigenvalue, DA-2024\n\n\n\n\n\n\nQuestion-13\n\n\nlinear regression\n\n\n\n\n\n\nQuestion-13\n\n\nPoisson Distribution\n\n\n\n\n\n\nQuestion-13\n\n\nset theory, aptitude\n\n\n\n\n\n\nQuestion-13\n\n\northogonal matrix, system of equations\n\n\n\n\n\n\nQuestion-13\n\n\nmaxima and minima\n\n\n\n\n\n\nQuestion-14\n\n\nKNN\n\n\n\n\n\n\nQuestion-14\n\n\nPoisson Distribution\n\n\n\n\n\n\nQuestion-14\n\n\nalgebra, logarithms, aptitude\n\n\n\n\n\n\nQuestion-14\n\n\ntriangular matrix\n\n\n\n\n\n\nQuestion-14\n\n\ntaylor series\n\n\n\n\n\n\nQuestion-15\n\n\nclustering\n\n\n\n\n\n\nQuestion-15\n\n\nProbability\n\n\n\n\n\n\nQuestion-15\n\n\nsequences, logical thinking, aptitude\n\n\n\n\n\n\nQuestion-15\n\n\ntriangular matrix, vector space\n\n\n\n\n\n\nQuestion-15\n\n\ncontinuity, differentiability\n\n\n\n\n\n\nQuestion-16\n\n\nlinear regression\n\n\n\n\n\n\nQuestion-16\n\n\nBinomial Distribution\n\n\n\n\n\n\nQuestion-16\n\n\nenglish, aptitude\n\n\n\n\n\n\nQuestion-16\n\n\northogonality\n\n\n\n\n\n\nQuestion-16\n\n\nlimit, taylor series\n\n\n\n\n\n\nQuestion-17\n\n\nSVM\n\n\n\n\n\n\nQuestion-17\n\n\nPoisson Distribtuion\n\n\n\n\n\n\nQuestion-17\n\n\nprofit and loss, aptitude\n\n\n\n\n\n\nQuestion-17\n\n\nmatrix subspaces\n\n\n\n\n\n\nQuestion-17\n\n\ndifferentiability\n\n\n\n\n\n\nQuestion-18\n\n\nk-means\n\n\n\n\n\n\nQuestion-18\n\n\nExponential Distribution\n\n\n\n\n\n\nQuestion-18\n\n\nvisual reasoning, logical reasoning, aptitude\n\n\n\n\n\n\nQuestion-18\n\n\nmatrix\n\n\n\n\n\n\nQuestion-18\n\n\ndifferentiability\n\n\n\n\n\n\nQuestion-19\n\n\nlogistic regression\n\n\n\n\n\n\nQuestion-19\n\n\nMLE\n\n\n\n\n\n\nQuestion-19\n\n\naptitude\n\n\n\n\n\n\nQuestion-19\n\n\nprojection\n\n\n\n\n\n\nQuestion-19\n\n\ndifferentiability\n\n\n\n\n\n\nQuestion-20\n\n\nregression\n\n\n\n\n\n\nQuestion-20\n\n\nZ-test and Confidence Interval\n\n\n\n\n\n\nQuestion-20\n\n\nvisual reasoning, logical reasoning, aptitude\n\n\n\n\n\n\nQuestion-20\n\n\nmatrix, positive definiteness, eigenvalue\n\n\n\n\n\n\nQuestion-20\n\n\ndifferentiability, taylor series\n\n\n\n\n\n\nQuestion-21\n\n\nT-test and Confidence Interval\n\n\n\n\n\n\nQuestion-21\n\n\nenglish, aptitude\n\n\n\n\n\n\nQuestion-21\n\n\neigenvalue, singular value\n\n\n\n\n\n\nQuestion-21\n\n\nfunction\n\n\n\n\n\n\nQuestion-22\n\n\nMLE\n\n\n\n\n\n\nQuestion-22\n\n\nenglish, aptitude\n\n\n\n\n\n\nQuestion-22\n\n\nlinear transformation\n\n\n\n\n\n\nQuestion-22\n\n\nmaxima and minima\n\n\n\n\n\n\nQuestion-23\n\n\nEstimators\n\n\n\n\n\n\nQuestion-23\n\n\nalgebra, aptitude\n\n\n\n\n\n\nQuestion-23\n\n\nlinear independence\n\n\n\n\n\n\nQuestion-23\n\n\nmaxima and minima\n\n\n\n\n\n\nQuestion-24\n\n\nCentral Limit Theorem\n\n\n\n\n\n\nQuestion-24\n\n\nlogical thinking, aptitude\n\n\n\n\n\n\nQuestion-24\n\n\northogonal matrix\n\n\n\n\n\n\nQuestion-24\n\n\ndifferentiability\n\n\n\n\n\n\nQuestion-25\n\n\nCentral Limit Theorem\n\n\n\n\n\n\nQuestion-25\n\n\nvisual reasoning, aptitude\n\n\n\n\n\n\nQuestion-25\n\n\nsystem of equations\n\n\n\n\n\n\nQuestion-25\n\n\ndifferentiability\n\n\n\n\n\n\nQuestion-26\n\n\nExponential Distribution\n\n\n\n\n\n\nQuestion-26\n\n\nenglish comoprehension, aptitude\n\n\n\n\n\n\nQuestion-26\n\n\nsystem of equations\n\n\n\n\n\n\nQuestion-26\n\n\nfunction\n\n\n\n\n\n\nQuestion-27\n\n\nUniform Distribution\n\n\n\n\n\n\nQuestion-27\n\n\ngeometry, aptitude\n\n\n\n\n\n\nQuestion-27\n\n\neigenvalue\n\n\n\n\n\n\nQuestion-27\n\n\nfunction\n\n\n\n\n\n\nQuestion-28\n\n\nUniform Distribution\n\n\n\n\n\n\nQuestion-28\n\n\nprobability, aptitude\n\n\n\n\n\n\nQuestion-28\n\n\ngeometry\n\n\n\n\n\n\nQuestion-28\n\n\nlimit\n\n\n\n\n\n\nQuestion-29\n\n\nZ-Test\n\n\n\n\n\n\nQuestion-29\n\n\ncounting, aptitude\n\n\n\n\n\n\nQuestion-29\n\n\nvector space\n\n\n\n\n\n\nQuestion-29\n\n\nlimit\n\n\n\n\n\n\nQuestion-30\n\n\nZ-Test\n\n\n\n\n\n\nQuestion-30\n\n\nenglish, aptitude\n\n\n\n\n\n\nQuestion-30\n\n\ndeterminant\n\n\n\n\n\n\nQuestion-30\n\n\ncontinuity\n\n\n\n\n\n\nQuestion-31\n\n\nCovariance\n\n\n\n\n\n\nQuestion-31\n\n\nalgebra, aptitude\n\n\n\n\n\n\nQuestion-31\n\n\nrow echelon form\n\n\n\n\n\n\nQuestion-31\n\n\nfunction, differentiability\n\n\n\n\n\n\nQuestion-32\n\n\nt-Test\n\n\n\n\n\n\nQuestion-32\n\n\nstatistics, aptitude\n\n\n\n\n\n\nQuestion-32\n\n\ndeterminant\n\n\n\n\n\n\nQuestion-32\n\n\nmaxima and minima\n\n\n\n\n\n\nQuestion-33\n\n\nChisq-Test\n\n\n\n\n\n\nQuestion-33\n\n\npercentage, aptitude\n\n\n\n\n\n\nQuestion-33\n\n\nquadratic form\n\n\n\n\n\n\nQuestion-33\n\n\nlimit, taylor series\n\n\n\n\n\n\nQuestion-34\n\n\nConditional Expectation\n\n\n\n\n\n\nQuestion-34\n\n\nalgebra, aptitude\n\n\n\n\n\n\nQuestion-35\n\n\npartitioned matrix\n\n\n\n\n\n\nQuestion-34\n\n\ndeterminant, partitioned matrix\n\n\n\n\n\n\nQuestion-34\n\n\nfunction, continuity, differentiability\n\n\n\n\n\n\nQuestion-35\n\n\nlinear algebra, determinant, DA-2024\n\n\n\n\n\n\nQuestion-35\n\n\nAddition Rule of Probability\n\n\n\n\n\n\nQuestion-35\n\n\nenglish, aptitude\n\n\n\n\n\n\nQuestion-35\n\n\ntaylor series\n\n\n\n\n\n\nQuestion-36\n\n\nProbability\n\n\n\n\n\n\nQuestion-36\n\n\nmensuration, aptitude\n\n\n\n\n\n\nQuestion-36\n\n\neigenvalue\n\n\n\n\n\n\nQuestion-36\n\n\nlimit\n\n\n\n\n\n\nQuestion-37\n\n\nPDF\n\n\n\n\n\n\nQuestion-37\n\n\nvisual reasoning, aptitude\n\n\n\n\n\n\nQuestion-37\n\n\nLU decomposition\n\n\n\n\n\n\nQuestion-37\n\n\nlimit\n\n\n\n\n\n\nQuestion-38\n\n\nExponential Distribution\n\n\n\n\n\n\nQuestion-38\n\n\nvisual and spatial reasoning, aptitude\n\n\n\n\n\n\nQuestion-38\n\n\npermutation matrix\n\n\n\n\n\n\nQuestion-38\n\n\ncontinuity\n\n\n\n\n\n\nQuestion-39\n\n\nPoisson Distribution\n\n\n\n\n\n\nQuestion-39\n\n\nvisual and spatial reasoning, aptitude\n\n\n\n\n\n\nQuestion-39\n\n\nsymmetric matrix\n\n\n\n\n\n\nQuestion-39\n\n\nlimit, continuity, differentiability\n\n\n\n\n\n\nQuestion-40\n\n\nPoisson Distribution\n\n\n\n\n\n\nQuestion-40\n\n\nenglish, aptitude\n\n\n\n\n\n\nQuestion-40\n\n\nprojection matrix\n\n\n\n\n\n\nQuestion-40\n\n\ndifferentiability\n\n\n\n\n\n\nQuestion-41\n\n\nMean\n\n\n\n\n\n\nQuestion-41\n\n\neigenvalue and eigenvector\n\n\n\n\n\n\nQuestion-41\n\n\ndifferentiability\n\n\n\n\n\n\nQuestion-42\n\n\nVariance\n\n\n\n\n\n\nQuestion-42\n\n\northogonal matrix\n\n\n\n\n\n\nQuestion-42\n\n\nmaxima and minima\n\n\n\n\n\n\nQuestion-43\n\n\nMean and Variance\n\n\n\n\n\n\nQuestion-43\n\n\neigenvalue and eigenvector, quadratic form\n\n\n\n\n\n\nQuestion-43\n\n\nmaxima and minima\n\n\n\n\n\n\nQuestion-44\n\n\nMean\n\n\n\n\n\n\nQuestion-44\n\n\neigenvalue and eigenvector, quadratic form\n\n\n\n\n\n\nQuestion-44\n\n\nfunction\n\n\n\n\n\n\nQuestion-45\n\n\nMean\n\n\n\n\n\n\nQuestion-45\n\n\neigenvalue and eigenvector, quadratic form\n\n\n\n\n\n\nQuestion-45\n\n\nfunction\n\n\n\n\n\n\nQuestion-46\n\n\nCounting Principle\n\n\n\n\n\n\nQuestion-46\n\n\nidempotent matrix\n\n\n\n\n\n\nQuestion-46\n\n\nlimit\n\n\n\n\n\n\nQuestion-47\n\n\nlinear algebra, subspace, DA-2024\n\n\n\n\n\n\nQuestion-47\n\n\nCounting Principle\n\n\n\n\n\n\nQuestion-47\n\n\nidempotent matrix, partition matrix\n\n\n\n\n\n\nQuestion-47\n\n\nfunction, maxima and minima\n\n\n\n\n\n\nQuestion-48\n\n\nlinear algebra, system of equations, DA-2024\n\n\n\n\n\n\nQuestion-48\n\n\nProbability\n\n\n\n\n\n\nQuestion-48\n\n\nsingular value decomposition\n\n\n\n\n\n\nQuestion-48\n\n\ndifferentiability, maxima and minima\n\n\n\n\n\n\nQuestion-49\n\n\nlinear algebra, projection matrix, DA-2024\n\n\n\n\n\n\nQuestion-49\n\n\nlaw of total Probability\n\n\n\n\n\n\nQuestion-49\n\n\nsingular value decomposition\n\n\n\n\n\n\nQuestion-49\n\n\nmaxima and minima\n\n\n\n\n\n\nQuestion-50\n\n\nBayes theorem\n\n\n\n\n\n\nQuestion-50\n\n\nsingular value decomposition\n\n\n\n\n\n\nQuestion-50\n\n\nmaxima and minima\n\n\n\n\n\n\nQuestion-51\n\n\nVariance\n\n\n\n\n\n\nQuestion-51\n\n\nmatrix\n\n\n\n\n\n\nQuestion-52\n\n\nProbability\n\n\n\n\n\n\nQuestion-52\n\n\ngaussian elimination\n\n\n\n\n\n\nQuestion-53\n\n\nMean\n\n\n\n\n\n\nQuestion-53\n\n\nmatrix, matrix inverse\n\n\n\n\n\n\nQuestion-54\n\n\nChi-square Distribution\n\n\n\n\n\n\nQuestion-54\n\n\nsymmetric matrix\n\n\n\n\n\n\nQuestion-55\n\n\nExpectation\n\n\n\n\n\n\nQuestion-55\n\n\nmatrix\n\n\n\n\n\n\nQuestion-56\n\n\ncounting\n\n\n\n\n\n\nQuestion-56\n\n\nsubspace\n\n\n\n\n\n\nQuestion-57\n\n\ncounting\n\n\n\n\n\n\nQuestion-57\n\n\nsubspace\n\n\n\n\n\n\nQuestion-58\n\n\ncounting\n\n\n\n\n\n\nQuestion-58\n\n\nsubspace\n\n\n\n\n\n\nQuestion-59\n\n\ncounting\n\n\n\n\n\n\nQuestion-59\n\n\nrank\n\n\n\n\n\n\nQuestion-60\n\n\ncounting\n\n\n\n\n\n\nQuestion-60\n\n\nrank, linear independence\n\n\n\n\n\n\nQuestion-61\n\n\nlinear algebra, singular value, eigenvalue, DA-2024\n\n\n\n\n\n\nQuestion-61\n\n\nChi-squared distributions\n\n\n\n\n\n\nQuestion-61\n\n\nrank\n\n\n\n\n\n\nQuestion-62\n\n\nConfidence Intervals\n\n\n\n\n\n\nQuestion-62\n\n\nsubspace\n\n\n\n\n\n\nQuestion-63\n\n\nHypothesis Testing\n\n\n\n\n\n\nQuestion-63\n\n\nrank, nullity\n\n\n\n\n\n\nQuestion-64\n\n\nT-test\n\n\n\n\n\n\nQuestion-64\n\n\ntrace, matrix\n\n\n\n\n\n\nQuestion-65\n\n\nConfidence Intervals\n\n\n\n\n\n\nQuestion-65\n\n\ntrace, matrix\n\n\n\n\n\n\nQuestion-66\n\n\nConditional PDF\n\n\n\n\n\n\nQuestion-66\n\n\ndeterminant\n\n\n\n\n\n\nQuestion-67\n\n\nChi-square Test\n\n\n\n\n\n\nQuestion-67\n\n\ndeterminant\n\n\n\n\n\n\nQuestion-68\n\n\nProbability\n\n\n\n\n\n\nQuestion-68\n\n\nskew-symmetric, invertible\n\n\n\n\n\n\nQuestion-69\n\n\nPoisson distribution\n\n\n\n\n\n\nQuestion-69\n\n\neigenvalue\n\n\n\n\n\n\nQuestion-70\n\n\nPoisson distribution\n\n\n\n\n\n\nQuestion-70\n\n\neigenvalue, eigenvector\n\n\n\n\n\n\nQuestion-71\n\n\nChi-Square Test\n\n\n\n\n\n\nQuestion-71\n\n\neigenvalue, eigenvector\n\n\n\n\n\n\nQuestion-72\n\n\nCentral Limit Theorem\n\n\n\n\n\n\nQuestion-72\n\n\nrank, nullity, system of equations\n\n\n\n\n\n\nQuestion-73\n\n\nCentral Limit Theorem\n\n\n\n\n\n\nQuestion-73\n\n\nsubspace\n\n\n\n\n\n\nQuestion-74\n\n\nCDF\n\n\n\n\n\n\nQuestion-74\n\n\nmatrix, invertibility\n\n\n\n\n\n\nQuestion-75\n\n\nIID Random Variables\n\n\n\n\n\n\nQuestion-75\n\n\nsystem of equations, rank, nullity\n\n\n\n\n\n\nQuestion-76\n\n\nexpectation, continuous random variables\n\n\n\n\n\n\nQuestion-76\n\n\nnilpotent, eigenvalue, eigenvector, diagonalizable\n\n\n\n\n\n\nQuestion-77\n\n\nprobability, counting\n\n\n\n\n\n\nQuestion-77\n\n\neigenvalue, eigenvector, diagonalizable\n\n\n\n\n\n\nQuestion-78\n\n\nprobability, counting\n\n\n\n\n\n\nQuestion-78\n\n\nbasis, rank\n\n\n\n\n\n\nQuestion-79\n\n\nprobability, counting\n\n\n\n\n\n\nQuestion-79\n\n\ndeterminant, trace, eigenvalue\n\n\n\n\n\n\nQuestion-80\n\n\npmf, discrete random variable\n\n\n\n\n\n\nQuestion-80\n\n\neigenvalue, eigenvector\n\n\n\n\n\n\nQuestion-81\n\n\npoisson, pmf\n\n\n\n\n\n\nQuestion-81\n\n\nsubspace, column space, row space, null space\n\n\n\n\n\n\nQuestion-82\n\n\nexponential, continuous random variable, cdf\n\n\n\n\n\n\nQuestion-82\n\n\nsystem of equations, row reduction\n\n\n\n\n\n\nQuestion-83\n\n\njoint pmf\n\n\n\n\n\n\nQuestion-83\n\n\nsystem of equations, matrix, determinant\n\n\n\n\n\n\nQuestion-84\n\n\ncdf, continuous random variable, variance\n\n\n\n\n\n\nQuestion-84\n\n\northogonality, linear independence, span, basis\n\n\n\n\n\n\nQuestion-85\n\n\ncdf, uniform\n\n\n\n\n\n\nQuestion-85\n\n\nrank, nullity\n\n\n\n\n\n\nQuestion-86\n\n\ncorrelation, discrete random variables\n\n\n\n\n\n\nQuestion-86\n\n\nsubspace, span, dimension, basis\n\n\n\n\n\n\nQuestion-87\n\n\ncdf, change of variable, continuous random variable\n\n\n\n\n\n\nQuestion-87\n\n\nrank, nullity, system of equations\n\n\n\n\n\n\nQuestion-88\n\n\nrandom sample, sum of random variables, normal\n\n\n\n\n\n\nQuestion-88\n\n\neigenvalue, eigenvector\n\n\n\n\n\n\nQuestion-89\n\n\ncontinuous random variable, uniform, joint pdf\n\n\n\n\n\n\nQuestion-89\n\n\northogonal matrix, eigenvalue, eigenvector\n\n\n\n\n\n\nQuestion-90\n\n\npoisson, mle\n\n\n\n\n\n\nQuestion-90\n\n\nidempotent matrix, eigenvalue, eigenvector, rank\n\n\n\n\n\n\nQuestion-91\n\n\northogonal matrix, rotation, reflection\n\n\n\n\n\n\nQuestion-92\n\n\northogonal matrix, symmetric matrix, eigenvalue, eigenvector\n\n\n\n\n\n\nQuestion-93\n\n\nlinear independence\n\n\n\n\n\n\nQuestion-94\n\n\nsymmetric matrix\n\n\n\n\n\n\nQuestion-95\n\n\nmatrix multiplication\n\n\n\n\n\n\nQuestion-96\n\n\ndeterminant, invertibility\n\n\n\n\n\n\nQuestion-97\n\n\nLU decomposition, system of equations\n\n\n\n\n\n\nQuestion-98\n\n\nsystem of equations\n\n\n\n\n\n\nQuestion-99\n\n\neigenvalues, symmetric matrix\n\n\n\n\n\n\nQuestion-100\n\n\neigenvalues\n\n\n\n\n\n\nQuestion-9\n\n\nGATE-2021, DBMS, Foreign key\n\n\n\n\n\n\nQuestion-19\n\n\nDBMS, Relational Model\n\n\n\n\n\n\nQuestion-39\n\n\nDBMS\n\n\n\n\n\n\nQuestion-29\n\n\nDBMS\n\n\n\n\n\n\nQuestion-38\n\n\nDBMS\n\n\n\n\n\n\nQuestion-28\n\n\nDBMS\n\n\n\n\n\n\nQuestion-8\n\n\nGATE-2014, DBMS, Key\n\n\n\n\n\n\nQuestion-18\n\n\nDBMS, Functional dependency\n\n\n\n\n\n\nQuestion-37\n\n\nDBMS\n\n\n\n\n\n\nQuestion-3\n\n\nDBMS, SQL, Joins\n\n\n\n\n\n\nQuestion-42\n\n\nDBMS\n\n\n\n\n\n\nQuestion-13\n\n\nDBMS, ER-model\n\n\n\n\n\n\nQuestion-27\n\n\nDBMS\n\n\n\n\n\n\nQuestion-7\n\n\nGATE-2023, DBMS, Relational model, Arity\n\n\n\n\n\n\nQuestion-33\n\n\nDBMS\n\n\n\n\n\n\nQuestion-23\n\n\nDBMS, Relational Algebra\n\n\n\n\n\n\nQuestion-17\n\n\nDBMS, Key\n\n\n\n\n\n\nQuestion-46\n\n\nDBMS\n\n\n\n\n\n\nQuestion-6\n\n\nDBMS, Relational Algebra\n\n\n\n\n\n\nQuestion-32\n\n\nDBMS\n\n\n\n\n\n\nQuestion-22\n\n\nDBMS, Relational Algebra\n\n\n\n\n\n\nQuestion-16\n\n\nDBMS, Key\n\n\n\n\n\n\nQuestion-47\n\n\nDBMS\n\n\n\n\n\n\nQuestion-36\n\n\nDBMS\n\n\n\n\n\n\nQuestion-2\n\n\nDBMS, SQL, Data integrity\n\n\n\n\n\n\nQuestion-43\n\n\nDBMS\n\n\n\n\n\n\nQuestion-12\n\n\nDBMS, ER-model\n\n\n\n\n\n\nQuestion-26\n\n\nDBMS, Normalization\n\n\n\n\n\n\nQuestion-5\n\n\nDBMS, SQL, Subqueries\n\n\n\n\n\n\nQuestion-31\n\n\nDBMS\n\n\n\n\n\n\nQuestion-21\n\n\nDBMS, Normalization\n\n\n\n\n\n\nQuestion-44\n\n\nDBMS\n\n\n\n\n\n\nQuestion-15\n\n\nDBMS, Key\n\n\n\n\n\n\nQuestion-35\n\n\nDBMS\n\n\n\n\n\n\nQuestion-1\n\n\nrelational algebra\n\n\n\n\n\n\nQuestion-11\n\n\nGATE-2017, DBMS, ER-model\n\n\n\n\n\n\nQuestion-40\n\n\nDBMS\n\n\n\n\n\n\nQuestion-25\n\n\nDBMS, Relational Algebra\n\n\n\n\n\n\nQuestion-34\n\n\nDBMS\n\n\n\n\n\n\nQuestion-10\n\n\nGATE-2017, DBMS, Foreign key\n\n\n\n\n\n\nQuestion-41\n\n\nDBMS\n\n\n\n\n\n\nQuestion-24\n\n\nDBMS, Relational Algebra\n\n\n\n\n\n\nQuestion-4\n\n\nDBMS, SQL, Subqueries\n\n\n\n\n\n\nQuestion-30\n\n\nDBMS\n\n\n\n\n\n\nQuestion-20\n\n\nDBMS, Normalization\n\n\n\n\n\n\nQuestion-45\n\n\nDBMS\n\n\n\n\n\n\nQuestion-14\n\n\nDBMS, Key\n\n\n\n\n\n\nGATE-DA\n\n\n \n\n\n\n\n\n\nQuestion-9\n\n\nGATE-2021, Algorithms, Search\n\n\n\n\n\n\nQuestion-48\n\n\nData Structure, Graph\n\n\n\n\n\n\nQuestion-19\n\n\nPython programming, Time complexity\n\n\n\n\n\n\nQuestion-39\n\n\nLinear Probing, Hash Tables\n\n\n\n\n\n\nQuestion-29\n\n\nPython programming, Heap\n\n\n\n\n\n\nQuestion-38\n\n\nAlgorithms, Quick Sort\n\n\n\n\n\n\nQuestion-28\n\n\nPython programming, Heap\n\n\n\n\n\n\nQuestion-8\n\n\nGATE-2021, Data Structures, Trees\n\n\n\n\n\n\nQuestion-49\n\n\nAlgorithm, Floyd-Warshall\n\n\n\n\n\n\nQuestion-18\n\n\nPython programming, Time complexity\n\n\n\n\n\n\nQuestion-37\n\n\nAlgorithms, Merge Sort, Time complexity\n\n\n\n\n\n\nQuestion-3\n\n\npython, GATE-2017(modified), Control Flow\n\n\n\n\n\n\nQuestion-52\n\n\nData Structure, Graph\n\n\n\n\n\n\nQuestion-42\n\n\nData Structure, Stack, Queue\n\n\n\n\n\n\nQuestion-13\n\n\nGATE-2018 (modified), Algorithms, recursion\n\n\n\n\n\n\nQuestion-27\n\n\nPython programming, Heap\n\n\n\n\n\n\nQuestion-56\n\n\nData Structure, Heaps\n\n\n\n\n\n\nQuestion-7\n\n\nGATE-2021, Data Structures, Heaps\n\n\n\n\n\n\nQuestion-33\n\n\nTime complexity\n\n\n\n\n\n\nQuestion-23\n\n\nPython programming, Stack, Queue\n\n\n\n\n\n\nQuestion-17\n\n\nPython programming, Time complexity\n\n\n\n\n\n\nQuestion-46\n\n\nData Structure, Graph\n\n\n\n\n\n\nQuestion-57\n\n\nData Structure, Heaps\n\n\n\n\n\n\nQuestion-6\n\n\nGATE-2021(modified), Python, Control flow\n\n\n\n\n\n\nQuestion-32\n\n\nAsymptotic complexity\n\n\n\n\n\n\nQuestion-22\n\n\nPython programming, Dequeue\n\n\n\n\n\n\nQuestion-16\n\n\nPython programming, Time complexity\n\n\n\n\n\n\nQuestion-47\n\n\nData Structure, Graph\n\n\n\n\n\n\nQuestion-36\n\n\nAlgorithms, Merge Sort, Time complexity\n\n\n\n\n\n\nQuestion-2\n\n\npython, GATE-2019(modified), Control Flow\n\n\n\n\n\n\nQuestion-53\n\n\nData Structure, Graph\n\n\n\n\n\n\nQuestion-43\n\n\nTopological Sorting\n\n\n\n\n\n\nQuestion-12\n\n\nGATE-2019 (modified)\n\n\n\n\n\n\nQuestion-26\n\n\nPython programming, Heap\n\n\n\n\n\n\nQuestion-5\n\n\nGATE-2021, Algorithms, Sorting\n\n\n\n\n\n\nQuestion-54\n\n\nData Structure, Heaps\n\n\n\n\n\n\nQuestion-31\n\n\nPython programming, Heap\n\n\n\n\n\n\nQuestion-21\n\n\nPython programming, Time complexity\n\n\n\n\n\n\nQuestion-44\n\n\nData Structure, Graph\n\n\n\n\n\n\nQuestion-15\n\n\nPython programming, Linked list\n\n\n\n\n\n\nQuestion-35\n\n\nAlgorithms, Sorting\n\n\n\n\n\n\nQuestion-50\n\n\nAlgorithms, MCST\n\n\n\n\n\n\nQuestion-1\n\n\nPython\n\n\n\n\n\n\nQuestion-11\n\n\nGATE-2014, Data Structures, Linked List\n\n\n\n\n\n\nQuestion-40\n\n\nPython, Data Structure, Linked List\n\n\n\n\n\n\nQuestion-25\n\n\nPython programming, Stack, Queue\n\n\n\n\n\n\nQuestion-34\n\n\nAlgorithms, Sorting\n\n\n\n\n\n\nQuestion-51\n\n\nAlgorithms, Shortest Path\n\n\n\n\n\n\nQuestion-10\n\n\nGATE-2021, Data Structures, Graph\n\n\n\n\n\n\nQuestion-41\n\n\nData Structure, Graph\n\n\n\n\n\n\nQuestion-24\n\n\nPython programming, Queue\n\n\n\n\n\n\nQuestion-4\n\n\nGATE-2021, Data Structures, Graphs\n\n\n\n\n\n\nQuestion-55\n\n\nData Structure, Tree\n\n\n\n\n\n\nQuestion-30\n\n\nPython programming, Heap\n\n\n\n\n\n\nQuestion-20\n\n\nPython programming, Time complexity\n\n\n\n\n\n\nQuestion-45\n\n\nData Structure, Graph\n\n\n\n\n\n\nQuestion-14\n\n\nGATE-2023 (modified), Python programming, recursion\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Search the bank"
     ]
@@ -2471,7 +2585,7 @@
     "href": "target.html",
     "title": "Target",
     "section": "",
-    "text": "Deadline for all subjects other than AI is November \\(30^{th}\\), \\(2025\\).\n\n\n\nSubject\nCurrent\nTarget\nStatus\n\n\n\n\nGeneral Aptitude\n25\n100\n❌\n\n\nCalculus and Optimization\n50\n100\n❌\n\n\nLinear Algebra\n100\n100\n✔️\n\n\nProbability and Statistics\n80\n100\n❌\n\n\nMachine Learning\n20\n100\n❌\n\n\nArtificial Intelligence\n1\n100\n❌\n\n\nPDSA\n57\n100\n❌\n\n\nDBMS\n47\n100\n❌\n\n\nTotal\n380\n800\n❌",
+    "text": "Deadline for all subjects other than AI is November \\(30^{th}\\), \\(2025\\).\n\n\n\nSubject\nCurrent\nTarget\nStatus\n\n\n\n\nGeneral Aptitude\n40\n100\n❌\n\n\nCalculus and Optimization\n50\n100\n❌\n\n\nLinear Algebra\n100\n100\n✔️\n\n\nProbability and Statistics\n90\n100\n❌\n\n\nMachine Learning\n20\n100\n❌\n\n\nArtificial Intelligence\n1\n100\n❌\n\n\nPDSA\n57\n100\n❌\n\n\nDBMS\n47\n100\n❌\n\n\nTotal\n405\n800\n❌",
     "crumbs": [
       "Target"
     ]
@@ -2481,7 +2595,7 @@
     "href": "target.html#bank",
     "title": "Target",
     "section": "",
-    "text": "Deadline for all subjects other than AI is November \\(30^{th}\\), \\(2025\\).\n\n\n\nSubject\nCurrent\nTarget\nStatus\n\n\n\n\nGeneral Aptitude\n25\n100\n❌\n\n\nCalculus and Optimization\n50\n100\n❌\n\n\nLinear Algebra\n100\n100\n✔️\n\n\nProbability and Statistics\n80\n100\n❌\n\n\nMachine Learning\n20\n100\n❌\n\n\nArtificial Intelligence\n1\n100\n❌\n\n\nPDSA\n57\n100\n❌\n\n\nDBMS\n47\n100\n❌\n\n\nTotal\n380\n800\n❌",
+    "text": "Deadline for all subjects other than AI is November \\(30^{th}\\), \\(2025\\).\n\n\n\nSubject\nCurrent\nTarget\nStatus\n\n\n\n\nGeneral Aptitude\n40\n100\n❌\n\n\nCalculus and Optimization\n50\n100\n❌\n\n\nLinear Algebra\n100\n100\n✔️\n\n\nProbability and Statistics\n90\n100\n❌\n\n\nMachine Learning\n20\n100\n❌\n\n\nArtificial Intelligence\n1\n100\n❌\n\n\nPDSA\n57\n100\n❌\n\n\nDBMS\n47\n100\n❌\n\n\nTotal\n405\n800\n❌",
     "crumbs": [
       "Target"
     ]
@@ -2679,7 +2793,7 @@
     "href": "dbms/bank/question-009.html",
     "title": "Question-9",
     "section": "",
-    "text": "Consider the following statements S1 and S2 about the relational data model:\nS1: A relation scheme can have at most one foreign key. S2: A foreign key in a relation scheme \\(R\\) cannot be used to refer to tuples of \\(R\\).\nWhich one of the following choices is correct?\n\nBoth S1 and S2 are true\nS1 is true and S2 is false\nS1 is false and S2 is true\nBoth S1 and S2 are false\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nBoth S1 and S2 are true\nS1 is true and S2 is false\nS1 is false and S2 is true\nBoth S1 and S2 are false\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\n\n\n\nRelation Scheme\nForeign Keys\n\n\n\n\nEmployees\nDepartmentID\n\n\nEmployees\nManagerID\n\n\n\nIn the above example, the Employees relation scheme contains two foreign keys: one referring to the DepartmentID in the Departments relation and another referring to the ManagerID within the same Employees relation.\nThe fact that there are two foreign keys contradicts S1 and the fact that the foreign key ManagerID refers to the same relation Employees contradicts S2\nHence, both S1 and S2 are false.",
+    "text": "Consider the following statements S1 and S2 about the relational data model:\nS1: A relation scheme can have at most one foreign key.\nS2: A foreign key in a relation scheme \\(R\\) cannot be used to refer to tuples of \\(R\\).\nWhich one of the following choices is correct?\n\nBoth S1 and S2 are true\nS1 is true and S2 is false\nS1 is false and S2 is true\nBoth S1 and S2 are false\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nBoth S1 and S2 are true\nS1 is true and S2 is false\nS1 is false and S2 is true\nBoth S1 and S2 are false\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\n\n\n\nRelation Scheme\nForeign Keys\n\n\n\n\nEmployees\nDepartmentID\n\n\nEmployees\nManagerID\n\n\n\nIn the above example, the Employees relation scheme contains two foreign keys: one referring to the DepartmentID in the Departments relation and another referring to the ManagerID within the same Employees relation.\nThe fact that there are two foreign keys contradicts S1 and the fact that the foreign key ManagerID refers to the same relation Employees contradicts S2\nHence, both S1 and S2 are false.",
     "crumbs": [
       "DBMS",
       "Bank",
@@ -3112,39 +3226,51 @@
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-076.html",
-    "href": "prob_stats/bank/question-076.html",
-    "title": "Question-76",
+    "objectID": "prob_stats/bank/question-027.html",
+    "href": "prob_stats/bank/question-027.html",
+    "title": "Question-27",
     "section": "",
-    "text": "The unit interval \\((0,1)\\) is divided at a point chosen uniformly distributed over \\((0,1)\\) in \\(\\mathbb{R}\\) into two disjoint subintervals. Find the expected length of the subinterval that contains \\(0.4\\) rounded off to two decimal places.\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\\(0.74\\)\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nLet the length of the sub-interval be \\(\\displaystyle L\\). Then:\n\\[\nL=\\begin{cases}\n1-X, & X&lt; 0.4\\\\\nX & X\\geqslant 0.4\n\\end{cases}\n\\]\nSince the PDF of the uniform distribution \\(\\displaystyle U[ 0,1]\\) in its support is just the constant \\(\\displaystyle 1\\), we can compute the expectation of \\(\\displaystyle L\\) as:\n\\[\n\\begin{aligned}\n\\mathbb{E}[ L] & =\\int\\limits _{0}^{0.4} 1\\cdot ( 1-x) dx+\\int\\limits _{0.4}^{1} 1\\cdot xdx\\\\\n& \\\\\n& =\\left[ x-\\frac{x^{2}}{2}\\right]_{0}^{0.4} +\\left[\\frac{x^{2}}{2}\\right]_{0.4}^{1}\\\\\n& \\\\\n& =0.74\n\\end{aligned}\n\\]",
+    "text": "The total duration of a Test cricket match between any two cricket team is uniformly distributed between 90 overs and 450 overs, both inclusive. What is the probability that the duration of a test cricket match between two cricket team is more than 400 overs? Enter the answer correct two decimal places.\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nIf \\(X \\sim \\text{Uniform}[a,b]\\), then \\(E(X) = \\dfrac{a+b}{2}\\) and \\(Var(X) =  \\dfrac{(b-a)^{2}}{12}\\). Also,\n\\(F(x) = P(X \\leq x) = \\dfrac{x-a}{b-a}\\)\n\\(P(X &gt; x) = 1-P(X \\leq x) = 1- \\left(\\dfrac{x-a}{b-a}\\right).\\)\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.14\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nAccording to the question \\(X \\sim \\text{Uniform}[90, 450]\\).\nProb.[the duration of a test cricket match between two cricket team is more than 400 overs]\n\\(\\implies P\\left(X &gt; 400\\right) = 1 - P\\left( X \\leq 400\\right)\\)\n\\(= 1 - \\left(\\dfrac{400-90}{450-90}\\right)\\)\n\\(= 1- \\dfrac{310}{360}\\)\n\\(\\implies 1-\\dfrac{31}{36} = \\dfrac{5}{36} = 0.14\\)",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-76"
+      "Question-27"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-007.html",
-    "href": "prob_stats/bank/question-007.html",
-    "title": "Question-7",
+    "objectID": "prob_stats/bank/question-056.html",
+    "href": "prob_stats/bank/question-056.html",
+    "title": "Question-56",
     "section": "",
-    "text": "Which of the following option(s) is(are) true?\n\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nTwo events \\(A\\) and \\(B\\) are disjoint (mutually exclusive) if \\(A \\cap B = \\phi\\) and \\(A\\) and \\(B\\) are independent events if \\(P(A | B ) = P(A | B^c) = P(A)\\).\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cup B) = P(A) + P(B)\\).\nIf events \\(A\\) and \\(B\\) are disjoint, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\nIf events \\(A\\) and \\(B\\) are independent, then \\(P(A \\cap B) = P(A) \\times P(B)\\).\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nTwo events \\(A\\) and \\(B\\) are mutually exclusive (disjoint) if \\(A \\cap B = \\phi\\). Then, \\(P(A \\cap B) = 0 \\implies P(A \\cup B) = P(A) + P(B).\\)\n\\(P(A  \\cap  B) = P(A | B) \\times P(B) = P(A) \\times P(B)\\) because \\(P(A | B ) = P(A | B^c) = P(A)\\) if \\(A\\) and \\(B\\) are independent.",
+    "text": "How many seven digit phone numbers are possible, assuming that the first digit can’t be a \\(\\displaystyle 0\\) or a \\(\\displaystyle 1\\)?\nHow would this answer change if no phone number can start with \\(\\displaystyle 911\\)?\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(8 \\times 10^{6}\\)\n\\(8 \\times 10^{6} - 10^{4}\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nThe first slot has \\(\\displaystyle 8\\) possibilities. The remaining slots have \\(\\displaystyle 10\\) possibilities. Therefore, the number of phone numbers is \\(\\displaystyle 8\\times 10^{6}\\). For the second part, we subtract all phone numbers starting with \\(\\displaystyle 911\\). There are \\(\\displaystyle 10^{4}\\) such numbers. So the required answer is \\(\\displaystyle 8\\times 10^{6} -10^{4}\\).",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-7"
+      "Question-56"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-062.html",
-    "href": "prob_stats/bank/question-062.html",
-    "title": "Question-62",
+    "objectID": "prob_stats/bank/question-033.html",
+    "href": "prob_stats/bank/question-033.html",
+    "title": "Question-33",
     "section": "",
-    "text": "A \\(99\\%\\) confidence interval for the mean of a population is calculated from a sample as \\((45.2, 54.8)\\). What will happen to the interval if the confidence level is decreased to \\(95\\%,\\) assuming the same sample statistics\\(?\\)\n\nThe interval will become wider.\nThe interval will remain the same.\nThe interval will become narrower.\nThere is not enough information to determine the change.\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nThe interval will become wider.\nThe interval will remain the same.\nThe interval will become narrower.\nThere is not enough information to determine the change.\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nWhen the confidence level decreases, the critical value also decreases, which reduces the margin of error and results in a narrower confidence interval.\nHence, option (C) is correct.",
+    "text": "The weight of new born babies in a town is reported to have a standard deviation of \\(0.25\\) kg, which you suspect is too low. A sample of 10 newborn babies had weights(in kg) as \\(2.25, 2.5, 3, 2.75, 2.40, 2.20, 3.10, 2.50, 2.80, 2.75\\). Based on this information, what conclusion can you reach about your suspicion at significance level of \\(5\\%?\\)\nUse \\(F_{\\chi^2_9}^{-1}(0.95) = 16.918977\\)\n\nAccept \\(H_0\\)\nReject \\(H_0\\)\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nNull and alternative hypothesis will be:\n\\(H_0 : \\sigma = 0.25\\) and \\(H_1 : \\sigma &gt; 0.25\\)\nTest will be : Reject \\(H_0\\) if \\(S^2 &gt; c^2\\), where \\(S^2\\) is the sample variance of the given dataset.\nUse \\(\\alpha = P\\left(\\text{Reject}~~ H_0 ~|~ H_0 \\right)\\).\nFind the value of \\(c\\) by solving the above part and then make conclusion.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nAccept \\(H_0\\)\nReject \\(H_0\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-62"
+      "Question-33"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-081.html",
+    "href": "prob_stats/bank/question-081.html",
+    "title": "Question-81",
+    "section": "",
+    "text": "Let \\(X_{1} ,X_{2} ,X_{3}\\) be three i.i.d Poison random variables with mean \\(\\lambda =3\\). Find the probability that exactly one of the \\(X_{i} =0\\) and the other two variables are greater than \\(1\\).\n\n\\(3e^{-3}\\left( 1-4e^{-3}\\right)^{2}\\)\n\\(6e^{-3}\\left( 1-4e^{-3}\\right)^{2}\\)\n\\(e^{-3}\\left( 1-4e^{-3}\\right)^{2}\\)\n\\(6e^{-6}\\left( 1-4e^{-3}\\right)^{2}\\)\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(3e^{-3}\\left( 1-4e^{-3}\\right)^{2}\\)\n\\(6e^{-3}\\left( 1-4e^{-3}\\right)^{2}\\)\n\\(e^{-3}\\left( 1-4e^{-3}\\right)^{2}\\)\n\\(6e^{-6}\\left( 1-4e^{-3}\\right)^{2}\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\n\\(X_{1} ,X_{2} ,X_{3}\\) are i.i.d with \\(\\text{Poisson}( \\lambda )\\). Using symmetry, the required probability is:\n\\[\nP( X_{1} =0,X_{2}  &gt;1,X_{3}  &gt;1) \\times 3\n\\]\nUsing independence, we have:\n\\[\n\\begin{aligned}\nP( X_{1} =0,X_{2}  &gt;1,X_{3}  &gt;1) & =P( X_{1} =0)\\\\\n& \\times P( X_{2}  &gt;1)\\\\\n& \\times P( X_{3}  &gt;1)\n\\end{aligned}\n\\]\nThe PDF of a Poisson distribution is \\(f_{X}( x) =\\frac{e^{-\\lambda } \\lambda ^{x}}{x!}\\). This gives us:\n\\[\n\\begin{aligned}\nP( X_{1} =0) & = e^{-\\lambda }\\\\\n& = e^{-3}\\\\\nP( X_{2}  &gt;1) & =1-\\left( e^{-\\lambda } +\\lambda e^{-\\lambda }\\right)\\\\\n& =1-4e^{-3}\n\\end{aligned}\n\\]\nThe required probability is:\n\\[\n3e^{-3}\\left( 1-4e^{-3}\\right)^{2}\n\\]",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-81"
     ]
   },
   {
@@ -3196,63 +3322,99 @@
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-073.html",
-    "href": "prob_stats/bank/question-073.html",
-    "title": "Question-73",
+    "objectID": "prob_stats/bank/question-080.html",
+    "href": "prob_stats/bank/question-080.html",
+    "title": "Question-80",
     "section": "",
-    "text": "Suppose that \\(1460\\) people have gathered in a hall for a function. What is the probability that five or more people were born on October 2nd\\(?\\) Assume that birth rates are constant throughout the year and that each year has \\(365\\) days. Enter the answer correct up to three decimal places.\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse normal approximation to the binomial\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.401\n\n\n\n\n\n\n\n\n\nNoteSolution",
+    "text": "Carlsen and Anand play a chess match in which the first player to win a game wins the match. Carlsen wins with probability \\(0.4\\), Anand with probability \\(0.3\\), the game is a draw with probability \\(0.3\\). The match has at most ten games. If all ten games are draws, then the match is a draw.",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-73"
+      "Question-80"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-016.html",
-    "href": "prob_stats/bank/question-016.html",
-    "title": "Question-16",
-    "section": "",
-    "text": "A person has bought a bed from an online furniture store. The seller delivers the disassembled bed parts along with some screws to assemble it. The probability of a screw being defective is 0.1 independent of all other screws. To compensate for the manufacturing error, the seller sends two extra screws in the package where the bed needs exactly 8 screws to assemble. What is the probability that the buyer will be able to assemble the bed? (Enter the answer up to 2 decimal accuracy)\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nBinomial distribution\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.93\n\n\n\n\n\n\n\n\n\nNoteSolution",
+    "objectID": "prob_stats/bank/question-080.html#part-1",
+    "href": "prob_stats/bank/question-080.html#part-1",
+    "title": "Question-80",
+    "section": "Part-1",
+    "text": "Part-1\nWhat is the probability that Carlsen wins the match? Enter your answer correct to two decimal places.\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\\(0.57\\)\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nThe required probability is:\n\\[\n0.4 \\times [1 + 0.3 + 0.3^{2} + \\cdots + 0.3^{9}] \\approx 0.57\n\\]",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-16"
+      "Question-80"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-067.html",
-    "href": "prob_stats/bank/question-067.html",
-    "title": "Question-67",
-    "section": "",
-    "text": "The demand for a particular spare part in a factory was found to very from day-to-day. In a sample study the following information was obtained:\n\n\n\nDays\nMon.\nTues.\nWed.\nThurs.\nFri.\nSat.\n\n\n\n\nNo. of parts Demanded\n1124\n1125\n1110\n1120\n1126\n1115\n\n\n\nTest the hypothesis that the number of parts demanded does not depend on the day of the week. (Given : the values of chi-square significance at 5, 6, 7, d.f. are respectively 11.07, 12.59, 14.07 at 5% level of significance).\n\nAccept the null hypothesis and conclude that the number of spare parts demanded does not depend on the day of the week.\nAccept the null hypothesis and conclude that the number of spare parts demanded depends on the day of the week.\nReject the null hypothesis and conclude that the number of spare parts demanded depends on the day of the week.\nReject the alternative hypothesis and conclude that the number of spare parts demanded does not depend on the day of the week.\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse the formula of “Chi-square test of goodness of fit” as\n\\(\\chi^2 = \\sum_{i=1}^{n}\\left[\\dfrac{(f_i - e_i)^2}{e_i}\\right] \\sim \\chi^2_{n-1}\\),\nwhere, \\(f_i (i = 1, 2, \\ldots, n)\\) is a set of observed frequencies and \\(e_i (i = 1, 2, \\ldots, n)\\) is the corresponding set of expected frequencies such that \\(\\sum_{i=1}^{n}f_i = \\sum_{i=1}^{n}e_i\\).\nAlso, expected frequencies, \\(e_i\\), can be calculated as\n\\(e_i = np_i,\\) where\n\\(n=\\) total number of observations\n\\(p_i =\\) probability of category \\(i\\)\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nAccept the null hypothesis and conclude that the number of spare parts demanded does not depend on the day of the week.\nAccept the null hypothesis and conclude that the number of spare parts demanded depends on the day of the week.\nReject the null hypothesis and conclude that the number of spare parts demanded depends on the day of the week.\nReject the alternative hypothesis and conclude that the number of spare parts demanded does not depend on the day of the week.\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\n\\(H_0:\\) The number of parts demanded does not depend on the day of the week.\nUnder the null hypothesis, the expected frequencies of the spare parts demanded on each of the six days wpuld be:\n\\(\\dfrac{1}{6}(1124+1125+1110+1120+1126+1115) = \\dfrac{6720}{6} = 1120\\)\n\n\n\n\n\n\n\n\n\n\nDays\nObserved freq. \\((f_i)\\)\nExpected freq. \\((e_i)\\)\n\\((fi - e_i)^2\\)\n\\(\\dfrac{(fi - e_i)^2}{e_i}\\)\n\n\n\n\nMon.\n1124\n1120\n16\n0.014\n\n\nTues.\n1125\n1120\n25\n0.022\n\n\nWed.\n1110\n1120\n100\n0.089\n\n\nThurs.\n1120\n1120\n0\n0\n\n\nFri.\n1126\n1120\n36\n0.032\n\n\nSat.\n1115\n1120\n25\n0.022\n\n\nTotal\n6720\n6720\n\n0.179\n\n\n\nThus, \\(\\chi^2 = \\sum_{i=1}^{n}\\left[\\dfrac{(f_i - e_i)^2}{e_i}\\right]  = 0.179\\), which is less than the tablulated value of \\(\\chi^2_{n-1} = \\chi^2_5 = 11.07\\).\nThus, we will accept the null hypothesis (or reject the alternative hypothesis ) and conclude that the number of spare parts demanded does not depend on the day of the week.\nHence, option (a) and (d) are correct.",
+    "objectID": "prob_stats/bank/question-080.html#part-2",
+    "href": "prob_stats/bank/question-080.html#part-2",
+    "title": "Question-80",
+    "section": "Part-2",
+    "text": "Part-2\nIf the duration of the match is \\(T\\), find its PMF.\n\n\\(\\displaystyle p( t) =\\begin{cases}\n0.3^{t-1} \\times 0.7, & 1\\leqslant t\\leqslant 9\\\\\n0.3^{9} , & t=10\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\\(\\displaystyle p( t) =\\begin{cases}\n0.4^{t-1} \\times 0.7, & 1\\leqslant t\\leqslant 9\\\\\n0.4^{9} , & t=10\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\\(\\displaystyle p( t) =\\begin{cases}\n0.3^{t-1} \\times 0.4, & 1\\leqslant t\\leqslant 9\\\\\n0.3^{9} , & t=10\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(\\displaystyle p( t) =\\begin{cases}\n0.3^{t-1} \\times 0.7, & 1\\leqslant t\\leqslant 9\\\\\n0.3^{9} , & t=10\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\\(\\displaystyle p( t) =\\begin{cases}\n0.4^{t-1} \\times 0.7, & 1\\leqslant t\\leqslant 9\\\\\n0.4^{9} , & t=10\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\\(\\displaystyle p( t) =\\begin{cases}\n0.3^{t-1} \\times 0.4, & 1\\leqslant t\\leqslant 9\\\\\n0.3^{9} , & t=10\\\\\n0, & \\text{otherwise}\n\\end{cases}\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nFor \\(1 \\leqslant t \\leqslant 9\\), if \\(t\\) is the duration, then there are \\(t - 1\\) draws. The probability of this is \\(0.3^{t - 1}\\) since all of them are independent. The \\(t^{th}\\) game has a decisive result, which could be a victory for either player. This happens with probability \\(0.3 + 0.4 = 0.7\\). Hence, \\(P(T = t) = 0.3^{t - 1} \\times 0.7\\). For \\(T = 10\\), there nine draws and the tenth could have any result. No matter what the result of the last game, the duration will end up being \\(10\\). Hence, this branch has a probability \\(0.3^{9}\\).",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-67"
+      "Question-80"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-002.html",
-    "href": "prob_stats/bank/question-002.html",
-    "title": "Question-2",
+    "objectID": "prob_stats/bank/question-022.html",
+    "href": "prob_stats/bank/question-022.html",
+    "title": "Question-22",
     "section": "",
-    "text": "A professor is creating an exam of eleven questions from a test bank of 15 questions. In how many ways can he select and arrange the questions?\n\n\\(15!\\)\n\\(15! / 11! 4!\\)\n\\(15! / 11!\\)\n\\(15! / 4!\\)\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse the concept of permutation.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\nToggle the appropriate answers.\n\n\\(15!\\)\n\\(15! / 11! 4!\\)\n\\(15! /11!\\)\n\\(15! / 4!\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nProfessor can select 11 questions from a test bank of 15 questions in \\(^{15}C_{11}\\) ways and he can arrange in \\(11!\\) ways. So, number of ways in which he can select and arrange the questions is \\(^{15}C_{11} \\times 11! = ^{15}P_{11} = \\dfrac{15!}{4!}\\).",
+    "text": "Let \\(X_1, \\ldots, X_n\\sim \\text{i.i.d. Uniform}(-a, a).\\) Find the ML estimator of \\(a.\\)\n\n\\(\\hat{a}_{ML}= \\dfrac{1}{2^n}\\max(X_1, \\dots, X_n)\\)\n\\(\\hat{a}_{ML}=\\max(X_1, \\dots, X_n)\\)\n\\(\\hat{a}_{ML}=\\min(X_1, \\dots, X_n)\\)\n\\(\\hat{a}_{ML}= \\dfrac{1}{2^n}\\min(X_1, \\dots, X_n)\\)\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nApply the method of MLE\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(\\hat{a}_{ML}= \\dfrac{1}{2^n}\\max(X_1, \\dots, X_n)\\)\n\\(\\hat{a}_{ML}=\\max(X_1, \\dots, X_n)\\)\n\\(\\hat{a}_{ML}=\\min(X_1, \\dots, X_n)\\)\n\\(\\hat{a}_{ML}= \\dfrac{1}{2^n}\\min(X_1, \\dots, X_n)\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-2"
+      "Question-22"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-043.html",
-    "href": "prob_stats/bank/question-043.html",
-    "title": "Question-43",
+    "objectID": "prob_stats/bank/question-047.html",
+    "href": "prob_stats/bank/question-047.html",
+    "title": "Question-47",
     "section": "",
-    "text": "If the mean and standard deviation of observations \\(x_1, x_2, \\ldots, x_n\\) are 20 and 5 respectively, and the mean and standard deviation of observations \\(a(3x_1+b), a(3x_2+b), \\ldots, a(3x_n+b)\\) are 94.5 and 22.5 respectively, then what is the sum of \\(a\\) and \\(b?\\) Enter the answer correct to one decimal place.\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse the property of “Effect on mean and variance when constants are added or multiplied.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n4.5\n\n\n\n\n\n\n\n\n\nNoteSolution",
+    "text": "There are \\(10\\) multiple choice questions in a practice assignment of statistics course. The first \\(5\\) questions have \\(4\\) choices each and the remaining \\(5\\) questions have \\(5\\) choices each. How many sequences of answers are possible\\(?\\)\n\n\\(4^4 \\times 5^5\\)\n\\(4^5 \\times 5^5\\)\n\\(4^5 + 5^5\\)\n\\(4! \\times 5!\\)\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse the multiplication rule of counting.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(4^4 \\times 5^5\\)\n\\(4^5 \\times 5^5\\)\n\\(4^5 + 5^5\\)\n\\(4! \\times 5!\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-43"
+      "Question-47"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-036.html",
+    "href": "prob_stats/bank/question-036.html",
+    "title": "Question-36",
+    "section": "",
+    "text": "Three events \\(A\\), \\(B\\), and \\(C\\) are independent, with \\(P(A) = 0.2\\), \\(P(B) = 0.5\\), and \\(P(C) = 0.8\\). What is the probability that exactly one of the events occurs\\(?\\) Enter the answer correct to two decimal places.\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nExactly one of the events occurs means that either \\(A^c \\cap B \\cap C\\) or \\(A \\cap B^c \\cap C\\) or \\(A \\cap B \\cap C^c\\) occurs.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.42\n\n\n\n\n\n\n\n\n\nNoteSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-36"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-053.html",
+    "href": "prob_stats/bank/question-053.html",
+    "title": "Question-53",
+    "section": "",
+    "text": "A company records the following weekly production output (in units) for \\(6\\) weeks:\n\\(50, 45, 55, 60, 70, 40\\)\nIf the production in the third week was incorrectly recorded as \\(55\\) instead of \\(65\\), then find the correct mean.\n\n\\(55\\)\n\\(53.33\\)\n\\(51.67\\)\n\\(66\\)\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(55\\)\n\\(53.33\\)\n\\(51.67\\)\n\\(66\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-53"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-012.html",
+    "href": "prob_stats/bank/question-012.html",
+    "title": "Question-12",
+    "section": "",
+    "text": "If a fair coin is tossed an even number \\(2n\\) times, then what is the probability of obtaining more heads than tails?\n\n\\(^{2n}C_{n} \\left(\\dfrac{1}{2}\\right)^{2n}\\)\n\\(\\dfrac{1}{2}\\left\\{1-^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{2n}\\right\\}\\)\n\\(1 -^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{n}\\)\n\\(^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{n}\\)\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nStart with defining random variables as \\(X\\) represents number of heads and \\(Y\\) represents number of tails. Given, total number of trials is \\(2n\\) and consider \\(P(X&gt;Y) + P(X&lt;Y) + P(X=Y) = 1\\)\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(^{2n}C_{n} \\left(\\dfrac{1}{2}\\right)^{2n}\\)\n\\(\\dfrac{1}{2}\\left\\{1-^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{2n}\\right\\}\\)\n\\(1 -^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{n}\\)\n\\(^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{n}\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nLet \\(X\\) represents number of heads and \\(Y\\) represents number of tails. Total number of trials is \\(2n\\).\n\\(P(X&gt;Y) + P(X&lt;Y) + P(X=Y) = 1\\hspace{20mm} \\ldots (i)\\)\nSince, by symmetry, \\(p=1-p=\\dfrac{1}{2} \\implies P(X&gt;Y) = P(X&lt;Y)\\). Therefore, equation \\((i)\\) will be: \\(2P(X&gt;Y) = 1 - P(X = Y)\\hspace{20mm} \\ldots (ii)\\)\nIn \\(2n\\) trials, \\(X = Y \\implies\\) Number of heads \\(=\\) Number of tails \\(=n\\). Thus, the equation \\((ii)\\) will be: \\(2 P (X &gt; Y ) = 1 - ^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{n}\\left(\\dfrac{1}{2}\\right)^{n}\\)\n\\(\\implies P(X &gt; Y) = \\dfrac{1}{2}\\left\\{1-^{2n}C_{n}\\left(\\dfrac{1}{2}\\right)^{2n}\\right\\}\\)",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-12"
     ]
   },
   {
@@ -3304,63 +3466,75 @@
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-044.html",
-    "href": "prob_stats/bank/question-044.html",
-    "title": "Question-44",
+    "objectID": "prob_stats/bank/question-083.html",
+    "href": "prob_stats/bank/question-083.html",
+    "title": "Question-83",
     "section": "",
-    "text": "Let the sample mean of a set of \\(20\\) data points be \\(30\\). If it is discovered that a data point having value \\(25\\) was incorrectly entered as \\(15\\), what should be the revised value of the sample mean\\(?\\) Enter the answer correct to one decimal place.\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\n\\(\\overline{x} = \\dfrac{\\sum_{i=1}^{n}x_i}{n}\\)\n\\(\\sum_{i=1}^{n}x_i = n\\overline{x}\\)\nFind the correct \\(\\sum_{i=1}^{n}x_i\\) and calculate the mean.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n30.5\n\n\n\n\n\n\n\n\n\nNoteSolution",
+    "text": "The joint PMF of two discrete random variables \\(X\\) and \\(Y\\) is given by:\n\\[\nf_{XY}( x,y) =\\begin{cases}\n\\frac{1}{14}( 2x+3y+1) , & x,y\\in \\{0,1\\}\\\\\n0, & \\text{otherwise}\n\\end{cases}\n\\]\nWhat is the value of \\(P( 0&lt; X\\leqslant 1\\ |\\ Y &gt;0)\\)? Enter your answer correct to one decimal place.\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\\(0.6\\)\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nWe can build a table of the joint PMF:\n\\[\n\\begin{array}{|c|c|c|}\n\\hline\n& X=0 & X=1\\\\\n\\hline\nY=0 & \\frac{1}{14} & \\frac{3}{14}\\\\\n\\hline\nY=1 & \\frac{4}{14} & \\frac{6}{14}\\\\\n\\hline\n\\end{array}\n\\]\nNow:\n\\[\n\\begin{aligned}\nP( Y &gt;0) & =\\frac{10}{14}\n\\end{aligned}\n\\] And:\n\\[\n\\begin{aligned}\nP( 0&lt; X\\leqslant 1\\cap Y &gt;0) & =\\frac{6}{14}\n\\end{aligned}\n\\]\nTherefore, the required probability is: \\(\\frac{6}{10} =\\frac{3}{5} =0.6\\).",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-44"
+      "Question-83"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-035.html",
-    "href": "prob_stats/bank/question-035.html",
-    "title": "Question-35",
+    "objectID": "prob_stats/bank/question-015.html",
+    "href": "prob_stats/bank/question-015.html",
+    "title": "Question-15",
     "section": "",
-    "text": "The probability of a student passing a Statistics exam is \\(0.7\\), and the probability of the student passing a Mathematics exam is \\(0.6\\). If the probability of passing both exams is \\(0.5\\), what is the probability that the student passes at least one of the two exams\\(?\\)\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse the addition rule of probability \\(P(A \\cup B) = P(A) + P(B) - P(A \\cap B)\\)\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.8\n\n\n\n\n\n\n\n\n\nNoteSolution",
+    "text": "There are twenty boxes out of which exactly fifteen contains gifts and five are empty. Five boxes are removed randomly. Now, a person selects one box from the remaining boxes, then what is the probability that the person selects the empty box? Enter the answer correct to two decimal places.\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nConsider all the cases of empty and gifted box and add.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.25",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-35"
+      "Question-15"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-050.html",
-    "href": "prob_stats/bank/question-050.html",
-    "title": "Question-50",
+    "objectID": "prob_stats/bank/question-064.html",
+    "href": "prob_stats/bank/question-064.html",
+    "title": "Question-64",
     "section": "",
-    "text": "Let there be two newly launched motorcycles, \\(X\\) and \\(Y\\), with both motorcycles being equally likely to be selected. The probability that motorcycle \\(X\\) has good mileage is \\(0.5\\), and the probability that motorcycle \\(Y\\) has good mileage is \\(0.7\\). If a randomly selected motorcycle is found to have good mileage, what is the probability that the motorcycle is \\(X?\\) (Enter the answer upto three decimal accuracy)\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse the concept of ``Bayes Theorem”.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.417\n\n\n\n\n\n\n\n\n\nNoteSolution",
+    "text": "A psychologist wants to determine if there is a significant difference in the average test scores of two different teaching methods. The scores from Method \\(A\\) (\\(n = 15\\), mean \\(= 82\\), standard deviation \\(= 8\\)) and Method \\(B\\) (\\(n = 15\\), mean \\(= 78\\), standard deviation \\(= 6\\)) are compared. Given that the scores are normally distributed and the population variances are unknown, which of the following statements are true\\(?\\) (Select all that apply)\n\nThe null hypothesis will be there is a significant difference between the means.\nThe null hypothesis will be there is no difference in means.\nA t-test can be applied.\nThe degrees of freedom for the \\(t-\\) test is 28.\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nThe null hypothesis will be there is a significant difference between the means.\nThe null hypothesis will be there is no difference in means.\nA t-test can be applied.\nThe degrees of freedom for the \\(t-\\) test is 28.\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nFor the given situation, null and alternative hypothesis will be\n\\(H_0:\\) There is no significant difference in the average test scores of the two teaching methods, i.e., \\(\\mu_A = \\mu_B\\)\n\\(H_1:\\) There is a significant difference in the average test scores of the two teaching methods, i.e., \\(\\mu_A \\neq \\mu_B\\).\nHence, option (B) is correct.\n\\(t-\\) test can be used when we have to test for means and the population variance is unknown.\nHence, option (C) is correct.\nWhen conducting a t-test for two independent samples, the degrees of freedom can be calculated using the formula:\n\\(n_A + n_B - 2 = 15 + 15 - 2 = 28\\),\nwhere $n_A $ is the sample size for method \\(A\\) and \\(n_B\\) is the sample size for method \\(B\\).\nHence, option (D) is correct.",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-50"
+      "Question-64"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-011.html",
-    "href": "prob_stats/bank/question-011.html",
-    "title": "Question-11",
+    "objectID": "prob_stats/bank/question-001.html",
+    "href": "prob_stats/bank/question-001.html",
+    "title": "Question-1",
     "section": "",
-    "text": "Suppose that \\(P(X=a) = p \\hspace{1mm}\\text{and} \\hspace{1mm} P(X=b) = 1-p\\).\n\nQuestion - 11 (a)\nIdenitfy the distribution of \\(\\dfrac{X-b}{a-b}\\).\n\nBinomial distribution\nNegative Binomial distribution\nBernoulli distribution\nCannot determine\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nSubstitute the values of \\(X\\) and try to identify the distribution.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nBinomial distribution\nNegative Binomial distribution\nBernoulli distribution\nCannot determine\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nSince \\(\\dfrac{X-b}{a-b}\\) will equal 1 with probability \\(p\\), or 0 with probability \\(1-p\\).\nTherefore, it follows bernoulli distribution.\n\n\n\n\n\nQuestion - 11 (b)\nFind the value of Var\\((X)\\).\n\n\\(p(1-p)\\)\n\\(\\dfrac{p(1-p)}{(a-b)^2}\\)\n\\((a-b)^2 \\hspace{0.5mm}p\\hspace{0.5mm}(1-p)\\)\n\\(np(1-p)\\)\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nStart with the Var\\(\\left(\\dfrac{X-b}{a-b}\\right)\\).\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(p(1-p)\\)\n\\(\\dfrac{p(1-p)}{(a-b)^2}\\)\n\\((a-b)^2 \\hspace{0.5mm}p\\hspace{0.5mm}(1-p)\\)\n\\(np(1-p)\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nSince \\(\\dfrac{X-b}{a-b}\\) is a bernoulli random variable will take value 1 with probability \\(p\\), or 0 with probability \\(1-p\\). Thus, \\(p(1-p)=\\text{Var}\\left(\\dfrac{X-b}{a-b}\\right) = \\dfrac{1}{(a-b)^2} \\text{Var}(X-b)=\\dfrac{1}{(a-b)^2} \\text{Var}(X)\\)\n\\(\\implies p(1-p) = \\dfrac{1}{(a-b)^2} \\text{Var}(X)\\)\n\\(\\implies \\text{Var}(X) = (a-b)^2p(1-p)\\)",
+    "text": "There are thirteen flights from Delhi to Bangalore, and then six flights from Bangalore to Chennai. Saumya wants to fly from Delhi to Bangalore and then to Chennai. How many choices does she have for her flight plan?\n\n19\n72\n78\n39\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse multiplication rule of counting.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n19\n72\n78\n39\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nDefine action \\(A\\) as flight from Delhi to Bangalore and action \\(B\\) as Bangalore to Chennai. Then, total number of ways of occurrence of \\(A\\) and \\(B\\) is \\(=13\\times 6 = 78\\) ways.",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-11"
+      "Question-1"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-074.html",
-    "href": "prob_stats/bank/question-074.html",
-    "title": "Question-74",
+    "objectID": "prob_stats/bank/question-040.html",
+    "href": "prob_stats/bank/question-040.html",
+    "title": "Question-40",
     "section": "",
-    "text": "A teacher observes that the cumulative distribution function (CDF) for the scores on a mathematics test is\n\\[F(x) = \\begin{cases}\n    0, & x&lt;0\\\\\n    x^2, &0\\leq x \\leq 1\\\\\n    1, & x&gt;1\n\\end{cases}\\] for \\(0 \\leq x \\leq 1,\\)\nwhere \\(x\\) is the score normalized to \\(1\\). If a student scores above \\(0.7\\), what is the conditional probability that they actually score above \\(0.9?\\) Enter the answer correct up to two decimal places.\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.37\n\n\n\n\n\n\n\n\n\nNoteSolution",
+    "text": "The number of items sold by an online store in an hour follows a Poisson distribution with\n\\(λ\\) equal to 2. Find the probability that in the next 4 hours, exactly 3 items will be sold. (Answer the question correct to three decimal points.)\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\n\\(\\lambda = 2\\) which is mean number of items sold per hour. Therefore, for the next four hours, \\(\\lambda\\) will be updated as \\(\\lambda_{new}=4\\times 2 = 8\\). Now, find the required probability by using the updated value of \\(\\lambda\\).\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.029\n\n\n\n\n\n\n\n\n\nNoteSolution",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-74"
+      "Question-40"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-025.html",
+    "href": "prob_stats/bank/question-025.html",
+    "title": "Question-25",
+    "section": "",
+    "text": "An electrical firm manufactures light bulbs that have a length of life that is approximately normally distributed, with mean equal to 600 hours and a standard deviation of 50 hours. Find the probability that a random sample of 25 bulbs will have an average life of less than 615 hours. Enter your answer correct to two decimals.\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nIf \\(X \\sim N(\\mu, \\sigma^2)\\), then \\(\\overline{X} \\sim N\\left(\\mu, \\dfrac{\\sigma^2}{n}\\right)\\), where \\(\\overline{X} = \\dfrac{\\sum_{i=1}^{n}x_i}{n}\\).\nAlso, \\(Z = \\dfrac{X - E(X)}{\\sqrt{Var(X)}} \\sim N(0,1)\\) is a standard normal variate.\nUse \\(F_Z(1.5) = 0.933\\)\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n0.93\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nAccording to the question, we have \\(\\mu = 600\\) and \\(\\sigma = 50\\).\nLet \\(X_i\\) represents the life of the \\(i^{th}\\) bulb, then \\(X_i \\sim N\\left(600, 50\\right)\\), \\(\\forall \\hspace{1mm}i=1, 2, \\ldots, 25\\).\nNow,\n\\(\\overline{X} \\sim N\\left(600, \\dfrac{50^2}{25}\\right)\\), where \\(\\overline{X} = \\dfrac{\\sum_{i=1}^{25}x_i}{25}\\) will represent the mean life of a random sample of 25 light bulbs.\n\\(P( \\overline{X} &lt; 615) = P\\left(\\dfrac{\\overline{X}-600}{50/5} &lt; \\dfrac{615-600}{50/5}\\right)\\)\n\\(=P\\left( Z &lt; \\dfrac{15}{10}\\right)\\)\n\\(= P\\left(Z &lt; 1.5\\right)\\)\n\\(= 0.93 \\hspace{2mm}\\text{(till two decimal places.)}\\)",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-25"
     ]
   },
   {
@@ -3412,39 +3586,51 @@
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-055.html",
-    "href": "prob_stats/bank/question-055.html",
-    "title": "Question-55",
+    "objectID": "prob_stats/bank/question-004.html",
+    "href": "prob_stats/bank/question-004.html",
+    "title": "Question-4",
     "section": "",
-    "text": "Two friends, Meenal and Sonika, play a game. Meenal rolls a fair six-sided die once, and Sonika flips a fair coin once. Let \\(X\\) be the outcome of the die and \\(Y\\) be the value of the coin flip (where \\(Y\\) = 1 if heads and \\(Y\\) = 0 if tails). If the prize of the game is \\(Z = XY\\), then find the expected prize value.\n\n\\(1.75\\)\n\\(3.5\\)\n\\(0.5\\)\n\\(4\\)\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(1.75\\)\n\\(3.5\\)\n\\(0.5\\)\n\\(4\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution",
+    "text": "There are 5 hats numbered 1 to 5. These 5 hats should be distributed to 6 people with each person getting a maximum of one hat. What are the total number of ways in which the hats can be distributed to 6 persons?\n\n120\n24\n30\n720\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse the concept of factorial.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n120\n24\n30\n720\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nGiven there are 6 people and there are 5 distinct hats that needs to be distributed. Since the sixth person will not get any hat, it can be considered he/she gets a dummy hat. So, the number of ways 6 hats (5 distinct hats and one dummy hat) can be distributed to 6 people is \\(6!=720\\).",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-55"
+      "Question-4"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-030.html",
-    "href": "prob_stats/bank/question-030.html",
-    "title": "Question-30",
+    "objectID": "prob_stats/bank/question-061.html",
+    "href": "prob_stats/bank/question-061.html",
+    "title": "Question-61",
     "section": "",
-    "text": "There are a \\(40\\%\\) proportion of girls in a school. The principal of the school suspects that girls are more likely to score a GPA more than 8. In a sample of 100 students who scored more than 8 GPA, 49 were found to be girls. Is the data enough, at a significance level of 0.05, to conclude that girls are more likely to score more than 8 GPA \\(?\\)\nUse \\(F_Z^{-1}(0.95) = 1.64\\)\n\nYes\nNo\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nNull and alternative hypothesis will be:\n\\(H_0 : p = 0.4\\) and \\(H_1 : p &gt; 0.4\\)\nDefine \\(T\\) as ``number of girls who scored more than 8 GPA”. Thus, when null hypothesis is true, \\(T \\sim \\text{Binomial}\\left(100, 0.4\\right)\\)\nTherefore, \\(E[T] = 100 \\times 0.4 = 40\\) and \\(\\text{Var}(T) = 100 \\times 0.4 \\times 0.6 = 24\\)\nUsing CLT, we can write \\(\\dfrac{T-40}{24} \\sim N(0,1)\\)\nTest will be : Reject \\(H_0\\) if \\(T &gt; c\\)\nUse \\(\\alpha = P\\left(\\text{Reject}~~ H_0 ~|~ H_0 \\right)\\).\nFind the value of \\(c\\) by solving the above part and then make conclusion.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nYes\nNo\n\n\n\n\n\n\n\n\n\n\nNoteSolution",
+    "text": "Let \\(X_1, X_2, \\ldots, X_5\\) be independent and identically distributed normal random variables with mean 0 and variance 1. Define \\(Y = \\sum_{i=2}^{5}X_i^2\\). Which of the following statements is true about \\(Y?\\)\n\n\\(Y \\sim \\chi^2_4\\)\n\\(Y \\sim \\chi^2_5\\)\n\\(Y \\sim N(5,4)\\)\n\\(Y \\sim \\chi^2_6\\)\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse the definition of Chi-square distribution as\nIf \\(Z_1, Z_2, \\ldots, Z_k\\) be independent and identically distributed normal random variables with mean 0 and variance 1, then the random variable\n\\(Y = \\sum_{i=1}^{k}Z_i^2\\) follows a chi-square distribution with \\(k\\) degrees of freedom.\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(Y \\sim \\chi^2_4\\)\n\\(Y \\sim \\chi^2_5\\)\n\\(Y \\sim N(5,4)\\)\n\\(Y \\sim \\chi^2_6\\)\n\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nGiven, Let \\(X_1, X_2, \\ldots, X_5\\) be independent and identically distributed normal random variables with mean 0 and variance 1. Then, \\(Y = \\sum_{i=2}^{5}X_i^2 = X_2^2 + X_3^2 + X_4^2 + X_5^2\\) will follow chi-square distribution with 4 degrees of freedom.\nHence, option (A) is correct.",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-30"
+      "Question-61"
     ]
   },
   {
-    "objectID": "prob_stats/bank/question-071.html",
-    "href": "prob_stats/bank/question-071.html",
-    "title": "Question-71",
+    "objectID": "prob_stats/bank/question-020.html",
+    "href": "prob_stats/bank/question-020.html",
+    "title": "Question-20",
     "section": "",
-    "text": "Suppose \\(X\\) is normally distributed with unknown standard deviation \\(\\sigma\\). Let \\(X_1, X_2,\\ldots,\\) \\(X_{16}\\) be an i.i.d. sample with distribution \\(X\\) and a sample standard deviation \\(s_X = 3.5\\). What conclusion would a \\(\\chi^2\\)-test reach if the null hypothesis assumes \\(\\sigma = 3\\), with an alternate hypothesis that \\(\\sigma &gt; 3\\), and a significance level of \\(\\alpha = 0.05\\)?\n\nReject the null hypothesis.\nDo not reject the null hypothesis.\n\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nReject the null hypothesis.\nDo not reject the null hypothesis.\n\n\n\n\n\n\n\n\n\n\nNoteSolution",
+    "text": "A data scientist wishes to determine the average time it takes to run one epoch of a machine learning model in her machine. How large a sample will she need to be 95% confident that her sample mean will be within 15 seconds of the true mean? Assume that it is known from previous studies that \\(\\sigma = 40\\) seconds.\n\n\n\n\n\n\nNoteHint\n\n\n\n\n\nUse \\(P(-1.96&lt;Z&lt;1.96)=0.95\\).\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n28\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nWe know that\n\\(P(|Z| \\leq Z_{\\alpha/2}) = 1-\\alpha\\)\n\\(P\\left(-Z_{\\alpha/2} \\leq Z \\leq Z_{\\alpha/2}\\right) = 1-\\alpha\\)\n\\(P\\left(-Z_{\\alpha/2} \\leq \\dfrac{\\bar{X} -\\mu}{\\sigma/\\sqrt{n}} \\leq Z_{\\alpha/2}\\right) = 1-\\alpha\\)\n\\(P\\left(-Z_{\\alpha/2} \\hspace{1mm}\\sigma/\\sqrt{n} \\leq \\bar{X} -\\mu  \\leq Z_{\\alpha/2} \\hspace{1mm}\\sigma/\\sqrt{n}\\right) = 1-\\alpha\\) According to the question,\n\\(P(-15 \\leq \\bar{X} -\\mu \\leq 15) = 0.95\\)\nThus,\n\\(Z_{\\alpha/2} \\hspace{1mm}(\\sigma/\\sqrt{n}) = 15 \\implies n = \\left(\\dfrac{Z_{\\alpha/2} \\hspace{1mm}(\\sigma)}{15}\\right)^2\\)\nSince \\(P(-1.96 &lt; Z &lt; 1.96)=0.95\\), therefore \\(Z_{\\alpha/2} = 1.96\\). Thus,\n\\(n= \\left(\\dfrac{1.96 \\times 40}{15}\\right)^2 = 28\\)",
     "crumbs": [
       "Probability and Statistics",
       "Bank",
-      "Question-71"
+      "Question-20"
+    ]
+  },
+  {
+    "objectID": "prob_stats/bank/question-082.html",
+    "href": "prob_stats/bank/question-082.html",
+    "title": "Question-82",
+    "section": "",
+    "text": "The time (in minutes) a customer spends inside a service center follows an exponential distribution with an average of \\(\\displaystyle 10\\) minutes. What is the probability that a customer has to wait at least \\(\\displaystyle 12\\) more minutes in the center given that he has already spent \\(\\displaystyle 10\\) minutes in the center? Enter the answer correct to two decimal places.\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\\(\\displaystyle 0.30\\)\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nWe can use the memory-less property of exponential distributions. We see that the additional time spent given the 10 minutes already spent is also exponential with the same mean. The CDF of an exponential distribution with mean \\(\\displaystyle \\frac{1}{\\lambda }\\) is \\(\\displaystyle F_{X}( x) =1-e^{-\\lambda x}\\). The required probability is:\n\\[\nP( X\\geqslant 12) =1-F_{X}( 12) =e^{-1.2} \\approx 0.30\n\\]",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-82"
     ]
   },
   {
@@ -3460,6 +3646,18 @@
     ]
   },
   {
+    "objectID": "prob_stats/bank/question-088.html",
+    "href": "prob_stats/bank/question-088.html",
+    "title": "Question-88",
+    "section": "",
+    "text": "A random sample of size \\(100\\) is collected from a normal population with mean \\(\\mu\\) and variance \\(\\sigma^{2}\\). Suppose the expected value and variance of the sample mean is \\(50\\) and \\(0.25\\) respectively, find the value of \\(\\mu+10\\sigma\\).\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\\(100\\)\n\n\n\n\n\n\n\n\n\nNoteSolution\n\n\n\n\n\nLet the \\(i^{\\text{th}}\\) observation in the random sample be \\(X_{i} \\sim N\\left( \\mu,\\sigma^{2}\\right)\\), then the sample mean is:\n\\[\n\\overline{X} =\\frac{X_{1} +\\cdots +X_{100}}{100}\n\\]\nThe expected value of the sample mean is just just \\(\\mu\\) using the linearity of expectation and the i.i.d nature of the \\(100\\) random variables. The variance of \\(\\overline{X}\\) is \\(\\frac{\\sigma^{2}}{100}\\) using the properties of variance of a sum of independent random variables. Therefore:\n\\[\n\\begin{aligned}\n\\mu & =50\\\\\n\\frac{\\sigma^{2}}{100} & =0.25\n\\end{aligned} \\Longrightarrow \\mu+10\\sigma=100\n\\]",
+    "crumbs": [
+      "Probability and Statistics",
+      "Bank",
+      "Question-88"
+    ]
+  },
+  {
     "objectID": "aptitude/question-009.html",
     "href": "aptitude/question-009.html",
     "title": "Question-9",
@@ -3468,6 +3666,28 @@
     "crumbs": [
       "General Aptitude",
       "Question-9"
+    ]
+  },
+  {
+    "objectID": "aptitude/question-039.html",
+    "href": "aptitude/question-039.html",
+    "title": "Question-39",
+    "section": "",
+    "text": "The least number of squares to be added in the figure to make AB a line of symmetry is\n\n\n4\n5\n6\n7\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n4\n5\n6\n7",
+    "crumbs": [
+      "General Aptitude",
+      "Question-39"
+    ]
+  },
+  {
+    "objectID": "aptitude/question-038.html",
+    "href": "aptitude/question-038.html",
+    "title": "Question-38",
+    "section": "",
+    "text": "A rectangular paper of 20 cm × 8 cm is folded 3 times. Each fold is made along the line of symmetry, which is perpendicular to its long edge. The perimeter of the final folded sheet (in cm) is\n\n21\n20\n24\n18\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n21\n20\n24\n18\n\n\n\n\n\n\n\n\n\n\nNoteSoluton\n\n\n\n\n\nThe first fold gives us a rectangle of shape 10cm x 8 cm. The second fold gives us a rectangle of shape 5cm x 8 cm. The third and final fold results in a rectangle of shape 5cm x 4cm. Its perimeter is 18 cm.",
+    "crumbs": [
+      "General Aptitude",
+      "Question-38"
     ]
   },
   {
@@ -3482,14 +3702,36 @@
     ]
   },
   {
-    "objectID": "aptitude/question-003.html",
-    "href": "aptitude/question-003.html",
-    "title": "Question-3",
+    "objectID": "aptitude/question-037.html",
+    "href": "aptitude/question-037.html",
+    "title": "Question-37",
     "section": "",
-    "text": "If \\(P e^{x} = Q e^{-x}\\) for all real values of \\(x\\), which one of the following statements is true?\n\n\\(P = Q = 0\\)\n\\(P = Q = 1\\)\n\\(P = 1; Q = -1\\)\n\\(\\cfrac{P}{Q} = 0\\)\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(P = Q = 0\\)\n\\(P = Q = 1\\)\n\\(P = 1; Q = -1\\)\n\\(\\cfrac{P}{Q} = 0\\)\n\n\n\n\n\n\n\n\n\n\nNoteSoluton\n\n\n\n\n\nGiven constants \\(\\displaystyle P,Q\\) and \\(\\displaystyle Pe^{x} =Qe^{-x}\\) for all values of \\(\\displaystyle x\\), multiplying both sides by \\(\\displaystyle e^{x}\\), we have \\(\\displaystyle Pe^{2x} =Q\\). Setting \\(\\displaystyle x=0\\), we get \\(\\displaystyle P=Q\\). If \\(\\displaystyle Q\\neq 0\\), then we can divide both sides by \\(\\displaystyle Q\\). This would result in \\(\\displaystyle e^{2x} =1\\) for all \\(\\displaystyle x\\), which is impossible. Therefore, \\(\\displaystyle Q=0\\). It follows that \\(\\displaystyle P=0\\).",
+    "text": "The pie chart presents the percentage contribution of different macronutrients to a typical 2,000 kcal diet of a person.\n\nThe typical energy density (kcal/g) of these macronutrients is given in the table.\n\n\n\nMacronutrient\nEnergy density (kcal/g)\n\n\n\n\nCarbohydrates\n4\n\n\nProtiens\n4\n\n\nUnsaturated Fat\n9\n\n\nSaturated Fat\n9\n\n\nTrans Fat\n9\n\n\n\nThe total fat (all three types), in grams, this person consumes is\n\n44.4\n77.8\n100\n3,600\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n44.4\n77.8\n100\n3,600\n\n\n\n\n\n\n\n\n\n\nNoteSoluton\n\n\n\n\n\n\\(45\\%\\) of the energy needs of this person comes from fat. This is 900 kcal. One gram of any kind of fat produces 9 kcal, therefore, we need 100 grams of fat to produce 900 kcal.",
     "crumbs": [
       "General Aptitude",
-      "Question-3"
+      "Question-37"
+    ]
+  },
+  {
+    "objectID": "aptitude/question-013.html",
+    "href": "aptitude/question-013.html",
+    "title": "Question-13",
+    "section": "",
+    "text": "In an engineering college of 10,000 students, 1,500 like neither their core branches nor other branches. The number of students who like their core branches is \\(1/4^{th}\\) of the number of students who like other branches. The number of students who like both their core and other branches is 500.\nThe number of students who like their core branches is\n\n1,800\n3,500\n1,600\n1,500\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n1,800\n3,500\n1,600\n1,500\n\n\n\n\n\n\n\n\n\n\nNoteSoluton\n\n\n\n\n\nLet the number of students who like their core branches be \\(x\\). The number of students who like other branches is \\(4x\\). Let \\(A\\) and \\(B\\) be the set of students who like their core branches and other branches respectively. If the set of all students is \\(U\\), then:\n\\[\n\\begin{aligned}\n|A| & =x\\\\\n|B| & =4x\\\\\n|A^{C} \\cap B^{C} | & =1500\\\\\n|A\\cap B| & =500\\\\\n|U| & =10,000\n\\end{aligned}\n\\]\nWe can now see that: \\[\n\\begin{aligned}\n|A\\cup B| & =|U|-|( A\\cup B)^{C} |\\\\\n& =10,000-1500\\\\\n& =8,500\n\\end{aligned}\n\\]\nFinally:\n\\[\n\\begin{aligned}\n|A\\cup B| & =|A|+|B|-|A\\cap B|\\\\\n8500 & =x+4x-500\\\\\n5x & =9000\\\\\nx & =1800\n\\end{aligned}\n\\]",
+    "crumbs": [
+      "General Aptitude",
+      "Question-13"
+    ]
+  },
+  {
+    "objectID": "aptitude/question-007.html",
+    "href": "aptitude/question-007.html",
+    "title": "Question-7",
+    "section": "",
+    "text": "If IMAGE and FIELD are coded as FHBNJ and EMFJG respectively, which one among the following options is the most appropriate for BEACH?\n\nCEADP\nIDBFC\nJGIBC\nIBCEC\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nCEADP\nIDBFC\nJGIBC\nIBCEC\n\n\n\n\n\n\n\n\n\n\nNoteSoluton\n\n\n\n\n\nWe have:\nIMAGE\nFHBNJ\nFIELD\nEMFJG\nStaring at this for a while should convince us that the following transformation converts a word into its code:\n\nReverse the word\nIncrement each letter\n\nWe have:\n\nIMAGE \\(\\rightarrow\\) EGAMI \\(\\rightarrow\\) FHBNJ\nFIELD \\(\\rightarrow\\) DLEIF \\(\\rightarrow\\) EMFJG\n\nOnce this is clear, we can apply the same transformation to BEACH.\nBEACH \\(\\rightarrow\\) HCAEB \\(\\rightarrow\\) IDBFC",
+    "crumbs": [
+      "General Aptitude",
+      "Question-7"
     ]
   },
   {
@@ -3515,14 +3757,25 @@
     ]
   },
   {
-    "objectID": "aptitude/question-016.html",
-    "href": "aptitude/question-016.html",
-    "title": "Question-16",
+    "objectID": "aptitude/question-022.html",
+    "href": "aptitude/question-022.html",
+    "title": "Question-22",
     "section": "",
-    "text": "My apologies. You are absolutely correct, and I am seeing the correct question text in the file now. Thank you for the correction.\nHere is the correct Question 6, formatted as requested.\n\nSequence the following sentences in a coherent passage.\n\nP: This fortuitous geological event generated a colossal amount of energy and heat that resulted in the rocks rising to an average height of 4 km across the contact zone.\nQ: Thus, the geophysicists tend to think of the Himalayas as an active geological event rather than as a static geological feature.\nR: The natural process of the cooling of this massive edifice absorbed large quantities of atmospheric carbon dioxide, altering the earth’s atmosphere and making it better suited for life.\nS: Many millennia ago, a collided with the massive Eurasian Plate.\nQPSR\nQSPR\nSPRQ\nSRPQ\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nQPSR\nQSPR\nSPRQ\nSRPQ",
+    "text": "The CEO’s decision to downsize the workforce was considered myopic because it sacrificed long-term stability to accommodate short-term gains.\nSelect the most appropriate option that can replace the word “myopic” without changing the meaning of the sentence.\n\nvisionary\nshortsighted\nprogressive\ninnovative\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nvisionary\nshortsighted\nprogressive\ninnovative",
     "crumbs": [
       "General Aptitude",
-      "Question-16"
+      "Question-22"
+    ]
+  },
+  {
+    "objectID": "aptitude/question-036.html",
+    "href": "aptitude/question-036.html",
+    "title": "Question-36",
+    "section": "",
+    "text": "A rectangular paper sheet of dimensions \\(54\\) cm x \\(4\\) cm is taken. The two longer edges of the sheet are joined together to create a cylindrical tube. A cube whose surface area is equal to the area of the sheet is also taken. Then, the ratio of the volume of the cylindrical tube to the volume of the cube is\n\n\\(1/\\pi\\)\n\\(2/\\pi\\)\n\\(3/\\pi\\)\n\\(4/\\pi\\)\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n\\(1/\\pi\\)\n\\(2/\\pi\\)\n\\(3/\\pi\\)\n\\(4/\\pi\\)\n\n\n\n\n\n\n\n\n\n\nNoteSoluton\n\n\n\n\n\nLet the length and breadth be \\(\\displaystyle l=54\\) and \\(\\displaystyle b=4\\). Then the radius of the cylinder is \\(\\displaystyle r=\\frac{b}{2\\pi } =\\frac{2}{\\pi }\\) and its height is \\(\\displaystyle h=54\\). If the side of the cube is \\(\\displaystyle a\\), then \\(\\displaystyle 6a^{2} =lb\\Longrightarrow a=\\sqrt{\\frac{lb}{6}} =6\\). The ratio of the volume of the cylinder to the cube is therefore:\n\\[\n\\begin{aligned}\n\\frac{\\pi r^{2} h}{a^{3}} & =\\frac{54\\times 4}{\\pi \\times 6^{3}}\\\\\n& \\\\\n& =\\frac{1}{\\pi }\n\\end{aligned}\n\\]",
+    "crumbs": [
+      "General Aptitude",
+      "Question-36"
     ]
   },
   {
@@ -3548,14 +3801,25 @@
     ]
   },
   {
-    "objectID": "aptitude/question-015.html",
-    "href": "aptitude/question-015.html",
-    "title": "Question-15",
+    "objectID": "aptitude/question-021.html",
+    "href": "aptitude/question-021.html",
+    "title": "Question-21",
     "section": "",
-    "text": "In the sequence 6, 9, 14, x, 30, 41, a possible value of x is\n\n25\n21\n18\n20\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n25\n21\n18\n20\n\n\n\n\n\n\n\n\n\n\nNoteSoluton\n\n\n\n\n\nOne possibility is to have the successive difference between be an arithmetic progression with first term \\(\\displaystyle 3\\) and common difference \\(\\displaystyle 2\\):\n\\[\n\\begin{aligned}\n9-6 & =3 & \\\\\n14-9 & =5 & \\\\\nx-14 & =7 & \\Longrightarrow x=21\\\\\n30-21 & =9 & \\\\\n41-30 & =11 &\n\\end{aligned}\n\\]",
+    "text": "Ravi had ____ younger brother who taught at ____ university. He was widely regarded as ____ honorable man.\nSelect the option with the correct sequence of articles to fill in the blanks.\n\na; a; an\nthe; an; a\na; an; a\nan; an; a\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\na; a; an\nthe; an; a\na; an; a\nan; an; a",
     "crumbs": [
       "General Aptitude",
-      "Question-15"
+      "Question-21"
+    ]
+  },
+  {
+    "objectID": "aptitude/question-035.html",
+    "href": "aptitude/question-035.html",
+    "title": "Question-35",
+    "section": "",
+    "text": "In the given text, the blanks are numbered (i)-(iv). Select the best match for all the blanks.\nSteve was advised to keep his head ___(i)___ before heading ___(ii)___ to bat; for, while he had a head ___(iii)___ batting, he could only do so with a cool head ___(iv)___ his shoulders.\n\n(i) down (ii) down (iii) on (iv) for\n(i) on (ii) down (iii) for (iv) on\n(i) down (ii) out (iii) for (iv) on\n(i) on (ii) out (iii) on (iv) for\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n(i) down (ii) down (iii) on (iv) for\n(i) on (ii) down (iii) for (iv) on\n(i) down (ii) out (iii) for (iv) on\n(i) on (ii) out (iii) on (iv) for",
+    "crumbs": [
+      "General Aptitude",
+      "Question-35"
     ]
   },
   {
@@ -3570,14 +3834,24 @@
     ]
   },
   {
-    "objectID": "aptitude/question-025.html",
-    "href": "aptitude/question-025.html",
-    "title": "Question-25",
+    "objectID": "aptitude/index.html",
+    "href": "aptitude/index.html",
+    "title": "General Aptitude",
     "section": "",
-    "text": "According to the map shown in the figure, which one of the following statements is correct?\n\n\nThe library is located to the northwest of the canteen.\nThe hospital is located to the east of the chemistry lab.\nThe chemistry lab is to the southeast of physics lab.\nThe classrooms and canteen are next to each other.\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nThe library is located to the northwest of the canteen.\nThe hospital is located to the east of the chemistry lab.\nThe chemistry lab is to the southeast of physics lab.\nThe classrooms and canteen are next to each other.",
+    "text": "A non-exhaustive syllabus for this section:\n\nEnglish comprehension\nLogical thinking\nVisual and spatial reasoning\nElementary mathematics\n\nbasic number theory\nalgebra\ngeometry\ntrigonometry\nsets and functions\nbasic probability\nbasic statistics\nprofit and loss\n\n\nThere are ten questions from GA every year. Five of these questions carry one mark each and the rest two marks. A total of 15 marks is allocated to GA. All the questions that are in this bank are drawn from previous year GATE papers, particularly CS, the nearest paper to DA.",
+    "crumbs": [
+      "General Aptitude"
+    ]
+  },
+  {
+    "objectID": "aptitude/question-034.html",
+    "href": "aptitude/question-034.html",
+    "title": "Question-34",
+    "section": "",
+    "text": "For positive real variables \\(p\\) and \\(q\\), if\n\\[\n\\log(p^{2}+q^{2})=\\log p+\\log q+2 \\log 3\n\\]\nthen, the value of \\(\\cfrac{p^{4}+q^{4}}{p^{2}q^{2}}\\) is\n\n81\n9\n83\n79\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\n81\n9\n83\n79\n\n\n\n\n\n\n\n\n\n\nNoteSoluton\n\n\n\n\n\nWe have:\n\\[\n\\begin{aligned}\n\\log\\left( p^{2} +q^{2}\\right) & =\\log p+\\log q+2\\log 3\\\\\n& \\\\\n\\log\\left(\\frac{p^{2} +q^{2}}{pq}\\right) & =\\log 9\n\\end{aligned}\n\\]\nMultiplying both sides by \\(\\displaystyle 2\\):\n\\[\n\\begin{aligned}\n\\log\\left(\\frac{p^{4} +q^{4} +2p^{2} q^{2}}{p^{2} q^{2}}\\right) & =\\log 81\n\\end{aligned}\n\\]\nSince \\(\\displaystyle \\log\\)is a one-one function, we have:\n\\[\n\\begin{aligned}\n\\frac{p^{4} +q^{4}}{p^{2} q^{2}} +2 & =81\\\\\n& \\\\\n\\frac{p^{4} +q^{4}}{p^{2} q^{2}} & =79\n\\end{aligned}\n\\]",
     "crumbs": [
       "General Aptitude",
-      "Question-25"
+      "Question-34"
     ]
   },
   {
@@ -3589,6 +3863,17 @@
     "crumbs": [
       "General Aptitude",
       "Question-24"
+    ]
+  },
+  {
+    "objectID": "aptitude/question-030.html",
+    "href": "aptitude/question-030.html",
+    "title": "Question-30",
+    "section": "",
+    "text": "If \\(\\rightarrow\\) denotes increasing order of intensity, then the meaning of the words [dry \\(\\rightarrow\\) arid \\(\\rightarrow\\) parched] is analogous to [diet \\(\\rightarrow\\) fast \\(\\rightarrow\\)]. Which one of the given options is appropriate to fill the blank?\n\nstarve\nreject\nfeast\ndeny\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\n\nreject\nfeast\nstarve\ndeny",
+    "crumbs": [
+      "General Aptitude",
+      "Question-30"
     ]
   },
   {
