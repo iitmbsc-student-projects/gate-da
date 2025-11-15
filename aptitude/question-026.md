@@ -3,7 +3,6 @@ title: Question-26
 pagetitle: Question-26
 order: 26
 categories: [english comoprehension, aptitude]
-draft: true
 ---
 
 "I put the brown paper in my pocket along with the chalks, and possibly other things."

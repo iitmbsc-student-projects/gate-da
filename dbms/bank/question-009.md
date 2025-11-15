@@ -8,6 +8,7 @@ categories: [GATE-2021, DBMS, Foreign key]
 Consider the following statements S1 and S2 about the relational data model:
 
 S1: A relation scheme can have at most one foreign key.
+
 S2: A foreign key in a relation scheme $R$ cannot be used to refer to tuples of $R$.
 
 Which one of the following choices is correct?
