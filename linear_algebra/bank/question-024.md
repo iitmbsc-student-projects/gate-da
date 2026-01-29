@@ -5,7 +5,7 @@ order: 24
 categories: [orthogonal matrix]
 ---
 
-Let $v = (3, 1, 2)$ be a vector in $\mathbb{R}^{3}$. If $(a, b, c)$ is the vector obtained from $v$ after an anti-clockwise rotation of the $XZ$ plane with angle $45^{\circ}$ about the $Y$-axis, then find the value of $\sqrt{2}(a + b + c - 1)$.
+Let $v = (3, 1, 2)$ be a vector in $\mathbb{R}^{3}$. If $(a, b, c)$ is the vector obtained from $v$ after an anti-clockwise rotation of the space by an angle of $45^{\circ}$ about the $Y$-axis, then find the value of $\sqrt{2}(a + b + c - 1)$. Note that the points rotate while the axes remain fixed.
 
 ::: {.callout-note title="Answer" collapse=true}
 
