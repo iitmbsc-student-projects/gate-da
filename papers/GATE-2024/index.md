@@ -1,5 +1,6 @@
 ---
 title: GATE-2024
+subtitle: IISc Bengaluru
 pagetitle: GATE-2024
 order: 0
 ---
