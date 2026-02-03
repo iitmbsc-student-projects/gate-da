@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../papers/GATE-2024/index.html" rel="next">
+<link href="../../papers/GATE-2025/question-51.html" rel="next">
 <link href="../../papers/GATE-2025/question-45.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -75,6 +75,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -3059,6 +3088,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../papers/GATE-2025/question-32.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-32</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../papers/GATE-2025/question-34.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Question-34</span></a>
   </div>
@@ -3121,6 +3156,54 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../papers/GATE-2025/question-50.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Question-50</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../papers/GATE-2025/question-51.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-51</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../papers/GATE-2025/question-52.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-52</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../papers/GATE-2025/question-53.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-53</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../papers/GATE-2025/question-54.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-54</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../papers/GATE-2025/question-55.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-55</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../papers/GATE-2025/question-59.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-59</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../papers/GATE-2025/question-60.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-60</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../papers/GATE-2025/question-61.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Question-61</span></a>
   </div>
 </li>
       </ul>
@@ -3196,6 +3279,8 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title">
 <h1 class="title">Question-50</h1>
   <div class="quarto-categories">
+    <div class="quarto-category">projection matrix</div>
+    <div class="quarto-category">orthonormal basis</div>
     <div class="quarto-category">SVD</div>
     <div class="quarto-category">DA-2025</div>
   </div>
@@ -3215,6 +3300,66 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Let <span class="math inline">\(\{x_{1} ,x_{2} ,x_{3} ,x_{4} ,x_{5}\}\)</span> be a set of orthonormal vectors in <span class="math inline">\(\mathbb{R}^{10}\)</span>. Consider the matrix <span class="math inline">\(A=x_{1} x_{1}^{T} +\cdots +x_{5} x_{5}^{T}\)</span>. Which of the following statements is/are correct?</p>
+<ul class="task-list">
+<li><p><label><input type="checkbox">Singular values of <span class="math inline">\(A\)</span> are also its eigenvalues</label></p></li>
+<li><p><label><input type="checkbox">Singular values of <span class="math inline">\(A\)</span> are either <span class="math inline">\(0\)</span> or <span class="math inline">\(1\)</span></label></p></li>
+<li><p><label><input type="checkbox">Determinant of <span class="math inline">\(A\)</span> is <span class="math inline">\(1\)</span></label></p></li>
+<li><p><label><input type="checkbox"><span class="math inline">\(A\)</span> is invertible</label></p></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul class="task-list">
+<li><p><label><input type="checkbox" checked="">Singular values of <span class="math inline">\(A\)</span> are also its eigenvalues</label></p></li>
+<li><p><label><input type="checkbox" checked="">Singular values of <span class="math inline">\(A\)</span> are either <span class="math inline">\(0\)</span> or <span class="math inline">\(1\)</span></label></p></li>
+<li><p><label><input type="checkbox">Determinant of <span class="math inline">\(A\)</span> is <span class="math inline">\(1\)</span></label></p></li>
+<li><p><label><input type="checkbox"><span class="math inline">\(A\)</span> is invertible</label></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="Solution">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Solution
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Let us extend <span class="math inline">\(\{x_{1} ,\cdots ,x_{5}\}\)</span> to an orthonormal basis <span class="math inline">\(\{x_{1} ,\cdots ,x_{5} ,x_{6} ,\cdots ,x_{10}\}\)</span> for <span class="math inline">\(\mathbb{R}^{10}\)</span>. Now, we can express <span class="math inline">\(A\)</span> as:</p>
+<p><span class="math display">\[
+A=1\cdot x_{1} x_{1}^{T} +\cdots +1\cdot x_{5} x_{5}^{T} +0\cdot x_{6} x_{6}^{T} +\cdots +0\cdot x_{10} x_{10}^{T}
+\]</span></p>
+<p>Setting <span class="math inline">\(Q=\begin{bmatrix}
+| &amp;  &amp; |\\
+x_{1} &amp; \cdots  &amp; x_{10}\\
+| &amp;  &amp; |
+\end{bmatrix}\)</span> and <span class="math inline">\(D=\begin{bmatrix}
+I &amp; 0\\
+0 &amp; 0
+\end{bmatrix}\)</span>, where <span class="math inline">\(D\)</span> is a block diagonal matrix with each entry being a square matrix of order <span class="math inline">\(5\)</span>, we see that <span class="math inline">\(A=QDQ^{T}\)</span>. Next, note that each <span class="math inline">\(x_{i}\)</span> is an eigenvector of <span class="math inline">\(A\)</span> because <span class="math inline">\(Ax_{i} =\lambda _{i} x_{i}\)</span>, where <span class="math inline">\(\lambda =1\)</span> or <span class="math inline">\(\lambda =0\)</span>. Therefore, what we have is an eigen-decomposition of <span class="math inline">\(A\)</span>. In fact, we also see that <span class="math inline">\(A^{T} A=AA^{T} =A\)</span>. We can also conclude that <span class="math inline">\(A=QDA^{T}\)</span> is the singular value decomposition of <span class="math inline">\(A\)</span>. In summary:</p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(A\)</span> has the same singular/eigenvalues which are either <span class="math inline">\(1\)</span> or <span class="math inline">\(0\)</span></p>
+</blockquote>
+<p>Since <span class="math inline">\(0\)</span> is an eigenvalue, <span class="math inline">\(A\)</span> is neither invertible nor is its determinant <span class="math inline">\(1\)</span>.</p>
+<p>As an additional note, we see that <span class="math inline">\(A\)</span> is actually a projection matrix. It projects points in <span class="math inline">\(\mathbb{R}^{10}\)</span> onto the span of the vectors <span class="math inline">\(\{x_{1} ,\cdots ,x_{5}\}\)</span>.</p>
+</div>
+</div>
+</div>
 
 
 
@@ -3639,8 +3784,8 @@ ul.task-list li input[type="checkbox"] {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../papers/GATE-2024/index.html" class="pagination-link" aria-label="GATE-2024">
-        <span class="nav-page-text">GATE-2024</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../papers/GATE-2025/question-51.html" class="pagination-link" aria-label="Question-51">
+        <span class="nav-page-text">Question-51</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
