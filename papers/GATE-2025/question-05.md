@@ -16,7 +16,7 @@ A rectangle has length $L$ and width $W$, where $L > W$. If the width, $W$, is i
 
 - [ ] Perimeter increases by $10\%$.
 - [ ] Length of the diagonals increases by $10\%$.
-- [ ] Area increases by $10\%$.
+- [x] Area increases by $10\%$.
 - [ ] The rectangle becomes a square
 
 :::
