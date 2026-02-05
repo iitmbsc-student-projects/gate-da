@@ -5,7 +5,7 @@ order: 24
 categories: [derivatives, calculus, differentiability, DA-2025]
 ---
 
-Consider two functions $f:\mathbb{R}\rightarrow \mathbb{R}$ and $g:\mathbb{R}\rightarrow ( 1,\infty )$. Both functions are differentiable at a point $c$. Which of the following functions is/are ALWAYS differentiable at $c$? The symbol $\cdot $ denotes product and the symbol $\circ $ denotes composition of functions.
+Consider two functions $f:\mathbb{R}\rightarrow \mathbb{R}$ and $g:\mathbb{R}\rightarrow ( 1,\infty )$. Both functions are differentiable at a point $c$. Which of the following functions is/are ALWAYS differentiable at $c$? The symbol $\cdot$ denotes product and the symbol $\circ$ denotes composition of functions.
 
  - [ ] $f\pm g$
 
