@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -3394,6 +3429,8 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title">
 <h1 class="title">Question-64</h1>
   <div class="quarto-categories">
+    <div class="quarto-category">data structure</div>
+    <div class="quarto-category">stack</div>
     <div class="quarto-category">DA-2025</div>
   </div>
   </div>
@@ -3412,6 +3449,71 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Consider the following pseudocode.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource something number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a href="#cb1-1"></a>Create empty stack S</span>
+<span id="cb1-2"><a href="#cb1-2"></a>Set x=0, flag=0, sum=0</span>
+<span id="cb1-3"><a href="#cb1-3"></a>Push x onto S</span>
+<span id="cb1-4"><a href="#cb1-4"></a>while (S is not empty) {</span>
+<span id="cb1-5"><a href="#cb1-5"></a>    if (flag equals 0) {</span>
+<span id="cb1-6"><a href="#cb1-6"></a>        Set x = x+1</span>
+<span id="cb1-7"><a href="#cb1-7"></a>        Push x onto S</span>
+<span id="cb1-8"><a href="#cb1-8"></a>    }</span>
+<span id="cb1-9"><a href="#cb1-9"></a>    if (x equals 8):</span>
+<span id="cb1-10"><a href="#cb1-10"></a>        Set flag=1</span>
+<span id="cb1-11"><a href="#cb1-11"></a>    if (flag equals 1) {</span>
+<span id="cb1-12"><a href="#cb1-12"></a>        x = Pop(S)</span>
+<span id="cb1-13"><a href="#cb1-13"></a>        if (x is odd):</span>
+<span id="cb1-14"><a href="#cb1-14"></a>            Pop(S)</span>
+<span id="cb1-15"><a href="#cb1-15"></a>        Set sum = sum + x</span>
+<span id="cb1-16"><a href="#cb1-16"></a>    }</span>
+<span id="cb1-17"><a href="#cb1-17"></a>}</span>
+<span id="cb1-18"><a href="#cb1-18"></a>Output sum</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The value of <code>sum</code> output by a program executing the above pseudocode is ___ (Answer in integer)</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>24</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="Solution">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Solution
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><code>0</code> gets pushed onto the stack to begin with.</li>
+<li><code>flag</code> is toggled to <code>1</code> only when <code>x</code> becomes <code>8</code>. So all elements from <code>1</code> to <code>8</code> are pushed in sequence to the stack and only then <code>flag</code> becomes <code>1</code>. Once <code>flag</code> becomes <code>1</code>, we do not push anything to the stack. This is for two reasons:
+<ul>
+<li>We push only if <code>flag</code> is <code>0</code></li>
+<li><code>flag</code> is never updated back to <code>0</code> once it becomes <code>1</code></li>
+</ul></li>
+<li>The stack now reads <code>[0, 1, 2, 3, 4, 5, 6, 7, 8]</code>.</li>
+<li>We now start popping.</li>
+<li><code>8</code> popped first is placed in <code>x</code> and then added to <code>sum</code>. The stack now reads <code>[0, 1, 2, 3, 4, 5, 6, 7]</code>.</li>
+<li><code>7</code> is popped next and is placed in <code>x</code>. However, since <code>7</code> is odd, <code>6</code> gets popped without updating <code>x</code>. <code>7</code> is now added to <code>sum</code> which becomes <code>8 + 7</code>. The stack now reads <code>[0, 1, 2, 3, 4, 5]</code>.</li>
+<li><code>5</code> is popped next and is placed in <code>x</code>. Since it is odd, <code>4</code> is popped uncerimoniously. <code>5</code> gets added to <code>sum</code>, which now holds <code>8 + 7 + 5</code>. The stack now reads <code>[0, 1, 2, 3]</code>.</li>
+<li>Another iteration of the <code>while</code> loop reduces the stack to <code>[0, 1]</code> with <code>sum</code> holding <code>8 + 7 + 5 + 3</code>. And one final iteration empties the stack with <code>sum</code> finally being <code>8 + 7 + 5 + 3 + 1</code> which is <code>24</code>.</li>
+</ul>
+</div>
+</div>
+</div>
 
 
 

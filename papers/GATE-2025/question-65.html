@@ -75,6 +75,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -3394,6 +3423,8 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title">
 <h1 class="title">Question-65</h1>
   <div class="quarto-categories">
+    <div class="quarto-category">DFS</div>
+    <div class="quarto-category">algorithms</div>
     <div class="quarto-category">DA-2025</div>
   </div>
   </div>
@@ -3412,6 +3443,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Consider a directed graph <span class="math inline">\(\displaystyle G=( V,E)\)</span>, where <span class="math inline">\(\displaystyle V=\{0,1,2,\cdots ,100\}\)</span> and <span class="math inline">\(\displaystyle E=\left\{( i,j) :\ 0&lt; j-i\leqslant 2,\ \text{for all} \ i,j\in V\right\}\)</span>. Suppose the adjacency list of each vertex is in decreasing order of vertex number, and depth first search (DFS) is performed at vertex <span class="math inline">\(\displaystyle 0\)</span>. The number of vertices that will be discovered after vertex <span class="math inline">\(\displaystyle 50\)</span> is ___ (Answer in integer)</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Answer">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><span class="math inline">\(\displaystyle 75\)</span></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="Solution">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Solution
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The directed graph looks as follows. We show only five nodes here:</p>
+<p><img src="img-11.png" class="img-fluid"></p>
+<p>If we start DFS at <span class="math inline">\(\displaystyle 0\)</span>, then since the adjacency list of <span class="math inline">\(\displaystyle 0\)</span> is <span class="math inline">\(\displaystyle [ 2,1]\)</span>, the vertex visited will be <span class="math inline">\(\displaystyle 2\)</span>. Extending this logic, DFS will first visit all the even vertices, <span class="math inline">\(\displaystyle 0\rightarrow 2\rightarrow \cdots \rightarrow 100\)</span>. Now it begins to backtrack. Since <span class="math inline">\(\displaystyle 100\)</span> was reached from <span class="math inline">\(\displaystyle 98\)</span>, it will head back to <span class="math inline">\(\displaystyle 98\)</span> and then visit <span class="math inline">\(\displaystyle 99\)</span>. Then to <span class="math inline">\(\displaystyle 96\)</span> and from there to <span class="math inline">\(\displaystyle 97\)</span>. Then to <span class="math inline">\(\displaystyle 94\)</span> and from there to <span class="math inline">\(\displaystyle 95\)</span>. This pattern of even-odd pair vertices continues until all the vertices are discovered. The upshot is that all the vertices are reachable from <span class="math inline">\(\displaystyle 0\)</span>.</p>
+<p>Out of the <span class="math inline">\(\displaystyle 101\)</span> vertices, the <span class="math inline">\(\displaystyle 25+1=26\)</span> are discovered when <span class="math inline">\(\displaystyle 50\)</span> is reached. This includes all even vertices starting from <span class="math inline">\(\displaystyle 0\)</span> to <span class="math inline">\(\displaystyle 50\)</span>. What remains is <span class="math inline">\(\displaystyle 75\)</span> vertices which are then discovered.</p>
+</div>
+</div>
+</div>
 
 
 
