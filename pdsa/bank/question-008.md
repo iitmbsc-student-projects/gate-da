@@ -26,7 +26,7 @@ Depth-First Search = $1,2,4,5,3,6,7$
 $A = \{1, 2, 3\}$  
 $B = \{1, 2, 4\}$  
 
-$A - B = \{3\}$  
+$A - B = \{4 - 3\}$  
 
 Hence, the value of $|A - B|$ will be $1$ after performing the said operation on a complete binary tree.
 
